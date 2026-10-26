@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Symulator Kliniczny LEK v11.0 | Autoryzacja AES-256 & Auto-Sync</title>
+<title>Symulator Kliniczny LEK v11.1 | Autoryzacja AES-256 & 4-Paskowy Dashboard</title>
 <style>
   :root {
     --bg-main: #0b0f19;
@@ -325,7 +325,6 @@
   .patho-node { background: var(--bg-panel); border: 2px solid var(--border-color); border-radius: var(--radius-md); padding: 13px; cursor: pointer; transition: all 0.2s; position: relative; }
   .patho-node.selected { border-color: var(--accent-blue); background: rgba(56, 189, 248, 0.08); }
   .patho-node.visited-node { border-color: rgba(16, 185, 129, 0.55); }
-  .patho-node.treated { border-color: var(--accent-emerald); }
   .node-step-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; color: var(--accent-blue); display: flex; justify-content: space-between; margin-bottom: 4px; }
   .node-detail-panel { background: var(--bg-panel); border: 1px solid var(--accent-blue); border-radius: var(--radius-md); padding: 16px; }
   .drug-target-box { margin-top: 10px; padding: 11px; background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--accent-emerald); border-radius: 8px; font-size: 0.86rem; }
@@ -363,9 +362,9 @@
   .readiness-ring-inner { width: 142px; height: 142px; border-radius: 50%; background: #0f172a; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #334155; }
   .readiness-pct-val { font-size: 2.35rem; font-weight: 900; background: linear-gradient(90deg, #34d399, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.1; }
   .readiness-pct-lbl { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.5px; margin-top: 3px; }
-  .readiness-sub-bars { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 6px; text-align: left; }
-  .r-bar-row { background: rgba(15, 23, 42, 0.75); border: 1px solid #263248; border-radius: 10px; padding: 8px 12px; }
-  .r-bar-top { display: flex; justify-content: space-between; font-size: 0.76rem; font-weight: 700; margin-bottom: 5px; }
+  .readiness-sub-bars { width: 100%; display: flex; flex-direction: column; gap: 8px; margin-top: 6px; text-align: left; }
+  .r-bar-row { background: rgba(15, 23, 42, 0.75); border: 1px solid #263248; border-radius: 10px; padding: 7px 11px; }
+  .r-bar-top { display: flex; justify-content: space-between; font-size: 0.74rem; font-weight: 700; margin-bottom: 4px; }
   .r-bar-track { width: 100%; height: 6px; background: #0b0f19; border-radius: 999px; overflow: hidden; }
   .r-bar-fill { height: 100%; border-radius: 999px; transition: width 0.4s ease; }
 
@@ -387,9 +386,7 @@
 </head>
 <body>
 
-  <!-- ====================================================================== -->
-  <!-- BRAMKA AUTORYZACJI (LOGOWANIE LUB PIERWSZA INICJALIZACJA WŁAŚCICIELA) -->
-  <!-- ====================================================================== -->
+  <!-- BRAMKA AUTORYZACJI -->
   <div id="authGateOverlay" class="auth-gate-overlay">
     <div class="auth-card" id="authLoginView">
       <div class="auth-logo">⚕️</div>
@@ -426,11 +423,11 @@
       </div>
     </div>
 
-    <!-- WIDOK INICJALIZACJI KONTA WŁAŚCICIELA (Jednorazowy kreator cases/auth.json) -->
+    <!-- KREATOR WŁAŚCICIELA -->
     <div class="auth-card" id="authSetupView" style="display:none; max-width: 560px;">
       <h3 style="font-size: 1.2rem; margin-bottom: 6px; color: var(--accent-blue);">🛡️ Kreator Konta Właściciela (Zero-Knowledge)</h3>
       <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 14px;">
-        Wypełnij ten formularz tylko raz. Wygenerowany szyfrogram zapisz w repozytorium GitHub jako plik <code>cases/auth.json</code>. Od tej pory logujesz się już tylko swoim Loginem i Hasłem!
+        Wypełnij ten formularz tylko raz. Wygenerowany szyfrogram zapisz w repozytorium GitHub jako plik <code>cases/auth.json</code>.
       </p>
 
       <div id="setupFeedbackMsg" class="auth-error-msg"></div>
@@ -470,10 +467,10 @@
   <!-- EXP TOAST -->
   <div id="expToast" class="exp-toast">+50 EXP! 🌿</div>
 
-  <!-- MAIN WORKSPACE (LEFT SIDE) -->
+  <!-- MAIN WORKSPACE -->
   <div class="app-main">
 
-    <!-- GAMIFICATION & STREAK BAR -->
+    <!-- GAMIFICATION BAR -->
     <div class="gamification-bar" id="topGamiBar" style="display: none;">
       <div class="gami-card">
         <div class="tree-avatar-box">
@@ -531,7 +528,7 @@
       <div class="kbd-hint">⌨️ Skróty: <strong>A–E</strong> – wybór | <strong>H</strong> – ekran główny | <strong>L</strong> – laby | <strong>Spacja / →</strong> – dalej</div>
     </div>
 
-    <!-- TAB 0: EKRAN GŁÓWNY -->
+    <!-- TAB 0: EKRAN GŁÓWNY (Z ROZBITYMI PASKAMI SOR I PATOMECHANIZM) -->
     <div id="viewHome" class="home-dashboard-wrap">
       <div class="home-hero-grid">
         <div class="home-card">
@@ -564,20 +561,31 @@
             </div>
           </div>
 
+          <!-- 4 OSOBNE PASKI POSTĘPU ODZWIERCIEDLAJĄCE SYSTEM CHECKMARKÓW -->
           <div class="readiness-sub-bars">
             <div class="r-bar-row">
               <div class="r-bar-top">
-                <span>🩺 Przypadki Kliniczne i Patomech.</span>
-                <span id="homeCasesStat" style="color:var(--accent-blue);">0 / 0 (0%)</span>
+                <span>🩺 1. Przypadki Kliniczne (SOR)</span>
+                <span id="homeSorStat" style="color:var(--accent-blue);">0 / 0 (0%)</span>
               </div>
               <div class="r-bar-track">
-                <div class="r-bar-fill" id="homeCasesBar" style="width:0%; background:var(--accent-blue);"></div>
+                <div class="r-bar-fill" id="homeSorBar" style="width:0%; background:var(--accent-blue);"></div>
               </div>
             </div>
 
             <div class="r-bar-row">
               <div class="r-bar-top">
-                <span>🎓 Zadania Egzaminacyjne LEK (🟢)</span>
+                <span>🧬 2. Mapy Patomechanizmu</span>
+                <span id="homePathoStat" style="color:var(--accent-purple);">0 / 0 (0%)</span>
+              </div>
+              <div class="r-bar-track">
+                <div class="r-bar-fill" id="homePathoBar" style="width:0%; background:var(--accent-purple);"></div>
+              </div>
+            </div>
+
+            <div class="r-bar-row">
+              <div class="r-bar-top">
+                <span>🎓 3. Zadania Egzaminacyjne LEK (🟢)</span>
                 <span id="homeQuestionsStat" style="color:var(--accent-emerald);">0 / 0 (0%)</span>
               </div>
               <div class="r-bar-track">
@@ -587,7 +595,7 @@
 
             <div class="r-bar-row">
               <div class="r-bar-top">
-                <span>⚡ Fiszki Liczbowe i Odtrutki</span>
+                <span>⚡ 4. Fiszki Liczbowe i Odtrutki</span>
                 <span id="homeFlashStat" style="color:var(--accent-amber);">0 / 0 (0%)</span>
               </div>
               <div class="r-bar-track">
@@ -673,7 +681,6 @@
             <button class="db-btn" onclick="markCurrentPathoComplete()" id="markPathoBtn" style="border-color:var(--accent-emerald); color:var(--accent-emerald);">
               ✓ Oznacz Patomechanizm jako przejrzany
             </button>
-            <button class="db-btn" onclick="togglePathoPhase()" id="phaseToggleBtn">🔴 Przełącz na: Efekt leczenia</button>
           </div>
         </div>
         <div class="nodes-grid" id="nodesGrid"></div>
@@ -768,7 +775,7 @@
         <div>
           <h2 style="font-size: 1.25rem; color: var(--accent-amber);">⭐ 6. Twoje Pytania z Gwiazdką (Osobista Czarna Lista 95%+)</h2>
           <p style="color: var(--text-muted); font-size: 0.86rem;">
-            Tutaj trafiają wszystkie trudne pytania i detale oznaczone przez Ciebie gwiazdką <strong>⭐</strong> podczas robienia Dogrywki LEK – idealne miejsce na szybką powtórkę przed egzaminem.
+            Tutaj trafiają wszystkie trudne pytania i detale oznaczone przez Ciebie gwiazdką <strong>⭐</strong> podczas robienia Dogrywki LEK.
           </p>
         </div>
       </div>
@@ -782,7 +789,7 @@
     <div class="brand-box">
       <div class="brand-icon">⚕️</div>
       <div class="brand-title">
-        <h1>Symulator LEK v11.0</h1>
+        <h1>Symulator LEK v11.1</h1>
         <p>Konto Prywatne AES-256</p>
       </div>
     </div>
@@ -820,7 +827,7 @@
     </div>
   </aside>
 
-  <!-- MODAL SZYFRATORA NOWYCH PRZYPADKÓW -->
+  <!-- MODAL SZYFRATORA -->
   <div class="modal-backdrop" id="cryptoModal">
     <div class="modal-card" style="max-width: 720px; max-height: 92vh; overflow-y: auto;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
@@ -839,9 +846,6 @@
   </div>
 
 <script>
-// ============================================================================
-// STAN APLIKACJI I SESJI KRYPTOGRAFICZNEJ
-// ============================================================================
 let SESSION_PASSWORD = '';
 let ACTIVE_USER = '';
 let CLOUD_CONFIG = { apiKey: '', binId: '', lastSync: null };
@@ -862,7 +866,6 @@ let currentCaseId = 0;
 let currentStepIdx = 0;
 let currentLekIdx = 0;
 let pathoUnlocked = false;
-let pathoTreatedPhase = false;
 let selectedNodeIdx = 0;
 let srsQueue = [];
 let currentSrsItem = null;
@@ -880,9 +883,6 @@ const TREE_STAGES = [
   { minLvl: 60, maxLvl: 999, icon: "🏛️🌳", name: "Pradawne Drzewo Mistrza LEK (95%+)", nextLvl: null }
 ];
 
-// ============================================================================
-// KRYPTOGRAFIA AES-256-GCM (Web Crypto API)
-// ============================================================================
 async function deriveAesKey(password, saltBytes) {
   const enc = new TextEncoder();
   const baseKey = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveKey']);
@@ -935,9 +935,6 @@ async function decryptObjectAes(encPayload, password) {
   return JSON.parse(plainStr);
 }
 
-// ============================================================================
-// SYSTEM LOGOWANIA I PIERWSZEJ KONFIGURACJI (cases/auth.json)
-// ============================================================================
 function toggleOwnerSetupView(showSetup) {
   document.getElementById('authLoginView').style.display = showSetup ? 'none' : 'block';
   document.getElementById('authSetupView').style.display = showSetup ? 'block' : 'none';
@@ -983,7 +980,7 @@ async function generateEncryptedOwnerAuthFile() {
     document.getElementById('setupAuthJsonTextarea').value = JSON.stringify(encryptedAuth, null, 2);
     msg.style.borderColor = 'var(--accent-emerald)';
     msg.style.color = 'var(--accent-emerald)';
-    msg.textContent = '✅ Gotowe! Skopiuj poniższy kod i zapisz go na GitHubie jako plik cases/auth.json';
+    msg.textContent = '✅ Gotowe! Skopiuj poniższy kod i utwórz na GitHubie plik cases/auth.json';
   } catch (err) {
     msg.style.borderColor = 'var(--accent-rose)';
     msg.style.color = '#fda4af';
@@ -1009,7 +1006,6 @@ async function handleUserLogin() {
   btn.disabled = true;
 
   try {
-    // 1. Sprawdzenie czy na GitHubie istnieje cases/auth.json
     const authRes = await fetch('cases/auth.json?t=' + Date.now());
     if (authRes.ok) {
       const authEnc = await authRes.json();
@@ -1024,14 +1020,12 @@ async function handleUserLogin() {
       };
     }
 
-    // 2. Zapisanie sesji w pamięci
     SESSION_PASSWORD = pass;
     ACTIVE_USER = user;
     if (remember) {
       localStorage.setItem('LEK_SIM_SESSION_V11', JSON.stringify({ user, pass }));
     }
 
-    // 3. Odszyfrowanie bazy przypadków i synchronizacja postępów z chmury
     await loadAllCasesFromRepository();
     if (CLOUD_CONFIG.apiKey && CLOUD_CONFIG.binId) {
       await pullFromCloudSilent();
@@ -1070,9 +1064,6 @@ function logoutSession() {
   document.getElementById('authGateOverlay').style.display = 'flex';
 }
 
-// ============================================================================
-// AUTOMATYCZNA SYNCHRONIZACJA W TLE
-// ============================================================================
 async function pullFromCloudSilent() {
   if (!CLOUD_CONFIG.apiKey || !CLOUD_CONFIG.binId) return;
   try {
@@ -1110,9 +1101,6 @@ function scheduleAutoCloudPush() {
   cloudPushTimer = setTimeout(() => { pushToCloudSilent(); }, 2000);
 }
 
-// ============================================================================
-// STUDIO SZYFROWANIA NOWYCH PRZYPADKÓW
-// ============================================================================
 function openCryptoModal() { document.getElementById('cryptoModal').style.display = 'flex'; }
 function closeCryptoModal() { document.getElementById('cryptoModal').style.display = 'none'; }
 
@@ -1128,9 +1116,6 @@ async function encryptJsonInStudio() {
   }
 }
 
-// ============================================================================
-// ŁADOWANIE PRZYPADKÓW Z FOLDERU /cases/
-// ============================================================================
 async function loadAllCasesFromRepository() {
   try {
     const manifestRes = await fetch('cases/manifest.json?t=' + Date.now());
@@ -1376,8 +1361,9 @@ function renderGamificationBar() {
     document.getElementById('homeStreakDaysCount').textContent = `${USER_PROFILE.activeDates.length} dni`;
     document.getElementById('homeMonthLogRatio').textContent = `Aktywne dni w tym miesiącu: ${activeThisMonth}/${daysInMonth}`;
 
-    const totalCaseModules = CASES.length * 2;
-    const doneCaseModules = SOLVED_IDS.length + PATHO_DONE_IDS.length;
+    const totalCasesCount = CASES.length;
+    const doneSor = SOLVED_IDS.length;
+    const donePatho = PATHO_DONE_IDS.length;
 
     let totalQuestions = 0;
     let doneGreenQuestions = 0;
@@ -1392,8 +1378,8 @@ function renderGamificationBar() {
     const totalFlash = QUICK_FIRE_NUMBERS.length;
     const doneFlash = FLASH_DONE_INDICES.length;
 
-    const grandTotalItems = totalCaseModules + totalQuestions + totalFlash;
-    const grandDoneItems = doneCaseModules + doneGreenQuestions + doneFlash;
+    const grandTotalItems = (totalCasesCount * 2) + totalQuestions + totalFlash;
+    const grandDoneItems = doneSor + donePatho + doneGreenQuestions + doneFlash;
     const readinessPct = grandTotalItems > 0 ? ((grandDoneItems / grandTotalItems) * 100) : 0;
 
     document.getElementById('homeReadinessPct').textContent = readinessPct.toFixed(1) + '%';
@@ -1404,14 +1390,20 @@ function renderGamificationBar() {
     document.getElementById('homeReadinessRing').style.background =
       `conic-gradient(var(--accent-emerald) 0deg, var(--accent-blue) ${deg}deg, #1e293b ${deg}deg 360deg)`;
 
-    const casesPct = totalCaseModules > 0 ? Math.round((doneCaseModules / totalCaseModules) * 100) : 0;
+    const sorPct = totalCasesCount > 0 ? Math.round((doneSor / totalCasesCount) * 100) : 0;
+    const pathoPct = totalCasesCount > 0 ? Math.round((donePatho / totalCasesCount) * 100) : 0;
     const qPct = totalQuestions > 0 ? Math.round((doneGreenQuestions / totalQuestions) * 100) : 0;
     const flPct = totalFlash > 0 ? Math.round((doneFlash / totalFlash) * 100) : 0;
 
-    document.getElementById('homeCasesStat').textContent = `${doneCaseModules} / ${totalCaseModules} (${casesPct}%)`;
-    document.getElementById('homeCasesBar').style.width = `${casesPct}%`;
+    document.getElementById('homeSorStat').textContent = `${doneSor} / ${totalCasesCount} (${sorPct}%)`;
+    document.getElementById('homeSorBar').style.width = `${sorPct}%`;
+
+    document.getElementById('homePathoStat').textContent = `${donePatho} / ${totalCasesCount} (${pathoPct}%)`;
+    document.getElementById('homePathoBar').style.width = `${pathoPct}%`;
+
     document.getElementById('homeQuestionsStat').textContent = `${doneGreenQuestions} / ${totalQuestions} (${qPct}%)`;
     document.getElementById('homeQuestionsBar').style.width = `${qPct}%`;
+
     document.getElementById('homeFlashStat').textContent = `${doneFlash} / ${totalFlash} (${flPct}%)`;
     document.getElementById('homeFlashBar').style.width = `${flPct}%`;
   }
@@ -1488,7 +1480,6 @@ function selectCase(id) {
   currentStepIdx = 0;
   currentLekIdx = 0;
   pathoUnlocked = SOLVED_IDS.includes(id) || PATHO_DONE_IDS.includes(id);
-  pathoTreatedPhase = false;
   selectedNodeIdx = 0;
   document.getElementById('labsTable').classList.remove('open');
   switchTab('sim');
@@ -1551,11 +1542,6 @@ function markCurrentPathoComplete() {
     addExp(25, `Zaliczono Patomechanizm #${c.id}! (2. Ptaszek ✓)`);
   } else { saveDatabase(); }
   renderSidebar();
-  renderPatho();
-}
-
-function togglePathoPhase() {
-  pathoTreatedPhase = !pathoTreatedPhase;
   renderPatho();
 }
 
