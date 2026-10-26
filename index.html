@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Symulator Kliniczny LEK v10.0 (Czysty Silnik Modularny + AES-256) | 3-Etapowy Postęp, Fiszki & SRS</title>
+<title>Symulator Kliniczny LEK v11.0 | Autoryzacja AES-256 & Auto-Sync</title>
 <style>
   :root {
     --bg-main: #0b0f19;
@@ -42,6 +42,106 @@
     flex-direction: row;
   }
 
+  /* EKRAN LOGOWANIA (PEŁNOEKRANOWA BRAMKA AUTORYZACJI) */
+  .auth-gate-overlay {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at 50% 15%, #1e293b 0%, #0b0f19 70%);
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .auth-card {
+    background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 22px;
+    width: 100%;
+    max-width: 460px;
+    padding: 32px 28px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.75);
+    text-align: center;
+  }
+
+  .auth-logo {
+    width: 68px;
+    height: 68px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    margin: 0 auto 16px auto;
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+  }
+
+  .auth-field-group {
+    text-align: left;
+    margin-bottom: 14px;
+  }
+
+  .auth-field-group label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .auth-input {
+    width: 100%;
+    background: var(--bg-main);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .auth-input:focus {
+    border-color: var(--accent-blue);
+  }
+
+  .auth-submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--accent-emerald), #059669);
+    color: #0b0f19;
+    border: none;
+    padding: 13px;
+    border-radius: 11px;
+    font-weight: 800;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: transform 0.15s, filter 0.15s;
+  }
+
+  .auth-submit-btn:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+  }
+
+  .auth-error-msg {
+    background: rgba(244, 63, 94, 0.15);
+    border: 1px solid var(--accent-rose);
+    color: #fda4af;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 0.82rem;
+    margin-bottom: 14px;
+    display: none;
+    text-align: left;
+  }
+
+  /* GŁÓWNY UKŁAD APLIKACJI */
   .app-main {
     flex: 1;
     height: 100vh;
@@ -279,19 +379,93 @@
   .modal-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); width: 90%; max-width: 680px; padding: 24px; }
   .json-textarea { width: 100%; height: 150px; background: var(--bg-panel); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px; padding: 10px; font-family: monospace; font-size: 0.82rem; margin: 10px 0; }
 
-  .account-pill { display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, rgba(56, 189, 248, 0.14), rgba(99, 102, 241, 0.14)); border: 1px solid var(--accent-blue); border-radius: 10px; padding: 8px 12px; margin: 10px 16px 0 16px; font-size: 0.78rem; cursor: pointer; transition: all 0.2s; }
-  .account-pill:hover { background: rgba(56, 189, 248, 0.22); box-shadow: 0 0 12px rgba(56, 189, 248, 0.25); }
-  .sync-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); display: inline-block; margin-right: 6px; }
-  .sync-dot.online { background: var(--accent-emerald); box-shadow: 0 0 8px var(--accent-emerald); }
+  .account-pill { display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, rgba(16, 185, 129, 0.14), rgba(56, 189, 248, 0.14)); border: 1px solid var(--accent-emerald); border-radius: 10px; padding: 8px 12px; margin: 10px 16px 0 16px; font-size: 0.78rem; }
+  .sync-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-emerald); box-shadow: 0 0 8px var(--accent-emerald); display: inline-block; margin-right: 6px; }
   .sync-dot.syncing { background: var(--accent-amber); animation: pulse 1s infinite; }
-  .sync-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px; }
-  .sync-tab-btn { background: var(--bg-panel); border: 1px solid var(--border-color); color: var(--text-muted); padding: 10px; border-radius: 10px; font-weight: 700; font-size: 0.84rem; cursor: pointer; transition: all 0.2s; }
-  .sync-tab-btn.active { background: rgba(56, 189, 248, 0.16); border-color: var(--accent-blue); color: var(--text-main); }
-  .sync-input { width: 100%; background: var(--bg-panel); border: 1px solid var(--border-color); color: var(--text-main); padding: 9px 12px; border-radius: 8px; font-size: 0.85rem; margin-top: 4px; margin-bottom: 10px; }
-  .step-guide-box { background: rgba(15, 23, 42, 0.85); border: 1px solid var(--border-color); border-left: 3px solid var(--accent-emerald); border-radius: 10px; padding: 12px 14px; font-size: 0.8rem; color: #cbd5e1; margin-bottom: 14px; line-height: 1.55; }
+  .step-guide-box { background: rgba(15, 23, 42, 0.85); border: 1px solid var(--border-color); border-left: 3px solid var(--accent-emerald); border-radius: 10px; padding: 12px 14px; font-size: 0.8rem; color: #cbd5e1; margin-bottom: 14px; line-height: 1.55; text-align: left; }
 </style>
 </head>
 <body>
+
+  <!-- ====================================================================== -->
+  <!-- BRAMKA AUTORYZACJI (LOGOWANIE LUB PIERWSZA INICJALIZACJA WŁAŚCICIELA) -->
+  <!-- ====================================================================== -->
+  <div id="authGateOverlay" class="auth-gate-overlay">
+    <div class="auth-card" id="authLoginView">
+      <div class="auth-logo">⚕️</div>
+      <h2 style="font-size: 1.35rem; margin-bottom: 4px;">Symulator Kliniczny LEK</h2>
+      <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 20px;">
+        Prywatna Platforma Edukacyjna • Szyfrowanie AES-256
+      </p>
+
+      <div id="authErrorMsg" class="auth-error-msg"></div>
+
+      <div class="auth-field-group">
+        <label>Login Lekarza</label>
+        <input type="text" id="loginUsernameInput" class="auth-input" placeholder="Wpisz swój login..." autocomplete="username">
+      </div>
+
+      <div class="auth-field-group">
+        <label>Hasło Główne (Klucz Deszyfrujący AES-256)</label>
+        <input type="password" id="loginPasswordInput" class="auth-input" placeholder="••••••••••••" autocomplete="current-password" onkeydown="if(event.key==='Enter') handleUserLogin()">
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin: 10px 0 14px 0; font-size: 0.8rem; color: var(--text-muted);">
+        <input type="checkbox" id="rememberSessionChk" checked>
+        <label for="rememberSessionChk" style="cursor:pointer;">Zapamiętaj sesję na tym urządzeniu</label>
+      </div>
+
+      <button class="auth-submit-btn" id="loginSubmitBtn" onclick="handleUserLogin()">
+        🔓 Odblokuj Bazy i Synchronizuj Konto
+      </button>
+
+      <div style="margin-top: 18px; border-top: 1px solid var(--border-color); padding-top: 12px;">
+        <button class="db-btn" style="width:100%; font-size:0.75rem;" onclick="toggleOwnerSetupView(true)">
+          ⚙️ Pierwsza konfiguracja właściciela (Generowanie pliku cases/auth.json)
+        </button>
+      </div>
+    </div>
+
+    <!-- WIDOK INICJALIZACJI KONTA WŁAŚCICIELA (Jednorazowy kreator cases/auth.json) -->
+    <div class="auth-card" id="authSetupView" style="display:none; max-width: 560px;">
+      <h3 style="font-size: 1.2rem; margin-bottom: 6px; color: var(--accent-blue);">🛡️ Kreator Konta Właściciela (Zero-Knowledge)</h3>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 14px;">
+        Wypełnij ten formularz tylko raz. Wygenerowany szyfrogram zapisz w repozytorium GitHub jako plik <code>cases/auth.json</code>. Od tej pory logujesz się już tylko swoim Loginem i Hasłem!
+      </p>
+
+      <div id="setupFeedbackMsg" class="auth-error-msg"></div>
+
+      <div class="auth-field-group">
+        <label>1. Twój Docelowy Login:</label>
+        <input type="text" id="setupUsername" class="auth-input" placeholder="np. szymen">
+      </div>
+
+      <div class="auth-field-group">
+        <label>2. Twoje Docelowe Hasło Główne (Klucz AES-256):</label>
+        <input type="password" id="setupPassword" class="auth-input" placeholder="Wymyśl silne hasło...">
+      </div>
+
+      <div class="auth-field-group">
+        <label>3. Klucz X-Master-Key z jsonbin.io (zostanie zaszyfrowany hasłem!):</label>
+        <input type="password" id="setupApiKey" class="auth-input" placeholder="$2a$10$...">
+      </div>
+
+      <button class="auth-submit-btn" onclick="generateEncryptedOwnerAuthFile()">
+        🔐 Utwórz Chmurę i Wygeneruj Zaszyfrowany auth.json
+      </button>
+
+      <div id="setupOutputBox" style="display:none; margin-top:14px; text-align:left;">
+        <label style="font-size:0.76rem; color:var(--accent-emerald); font-weight:700;">
+          ✅ Skopiuj poniższy kod i utwórz na GitHubie plik <code>cases/auth.json</code>:
+        </label>
+        <textarea id="setupAuthJsonTextarea" class="json-textarea" style="height:120px;" readonly></textarea>
+      </div>
+
+      <button class="db-btn" style="width:100%; margin-top:10px;" onclick="toggleOwnerSetupView(false)">
+        ← Wróć do ekranu logowania
+      </button>
+    </div>
+  </div>
 
   <!-- EXP TOAST -->
   <div id="expToast" class="exp-toast">+50 EXP! 🌿</div>
@@ -450,8 +624,7 @@
         <button class="home-cta-btn secondary" onclick="pickRandomUnsolved()">🎲 Wylosuj nieukończony przypadek</button>
         <button class="home-cta-btn secondary" onclick="switchTab('srs')">🧠 Powtórki SRS</button>
         <button class="home-cta-btn secondary" onclick="switchTab('flash')">⚡ Szybkie Fiszki</button>
-        <button class="home-cta-btn secondary" style="border-color: var(--accent-purple); color: #e9d5ff;" onclick="openCryptoModal()">🔐 Szyfrowanie AES-256</button>
-        <button class="home-cta-btn secondary" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="openAccountModal()">☁️ Konto & Synchronizacja</button>
+        <button class="home-cta-btn secondary" style="border-color: var(--accent-purple); color: #e9d5ff;" onclick="openCryptoModal()">🔐 Szyfrator Nowych Przypadków</button>
       </div>
     </div>
 
@@ -609,8 +782,8 @@
     <div class="brand-box">
       <div class="brand-icon">⚕️</div>
       <div class="brand-title">
-        <h1>Symulator LEK v10.0 (CEM)</h1>
-        <p>Silnik Modularny GitHub + AES-256</p>
+        <h1>Symulator LEK v11.0</h1>
+        <p>Konto Prywatne AES-256</p>
       </div>
     </div>
 
@@ -621,12 +794,12 @@
       <span>3.LEK: <strong id="statLekDone" style="color: var(--accent-amber);">0</strong></span>
     </div>
 
-    <div class="account-pill" onclick="openAccountModal()" title="Kliknij, aby zsynchronizować postęp między PC a telefonem">
+    <div class="account-pill">
       <div>
         <span class="sync-dot" id="syncStatusDot"></span>
-        <strong id="syncStatusText">Konto: Lokalnie (Brak chmury)</strong>
+        <strong id="syncStatusText">Konto Zalogowane</strong>
       </div>
-      <span style="color: var(--accent-blue); font-weight: 700;">☁️ Połącz →</span>
+      <button class="db-btn" style="padding:3px 8px; font-size:0.7rem;" onclick="logoutSession()">Wyloguj 🔒</button>
     </div>
 
     <div class="sidebar-controls">
@@ -641,147 +814,41 @@
     <div class="case-list" id="caseList"></div>
 
     <div class="sidebar-footer">
-      <button class="db-btn" style="border-color: var(--accent-purple); color: #e9d5ff;" onclick="openCryptoModal()">🔐 Klucz & Szyfrowanie AES-256</button>
-      <button class="db-btn" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="openAccountModal()">☁️ Konto & Synchronizacja (PC ↔ Telefon)</button>
-      <button class="db-btn" onclick="openImportModal()">➕ Dograj paczkę przypadków (JSON)</button>
+      <button class="db-btn" style="border-color: var(--accent-purple); color: #e9d5ff;" onclick="openCryptoModal()">🔐 Szyfrator Nowych Przypadków (JSON)</button>
+      <button class="db-btn" onclick="reloadCleanFromGithub()">🔄 Odśwież bazę z GitHuba</button>
       <button class="db-btn" onclick="resetProgress()">🗑️ Resetuj postępy nauki</button>
     </div>
   </aside>
 
-  <!-- MODAL DOGRYWANIA PACZEK -->
-  <div class="modal-backdrop" id="importModal">
-    <div class="modal-card">
-      <h3>➕ Dograj nową paczkę przypadków LEK</h3>
-      <p style="color: var(--text-muted); font-size: 0.86rem; margin-top: 4px;">
-        Wklej poniżej kod JSON wygenerowany przez Gemini, aby dopisać nowe przypadki do pamięci przeglądarki lub wyczyść pamięć podręczną przypadków, aby pobrać świeżą bazę z folderu <code>cases/</code> na GitHubie.
-      </p>
-      <textarea id="jsonImportInput" class="json-textarea" placeholder='[{"id": 8, "shortTitle": "...", ...}]'></textarea>
-      <div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
-        <button class="db-btn" style="border-color:var(--accent-amber); color:var(--accent-amber);" onclick="reloadCleanFromGithub()">🔄 Wyczyść cache i przeładuj z GitHuba</button>
-        <div style="display:flex; gap:10px;">
-          <button class="db-btn" onclick="closeImportModal()">Anuluj</button>
-          <button class="next-step-btn" style="margin-top:0;" onclick="importCasesFromJson()">Zapisz w bazie aplikacji</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL SZYFROWANIA AES-256 -->
+  <!-- MODAL SZYFRATORA NOWYCH PRZYPADKÓW -->
   <div class="modal-backdrop" id="cryptoModal">
     <div class="modal-card" style="max-width: 720px; max-height: 92vh; overflow-y: auto;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
-        <h3>🔐 Zabezpieczenie Własności Intelektualnej (AES-256-GCM)</h3>
+        <h3>🔐 Szyfrator Nowych Przypadków (AES-256-GCM)</h3>
         <button class="db-btn" onclick="closeCryptoModal()">✕ Zamknij</button>
       </div>
 
-      <div class="step-guide-box">
-        <strong>🔑 1. Twoje Prywatne Hasło Deszyfrujące (zapisywane wyłącznie w tej przeglądarce):</strong><br>
-        Dzięki niemu silnik automatycznie odszyfrowuje w pamięci RAM chronione pliki z folderu <code>cases/</code> na publicznym GitHubie.
-        <input type="password" id="aesSecretKeyInput" class="sync-input" placeholder="Wpisz swoje tajne hasło do bazy przypadków...">
-        <button class="next-step-btn" style="margin-top:4px; background:var(--accent-emerald); color:#0b0f19;" onclick="saveAesKeyAndReload()">💾 Zapisz hasło i przeładuj bazę z GitHuba</button>
-      </div>
-
       <div class="step-guide-box" style="border-left-color: var(--accent-purple);">
-        <strong>🛡️ 2. Szyfrator Nowych Przypadków (przed wrzuceniem do folderu cases/):</strong><br>
-        Wklej czysty kod JSON nowego przypadku, kliknij „Zaszyfruj”, a wygenerowany szyfrogram wrzuć na GitHub:
-        <textarea id="plainJsonToEncrypt" class="json-textarea" placeholder='{"id": 13, "shortTitle": "...", ...}'></textarea>
-        <button class="next-step-btn" style="margin-top:0;" onclick="encryptJsonInStudio()">🔒 Zaszyfruj kod JSON (AES-256)</button>
-        <textarea id="encryptedJsonOutput" class="json-textarea" placeholder="Tutaj pojawi się zaszyfrowany plik gotowy do wklejenia na GitHub..." readonly></textarea>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL KONTA I SYNCHRONIZACJI HYBRYDOWEJ -->
-  <div class="modal-backdrop" id="accountModal">
-    <div class="modal-card" style="max-width: 720px; max-height: 92vh; overflow-y: auto;">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
-        <h3>☁️ Twoje Konto & Synchronizacja Postępu (PC ↔ Telefon)</h3>
-        <button class="db-btn" onclick="closeAccountModal()">✕ Zamknij</button>
-      </div>
-
-      <div class="sync-tabs">
-        <button class="sync-tab-btn active" id="syncTabCloudBtn" onclick="switchSyncTab('cloud')">
-          ☁️ Tryb 1: Automatyczna Chmura (Logowanie)
-        </button>
-        <button class="sync-tab-btn" id="syncTabCodeBtn" onclick="switchSyncTab('code')">
-          ⚡ Tryb 2: Szybki Kod / Plik (Bez konta w 10 sek.)
-        </button>
-      </div>
-
-      <div id="syncViewCloud">
-        <div class="step-guide-box">
-          <strong>🎓 Jak założyć darmową chmurę w 2 minuty:</strong><br>
-          1. Wejdź na <strong>jsonbin.io</strong> i zaloguj się.<br>
-          2. W menu <strong>API Keys</strong> skopiuj <strong>X-Master-Key</strong> (zaczyna się od <code>$2a$10$...</code> lub <code>$2b$10$...</code>).<br>
-          3. Kliknij zielony przycisk <strong>„✨ Utwórz Nowe Konto w Chmurze”</strong> – aplikacja sama wygeneruje Twój <strong>Bin ID</strong>!
-        </div>
-
-        <label style="font-size: 0.78rem; font-weight: 700; color: var(--accent-blue);">1. Twój Klucz Chmury (X-Master-Key z jsonbin.io):</label>
-        <input type="password" id="cloudApiKeyInput" class="sync-input" placeholder="Wklej tutaj klucz zaczynający się od $2a$10$...">
-
-        <label style="font-size: 0.78rem; font-weight: 700; color: var(--accent-blue);">2. Identyfikator Twojego Konta (Bin ID – zostaw puste przy pierwszym tworzeniu):</label>
-        <input type="text" id="cloudBinIdInput" class="sync-input" placeholder="Np. 6717b9e4ad19ca34f8b... (wygeneruje się automatycznie!)">
-
-        <div id="cloudFeedbackMsg" style="font-size: 0.82rem; margin-bottom: 12px; padding: 10px; border-radius: 8px; display: none;"></div>
-
-        <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 12px;">
-          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-            <button class="next-step-btn" style="margin-top:0; background: var(--accent-emerald); color: #0b0f19;" onclick="createNewCloudAccount()">
-              ✨ 1. Utwórz Nowe Konto w Chmurze
-            </button>
-            <button class="next-step-btn" style="margin-top:0;" onclick="connectAndPullCloud()">
-              📥 2. Połącz i Pobierz Postęp z Chmury
-            </button>
-            <button class="db-btn" style="border-color: var(--accent-amber); color: var(--accent-amber);" onclick="pushToCloud(true)">
-              📤 Wyślij obecny postęp do Chmury teraz
-            </button>
-          </div>
-          <button class="db-btn" onclick="disconnectCloudAccount()">Wyloguj chmurę</button>
-        </div>
-      </div>
-
-      <div id="syncViewCode" style="display: none;">
-        <div class="step-guide-box">
-          <strong>⚡ Jak przenieść postęp w 10 sekund bez konta:</strong><br>
-          • Kliknij <strong>„📋 Skopiuj Kod Postępu”</strong> i wyślij go sobie na drugie urządzenie, a tam kliknij <strong>„🚀 Wczytaj Postęp”</strong>!
-        </div>
-
-        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 12px;">
-          <button class="next-step-btn" style="margin-top:0; background: var(--accent-emerald); color:#0b0f19;" onclick="copyProgressCode()">
-            📋 Skopiuj Kod Postępu do schowka
-          </button>
-          <button class="db-btn" style="border-color: var(--accent-blue); color: var(--accent-blue);" onclick="downloadProgressFile()">
-            💾 Pobierz postęp jako plik (.json)
-          </button>
-          <label class="db-btn" style="border-color: var(--accent-purple); color: #e9d5ff; display:inline-flex; align-items:center;">
-            📂 Wczytaj z pliku (.json)
-            <input type="file" accept=".json,application/json" style="display:none;" onchange="uploadProgressFile(event)">
-          </label>
-        </div>
-
-        <label style="font-size: 0.78rem; font-weight: 700; color: var(--text-muted);">Pole Kodu Synchronizacji:</label>
-        <textarea id="syncCodeTextarea" class="json-textarea" style="height: 125px;" placeholder="Tutaj pojawi się Twój zakodowany postęp lub wklej tutaj kod z komputera/telefonu..."></textarea>
-
-        <div id="codeFeedbackMsg" style="font-size: 0.82rem; margin-bottom: 10px; color: var(--accent-emerald); display: none;"></div>
-
-        <div style="display:flex; justify-content:flex-end; gap:10px;">
-          <button class="next-step-btn" style="margin-top:0;" onclick="importProgressFromCode()">
-            🚀 Wczytaj wklejony Kod Postępu na tym urządzeniu
-          </button>
-        </div>
+        <strong>🛡️ Jak dodać nowy przypadek na publiczny GitHub, by nikt go nie podejrzał:</strong><br>
+        Wklej poniżej czysty kod JSON nowego przypadku i kliknij „Zaszyfruj”. System użyje Twojego aktualnego Hasła Głównego, aby wygenerować szyfrogram gotowy do zapisania w folderze <code>cases/</code>:
+        <textarea id="plainJsonToEncrypt" class="json-textarea" placeholder='{"id": 14, "shortTitle": "...", ...}'></textarea>
+        <button class="next-step-btn" style="margin-top:0;" onclick="encryptJsonInStudio()">🔒 Zaszyfruj tym samym Hasłem Konta</button>
+        <textarea id="encryptedJsonOutput" class="json-textarea" placeholder="Tutaj pojawi się zaszyfrowany plik gotowy do wrzucenia na GitHub..." readonly></textarea>
       </div>
     </div>
   </div>
 
 <script>
 // ============================================================================
-// CZYSTY SILNIK — BRAK WBUDOWANYCH PRZYPADKÓW W KODZIE HTML
-// Wszystkie przypadki i fiszki ładują się z folderu /cases/
+// STAN APLIKACJI I SESJI KRYPTOGRAFICZNEJ
 // ============================================================================
-const INITIAL_CASES = [];
-let QUICK_FIRE_NUMBERS = [];
+let SESSION_PASSWORD = '';
+let ACTIVE_USER = '';
+let CLOUD_CONFIG = { apiKey: '', binId: '', lastSync: null };
+let cloudPushTimer = null;
 
 let CASES = [];
+let QUICK_FIRE_NUMBERS = [];
 let SOLVED_IDS = [];
 let PATHO_DONE_IDS = [];
 let PATHO_VISITED_NODES = {};
@@ -790,22 +857,19 @@ let LEK_STATUS = {};
 let SRS_DB = {};
 let STARRED_KEYS = [];
 let FLASH_DONE_INDICES = [];
-let CLOUD_CONFIG = { apiKey: '', binId: '', lastSync: null };
-let cloudPushTimer = null;
+
 let currentCaseId = 0;
 let currentStepIdx = 0;
 let currentLekIdx = 0;
 let pathoUnlocked = false;
 let pathoTreatedPhase = false;
 let selectedNodeIdx = 0;
-
 let srsQueue = [];
 let currentSrsItem = null;
 let currentQfIdx = 0;
 let USER_PROFILE = { exp: 0, activeDates: [] };
 
 const SRS_INTERVAL_DAYS = [0, 1, 3, 7, 16, 35];
-
 const TREE_STAGES = [
   { minLvl: 1,  maxLvl: 4,  icon: "🌱", name: "Kiełkujące Nasionko", nextLvl: 5 },
   { minLvl: 5,  maxLvl: 11, icon: "🌿", name: "Młody Pęd Kliniczny", nextLvl: 12 },
@@ -817,7 +881,7 @@ const TREE_STAGES = [
 ];
 
 // ============================================================================
-// MODUŁ KRYPTOGRAFICZNY AES-256-GCM (Web Crypto API)
+// KRYPTOGRAFIA AES-256-GCM (Web Crypto API)
 // ============================================================================
 async function deriveAesKey(password, saltBytes) {
   const enc = new TextEncoder();
@@ -861,7 +925,7 @@ async function encryptStringAes(plainText, password) {
 }
 
 async function decryptObjectAes(encPayload, password) {
-  if (!password) throw new Error('Brak hasła deszyfrującego AES');
+  if (!password) throw new Error('Brak hasła deszyfrującego');
   const salt = new Uint8Array(base64ToBuf(encPayload.salt));
   const iv = new Uint8Array(base64ToBuf(encPayload.iv));
   const cipherBuf = base64ToBuf(encPayload.ciphertext);
@@ -871,26 +935,193 @@ async function decryptObjectAes(encPayload, password) {
   return JSON.parse(plainStr);
 }
 
-function openCryptoModal() {
-  document.getElementById('aesSecretKeyInput').value = localStorage.getItem('LEK_SIM_AES_KEY') || '';
-  document.getElementById('cryptoModal').style.display = 'flex';
+// ============================================================================
+// SYSTEM LOGOWANIA I PIERWSZEJ KONFIGURACJI (cases/auth.json)
+// ============================================================================
+function toggleOwnerSetupView(showSetup) {
+  document.getElementById('authLoginView').style.display = showSetup ? 'none' : 'block';
+  document.getElementById('authSetupView').style.display = showSetup ? 'block' : 'none';
 }
-function closeCryptoModal() {
-  document.getElementById('cryptoModal').style.display = 'none';
+
+async function generateEncryptedOwnerAuthFile() {
+  const user = (document.getElementById('setupUsername').value || '').trim().toLowerCase();
+  const pass = (document.getElementById('setupPassword').value || '').trim();
+  const apiKey = (document.getElementById('setupApiKey').value || '').trim();
+  const msg = document.getElementById('setupFeedbackMsg');
+
+  if (!user || !pass || !apiKey) {
+    msg.style.display = 'block';
+    msg.textContent = '❌ Wypełnij wszystkie 3 pola (Login, Hasło oraz klucz X-Master-Key z jsonbin.io)!';
+    return;
+  }
+
+  msg.style.display = 'block';
+  msg.style.borderColor = 'var(--accent-blue)';
+  msg.style.color = 'var(--accent-blue)';
+  msg.textContent = '⏳ Tworzenie prywatnego kontenera w chmurze i szyfrowanie AES-256...';
+
+  try {
+    const res = await fetch('https://api.jsonbin.io/v3/b', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Master-Key': apiKey,
+        'X-Bin-Name': `LEK_Account_${user}`,
+        'X-Bin-Private': 'true'
+      },
+      body: JSON.stringify(getSyncPayload())
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || `Status ${res.status}`);
+
+    const binId = data.metadata.id;
+    const secretVault = JSON.stringify({ username: user, apiKey, binId });
+    const encryptedAuth = await encryptStringAes(secretVault, pass);
+    encryptedAuth.owner = user;
+
+    document.getElementById('setupOutputBox').style.display = 'block';
+    document.getElementById('setupAuthJsonTextarea').value = JSON.stringify(encryptedAuth, null, 2);
+    msg.style.borderColor = 'var(--accent-emerald)';
+    msg.style.color = 'var(--accent-emerald)';
+    msg.textContent = '✅ Gotowe! Skopiuj poniższy kod i zapisz go na GitHubie jako plik cases/auth.json';
+  } catch (err) {
+    msg.style.borderColor = 'var(--accent-rose)';
+    msg.style.color = '#fda4af';
+    msg.textContent = '❌ Błąd tworzenia chmury: ' + err.message;
+  }
 }
-function saveAesKeyAndReload() {
-  const key = (document.getElementById('aesSecretKeyInput').value || '').trim();
-  localStorage.setItem('LEK_SIM_AES_KEY', key);
-  closeCryptoModal();
-  loadAllCasesFromRepository();
+
+async function handleUserLogin() {
+  const user = (document.getElementById('loginUsernameInput').value || '').trim().toLowerCase();
+  const pass = (document.getElementById('loginPasswordInput').value || '').trim();
+  const remember = document.getElementById('rememberSessionChk').checked;
+  const errBox = document.getElementById('authErrorMsg');
+  const btn = document.getElementById('loginSubmitBtn');
+
+  errBox.style.display = 'none';
+  if (!user || !pass) {
+    errBox.style.display = 'block';
+    errBox.textContent = '❌ Wprowadź swój login oraz hasło główne.';
+    return;
+  }
+
+  btn.textContent = '⏳ Weryfikacja klucza AES-256...';
+  btn.disabled = true;
+
+  try {
+    // 1. Sprawdzenie czy na GitHubie istnieje cases/auth.json
+    const authRes = await fetch('cases/auth.json?t=' + Date.now());
+    if (authRes.ok) {
+      const authEnc = await authRes.json();
+      const decryptedVault = await decryptObjectAes(authEnc, pass);
+      if (decryptedVault.username && decryptedVault.username.toLowerCase() !== user) {
+        throw new Error('Nieprawidłowy login użytkownika.');
+      }
+      CLOUD_CONFIG = {
+        apiKey: decryptedVault.apiKey,
+        binId: decryptedVault.binId,
+        lastSync: Date.now()
+      };
+    }
+
+    // 2. Zapisanie sesji w pamięci
+    SESSION_PASSWORD = pass;
+    ACTIVE_USER = user;
+    if (remember) {
+      localStorage.setItem('LEK_SIM_SESSION_V11', JSON.stringify({ user, pass }));
+    }
+
+    // 3. Odszyfrowanie bazy przypadków i synchronizacja postępów z chmury
+    await loadAllCasesFromRepository();
+    if (CLOUD_CONFIG.apiKey && CLOUD_CONFIG.binId) {
+      await pullFromCloudSilent();
+    }
+
+    document.getElementById('authGateOverlay').style.display = 'none';
+    document.getElementById('syncStatusText').textContent = `Konto: ${user} (Auto-Sync ✓)`;
+  } catch (err) {
+    errBox.style.display = 'block';
+    errBox.textContent = '❌ Odmowa dostępu: Nieprawidłowy login lub hasło deszyfrujące AES-256!';
+  } finally {
+    btn.textContent = '🔓 Odblokuj Bazy i Synchronizuj Konto';
+    btn.disabled = false;
+  }
 }
+
+async function tryAutoRestoreSession() {
+  const saved = localStorage.getItem('LEK_SIM_SESSION_V11');
+  if (!saved) return;
+  try {
+    const { user, pass } = JSON.parse(saved);
+    if (user && pass) {
+      document.getElementById('loginUsernameInput').value = user;
+      document.getElementById('loginPasswordInput').value = pass;
+      await handleUserLogin();
+    }
+  } catch (e) {}
+}
+
+function logoutSession() {
+  localStorage.removeItem('LEK_SIM_SESSION_V11');
+  SESSION_PASSWORD = '';
+  ACTIVE_USER = '';
+  CLOUD_CONFIG = { apiKey: '', binId: '', lastSync: null };
+  document.getElementById('loginPasswordInput').value = '';
+  document.getElementById('authGateOverlay').style.display = 'flex';
+}
+
+// ============================================================================
+// AUTOMATYCZNA SYNCHRONIZACJA W TLE
+// ============================================================================
+async function pullFromCloudSilent() {
+  if (!CLOUD_CONFIG.apiKey || !CLOUD_CONFIG.binId) return;
+  try {
+    const res = await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_CONFIG.binId}/latest`, {
+      headers: { 'X-Master-Key': CLOUD_CONFIG.apiKey }
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    applySyncPayload(data.record);
+  } catch (e) {
+    console.warn('Synchronizacja w tle niedostępna:', e);
+  }
+}
+
+async function pushToCloudSilent() {
+  if (!CLOUD_CONFIG.apiKey || !CLOUD_CONFIG.binId) return;
+  const dot = document.getElementById('syncStatusDot');
+  if (dot) dot.className = 'sync-dot syncing';
+  try {
+    await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_CONFIG.binId}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Master-Key': CLOUD_CONFIG.apiKey
+      },
+      body: JSON.stringify(getSyncPayload())
+    });
+  } catch (e) {}
+  if (dot) dot.className = 'sync-dot';
+}
+
+function scheduleAutoCloudPush() {
+  if (!CLOUD_CONFIG.apiKey || !CLOUD_CONFIG.binId) return;
+  if (cloudPushTimer) clearTimeout(cloudPushTimer);
+  cloudPushTimer = setTimeout(() => { pushToCloudSilent(); }, 2000);
+}
+
+// ============================================================================
+// STUDIO SZYFROWANIA NOWYCH PRZYPADKÓW
+// ============================================================================
+function openCryptoModal() { document.getElementById('cryptoModal').style.display = 'flex'; }
+function closeCryptoModal() { document.getElementById('cryptoModal').style.display = 'none'; }
+
 async function encryptJsonInStudio() {
   const rawText = (document.getElementById('plainJsonToEncrypt').value || '').trim();
-  const key = (document.getElementById('aesSecretKeyInput').value || localStorage.getItem('LEK_SIM_AES_KEY') || '').trim();
-  if (!key) { alert('Wpisz najpierw swoje Hasło Deszyfrujące w polu nr 1!'); return; }
+  if (!SESSION_PASSWORD) { alert('Musisz być zalogowany!'); return; }
   try {
     JSON.parse(rawText);
-    const enc = await encryptStringAes(rawText, key);
+    const enc = await encryptStringAes(rawText, SESSION_PASSWORD);
     document.getElementById('encryptedJsonOutput').value = JSON.stringify(enc, null, 2);
   } catch (e) {
     alert('Błąd składni JSON: ' + e.message);
@@ -898,7 +1129,7 @@ async function encryptJsonInStudio() {
 }
 
 // ============================================================================
-// DYNAMICZNE ŁADOWANIE PRZYPADKÓW Z FOLDERU /cases/
+// ŁADOWANIE PRZYPADKÓW Z FOLDERU /cases/
 // ============================================================================
 async function loadAllCasesFromRepository() {
   try {
@@ -906,27 +1137,24 @@ async function loadAllCasesFromRepository() {
     if (!manifestRes.ok) return;
     const filenames = await manifestRes.json();
 
-    const secretPassword = localStorage.getItem('LEK_SIM_AES_KEY') || '';
     const loadedPacks = [];
-
     for (const file of filenames) {
       try {
         const r = await fetch(`cases/${file}?t=` + Date.now());
         if (!r.ok) continue;
         const rawJson = await r.json();
         if (rawJson && rawJson.encrypted === true) {
-          const decrypted = await decryptObjectAes(rawJson, secretPassword);
+          const decrypted = await decryptObjectAes(rawJson, SESSION_PASSWORD);
           loadedPacks.push(decrypted);
         } else {
           loadedPacks.push(rawJson);
         }
       } catch (e) {
-        console.warn(`Pominięto lub nie odszyfrowano pliku ${file}:`, e.message);
+        console.warn(`Pominięto plik ${file}:`, e.message);
       }
     }
 
     const map = new Map();
-    CASES.forEach(c => map.set(c.id, c));
     loadedPacks.forEach(pack => {
       const casesArr = Array.isArray(pack) ? pack : (pack.cases || [pack]);
       casesArr.forEach(c => {
@@ -950,8 +1178,14 @@ async function loadAllCasesFromRepository() {
     renderSidebar();
     renderAll();
   } catch (err) {
-    console.warn("Tryb offline / brak połączenia z GitHub", err);
+    console.warn("Brak połączenia z GitHub", err);
   }
+}
+
+function reloadCleanFromGithub() {
+  CASES = [];
+  QUICK_FIRE_NUMBERS = [];
+  loadAllCasesFromRepository();
 }
 
 function updateDynamicFilters() {
@@ -1007,56 +1241,30 @@ function getCaseLekAnsweredCount(c) {
 }
 
 function initDatabase() {
-  const savedCases = localStorage.getItem('LEK_SIM_CASES_V10');
-  const savedSolved = localStorage.getItem('LEK_SIM_SOLVED_V7') || localStorage.getItem('LEK_SIM_SOLVED_V6') || localStorage.getItem('LEK_SIM_SOLVED_V5');
+  const savedSolved = localStorage.getItem('LEK_SIM_SOLVED_V7');
   const savedPathoDone = localStorage.getItem('LEK_SIM_PATHO_DONE_V7');
   const savedPathoNodes = localStorage.getItem('LEK_SIM_PATHO_NODES_V7');
   const savedLekDone = localStorage.getItem('LEK_SIM_LEK_DONE_V7');
-  const savedLekStatus = localStorage.getItem('LEK_SIM_STATUS_V7') || localStorage.getItem('LEK_SIM_STATUS_V6') || localStorage.getItem('LEK_SIM_STATUS_V5');
-  const savedSrs = localStorage.getItem('LEK_SIM_SRS_V7') || localStorage.getItem('LEK_SIM_SRS_V6') || localStorage.getItem('LEK_SIM_SRS_V5');
-  const savedProfile = localStorage.getItem('LEK_SIM_PROFILE_V7') || localStorage.getItem('LEK_SIM_PROFILE_V6') || localStorage.getItem('LEK_SIM_PROFILE_V5');
-  const savedStars = localStorage.getItem('LEK_SIM_STARS_V7') || localStorage.getItem('LEK_SIM_STARS_V6');
+  const savedLekStatus = localStorage.getItem('LEK_SIM_STATUS_V7');
+  const savedSrs = localStorage.getItem('LEK_SIM_SRS_V7');
+  const savedProfile = localStorage.getItem('LEK_SIM_PROFILE_V7');
+  const savedStars = localStorage.getItem('LEK_SIM_STARS_V7');
   const savedFlashDone = localStorage.getItem('LEK_SIM_FLASH_DONE_V8');
-  const savedFlashCards = localStorage.getItem('LEK_SIM_FLASHCARDS_V10');
-  const savedCloud = localStorage.getItem('LEK_SIM_CLOUD_CFG_V8');
 
-  if (savedFlashCards) {
-    try {
-      const parsedFc = JSON.parse(savedFlashCards);
-      if (Array.isArray(parsedFc)) QUICK_FIRE_NUMBERS = parsedFc;
-    } catch (e) {}
-  }
+  if (savedSolved) { try { SOLVED_IDS = JSON.parse(savedSolved); } catch (e) {} }
+  if (savedPathoDone) { try { PATHO_DONE_IDS = JSON.parse(savedPathoDone); } catch (e) {} }
+  if (savedPathoNodes) { try { PATHO_VISITED_NODES = JSON.parse(savedPathoNodes); } catch (e) {} }
+  if (savedLekDone) { try { LEK_DONE_IDS = JSON.parse(savedLekDone); } catch (e) {} }
+  if (savedLekStatus) { try { LEK_STATUS = JSON.parse(savedLekStatus); } catch (e) {} }
+  if (savedSrs) { try { SRS_DB = JSON.parse(savedSrs); } catch (e) {} }
+  if (savedProfile) { try { USER_PROFILE = JSON.parse(savedProfile); } catch (e) {} }
+  if (savedStars) { try { STARRED_KEYS = JSON.parse(savedStars); } catch (e) {} }
+  if (savedFlashDone) { try { FLASH_DONE_INDICES = JSON.parse(savedFlashDone); } catch (e) {} }
 
-  if (savedCases) {
-    try {
-      CASES = JSON.parse(savedCases);
-    } catch (e) { CASES = []; }
-  }
-
-  if (savedSolved) { try { SOLVED_IDS = JSON.parse(savedSolved); } catch (e) { SOLVED_IDS = []; } }
-  if (savedPathoDone) { try { PATHO_DONE_IDS = JSON.parse(savedPathoDone); } catch (e) { PATHO_DONE_IDS = []; } }
-  if (savedPathoNodes) { try { PATHO_VISITED_NODES = JSON.parse(savedPathoNodes); } catch (e) { PATHO_VISITED_NODES = {}; } }
-  if (savedLekDone) { try { LEK_DONE_IDS = JSON.parse(savedLekDone); } catch (e) { LEK_DONE_IDS = []; } }
-  if (savedLekStatus) { try { LEK_STATUS = JSON.parse(savedLekStatus); } catch (e) { LEK_STATUS = {}; } }
-  if (savedSrs) { try { SRS_DB = JSON.parse(savedSrs); } catch (e) { SRS_DB = {}; } }
-  if (savedProfile) { try { USER_PROFILE = JSON.parse(savedProfile); } catch (e) { USER_PROFILE = { exp: 0, activeDates: [] }; } }
-  if (savedStars) { try { STARRED_KEYS = JSON.parse(savedStars); } catch (e) { STARRED_KEYS = []; } }
-  if (savedFlashDone) { try { FLASH_DONE_INDICES = JSON.parse(savedFlashDone); } catch (e) { FLASH_DONE_INDICES = []; } }
-  if (savedCloud) { try { CLOUD_CONFIG = JSON.parse(savedCloud); } catch (e) {} }
-
-  CASES.forEach(c => {
-    if (isCaseLekFullyAnswered(c) && !LEK_DONE_IDS.includes(c.id)) {
-      LEK_DONE_IDS.push(c.id);
-    }
-  });
-
-  if (CASES.length > 0) currentCaseId = CASES[0].id;
-  updateDynamicFilters();
   saveDatabase();
 }
 
 function saveDatabase() {
-  localStorage.setItem('LEK_SIM_CASES_V10', JSON.stringify(CASES));
   localStorage.setItem('LEK_SIM_SOLVED_V7', JSON.stringify(SOLVED_IDS));
   localStorage.setItem('LEK_SIM_PATHO_DONE_V7', JSON.stringify(PATHO_DONE_IDS));
   localStorage.setItem('LEK_SIM_PATHO_NODES_V7', JSON.stringify(PATHO_VISITED_NODES));
@@ -1066,7 +1274,6 @@ function saveDatabase() {
   localStorage.setItem('LEK_SIM_PROFILE_V7', JSON.stringify(USER_PROFILE));
   localStorage.setItem('LEK_SIM_STARS_V7', JSON.stringify(STARRED_KEYS));
   localStorage.setItem('LEK_SIM_FLASH_DONE_V8', JSON.stringify(FLASH_DONE_INDICES));
-  localStorage.setItem('LEK_SIM_FLASHCARDS_V10', JSON.stringify(QUICK_FIRE_NUMBERS));
 
   document.getElementById('totalCasesCount').textContent = CASES.length;
   document.getElementById('statSorDone').textContent = `${SOLVED_IDS.length}/${CASES.length}`;
@@ -1078,7 +1285,6 @@ function saveDatabase() {
 
   renderGamificationBar();
   updateSrsBadge();
-  updateSyncPillUI();
   scheduleAutoCloudPush();
 }
 
@@ -1114,14 +1320,6 @@ function renderGamificationBar() {
   document.getElementById('treeStageName').textContent = stage.name;
   document.getElementById('expNumbers').textContent = `${expInCurrentLvl} / ${expPerLevel} EXP (Suma: ${exp})`;
   document.getElementById('expBarInner').style.width = `${pct}%`;
-
-  if (stage.nextLvl) {
-    document.getElementById('treeNextEvolution').textContent =
-      `Następna ewolucja roślinki na Poziomie ${stage.nextLvl} (za ${stage.nextLvl - level} poz.) • Cel: Poziom 60 (Pradawne Drzewo)`;
-  } else {
-    document.getElementById('treeNextEvolution').textContent =
-      `Osiągnięto maksymalną formę: Pradawne Drzewo Mistrza LEK!`;
-  }
 
   const now = new Date();
   const todayStr = getTodayStr();
@@ -1167,15 +1365,6 @@ function renderGamificationBar() {
   document.getElementById('monthLogRatio').textContent = `${activeThisMonth}/${daysInMonth}`;
 
   const isTodayDone = USER_PROFILE.activeDates.includes(todayStr);
-  const statusEl = document.getElementById('todayStatusText');
-  if (isTodayDone) {
-    statusEl.textContent = "🔥 Dzisiejszy płomyczek zdobyty!";
-    statusEl.style.color = "var(--accent-emerald)";
-  } else {
-    statusEl.textContent = "❄️ Zrób 1 przypadek lub SRS!";
-    statusEl.style.color = "var(--accent-amber)";
-  }
-
   const homeTreeIcon = document.getElementById('homeTreeIcon');
   if (homeTreeIcon) {
     homeTreeIcon.textContent = stage.icon;
@@ -1183,26 +1372,9 @@ function renderGamificationBar() {
     document.getElementById('homeTreeStageName').textContent = stage.name;
     document.getElementById('homeExpNumbers').textContent = `${expInCurrentLvl} / ${expPerLevel} EXP (Łącznie: ${exp} EXP)`;
     document.getElementById('homeExpBarInner').style.width = `${pct}%`;
-    document.getElementById('homeTreeNextEvo').textContent = stage.nextLvl
-      ? `Następna ewolucja roślinki na Poziomie ${stage.nextLvl} (za ${stage.nextLvl - level} poz.)`
-      : `Osiągnięto maksymalną formę: Pradawne Drzewo Mistrza LEK!`;
-
     document.getElementById('homeStreakWeekRow').innerHTML = weekHtml;
-    document.getElementById('homeStreakDaysCount').textContent = `${USER_PROFILE.activeDates.length} ${USER_PROFILE.activeDates.length === 1 ? 'dzień' : 'dni'}`;
+    document.getElementById('homeStreakDaysCount').textContent = `${USER_PROFILE.activeDates.length} dni`;
     document.getElementById('homeMonthLogRatio').textContent = `Aktywne dni w tym miesiącu: ${activeThisMonth}/${daysInMonth}`;
-
-    const homeBanner = document.getElementById('homeTodayStatusBanner');
-    if (isTodayDone) {
-      homeBanner.textContent = "🔥 Dzisiejszy płomyczek dyżurowy zdobyty! Tak trzymaj!";
-      homeBanner.style.background = "rgba(16, 185, 129, 0.14)";
-      homeBanner.style.color = "var(--accent-emerald)";
-      homeBanner.style.borderColor = "rgba(16, 185, 129, 0.4)";
-    } else {
-      homeBanner.textContent = "❄️ Zrób dziś 1 przypadek, pytanie lub fiszkę, aby zapalić płomyczek!";
-      homeBanner.style.background = "rgba(245, 158, 11, 0.12)";
-      homeBanner.style.color = "var(--accent-amber)";
-      homeBanner.style.borderColor = "rgba(245, 158, 11, 0.3)";
-    }
 
     const totalCaseModules = CASES.length * 2;
     const doneCaseModules = SOLVED_IDS.length + PATHO_DONE_IDS.length;
@@ -1223,12 +1395,10 @@ function renderGamificationBar() {
     const grandTotalItems = totalCaseModules + totalQuestions + totalFlash;
     const grandDoneItems = doneCaseModules + doneGreenQuestions + doneFlash;
     const readinessPct = grandTotalItems > 0 ? ((grandDoneItems / grandTotalItems) * 100) : 0;
-    const readinessFormatted = readinessPct.toFixed(1) + '%';
 
-    document.getElementById('homeReadinessPct').textContent = readinessFormatted;
+    document.getElementById('homeReadinessPct').textContent = readinessPct.toFixed(1) + '%';
     document.getElementById('homeReadinessCounts').textContent = `${grandDoneItems} / ${grandTotalItems} opanowanych`;
-    const topBadge = document.getElementById('homeReadinessBadge');
-    if (topBadge) topBadge.textContent = `${Math.round(readinessPct)}%`;
+    document.getElementById('homeReadinessBadge').textContent = `${Math.round(readinessPct)}%`;
 
     const deg = Math.round((readinessPct / 100) * 360);
     document.getElementById('homeReadinessRing').style.background =
@@ -1240,10 +1410,8 @@ function renderGamificationBar() {
 
     document.getElementById('homeCasesStat').textContent = `${doneCaseModules} / ${totalCaseModules} (${casesPct}%)`;
     document.getElementById('homeCasesBar').style.width = `${casesPct}%`;
-
     document.getElementById('homeQuestionsStat').textContent = `${doneGreenQuestions} / ${totalQuestions} (${qPct}%)`;
     document.getElementById('homeQuestionsBar').style.width = `${qPct}%`;
-
     document.getElementById('homeFlashStat').textContent = `${doneFlash} / ${totalFlash} (${flPct}%)`;
     document.getElementById('homeFlashBar').style.width = `${flPct}%`;
   }
@@ -1278,19 +1446,13 @@ function renderSidebar() {
   const listEl = document.getElementById('caseList');
 
   if (CASES.length === 0) {
-    listEl.innerHTML = `
-      <div style="padding:16px; text-align:center; color:var(--text-muted); font-size:0.82rem; background:var(--bg-panel); border-radius:10px; border:1px dashed var(--border-color);">
-        Brak wczytanych przypadków.<br>Dodaj pliki JSON do folderu <code>cases/</code> na GitHubie (i zaktualizuj <code>cases/manifest.json</code>) lub kliknij „➕ Dograj paczkę przypadków”.
-      </div>
-    `;
+    listEl.innerHTML = `<div style="padding:16px; text-align:center; color:var(--text-muted); font-size:0.82rem;">Brak wczytanych przypadków w <code>cases/manifest.json</code>.</div>`;
     return;
   }
 
   const filtered = CASES.filter(c => {
     const isAll3Done = SOLVED_IDS.includes(c.id) && PATHO_DONE_IDS.includes(c.id) && isCaseLekFullyAnswered(c);
-    const matchDept = dept === 'ALL'
-      || (dept === 'INCOMPLETE' && !isAll3Done)
-      || c.dept === dept;
+    const matchDept = dept === 'ALL' || (dept === 'INCOMPLETE' && !isAll3Done) || c.dept === dept;
     const matchQ = c.shortTitle.toLowerCase().includes(q) || c.dept.toLowerCase().includes(q);
     return matchDept && matchQ;
   });
@@ -1302,34 +1464,19 @@ function renderSidebar() {
     const ansCount = getCaseLekAnsweredCount(c);
     const isLekDone = (qCount > 0 && ansCount === qCount);
     const isLekPartial = (ansCount > 0 && ansCount < qCount);
-
     const visitedNodes = PATHO_VISITED_NODES[c.id] || [];
     const totalNodes = c.pathoNodes ? c.pathoNodes.length : 0;
     const isPathoPartial = (!isPathoDone && visitedNodes.length > 0);
-
     const isActive = c.id === currentCaseId;
-    const allThreeDone = isSorDone && isPathoDone && isLekDone;
 
     return `
       <div class="case-item ${isActive ? 'active' : ''}" onclick="selectCase(${c.id})">
-        <div class="case-item-header">
-          <span>#${c.id} • ${c.dept}</span>
-          ${allThreeDone ? '<span class="status-done">✓✓✓ 100%</span>' : ''}
-        </div>
+        <div class="case-item-header"><span>#${c.id} • ${c.dept}</span></div>
         <div class="case-item-title">${c.shortTitle}</div>
         <div class="three-checks-row">
-          <div class="check-pill ${isSorDone ? 'done' : ''}" title="1. Ptaszek: Rozwiązanie przypadku klinicznego na SOR">
-            <span>${isSorDone ? '✓' : '○'}</span>
-            <span>1.Przypadek</span>
-          </div>
-          <div class="check-pill ${isPathoDone ? 'done' : (isPathoPartial ? 'partial' : '')}" title="2. Ptaszek: Przejrzenie interaktywnej mapy patomechanizmu">
-            <span>${isPathoDone ? '✓' : (isPathoPartial ? `${visitedNodes.length}/${totalNodes}` : '○')}</span>
-            <span>2.Patomech.</span>
-          </div>
-          <div class="check-pill ${isLekDone ? 'done' : (isLekPartial ? 'partial' : '')}" title="3. Ptaszek: Rozwiązanie wszystkich pytań w Dogrywce LEK">
-            <span>${isLekDone ? '✓' : `${ansCount}/${qCount}`}</span>
-            <span>3.LEK</span>
-          </div>
+          <div class="check-pill ${isSorDone ? 'done' : ''}"><span>${isSorDone ? '✓' : '○'}</span><span>1.Przypadek</span></div>
+          <div class="check-pill ${isPathoDone ? 'done' : (isPathoPartial ? 'partial' : '')}"><span>${isPathoDone ? '✓' : '○'}</span><span>2.Patomech.</span></div>
+          <div class="check-pill ${isLekDone ? 'done' : (isLekPartial ? 'partial' : '')}"><span>${isLekDone ? '✓' : `${ansCount}/${qCount}`}</span><span>3.LEK</span></div>
         </div>
       </div>
     `;
@@ -1353,16 +1500,12 @@ function pickRandomUnsolved() {
   if (CASES.length === 0) return;
   const incomplete = CASES.filter(c => !(SOLVED_IDS.includes(c.id) && PATHO_DONE_IDS.includes(c.id) && isCaseLekFullyAnswered(c)));
   const pool = incomplete.length > 0 ? incomplete : CASES;
-  const rnd = pool[Math.floor(Math.random() * pool.length)];
-  selectCase(rnd.id);
+  selectCase(pool[Math.floor(Math.random() * pool.length)].id);
 }
 
 function switchTab(tab) {
-  const homeEl = document.getElementById('viewHome');
-  if (homeEl) homeEl.style.display = tab === 'home' ? 'flex' : 'none';
-  const topGami = document.getElementById('topGamiBar');
-  if (topGami) topGami.style.display = tab === 'home' ? 'none' : 'grid';
-
+  document.getElementById('viewHome').style.display = tab === 'home' ? 'flex' : 'none';
+  document.getElementById('topGamiBar').style.display = tab === 'home' ? 'none' : 'grid';
   document.getElementById('viewSim').style.display = tab === 'sim' ? 'grid' : 'none';
   document.getElementById('viewPatho').style.display = tab === 'patho' ? 'block' : 'none';
   document.getElementById('viewLek').style.display = tab === 'lek' ? 'block' : 'none';
@@ -1370,31 +1513,20 @@ function switchTab(tab) {
   document.getElementById('viewFlash').style.display = tab === 'flash' ? 'block' : 'none';
   document.getElementById('viewStar').style.display = tab === 'star' ? 'block' : 'none';
 
-  const tabHomeBtn = document.getElementById('tabHome');
-  if (tabHomeBtn) tabHomeBtn.classList.toggle('active', tab === 'home');
-  document.getElementById('tabSim').classList.toggle('active', tab === 'sim');
-  document.getElementById('tabPatho').classList.toggle('active', tab === 'patho');
-  document.getElementById('tabLek').classList.toggle('active', tab === 'lek');
-  document.getElementById('tabSrs').classList.toggle('active', tab === 'srs');
-  document.getElementById('tabFlash').classList.toggle('active', tab === 'flash');
-  document.getElementById('tabStar').classList.toggle('active', tab === 'star');
+  ['home','sim','patho','lek','srs','flash','star'].forEach(t => {
+    const btn = document.getElementById('tab' + t.charAt(0).toUpperCase() + t.slice(1));
+    if (btn) btn.classList.toggle('active', tab === t);
+  });
 
   if (tab === 'home') renderGamificationBar();
-  if (tab === 'patho' && pathoUnlocked) { recordNodeVisit(0); renderPatho(); }
+  else if (tab === 'patho' && pathoUnlocked) { recordNodeVisit(0); renderPatho(); }
   else if (tab === 'srs') { buildSrsQueue(); renderSrsView(); }
-  else if (tab === 'flash') { renderFlashTab(); }
-  else if (tab === 'star') { renderStarredTab(); }
+  else if (tab === 'flash') renderFlashTab();
+  else if (tab === 'star') renderStarredTab();
 }
 
-function toggleLabs() {
-  document.getElementById('labsTable').classList.toggle('open');
-}
-
-function unlockPatho() {
-  pathoUnlocked = true;
-  recordNodeVisit(0);
-  renderPatho();
-}
+function toggleLabs() { document.getElementById('labsTable').classList.toggle('open'); }
+function unlockPatho() { pathoUnlocked = true; recordNodeVisit(0); renderPatho(); }
 
 function recordNodeVisit(nodeIdx) {
   const c = getCurrentCase();
@@ -1405,9 +1537,7 @@ function recordNodeVisit(nodeIdx) {
   if (totalNodes > 0 && PATHO_VISITED_NODES[c.id].length >= totalNodes && !PATHO_DONE_IDS.includes(c.id)) {
     PATHO_DONE_IDS.push(c.id);
     addExp(25, `Przejrzano cały Patomechanizm #${c.id}! (2. Ptaszek ✓)`);
-  } else {
-    saveDatabase();
-  }
+  } else { saveDatabase(); }
   renderSidebar();
 }
 
@@ -1419,32 +1549,19 @@ function markCurrentPathoComplete() {
   if (!PATHO_DONE_IDS.includes(c.id)) {
     PATHO_DONE_IDS.push(c.id);
     addExp(25, `Zaliczono Patomechanizm #${c.id}! (2. Ptaszek ✓)`);
-  } else {
-    saveDatabase();
-  }
+  } else { saveDatabase(); }
   renderSidebar();
   renderPatho();
 }
 
 function togglePathoPhase() {
   pathoTreatedPhase = !pathoTreatedPhase;
-  const btn = document.getElementById('phaseToggleBtn');
-  btn.textContent = pathoTreatedPhase ? '🟢 Widok: Efekt leczenia (Kliknij by zmienić)' : '🔴 Widok: Stan patologii (Kliknij by zmienić)';
   renderPatho();
 }
 
 function renderAll() {
   const c = getCurrentCase();
-  if (!c) {
-    document.getElementById('deptBadge').textContent = 'Brak przypadków';
-    document.getElementById('patientStory').innerHTML = '<p>Dodaj pliki przypadków do folderu <code>cases/</code> na GitHubie lub dograj paczkę JSON.</p>';
-    document.getElementById('vitalsGrid').innerHTML = '';
-    document.getElementById('labsBody').innerHTML = '';
-    document.getElementById('stepProgress').innerHTML = '';
-    document.getElementById('stepContainer').innerHTML = '<p style="color:var(--text-muted);">Oczekiwanie na wczytanie bazy przypadków z folderu <code>cases/</code>...</p>';
-    return;
-  }
-
+  if (!c) return;
   document.getElementById('deptBadge').textContent = c.dept;
   document.getElementById('patientStory').innerHTML = c.story;
   document.getElementById('lekTabCount').textContent = `${c.lekQuestions ? c.lekQuestions.length : 0} pytań`;
@@ -1458,11 +1575,7 @@ function renderAll() {
   `).join('');
 
   document.getElementById('labsBody').innerHTML = c.labs.map(row => `
-    <tr>
-      <td><strong>${row[0]}</strong></td>
-      <td>${row[1]}</td>
-      <td style="color: var(--accent-amber);">${row[2]}</td>
-    </tr>
+    <tr><td><strong>${row[0]}</strong></td><td>${row[1]}</td><td style="color: var(--accent-amber);">${row[2]}</td></tr>
   `).join('');
 
   renderStep();
@@ -1486,61 +1599,23 @@ function renderStep() {
     if (!SOLVED_IDS.includes(c.id)) {
       SOLVED_IDS.push(c.id);
       addExp(50, `Ukończono Przypadek #${c.id}! (1. Ptaszek ✓)`);
-    } else {
-      markTodayActive();
-      saveDatabase();
-    }
+    } else { saveDatabase(); }
     renderSidebar();
 
     const ds = c.dutySummary || {};
-    const qCount = c.lekQuestions ? c.lekQuestions.length : 0;
-
     container.innerHTML = `
-      <div style="text-align: center; padding: 8px 4px 16px 4px;">
-        <h2 style="margin-bottom: 4px; color: var(--accent-emerald);">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>
-        <p style="color: var(--text-muted); font-size: 0.94rem;">
-          Rozpoznanie ostateczne: <strong style="color: var(--text-main);">${c.diagnosisTitle}</strong>
-        </p>
-
+      <div style="text-align: center; padding: 8px;">
+        <h2 style="color: var(--accent-emerald);">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>
+        <p style="color: var(--text-muted);">Rozpoznanie: <strong style="color: var(--text-main);">${c.diagnosisTitle}</strong></p>
         <div class="duty-summary-box">
-          <div class="duty-summary-header">
-            <span style="font-size: 1.5rem;">📌</span>
-            <div>
-              <h3 style="color: var(--accent-blue); font-size: 1.12rem;">Zapamiętaj na swój dyżur – Złoty Standard Postępowania</h3>
-              <p style="font-size: 0.78rem; color: var(--text-muted);">Esencja wytycznych klinicznych, dawkowanie leków i porównanie różnicowe 1 vs 1</p>
-            </div>
-          </div>
-
-          <div style="margin-bottom: 14px; font-size: 0.88rem; color: #f1f5f9; background: rgba(56, 189, 248, 0.08); padding: 12px; border-radius: 10px; border-left: 3px solid var(--accent-blue);">
-            <strong>💡 Istota choroby i pułapki:</strong> ${ds.overview || ''}
-          </div>
-
+          <div style="margin-bottom: 14px;"><strong>💡 Istota choroby:</strong> ${ds.overview || ''}</div>
           <div class="duty-grid">
-            <div class="duty-item">
-              <div class="duty-item-title">🔬 1. Niezbędne badania (Złoty Standard)</div>
-              <div class="duty-item-body">${ds.diagnostics || ''}</div>
-            </div>
-            <div class="duty-item">
-              <div class="duty-item-title">💊 2. Leki i Dokładne Dawkowanie</div>
-              <div class="duty-item-body">${ds.drugsAndDoses || ''}</div>
-            </div>
-            <div class="duty-item">
-              <div class="duty-item-title">⚡ 3. Zabiegi i Procedury Inwazyjne</div>
-              <div class="duty-item-body">${ds.procedures || ''}</div>
-            </div>
-            <div class="duty-item">
-              <div class="duty-item-title">⏱️ 4. Kontrola i Monitorowanie</div>
-              <div class="duty-item-body">${ds.monitoring || ''}</div>
-            </div>
+            <div class="duty-item"><div class="duty-item-title">🔬 1. Diagnostyka</div><div class="duty-item-body">${ds.diagnostics || ''}</div></div>
+            <div class="duty-item"><div class="duty-item-title">💊 2. Leki i Dawki</div><div class="duty-item-body">${ds.drugsAndDoses || ''}</div></div>
+            <div class="duty-item"><div class="duty-item-title">⚡ 3. Procedury</div><div class="duty-item-body">${ds.procedures || ''}</div></div>
+            <div class="duty-item"><div class="duty-item-title">⏱️ 4. Monitorowanie</div><div class="duty-item-body">${ds.monitoring || ''}</div></div>
           </div>
-
           ${renderDiffTableHtml(c.diffTable)}
-        </div>
-
-        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 18px;">
-          <button class="next-step-btn" onclick="switchTab('patho');">🧬 Krok 2/3: Przejrzyj Patomechanizm →</button>
-          <button class="next-step-btn" style="background: var(--accent-indigo); color: white;" onclick="switchTab('lek')">🎓 Krok 3/3: Rozwiąż Dogrywkę LEK (${qCount} pytań) →</button>
-          <button class="next-step-btn" style="background: var(--accent-emerald); color: #0f172a;" onclick="pickRandomUnsolved()">🎲 Losuj kolejny przypadek →</button>
         </div>
       </div>
     `;
@@ -1569,7 +1644,6 @@ function checkOption(idx) {
   if (!c || currentStepIdx >= c.steps.length) return;
   const s = c.steps[currentStepIdx];
   if (!s.options[idx]) return;
-
   const chosen = s.options[idx];
   const btn = document.getElementById(`optBtn_${idx}`);
   const fb = document.getElementById('stepFeedback');
@@ -1577,20 +1651,11 @@ function checkOption(idx) {
   if (chosen.correct) {
     btn.classList.add('correct');
     fb.className = 'feedback-box correct';
-    fb.innerHTML = `
-      <div style="font-weight:700; color: var(--accent-emerald); margin-bottom:4px;">Świetna decyzja!</div>
-      <div>${chosen.feedback}</div>
-      <button class="next-step-btn" id="continueBtn" onclick="currentStepIdx++; renderStep();">
-        ${currentStepIdx + 1 < c.steps.length ? 'Przejdź do kolejnego kroku (Spacja) →' : 'Zakończ przypadek i odbierz 1. ptaszek ✓ (Spacja) →'}
-      </button>
-    `;
+    fb.innerHTML = `<div>${chosen.feedback}</div><button class="next-step-btn" id="continueBtn" onclick="currentStepIdx++; renderStep();">Dalej (Spacja) →</button>`;
   } else {
     btn.classList.add('wrong');
     fb.className = 'feedback-box wrong';
-    fb.innerHTML = `
-      <div style="font-weight:700; color: var(--accent-rose); margin-bottom:4px;">Uwaga – pułapka!</div>
-      <div>${chosen.feedback}</div>
-    `;
+    fb.innerHTML = `<div>${chosen.feedback}</div>`;
   }
 }
 
@@ -1607,43 +1672,22 @@ function renderPatho() {
   document.getElementById('pathoContent').style.display = pathoUnlocked ? 'block' : 'none';
   if (!pathoUnlocked) return;
 
-  const isDone = PATHO_DONE_IDS.includes(c.id);
   const visited = PATHO_VISITED_NODES[c.id] || [];
-  const markBtn = document.getElementById('markPathoBtn');
-  if (markBtn) {
-    if (isDone) {
-      markBtn.textContent = "✓ Patomechanizm zaliczony (2. Ptaszek zdobyty!)";
-      markBtn.style.background = "rgba(16, 185, 129, 0.2)";
-    } else {
-      markBtn.textContent = `✓ Oznacz Patomechanizm jako przejrzany (${visited.length}/${c.pathoNodes.length} ogniw)`;
-      markBtn.style.background = "transparent";
-    }
-  }
-
   document.getElementById('pathoTitle').textContent = c.diagnosisTitle;
-  document.getElementById('nodesGrid').innerHTML = c.pathoNodes.map((n, i) => {
-    const isVis = visited.includes(i) || isDone;
-    return `
-      <div class="patho-node ${i === selectedNodeIdx ? 'selected' : ''} ${isVis ? 'visited-node' : ''} ${pathoTreatedPhase ? 'treated' : ''}" onclick="selectPathoNode(${i})">
-        <span class="node-step-badge">
-          <span>${n.badge}</span>
-          ${isVis ? '<span style="color:var(--accent-emerald);">✓</span>' : ''}
-        </span>
-        <div style="font-weight:700; margin-bottom:4px;">${n.title}</div>
-        <div style="font-size:0.82rem; color: var(--text-muted);">${n.short}</div>
-      </div>
-    `;
-  }).join('');
+  document.getElementById('nodesGrid').innerHTML = c.pathoNodes.map((n, i) => `
+    <div class="patho-node ${i === selectedNodeIdx ? 'selected' : ''} ${visited.includes(i) ? 'visited-node' : ''}" onclick="selectPathoNode(${i})">
+      <span class="node-step-badge"><span>${n.badge}</span></span>
+      <div style="font-weight:700;">${n.title}</div>
+      <div style="font-size:0.82rem; color: var(--text-muted);">${n.short}</div>
+    </div>
+  `).join('');
 
   const activeNode = c.pathoNodes[selectedNodeIdx] || c.pathoNodes[0];
   document.getElementById('nodeDetailPanel').innerHTML = `
-    <h3 style="color: var(--accent-blue); margin-bottom:6px;">🔍 ${activeNode.title}</h3>
+    <h3 style="color: var(--accent-blue);">${activeNode.title}</h3>
     <p>${activeNode.detail}</p>
-    <div class="drug-target-box">
-      <strong>💊 Punkt uchwytu i dawkowanie / Klucz LEK:</strong> ${activeNode.target}
-    </div>
+    <div class="drug-target-box"><strong>💊 Punkt uchwytu:</strong> ${activeNode.target}</div>
   `;
-
   document.getElementById('pathoDiffTableContainer').innerHTML = renderDiffTableHtml(c.diffTable);
 }
 
@@ -1657,79 +1701,39 @@ function toggleStarQuestion(key) {
 
 function renderLekCarousel() {
   const c = getCurrentCase();
-  if (!c) return;
-  const qs = c.lekQuestions || [];
-  if (qs.length === 0) return;
-
+  if (!c || !c.lekQuestions || c.lekQuestions.length === 0) return;
+  const qs = c.lekQuestions;
   if (currentLekIdx >= qs.length) currentLekIdx = 0;
 
-  const stripEl = document.getElementById('lekProgressStrip');
-  stripEl.innerHTML = qs.map((qObj, i) => {
+  document.getElementById('lekProgressStrip').innerHTML = qs.map((_, i) => {
     const key = `${c.id}_${i}`;
     const st = LEK_STATUS[key];
-    const isStar = STARRED_KEYS.includes(key);
-    let cls = 'lek-seg';
-    if (i === currentLekIdx) cls += ' current';
-    if (st === 'green') cls += ' green';
-    else if (st === 'red') cls += ' red';
-
-    let icon = `Pyt. ${i + 1}`;
-    if (st === 'green') icon = `✓ ${i + 1}`;
-    else if (st === 'red') icon = `✗ ${i + 1}`;
-    if (isStar) icon += ` ⭐`;
-
-    return `<div class="${cls}" onclick="currentLekIdx=${i}; renderLekCarousel();">${icon}</div>`;
+    return `<div class="lek-seg ${i === currentLekIdx ? 'current' : ''} ${st || ''}" onclick="currentLekIdx=${i}; renderLekCarousel();">${i + 1}</div>`;
   }).join('');
 
   const qItem = qs[currentLekIdx];
   const key = `${c.id}_${currentLekIdx}`;
   const st = LEK_STATUS[key];
   const isStar = STARRED_KEYS.includes(key);
-  const tagBadge = qItem.tag ? `<span class="q-tag-pill">${qItem.tag}</span>` : '';
 
-  const boxEl = document.getElementById('lekSingleQuestionBox');
-  boxEl.innerHTML = `
+  document.getElementById('lekSingleQuestionBox').innerHTML = `
     <div style="background: var(--bg-panel); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px;">
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
-        <div>
-          <span style="font-size:0.78rem; color: var(--accent-blue); font-weight:700; text-transform:uppercase;">
-            Pytanie ${currentLekIdx + 1} z ${qs.length} • ${c.dept}
-          </span>
-          ${tagBadge}
-        </div>
-        <div style="display:flex; align-items:center; gap:10px;">
-          ${st === 'green' ? '<span style="color:var(--accent-emerald); font-size:0.8rem; font-weight:700;">🟢 Bezbłędnie</span>' : ''}
-          ${st === 'red' ? '<span style="color:var(--accent-rose); font-size:0.8rem; font-weight:700;">🔴 Błąd (W SRS!)</span>' : ''}
-          <button class="star-btn ${isStar ? 'starred' : ''}" onclick="toggleStarQuestion('${key}')">
-            ${isStar ? '⭐ W Zakładce #6 (Z Gwiazdką)' : '☆ Oznacz Gwiazdką (Do Zakładki #6)'}
-          </button>
-        </div>
+      <div style="display:flex; justify-content:space-between; margin-bottom:12px;">
+        <span style="font-size:0.8rem; color:var(--accent-blue); font-weight:700;">Pytanie ${currentLekIdx + 1}/${qs.length}</span>
+        <button class="star-btn ${isStar ? 'starred' : ''}" onclick="toggleStarQuestion('${key}')">${isStar ? '⭐ Z Gwiazdką' : '☆ Oznacz Gwiazdką'}</button>
       </div>
-
-      <div style="font-weight:700; font-size: 1.02rem; margin-bottom: 16px; line-height: 1.55;">${qItem.q}</div>
-
+      <div style="font-weight:700; margin-bottom:16px;">${qItem.q}</div>
       <div class="options-list">
         ${qItem.opts.map((optText, oIdx) => `
-          <button class="option-btn ${st && oIdx === qItem.correctIdx ? 'correct' : ''}" id="lekCar_${oIdx}" onclick="answerLekCarousel(${oIdx})">
-            <span>${optText}</span>
-          </button>
+          <button class="option-btn ${st && oIdx === qItem.correctIdx ? 'correct' : ''}" id="lekCar_${oIdx}" onclick="answerLekCarousel(${oIdx})"><span>${optText}</span></button>
         `).join('')}
       </div>
-
       <div id="lekCarFeedback" class="feedback-box ${st ? (st === 'green' ? 'correct' : 'wrong') : ''}">
-        ${st ? `<strong>Wyjaśnienie LEK:</strong> ${qItem.exp}` : ''}
+        ${st ? `<strong>Wyjaśnienie:</strong> ${qItem.exp}` : ''}
       </div>
-
       <div class="carousel-controls">
-        <button class="db-btn" onclick="prevLekQuestion()" ${currentLekIdx === 0 ? 'disabled style="opacity:0.4; cursor:default;"' : ''}>
-          ← Poprzednie pytanie
-        </button>
-        <span style="font-size: 0.8rem; color: var(--text-muted);">
-          Postęp pytań w tym przypadku: <strong>${getCaseLekAnsweredCount(c)}/${qs.length}</strong>
-        </span>
-        <button class="next-step-btn" style="margin-top:0;" id="nextLekBtn" onclick="nextLekQuestion()">
-          ${currentLekIdx + 1 < qs.length ? 'Następne pytanie →' : 'Zakończ Dogrywkę / Sprawdź SRS →'}
-        </button>
+        <button class="db-btn" onclick="prevLekQuestion()">← Poprzednie</button>
+        <button class="next-step-btn" style="margin-top:0;" onclick="nextLekQuestion()">Następne →</button>
       </div>
     </div>
   `;
@@ -1740,409 +1744,147 @@ function answerLekCarousel(oIdx) {
   if (!c) return;
   const qItem = c.lekQuestions[currentLekIdx];
   const key = `${c.id}_${currentLekIdx}`;
-  const btn = document.getElementById(`lekCar_${oIdx}`);
-  const fb = document.getElementById('lekCarFeedback');
-
   const isCorrect = (oIdx === qItem.correctIdx);
   const firstAttempt = !LEK_STATUS[key];
 
   if (isCorrect) {
-    btn.classList.add('correct');
-    if (firstAttempt) {
-      LEK_STATUS[key] = 'green';
-      scheduleSrsCard(key, true);
-      addExp(15, `Pytanie LEK bezbłędnie! (+15 EXP)`);
-    }
-    fb.className = 'feedback-box correct';
-    fb.innerHTML = `
-      <div style="font-weight:700; color:var(--accent-emerald); margin-bottom:4px;">
-        ✅ Prawidłowa odpowiedź! ${firstAttempt ? '(Pasek: 🟢 Zielony • Pytanie zaplanowane w SRS)' : ''}
-      </div>
-      <div>${qItem.exp}</div>
-    `;
+    if (firstAttempt) { LEK_STATUS[key] = 'green'; scheduleSrsCard(key, true); addExp(15, 'Pytanie LEK +15 EXP'); }
   } else {
-    btn.classList.add('wrong');
     if (firstAttempt) LEK_STATUS[key] = 'red';
     scheduleSrsCard(key, false);
-    markTodayActive();
-
-    fb.className = 'feedback-box wrong';
-    fb.innerHTML = `
-      <div style="font-weight:700; color:var(--accent-rose); margin-bottom:4px;">
-        ❌ Błędna odpowiedź! Pasek oznaczony na 🔴 Czerwono – pytanie automatycznie trafiło do zakładki „Powtórki SRS”!
-      </div>
-      <div><strong>Wyjaśnienie:</strong> ${qItem.exp}</div>
-    `;
   }
-
   if (isCaseLekFullyAnswered(c) && !LEK_DONE_IDS.includes(c.id)) {
     LEK_DONE_IDS.push(c.id);
-    addExp(30, `Wszystkie pytania LEK z Przypadku #${c.id} zrobione! (3. Ptaszek ✓)`);
+    addExp(30, `Komplet pytań LEK #${c.id}!`);
   }
-
-  saveDatabase();
-  renderSidebar();
-  const stripEl = document.getElementById('lekProgressStrip');
-  const segs = stripEl.querySelectorAll('.lek-seg');
-  if (segs[currentLekIdx]) {
-    const isStar = STARRED_KEYS.includes(key);
-    segs[currentLekIdx].className = `lek-seg current ${LEK_STATUS[key]}`;
-    segs[currentLekIdx].textContent = `${LEK_STATUS[key] === 'green' ? '✓' : '✗'} ${currentLekIdx + 1}${isStar ? ' ⭐' : ''}`;
-  }
-}
-
-function prevLekQuestion() {
-  if (currentLekIdx > 0) { currentLekIdx--; renderLekCarousel(); }
-}
-
-function nextLekQuestion() {
-  const c = getCurrentCase();
-  if (!c) return;
-  if (currentLekIdx + 1 < c.lekQuestions.length) {
-    currentLekIdx++;
-    renderLekCarousel();
-  } else {
-    switchTab('srs');
-  }
-}
-
-function resetCurrentCaseLekStrip() {
-  const c = getCurrentCase();
-  if (!c) return;
-  if (!confirm(`Wyczyścić kolory paska (zielony/czerwony) dla Przypadku #${c.id}?`)) return;
-  const qCount = c.lekQuestions ? c.lekQuestions.length : 0;
-  for (let i = 0; i < qCount; i++) delete LEK_STATUS[`${c.id}_${i}`];
-  LEK_DONE_IDS = LEK_DONE_IDS.filter(id => id !== c.id);
-  currentLekIdx = 0;
   saveDatabase();
   renderSidebar();
   renderLekCarousel();
 }
 
-// ============================================================================
-// SPACED REPETITION SYSTEM (SRS)
-// ============================================================================
+function prevLekQuestion() { if (currentLekIdx > 0) { currentLekIdx--; renderLekCarousel(); } }
+function nextLekQuestion() {
+  const c = getCurrentCase();
+  if (c && currentLekIdx + 1 < c.lekQuestions.length) { currentLekIdx++; renderLekCarousel(); }
+}
+
+function resetCurrentCaseLekStrip() {
+  const c = getCurrentCase();
+  if (!c) return;
+  for (let i = 0; i < (c.lekQuestions || []).length; i++) delete LEK_STATUS[`${c.id}_${i}`];
+  LEK_DONE_IDS = LEK_DONE_IDS.filter(id => id !== c.id);
+  saveDatabase();
+  renderSidebar();
+  renderLekCarousel();
+}
+
 function scheduleSrsCard(key, isCorrect) {
   const now = Date.now();
-  const dayMs = 86400000;
   const existing = SRS_DB[key] || { box: 0, dueTime: 0, wrongFlag: false };
-
-  if (!isCorrect) {
-    existing.box = 0;
-    existing.wrongFlag = true;
-    existing.dueTime = now;
-  } else {
+  if (!isCorrect) { existing.box = 0; existing.wrongFlag = true; existing.dueTime = now; }
+  else {
     existing.wrongFlag = false;
     existing.box = Math.min(SRS_INTERVAL_DAYS.length - 1, (existing.box || 0) + 1);
-    const days = SRS_INTERVAL_DAYS[existing.box];
-    existing.dueTime = now + (days * dayMs);
+    existing.dueTime = now + (SRS_INTERVAL_DAYS[existing.box] * 86400000);
   }
   SRS_DB[key] = existing;
 }
 
 function updateSrsBadge() {
   const now = Date.now();
-  let dueCount = 0;
-  let wrongCount = 0;
-  let learningCount = 0;
-  let masteredCount = 0;
-
-  Object.keys(SRS_DB).forEach(k => {
-    const item = SRS_DB[k];
-    if (item.wrongFlag) { wrongCount++; dueCount++; }
-    else if (item.dueTime <= now) { dueCount++; }
-    if (item.box >= 1 && item.box <= 3) learningCount++;
-    if (item.box >= 4) masteredCount++;
-  });
-
-  const badge = document.getElementById('srsDueBadge');
-  badge.textContent = dueCount;
-  badge.classList.toggle('urgent', dueCount > 0);
-
-  const elWrong = document.getElementById('srsStatWrong');
-  if (elWrong) {
-    elWrong.textContent = wrongCount;
-    document.getElementById('srsStatDue').textContent = Math.max(0, dueCount - wrongCount);
-    document.getElementById('srsStatLearning').textContent = learningCount;
-    document.getElementById('srsStatMastered').textContent = masteredCount;
-  }
+  let due = 0;
+  Object.keys(SRS_DB).forEach(k => { if (SRS_DB[k].wrongFlag || SRS_DB[k].dueTime <= now) due++; });
+  document.getElementById('srsDueBadge').textContent = due;
 }
 
 function buildSrsQueue() {
   const now = Date.now();
-  const dueKeys = Object.keys(SRS_DB).filter(k => SRS_DB[k].wrongFlag || SRS_DB[k].dueTime <= now);
-  dueKeys.sort((a, b) => (SRS_DB[b].wrongFlag ? 1 : 0) - (SRS_DB[a].wrongFlag ? 1 : 0));
-  srsQueue = dueKeys;
-  currentSrsItem = srsQueue.length > 0 ? srsQueue[0] : null;
+  srsQueue = Object.keys(SRS_DB).filter(k => SRS_DB[k].wrongFlag || SRS_DB[k].dueTime <= now);
+  currentSrsItem = srsQueue[0] || null;
 }
 
 function startRandomBonusSrs() {
   const allKeys = [];
-  CASES.forEach(c => {
-    (c.lekQuestions || []).forEach((_, qIdx) => allKeys.push(`${c.id}_${qIdx}`));
-  });
-  for (let i = allKeys.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [allKeys[i], allKeys[j]] = [allKeys[j], allKeys[i]];
-  }
-  srsQueue = allKeys.slice(0, 5);
+  CASES.forEach(c => (c.lekQuestions || []).forEach((_, qIdx) => allKeys.push(`${c.id}_${qIdx}`)));
+  srsQueue = allKeys.sort(() => Math.random() - 0.5).slice(0, 5);
   currentSrsItem = srsQueue[0] || null;
   renderSrsView();
 }
 
 function renderSrsView() {
-  updateSrsBadge();
   const area = document.getElementById('srsActiveCardArea');
   if (!currentSrsItem) {
-    area.innerHTML = `
-      <div style="text-align:center; padding:32px; background:var(--bg-panel); border-radius:var(--radius-md); border:1px solid var(--border-color);">
-        <h3 style="color:var(--accent-emerald); margin-bottom:8px;">🎉 Wszystkie zaplanowane powtórki na dziś zrobione!</h3>
-        <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:14px;">Możesz wylosować 5 dodatkowych pytań z całej bazy przyciskiem powyżej.</p>
-      </div>
-    `;
+    area.innerHTML = `<div style="padding:24px; text-align:center; color:var(--accent-emerald);">🎉 Wszystkie powtórki na dziś zrobione!</div>`;
     return;
   }
-
-  const [caseIdStr, qIdxStr] = currentSrsItem.split('_');
-  const c = CASES.find(x => x.id === Number(caseIdStr));
-  if (!c || !c.lekQuestions[Number(qIdxStr)]) {
-    srsQueue.shift();
-    currentSrsItem = srsQueue[0] || null;
-    renderSrsView();
-    return;
-  }
-
-  const qItem = c.lekQuestions[Number(qIdxStr)];
-  const srsMeta = SRS_DB[currentSrsItem] || { box: 0, wrongFlag: false };
-
+  const [cId, qIdx] = currentSrsItem.split('_');
+  const c = CASES.find(x => x.id === Number(cId));
+  if (!c || !c.lekQuestions[Number(qIdx)]) { srsQueue.shift(); currentSrsItem = srsQueue[0] || null; renderSrsView(); return; }
+  const qItem = c.lekQuestions[Number(qIdx)];
   area.innerHTML = `
-    <div style="background:var(--bg-panel); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:20px;">
-      <div style="display:flex; justify-content:space-between; margin-bottom:10px; font-size:0.78rem; color:var(--accent-blue); font-weight:700;">
-        <span>POWTÓRKA SRS (${srsQueue.length} w kolejce) • Przypadek #${c.id} (${c.dept})</span>
-        <span>Poziom pamięci: Box ${srsMeta.box || 0}</span>
-      </div>
-      <div style="font-weight:700; font-size:1.02rem; margin-bottom:16px;">${qItem.q}</div>
+    <div style="background:var(--bg-panel); padding:20px; border-radius:12px;">
+      <div style="font-weight:700; margin-bottom:14px;">${qItem.q}</div>
       <div class="options-list">
-        ${qItem.opts.map((optText, oIdx) => `
-          <button class="option-btn" id="srsOpt_${oIdx}" onclick="answerSrsCard(${oIdx})">
-            <span>${optText}</span>
-          </button>
-        `).join('')}
+        ${qItem.opts.map((opt, i) => `<button class="option-btn" onclick="answerSrsCard(${i})"><span>${opt}</span></button>`).join('')}
       </div>
-      <div id="srsFeedbackBox" class="feedback-box"></div>
     </div>
   `;
 }
 
 function answerSrsCard(oIdx) {
-  const [caseIdStr, qIdxStr] = currentSrsItem.split('_');
-  const c = CASES.find(x => x.id === Number(caseIdStr));
-  const qItem = c.lekQuestions[Number(qIdxStr)];
-  const isCorrect = (oIdx === qItem.correctIdx);
-  const btn = document.getElementById(`srsOpt_${oIdx}`);
-  const fb = document.getElementById('srsFeedbackBox');
-
-  if (isCorrect) {
-    btn.classList.add('correct');
-    LEK_STATUS[currentSrsItem] = 'green';
-    scheduleSrsCard(currentSrsItem, true);
-    addExp(20, 'Powtórka SRS zaliczona! (+20 EXP)');
-    fb.className = 'feedback-box correct';
-    fb.innerHTML = `
-      <div style="font-weight:700; color:var(--accent-emerald); margin-bottom:6px;">✅ Doskonale! Pasek w Dogrywce zmienił kolor na 🟢 Zielony!</div>
-      <div>${qItem.exp}</div>
-      <button class="next-step-btn" onclick="nextSrsCard()">Następna karta SRS →</button>
-    `;
-  } else {
-    btn.classList.add('wrong');
-    LEK_STATUS[currentSrsItem] = 'red';
-    scheduleSrsCard(currentSrsItem, false);
-    saveDatabase();
-    fb.className = 'feedback-box wrong';
-    fb.innerHTML = `
-      <div style="font-weight:700; color:var(--accent-rose); margin-bottom:6px;">❌ Błąd – karta zostaje w Box 0 do powtórki.</div>
-      <div>${qItem.exp}</div>
-      <button class="next-step-btn" onclick="nextSrsCard()">Dalej →</button>
-    `;
-  }
-  renderSidebar();
-}
-
-function nextSrsCard() {
+  const [cId, qIdx] = currentSrsItem.split('_');
+  const c = CASES.find(x => x.id === Number(cId));
+  const qItem = c.lekQuestions[Number(qIdx)];
+  scheduleSrsCard(currentSrsItem, oIdx === qItem.correctIdx);
+  if (oIdx === qItem.correctIdx) { LEK_STATUS[currentSrsItem] = 'green'; addExp(20, 'SRS +20 EXP'); }
+  saveDatabase();
   srsQueue.shift();
   currentSrsItem = srsQueue[0] || null;
   renderSrsView();
 }
 
-// ============================================================================
-// ZAKŁADKA #5: FISZKI
-// ============================================================================
 function getFilteredFlashcards() {
   const cat = document.getElementById('flashCatFilter').value;
-  if (cat === 'ALL') return QUICK_FIRE_NUMBERS;
-  return QUICK_FIRE_NUMBERS.filter(f => f.cat === cat);
+  return cat === 'ALL' ? QUICK_FIRE_NUMBERS : QUICK_FIRE_NUMBERS.filter(f => f.cat === cat);
 }
 
 function renderFlashTab() {
   const list = getFilteredFlashcards();
-  if (list.length === 0) {
-    document.getElementById('qfCategory').textContent = 'Brak fiszek';
-    document.getElementById('qfQuestion').textContent = 'Fiszki załadują się automatycznie wraz z przypadkami z folderu cases/.';
-    document.getElementById('qfAnswerBox').style.display = 'none';
-    document.getElementById('flashAllListContainer').innerHTML = '';
-    return;
-  }
+  if (list.length === 0) return;
   if (currentQfIdx >= list.length) currentQfIdx = 0;
   const item = list[currentQfIdx];
-  const globalIdx = QUICK_FIRE_NUMBERS.indexOf(item);
-  const isDone = FLASH_DONE_INDICES.includes(globalIdx);
-
-  document.getElementById('qfCategory').textContent = `${item.cat} • Fiszka ${currentQfIdx + 1}/${list.length} ${isDone ? '✓ (Opanowana)' : ''}`;
+  document.getElementById('qfCategory').textContent = `${item.cat} (${currentQfIdx + 1}/${list.length})`;
   document.getElementById('qfQuestion').textContent = item.q;
-  const ansBox = document.getElementById('qfAnswerBox');
-  ansBox.style.display = 'none';
-  ansBox.textContent = item.a;
-
-  document.getElementById('flashAllListContainer').innerHTML = list.map((f, i) => `
-    <div style="background:var(--bg-panel); border:1px solid var(--border-color); border-radius:10px; padding:12px 14px; margin-bottom:8px; display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap;">
-      <div><strong>${i + 1}. [${f.cat}]</strong> ${f.q}</div>
-      <div style="color:var(--accent-emerald); font-weight:700;">${f.a}</div>
-    </div>
-  `).join('');
+  document.getElementById('qfAnswerBox').style.display = 'none';
+  document.getElementById('qfAnswerBox').textContent = item.a;
 }
 
 function revealQuickFire() {
   const list = getFilteredFlashcards();
   if (list.length === 0) return;
   document.getElementById('qfAnswerBox').style.display = 'block';
-  const item = list[currentQfIdx];
-  const globalIdx = QUICK_FIRE_NUMBERS.indexOf(item);
-  if (globalIdx >= 0 && !FLASH_DONE_INDICES.includes(globalIdx)) {
-    FLASH_DONE_INDICES.push(globalIdx);
-    addExp(10, 'Opanowano nową fiszkę LEK! (+10 EXP)');
-  }
+  const idx = QUICK_FIRE_NUMBERS.indexOf(list[currentQfIdx]);
+  if (idx >= 0 && !FLASH_DONE_INDICES.includes(idx)) { FLASH_DONE_INDICES.push(idx); addExp(10, 'Fiszka +10 EXP'); }
 }
 
 function markAllFlashcardsMastered() {
-  FLASH_DONE_INDICES = QUICK_FIRE_NUMBERS.map((_, idx) => idx);
+  FLASH_DONE_INDICES = QUICK_FIRE_NUMBERS.map((_, i) => i);
   saveDatabase();
-  renderFlashTab();
 }
 
-function prevQuickFire() {
-  const list = getFilteredFlashcards();
-  if (list.length === 0) return;
-  currentQfIdx = (currentQfIdx - 1 + list.length) % list.length;
-  renderFlashTab();
-}
+function prevQuickFire() { const l = getFilteredFlashcards(); if (l.length) { currentQfIdx = (currentQfIdx - 1 + l.length) % l.length; renderFlashTab(); } }
+function nextQuickFire() { const l = getFilteredFlashcards(); if (l.length) { currentQfIdx = (currentQfIdx + 1) % l.length; renderFlashTab(); } }
 
-function nextQuickFire() {
-  const list = getFilteredFlashcards();
-  if (list.length === 0) return;
-  currentQfIdx = (currentQfIdx + 1) % list.length;
-  renderFlashTab();
-}
-
-// ============================================================================
-// ZAKŁADKA #6: PYTANIA Z GWIAZDKĄ
-// ============================================================================
 function renderStarredTab() {
   const container = document.getElementById('starredListContainer');
-  if (STARRED_KEYS.length === 0) {
-    container.innerHTML = `<p style="color:var(--text-muted);">Brak pytań oznaczonych gwiazdką ⭐. Podczas rozwiązywania Dogrywki LEK kliknij przycisk „☆ Oznacz Gwiazdką”.</p>`;
-    return;
-  }
-
+  if (STARRED_KEYS.length === 0) { container.innerHTML = `<p style="color:var(--text-muted);">Brak pytań z gwiazdką.</p>`; return; }
   container.innerHTML = STARRED_KEYS.map(key => {
     const [cId, qIdx] = key.split('_');
     const c = CASES.find(x => x.id === Number(cId));
     if (!c || !c.lekQuestions[Number(qIdx)]) return '';
     const qObj = c.lekQuestions[Number(qIdx)];
-    return `
-      <div style="background:var(--bg-panel); border:1px solid var(--accent-amber); border-radius:12px; padding:16px; margin-bottom:12px;">
-        <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
-          <span style="color:var(--accent-blue); font-weight:700; font-size:0.8rem;">Przypadek #${c.id} (${c.dept}) • Pytanie ${Number(qIdx) + 1}</span>
-          <button class="db-btn" onclick="toggleStarQuestion('${key}'); renderStarredTab();">Usuń gwiazdkę ✕</button>
-        </div>
-        <div style="font-weight:700; margin-bottom:10px;">${qObj.q}</div>
-        <div style="color:var(--accent-emerald); font-weight:700; margin-bottom:6px;">✅ Prawidłowa odpowiedź: ${qObj.opts[qObj.correctIdx]}</div>
-        <div style="font-size:0.85rem; color:#cbd5e1;"><strong>Wyjaśnienie:</strong> ${qObj.exp}</div>
-      </div>
-    `;
+    return `<div style="background:var(--bg-panel); padding:16px; border-radius:12px; margin-bottom:10px;"><strong>${qObj.q}</strong><p style="color:var(--accent-emerald); margin-top:6px;">✅ ${qObj.opts[qObj.correctIdx]}</p></div>`;
   }).join('');
-}
-
-// ============================================================================
-// IMPORT, RESET & CHMURA JSONBIN.IO (v3 POPRAWIONE)
-// ============================================================================
-function openImportModal() { document.getElementById('importModal').style.display = 'flex'; }
-function closeImportModal() { document.getElementById('importModal').style.display = 'none'; }
-
-function reloadCleanFromGithub() {
-  localStorage.removeItem('LEK_SIM_CASES_V10');
-  localStorage.removeItem('LEK_SIM_FLASHCARDS_V10');
-  CASES = [];
-  QUICK_FIRE_NUMBERS = [];
-  closeImportModal();
-  loadAllCasesFromRepository();
-}
-
-function importCasesFromJson() {
-  const raw = document.getElementById('jsonImportInput').value.trim();
-  if (!raw) return;
-  try {
-    const parsed = JSON.parse(raw);
-    const casesArr = Array.isArray(parsed) ? parsed : (parsed.cases || [parsed]);
-    const map = new Map();
-    CASES.forEach(c => map.set(c.id, c));
-    casesArr.forEach(c => { if (c && typeof c.id !== 'undefined') map.set(c.id, c); });
-
-    if (parsed.flashcards && Array.isArray(parsed.flashcards)) {
-      parsed.flashcards.forEach(fc => {
-        if (!QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) QUICK_FIRE_NUMBERS.push(fc);
-      });
-    }
-
-    CASES = Array.from(map.values()).sort((a, b) => a.id - b.id);
-    if (CASES.length > 0) currentCaseId = CASES[CASES.length - 1].id;
-    updateDynamicFilters();
-    saveDatabase();
-    renderSidebar();
-    renderAll();
-    closeImportModal();
-  } catch (e) {
-    alert('Błąd składni JSON: ' + e.message);
-  }
-}
-
-function resetProgress() {
-  if (!confirm('Czy na pewno wyczyścić cały postęp nauki (ptaszki, EXP, SRS)?')) return;
-  SOLVED_IDS = [];
-  PATHO_DONE_IDS = [];
-  PATHO_VISITED_NODES = {};
-  LEK_DONE_IDS = [];
-  LEK_STATUS = {};
-  SRS_DB = {};
-  STARRED_KEYS = [];
-  FLASH_DONE_INDICES = [];
-  USER_PROFILE = { exp: 0, activeDates: [] };
-  saveDatabase();
-  renderSidebar();
-  renderAll();
-}
-
-function openAccountModal() {
-  document.getElementById('cloudApiKeyInput').value = CLOUD_CONFIG.apiKey || '';
-  document.getElementById('cloudBinIdInput').value = CLOUD_CONFIG.binId || '';
-  document.getElementById('accountModal').style.display = 'flex';
-}
-function closeAccountModal() { document.getElementById('accountModal').style.display = 'none'; }
-
-function switchSyncTab(mode) {
-  document.getElementById('syncViewCloud').style.display = mode === 'cloud' ? 'block' : 'none';
-  document.getElementById('syncViewCode').style.display = mode === 'code' ? 'block' : 'none';
-  document.getElementById('syncTabCloudBtn').classList.toggle('active', mode === 'cloud');
-  document.getElementById('syncTabCodeBtn').classList.toggle('active', mode === 'code');
 }
 
 function getSyncPayload() {
@@ -2178,215 +1920,17 @@ function applySyncPayload(data) {
   renderAll();
 }
 
-function updateSyncPillUI() {
-  const dot = document.getElementById('syncStatusDot');
-  const txt = document.getElementById('syncStatusText');
-  if (!dot || !txt) return;
-  if (CLOUD_CONFIG.apiKey && CLOUD_CONFIG.binId) {
-    dot.className = 'sync-dot online';
-    txt.textContent = `Chmura połączona (${CLOUD_CONFIG.binId.slice(0, 6)}...)`;
-  } else {
-    dot.className = 'sync-dot';
-    txt.textContent = 'Konto: Lokalnie (Brak chmury)';
-  }
+function resetProgress() {
+  if (!confirm('Czy na pewno wyczyścić postęp nauki?')) return;
+  SOLVED_IDS = []; PATHO_DONE_IDS = []; PATHO_VISITED_NODES = {}; LEK_DONE_IDS = []; LEK_STATUS = {}; SRS_DB = {}; STARRED_KEYS = []; FLASH_DONE_INDICES = [];
+  USER_PROFILE = { exp: 0, activeDates: [] };
+  saveDatabase();
+  renderSidebar();
+  renderAll();
 }
-
-function scheduleAutoCloudPush() {
-  if (!CLOUD_CONFIG.apiKey || !CLOUD_CONFIG.binId) return;
-  if (cloudPushTimer) clearTimeout(cloudPushTimer);
-  cloudPushTimer = setTimeout(() => { pushToCloud(false); }, 2500);
-}
-
-async function createNewCloudAccount() {
-  const apiKey = (document.getElementById('cloudApiKeyInput').value || '').trim();
-  const feedback = document.getElementById('cloudFeedbackMsg');
-  feedback.style.display = 'block';
-
-  if (!apiKey) {
-    feedback.style.background = 'rgba(244, 63, 94, 0.15)';
-    feedback.style.color = 'var(--accent-rose)';
-    feedback.textContent = '❌ Wklej najpierw swój klucz X-Master-Key z jsonbin.io!';
-    return;
-  }
-
-  feedback.style.background = 'rgba(56, 189, 248, 0.15)';
-  feedback.style.color = 'var(--accent-blue)';
-  feedback.textContent = '⏳ Tworzenie bezpiecznego konta w chmurze...';
-
-  try {
-    const res = await fetch('https://api.jsonbin.io/v3/b', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Master-Key': apiKey,
-        'X-Bin-Name': 'LEK_Simulator_Progress',
-        'X-Bin-Private': 'true'
-      },
-      body: JSON.stringify(getSyncPayload())
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || `Status ${res.status}`);
-
-    const binId = data.metadata.id;
-    document.getElementById('cloudBinIdInput').value = binId;
-    CLOUD_CONFIG = { apiKey, binId, lastSync: Date.now() };
-    localStorage.setItem('LEK_SIM_CLOUD_CFG_V8', JSON.stringify(CLOUD_CONFIG));
-
-    feedback.style.background = 'rgba(16, 185, 129, 0.15)';
-    feedback.style.color = 'var(--accent-emerald)';
-    feedback.innerHTML = `✅ Konto utworzone pomyślnie!<br>Twój Bin ID: <strong>${binId}</strong> (skopiuj go na telefon).`;
-    updateSyncPillUI();
-  } catch (err) {
-    feedback.style.background = 'rgba(244, 63, 94, 0.15)';
-    feedback.style.color = 'var(--accent-rose)';
-    feedback.textContent = `❌ Błąd jsonbin.io: ${err.message}`;
-  }
-}
-
-async function pushToCloud(showMsg) {
-  const apiKey = (document.getElementById('cloudApiKeyInput').value || CLOUD_CONFIG.apiKey || '').trim();
-  const binId = (document.getElementById('cloudBinIdInput').value || CLOUD_CONFIG.binId || '').trim();
-  const feedback = document.getElementById('cloudFeedbackMsg');
-
-  if (!apiKey || !binId) return;
-
-  try {
-    const res = await fetch(`https://api.jsonbin.io/v3/b/${binId}`, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Master-Key': apiKey
-      },
-      body: JSON.stringify(getSyncPayload())
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || `Status ${res.status}`);
-
-    CLOUD_CONFIG = { apiKey, binId, lastSync: Date.now() };
-    localStorage.setItem('LEK_SIM_CLOUD_CFG_V8', JSON.stringify(CLOUD_CONFIG));
-    updateSyncPillUI();
-
-    if (showMsg && feedback) {
-      feedback.style.display = 'block';
-      feedback.style.background = 'rgba(16, 185, 129, 0.15)';
-      feedback.style.color = 'var(--accent-emerald)';
-      feedback.textContent = '✅ Postęp został pomyślnie zapisany w chmurze!';
-    }
-  } catch (err) {
-    if (showMsg && feedback) {
-      feedback.style.display = 'block';
-      feedback.style.background = 'rgba(244, 63, 94, 0.15)';
-      feedback.style.color = 'var(--accent-rose)';
-      feedback.textContent = `❌ Błąd wysyłania do chmury: ${err.message}`;
-    }
-  }
-}
-
-async function connectAndPullCloud() {
-  const apiKey = (document.getElementById('cloudApiKeyInput').value || '').trim();
-  const binId = (document.getElementById('cloudBinIdInput').value || '').trim();
-  const feedback = document.getElementById('cloudFeedbackMsg');
-  feedback.style.display = 'block';
-
-  try {
-    const res = await fetch(`https://api.jsonbin.io/v3/b/${binId}/latest`, {
-      headers: { 'X-Master-Key': apiKey }
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || `Status ${res.status}`);
-
-    applySyncPayload(data.record);
-    CLOUD_CONFIG = { apiKey, binId, lastSync: Date.now() };
-    localStorage.setItem('LEK_SIM_CLOUD_CFG_V8', JSON.stringify(CLOUD_CONFIG));
-    updateSyncPillUI();
-
-    feedback.style.background = 'rgba(16, 185, 129, 0.15)';
-    feedback.style.color = 'var(--accent-emerald)';
-    feedback.textContent = '✅ Pobrano i połączono postęp z chmury!';
-  } catch (err) {
-    feedback.style.background = 'rgba(244, 63, 94, 0.15)';
-    feedback.style.color = 'var(--accent-rose)';
-    feedback.textContent = `❌ Błąd pobierania z chmury: ${err.message}`;
-  }
-}
-
-function disconnectCloudAccount() {
-  CLOUD_CONFIG = { apiKey: '', binId: '', lastSync: null };
-  localStorage.removeItem('LEK_SIM_CLOUD_CFG_V8');
-  document.getElementById('cloudApiKeyInput').value = '';
-  document.getElementById('cloudBinIdInput').value = '';
-  updateSyncPillUI();
-}
-
-function copyProgressCode() {
-  const code = btoa(unescape(encodeURIComponent(JSON.stringify(getSyncPayload()))));
-  document.getElementById('syncCodeTextarea').value = code;
-  navigator.clipboard.writeText(code);
-  const msg = document.getElementById('codeFeedbackMsg');
-  msg.style.display = 'block';
-  msg.textContent = '✅ Skopiowano Kod Postępu do schowka!';
-}
-
-function importProgressFromCode() {
-  try {
-    const raw = document.getElementById('syncCodeTextarea').value.trim();
-    const data = JSON.parse(decodeURIComponent(escape(atob(raw))));
-    applySyncPayload(data);
-    closeAccountModal();
-  } catch (e) {
-    alert('Nieprawidłowy Kod Postępu!');
-  }
-}
-
-function downloadProgressFile() {
-  const blob = new Blob([JSON.stringify(getSyncPayload(), null, 2)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `LEK_Postep_${getTodayStr()}.json`;
-  a.click();
-}
-
-function uploadProgressFile(ev) {
-  const file = ev.target.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      applySyncPayload(JSON.parse(e.target.result));
-      closeAccountModal();
-    } catch (err) { alert('Błąd pliku!'); }
-  };
-  reader.readAsText(file);
-}
-
-// ============================================================================
-// SKRÓTY KLAWISZOWE (A-E, H, L, Spacja)
-// ============================================================================
-window.addEventListener('keydown', e => {
-  if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
-  const key = e.key.toUpperCase();
-  if (key === 'H') { switchTab('home'); return; }
-  if (key === 'L') { toggleLabs(); return; }
-
-  const letterIdx = ['A', 'B', 'C', 'D', 'E'].indexOf(key);
-  if (letterIdx >= 0) {
-    if (document.getElementById('viewSim').style.display !== 'none') checkOption(letterIdx);
-    else if (document.getElementById('viewLek').style.display !== 'none') answerLekCarousel(letterIdx);
-    else if (document.getElementById('viewSrs').style.display !== 'none') answerSrsCard(letterIdx);
-  } else if (e.code === 'Space' || e.code === 'ArrowRight') {
-    const contBtn = document.getElementById('continueBtn');
-    if (contBtn && document.getElementById('viewSim').style.display !== 'none') {
-      e.preventDefault();
-      contBtn.click();
-    } else if (document.getElementById('viewLek').style.display !== 'none') {
-      e.preventDefault();
-      nextLekQuestion();
-    }
-  }
-});
 
 initDatabase();
-loadAllCasesFromRepository();
+tryAutoRestoreSession();
 </script>
 </body>
 </html>
