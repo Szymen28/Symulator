@@ -3,6 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- PWA Settings -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0f19">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Symulator LEK">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  }
+</script>
 <title>Symulator Kliniczny LEK v11.1 | Autoryzacja AES-256 & 4-Paskowy Dashboard</title>
 <style>
   :root {
