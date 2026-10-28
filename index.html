@@ -682,6 +682,59 @@
     color: var(--text-main);
   }
 
+
+  /* TRYB SKUPIENIA (ZEN / FOCUS MODE) */
+  .focus-toggle-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--accent-emerald);
+    padding: 7px 12px;
+    border-radius: 9px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .focus-toggle-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--accent-emerald);
+    color: var(--text-main);
+  }
+  .focus-toggle-btn.active-focus {
+    background: rgba(16, 185, 129, 0.18);
+    border-color: var(--accent-emerald);
+    color: var(--accent-emerald);
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.25);
+  }
+
+  body.focus-mode #topGamiBar {
+    display: none !important;
+  }
+  body.focus-mode #appSidebar {
+    width: 0 !important;
+    border-left: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  body.focus-mode .kbd-hint,
+  body.focus-mode #sidebarToggleBtn {
+    display: none !important;
+  }
+  body.focus-mode .app-main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 18px 32px;
+  }
+  body.focus-mode .top-nav {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+    margin-bottom: 22px;
+  }
+
 </style>
 </head>
 <body>
@@ -835,7 +888,10 @@
       </div>
 
       <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-        <div class="kbd-hint">⌨️ <strong>A–E</strong> wybór | <strong>H</strong> start | <strong>L</strong> laby | <strong>T</strong> motyw | <strong>[</strong> panel</div>
+        <div class="kbd-hint">⌨️ <strong>A–E</strong> wybór | <strong>H</strong> start | <strong>L</strong> laby | <strong>Z</strong> skupienie | <strong>T</strong> motyw | <strong>[</strong> panel</div>
+        <button class="focus-toggle-btn" id="focusToggleBtn" onclick="toggleFocusMode()" title="Tryb Skupienia (Zen) – ukrywa paski EXP, drzewko i panel boczny (Klawisz Z)">
+          <span id="focusToggleIcon">🎯</span> <span id="focusToggleText">Skupienie</span>
+        </button>
         <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Przełącz między trybem ciemnym (Cyber-ICU) a jasnym (Szczeklik Paper) – Klawisz T">
           <span id="themeToggleIcon">☀️</span> <span id="themeToggleText">Tryb Jasny</span>
         </button>
@@ -1227,6 +1283,7 @@ let isCaseWorkspaceOpen = false;
 let activeTabName = 'home';
 let isSidebarCollapsed = false;
 let isLightTheme = false;
+let isFocusMode = false;
 let currentStepIdx = 0;
 let currentLekIdx = 0;
 let pathoUnlocked = false;
@@ -1638,6 +1695,12 @@ function initDatabase() {
     applyThemeState();
   }
 
+  const savedFocus = localStorage.getItem('LEK_SIM_FOCUS_MODE');
+  if (savedFocus === 'true') {
+    isFocusMode = true;
+    applyFocusModeState();
+  }
+
   saveDatabase();
 }
 
@@ -1887,6 +1950,22 @@ function renderDiffTableHtml(diffObj) {
       </table>
     </div>
   `;
+}
+
+function toggleFocusMode() {
+  isFocusMode = !isFocusMode;
+  localStorage.setItem('LEK_SIM_FOCUS_MODE', isFocusMode ? 'true' : 'false');
+  applyFocusModeState();
+}
+
+function applyFocusModeState() {
+  document.body.classList.toggle('focus-mode', isFocusMode);
+  const btn = document.getElementById('focusToggleBtn');
+  const icon = document.getElementById('focusToggleIcon');
+  const txt = document.getElementById('focusToggleText');
+  if (btn) btn.classList.toggle('active-focus', isFocusMode);
+  if (icon) icon.textContent = isFocusMode ? '🧘' : '🎯';
+  if (txt) txt.textContent = isFocusMode ? 'Wyjdź ze Skupienia' : 'Skupienie';
 }
 
 function toggleTheme() {
@@ -2725,6 +2804,7 @@ document.addEventListener('keydown', (e) => {
   const key = e.key.toUpperCase();
   if (key === 'H') { e.preventDefault(); switchTab('home'); return; }
   if (key === 'T') { e.preventDefault(); toggleTheme(); return; }
+  if (key === 'Z') { e.preventDefault(); toggleFocusMode(); return; }
   if (key === 'L' && activeTabName === 'sim') { e.preventDefault(); toggleLabs(); return; }
   if (e.key === '[') { e.preventDefault(); toggleSidebar(); return; }
 
