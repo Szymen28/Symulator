@@ -517,6 +517,171 @@
     border-color: rgba(16, 185, 129, 0.45);
   }
 
+
+  /* MOTYW 1 (DOMYŚLNY): CYBER-ICU GLASSMORPHISM ENHANCEMENTS */
+  body {
+    background: radial-gradient(circle at 15% 15%, #162038 0%, #0b0f19 55%, #070a12 100%);
+    transition: background 0.3s ease, color 0.25s ease;
+  }
+  .monitor-card, .workspace-card, .gami-card, .home-card, .catalog-card {
+    backdrop-filter: blur(14px);
+    transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  /* MOTYW 3 (JASNY): SZCZEKLIK ACADEMIC PAPER (body.theme-light) */
+  body.theme-light {
+    --bg-main: #f1f5f9;
+    --bg-sidebar: #ffffff;
+    --bg-card: rgba(255, 255, 255, 0.95);
+    --bg-card-hover: #e2e8f0;
+    --bg-panel: #f8fafc;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --accent-blue: #0284c7;
+    --accent-indigo: #4f46e5;
+    --accent-emerald: #059669;
+    --accent-amber: #d97706;
+    --accent-rose: #e11d48;
+    --accent-purple: #7c3aed;
+    --border-color: #cbd5e1;
+    --shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.07);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  }
+
+  body.theme-light .auth-gate-overlay {
+    background: radial-gradient(circle at 50% 15%, #e2e8f0 0%, #cbd5e1 80%);
+  }
+  body.theme-light .auth-card,
+  body.theme-light .gami-card,
+  body.theme-light .home-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  }
+  body.theme-light .home-card-featured {
+    background: radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.1), #ffffff 60%, #f8fafc 100%);
+    border-color: rgba(2, 132, 199, 0.45);
+  }
+  body.theme-light .tree-icon-circle,
+  body.theme-light .home-tree-big {
+    background: radial-gradient(circle at 30% 30%, rgba(16, 185, 129, 0.22), #ecfdf5 90%);
+  }
+  body.theme-light .readiness-ring-inner {
+    background: #ffffff;
+    border-color: #cbd5e1;
+  }
+  body.theme-light .r-bar-row {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+  }
+  body.theme-light .r-bar-track,
+  body.theme-light .exp-bar-outer {
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+  }
+  body.theme-light .stats-bar {
+    background: #f1f5f9;
+  }
+  body.theme-light .check-pill {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+    color: #64748b;
+  }
+  body.theme-light .check-pill.done {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: #059669;
+    color: #047857;
+  }
+  body.theme-light .check-pill.partial {
+    background: rgba(245, 158, 11, 0.15);
+    border-color: #d97706;
+    color: #b45309;
+  }
+  body.theme-light .patient-story {
+    background: #f1f5f9;
+    color: #1e293b;
+  }
+  body.theme-light .step-desc {
+    color: #1e293b;
+  }
+  body.theme-light .option-letter {
+    background: #e2e8f0;
+    color: #0284c7;
+  }
+  body.theme-light .labs-table th,
+  body.theme-light .labs-table td {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  body.theme-light .duty-summary-box {
+    background: linear-gradient(145deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-color: #0284c7;
+  }
+  body.theme-light .duty-item {
+    background: #ffffff;
+    border-color: #cbd5e1;
+  }
+  body.theme-light .duty-item-body {
+    color: #1e293b;
+  }
+  body.theme-light .diff-table-wrap {
+    background: #fffbeb;
+    border-color: #f59e0b;
+  }
+  body.theme-light .diff-table th {
+    background: rgba(245, 158, 11, 0.18);
+    color: #92400e;
+  }
+  body.theme-light .diff-table th,
+  body.theme-light .diff-table td {
+    border-color: #cbd5e1;
+  }
+  body.theme-light .flashcard-box {
+    background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+    border-color: #6366f1;
+  }
+  body.theme-light #qfAnswerBox {
+    color: #065f46 !important;
+    background: rgba(16, 185, 129, 0.18) !important;
+  }
+  body.theme-light .catalog-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  }
+  body.theme-light .catalog-card.active-card {
+    background: linear-gradient(145deg, rgba(2, 132, 199, 0.12) 0%, #ffffff 100%);
+  }
+  body.theme-light .active-case-pill {
+    background: #ffffff;
+  }
+  body.theme-light .step-guide-box {
+    background: #f8fafc;
+    color: #1e293b;
+  }
+  body.theme-light .star-btn.starred {
+    color: #92400e;
+  }
+  body.theme-light .q-tag-pill {
+    color: #6b21a8;
+  }
+
+  .theme-toggle-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--accent-amber);
+    padding: 7px 12px;
+    border-radius: 9px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .theme-toggle-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--accent-amber);
+    color: var(--text-main);
+  }
+
 </style>
 </head>
 <body>
@@ -670,7 +835,10 @@
       </div>
 
       <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-        <div class="kbd-hint">⌨️ <strong>A–E</strong> wybór | <strong>H</strong> start | <strong>L</strong> laby | <strong>Spacja/→</strong> dalej | <strong>[</strong> panel</div>
+        <div class="kbd-hint">⌨️ <strong>A–E</strong> wybór | <strong>H</strong> start | <strong>L</strong> laby | <strong>T</strong> motyw | <strong>[</strong> panel</div>
+        <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Przełącz między trybem ciemnym (Cyber-ICU) a jasnym (Szczeklik Paper) – Klawisz T">
+          <span id="themeToggleIcon">☀️</span> <span id="themeToggleText">Tryb Jasny</span>
+        </button>
         <button class="sidebar-toggle-btn" id="sidebarToggleBtn" onclick="toggleSidebar()" title="Schowaj lub wysuń prawy pasek boczny (Klawisz [)">
           <span id="sidebarToggleIcon">➡️</span> <span id="sidebarToggleText">Schowaj panel</span>
         </button>
@@ -774,6 +942,18 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- DYNAMICZNY ROZKŁAD DZIAŁÓW LEK (Skaluje się automatycznie dla każdej nowej dziedziny!) -->
+      <div class="home-card" style="width:100%; align-items:stretch; text-align:left; padding:20px 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:14px;">
+          <div>
+            <span style="font-size:0.73rem; font-weight:800; color:var(--accent-blue); text-transform:uppercase; letter-spacing:0.7px;">📊 Mapa Dziedzin Egzaminacyjnych</span>
+            <h3 style="font-size:1.1rem; margin-top:2px;">Opanowanie przypadków według działów LEK (Kliknij dział, aby filtrować)</h3>
+          </div>
+          <span style="font-size:0.76rem; color:var(--text-muted);">Nowe działy dodają się automatycznie z plików JSON</span>
+        </div>
+        <div id="homeDeptMasteryGrid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap:10px;"></div>
       </div>
 
       <div class="home-cta-row">
@@ -1046,6 +1226,7 @@ let currentCaseId = 0;
 let isCaseWorkspaceOpen = false;
 let activeTabName = 'home';
 let isSidebarCollapsed = false;
+let isLightTheme = false;
 let currentStepIdx = 0;
 let currentLekIdx = 0;
 let pathoUnlocked = false;
@@ -1451,6 +1632,12 @@ function initDatabase() {
     applySidebarState();
   }
 
+  const savedTheme = localStorage.getItem('LEK_SIM_THEME_MODE');
+  if (savedTheme === 'light') {
+    isLightTheme = true;
+    applyThemeState();
+  }
+
   saveDatabase();
 }
 
@@ -1622,8 +1809,9 @@ function renderGamificationBar() {
     document.getElementById('homeReadinessBadge').textContent = `${Math.round(readinessPct)}%`;
 
     const deg = Math.round((readinessPct / 100) * 360);
+    const ringTrackColor = isLightTheme ? '#e2e8f0' : '#1e293b';
     document.getElementById('homeReadinessRing').style.background =
-      `conic-gradient(var(--accent-emerald) 0deg, var(--accent-blue) ${deg}deg, #1e293b ${deg}deg 360deg)`;
+      `conic-gradient(var(--accent-emerald) 0deg, var(--accent-blue) ${deg}deg, ${ringTrackColor} ${deg}deg 360deg)`;
 
     const sorPct = totalCasesCount > 0 ? Math.round((doneSor / totalCasesCount) * 100) : 0;
     const pathoPct = totalCasesCount > 0 ? Math.round((donePatho / totalCasesCount) * 100) : 0;
@@ -1641,6 +1829,40 @@ function renderGamificationBar() {
 
     document.getElementById('homeFlashStat').textContent = `${doneFlash} / ${totalFlash} (${flPct}%)`;
     document.getElementById('homeFlashBar').style.width = `${flPct}%`;
+
+    const deptGrid = document.getElementById('homeDeptMasteryGrid');
+    if (deptGrid) {
+      const deptMap = {};
+      CASES.forEach(c => {
+        const d = c.dept || 'Inne';
+        if (!deptMap[d]) deptMap[d] = { total: 0, done: 0 };
+        deptMap[d].total += 3;
+        if (SOLVED_IDS.includes(c.id)) deptMap[d].done += 1;
+        if (PATHO_DONE_IDS.includes(c.id)) deptMap[d].done += 1;
+        if (isCaseLekFullyAnswered(c)) deptMap[d].done += 1;
+      });
+      const sortedDepts = Object.keys(deptMap).sort();
+      if (sortedDepts.length === 0) {
+        deptGrid.innerHTML = `<div style="color:var(--text-muted); font-size:0.82rem;">Brak wczytanych działów.</div>`;
+      } else {
+        deptGrid.innerHTML = sortedDepts.map(d => {
+          const st = deptMap[d];
+          const pctD = st.total > 0 ? Math.round((st.done / st.total) * 100) : 0;
+          const casesInDept = st.total / 3;
+          return `
+            <div class="r-bar-row" style="cursor:pointer;" onclick="openCatalogWithDept('${d.replace(/'/g, "\'")}')" title="Kliknij, aby zobaczyć przypadki z działu: ${d}">
+              <div class="r-bar-top">
+                <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:155px;">${d} (${casesInDept})</span>
+                <span style="color:${pctD === 100 ? 'var(--accent-emerald)' : 'var(--accent-blue)'};">${pctD}%</span>
+              </div>
+              <div class="r-bar-track">
+                <div class="r-bar-fill" style="width:${pctD}%; background:${pctD === 100 ? 'var(--accent-emerald)' : 'var(--accent-blue)'};"></div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+    }
   }
 }
 
@@ -1665,6 +1887,27 @@ function renderDiffTableHtml(diffObj) {
       </table>
     </div>
   `;
+}
+
+function toggleTheme() {
+  isLightTheme = !isLightTheme;
+  localStorage.setItem('LEK_SIM_THEME_MODE', isLightTheme ? 'light' : 'dark');
+  applyThemeState();
+  renderGamificationBar();
+}
+
+function applyThemeState() {
+  document.body.classList.toggle('theme-light', isLightTheme);
+  const icon = document.getElementById('themeToggleIcon');
+  const txt = document.getElementById('themeToggleText');
+  if (icon) icon.textContent = isLightTheme ? '🌙' : '☀️';
+  if (txt) txt.textContent = isLightTheme ? 'Tryb Ciemny' : 'Tryb Jasny';
+}
+
+function openCatalogWithDept(deptName) {
+  const catSel = document.getElementById('catalogDeptFilter');
+  if (catSel) catSel.value = deptName;
+  switchTab('cases');
 }
 
 function toggleSidebar() {
@@ -1813,7 +2056,7 @@ function renderCasesCatalog() {
     const isActive = isCaseWorkspaceOpen && (c.id === currentCaseId);
 
     const vitalsPreview = (c.vitals || []).slice(0, 2).map(v =>
-      `<span style="font-size:0.72rem; background:rgba(15,23,42,0.85); border:1px solid #334155; padding:2px 8px; border-radius:6px; color:#cbd5e1;"><strong>${v.label}:</strong> ${v.val}</span>`
+      `<span style="font-size:0.72rem; background:var(--bg-panel); border:1px solid var(--border-color); padding:2px 8px; border-radius:6px; color:var(--text-muted);"><strong>${v.label}:</strong> ${v.val}</span>`
     ).join(' ');
 
     return `
@@ -2393,7 +2636,7 @@ function renderFlashTab() {
                 <span style="color:${isDone ? 'var(--accent-emerald)' : 'var(--text-muted)'};">${isDone ? '✓ Opanowana' : '○ Do nauki'}</span>
               </div>
               <div style="font-size:0.84rem; font-weight:700; margin-bottom:6px;">${fc.q}</div>
-              <div style="font-size:0.8rem; color:#a7f3d0; background:rgba(16,185,129,0.1); padding:6px 8px; border-radius:6px;">${fc.a}</div>
+              <div style="font-size:0.8rem; color:var(--accent-emerald); font-weight:600; background:rgba(16,185,129,0.12); padding:6px 8px; border-radius:6px;">${fc.a}</div>
             </div>
           `;
         }).join('')}
@@ -2481,6 +2724,7 @@ document.addEventListener('keydown', (e) => {
 
   const key = e.key.toUpperCase();
   if (key === 'H') { e.preventDefault(); switchTab('home'); return; }
+  if (key === 'T') { e.preventDefault(); toggleTheme(); return; }
   if (key === 'L' && activeTabName === 'sim') { e.preventDefault(); toggleLabs(); return; }
   if (e.key === '[') { e.preventDefault(); toggleSidebar(); return; }
 
