@@ -1732,7 +1732,9 @@ function renderLekCarousel() {
       </div>
       <div class="carousel-controls">
         <button class="db-btn" onclick="prevLekQuestion()">← Poprzednie</button>
-        <button class="next-step-btn" style="margin-top:0;" onclick="nextLekQuestion()">Następne →</button>
+        ${currentLekIdx + 1 === qs.length 
+  ? `<button class="next-step-btn" style="margin-top:0; background: var(--accent-green, #10b981);" onclick="nextLekQuestion()">Zakończ pytania i zapisz 🎯</button>` 
+  : `<button class="next-step-btn" style="margin-top:0;" onclick="nextLekQuestion()">Następne -></button>`}
       </div>
     </div>
   `;
@@ -1764,9 +1766,35 @@ function answerLekCarousel(oIdx) {
 function prevLekQuestion() { if (currentLekIdx > 0) { currentLekIdx--; renderLekCarousel(); } }
 function nextLekQuestion() {
   const c = getCurrentCase();
-  if (c && currentLekIdx + 1 < c.lekQuestions.length) { currentLekIdx++; renderLekCarousel(); }
-}
+  if (!c || !c.lekQuestions) return;
 
+  if (currentLekIdx + 1 < c.lekQuestions.length) {
+    currentLekIdx++;
+    renderLekCarousel();
+  } else {
+    // Jesteśmy na ostatnim pytaniu i kliknięto "Zakończ"
+    saveDatabase();
+    renderSidebar();
+    
+    // Przeniesienie do sekcji podsumowania / powrót do widoku głównego z komunikatem
+    const toast = document.getElementById('expToast');
+    if (toast) {
+      toast.textContent = `🎯 Ukończono przypadek #${c.id}! Zapisano postęp SRS.`;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+    
+    // Odświeżenie widoku karuzeli lub zamknięcie modala / zrzut do Boxów
+    if (typeof updateSrsBadge === 'function') updateSrsBadge();
+    if (typeof renderGamificationBar === 'function') renderGamificationBar();
+    
+    // Przewiń widok na podsumowanie / flashcards jeśli istnieją
+    const flashcardSec = document.getElementById('flashcardsSection') || document.getElementById('dutySummaryBox');
+    if (flashcardSec) {
+      flashcardSec.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+}
 function resetCurrentCaseLekStrip() {
   const c = getCurrentCase();
   if (!c) return;
