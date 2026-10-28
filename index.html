@@ -396,6 +396,127 @@
   .sync-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-emerald); box-shadow: 0 0 8px var(--accent-emerald); display: inline-block; margin-right: 6px; }
   .sync-dot.syncing { background: var(--accent-amber); animation: pulse 1s infinite; }
   .step-guide-box { background: rgba(15, 23, 42, 0.85); border: 1px solid var(--border-color); border-left: 3px solid var(--accent-emerald); border-radius: 10px; padding: 12px 14px; font-size: 0.8rem; color: #cbd5e1; margin-bottom: 14px; line-height: 1.55; text-align: left; }
+
+  /* CHOWANY PASEK BOCZNY (COLLAPSIBLE SIDEBAR) */
+  .app-sidebar {
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease;
+    overflow: hidden;
+  }
+  .app-sidebar.collapsed {
+    width: 0 !important;
+    border-left: none !important;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .sidebar-toggle-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--accent-blue);
+    padding: 7px 12px;
+    border-radius: 9px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .sidebar-toggle-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--accent-blue);
+    color: var(--text-main);
+  }
+
+  /* PASEK AKTYWNEGO PRZYPADKU (CONTEXTUAL CASE TABS) */
+  .active-case-nav-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px dashed rgba(56, 189, 248, 0.45);
+    padding: 4px 8px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+  }
+  .active-case-pill {
+    font-size: 0.74rem;
+    font-weight: 800;
+    color: var(--accent-blue);
+    padding: 2px 8px;
+    background: rgba(15, 23, 42, 0.8);
+    border-radius: 8px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .close-case-btn {
+    background: rgba(244, 63, 94, 0.16);
+    border: 1px solid rgba(244, 63, 94, 0.4);
+    color: #fda4af;
+    padding: 4px 9px;
+    border-radius: 8px;
+    font-size: 0.73rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .close-case-btn:hover {
+    background: var(--accent-rose);
+    color: white;
+  }
+
+  /* PEŁNOEKRANOWY KATALOG PRZYPADKÓW (ZAKŁADKA PRZYPADKI) */
+  .cases-catalog-toolbar {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr auto;
+    gap: 12px;
+    margin-bottom: 18px;
+    background: var(--bg-panel);
+    padding: 14px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+  }
+  @media (max-width: 960px) {
+    .cases-catalog-toolbar { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .cases-catalog-toolbar { grid-template-columns: 1fr; }
+  }
+  .cases-catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 16px;
+  }
+  .catalog-card {
+    background: linear-gradient(145deg, #162032 0%, #0f172a 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.22s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    position: relative;
+  }
+  .catalog-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-blue);
+    box-shadow: 0 12px 24px -6px rgba(56, 189, 248, 0.22);
+  }
+  .catalog-card.active-card {
+    border-color: var(--accent-blue);
+    background: linear-gradient(145deg, rgba(56, 189, 248, 0.14) 0%, #0f172a 100%);
+  }
+  .catalog-card.completed-card {
+    border-color: rgba(16, 185, 129, 0.45);
+  }
+
 </style>
 </head>
 <body>
@@ -522,24 +643,38 @@
 
     <!-- TOP NAVIGATION TABS -->
     <div class="top-nav">
-      <div class="nav-tabs">
+      <div class="nav-tabs" style="align-items: center;">
         <button class="tab-btn active" onclick="switchTab('home')" id="tabHome">🏠 Start <span class="tab-badge" id="homeReadinessBadge">0%</span></button>
-        <button class="tab-btn" onclick="switchTab('sim')" id="tabSim">🩺 1. Symulacja SOR</button>
-        <button class="tab-btn" onclick="switchTab('patho')" id="tabPatho">🧬 2. Patomechanizm & 1v1</button>
-        <button class="tab-btn" onclick="switchTab('lek')" id="tabLek">
-          🎓 3. Dogrywka LEK <span class="tab-badge" id="lekTabCount">0 pytań</span>
-        </button>
+        <button class="tab-btn" onclick="switchTab('cases')" id="tabCases">📂 Przypadki <span class="tab-badge" id="casesTabBadge">0</span></button>
+
+        <!-- GRUPA ZAKŁADEK AKTYWNEGO PRZYPADKU (Widoczna tylko po wejściu w przypadek!) -->
+        <div id="activeCaseTabsGroup" class="active-case-nav-group" style="display: none;">
+          <span class="active-case-pill" id="activeCaseNavBadge" title="Aktualnie otwarty przypadek">#1</span>
+          <button class="tab-btn" onclick="switchTab('sim')" id="tabSim">🩺 1. Symulacja SOR</button>
+          <button class="tab-btn" onclick="switchTab('patho')" id="tabPatho">🧬 2. Patomechanizm & 1v1</button>
+          <button class="tab-btn" onclick="switchTab('lek')" id="tabLek">
+            🎓 3. Dogrywka LEK <span class="tab-badge" id="lekTabCount">0 pytań</span>
+          </button>
+          <button class="close-case-btn" onclick="closeActiveCase()" title="Zamknij bieżący przypadek i wróć do katalogu">✕ Zamknij</button>
+        </div>
+
         <button class="tab-btn" onclick="switchTab('srs')" id="tabSrs">
-          🧠 4. Powtórki SRS <span class="tab-badge" id="srsDueBadge">0</span>
+          🧠 Powtórki SRS <span class="tab-badge" id="srsDueBadge">0</span>
         </button>
         <button class="tab-btn" onclick="switchTab('flash')" id="tabFlash">
-          ⚡ 5. Fiszki (Liczby i Odtrutki) <span class="tab-badge" id="flashCountBadge">0</span>
+          ⚡ Fiszki <span class="tab-badge" id="flashCountBadge">0</span>
         </button>
         <button class="tab-btn" onclick="switchTab('star')" id="tabStar">
-          ⭐ 6. Pytania z Gwiazdką <span class="tab-badge" id="starCountBadge">0</span>
+          ⭐ Z Gwiazdką <span class="tab-badge" id="starCountBadge">0</span>
         </button>
       </div>
-      <div class="kbd-hint">⌨️ Skróty: <strong>A–E</strong> – wybór | <strong>H</strong> – ekran główny | <strong>L</strong> – laby | <strong>Spacja / →</strong> – dalej</div>
+
+      <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+        <div class="kbd-hint">⌨️ <strong>A–E</strong> wybór | <strong>H</strong> start | <strong>L</strong> laby | <strong>Spacja/→</strong> dalej | <strong>[</strong> panel</div>
+        <button class="sidebar-toggle-btn" id="sidebarToggleBtn" onclick="toggleSidebar()" title="Schowaj lub wysuń prawy pasek boczny (Klawisz [)">
+          <span id="sidebarToggleIcon">➡️</span> <span id="sidebarToggleText">Schowaj panel</span>
+        </button>
+      </div>
     </div>
 
     <!-- TAB 0: EKRAN GŁÓWNY (Z ROZBITYMI PASKAMI SOR I PATOMECHANIZM) -->
@@ -642,12 +777,43 @@
       </div>
 
       <div class="home-cta-row">
-        <button class="home-cta-btn primary" onclick="switchTab('sim')">🩺 Przejdź do Symulacji SOR →</button>
+        <button class="home-cta-btn primary" onclick="switchTab('cases')">📂 Przeglądaj Katalog Przypadków →</button>
         <button class="home-cta-btn secondary" onclick="pickRandomUnsolved()">🎲 Wylosuj nieukończony przypadek</button>
         <button class="home-cta-btn secondary" onclick="switchTab('srs')">🧠 Powtórki SRS</button>
         <button class="home-cta-btn secondary" onclick="switchTab('flash')">⚡ Szybkie Fiszki</button>
         <button class="home-cta-btn secondary" style="border-color: var(--accent-purple); color: #e9d5ff;" onclick="openCryptoModal()">🔐 Szyfrator Nowych Przypadków</button>
       </div>
+    </div>
+
+    <!-- TAB KATALOG PRZYPADKÓW (PEŁNOEKRANOWY) -->
+    <div id="viewCases" class="workspace-card" style="display: none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px;">
+        <div>
+          <h2 style="font-size:1.3rem;">📂 Pełnoekranowy Katalog Przypadków Klinicznych LEK</h2>
+          <p style="color:var(--text-muted); font-size:0.86rem;">
+            Wyszukuj po objawach, parametrach lub dziedzinach i kliknij dowolną kartę, aby otworzyć <strong>Symulację SOR</strong>, <strong>Patomechanizm</strong> oraz <strong>Dogrywkę LEK</strong>.
+          </p>
+        </div>
+        <div id="catalogSummaryCounters" style="font-size:0.82rem; color:var(--accent-emerald); font-weight:700; background:rgba(16,185,129,0.1); padding:8px 14px; border-radius:10px; border:1px solid rgba(16,185,129,0.3);">
+          Ukończono w 100%: 0 / 0
+        </div>
+      </div>
+
+      <div class="cases-catalog-toolbar">
+        <input type="text" id="catalogSearchInput" class="search-input" placeholder="🔍 Szukaj po tytule, objawach, rozpoznaniu lub dziale..." oninput="renderCasesCatalog()">
+        <select id="catalogDeptFilter" class="dept-select" onchange="renderCasesCatalog()">
+          <option value="ALL">Wszystkie działy LEK</option>
+        </select>
+        <select id="catalogStatusFilter" class="dept-select" onchange="renderCasesCatalog()">
+          <option value="ALL">Wszystkie statusy ukończenia</option>
+          <option value="UNTOUCHED">🆕 Jeszcze nierozpoczęte (0/3 ptaszki)</option>
+          <option value="INCOMPLETE">⏳ W trakcie / Nieukończone w 100%</option>
+          <option value="COMPLETED">✅ Ukończone w 100% (3/3 ptaszki)</option>
+        </select>
+        <button class="random-btn" style="width:auto; padding:8px 16px; white-space:nowrap;" onclick="pickRandomUnsolved()">🎲 Losuj nieukończony</button>
+      </div>
+
+      <div id="casesCatalogGrid" class="cases-catalog-grid"></div>
     </div>
 
     <!-- TAB 1: SYMULACJA -->
@@ -799,7 +965,7 @@
   </div>
 
   <!-- RIGHT SIDEBAR -->
-  <aside class="app-sidebar">
+  <aside class="app-sidebar" id="appSidebar">
     <div class="brand-box">
       <div class="brand-icon">⚕️</div>
       <div class="brand-title">
@@ -877,6 +1043,9 @@ let STARRED_KEYS = [];
 let FLASH_DONE_INDICES = [];
 
 let currentCaseId = 0;
+let isCaseWorkspaceOpen = false;
+let activeTabName = 'home';
+let isSidebarCollapsed = false;
 let currentStepIdx = 0;
 let currentLekIdx = 0;
 let pathoUnlocked = false;
@@ -1188,10 +1357,10 @@ function reloadCleanFromGithub() {
 }
 
 function updateDynamicFilters() {
+  const depts = Array.from(new Set(CASES.map(c => c.dept))).sort();
   const deptSel = document.getElementById('deptFilter');
   if (deptSel) {
     const cur = deptSel.value;
-    const depts = Array.from(new Set(CASES.map(c => c.dept))).sort();
     deptSel.innerHTML = `
       <option value="ALL">Wszystkie działy LEK (${CASES.length})</option>
       <option value="INCOMPLETE">⏳ Tylko nieukończone w 100% (brak 3 ptaszków)</option>
@@ -1199,6 +1368,19 @@ function updateDynamicFilters() {
     `;
     if ([...deptSel.options].some(o => o.value === cur)) deptSel.value = cur;
   }
+
+  const catDeptSel = document.getElementById('catalogDeptFilter');
+  if (catDeptSel) {
+    const curCat = catDeptSel.value;
+    catDeptSel.innerHTML = `
+      <option value="ALL">Wszystkie działy LEK (${CASES.length})</option>
+      ${depts.map(d => `<option value="${d}">${d}</option>`).join('')}
+    `;
+    if ([...catDeptSel.options].some(o => o.value === curCat)) catDeptSel.value = curCat;
+  }
+
+  const casesBadge = document.getElementById('casesTabBadge');
+  if (casesBadge) casesBadge.textContent = CASES.length;
 
   const fcSel = document.getElementById('flashCatFilter');
   if (fcSel) {
@@ -1260,6 +1442,15 @@ function initDatabase() {
   if (savedStars) { try { STARRED_KEYS = JSON.parse(savedStars); } catch (e) {} }
   if (savedFlashDone) { try { FLASH_DONE_INDICES = JSON.parse(savedFlashDone); } catch (e) {} }
 
+  // Automatyczne czyszczenie martwych, zduplikowanych kluczy z dawnych wersji (V7/V8_6/V10), które zajmowały pamięć localStorage
+  ['LEK_SIM_CASES_V7', 'LEK_SIM_CASES_V10', 'LEK_SIM_FLASHCARDS_V10', 'LEK_SIM_FLASHCARDS_V8_6'].forEach(k => localStorage.removeItem(k));
+
+  const savedSidebarState = localStorage.getItem('LEK_SIM_SIDEBAR_COLLAPSED');
+  if (savedSidebarState === 'true') {
+    isSidebarCollapsed = true;
+    applySidebarState();
+  }
+
   saveDatabase();
 }
 
@@ -1281,6 +1472,8 @@ function saveDatabase() {
 
   document.getElementById('flashCountBadge').textContent = QUICK_FIRE_NUMBERS.length;
   document.getElementById('starCountBadge').textContent = STARRED_KEYS.length;
+  const casesBadge = document.getElementById('casesTabBadge');
+  if (casesBadge) casesBadge.textContent = CASES.length;
 
   renderGamificationBar();
   updateSrsBadge();
@@ -1364,6 +1557,18 @@ function renderGamificationBar() {
   document.getElementById('monthLogRatio').textContent = `${activeThisMonth}/${daysInMonth}`;
 
   const isTodayDone = USER_PROFILE.activeDates.includes(todayStr);
+  const nextEvoText = stage.nextLvl
+    ? `Kolejna ewolucja roślinki na Poziomie ${stage.nextLvl} • Cel: Poziom 60`
+    : `Osiągnięto maksymalną formę rozwoju drzewa klinicznego! 🏆`;
+  const topEvoEl = document.getElementById('treeNextEvolution');
+  if (topEvoEl) topEvoEl.textContent = nextEvoText;
+
+  const todayTxtEl = document.getElementById('todayStatusText');
+  if (todayTxtEl) {
+    todayTxtEl.textContent = isTodayDone ? '🔥 Dzisiejszy dyżur zaliczony!' : '❄️ Zrób dziś 1 przyp. lub SRS!';
+    todayTxtEl.style.color = isTodayDone ? 'var(--accent-emerald)' : 'var(--accent-amber)';
+  }
+
   const homeTreeIcon = document.getElementById('homeTreeIcon');
   if (homeTreeIcon) {
     homeTreeIcon.textContent = stage.icon;
@@ -1371,9 +1576,25 @@ function renderGamificationBar() {
     document.getElementById('homeTreeStageName').textContent = stage.name;
     document.getElementById('homeExpNumbers').textContent = `${expInCurrentLvl} / ${expPerLevel} EXP (Łącznie: ${exp} EXP)`;
     document.getElementById('homeExpBarInner').style.width = `${pct}%`;
+    const homeEvoEl = document.getElementById('homeTreeNextEvo');
+    if (homeEvoEl) homeEvoEl.textContent = nextEvoText;
     document.getElementById('homeStreakWeekRow').innerHTML = weekHtml;
     document.getElementById('homeStreakDaysCount').textContent = `${USER_PROFILE.activeDates.length} dni`;
     document.getElementById('homeMonthLogRatio').textContent = `Aktywne dni w tym miesiącu: ${activeThisMonth}/${daysInMonth}`;
+    const homeBanner = document.getElementById('homeTodayStatusBanner');
+    if (homeBanner) {
+      if (isTodayDone) {
+        homeBanner.textContent = '🔥 Dzisiejszy streak dyżurowy aktywny! Świetna robota.';
+        homeBanner.style.background = 'rgba(16, 185, 129, 0.14)';
+        homeBanner.style.color = 'var(--accent-emerald)';
+        homeBanner.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+      } else {
+        homeBanner.textContent = '❄️ Zrób dziś 1 przypadek, pytanie lub fiszkę!';
+        homeBanner.style.background = 'rgba(245, 158, 11, 0.12)';
+        homeBanner.style.color = 'var(--accent-amber)';
+        homeBanner.style.borderColor = 'rgba(245, 158, 11, 0.3)';
+      }
+    }
 
     const totalCasesCount = CASES.length;
     const doneSor = SOLVED_IDS.length;
@@ -1446,13 +1667,54 @@ function renderDiffTableHtml(diffObj) {
   `;
 }
 
+function toggleSidebar() {
+  isSidebarCollapsed = !isSidebarCollapsed;
+  localStorage.setItem('LEK_SIM_SIDEBAR_COLLAPSED', isSidebarCollapsed ? 'true' : 'false');
+  applySidebarState();
+}
+
+function applySidebarState() {
+  const sb = document.getElementById('appSidebar');
+  const icon = document.getElementById('sidebarToggleIcon');
+  const txt = document.getElementById('sidebarToggleText');
+  if (!sb) return;
+  sb.classList.toggle('collapsed', isSidebarCollapsed);
+  if (icon) icon.textContent = isSidebarCollapsed ? '⬅️' : '➡️';
+  if (txt) txt.textContent = isSidebarCollapsed ? 'Pokaż panel boczny' : 'Schowaj panel';
+}
+
+function updateActiveCaseNavVisibility() {
+  const group = document.getElementById('activeCaseTabsGroup');
+  const badge = document.getElementById('activeCaseNavBadge');
+  if (!group) return;
+  if (isCaseWorkspaceOpen) {
+    const c = getCurrentCase();
+    group.style.display = 'inline-flex';
+    if (badge && c) {
+      badge.textContent = `#${c.id} • ${c.dept}`;
+      badge.title = `#${c.id}: ${c.shortTitle}`;
+    }
+  } else {
+    group.style.display = 'none';
+  }
+}
+
+function closeActiveCase() {
+  isCaseWorkspaceOpen = false;
+  updateActiveCaseNavVisibility();
+  switchTab('cases');
+  renderSidebar();
+}
+
 function renderSidebar() {
-  const q = document.getElementById('searchInput').value.toLowerCase();
-  const dept = document.getElementById('deptFilter').value;
+  const q = (document.getElementById('searchInput')?.value || '').toLowerCase();
+  const dept = document.getElementById('deptFilter')?.value || 'ALL';
   const listEl = document.getElementById('caseList');
+  if (!listEl) return;
 
   if (CASES.length === 0) {
     listEl.innerHTML = `<div style="padding:16px; text-align:center; color:var(--text-muted); font-size:0.82rem;">Brak wczytanych przypadków w <code>cases/manifest.json</code>.</div>`;
+    renderCasesCatalog();
     return;
   }
 
@@ -1471,9 +1733,8 @@ function renderSidebar() {
     const isLekDone = (qCount > 0 && ansCount === qCount);
     const isLekPartial = (ansCount > 0 && ansCount < qCount);
     const visitedNodes = PATHO_VISITED_NODES[c.id] || [];
-    const totalNodes = c.pathoNodes ? c.pathoNodes.length : 0;
     const isPathoPartial = (!isPathoDone && visitedNodes.length > 0);
-    const isActive = c.id === currentCaseId;
+    const isActive = isCaseWorkspaceOpen && (c.id === currentCaseId);
 
     return `
       <div class="case-item ${isActive ? 'active' : ''}" onclick="selectCase(${c.id})">
@@ -1487,18 +1748,113 @@ function renderSidebar() {
       </div>
     `;
   }).join('');
+
+  renderCasesCatalog();
+}
+
+function renderCasesCatalog() {
+  const grid = document.getElementById('casesCatalogGrid');
+  if (!grid) return;
+
+  const q = (document.getElementById('catalogSearchInput')?.value || '').toLowerCase();
+  const dept = document.getElementById('catalogDeptFilter')?.value || 'ALL';
+  const status = document.getElementById('catalogStatusFilter')?.value || 'ALL';
+
+  const fullDoneCount = CASES.filter(c => SOLVED_IDS.includes(c.id) && PATHO_DONE_IDS.includes(c.id) && isCaseLekFullyAnswered(c)).length;
+  const counterEl = document.getElementById('catalogSummaryCounters');
+  if (counterEl) {
+    counterEl.textContent = `Ukończono w 100% (3/3 ✓): ${fullDoneCount} / ${CASES.length}`;
+  }
+
+  if (CASES.length === 0) {
+    grid.innerHTML = `<div style="grid-column: 1 / -1; padding:30px; text-align:center; color:var(--text-muted);">Brak przypadków do wyświetlenia.</div>`;
+    return;
+  }
+
+  const filtered = CASES.filter(c => {
+    const isSorDone = SOLVED_IDS.includes(c.id);
+    const isPathoDone = PATHO_DONE_IDS.includes(c.id);
+    const ansCount = getCaseLekAnsweredCount(c);
+    const isLekDone = isCaseLekFullyAnswered(c);
+    const isAll3Done = isSorDone && isPathoDone && isLekDone;
+    const isUntouched = !isSorDone && !isPathoDone && ansCount === 0;
+
+    const matchDept = (dept === 'ALL' || c.dept === dept);
+    const matchStatus =
+      status === 'ALL' ||
+      (status === 'COMPLETED' && isAll3Done) ||
+      (status === 'UNTOUCHED' && isUntouched) ||
+      (status === 'INCOMPLETE' && !isAll3Done);
+
+    const matchQ =
+      c.shortTitle.toLowerCase().includes(q) ||
+      c.dept.toLowerCase().includes(q) ||
+      (c.diagnosisTitle && c.diagnosisTitle.toLowerCase().includes(q)) ||
+      String(c.id).includes(q);
+
+    return matchDept && matchStatus && matchQ;
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div style="grid-column: 1 / -1; padding:32px; text-align:center; color:var(--text-muted); background:var(--bg-panel); border-radius:12px;">Brak przypadków spełniających wybrane kryteria wyszukiwania.</div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(c => {
+    const isSorDone = SOLVED_IDS.includes(c.id);
+    const isPathoDone = PATHO_DONE_IDS.includes(c.id);
+    const qCount = c.lekQuestions ? c.lekQuestions.length : 0;
+    const ansCount = getCaseLekAnsweredCount(c);
+    const isLekDone = (qCount > 0 && ansCount === qCount);
+    const isLekPartial = (ansCount > 0 && ansCount < qCount);
+    const visitedNodes = PATHO_VISITED_NODES[c.id] || [];
+    const isPathoPartial = (!isPathoDone && visitedNodes.length > 0);
+    const isAll3Done = isSorDone && isPathoDone && isLekDone;
+    const isActive = isCaseWorkspaceOpen && (c.id === currentCaseId);
+
+    const vitalsPreview = (c.vitals || []).slice(0, 2).map(v =>
+      `<span style="font-size:0.72rem; background:rgba(15,23,42,0.85); border:1px solid #334155; padding:2px 8px; border-radius:6px; color:#cbd5e1;"><strong>${v.label}:</strong> ${v.val}</span>`
+    ).join(' ');
+
+    return `
+      <div class="catalog-card ${isActive ? 'active-card' : ''} ${isAll3Done ? 'completed-card' : ''}" onclick="selectCase(${c.id})">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <span class="badge-dept">#${c.id} • ${c.dept}</span>
+            ${isAll3Done
+              ? `<span style="font-size:0.72rem; color:var(--accent-emerald); font-weight:800;">🏆 3/3 Zaliczono</span>`
+              : `<span style="font-size:0.72rem; color:var(--text-muted);">Kliknij, aby otworzyć →</span>`}
+          </div>
+          <div style="font-size:0.98rem; font-weight:700; color:var(--text-main); margin-bottom:8px; line-height:1.35;">
+            ${c.shortTitle}
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
+            ${vitalsPreview}
+          </div>
+        </div>
+
+        <div class="three-checks-row">
+          <div class="check-pill ${isSorDone ? 'done' : ''}"><span>${isSorDone ? '✓' : '○'}</span><span>1.SOR</span></div>
+          <div class="check-pill ${isPathoDone ? 'done' : (isPathoPartial ? 'partial' : '')}"><span>${isPathoDone ? '✓' : '○'}</span><span>2.Patomech.</span></div>
+          <div class="check-pill ${isLekDone ? 'done' : (isLekPartial ? 'partial' : '')}"><span>${isLekDone ? '✓' : `${ansCount}/${qCount}`}</span><span>3.LEK</span></div>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function selectCase(id) {
   currentCaseId = id;
+  isCaseWorkspaceOpen = true;
   currentStepIdx = 0;
   currentLekIdx = 0;
   pathoUnlocked = SOLVED_IDS.includes(id) || PATHO_DONE_IDS.includes(id);
   selectedNodeIdx = 0;
   document.getElementById('labsTable').classList.remove('open');
-  switchTab('sim');
+  updateActiveCaseNavVisibility();
   renderSidebar();
   renderAll();
+  switchTab('sim');
 }
 
 function pickRandomUnsolved() {
@@ -1509,8 +1865,15 @@ function pickRandomUnsolved() {
 }
 
 function switchTab(tab) {
+  if (['sim', 'patho', 'lek'].includes(tab) && !isCaseWorkspaceOpen) {
+    isCaseWorkspaceOpen = true;
+  }
+  activeTabName = tab;
+  updateActiveCaseNavVisibility();
+
   document.getElementById('viewHome').style.display = tab === 'home' ? 'flex' : 'none';
   document.getElementById('topGamiBar').style.display = tab === 'home' ? 'none' : 'grid';
+  document.getElementById('viewCases').style.display = tab === 'cases' ? 'block' : 'none';
   document.getElementById('viewSim').style.display = tab === 'sim' ? 'grid' : 'none';
   document.getElementById('viewPatho').style.display = tab === 'patho' ? 'block' : 'none';
   document.getElementById('viewLek').style.display = tab === 'lek' ? 'block' : 'none';
@@ -1518,12 +1881,13 @@ function switchTab(tab) {
   document.getElementById('viewFlash').style.display = tab === 'flash' ? 'block' : 'none';
   document.getElementById('viewStar').style.display = tab === 'star' ? 'block' : 'none';
 
-  ['home','sim','patho','lek','srs','flash','star'].forEach(t => {
+  ['home','cases','sim','patho','lek','srs','flash','star'].forEach(t => {
     const btn = document.getElementById('tab' + t.charAt(0).toUpperCase() + t.slice(1));
     if (btn) btn.classList.toggle('active', tab === t);
   });
 
   if (tab === 'home') renderGamificationBar();
+  else if (tab === 'cases') renderCasesCatalog();
   else if (tab === 'patho' && pathoUnlocked) { recordNodeVisit(0); renderPatho(); }
   else if (tab === 'srs') { buildSrsQueue(); renderSrsView(); }
   else if (tab === 'flash') renderFlashTab();
@@ -2004,13 +2368,38 @@ function getFilteredFlashcards() {
 
 function renderFlashTab() {
   const list = getFilteredFlashcards();
-  if (list.length === 0) return;
+  const allContainer = document.getElementById('flashAllListContainer');
+  if (list.length === 0) {
+    if (allContainer) allContainer.innerHTML = `<p style="color:var(--text-muted);">Brak fiszek w tej kategorii.</p>`;
+    return;
+  }
   if (currentQfIdx >= list.length) currentQfIdx = 0;
   const item = list[currentQfIdx];
   document.getElementById('qfCategory').textContent = `${item.cat} (${currentQfIdx + 1}/${list.length})`;
   document.getElementById('qfQuestion').textContent = item.q;
   document.getElementById('qfAnswerBox').style.display = 'none';
   document.getElementById('qfAnswerBox').textContent = item.a;
+
+  if (allContainer) {
+    allContainer.innerHTML = `
+      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:10px;">
+        ${list.map((fc, i) => {
+          const globalIdx = QUICK_FIRE_NUMBERS.indexOf(fc);
+          const isDone = FLASH_DONE_INDICES.includes(globalIdx);
+          return `
+            <div style="background:var(--bg-panel); border:1px solid ${isDone ? 'rgba(16,185,129,0.45)' : 'var(--border-color)'}; border-radius:10px; padding:12px; cursor:pointer;" onclick="currentQfIdx=${i}; renderFlashTab(); revealQuickFire();">
+              <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:var(--accent-blue); font-weight:700; margin-bottom:4px;">
+                <span>${fc.cat}</span>
+                <span style="color:${isDone ? 'var(--accent-emerald)' : 'var(--text-muted)'};">${isDone ? '✓ Opanowana' : '○ Do nauki'}</span>
+              </div>
+              <div style="font-size:0.84rem; font-weight:700; margin-bottom:6px;">${fc.q}</div>
+              <div style="font-size:0.8rem; color:#a7f3d0; background:rgba(16,185,129,0.1); padding:6px 8px; border-radius:6px;">${fc.a}</div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
 }
 
 function revealQuickFire() {
@@ -2082,6 +2471,43 @@ function resetProgress() {
   renderSidebar();
   renderAll();
 }
+
+// Obsługa obiecanych skrótów klawiszowych (A-E, H, L, Spacja/Strzałki, [)
+document.addEventListener('keydown', (e) => {
+  const tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+  const authGate = document.getElementById('authGateOverlay');
+  if (authGate && authGate.style.display !== 'none') return;
+
+  const key = e.key.toUpperCase();
+  if (key === 'H') { e.preventDefault(); switchTab('home'); return; }
+  if (key === 'L' && activeTabName === 'sim') { e.preventDefault(); toggleLabs(); return; }
+  if (e.key === '[') { e.preventDefault(); toggleSidebar(); return; }
+
+  const letterIdx = ['A', 'B', 'C', 'D', 'E'].indexOf(key);
+  if (letterIdx >= 0) {
+    if (activeTabName === 'sim') { e.preventDefault(); checkOption(letterIdx); }
+    else if (activeTabName === 'lek') { e.preventDefault(); answerLekCarousel(letterIdx); }
+    else if (activeTabName === 'srs' && currentSrsItem) { e.preventDefault(); answerSrsCard(letterIdx); }
+    return;
+  }
+
+  if (e.key === ' ' || e.key === 'ArrowRight') {
+    if (activeTabName === 'sim') {
+      const contBtn = document.getElementById('continueBtn');
+      if (contBtn) { e.preventDefault(); contBtn.click(); }
+    } else if (activeTabName === 'lek') {
+      e.preventDefault();
+      nextLekQuestion();
+    } else if (activeTabName === 'flash') {
+      e.preventDefault();
+      nextQuickFire();
+    }
+  } else if (e.key === 'ArrowLeft') {
+    if (activeTabName === 'lek') { e.preventDefault(); prevLekQuestion(); }
+    else if (activeTabName === 'flash') { e.preventDefault(); prevQuickFire(); }
+  }
+});
 
 initDatabase();
 tryAutoRestoreSession();
