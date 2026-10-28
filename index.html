@@ -6,6 +6,7 @@
   <!-- PWA Settings -->
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0b0f19">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Symulator LEK">
@@ -1772,29 +1773,33 @@ function nextLekQuestion() {
     currentLekIdx++;
     renderLekCarousel();
   } else {
-    // Jesteśmy na ostatnim pytaniu i kliknięto "Zakończ"
+    // Upewnij się, że wszystkie rozwiązane pytania z tego przypadku są w bazie SRS_DB
+    c.lekQuestions.forEach((_, idx) => {
+      const k = `${c.id}_${idx}`;
+      if (LEK_STATUS[k] && !SRS_DB[k]) {
+        scheduleSrsCard(k, LEK_STATUS[k] === 'green');
+      }
+    });
+
+    if (isCaseLekFullyAnswered(c) && !LEK_DONE_IDS.includes(c.id)) {
+      LEK_DONE_IDS.push(c.id);
+    }
+
     saveDatabase();
     renderSidebar();
-    
-    // Przeniesienie do sekcji podsumowania / powrót do widoku głównego z komunikatem
+
     const toast = document.getElementById('expToast');
     if (toast) {
-      toast.textContent = `🎯 Ukończono przypadek #${c.id}! Zapisano postęp SRS.`;
+      toast.textContent = `🎯 Zapisano ${c.lekQuestions.length} pytań z przypadku #${c.id} w systemie SRS!`;
       toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 3000);
+      setTimeout(() => toast.classList.remove('show'), 3200);
     }
-    
-    // Odświeżenie widoku karuzeli lub zamknięcie modala / zrzut do Boxów
-    if (typeof updateSrsBadge === 'function') updateSrsBadge();
-    if (typeof renderGamificationBar === 'function') renderGamificationBar();
-    
-    // Przewiń widok na podsumowanie / flashcards jeśli istnieją
-    const flashcardSec = document.getElementById('flashcardsSection') || document.getElementById('dutySummaryBox');
-    if (flashcardSec) {
-      flashcardSec.scrollIntoView({ behavior: 'smooth' });
-    }
+
+    // Automatyczne przejście do zakładki SRS, aby od razu widzieć zaktualizowane Boxy
+    switchTab('srs');
   }
 }
+
 function resetCurrentCaseLekStrip() {
   const c = getCurrentCase();
   if (!c) return;
@@ -1808,8 +1813,11 @@ function resetCurrentCaseLekStrip() {
 function scheduleSrsCard(key, isCorrect) {
   const now = Date.now();
   const existing = SRS_DB[key] || { box: 0, dueTime: 0, wrongFlag: false };
-  if (!isCorrect) { existing.box = 0; existing.wrongFlag = true; existing.dueTime = now; }
-  else {
+  if (!isCorrect) {
+    existing.box = 0;
+    existing.wrongFlag = true;
+    existing.dueTime = now;
+  } else {
     existing.wrongFlag = false;
     existing.box = Math.min(SRS_INTERVAL_DAYS.length - 1, (existing.box || 0) + 1);
     existing.dueTime = now + (SRS_INTERVAL_DAYS[existing.box] * 86400000);
@@ -1817,15 +1825,59 @@ function scheduleSrsCard(key, isCorrect) {
   SRS_DB[key] = existing;
 }
 
-function updateSrsBadge() {
+function updateSrsStatsBoxes() {
   const now = Date.now();
-  let due = 0;
-  Object.keys(SRS_DB).forEach(k => { if (SRS_DB[k].wrongFlag || SRS_DB[k].dueTime <= now) due++; });
-  document.getElementById('srsDueBadge').textContent = due;
+  let wrongCount = 0;
+  let dueCount = 0;
+  let learningCount = 0;
+  let masteredCount = 0;
+
+  Object.keys(SRS_DB).forEach(k => {
+    const item = SRS_DB[k];
+    if (!item) return;
+    if (item.wrongFlag) {
+      wrongCount++;
+    } else if (item.dueTime <= now) {
+      dueCount++;
+    }
+    if (item.box >= 1 && item.box <= 3) {
+      learningCount++;
+    } else if (item.box >= 4) {
+      masteredCount++;
+    }
+  });
+
+  const elWrong = document.getElementById('srsStatWrong');
+  const elDue = document.getElementById('srsStatDue');
+  const elLearn = document.getElementById('srsStatLearning');
+  const elMast = document.getElementById('srsStatMastered');
+
+  if (elWrong) elWrong.textContent = wrongCount;
+  if (elDue) elDue.textContent = dueCount;
+  if (elLearn) elLearn.textContent = learningCount;
+  if (elMast) elMast.textContent = masteredCount;
+
+  const totalDueToday = wrongCount + dueCount;
+  const badge = document.getElementById('srsDueBadge');
+  if (badge) {
+    badge.textContent = totalDueToday;
+    badge.classList.toggle('urgent', totalDueToday > 0);
+  }
+}
+
+function updateSrsBadge() {
+  updateSrsStatsBoxes();
 }
 
 function buildSrsQueue() {
   const now = Date.now();
+  // Synchronizacja ewentualnych brakujących kart z LEK_STATUS do SRS_DB
+  Object.keys(LEK_STATUS).forEach(k => {
+    if (!SRS_DB[k]) {
+      scheduleSrsCard(k, LEK_STATUS[k] === 'green');
+    }
+  });
+  updateSrsStatsBoxes();
   srsQueue = Object.keys(SRS_DB).filter(k => SRS_DB[k].wrongFlag || SRS_DB[k].dueTime <= now);
   currentSrsItem = srsQueue[0] || null;
 }
@@ -1833,27 +1885,74 @@ function buildSrsQueue() {
 function startRandomBonusSrs() {
   const allKeys = [];
   CASES.forEach(c => (c.lekQuestions || []).forEach((_, qIdx) => allKeys.push(`${c.id}_${qIdx}`)));
+  if (allKeys.length === 0) return;
   srsQueue = allKeys.sort(() => Math.random() - 0.5).slice(0, 5);
   currentSrsItem = srsQueue[0] || null;
   renderSrsView();
 }
 
+function startEarlyLearningReviewSrs() {
+  const learningKeys = Object.keys(SRS_DB).filter(k => SRS_DB[k].box >= 1);
+  if (learningKeys.length === 0) {
+    startRandomBonusSrs();
+    return;
+  }
+  srsQueue = learningKeys.sort((a, b) => (SRS_DB[a].dueTime || 0) - (SRS_DB[b].dueTime || 0)).slice(0, 10);
+  currentSrsItem = srsQueue[0] || null;
+  renderSrsView();
+}
+
 function renderSrsView() {
+  updateSrsStatsBoxes();
   const area = document.getElementById('srsActiveCardArea');
   if (!currentSrsItem) {
-    area.innerHTML = `<div style="padding:24px; text-align:center; color:var(--accent-emerald);">🎉 Wszystkie powtórki na dziś zrobione!</div>`;
+    const totalInDb = Object.keys(SRS_DB).length;
+    let nextDueTime = Infinity;
+    Object.values(SRS_DB).forEach(item => {
+      if (item && item.dueTime && item.dueTime < nextDueTime) nextDueTime = item.dueTime;
+    });
+    let nextInfoHtml = '';
+    if (nextDueTime < Infinity) {
+      const diffHours = Math.max(1, Math.round((nextDueTime - Date.now()) / 3600000));
+      nextInfoHtml = `<p style="color:var(--text-muted); font-size:0.86rem; margin-top:6px;">W bazie SRS masz już <strong>${totalInDb} pytań</strong>. Najbliższa zaplanowana powtórka za ok. <strong>${diffHours} godz.</strong></p>`;
+    }
+    area.innerHTML = `
+      <div style="padding:28px; text-align:center; background:var(--bg-panel); border:1px solid var(--border-color); border-radius:14px;">
+        <div style="font-size:1.15rem; font-weight:800; color:var(--accent-emerald);">🎉 Wszystkie zaległe powtórki na tę chwilę zrobione!</div>
+        ${nextInfoHtml}
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
+          <button class="next-step-btn" style="margin-top:0;" onclick="startEarlyLearningReviewSrs()">🔄 Powtórz karty z Box 1–3 wyprzedzająco</button>
+          <button class="db-btn" onclick="startRandomBonusSrs()">🎲 Wylosuj 5 pytań z całej bazy</button>
+        </div>
+      </div>
+    `;
     return;
   }
   const [cId, qIdx] = currentSrsItem.split('_');
   const c = CASES.find(x => x.id === Number(cId));
-  if (!c || !c.lekQuestions[Number(qIdx)]) { srsQueue.shift(); currentSrsItem = srsQueue[0] || null; renderSrsView(); return; }
+  if (!c || !c.lekQuestions || !c.lekQuestions[Number(qIdx)]) {
+    srsQueue.shift();
+    currentSrsItem = srsQueue[0] || null;
+    renderSrsView();
+    return;
+  }
   const qItem = c.lekQuestions[Number(qIdx)];
+  const srsMeta = SRS_DB[currentSrsItem] || { box: 0, wrongFlag: false };
+  const boxBadge = srsMeta.wrongFlag
+    ? `<span style="color:var(--accent-rose); font-weight:800;">🔴 Po błędzie (Box 0)</span>`
+    : `<span style="color:var(--accent-blue); font-weight:800;">📦 Pudełko Leitnera: Box ${srsMeta.box || 1} (Interwał: ${SRS_INTERVAL_DAYS[srsMeta.box || 1]} dni)</span>`;
+
   area.innerHTML = `
-    <div style="background:var(--bg-panel); padding:20px; border-radius:12px;">
-      <div style="font-weight:700; margin-bottom:14px;">${qItem.q}</div>
-      <div class="options-list">
-        ${qItem.opts.map((opt, i) => `<button class="option-btn" onclick="answerSrsCard(${i})"><span>${opt}</span></button>`).join('')}
+    <div style="background:var(--bg-panel); padding:20px; border-radius:12px; border:1px solid var(--border-color);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; font-size:0.8rem;">
+        <span style="color:var(--text-muted); font-weight:700;">Przypadek #${c.id} (${c.dept}) • Pozostało w kolejce: ${srsQueue.length}</span>
+        ${boxBadge}
       </div>
+      <div style="font-weight:700; margin-bottom:16px; font-size:0.98rem;">${qItem.q}</div>
+      <div class="options-list" id="srsOptionsList">
+        ${qItem.opts.map((opt, i) => `<button class="option-btn" id="srsOpt_${i}" onclick="answerSrsCard(${i})"><span>${opt}</span></button>`).join('')}
+      </div>
+      <div id="srsFeedbackBox" class="feedback-box"></div>
     </div>
   `;
 }
@@ -1862,9 +1961,37 @@ function answerSrsCard(oIdx) {
   const [cId, qIdx] = currentSrsItem.split('_');
   const c = CASES.find(x => x.id === Number(cId));
   const qItem = c.lekQuestions[Number(qIdx)];
-  scheduleSrsCard(currentSrsItem, oIdx === qItem.correctIdx);
-  if (oIdx === qItem.correctIdx) { LEK_STATUS[currentSrsItem] = 'green'; addExp(20, 'SRS +20 EXP'); }
+  const isCorrect = (oIdx === qItem.correctIdx);
+
+  scheduleSrsCard(currentSrsItem, isCorrect);
+  if (isCorrect) {
+    LEK_STATUS[currentSrsItem] = 'green';
+    addExp(20, 'SRS +20 EXP');
+  } else {
+    LEK_STATUS[currentSrsItem] = 'red';
+  }
   saveDatabase();
+  updateSrsStatsBoxes();
+
+  const chosenBtn = document.getElementById(`srsOpt_${oIdx}`);
+  const correctBtn = document.getElementById(`srsOpt_${qItem.correctIdx}`);
+  if (chosenBtn) chosenBtn.classList.add(isCorrect ? 'correct' : 'wrong');
+  if (correctBtn) correctBtn.classList.add('correct');
+
+  const fb = document.getElementById('srsFeedbackBox');
+  if (fb) {
+    const newBox = SRS_DB[currentSrsItem].box;
+    const nextDays = SRS_INTERVAL_DAYS[newBox];
+    fb.className = `feedback-box ${isCorrect ? 'correct' : 'wrong'}`;
+    fb.innerHTML = `
+      <div><strong>${isCorrect ? `✅ Dobrze! Karta awansuje do Box ${newBox} (kolejna powtórka za ${nextDays} dni).` : '❌ Błąd! Karta wraca do Box 0 (Pilne po błędzie).'}</strong></div>
+      <div style="margin-top:8px;">${qItem.exp}</div>
+      <button class="next-step-btn" onclick="nextSrsQueueItem()">Następna powtórka →</button>
+    `;
+  }
+}
+
+function nextSrsQueueItem() {
   srsQueue.shift();
   currentSrsItem = srsQueue[0] || null;
   renderSrsView();
