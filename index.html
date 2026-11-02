@@ -2418,6 +2418,12 @@ function toggleStarQuestion(key) {
   renderLekCarousel();
 }
 
+let currentShuffledLekOptions = [];
+
+function cleanOptionText(txt) {
+  return (txt || '').replace(/^[A-E][).]\s*/i, '');
+}
+
 function renderLekCarousel() {
   const c = getCurrentCase();
   if (!c || !c.lekQuestions || c.lekQuestions.length === 0) return;
@@ -2434,6 +2440,13 @@ function renderLekCarousel() {
   const key = `${c.id}_${currentLekIdx}`;
   const st = LEK_STATUS[key];
   const isStar = STARRED_KEYS.includes(key);
+  const letters = ['A', 'B', 'C', 'D', 'E'];
+
+  // Dynamiczne tasowanie opcji pytań LEK
+  currentShuffledLekOptions = qItem.opts.map((optText, origIdx) => ({
+    text: cleanOptionText(optText),
+    origIdx: origIdx
+  })).sort(() => Math.random() - 0.5);
 
   document.getElementById('lekSingleQuestionBox').innerHTML = `
     <div style="background: var(--bg-panel); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px;">
@@ -2443,8 +2456,11 @@ function renderLekCarousel() {
       </div>
       <div style="font-weight:700; margin-bottom:16px;">${qItem.q}</div>
       <div class="options-list">
-        ${qItem.opts.map((optText, oIdx) => `
-          <button class="option-btn ${st && oIdx === qItem.correctIdx ? 'correct' : ''}" id="lekCar_${oIdx}" onclick="answerLekCarousel(${oIdx})"><span>${optText}</span></button>
+        ${currentShuffledLekOptions.map((item, displayIdx) => `
+          <button class="option-btn ${st && item.origIdx === qItem.correctIdx ? 'correct' : ''}" id="lekCar_${displayIdx}" onclick="answerLekCarousel(${displayIdx})">
+            <span class="option-letter">${letters[displayIdx]}</span>
+            <span>${item.text}</span>
+          </button>
         `).join('')}
       </div>
       <div id="lekCarFeedback" class="feedback-box ${st ? (st === 'green' ? 'correct' : 'wrong') : ''}">
@@ -2460,12 +2476,13 @@ function renderLekCarousel() {
   `;
 }
 
-function answerLekCarousel(oIdx) {
+function answerLekCarousel(displayIdx) {
   const c = getCurrentCase();
-  if (!c) return;
+  if (!c || !currentShuffledLekOptions[displayIdx]) return;
   const qItem = c.lekQuestions[currentLekIdx];
+  const origIdx = currentShuffledLekOptions[displayIdx].origIdx;
   const key = `${c.id}_${currentLekIdx}`;
-  const isCorrect = (oIdx === qItem.correctIdx);
+  const isCorrect = (origIdx === qItem.correctIdx);
   const firstAttempt = !LEK_STATUS[key];
 
   if (isCorrect) {
@@ -2480,7 +2497,28 @@ function answerLekCarousel(oIdx) {
   }
   saveDatabase();
   renderSidebar();
-  renderLekCarousel();
+
+  // Zaznaczenie wizualne klikniętej i poprawnej odpowiedzi od razu
+  currentShuffledLekOptions.forEach((item, idx) => {
+    const btn = document.getElementById(`lekCar_${idx}`);
+    if (btn) {
+      if (item.origIdx === qItem.correctIdx) btn.classList.add('correct');
+      else if (idx === displayIdx) btn.classList.add('wrong');
+    }
+  });
+
+  const fb = document.getElementById('lekCarFeedback');
+  if (fb) {
+    fb.className = `feedback-box ${isCorrect ? 'correct' : 'wrong'}`;
+    fb.innerHTML = `<strong>Wyjaśnienie:</strong> ${qItem.exp}`;
+    fb.style.display = 'block';
+  }
+
+  // Zaktualizuj pasek postępu
+  const segs = document.querySelectorAll('.lek-seg');
+  if (segs[currentLekIdx]) {
+    segs[currentLekIdx].className = `lek-seg current ${LEK_STATUS[key] || ''}`;
+  }
 }
 
 function prevLekQuestion() { if (currentLekIdx > 0) { currentLekIdx--; renderLekCarousel(); } }
@@ -2661,6 +2699,13 @@ function renderSrsView() {
     ? `<span style="color:var(--accent-rose); font-weight:800;">🔴 Po błędzie (Box 0)</span>`
     : `<span style="color:var(--accent-blue); font-weight:800;">📦 Pudełko Leitnera: Box ${srsMeta.box || 1} (Interwał: ${SRS_INTERVAL_DAYS[srsMeta.box || 1]} dni)</span>`;
 
+  const letters = ['A', 'B', 'C', 'D', 'E'];
+  // Dynamiczne tasowanie opcji w powtórkach SRS
+  currentShuffledSrsOptions = qItem.opts.map((optText, origIdx) => ({
+    text: cleanOptionText(optText),
+    origIdx: origIdx
+  })).sort(() => Math.random() - 0.5);
+
   area.innerHTML = `
     <div style="background:var(--bg-panel); padding:20px; border-radius:12px; border:1px solid var(--border-color);">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; font-size:0.8rem;">
@@ -2669,18 +2714,27 @@ function renderSrsView() {
       </div>
       <div style="font-weight:700; margin-bottom:16px; font-size:0.98rem;">${qItem.q}</div>
       <div class="options-list" id="srsOptionsList">
-        ${qItem.opts.map((opt, i) => `<button class="option-btn" id="srsOpt_${i}" onclick="answerSrsCard(${i})"><span>${opt}</span></button>`).join('')}
+        ${currentShuffledSrsOptions.map((item, displayIdx) => `
+          <button class="option-btn" id="srsOpt_${displayIdx}" onclick="answerSrsCard(${displayIdx})">
+            <span class="option-letter">${letters[displayIdx]}</span>
+            <span>${item.text}</span>
+          </button>
+        `).join('')}
       </div>
       <div id="srsFeedbackBox" class="feedback-box"></div>
     </div>
   `;
 }
 
-function answerSrsCard(oIdx) {
+let currentShuffledSrsOptions = [];
+
+function answerSrsCard(displayIdx) {
   const [cId, qIdx] = currentSrsItem.split('_');
   const c = CASES.find(x => x.id === Number(cId));
   const qItem = c.lekQuestions[Number(qIdx)];
-  const isCorrect = (oIdx === qItem.correctIdx);
+  if (!currentShuffledSrsOptions[displayIdx]) return;
+  const origIdx = currentShuffledSrsOptions[displayIdx].origIdx;
+  const isCorrect = (origIdx === qItem.correctIdx);
 
   scheduleSrsCard(currentSrsItem, isCorrect);
   if (isCorrect) {
@@ -2692,10 +2746,13 @@ function answerSrsCard(oIdx) {
   saveDatabase();
   updateSrsStatsBoxes();
 
-  const chosenBtn = document.getElementById(`srsOpt_${oIdx}`);
-  const correctBtn = document.getElementById(`srsOpt_${qItem.correctIdx}`);
-  if (chosenBtn) chosenBtn.classList.add(isCorrect ? 'correct' : 'wrong');
-  if (correctBtn) correctBtn.classList.add('correct');
+  currentShuffledSrsOptions.forEach((item, idx) => {
+    const btn = document.getElementById(`srsOpt_${idx}`);
+    if (btn) {
+      if (item.origIdx === qItem.correctIdx) btn.classList.add('correct');
+      else if (idx === displayIdx) btn.classList.add('wrong');
+    }
+  });
 
   const fb = document.getElementById('srsFeedbackBox');
   if (fb) {
