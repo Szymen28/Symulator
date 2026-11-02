@@ -1093,15 +1093,23 @@
               Kliknij każde ogniwo patomechanizmu (lub użyj przycisku potwierdzenia), aby zdobyć <strong>2. zielony ptaszek (✓ Patomech.)</strong> dla tego przypadku!
             </p>
           </div>
-          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
             <button class="db-btn" onclick="markCurrentPathoComplete()" id="markPathoBtn" style="border-color:var(--accent-emerald); color:var(--accent-emerald);">
               ✓ Oznacz Patomechanizm jako przejrzany
+            </button>
+            <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('lek')">
+              Przejdź do zadań (LEK) →
             </button>
           </div>
         </div>
         <div class="nodes-grid" id="nodesGrid"></div>
         <div class="node-detail-panel" id="nodeDetailPanel"></div>
         <div id="pathoDiffTableContainer"></div>
+        <div style="margin-top:20px; display:flex; justify-content:flex-end;">
+          <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('lek')">
+            Przejdź do zadań (LEK) →
+          </button>
+        </div>
       </div>
     </div>
 
