@@ -42,71 +42,71 @@
   {
     "id": 9,
     "filename": "09_zatorowosc.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 10,
     "filename": "10_hiperkaliemia.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 11,
     "filename": "11_zomr.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 12,
     "filename": "12_odwodnienie_dziecko.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 13,
     "filename": "13_ozt.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 14,
     "filename": "14_gbs.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 15,
     "filename": "15_niedokrwistosc.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 16,
     "filename": "16_anafilaksja.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 17,
     "filename": "17_wyrostek_ciaza.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 18,
     "filename": "18_odma_prezna.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 19,
     "filename": "19_zawal_omi.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 20,
     "filename": "20_stan_padaczkowy.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 21,
     "filename": "21_pochp.json",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 22,
     "filename": "22_marskosc_sbp.json",
-    "status": "pending"
+    "status": "completed"
   }
 ]
