@@ -113,5 +113,40 @@
     "id": 23,
     "filename": "23_ciaza_ektopowa.json",
     "status": "completed"
+  },
+  {
+    "id": 24,
+    "filename": "24_rozwarstwienie_aorty.json",
+    "status": "completed"
+  },
+  {
+    "id": 25,
+    "filename": "25_tamponada_serca.json",
+    "status": "completed"
+  },
+  {
+    "id": 26,
+    "filename": "26_pepniety_tetniak_aorty.json",
+    "status": "completed"
+  },
+  {
+    "id": 27,
+    "filename": "27_przelom_nadnerczowy.json",
+    "status": "completed"
+  },
+  {
+    "id": 28,
+    "filename": "28_udar_niedokrwienny.json",
+    "status": "completed"
+  },
+  {
+    "id": 29,
+    "filename": "29_wstrzas_septyczny.json",
+    "status": "completed"
+  },
+  {
+    "id": 30,
+    "filename": "30_stan_astmatyczny.json",
+    "status": "completed"
   }
 ]
