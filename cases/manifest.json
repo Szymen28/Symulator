@@ -83,5 +83,12 @@
   "82_dna_moczanowa.json",
   "83_rzs.json",
   "84_borelioza_rumien.json",
-  "85_hbv_serologia.json"
+  "85_hbv_serologia.json",
+  "86_nls_noworodek.json",
+  "87_konflikt_serologiczny_rhd.json",
+  "88_nec_noworodek.json",
+  "89_atrezja_dwunastnicy.json",
+  "90_rds_noworodek.json",
+  "91_tga_wada_przewodozalezna.json",
+  "92_sepsa_noworodka_gbs.json"
 ]

@@ -2305,7 +2305,18 @@ function renderStep() {
     } else { saveDatabase(); }
     renderSidebar();
 
-    const ds = c.dutySummary || {};
+    let ds = c.dutySummary || {};
+    if (typeof ds === 'string') {
+      ds = { overview: ds, diagnostics: '', drugsAndDoses: '', procedures: '', monitoring: '' };
+    } else if (ds.points && !ds.overview) {
+      ds = {
+        overview: ds.title || '',
+        diagnostics: ds.points.slice(0, 2).join('<br>'),
+        drugsAndDoses: ds.points.slice(2, 4).join('<br>'),
+        procedures: ds.points.slice(4, 6).join('<br>'),
+        monitoring: ds.points.slice(6).join('<br>')
+      };
+    }
     container.innerHTML = `
       <div style="text-align: center; padding: 8px;">
         <h2 style="color: var(--accent-emerald);">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>

@@ -539,49 +539,49 @@
     "filename": "86_nls_noworodek.json",
     "code": "PED-N01",
     "title": "Resuscytacja noworodka na sali porodowej (algorytm NLS)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 87,
     "filename": "87_konflikt_serologiczny_rhd.json",
     "code": "PED-N02",
     "title": "Konflikt serologiczny RhD i choroba hemolityczna noworodka",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 88,
     "filename": "88_nec_noworodek.json",
     "code": "PED-N03",
     "title": "Martwicze zapalenie jelit (NEC) u wcześniaka",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 89,
     "filename": "89_atrezja_dwunastnicy.json",
     "code": "PED-N05",
     "title": "Wrodzona niedrożność dwunastnicy u noworodka (objaw double bubble)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 90,
     "filename": "90_rds_noworodek.json",
     "code": "PED-N07",
     "title": "Zespół zaburzeń oddychania noworodka (RDS) z niedoboru surfaktantu",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 91,
     "filename": "91_tga_wada_przewodozalezna.json",
     "code": "PED-N08",
     "title": "Wrodzona sinicza wada serca przewodozależna (TGA / koarktacja aorty)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 92,
     "filename": "92_sepsa_noworodka_gbs.json",
     "code": "PED-N09",
     "title": "Wczesna sepsa noworodków (EOS) wywołana przez Streptococcus agalactiae (GBS)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 93,
