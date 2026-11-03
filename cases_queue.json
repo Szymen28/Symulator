@@ -455,42 +455,42 @@
     "filename": "74_niedokrwistosc_b12.json",
     "code": "INT-H02",
     "title": "Niedokrwistość megaloblastyczna w chorobie Addisona-Biermera",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 75,
     "filename": "75_ttp.json",
     "code": "INT-H03",
     "title": "Zakrzepowa plamica małopłytkowa (TTP) z niedoborem ADAMTS13",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 76,
     "filename": "76_goraczka_neutropeniczna.json",
     "code": "INT-H04",
     "title": "Gorączka neutropeniczna po chemioterapii przeciwnowotworowej",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 77,
     "filename": "77_szpiczak_mnogi.json",
     "code": "INT-H05",
     "title": "Szpiczak plazmocytowy (kryteria CRAB)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 78,
     "filename": "78_aml.json",
     "code": "INT-H06",
     "title": "Ostra białaczka szpikowa (AML)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 79,
     "filename": "79_tls.json",
     "code": "INT-H07",
     "title": "Zespół rozpadu guza (TLS) po chemioterapii",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 80,
