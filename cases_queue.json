@@ -406,49 +406,49 @@
     "filename": "67_hiponatremia_ods.json",
     "code": "INT-N02",
     "title": "Ciężka objawowa hiponatremia z drgawkami i ryzykiem ODS",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 68,
     "filename": "68_aki_kdigo.json",
     "code": "INT-N03",
     "title": "Ostre uszkodzenie nerek (AKI) – różnicowanie przednerkowego i ATN wg KDIGO",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 69,
     "filename": "69_zespol_nerczycowy.json",
     "code": "INT-N04",
     "title": "Zespół nerczycowy u dorosłego z powikłaniami zakrzepowymi",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 70,
     "filename": "70_rpgn.json",
     "code": "INT-N05",
     "title": "Gwałtownie postępujące kłębuszkowe zapalenie nerek (RPGN) z półksiężycami",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 71,
     "filename": "71_pchn_dializa_ratunkowa.json",
     "code": "INT-N06",
     "title": "Schyłkowa przewlekła choroba nerek (PChN G5D) ze wskazaniami do pilnej dializoterapii",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 72,
     "filename": "72_ain_polekowe.json",
     "code": "INT-N07",
     "title": "Ostre cewkowo-śródmiąższowe zapalenie nerek (AIN) po lekach",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 73,
     "filename": "73_adpkd.json",
     "code": "INT-N08",
     "title": "Autosomalnie dominująca wielotorbielowatość nerek (ADPKD)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 74,
