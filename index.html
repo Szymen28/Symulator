@@ -283,12 +283,12 @@
 
   .vitals-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
   .vital-box { background: var(--bg-panel); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 10px 12px; }
-  .vital-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }
-  .vital-value { font-size: 1.2rem; font-weight: 800; margin-top: 2px; }
-  .vital-sub { font-size: 0.68rem; color: var(--text-muted); }
-  .vital-ok { color: var(--accent-emerald); }
-  .vital-warn { color: var(--accent-amber); }
-  .vital-crit { color: var(--accent-rose); animation: pulse 2s infinite; }
+  .vital-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px; }
+  .vital-value { font-size: 1.25rem; font-weight: 800; margin-top: 2px; }
+  .vital-sub { font-size: 0.69rem; color: #94a3b8; font-weight: 500; }
+  .vital-ok, .vital-value.ok, .vital-value.vital-ok { color: var(--accent-emerald); }
+  .vital-warn, .vital-value.warn, .vital-value.vital-warn { color: var(--accent-amber); font-weight: 800; }
+  .vital-crit, .vital-value.crit, .vital-value.vital-crit, .vital-value.bad { color: var(--accent-rose); font-weight: 800; animation: pulse 2s infinite; }
 
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.65; } }
 
@@ -327,10 +327,10 @@
   .duty-item { background: rgba(15, 23, 42, 0.75); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 13px; }
   .duty-item-title { font-size: 0.76rem; font-weight: 700; text-transform: uppercase; color: var(--accent-emerald); margin-bottom: 6px; }
   .duty-item-body { font-size: 0.86rem; color: #e2e8f0; }
-  .dose-pill { display: inline-block; background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.35); padding: 1px 7px; border-radius: 6px; font-weight: 700; font-size: 0.8rem; }
+  .dose-pill { display: inline-block; background: rgba(56, 189, 248, 0.18); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.45); padding: 2px 8px; border-radius: 6px; font-weight: 700; font-size: 0.82rem; margin: 1px 2px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
 
   .diff-table-wrap { margin-top: 16px; background: rgba(15, 23, 42, 0.85); border: 1px solid var(--accent-amber); border-radius: var(--radius-md); padding: 14px; overflow-x: auto; }
-  .diff-table-title { font-size: 0.9rem; font-weight: 800; color: var(--accent-amber); margin-bottom: 10px; }
+  .diff-table-title { font-size: 0.95rem; font-weight: 800; color: var(--accent-amber); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
   .diff-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
   .diff-table th, .diff-table td { padding: 8px 10px; border: 1px solid #334155; text-align: left; vertical-align: top; }
   .diff-table th { background: rgba(245, 158, 11, 0.12); color: #fde68a; font-weight: 700; }
@@ -1447,16 +1447,25 @@ const TREE_STAGES = [
   { minLvl: 60, maxLvl: 999, icon: "🏛️🌳", name: "Pradawne Drzewo Mistrza LEK (95%+)", nextLvl: null }
 ];
 
+const PBKDF2_KEY_CACHE = new Map();
+
 async function deriveAesKey(password, saltBytes) {
+  const saltB64 = bufToBase64(saltBytes);
+  const cacheKey = password + ':' + saltB64;
+  if (PBKDF2_KEY_CACHE.has(cacheKey)) {
+    return PBKDF2_KEY_CACHE.get(cacheKey);
+  }
   const enc = new TextEncoder();
   const baseKey = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveKey']);
-  return crypto.subtle.deriveKey(
+  const key = await crypto.subtle.deriveKey(
     { name: 'PBKDF2', salt: saltBytes, iterations: 100000, hash: 'SHA-256' },
     baseKey,
     { name: 'AES-GCM', length: 256 },
     false,
     ['encrypt', 'decrypt']
   );
+  PBKDF2_KEY_CACHE.set(cacheKey, key);
+  return key;
 }
 
 function bufToBase64(buf) {
@@ -1696,12 +1705,18 @@ function normalizeCase(c) {
       { label: 'GCS', val: vObj.gcs != null ? String(vObj.gcs) : '15', sub: Number(vObj.gcs) < 15 ? 'Zaburzenia świadomości' : 'Pełny kontakt', status: Number(vObj.gcs) < 15 ? 'bad' : 'ok' }
     ];
   } else if (Array.isArray(c.vitals)) {
-    c.vitals = c.vitals.map(v => ({
-      label: v.label || '',
-      val: v.val != null ? String(v.val) : '',
-      sub: v.sub || '',
-      status: v.status || 'ok'
-    }));
+    c.vitals = c.vitals.map(v => {
+      let status = v.status || 'ok';
+      if (status === 'bad' || status === 'crit' || status === 'vital-crit') status = 'vital-crit';
+      else if (status === 'warn' || status === 'warning' || status === 'vital-warn') status = 'vital-warn';
+      else status = 'vital-ok';
+      return {
+        label: v.label || '',
+        val: v.val != null ? String(v.val) : '',
+        sub: v.sub || '',
+        status: status
+      };
+    });
   } else {
     c.vitals = [];
   }
@@ -1824,8 +1839,144 @@ function normalizeCase(c) {
   return c;
 }
 
+async function ensureCaseLoaded(id) {
+  let c = CASES.find(x => x.id === id);
+  if (!c) return null;
+  if (c.isLoaded && c.steps && c.steps.length > 0) {
+    return c;
+  }
+
+  try {
+    const filename = c.file || (c.id < 10 ? `0${c.id}` : `${c.id}`) + '.json';
+    const r = await fetch(`cases/${filename}?t=` + Date.now());
+    if (!r.ok) return c;
+    const rawJson = await r.json();
+    let fullData = rawJson;
+    if (rawJson && rawJson.encrypted === true) {
+      fullData = await decryptObjectAes(rawJson, SESSION_PASSWORD);
+    }
+    const norm = normalizeCase(fullData);
+    norm.isLoaded = true;
+    norm.file = filename;
+
+    // Aktualizacja w miejscu obiektu c w CASES
+    Object.assign(c, norm);
+
+    // Rejestracja fiszek w QUICK_FIRE_NUMBERS
+    if (norm.flashcards && Array.isArray(norm.flashcards)) {
+      norm.flashcards.forEach(fc => {
+        const q = fc.front || fc.q || '';
+        const a = fc.back || fc.a || '';
+        if (q && !QUICK_FIRE_NUMBERS.some(x => x.q === q)) {
+          QUICK_FIRE_NUMBERS.push({
+            q,
+            a,
+            caseId: norm.id,
+            cat: fc.cat || norm.dept || 'Klinika'
+          });
+        }
+      });
+    }
+    return c;
+  } catch (err) {
+    console.error(`Błąd wczytywania szczegółów przypadku #${id}:`, err);
+    return c;
+  }
+}
+
+let preloadQueue = [];
+let isPreloadRunning = false;
+
+function startBackgroundCasePreload() {
+  preloadQueue = CASES.filter(c => !c.isLoaded).map(c => c.id);
+  if (preloadQueue.length === 0 || isPreloadRunning) return;
+
+  function processNextPreload() {
+    if (preloadQueue.length === 0) {
+      isPreloadRunning = false;
+      return;
+    }
+    const nextId = preloadQueue.shift();
+    ensureCaseLoaded(nextId).then(() => {
+      setTimeout(processNextPreload, 70);
+    }).catch(() => {
+      setTimeout(processNextPreload, 70);
+    });
+  }
+
+  isPreloadRunning = true;
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(() => processNextPreload());
+  } else {
+    setTimeout(processNextPreload, 250);
+  }
+}
+
 async function loadAllCasesFromRepository() {
   try {
+    // 1. Szybkie wczytanie katalogu przypadków (HTML-First / Lazy Catalog, <70 KB)
+    let catalogLoaded = false;
+    try {
+      const catRes = await fetch('cases/catalog.json?t=' + Date.now());
+      if (catRes.ok) {
+        const catalogList = await catRes.json();
+        if (Array.isArray(catalogList) && catalogList.length > 0) {
+          CASES = catalogList.map(entry => ({
+            id: entry.id,
+            file: entry.file,
+            dept: entry.dept,
+            shortTitle: entry.shortTitle,
+            diagnosisTitle: entry.diagnosisTitle,
+            qCount: entry.qCount || 0,
+            lekQuestions: new Array(entry.qCount || 0).fill(null),
+            flashcards: [],
+            isLoaded: false
+          })).sort((a, b) => a.id - b.id);
+          catalogLoaded = true;
+        }
+      }
+    } catch (e) {
+      console.warn("Nie udało się pobrać catalog.json, przełączanie na manifest:", e);
+    }
+
+    // 2. Błyskawiczny indeks fiszek dla całej bazy (SRS & Szybka Powtórka bez opóźnień)
+    try {
+      const fcRes = await fetch('cases/flashcards_index.json?t=' + Date.now());
+      if (fcRes.ok) {
+        const allFc = await fcRes.json();
+        if (Array.isArray(allFc)) {
+          allFc.forEach(fc => {
+            if (fc.q && !QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) {
+              QUICK_FIRE_NUMBERS.push(fc);
+            }
+          });
+        }
+      }
+    } catch (e) {
+      console.warn("Pominięto ładowanie flashcards_index.json:", e);
+    }
+
+    // Jeśli pobrano katalog - natychmiastowe renderowanie interfejsu w <30 ms!
+    if (catalogLoaded && CASES.length > 0) {
+      if (!CASES.some(c => c.id === currentCaseId)) {
+        currentCaseId = CASES[0].id;
+      }
+      updateDynamicFilters();
+      saveDatabase();
+      renderSidebar();
+      renderGamificationBar();
+
+      // Wczytanie aktywnego przypadku i odrysowanie widoku
+      await ensureCaseLoaded(currentCaseId);
+      renderSidebar();
+      renderAll();
+
+      // Cichy preload pozostałych przypadków w tle (nie obciąża CPU ani baterii)
+      startBackgroundCasePreload();
+      return;
+    }
+
+    // 3. Tryb zapasowy (fallback): sekwencyjny odczyt z manifest.json
     const manifestRes = await fetch('cases/manifest.json?t=' + Date.now());
     if (!manifestRes.ok) return;
     const filenames = await manifestRes.json();
@@ -1838,8 +1989,12 @@ async function loadAllCasesFromRepository() {
         const rawJson = await r.json();
         if (rawJson && rawJson.encrypted === true) {
           const decrypted = await decryptObjectAes(rawJson, SESSION_PASSWORD);
+          decrypted.file = file;
+          decrypted.isLoaded = true;
           loadedPacks.push(decrypted);
         } else {
+          rawJson.file = file;
+          rawJson.isLoaded = true;
           loadedPacks.push(rawJson);
         }
       } catch (e) {
@@ -1852,7 +2007,9 @@ async function loadAllCasesFromRepository() {
       const casesArr = Array.isArray(pack) ? pack : (pack.cases || [pack]);
       casesArr.forEach(c => {
         if (c && typeof c.id !== 'undefined') {
-          map.set(c.id, normalizeCase(c));
+          const norm = normalizeCase(c);
+          norm.isLoaded = true;
+          map.set(c.id, norm);
         }
         if (c && c.flashcards && Array.isArray(c.flashcards)) {
           c.flashcards.forEach(fc => {
@@ -1869,17 +2026,6 @@ async function loadAllCasesFromRepository() {
           });
         }
       });
-      if (pack.flashcards && Array.isArray(pack.flashcards)) {
-        const defaultDept = (casesArr[0] && casesArr[0].dept) ? casesArr[0].dept : 'Klinika';
-        pack.flashcards.forEach(fc => {
-          if (!QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) {
-            QUICK_FIRE_NUMBERS.push({
-              ...fc,
-              cat: fc.cat || defaultDept
-            });
-          }
-        });
-      }
     });
 
     CASES = Array.from(map.values()).sort((a, b) => a.id - b.id);
@@ -1898,6 +2044,7 @@ async function loadAllCasesFromRepository() {
 function reloadCleanFromGithub() {
   CASES = [];
   QUICK_FIRE_NUMBERS = [];
+  PBKDF2_KEY_CACHE.clear();
   loadAllCasesFromRepository();
 }
 
@@ -2489,7 +2636,7 @@ function renderCasesCatalog() {
   }).join('');
 }
 
-function selectCase(id) {
+async function selectCase(id) {
   currentCaseId = id;
   isCaseWorkspaceOpen = true;
   currentStepIdx = 0;
@@ -2500,6 +2647,9 @@ function selectCase(id) {
   if (labs) labs.classList.remove('open');
   updateActiveCaseNavVisibility();
   switchTab('sim');
+  renderSidebar();
+
+  await ensureCaseLoaded(id);
   renderSidebar();
   renderAll();
 }
@@ -3073,7 +3223,13 @@ function renderSrsView() {
   }
 
   const [cId, qIdx] = currentSrsItem.split('_');
-  const c = CASES.find(x => x.id === Number(cId));
+  const targetCid = Number(cId);
+  const existingCase = CASES.find(x => x.id === targetCid);
+  if (!existingCase || !existingCase.isLoaded) {
+    ensureCaseLoaded(targetCid).then(() => renderSrsView());
+    return;
+  }
+  const c = existingCase;
   if (!c || !c.lekQuestions || !c.lekQuestions[Number(qIdx)]) {
     srsQueue.shift();
     currentSrsItem = srsQueue[0] || null;
@@ -3446,9 +3602,18 @@ function markAllFlashcardsMastered() {
 function prevQuickFire() { const l = getFilteredFlashcards(); if (l.length) { currentQfIdx = (currentQfIdx - 1 + l.length) % l.length; renderFlashTab(); } }
 function nextQuickFire() { const l = getFilteredFlashcards(); if (l.length) { currentQfIdx = (currentQfIdx + 1) % l.length; renderFlashTab(); } }
 
-function renderStarredTab() {
+async function renderStarredTab() {
   const container = document.getElementById('starredListContainer');
   if (STARRED_KEYS.length === 0) { container.innerHTML = `<p style="color:var(--text-muted);">Brak pytań z gwiazdką.</p>`; return; }
+  
+  const neededCaseIds = Array.from(new Set(STARRED_KEYS.map(key => Number(key.split('_')[0]))));
+  for (const cid of neededCaseIds) {
+    const existing = CASES.find(x => x.id === cid);
+    if (!existing || !existing.isLoaded) {
+      await ensureCaseLoaded(cid);
+    }
+  }
+
   container.innerHTML = STARRED_KEYS.map(key => {
     const [cId, qIdx] = key.split('_');
     const c = CASES.find(x => x.id === Number(cId));

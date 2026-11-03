@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "file": "01_dka.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "Mężczyzna 22 l. – Duszność, ból brzucha i wymioty (Kwasica ketonowa z hipokaliemią)",
+    "diagnosisTitle": "Cukrzycowa kwasica ketonowa (DKA) z ciężkim deficytem potasu na starcie i pseudoperitonitis diabetica w przebiegu nowo rozpoznanej cukrzycy typu 1",
+    "qCount": 11,
+    "flashcardsCount": 7
+  },
+  {
+    "id": 2,
+    "file": "02_onj.json",
+    "dept": "Nefrologia",
+    "shortTitle": "Pacjentka 76 l. – Nagły ból brzucha 9/10, AF i miękki brzuch (Ostre niedokrwienie jelit – zator TKG)",
+    "diagnosisTitle": "Ostre niedokrwienie jelit (ONJ) w mechanizmie zatoru pnia tętnicy krezkowej górnej (TKG) na podłożu nieleczonego przeciwkrzepliwie napadowego migotania przedsionków",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 3,
+    "file": "03_pylorostenoza.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek 4-tyg. – Chlustające wymioty bez żółci i odwodnienie (Pylorostenoza / Przerostowe zwężenie odźwiernika)",
+    "diagnosisTitle": "Wrodzone przerostowe zwężenie odźwiernika (pylorostenosis) powikłane hipochloremiczną i hipokaliemiczną zasadowicą metaboliczną z paradoksalną acydurią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 4,
+    "file": "04_miastenia.json",
+    "dept": "Neurologia",
+    "shortTitle": "Kobieta 34 l. – Duszność, ptoza i narastające osłabienie po cyprofloksacynie (Przełom miasteniczny)",
+    "diagnosisTitle": "Przełom miasteniczny (myasthenic crisis) w przebiegu uogólnionej miastenii (Myasthenia Gravis) sprowokowany podażą fluorochinolonu (cyprofloksacyny) i infekcją dróg moczowych",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 5,
+    "file": "05_hellp.json",
+    "dept": "Ginekologia i położnictwo",
+    "shortTitle": "Ciężarna 33 Hbd – Ból w prawym podżebrzu, nadciśnienie i małopłytkowość (Zespół HELLP / Preeklampsja)",
+    "diagnosisTitle": "Ciężki stan przedrzucawkowy (preeclampsia) powikłany pełnoobjawowym zespołem HELLP (Hemolysis, Elevated Liver enzymes, Low Platelets) z zagrożeniem pęknięcia krwiaka podtorebkowego wątroby i rzucawką",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 6,
+    "file": "06_vt.json",
+    "dept": "Kardiologia",
+    "shortTitle": "Mężczyzna 64 l. – Kołatanie serca, zawroty głowy i częstoskurcz z szerokimi QRS 190/min po zawale (Częstoskurcz komorowy VT)",
+    "diagnosisTitle": "Monokształtny częstoskurcz komorowy (VT) z zachowanym tętnem w przebiegu pozawałowej blizny mięśnia sercowego (kardiomiopatia niedokrwienna) u pacjenta po zawale STEMI",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 7,
+    "file": "07_paracetamol.json",
+    "dept": "Toksykologia",
+    "shortTitle": "Kobieta 19 l. – Celowe spożycie 32 tabletek paracetamolu (16 g) w 6. godzinie (Ostre zatrucie paracetamolem / Ostra niewydolność wątroby)",
+    "diagnosisTitle": "Ostre toksyczne uszkodzenie wątroby wywołane przedawkowaniem paracetamolu (metabolit NAPQI wyczerpujący glutation) z zagrożeniem ostrej niewydolności wątroby (ALF)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 8,
+    "file": "08_przelom_tarczycowy.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "Kobieta 42 l. – Hipertermia 40.2°C, migotanie przedsionków 165/min i pobudzenie (Przełom tarczycowy w chorobie Gravesa-Basedowa)",
+    "diagnosisTitle": "Zagrażający życiu przełom tarczycowy (thyroid storm) w przebiegu nierozpoznanej choroby Gravesa-Basedowa, powikłany migotaniem przedsionków z szybką akcją komór, ostrą niewydolnością serca i majaczeniem",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 9,
+    "file": "09_zatorowosc.json",
+    "dept": "Kardiologia",
+    "shortTitle": "Mężczyzna 58 l. – Nagła duszność, hipotensja 75/45 mmHg i ból opłucnowy po locie (Zatorowość płucna wysokiego ryzyka / Wstrząs obstrukcyjny)",
+    "diagnosisTitle": "Zatorowość płucna wysokiego ryzyka (masywna PE) powikłana wstrząsem obstrukcyjnym i ostrą dysfunkcją prawej komory serca",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 10,
+    "file": "10_hiperkaliemia.json",
+    "dept": "Nefrologia",
+    "shortTitle": "Mężczyzna 68 l. – K+ 8.4 mmol/l, fala sinusoidalna w EKG i wiotkie osłabienie w PChN (Ciężka zagrażająca życiu hiperkaliemia)",
+    "diagnosisTitle": "Ciężka, bezpośrednio zagrażająca zatrzymaniem krążenia hiperkaliemia powikłana blokiem dokomorowym, falą sinusoidalną w EKG i porażeniem wiotkim w zaostrzeniu PChN",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 11,
+    "file": "11_zomr.json",
+    "dept": "Choroby zakaźne",
+    "shortTitle": "Mężczyzna 21 l. – Gorączka 39.8°C, sztywność karku na 4 palce i wybroczyny skórne (Bakteryjne zapalenie opon mózgowo-rdzeniowych / ZOMR)",
+    "diagnosisTitle": "Ostre ropne zapalenie opon mózgowo-rdzeniowych i posocznica meningokokowa (Neisseria meningitidis) powikłana zespołem Waterhouse'a-Friderichsena",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 12,
+    "file": "12_odwodnienie_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "Niemowlę 10 m-cy – Ciężkie odwodnienie (>10% ubytku masy), zapadnięte ciemię i apatia w nieżycie żołądkowo-jelitowym",
+    "diagnosisTitle": "Ciężkie odwodnienie izotoniczne (stopień III wg WHO / >10% masy ciała) z kwasicą metaboliczną w przebiegu ostrego rotawirusowego nieżytu żołądkowo-jelitowego",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 13,
+    "file": "13_ozt.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "Mężczyzna 46 l. – Opasujący ból nadbrzusza, lipaza x13 i cechy SIRS po alkoholu (Ostre zapalenie trzustki / OZT)",
+    "diagnosisTitle": "Ciężkie ostre zapalenie trzustki (OZT wg klasyfikacji z Atlanty) o etiologii alkoholowo-żółciowej z zespołem SIRS i przednerkowym AKI",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 14,
+    "file": "14_gbs.json",
+    "dept": "Neurologia",
+    "shortTitle": "Mężczyzna 34 l. – Wstępujące osłabienie wiotkie nóg, arefleksja i duszność po biegunce (Zespół Guillaina-Barrégo / GBS)",
+    "diagnosisTitle": "Ostry zespół Guillaina-Barrégo (postać AIDP – ostra zapalna poliradikuloneuropatia demielinizacyjna) powikłany niewydolnością mięśni oddechowych i dysautonomią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 15,
+    "file": "15_niedokrwistosc.json",
+    "dept": "Hematologia",
+    "shortTitle": "Mężczyzna 58 l. – Hb 6.4 g/dl, MCV 65 fl, osłabienie i utajone krwawienie z przewodu pokarmowego (Ciężka niedokrwistość z niedoboru żelaza / Rak jelita)",
+    "diagnosisTitle": "Ciężka mikrocytarna niedokrwistość z niedoboru żelaza (sideropeniczna) w przebiegu przewlekłego utajonego krwawienia z gruczolakoraka wstępnicy",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 16,
+    "file": "16_anafilaksja.json",
+    "dept": "Alergologia",
+    "shortTitle": "Kobieta 29 l. – Obrzęk naczynioruchowy warg, świsty wydechowe, hipotensja 70/40 mmHg i pokrzywka po użądleniu osy (Wstrząs anafilaktyczny)",
+    "diagnosisTitle": "Ciężki wstrząs anafilaktyczny (stopień IV wg Ringa i Messmera) wywołany alergią na jad owadów błonkoskrzydłych powikłany zapaścią naczyniową i obrzękiem krtani",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 17,
+    "file": "17_wyrostek_ciaza.json",
+    "dept": "Chirurgia",
+    "shortTitle": "Ciężarna w 26. Hbd – Ból w prawym boku, gorączka i leukocytoza (Wyrostek robaczkowy w ciąży)",
+    "diagnosisTitle": "Ostre zapalenie wyrostka robaczkowego u ciężarnej w 26. tygodniu ciąży (II/III trymestr) z nietypową lokalizacją podżebrzową, miejscowym zapaleniem otrzewnej i ryzykiem porodu przedwczesnego",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 18,
+    "file": "18_odma_prezna.json",
+    "dept": "Medycyna ratunkowa",
+    "shortTitle": "Młody mężczyzna po urazie – Narastająca duszność, sinica i hipotensja (Odma prężna)",
+    "diagnosisTitle": "Prawostronna odma opłucnowa prężna (tension pneumothorax) powikłana wstrząsem obstrukcyjnym, przemieszczeniem śródpiersia i ostrą hipoksemiczną niewydolnością oddechową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 19,
+    "file": "19_zawal_omi.json",
+    "dept": "Kardiologia",
+    "shortTitle": "Mężczyzna 63 l. – Ból zamostkowy, poty i wstrząs (Zawał OMI ściany dolnej i prawej komory)",
+    "diagnosisTitle": "Ostry zawał mięśnia sercowego z uniesieniem odcinka ST (STEMI / OMI) ściany dolnej i prawej komory powikłany wstrząsem kardiogennym, blokiem przedsionkowo-komorowym III stopnia i ostrą hipoperfuzją obwodową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 20,
+    "file": "20_stan_padaczkowy.json",
+    "dept": "Neurologia",
+    "shortTitle": "Młody mężczyzna 28 l. – Uogólniony napad drgawkowy trwający >15 min (Stan padaczkowy)",
+    "diagnosisTitle": "Uogólniony drgawkowy stan padaczkowy (Generalized Convulsive Status Epilepticus - GCSE) oporny na benzodiazepiny (Refractory Status Epilepticus), powikłany ostrą kwasicą mleczanowo-oddechową, hipertermią i rabdomiolizą",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 21,
+    "file": "21_pochp.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "Mężczyzna 68 l. – Zaostrzenie duszności, ropna plwocina i kwasica (Zaostrzenie POChP)",
+    "diagnosisTitle": "Ciężkie, zakaźne zaostrzenie Przewlekłej Obturacyjnej Choroby Płuc (POChP) typu I wg Anthonisena, powikłane ostrą hiperkapniczną kwasicą oddechową (pH 7.26, PaCO2 69 mmHg) wymagające nieinwazyjnej wentylacji mechanicznej (NIV)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 22,
+    "file": "22_marskosc_sbp.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "Mężczyzna 54 l. – Krwiste wymioty, wodobrzusze i gorączka (Marskość: Żylaki i SBP)",
+    "diagnosisTitle": "Dekompresja poalkoholowej marskości wątroby (Child-Pugh C, MELD-Na 28): ostre krwawienie z żylaków przełyku powikłane wstrząsem krwotocznym oraz Spontaniczne Bakteryjne Zapalenie Otrzewnej (SBP) z zagrożeniem zespołem wątrobowo-nerkowym (HRS)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 23,
+    "file": "23_ciaza_ektopowa.json",
+    "dept": "Ginekologia i położnictwo",
+    "shortTitle": "Kobieta 28 l. – Ból podbrzusza, zasłabnięcie i plamienie (Pęknięta ciąża ektopowa)",
+    "diagnosisTitle": "Pęknięta ciąża ektopowa jajowodowa (graviditas ectopica tubaria ruptum, kod GIN-C03) powikłana masywnym krwawieniem do jamy otrzewnej (haemoperitoneum) i wstrząsem krwotocznym/hipowolemicznym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 24,
+    "file": "24_rozwarstwienie_aorty.json",
+    "dept": "Kardiologia",
+    "shortTitle": "Mężczyzna 59 l. – Rozdzierający ból klatki, asymetria ciśnień (Rozwarstwienie aorty Stanford A)",
+    "diagnosisTitle": "Ostre rozwarstwienie aorty piersiowej typu A wg Stanford (INT-K03) obejmujące aortę wstępującą i łuk, powikłane ostrą niedomykalnością zastawki aortalnej oraz asymetrią perfuzji kończyn górnych",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 25,
+    "file": "25_tamponada_serca.json",
+    "dept": "Kardiologia",
+    "shortTitle": "Kobieta 48 l. – Duszność, hipotensja i ciche tony serca (Tamponada serca)",
+    "diagnosisTitle": "Ostra tamponada serca w przebiegu wysiękowego zapalenia osierdzia (kod INT-K08) powikłana wstrząsem kardiogennym/obstrukcyjnym i zagrażająca zatrzymaniem krążenia w mechanizmie PEA",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 26,
+    "file": "26_pepniety_tetniak_aorty.json",
+    "dept": "Chirurgia",
+    "shortTitle": "Mężczyzna 71 l. – Ból lędźwiowy, pulsujący guz i wstrząs (Pęknięty tętniak aorty rAAA)",
+    "diagnosisTitle": "Pęknięty tętniak aorty brzusznej podnerkowy (ruptured abdominal aortic aneurysm - rAAA, kod CHIR-N01) z krwiakiem zaotrzewnowym, powikłany wstrząsem krwotocznym i ostrą hipoperfuzją narządową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 27,
+    "file": "27_przelom_nadnerczowy.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "34-latka z chorobą Addisona – Oporna hipotensja, hiponatremia i wstrząs (Przełom nadnerczowy / Kryza addisonowska)",
+    "diagnosisTitle": "Ostry przełom nadnerczowy (kryza addisonowska) we wstrząsie hipowolemiczno-dystrybucyjnym wywołany infekcją żołądkowo-jelitową u pacjentki z pierwotną niedoczynnością kory nadnerczy",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 28,
+    "file": "28_udar_niedokrwienny.json",
+    "dept": "Neurologia",
+    "shortTitle": "64-latek z nagłym niedowładem prawostronnym i afazją – Okno trombolityczne i trombektomia (Ostry udar niedokrwienny mózgu)",
+    "diagnosisTitle": "Ostry udar niedokrwienny mózgu w dorzeczu lewej tętnicy środkowej mózgu (L-MCA) powikłany niedowładem połowiczym i afazją, kwalifikowany do dożylnej trombolizy i trombektomii mechanicznej",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 29,
+    "file": "29_wstrzas_septyczny.json",
+    "dept": "Medycyna ratunkowa",
+    "shortTitle": "66-latka z urosepsą i oporną hipotoniczną zapaścią naczyniową – Protokół 1-Hour Bundle (Wstrząs septyczny)",
+    "diagnosisTitle": "Wstrząs septyczny oporny na wstępną płynoterapię wywołany powikłanym urosepsą odmiedniczkowym zapaleniem nerek z kamicą moczowodową i wodonerczem, z ciężką hiperlaktatemią i niewydolnością wielonarządową (MODS)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 30,
+    "file": "30_stan_astmatyczny.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "25-latek z zaostrzeniem astmy i 'cichą klatką piersiową' – Stan astmatyczny (Status asthmaticus)",
+    "diagnosisTitle": "Stan astmatyczny (status asthmaticus) – zagrażające życiu zaostrzenie astmy oskrzelowej ze zjawiskiem 'cichej klatki piersiowej' (silent chest), kwasicą oddechową i skrajnym wyczerpaniem mięśni oddechowych",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 31,
+    "file": "31_af_z_rvr.json",
+    "dept": "Kardiologia",
+    "shortTitle": "72-latek z dusznością spoczynkową, obrzękiem płuc i tachykardią 168/min – AF z szybką odpowiedzią komór (RVR)",
+    "diagnosisTitle": "Napadowe migotanie przedsionków z szybką czynnością komór (AF z RVR) powikłane ostrą niewydolnością lewokomorową i obrzękiem płuc (profil hemodynamiczny 'mokry i ciepły')",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 32,
+    "file": "32_af_wpw.json",
+    "dept": "Kardiologia",
+    "shortTitle": "28-latek z napadem kołatania serca, tętnem 230/min i szerokimi QRS – Migotanie przedsionków w zespole preekscytacji (AF + WPW)",
+    "diagnosisTitle": "Migotanie przedsionków przewodzone przez szlak dodatkowy (pęczek Kenta) w przebiegu zespołu Wolffa-Parkinsona-White'a (AF + WPW, preexcited AF) z zagrożeniem migotaniem komór i nagłym zgonem sercowym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 33,
+    "file": "33_stenoza_aortalna.json",
+    "dept": "Kardiologia",
+    "shortTitle": "78-latek z omdleniem przy wchodzeniu po schodach i szmerem skurczowym – Ciężka stenoza aortalna (AS)",
+    "diagnosisTitle": "Ciężka, objawowa stenoza aortalna (Aortic Stenosis) z triadą SAD (syncope, angina, dyspnoea), wysokim gradientem przezstawkowym i koncentrycznym przerostem lewej komory, kwalifikowana do TAVI",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 34,
+    "file": "34_hfref_dekompensacja.json",
+    "dept": "Kardiologia",
+    "shortTitle": "68-latek ze wstrząsem kardiogennym i zastojem płucnym – Ostra dekompensacja HFrEF (profil 'mokry i zimny')",
+    "diagnosisTitle": "Ostra dekompensacja przewlekłej niewydolności serca ze zredukowaną frakcją wyrzutową (ADHF in HFrEF) w profilu hemodynamicznym Forrestera 'mokry i zimny' (wstrząs kardiogenny z hipoperfuzją i zastojem płucnym)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 35,
+    "file": "35_torsade_de_pointes.json",
+    "dept": "Kardiologia",
+    "shortTitle": "46-latka po lekach psychotropowych i diuretykach z omdleniem – Torsade de Pointes w nabytym LQTS",
+    "diagnosisTitle": "Nabyty zespół długiego odstępu QT (acquired LQTS) powikłany nawracającymi napadami wielokształtnego częstoskurczu komorowego typu Torsade de Pointes (TdP) wywołany polipragmazją (citalopram + klarytromycyna) i hipokaliemią/hipomagnezemią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 36,
+    "file": "36_izw.json",
+    "dept": "Kardiologia",
+    "shortTitle": "58-latek z gorączką septyczną, nowym szmerem rozkurczowym i wybroczynami na dłoniach – Infekcyjne zapalenie wsierdzia (IZW)",
+    "diagnosisTitle": "Infekcyjne zapalenie wsierdzia zastawki aortalnej (IZW / Endocarditis infectiosa)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 37,
+    "file": "37_blok_av_mas.json",
+    "dept": "Kardiologia",
+    "shortTitle": "78-latka po nagłym upadku z utratą przytomności, HR 28/min – Blok AV III stopnia z zespołem MAS",
+    "diagnosisTitle": "Blok przedsionkowo-komorowy III stopnia (całkowity) z zespołem Morgagniego-Adamsa-Stokesa (MAS)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 38,
+    "file": "38_przelom_nadcisnieniowy.json",
+    "dept": "Kardiologia",
+    "shortTitle": "54-latek z BP 230/130 mmHg, silnym bólem głowy, zaburzeniami widzenia i splątaniem – Przełom nadciśnieniowy",
+    "diagnosisTitle": "Stan nagły w nadciśnieniu tętniczym (Hypertensive Emergency) z encefalopatią nadciśnieniową i ostrym uszkodzeniem narządowym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 39,
+    "file": "39_zapalenie_osierdzia.json",
+    "dept": "Kardiologia",
+    "shortTitle": "29-latek z kłującym bólem w klatce piersiowej nasilającym się przy leżeniu na plecach i tarciem osierdziowym – Myopericarditis",
+    "diagnosisTitle": "Ostre zapalenie osierdzia i mięśnia sercowego (Myopericarditis acuta)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 40,
+    "file": "40_hocm.json",
+    "dept": "Kardiologia",
+    "shortTitle": "24-latek z omdleniem wysiłkowym i szmerem skurczowym nasilającym się przy próbie Valsalvy – Kardiomiopatia przerostowa (HOCM)",
+    "diagnosisTitle": "Kardiomiopatia przerostowa z zawężaniem drogi odpływu lewej komory (HOCM / Hypertrophic Obstructive Cardiomyopathy)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 41,
+    "file": "41_avnrt.json",
+    "dept": "Kardiologia",
+    "shortTitle": "32-latka z nagłym kołataniem serca, HR 195/min i uczuciem pulsowania w gardle – Częstoskurcz węzłowy nawrotny (AVNRT)",
+    "diagnosisTitle": "Nawrotny częstoskurcz w węźle przedsionkowo-komorowym (AVNRT / Atrioventricular Nodal Reentrant Tachycardia)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 42,
+    "file": "42_takotsubo.json",
+    "dept": "Kardiologia",
+    "shortTitle": "68-latka po nagłej traumie emocjonalnej z silnym bólem dławicowym i uniesieniem ST – Kardiomiopatia Takotsubo",
+    "diagnosisTitle": "Kardiomiopatia Takotsubo (zespół balotującego koniuszka / kardiomiopatia stresowa)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 43,
+    "file": "43_ciezkie_cap.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "67-latek z gorączką 39.8°C, dusznością, splątaniem i BP 85/55 mmHg – Ciężkie zapalenie płuc (CURB-65)",
+    "diagnosisTitle": "Ciężkie pozaszpitalne zapalenie płuc (CAP / Community-Acquired Pneumonia) powikłane sepsą wg skali CURB-65",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 44,
+    "file": "44_rak_pluca_svcs_siadh.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "62-latek z obrzękiem twarzy 'kołnierzem Stokesa', dusznością i hiponatremią 118 mmol/l – SCLC z zespołem SVCS i SIADH",
+    "diagnosisTitle": "Rak drobnokomórkowy płuca (SCLC / Small Cell Lung Cancer) powikłany zespołem żyły głównej górnej (SVCS) i zespołem Schwartza-Barttera (SIADH)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 45,
+    "file": "45_sarkoidoza_lofgren.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "31-latka z bolesnymi czerwonymi guzami na podudziach, obrzękiem stawów skokowych i powiększeniem węzłów wnęk – Zespół Löfgrena",
+    "diagnosisTitle": "Ostra postać sarkoidozy – Zespół Löfgrena (Erythema nodosum + BHL + Arthritis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 46,
+    "file": "46_ipf.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "69-latek z dusznością wysiłkową, suchym kaszlem, trzeszczeniami 'rzepów' i palcami pałeczkowatymi – Idiopatyczne włóknienie płuc (IPF)",
+    "diagnosisTitle": "Idiopatyczne włóknienie płuc (IPF / Idiopathic Pulmonary Fibrosis) – wzorzec zwykłego śródmiąższowego zapalenia płuc (UIP)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 47,
+    "file": "47_gruzlica_pluc.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "48-latek z potami nocnymi, spadkiem masy ciała, krwiopluciem i jamą w szczycie płuca – Gruźlica płuc (TBC)",
+    "diagnosisTitle": "Gruźlica płuc jamista prątkująca (Tuberculosis pulmonum cavitaria) powikłana krwiopluciem",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 48,
+    "file": "48_plyn_oplucna_ropniak.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "56-latek z gorączką, dusznością i płynem w lewej jamie opłucnej – Powikłany wysięk i ropniak opłucnej",
+    "diagnosisTitle": "Powikłany wysięk parapneumoniczny i ropniak opłucnej (Empyema pleurae) wg kryteriów Lighta",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 49,
+    "file": "49_odma_samoistna.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "22-latek, wysoki i szczupły, z nagłym kłującym bólem w klatce piersiowej i dusznością – Odma samoistna pierwotna (PSP)",
+    "diagnosisTitle": "Odma opłucnowa samoistna pierwotna (PSP / Primary Spontaneous Pneumothorax)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 50,
+    "file": "50_bezdech_senny_obs.json",
+    "dept": "Pulmonologia",
+    "shortTitle": "52-latek z głośnym chrapaniem, przerwami w oddychaniu, sennością dzienną i opornym nadciśnieniem – Obturacyjny bezdech senny (OBS)",
+    "diagnosisTitle": "Obturacyjny bezdech senny (OBS / Obstructive Sleep Apnea) w stadium ciężkim (AHI >= 30)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 51,
+    "file": "51_krwawiacy_wrzod_forrest.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "59-latek z krwawymi wymiotami, smolistym stolcem i BP 82/45 mmHg – Krwawiący wrzód dwunastnicy (Forrest Ia)",
+    "diagnosisTitle": "Ostre krwawienie z górnego odcinka przewodu pokarmowego we wstrząsie hipowolemicznym – Krwawiący wrzód opuszki dwunastnicy wg klasyfikacji Forresta (stadium Ia)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 52,
+    "file": "52_encefalopatia_watrobowa.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "57-latek z marskością wątroby, odwróceniem rytmu snu, drżeniem trzepoczącym i splątaniem – Encefalopatia wątrobowa",
+    "diagnosisTitle": "Encefalopatia wątrobowa (HE / Hepatic Encephalopathy) w stadium II/III wg klasyfikacji West Haven w przebiegu dekompensacji marskości wątroby",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 53,
+    "file": "53_wzjg_megacolon.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "28-latka z krwawą biegunką >10x/d, gorączką 39°C i rozdęciem brzucha – Ciężki rzut WZJG z megacolon toxicum",
+    "diagnosisTitle": "Ciężki rzut wrzodziejącego zapalenia jelita grubego (Colitis ulcerosa) powikłany toksycznym rozdęciem okrężnicy (Megacolon toxicum)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 54,
+    "file": "54_crohn.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "26-latek z przewlekłym bólem w prawym dole biodrowym, gorączką, przetokami okołoodbytniczymi i zwężeniem krętniczym – Choroba Leśniowskiego-Crohna",
+    "diagnosisTitle": "Choroba Leśniowskiego-Crohna (Morbus Crohn) o fenotypie zwężająco-przetokowym (A2 L1+L4 B2+B3p wg klasyfikacji montrealskiej)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 55,
+    "file": "55_clostridioides_difficile.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "72-latek po antybiotykoterapii z wodnistą biegunką (12x/d), WBC 24.5 G/l i bólem brzucha – Zakażenie Clostridioides difficile (CDI)",
+    "diagnosisTitle": "Ciężkie rzekomobłoniaste zapalenie jelit w przebiegu zakażenia Clostridioides difficile (CDI) powikłane odwodnieniem i przednerkowym AKI",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 56,
+    "file": "56_celiakia_dorosly.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "34-latka z przewlekłą biegunką, anemią mikrocytarną (Hb 8.9 g/dl) i swędzącymi pęcherzykami na łokciach – Celiakia z chorobą Duhringa",
+    "diagnosisTitle": "Choroba trzewna (Celiakia) u osoby dorosłej powikłana zespołem złego wchłaniania, oporną anemią z niedoboru żelaza oraz opryszczkowatym zapaleniem skóry (Choroba Duhringa / Dermatitis herpetiformis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 57,
+    "file": "57_aih.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "29-latka z żółtaczką, ALT 840 IU/l, IgG 28 g/l i obecnymi przeciwciałami ANA/SMA – Autoimmunologiczne zapalenie wątroby (AIH)",
+    "diagnosisTitle": "Autoimmunologiczne zapalenie wątroby typu 1 (AIH typ 1) o ostrym początku z ciężkim uszkodzeniem wątrobowokomórkowym i hipergammaglobulinemią IgG",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 58,
+    "file": "58_ibs.json",
+    "dept": "Gastroenterologia",
+    "shortTitle": "31-letnia prawniczka z nawracającym bólem podbrzusza ustępującym po wypróżnieniu i naprzemiennym rytmem wypróżnień – Zespół jelita drażliwego (IBS)",
+    "diagnosisTitle": "Zespół jelita drażliwego o postaci mieszanej (IBS-M) spełniający kryteria rzymskie IV, bez objawów alarmowych ('czerwonych flag')",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 59,
+    "file": "59_hhs.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "68-latek z cukrzycą t. 2, głębokim odwodnieniem, glikemią 840 mg/dl i Osm 345 mOsm/kg – Zespół hiperglikemiczno-hiperosmolalny (HHS)",
+    "diagnosisTitle": "Stan hiperglikemiczno-hiperosmolalny (HHS) z ciężkim odwodnieniem hipowolemicznym i przednerkową niewydolnością nerek",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 60,
+    "file": "60_myxedema_coma.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "74-latka z hipotermią (34.1°C), bradykardią (42/min), hipowentylacją i obrzękiem śluzowatym – Śpiączka hipometaboliczna (Myxedema coma)",
+    "diagnosisTitle": "Śpiączka hipometaboliczna (Myxedema coma) w przebiegu skrajnej niewyrównanej niedoczynności tarczycy, powikłana hipotermią, hiponatremią i hiperkapnią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 61,
+    "file": "61_pheochromocytoma.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "42-latek z napadowym ciśnieniem 235/135 mmHg, pulsującym bólem głowy, potami i kołataniem serca – Pheochromocytoma",
+    "diagnosisTitle": "Guz chromochłonny lewego nadnercza (Pheochromocytoma) z napadowym przełomem nadciśnieniowym i hipowolemią wewnątrznaczyniową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 62,
+    "file": "62_zespol_cushinga.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "38-latka z twarzą księżycowatą, bawolim karkiem, sinoczerwonymi rozstępami i BP 165/100 mmHg – Zespół Cushinga",
+    "diagnosisTitle": "Endogenny zespół Cushinga w przebiegu mikrogruczolaka przysadki wydzielającego ACTH (Choroba Cushinga) powikłany osteoporozą i nadciśnieniem",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 63,
+    "file": "63_przelom_hiperkalcemiczny.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "62-latka z wapniem 3.85 mmol/l, skróconym QT, splątaniem i ostrym odwodnieniem – Przełom hiperkalcemiczny w PHPT",
+    "diagnosisTitle": "Przełom hiperkalcemiczny z ostrym uszkodzeniem nerek i encefalopatią w przebiegu pierwotnej nadczynności przytarczyc (PHPT)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 64,
+    "file": "64_zespol_conna.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "46-latek z opornym nadciśnieniem 185/110 mmHg, hipokaliemią 2.8 mmol/l i osłabieniem mięśni – Zespół Conna",
+    "diagnosisTitle": "Pierwotny hiperaldosteronizm (Zespół Conna) w przebiegu aldosteronoma lewego nadnercza z opornym nadciśnieniem i hipokaliemią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 65,
+    "file": "65_moczkowka_prosta.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "27-latek po urazie czaszkowo-mózgowym z wielomoczem (9 l/dobę), skrajnym pragnieniem i Na 154 mmol/l – Moczówka prosta (CDI)",
+    "diagnosisTitle": "Moczówka prosta ośrodkowa pourazowa (Central Diabetes Insipidus) z ciężkim odwodnieniem hipotonicznym i hipernatremią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 66,
+    "file": "66_de_quervain.json",
+    "dept": "Endokrynologia",
+    "shortTitle": "39-latka z silnym, promieniującym do żuchwy bólem szyi, OB 98 mm/h, TSH <0.01 i tyreotoksykozą – Podostre zapalenie tarczycy (de Quervaina)",
+    "diagnosisTitle": "Podostre ziarniniakowe zapalenie tarczycy (Choroba de Quervaina) w fazie tyreotoksykozy destrukcyjnej powikłane silnym zespołem bólowym szyi",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 67,
+    "file": "67_hiponatremia_ods.json",
+    "dept": "Nefrologia",
+    "shortTitle": "58-latka z drgawkami, sodem 112 mmol/l, obrzękiem mózgu i ryzykiem ODS – Ciężka objawowa hiponatremia",
+    "diagnosisTitle": "Ciężka, ostra objawowa hiponatremia hipotoniczna powikłana obrzękiem mózgu, stanem padaczkowym i ryzykiem zespołu demielinizacji osmotycznej (ODS)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 68,
+    "file": "68_aki_kdigo.json",
+    "dept": "Nefrologia",
+    "shortTitle": "71-latek po operacji aorty ze skąpomoczem (150 ml/12h), wzrostem kreatyniny do 4.2 mg/dl i FENa 2.8% – Ostre uszkodzenie nerek (AKI KDIGO 3 / ATN)",
+    "diagnosisTitle": "Ostre uszkodzenie nerek w stadium 3 wg KDIGO (AKI stadium 3) – Ostra martwica cewek nerkowych (ATN) po niedokrwieniu śródoperacyjnym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 69,
+    "file": "69_zespol_nerczycowy.json",
+    "dept": "Nefrologia",
+    "shortTitle": "48-latek z obrzękami, białkomoczem 8.6 g/24h, albuminą 18 g/l i bólem w boku – Zespół nerczycowy z zakrzepicą żyły nerkowej",
+    "diagnosisTitle": "Pierwotna nefropatia błoniasta (anty-PLA2R-dodatnia) w postaci ciężkiego zespołu nerczycowego powikłana zakrzepicą lewej żyły nerkowej (RVT)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 70,
+    "file": "70_rpgn.json",
+    "dept": "Nefrologia",
+    "shortTitle": "26-latek z krwiopluciem, dusznością, kreatyniną 5.8 mg/dl i przeciwciałami anty-GBM – Zespół Goodpasture'a (RPGN)",
+    "diagnosisTitle": "Zespół Goodpasture'a (Choroba anty-GBM) przebiegająca jako gwałtownie postępujące kłębuszkowe zapalenie nerek z półksiężycami (RPGN typ I) i rozlane krwawienie pęcherzykowe (DAH)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 71,
+    "file": "71_pchn_dializa_ratunkowa.json",
+    "dept": "Nefrologia",
+    "shortTitle": "65-latek z PChN G5D, mocznicowym zapaleniem osierdzia, K 7.1 mmol/l i obrzękiem płuc – Pilna hemodializa ratunkowa",
+    "diagnosisTitle": "Schyłkowa niewydolność nerek (PChN stadium G5D) z ostrym zespołem mocznicowym, mocznicowym zapaleniem osierdzia i zagrażającą życiu hiperkaliemią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 72,
+    "file": "72_ain_polekowe.json",
+    "dept": "Nefrologia",
+    "shortTitle": "54-latka z gorączką, wysypką, eozynofilią i wzrostem kreatyniny po amoksycylinie – Ostre cewkowo-śródmiąższowe zapalenie nerek (AIN)",
+    "diagnosisTitle": "Ostre cewkowo-śródmiąższowe zapalenie nerek polekowe (Acute Interstitial Nephritis – AIN) wywołane amoksycyliną z kwasem klawulanowym i omeprazolem",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 73,
+    "file": "73_adpkd.json",
+    "dept": "Nefrologia",
+    "shortTitle": "38-latek z obustronnymi guzami w jamie brzusznej, krwiomoczem i nadciśnieniem – Autosomalnie dominująca wielotorbielowatość nerek (ADPKD)",
+    "diagnosisTitle": "Autosomalnie dominująca wielotorbielowatość nerek (ADPKD) powikłana wtórnym nadciśnieniem tętniczym, krwawieniem do torbieli i obciążeniem rodzinnym tętniakiem koła Willisa",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 74,
+    "file": "74_niedokrwistosc_b12.json",
+    "dept": "Hematologia",
+    "shortTitle": "64-latka z osłabieniem, cytrynową cerą, językiem Huntera i ataksją – Niedokrwistość megaloblastyczna (Addison-Biermer)",
+    "diagnosisTitle": "Ciężka niedokrwistość megaloblastyczna z pancytopenią w przebiegu choroby Addisona-Biermera (niedobór witaminy B12) z podostrym połączonym zwyrodnieniem rdzenia kręgowego (SCD)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 75,
+    "file": "75_ttp.json",
+    "dept": "Hematologia",
+    "shortTitle": "34-latka ze splątaniem, wybroczynami, niedokrwistością ze schistocytami i małopłytkowością – Zakrzepowa plamica małopłytkowa (TTP)",
+    "diagnosisTitle": "Nabyta zakrzepowa plamica małopłytkowa (Thrombotic Thrombocytopenic Purpura – TTP, choroba Moschcowitza) z ciężkim niedoborem ADAMTS13",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 76,
+    "file": "76_goraczka_neutropeniczna.json",
+    "dept": "Hematologia",
+    "shortTitle": "56-latek po chemioterapii z gorączką 38.9°C i neutrofilami 180/µl – Gorączka neutropeniczna",
+    "diagnosisTitle": "Gorączka neutropeniczna wysokiego ryzyka (MASCC < 21) u pacjenta po chemioterapii chłoniaka DLBCL w stadium skrajnej agranulocytozy",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 77,
+    "file": "77_szpiczak_mnogi.json",
+    "dept": "Hematologia",
+    "shortTitle": "68-latek z bólami kręgosłupa, hiperkalcemią, niewydolnością nerek i osteolizą – Szpiczak plazmocytowy (CRAB)",
+    "diagnosisTitle": "Szpiczak plazmocytowy (Multiple Myeloma, IgG kappa) o pełnej manifestacji objawowej CRAB powikłany złamaniem kompresyjnym trzonu kręgu i nerką szpiczakową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 78,
+    "file": "78_aml.json",
+    "dept": "Hematologia",
+    "shortTitle": "58-latka z wybroczynami, gorączką, bladością i 46% blastów z pałeczkami Auera – Ostra białaczka szpikowa (AML)",
+    "diagnosisTitle": "Ostra białaczka szpikowa (Acute Myeloid Leukemia – AML) de novo z obecnością pałeczek Auera, leukocytozą z mieloblastozą i ciężką małopłytkowością",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 79,
+    "file": "79_tls.json",
+    "dept": "Hematologia",
+    "shortTitle": "48-latek po chemioterapii chłoniaka z hiperkaliemią 6.8, kwasem moczowym 15.2 i oligurią – Zespół rozpadu guza (TLS)",
+    "diagnosisTitle": "Kliniczny i laboratoryjny zespół rozpadu guza (Tumor Lysis Syndrome – TLS wg Cairo-Bishopa) powikłany zagrażającą arytmią w przebiegu hiperkaliemii i ostrym uszkodzeniem nerek",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 80,
+    "file": "80_sle_toczen.json",
+    "dept": "Reumatologia",
+    "shortTitle": "28-latka z rumieniem motyla, zapaleniem stawów, białkomoczem i anty-dsDNA – Toczeń rumieniowaty układowy (SLE)",
+    "diagnosisTitle": "Toczeń rumieniowaty układowy (Systemic Lupus Erythematosus – SLE) powikłany toczniowym zapaleniem nerek klasy IV (Lupus Nephritis) i cytopenią",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 81,
+    "file": "81_gca_zapalenie_skroniowej.json",
+    "dept": "Reumatologia",
+    "shortTitle": "72-latka z jednostronnym bólem skroni, chromaniem żuchwy i amaurosis fugax – Olbrzymiokomórkowe zapalenie tętnic (GCA)",
+    "diagnosisTitle": "Olbrzymiokomórkowe zapalenie tętnic (Giant Cell Arteritis – GCA, choroba Hortona) ze współistniejącą polimialgią reumatyczną i zagrażającą ślepotą (AION)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 82,
+    "file": "82_dna_moczanowa.json",
+    "dept": "Reumatologia",
+    "shortTitle": "52-latek z rozdzierającym bólem i obrzękiem palucha prawej stopy po alkoholu – Ostry napad dny moczanowej (Podagra)",
+    "diagnosisTitle": "Ostry napad dny moczanowej (Podagra) pierwszego stawu śródstopno-paliczkowego potwierdzony obecnością kryształów moczanu sodu o ujemnej dwójłomności",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 83,
+    "file": "83_rzs.json",
+    "dept": "Reumatologia",
+    "shortTitle": "42-latka z symetrycznym obrzękiem stawów rąk, sztywnością poranną >2h i anty-CCP >250 – Wczesne RZS",
+    "diagnosisTitle": "Wczesne, seropozytywne reumatoidalne zapalenie stawów (RZS) o wysokiej aktywności (RF+, anty-CCP+, wysokie CRP) w oknie terapeutycznym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 84,
+    "file": "84_borelioza_rumien.json",
+    "dept": "Choroby zakaźne",
+    "shortTitle": "38-latek z tarczowatą zmianą skórną o średnicy 9 cm na udzie po ukłuciu kleszcza – Borelioza (Rumień wędrujący)",
+    "diagnosisTitle": "Wczesna borelioza z Lyme (stadium I ograniczone) manifestująca się klasycznym rumieniem wędrującym (Erythema migrans)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 85,
+    "file": "85_hbv_serologia.json",
+    "dept": "Choroby zakaźne",
+    "shortTitle": "32-latek z wykrytym HBsAg, anty-HBc total(+), HBV DNA 280 000 IU/ml i AlAT 92 IU/l – WZW typu B",
+    "diagnosisTitle": "Przewlekłe wirusowe zapalenie wątroby typu B (CHB, HBeAg-dodatnie) w fazie aktywnej replikacji z umiarkowanym włóknieniem (F2/F3)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 86,
+    "file": "86_nls_noworodek.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek wiotki, bezdechu i z bradykardią 50/min po porodzie – Resuscytacja noworodka (NLS)",
+    "diagnosisTitle": "Ciężka zamartwica urodzeniowa u noworodka donoszonego wymagająca natychmiastowej resuscytacji krążeniowo-oddechowej wg algorytmu NLS (ERC 2021)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 87,
+    "file": "87_konflikt_serologiczny_rhd.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek matki RhD(-) z żółtaczką w 4. godzinie życia, anemią i dodatnim testem Coombsa – Choroba hemolityczna noworodka (ChHN)",
+    "diagnosisTitle": "Choroba hemolityczna noworodka (ChHN) w przebiegu konfliktu serologicznego w układzie RhD powikłana ciężką hiperbilirubinemią i zagrożeniem kernicterus",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 88,
+    "file": "88_nec_noworodek.json",
+    "dept": "Pediatria",
+    "shortTitle": "Wcześniak z 29. Hbd ze wzdęciem brzucha, krwistym stolcem i odmą śródścienną (pneumatosis) – Martwicze zapalenie jelit (NEC)",
+    "diagnosisTitle": "Martwicze zapalenie jelit u wcześniaka (Necrotizing Enterocolitis – NEC stadium IIB/IIIA wg Bella) powikłane kwasicą metaboliczną i odmą śródścienną",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 89,
+    "file": "89_atrezja_dwunastnicy.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek z zespołem Downa, żółciowymi wymiotami i objawem podwójnej bańki (double bubble) – Atrezja dwunastnicy",
+    "diagnosisTitle": "Wrodzona całkowita niedrożność dwunastnicy (Atresia duodeni) poniżej brodawki Vatera z objawem 'double bubble' u noworodka z zespołem Downa",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 90,
+    "file": "90_rds_noworodek.json",
+    "dept": "Pediatria",
+    "shortTitle": "Wcześniak w 30. Hbd z tachypnoë, gruntingiem i retrakcjami – Zespół zaburzeń oddychania noworodka (RDS)",
+    "diagnosisTitle": "Zespół zaburzeń oddychania noworodka (RDS / Hyaline Membrane Disease) w przebiegu pierwotnego niedoboru surfaktantu u wcześniaka urodzonego w 30. Hbd",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 91,
+    "file": "91_tga_wada_przewodozalezna.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek w 2. dobie z sinicą oporną na tlen – Przełożenie wielkich pni tętniczych (TGA)",
+    "diagnosisTitle": "Wrodzona sinicza wada serca ze skojarzonym krążeniem równoległym – Przełożenie wielkich pni tętniczych (d-TGA / Transposition of the Great Arteries) zależne od drożności przewodu tętniczego i otworu owalnego",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 92,
+    "file": "92_sepsa_noworodka_gbs.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek w 18. hż z hipotermią, apatią i marmurkowatą skórą – Wczesna sepsa noworodkowa (EOS GBS)",
+    "diagnosisTitle": "Wczesna sepsa noworodków (Early-Onset Sepsis – EOS) o etiologii Streptococcus agalactiae (GBS) z podejrzeniem neuroinfekcji u noworodka donoszonego bez profilaktyki śródporodowej",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 93,
+    "file": "93_krup_podglosniowe.json",
+    "dept": "Pediatria",
+    "shortTitle": "Dziecko 2,5 roku z nocnym szczekającym kaszlem i stridorem – Podgłośniowe zapalenie krtani (krup)",
+    "diagnosisTitle": "Podgłośniowe zapalenie krtani (Laryngitis subglottica / Krup wirusowy) o umiarkowanym/ciężkim nasileniu (skala Westleya 5 pkt) w przebiegu infekcji wirusem paragrypy",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 94,
+    "file": "94_epiglottitis_naglosnia.json",
+    "dept": "Pediatria",
+    "shortTitle": "Dziecko 4 lata z gorączką 39,8°C, ślinotokiem i pozycją trójnoga – Ostre zapalenie nagłośni (epiglottitis)",
+    "diagnosisTitle": "Ostre zapalenie nagłośni (Epiglottitis acuta) wywołane przez Haemophilus influenzae typ b (Hib) u nieszczepionego dziecka w stanie bezpośredniego zagrożenia życia",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 95,
+    "file": "95_bronchiolitis_rsv.json",
+    "dept": "Pediatria",
+    "shortTitle": "Niemowlę 3 miesiące z dusznością wydechową, świstami i bezdechami – Zapalenie oskrzelików (RSV)",
+    "diagnosisTitle": "Ostre zapalenie oskrzelików (Bronchiolitis acuta) o etiologii wirusa RS (Respiratory Syncytial Virus – RSV) u 3-miesięcznego niemowlęcia z niewydolnością oddechową i trudnościami w karmieniu",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 96,
+    "file": "96_zap_pluc_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "Dziecko 3 lata z gorączką 39,2°C, kaszlem i bólem brzucha – Pozaszpitalne zapalenie płuc (CAP)",
+    "diagnosisTitle": "Pozaszpitalne bakteryjne zapalenie płuc (Community-Acquired Pneumonia – CAP) prawego dolnego płata o etiologii Streptococcus pneumoniae u 3-letniej dziewczynki",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 97,
+    "file": "97_cialo_obce_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "Dziecko 18 miesięcy po zakrztuszeniu orzeszkiem z jednostronnym świstem – Ciało obce w drogach oddechowych",
+    "diagnosisTitle": "Aspiracja ciała obcego organicznego (orzeszka ziemnego) do oskrzela głównego prawego u 18-miesięcznego dziecka powikłana rozedmą wentylową (air trapping)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 98,
+    "file": "98_mukowiscydoza.json",
+    "dept": "Pediatria",
+    "shortTitle": "Dziecko 5 lat z przewlekłym kaszlem, tłuszczowymi stolcami i niedożywieniem – Mukowiscydoza (CF)",
+    "diagnosisTitle": "Mukowiscydoza (Cystic Fibrosis – CF) u 5-letniego chłopca w przebiegu homozygotycznej mutacji p.Phe508del genu CFTR powikłana zaostrzeniem oskrzelowo-płucnym o etiologii Pseudomonas aeruginosa",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 99,
+    "file": "99_wglobienie_jelita.json",
+    "dept": "Pediatria",
+    "shortTitle": "Niemowlę 7 miesięcy z napadowym płaczem, podkurczaniem nóżek i stolcem jak 'galaretka porzeczkowa' – Wgłobienie jelita",
+    "diagnosisTitle": "Wgłobienie jelitowo-okrężnicze (Intussusceptio ileocolica) u 7-miesięcznego niemowlęcia kwalifikujące się do pilnej dezynwaginacji nieoperacyjnej",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 100,
+    "file": "100_volvulus_skret_jelita.json",
+    "dept": "Pediatria",
+    "shortTitle": "Noworodek w 8. dobie z żółciowymi wymiotami, wzdęciem i wstrząsem – Skręt jelita (volvulus)",
+    "diagnosisTitle": "Ostry skręt jelita środkowego (Volvulus) na podłożu wrodzonej malrotacji jelit powikłany niedokrwieniem krezkowym i wstrząsem u noworodka w 8. dobie życia",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 101,
+    "file": "101_celiakia_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "Chłopiec 18 mies. – Wzdęcie brzucha, zahamowanie przyrostu masy i przewlekła biegunka (Celiakia)",
+    "diagnosisTitle": "Celiakia (Choroba trzewna / Coeliac disease) – postać klasyczna z enteropatią, zespołem złego wchłaniania i niedokrwistością z niedoboru żelaza",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 102,
+    "file": "102_abmk_niemowle.json",
+    "dept": "Pediatria",
+    "shortTitle": "Niemowlę 3 mies. – Kolka jelitowa, smugi krwi w stolcu i atopowy wyprysk (Alergia na białka mleka krowiego / ABMK)",
+    "diagnosisTitle": "Alergia na białka mleka krowiego (Cow's Milk Protein Allergy – CMPA / ABMK) – postać mieszana (zapalenie prostnicy i okrężnicy FPIAP oraz atopowe zapalenie skóry)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 103,
+    "file": "103_wyrostek_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "Chłopiec 7 l. – Ból śródbrzusza wędrujący do prawego dołu biodrowego, wymioty i gorączka (Zapalenie wyrostka)",
+    "diagnosisTitle": "Ostre zapalenie wyrostka robaczkowego u dziecka (Appendicitis acuta in paediatria) z miejscowym odczynem otrzewnowym",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 104,
+    "file": "104_zum_niemowle.json",
+    "dept": "Pediatria",
+    "shortTitle": "Niemowlę 5 mies. – Gorączka bez uchwytnego źródła, drażliwość i wymioty (OZZN / ZUM)",
+    "diagnosisTitle": "Ostre odmiedniczkowe zapalenie nerek (Pyelonephritis acuta / OZZN) u niemowlęcia – pierwsze zakażenie układu moczowego (ZUM)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 105,
+    "file": "105_zespol_nerczycowy_mcd.json",
+    "dept": "Pediatria",
+    "shortTitle": "3-letni Jaś – Obrzęki powiek i moszny, spieniony mocz i wodobrzusze (MCD)",
+    "diagnosisTitle": "Idiopatyczny zespół nerczycowy o zmianach minimalnych (MCD – Minimal Change Disease)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 106,
+    "file": "106_stec_hus.json",
+    "dept": "Pediatria",
+    "shortTitle": "2,5-letnia Martynka – Krwawa biegunka po grillu, nagła bladość, bezmocz i wybroczyny (STEC-HUS)",
+    "diagnosisTitle": "Zespół hemolityczno-mocznicowy związany z toksyną Shiga (STEC-HUS / D+ HUS)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 107,
+    "file": "107_odplyw_pecherzowo_moczowodowy_vur.json",
+    "dept": "Pediatria",
+    "shortTitle": "2-letnia Hania – Drugi epizod gorączkowego ZUM, poszerzenie UKM i nawracające infekcje (VUR stopnia IV)",
+    "diagnosisTitle": "Odpływ pęcherzowo-moczowodowy (VUR – Vesicoureteral Reflux) stopnia IV prawostronny z nefropatią refluksową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 108,
+    "file": "108_popaciorkowcowe_kzn_apsgn.json",
+    "dept": "Pediatria",
+    "shortTitle": "7-letni Bartek – Mocz o barwie popłuczyn mięsnych (coca-coli), obrzęki powiek i nadciśnienie po anginie (APSGN)",
+    "diagnosisTitle": "Ostre popaciorkowcowe kłębuszkowe zapalenie nerek (APSGN – Acute Poststreptococcal Glomerulonephritis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 109,
+    "file": "109_wodonercze_wrodzone_upjo.json",
+    "dept": "Chirurgia dziecięca",
+    "shortTitle": "3-miesięczny Tymon – Poszerzenie miedniczki w USG prenatalnym, guz w jamie brzusznej i wodonercze (UPJO)",
+    "diagnosisTitle": "Wrodzone zwężenie połączenia miedniczkowo-moczowodowego (UPJO – Ureteropelvic Junction Obstruction) lewostronne powikłane wodonerczem stopnia IV wg SFU",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 110,
+    "file": "110_odra_morbilli.json",
+    "dept": "Choroby zakaźne",
+    "shortTitle": "4-letni Antoś – Wysoka gorączka, triada '3C', plamki Koplika i zstępująca osutka (Odra / Morbilli)",
+    "diagnosisTitle": "Odra (Morbilli / Measles) o ciężkim przebiegu powikłana wczesnym odrowym zapaleniem płuc u nieszczepionego dziecka",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 111,
+    "file": "111_plonica_szkarlatyna.json",
+    "dept": "Pediatria",
+    "shortTitle": "5-letnia dziewczynka – Ból gardła, malinowy język, wysypka 'papier ścierny' i linie Pastii (Płonica / Szkarlatyna)",
+    "diagnosisTitle": "Płonica / Szkarlatyna (Scarlatina) wywołana przez paciorkowce grupy A (Streptococcus pyogenes)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 112,
+    "file": "112_ospa_wietrzna_vzv.json",
+    "dept": "Pediatria",
+    "shortTitle": "3-letni chłopiec – Swędząca polimorficzna wysypka 'krople rosy', gorączka i powikłania skórne (Ospa wietrzna / Varicella)",
+    "diagnosisTitle": "Ospa wietrzna (Varicella) wywołana przez wirus ospy wietrznej i półpaśca (VZV) z wtórnym nadkażeniem bakteryjnym skóry",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 113,
+    "file": "113_mononukleoza_ebv.json",
+    "dept": "Pediatria",
+    "shortTitle": "15-letni nastolatek – Wysoka gorączka, zapalenie migdałków, powiększenie śledziony i wysypka po amoksycylinie (Mononukleoza / EBV)",
+    "diagnosisTitle": "Mononukleoza zakaźna (Infectious Mononucleosis) wywołana przez wirus Epsteina-Barr (EBV) z osutką polekową po aminopenicylinie",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 114,
+    "file": "114_krztusiec_pertussis.json",
+    "dept": "Pediatria",
+    "shortTitle": "2-miesięczne nieszczepione niemowlę – Napady dławiącego kaszlu z bezdechem i 'pianiem' (Krztusiec / Pertussis)",
+    "diagnosisTitle": "Krztusiec (Pertussis / Whooping Cough) wywołany przez pałeczkę krztuśca (Bordetella pertussis) z zespołem bezdechów",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 115,
+    "file": "115_rumien_zakazny_parwowirus_b19.json",
+    "dept": "Pediatria",
+    "shortTitle": "6-letnie dziecko – 'Spoliczkowane policzki', girlandowata wysypka na kończynach (Rumień zakaźny / Parvovirus B19)",
+    "diagnosisTitle": "Rumień zakaźny (Erythema infectiosum / Piąta choroba) wywołany przez Parwowirus B19",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 116,
+    "file": "116_goraczka_trzydniowa_hhv6.json",
+    "dept": "Pediatria",
+    "shortTitle": "10-miesięczne niemowlę – Wysoka gorączka przez 3 dni i nagła wysypka po jej spadku (Gorączka trzydniowa / Rumień nagły)",
+    "diagnosisTitle": "Rumień nagły / Gorączka trzydniowa (Exanthema subitum / Szósta choroba) wywołana przez ludzki herpeswirus typ 6 (HHV-6)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 117,
+    "file": "117_choroba_bostonska_hfmd.json",
+    "dept": "Pediatria",
+    "shortTitle": "3-letnie dziecko – Pęcherzyki na dłoniach, podeszwach stóp i afty w jamie ustnej (Choroba dłoni, stóp i ust / HFMD)",
+    "diagnosisTitle": "Choroba dłoni, stóp i jamy ustnej (Hand, Foot, and Mouth Disease - HFMD / 'Choroba bostońska') wywołana przez enterowirusy (Coxsackie A16 / EV71)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 118,
+    "file": "118_drgawki_goraczkowe.json",
+    "dept": "Pediatria",
+    "shortTitle": "18-miesięczny chłopiec – Uogólniony napad toniczno-kloniczny przy gorączce 39.4°C (Drgawki gorączkowe)",
+    "diagnosisTitle": "Proste drgawki gorączkowe (Febrile Seizures) u 18-miesięcznego dziecka w przebiegu infekcji wirusowej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 119,
+    "file": "119_wpn_przerost_nadnerczy_21ohd.json",
+    "dept": "Pediatria",
+    "shortTitle": "2-tygodniowy noworodek – Wymioty, spadek masy ciała, hiponatremia i hiperkaliemia (Wrodzony przerost nadnerczy / WPN)",
+    "diagnosisTitle": "Wrodzony przerost nadnerczy (Congenital Adrenal Hyperplasia - CAH / WPN) z niedoboru 21-hydroksylazy (postać klasyczna z utratą soli)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 120,
+    "file": "120_cukrzyca_t1_dka_dziecko.json",
+    "dept": "Pediatria",
+    "shortTitle": "8-letnia dziewczynka – Oddech Kussmaula, zapach acetonu, odwodnienie i kwasica ketonowa (Debiut cukrzycy t. 1 / DKA)",
+    "diagnosisTitle": "Cukrzyca typu 1 (Diabetes Mellitus Typ 1) debiutująca kwasicą ketonową (Diabetic Ketoacidosis - DKA)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 121,
+    "file": "121_wrodzona_niedoczynnosc_tarczycy.json",
+    "dept": "Pediatria",
+    "shortTitle": "3-tygodniowy noworodek – Przedłużona żółtaczka, duży język, przepuklina pępkowa i zaparcia (Wrodzona niedoczynność tarczycy)",
+    "diagnosisTitle": "Wrodzona niedoczynność tarczycy (Congenital Hypothyroidism - CHT) z dysgenezją tarczycy wykryta w badaniach przesiewowych",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 122,
+    "file": "122_ostra_bialaczka_limfoblastyczna_all.json",
+    "dept": "Pediatria",
+    "shortTitle": "4-letni chłopiec – Bóle nóg, bladość, wybroczyny na skórze i powiększenie wątroby (Białaczka ALL)",
+    "diagnosisTitle": "Ostra białaczka limfoblastyczna z komórek B (B-cell Acute Lymphoblastic Leukemia - B-ALL)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 123,
+    "file": "123_plamica_henocha_schonleina_igav.json",
+    "dept": "Pediatria",
+    "shortTitle": "6-letni chłopiec – Uniesiona plamica na pośladkach, bóle brzucha i obrzęki stawów (Plamica Henocha-Schönleina / IgAV)",
+    "diagnosisTitle": "Zapalenie naczyń związane z IgA (IgA Vasculitis - IgAV / Plamica Henocha-Schönleina) z zajęciem nerek i przewodu pokarmowego",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 124,
+    "file": "124_guz_tylnego_dolu_czaszki.json",
+    "dept": "Pediatria",
+    "shortTitle": "5-letnia dziewczynka – Poranne bóle głowy, chlustające wymioty i zaburzenia chodu (Guz tylnego dołu czaszki)",
+    "diagnosisTitle": "Guz tylnego dołu czaszki (Gwiaździak włosowatokomórkowy / Rdzeniak zarodkowy - Medulloblastoma) z ciasnotą wewnątrzczaszkową",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 125,
+    "file": "125_choroba_kawasakiego.json",
+    "dept": "Pediatria",
+    "shortTitle": "3-letni chłopiec – Gorączka trwająca 6 dni, przekrwione spojówki, malinowy język i obrzęki rąk (Choroba Kawasakiego)",
+    "diagnosisTitle": "Choroba Kawasakiego (Kawasaki Disease / Zespół węzłowo-śluzówkowo-skórny) z ryzykiem tętniaków tętnic wieńcowych",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 126,
+    "file": "126_wyrostek_dorosly.json",
+    "dept": "Chirurgia",
+    "shortTitle": "24-letni mężczyzna – Ból brzucha wędrujący do prawego dołu biodrowego, objaw Blumberga i Rovsinga (Ostre zapalenie wyrostka)",
+    "diagnosisTitle": "Ostre zgorzelinowe zapalenie wyrostka robaczkowego (Appendicitis acuta phlegmonosa/gangraenosa)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 127,
+    "file": "127_ostre_zapalenie_pecherzyka_zolciowego.json",
+    "dept": "Chirurgia",
+    "shortTitle": "48-letnia kobieta – Ostry ból pod prawym żebrem >6h, objaw Murphy'ego i Chełmońskiego (Ostre zapalenie pęcherzyka)",
+    "diagnosisTitle": "Ostre kamicze zapalenie pęcherzyka żółciowego (Cholecystitis acuta calculosa)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 128,
+    "file": "128_ostre_zapalenie_drog_zolciowych_cholangitis.json",
+    "dept": "Chirurgia",
+    "shortTitle": "65-letni mężczyzna – Gorączka z dreszczami, żółtaczka mechaniczna i ból pod prawym żebrem (Zapalenie dróg żółciowych / Triada Charcota)",
+    "diagnosisTitle": "Ostre wstępujące zapalenie dróg żółciowych (Cholangitis acuta ascendens) powikłane sepsą żółciową",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 129,
+    "file": "129_perforacja_wrzodu_trawiennego.json",
+    "dept": "Chirurgia",
+    "shortTitle": "52-letni mężczyzna – Nagły ból 'jak cios sztyletem', brzuch deskowaty i sierp powietrza pod przeponą (Perforacja wrzodu)",
+    "diagnosisTitle": "Przedziurawienie (perforacja) wrzodu trawiennego opuszki dwunastnicy z rozlanym chemicznym zapaleniem otrzewnej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 130,
+    "file": "130_niedroznosc_jelita_cienkiego_zrosty.json",
+    "dept": "Chirurgia",
+    "shortTitle": "58-letnia kobieta – Bóle kolkowe, chlustające wymioty treścią jelitową i poziomy płynów w RTG (Niedrożność ze zrostów)",
+    "diagnosisTitle": "Mechaniczna niedrożność jelita cienkiego (Ileus mechanicus intestini tenuis) ze zrostów pooperacyjnych (adhesiones intraabdominales)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 131,
+    "file": "131_skret_esicy_volvulus.json",
+    "dept": "Chirurgia",
+    "shortTitle": "74-letni mężczyzna – Asymetryczne wzdęcie brzucha, brak stolca i gazów, obraz 'ziarna kawy' w RTG (Skręt esicy)",
+    "diagnosisTitle": "Skręt esicy (Volvulus sigmoidei) powikłany niedrożnością mechaniczną jelita grubego w pętli zamkniętej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 132,
+    "file": "132_uwieznieta_przepuklina_pachwinowa.json",
+    "dept": "Chirurgia",
+    "shortTitle": "62-letni mężczyzna – Twardy, bolesny guz w pachwinie, wymioty i zatrzymanie gazów (Uwięźnięta przepuklina)",
+    "diagnosisTitle": "Uwięźnięta i zadzierzgnięta przepuklina pachwinowa prawostronna (Hernia inguinalis incarcerata et strangulata) ze zgorzelą jelita",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 133,
+    "file": "133_ostre_niedokrwienie_krezki_sma.json",
+    "dept": "Chirurgia",
+    "shortTitle": "72-letni mężczyzna z migotaniem przedsionków – Skrajny ból brzucha nieproporcjonalny do badania fizykalnego i kwasica mleczanowa (Zator SMA)",
+    "diagnosisTitle": "Ostre niedokrwienie krezki (Acute Mesenteric Ischemia - AMI) wywołane zatorem tętnicy krezkowej górnej (SMA)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 134,
+    "file": "134_zapalenie_uchylkow_esicy_hinchey.json",
+    "dept": "Chirurgia",
+    "shortTitle": "60-letnia kobieta – Ból w lewym dole biodrowym, gorączka i ropień okołojelitowy (Zapalenie uchyłków / Hinchey II)",
+    "diagnosisTitle": "Ostre powikłane zapalenie uchyłków esicy (Diverticulitis acuta sigmoidei) stopień II wg klasyfikacji Hincheya",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 135,
+    "file": "135_krwawienie_dolny_odcinek_lgib.json",
+    "dept": "Chirurgia",
+    "shortTitle": "68-letni mężczyzna – Masywne krwawienie z odbytu ciemnoczerwoną krwią i hipotonia (Krwawienie z uchyłków / LGIB)",
+    "diagnosisTitle": "Masywne krwawienie z dolnego odcinka przewodu pokarmowego (Lower Gastrointestinal Bleeding - LGIB) z uchyłków okrężnicy",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 136,
+    "file": "136_ropien_i_przetoka_odbytu.json",
+    "dept": "Chirurgia",
+    "shortTitle": "42-letni mężczyzna – Ostry, pulsujący ból okolicy odbytu nasilający się przy siadaniu i gorączka (Ropień okołoodbytowy)",
+    "diagnosisTitle": "Ostre zapalenie krypt odbytu z uformowaniem ropnia okołoodbytowego (Abscessus perianalis) i wtórną przetoką odbytu (Fistula perianalis)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 137,
+    "file": "137_pekniecie_sledziony_uraz.json",
+    "dept": "Chirurgia",
+    "shortTitle": "28-letni kierowca po wypadku komunikacyjnym – Tępy uraz brzucha, ból lewego podżebrza promieniujący do lewego barku (objaw Kehra) i krwawienie dootrzewnowe",
+    "diagnosisTitle": "Pęknięcie śledziony (Ruptura lienis / Splenic injury grade III/IV) z krwawieniem do jamy otrzewnej po tępym urazie brzucha",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 138,
+    "file": "138_niedroznosc_rak_jelita_grubego.json",
+    "dept": "Chirurgia",
+    "shortTitle": "67-letni mężczyzna ze stopniowym zatrzymaniem stolca i gazów – Wzdęcie, nudności, guz esicy i objaw 'zamkniętej pętli' przy wydolnej zastawce krętniczo-kątniczej",
+    "diagnosisTitle": "Ostra mechaniczna niedrożność jelita grubego (Ileus mechanicus coli) w przebiegu raka esicy / zstępnicy z ryzykiem perforacji kątnicy",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 139,
+    "file": "139_niedokrwienne_zapalenie_jelita_grubego.json",
+    "dept": "Chirurgia",
+    "shortTitle": "74-letnia kobieta z miażdżycą i po epizodzie hipotonii – Nagły kurczowy ból lewego podbrzusza, parcie na stolec i krwisto-śluzowe stolce (Ischaemic colitis)",
+    "diagnosisTitle": "Niedokrwienne zapalenie jelita grubego (Colitis ischaemica) z zajęciem zagięcia śledzionowego (punkt Griffithsa) i zstępnicy",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 140,
+    "file": "140_pekniety_tetniak_aorty_brzusznej_raaa.json",
+    "dept": "Chirurgia",
+    "shortTitle": "71-letni mężczyzna, palacz, z nagłym bólem okolicy lędźwiowej, hipotoniczny – Klasyczna triada objawów, pulsujący guz brzucha i wstrząs krwotoczny (rAAA)",
+    "diagnosisTitle": "Pęknięty tętniak aorty brzusznej (Ruptured Abdominal Aortic Aneurysm - rAAA) z krwiakiem przestrzeni zaotrzewnowej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 141,
+    "file": "141_ostre_niedokrwienie_konczyny_dolnej.json",
+    "dept": "Chirurgia",
+    "shortTitle": "69-letnia kobieta z migotaniem przedsionków – Nagły, lodowaty ból prawej kończyny dolnej, bladość stopy i brak tętna (Reguła 6xP / Zator tętniczy)",
+    "diagnosisTitle": "Ostre niedokrwienie prawej kończyny dolnej (Acute Limb Ischemia - ALI) w przebiegu zatoru tętnicy udowej wspólnej (klasa IIa/IIb wg Rutherforda)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 142,
+    "file": "142_przewlekle_krytyczne_niedokrwienie_clti.json",
+    "dept": "Chirurgia",
+    "shortTitle": "65-letni palacz z cukrzycą – Spoczynkowy ból stopy nasilający się w nocy, opuszczanie nogi z łóżka i owrzodzenie martwicze palucha (CLTI / Fontaine III/IV)",
+    "diagnosisTitle": "Przewlekłe niedokrwienie zagrażające kończynie (Chronic Limb-Threatening Ischemia - CLTI / Fontaine IV) z martwicą palucha prawego",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 143,
+    "file": "143_objawowe_zwezenie_tetnicy_szyjnej.json",
+    "dept": "Chirurgia",
+    "shortTitle": "68-letni palacz po przemijającym niedowładzie i ślepocie jednoocznej (Amaurosis fugax) – Szmer nad tętnicą szyjną i krytyczne zwężenie 85% ICA (NASCET)",
+    "diagnosisTitle": "Objawowe ciasne zwężenie prawej tętnicy szyjnej wewnętrznej (Stenosis arteriae carotis internae dextrae 85% wg NASCET) po przebytym TIA",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 144,
+    "file": "144_zakrzepica_zyl_glebokich_dvt.json",
+    "dept": "Chirurgia",
+    "shortTitle": "42-letnia kobieta po długim locie transatlantyckim i na antykoncepcji – Asymetryczny bolesny obrzęk podudzia i uda, objaw Homansa i wysokie D-dimery",
+    "diagnosisTitle": "Ostra proksymalna zakrzepica żył głębokich lewej kończyny dolnej (Thrombosis venosa profunda - DVT żyły udowej i podkolanowej)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 145,
+    "file": "145_zakrzepowe_zapalenie_zyl_powierzchownych_svt.json",
+    "dept": "Chirurgia",
+    "shortTitle": "54-letni mężczyzna z żylakami kończyn – Bolesny, stwardniały, zaczerwieniony powrózek na przyśrodkowej stronie uda sięgający 2.5 cm od pachwiny (SVT blisko ujścia SFJ)",
+    "diagnosisTitle": "Zakrzepowe zapalenie pnia żyły odpiszczelowej wielkiej (Superficial Vein Thrombosis - SVT / Thrombophlebitis) zagrażające przejściem do układu głębokiego (odległość <3 cm od ujścia SFJ)",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 146,
+    "file": "146_zespol_usidlenia_tetnicy_podkolanowej_paes.json",
+    "dept": "Chirurgia",
+    "shortTitle": "22-letni biegacz bez czynników ryzyka miażdżycy – Chromanie łydki podczas intensywnego biegu, zanik tętna na stopie przy zgięciu podeszwowym (PAES)",
+    "diagnosisTitle": "Zespół usidlenia tętnicy podkolanowej (Popliteal Artery Entrapment Syndrome - PAES typ I/II) z czynnościowym niedokrwieniem podudzia",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 147,
+    "file": "147_zespol_podkradania_tetnicy_podobojczykowej.json",
+    "dept": "Chirurgia",
+    "shortTitle": "62-letni stolarz – Zawroty głowy, widzenie podwójne i osłabienie lewej ręki podczas pracy fizycznej z uniesionymi ramionami (Subclavian Steal)",
+    "diagnosisTitle": "Zespół podkradania tętnicy podobojczykowej lewej (Subclavian Steal Syndrome - SSS) z odwróceniem przepływu w lewej tętnicy kręgowej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 148,
+    "file": "148_polytrauma_uraz_wielonarzadowy.json",
+    "dept": "Chirurgia",
+    "shortTitle": "34-letni motocyklista po zderzeniu czołowym – Wstrząs krwotoczny, niestabilna miednica, eFAST dodatni (ATLS ABCDE / MTP 1:1:1 / Damage Control)",
+    "diagnosisTitle": "Uraz wielonarządowy (Polytrauma, ISS >25) ze wstrząsem krwotocznym IV stopnia, niestabilnym złamaniem miednicy i krwawieniem dootrzewnowym",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 149,
+    "file": "149_wiotka_klatka_piersiowa_flail_chest.json",
+    "dept": "Chirurgia",
+    "shortTitle": "58-letni pracownik budowlany po upadku z rusztowania – Złamanie 4 kolejnych żeber z paradoksalnym ruchem oddechowym ściany klatki piersiowej i stłuczeniem płuca",
+    "diagnosisTitle": "Wiotka klatka piersiowa (Flail chest) ze stłuczeniem miąższu płuca prawego (Contusio pulmonis) i ostrą niewydolnością oddechową",
+    "qCount": 3,
+    "flashcardsCount": 5
+  },
+  {
+    "id": 150,
+    "file": "150_masywny_krwiak_oplucnej_haemothorax.json",
+    "dept": "Chirurgia",
+    "shortTitle": "30-letni mężczyzna po ranie kłutej klatki piersiowej – Stłumienie wypuku, brak szmerów oddechowych i ewakuacja 1600 ml krwi po drenażu (Wskazanie do torakotomii)",
+    "diagnosisTitle": "Masywny krwiak prawej jamy opłucnej (Haemothorax massivus) po ranie kłutej klatki piersiowej z uszkodzeniem tętnicy międzyżebrowej",
+    "qCount": 3,
+    "flashcardsCount": 5
+  }
+]

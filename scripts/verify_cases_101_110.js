@@ -45,8 +45,8 @@ async function verifyAll() {
       if (!caseData.dept) issues.push("Missing dept");
       if (!caseData.story || caseData.story.length < 50) issues.push("Story too short or missing");
 
-      // Vitals
-      if (!Array.isArray(caseData.vitals) || caseData.vitals.length < 5) issues.push(`Vitals array length: ${caseData.vitals?.length}`);
+      // Vitals (Gold Standard: 4 in 2x2 grid or 5)
+      if (!Array.isArray(caseData.vitals) || caseData.vitals.length < 4) issues.push(`Vitals array length: ${caseData.vitals?.length}`);
       if (!caseData.vitalsObj || !caseData.vitalsObj.hr) issues.push("Missing vitalsObj");
 
       // Steps
