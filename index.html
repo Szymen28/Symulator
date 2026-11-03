@@ -1189,7 +1189,13 @@
         </div>
       </div>
 
-      <h3 style="font-size: 1rem; margin-bottom: 10px; color: var(--text-muted);">📋 Pełna ściąga wszystkich fiszek w wybranej kategorii:</h3>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; margin-top:20px; flex-wrap:wrap; gap:10px;">
+        <h3 style="font-size: 1rem; color: var(--text-muted); margin:0;">📋 Lista fiszek w wybranej kategorii (Odpowiedzi domyślnie zakryte):</h3>
+        <div style="display:flex; gap:8px;">
+          <button type="button" class="db-btn" style="font-size:0.75rem; padding:6px 12px;" onclick="revealAllFlashListAnswers()">👁️ Odkryj wszystkie</button>
+          <button type="button" class="db-btn" style="font-size:0.75rem; padding:6px 12px;" onclick="hideAllFlashListAnswers()">🔒 Zakryj wszystkie</button>
+        </div>
+      </div>
       <div id="flashAllListContainer"></div>
     </div>
 
@@ -1545,6 +1551,131 @@ async function encryptJsonInStudio() {
   }
 }
 
+function normalizeCase(c) {
+  if (!c) return c;
+
+  // 1. Vitals
+  if (!Array.isArray(c.vitals) && typeof c.vitals === 'object' && c.vitals !== null) {
+    const vObj = c.vitals;
+    c.vitalsObj = { ...vObj };
+    c.vitals = [
+      { label: 'HR', val: vObj.hr != null ? (String(vObj.hr).includes('/min') ? String(vObj.hr) : `${vObj.hr}/min`) : 'N/A', sub: Number(vObj.hr) > 100 ? 'Tachykardia' : (Number(vObj.hr) < 60 ? 'Bradykardia' : 'Prawidłowe'), status: (Number(vObj.hr) > 100 || Number(vObj.hr) < 60) ? 'bad' : 'ok' },
+      { label: 'BP', val: vObj.bp != null ? (String(vObj.bp).includes('mmHg') ? String(vObj.bp) : `${vObj.bp} mmHg`) : 'N/A', sub: String(vObj.bp).startsWith('8') || String(vObj.bp).startsWith('7') || String(vObj.bp).startsWith('90/') ? 'Hipotensja' : 'Prawidłowe', status: String(vObj.bp).startsWith('8') || String(vObj.bp).startsWith('7') ? 'bad' : 'ok' },
+      { label: 'SpO2', val: vObj.spo2 != null ? (String(vObj.spo2).includes('%') ? String(vObj.spo2) : `${vObj.spo2}%`) : 'N/A', sub: Number(String(vObj.spo2).replace('%','')) < 95 ? 'Hipoksemia' : 'Prawidłowa', status: Number(String(vObj.spo2).replace('%','')) < 95 ? 'bad' : 'ok' },
+      { label: 'RR', val: vObj.rr != null ? (String(vObj.rr).includes('/min') ? String(vObj.rr) : `${vObj.rr}/min`) : 'N/A', sub: Number(vObj.rr) > 20 ? 'Tachypnoë' : 'Prawidłowy', status: Number(vObj.rr) > 20 ? 'bad' : 'ok' },
+      { label: 'Temp', val: vObj.temp != null ? (String(vObj.temp).includes('°C') ? String(vObj.temp) : `${vObj.temp}°C`) : 'N/A', sub: Number(String(vObj.temp).replace('°C','')) >= 38 ? 'Gorączka' : 'Prawidłowa', status: Number(String(vObj.temp).replace('°C','')) >= 38 ? 'bad' : 'ok' },
+      { label: 'GCS', val: vObj.gcs != null ? String(vObj.gcs) : '15', sub: Number(vObj.gcs) < 15 ? 'Zaburzenia świadomości' : 'Pełny kontakt', status: Number(vObj.gcs) < 15 ? 'bad' : 'ok' }
+    ];
+  } else if (Array.isArray(c.vitals)) {
+    c.vitals = c.vitals.map(v => ({
+      label: v.label || '',
+      val: v.val != null ? String(v.val) : '',
+      sub: v.sub || '',
+      status: v.status || 'ok'
+    }));
+  } else {
+    c.vitals = [];
+  }
+
+  // 2. Labs
+  if (Array.isArray(c.labs)) {
+    c.labs = c.labs.map(item => {
+      if (Array.isArray(item)) return [item[0] || '', item[1] || '', item[2] || ''];
+      if (typeof item === 'object' && item !== null) return [item.name || '', item.val || '', item.norm || ''];
+      return [String(item), '', ''];
+    });
+  } else {
+    c.labs = [];
+  }
+
+  // 3. Steps
+  if (Array.isArray(c.steps)) {
+    c.steps = c.steps.map((s, idx) => {
+      const title = s.title || `Krok ${idx + 1}`;
+      const desc = s.desc || s.scenario || s.text || '';
+      const scenario = s.scenario || s.desc || s.text || '';
+      const options = (s.options || []).map(opt => ({
+        text: opt.text || opt.label || '',
+        correct: !!opt.correct,
+        feedback: opt.feedback || opt.expl || opt.explanation || (opt.correct ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.')
+      }));
+      return { ...s, title, desc, scenario, options };
+    });
+  } else {
+    c.steps = [];
+  }
+
+  // 4. PathoNodes
+  if (Array.isArray(c.pathoNodes)) {
+    c.pathoNodes = c.pathoNodes.map((n, idx) => {
+      const badge = n.badge || String(idx + 1);
+      const title = n.title || `Etap ${idx + 1}`;
+      const short = n.short || (n.desc ? (n.desc.length > 90 ? n.desc.slice(0, 87) + '...' : n.desc) : '');
+      const detail = n.detail || n.desc || short;
+      const target = n.target || n.drugTarget || 'Terapia ukierunkowana na patomechanizm';
+      return { ...n, badge, title, short, detail, target, desc: detail };
+    });
+  } else {
+    c.pathoNodes = [];
+  }
+
+  // 5. LEK Questions
+  if (Array.isArray(c.lekQuestions)) {
+    c.lekQuestions = c.lekQuestions.map(q => {
+      const rawOpts = q.opts || q.options || [];
+      const opts = rawOpts.map(o => String(o));
+      let correctIdx = q.correctIdx;
+      if (correctIdx === undefined && q.correct !== undefined) {
+        correctIdx = typeof q.correct === 'number' ? q.correct : parseInt(q.correct, 10);
+      }
+      if (isNaN(correctIdx) || correctIdx < 0) correctIdx = 0;
+      const exp = q.exp || q.expl || q.explanation || '';
+      return {
+        ...q,
+        q: q.q || '',
+        opts,
+        options: [...opts],
+        correctIdx,
+        correct: correctIdx,
+        exp,
+        expl: exp
+      };
+    });
+  } else {
+    c.lekQuestions = [];
+  }
+
+  // 6. diffTable
+  if (Array.isArray(c.diffTable)) {
+    const rows = c.diffTable.map(item => [
+      item.disease || item.name || '',
+      item.feat || item.features || item.symptoms || '',
+      item.diff || item.treatment || item.management || ''
+    ]);
+    c.diffTable = {
+      title: 'Diagnostyka Różnicowa (Kluczowe jednostki do LEK)',
+      headers: ['Jednostka chorobowa', 'Cechy różnicujące', 'Różnicowanie / Postępowanie'],
+      rows: rows
+    };
+  } else if (c.diffTable && typeof c.diffTable === 'object') {
+    if (!c.diffTable.headers) c.diffTable.headers = ['Jednostka', 'Cechy', 'Postępowanie'];
+    if (!c.diffTable.rows) c.diffTable.rows = [];
+    if (!c.diffTable.title) c.diffTable.title = 'Diagnostyka Różnicowa';
+  }
+
+  // 7. Flashcards
+  if (Array.isArray(c.flashcards)) {
+    c.flashcards = c.flashcards.map(fc => ({
+      ...fc,
+      cat: fc.cat || c.dept || 'Klinika',
+      q: fc.q || '',
+      a: fc.a || ''
+    }));
+  }
+
+  return c;
+}
+
 async function loadAllCasesFromRepository() {
   try {
     const manifestRes = await fetch('cases/manifest.json?t=' + Date.now());
@@ -1572,12 +1703,28 @@ async function loadAllCasesFromRepository() {
     loadedPacks.forEach(pack => {
       const casesArr = Array.isArray(pack) ? pack : (pack.cases || [pack]);
       casesArr.forEach(c => {
-        if (c && typeof c.id !== 'undefined') map.set(c.id, c);
+        if (c && typeof c.id !== 'undefined') {
+          map.set(c.id, normalizeCase(c));
+        }
+        if (c && c.flashcards && Array.isArray(c.flashcards)) {
+          c.flashcards.forEach(fc => {
+            if (!QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) {
+              QUICK_FIRE_NUMBERS.push({
+                ...fc,
+                cat: fc.cat || c.dept || 'Klinika'
+              });
+            }
+          });
+        }
       });
       if (pack.flashcards && Array.isArray(pack.flashcards)) {
+        const defaultDept = (casesArr[0] && casesArr[0].dept) ? casesArr[0].dept : 'Klinika';
         pack.flashcards.forEach(fc => {
           if (!QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) {
-            QUICK_FIRE_NUMBERS.push(fc);
+            QUICK_FIRE_NUMBERS.push({
+              ...fc,
+              cat: fc.cat || defaultDept
+            });
           }
         });
       }
@@ -1612,7 +1759,7 @@ function updateDynamicFilters() {
       <option value="INCOMPLETE">⏳ Tylko nieukończone w 100% (brak 3 ptaszków)</option>
       ${depts.map(d => `<option value="${d}">${d}</option>`).join('')}
     `;
-    if ([...deptSel.options].some(o => o.value === cur)) deptSel.value = cur;
+    if (deptSel.options && Array.from(deptSel.options).some(o => o.value === cur)) deptSel.value = cur;
   }
 
   const catDeptSel = document.getElementById('catalogDeptFilter');
@@ -1622,7 +1769,7 @@ function updateDynamicFilters() {
       <option value="ALL">Wszystkie działy LEK (${CASES.length})</option>
       ${depts.map(d => `<option value="${d}">${d}</option>`).join('')}
     `;
-    if ([...catDeptSel.options].some(o => o.value === curCat)) catDeptSel.value = curCat;
+    if (catDeptSel.options && Array.from(catDeptSel.options).some(o => o.value === curCat)) catDeptSel.value = curCat;
   }
 
   const casesBadge = document.getElementById('casesTabBadge');
@@ -1634,7 +1781,7 @@ function updateDynamicFilters() {
     const cats = Array.from(new Set(QUICK_FIRE_NUMBERS.map(f => f.cat))).sort();
     fcSel.innerHTML = `<option value="ALL">Wszystkie kategorie fiszek (${QUICK_FIRE_NUMBERS.length})</option>` +
       cats.map(cat => `<option value="${cat}">${cat}</option>`).join('');
-    if ([...fcSel.options].some(o => o.value === curFc)) fcSel.value = curFc;
+    if (fcSel.options && Array.from(fcSel.options).some(o => o.value === curFc)) fcSel.value = curFc;
   }
 }
 
@@ -1943,15 +2090,31 @@ function getCurrentCase() {
 
 function renderDiffTableHtml(diffObj) {
   if (!diffObj) return '';
+  let title = 'Diagnostyka Różnicowa';
+  let headers = ['Jednostka', 'Cechy różnicujące', 'Postępowanie'];
+  let rows = [];
+
+  if (Array.isArray(diffObj)) {
+    rows = diffObj.map(item => [
+      item.disease || item.name || '',
+      item.feat || item.features || item.symptoms || '',
+      item.diff || item.treatment || item.management || ''
+    ]);
+  } else if (typeof diffObj === 'object') {
+    title = diffObj.title || title;
+    headers = Array.isArray(diffObj.headers) ? diffObj.headers : headers;
+    rows = Array.isArray(diffObj.rows) ? diffObj.rows : [];
+  }
+
   return `
     <div class="diff-table-wrap">
-      <div class="diff-table-title">${diffObj.title}</div>
+      <div class="diff-table-title">${title}</div>
       <table class="diff-table">
         <thead>
-          <tr>${diffObj.headers.map(h => `<th>${h}</th>`).join('')}</tr>
+          <tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>
         </thead>
         <tbody>
-          ${diffObj.rows.map(r => `
+          ${rows.map(r => `
             <tr>${r.map((cell, idx) => idx === 0 ? `<td><strong>${cell}</strong></td>` : `<td>${cell}</td>`).join('')}</tr>
           `).join('')}
         </tbody>
@@ -2142,8 +2305,9 @@ function renderCasesCatalog() {
     const isAll3Done = isSorDone && isPathoDone && isLekDone;
     const isActive = isCaseWorkspaceOpen && (c.id === currentCaseId);
 
-    const vitalsPreview = (c.vitals || []).slice(0, 2).map(v =>
-      `<span style="font-size:0.72rem; background:var(--bg-panel); border:1px solid var(--border-color); padding:2px 8px; border-radius:6px; color:var(--text-muted);"><strong>${v.label}:</strong> ${v.val}</span>`
+    const vitalsList = Array.isArray(c.vitals) ? c.vitals : [];
+    const vitalsPreview = vitalsList.slice(0, 2).map(v =>
+      `<span style="font-size:0.72rem; background:var(--bg-panel); border:1px solid var(--border-color); padding:2px 8px; border-radius:6px; color:var(--text-muted);"><strong>${v.label || ''}:</strong> ${v.val || ''}</span>`
     ).join(' ');
 
     return `
@@ -2180,11 +2344,12 @@ function selectCase(id) {
   currentLekIdx = 0;
   pathoUnlocked = SOLVED_IDS.includes(id) || PATHO_DONE_IDS.includes(id);
   selectedNodeIdx = 0;
-  document.getElementById('labsTable').classList.remove('open');
+  const labs = document.getElementById('labsTable');
+  if (labs) labs.classList.remove('open');
   updateActiveCaseNavVisibility();
+  switchTab('sim');
   renderSidebar();
   renderAll();
-  switchTab('sim');
 }
 
 function pickRandomUnsolved() {
@@ -2260,17 +2425,22 @@ function renderAll() {
   document.getElementById('patientStory').innerHTML = c.story;
   document.getElementById('lekTabCount').textContent = `${c.lekQuestions ? c.lekQuestions.length : 0} pytań`;
 
-  document.getElementById('vitalsGrid').innerHTML = c.vitals.map(v => `
+  const vitalsList = Array.isArray(c.vitals) ? c.vitals : [];
+  document.getElementById('vitalsGrid').innerHTML = vitalsList.map(v => `
     <div class="vital-box">
-      <div class="vital-label">${v.label}</div>
-      <div class="vital-value ${v.status}">${v.val}</div>
-      <div class="vital-sub">${v.sub}</div>
+      <div class="vital-label">${v.label || ''}</div>
+      <div class="vital-value ${v.status || 'ok'}">${v.val || ''}</div>
+      <div class="vital-sub">${v.sub || ''}</div>
     </div>
   `).join('');
 
-  document.getElementById('labsBody').innerHTML = c.labs.map(row => `
-    <tr><td><strong>${row[0]}</strong></td><td>${row[1]}</td><td style="color: var(--accent-amber);">${row[2]}</td></tr>
-  `).join('');
+  const labsList = Array.isArray(c.labs) ? c.labs : [];
+  document.getElementById('labsBody').innerHTML = labsList.map(row => {
+    const col0 = Array.isArray(row) ? row[0] : (row.name || '');
+    const col1 = Array.isArray(row) ? row[1] : (row.val || '');
+    const col2 = Array.isArray(row) ? row[2] : (row.norm || '');
+    return `<tr><td><strong>${col0}</strong></td><td>${col1}</td><td style="color: var(--accent-amber);">${col2}</td></tr>`;
+  }).join('');
 
   renderStep();
   renderPatho();
@@ -2357,7 +2527,7 @@ function renderStep() {
       ${prevBtnHtml}
     </div>
     <div class="step-title">${s.title}</div>
-    <div class="step-desc">${s.desc}</div>
+    <div class="step-desc">${s.desc || s.scenario || ''}</div>
     <div class="options-list">
       ${currentShuffledStepOptions.map((item, displayIdx) => `
         <button class="option-btn" id="optBtn_${displayIdx}" onclick="checkOption(${displayIdx})">
@@ -2411,20 +2581,21 @@ function renderPatho() {
   if (!pathoUnlocked) return;
 
   const visited = PATHO_VISITED_NODES[c.id] || [];
+  const nodes = c.pathoNodes || [];
   document.getElementById('pathoTitle').textContent = c.diagnosisTitle;
-  document.getElementById('nodesGrid').innerHTML = c.pathoNodes.map((n, i) => `
+  document.getElementById('nodesGrid').innerHTML = nodes.map((n, i) => `
     <div class="patho-node ${i === selectedNodeIdx ? 'selected' : ''} ${visited.includes(i) ? 'visited-node' : ''}" onclick="selectPathoNode(${i})">
-      <span class="node-step-badge"><span>${n.badge}</span></span>
-      <div style="font-weight:700;">${n.title}</div>
-      <div style="font-size:0.82rem; color: var(--text-muted);">${n.short}</div>
+      <span class="node-step-badge"><span>${n.badge || (i + 1)}</span></span>
+      <div style="font-weight:700;">${n.title || ''}</div>
+      <div style="font-size:0.82rem; color: var(--text-muted);">${n.short || n.desc || ''}</div>
     </div>
   `).join('');
 
-  const activeNode = c.pathoNodes[selectedNodeIdx] || c.pathoNodes[0];
+  const activeNode = nodes[selectedNodeIdx] || nodes[0] || { title: '', detail: '', desc: '', target: '' };
   document.getElementById('nodeDetailPanel').innerHTML = `
-    <h3 style="color: var(--accent-blue);">${activeNode.title}</h3>
-    <p>${activeNode.detail}</p>
-    <div class="drug-target-box"><strong>💊 Punkt uchwytu:</strong> ${activeNode.target}</div>
+    <h3 style="color: var(--accent-blue);">${activeNode.title || ''}</h3>
+    <p>${activeNode.detail || activeNode.desc || ''}</p>
+    <div class="drug-target-box"><strong>💊 Punkt uchwytu:</strong> ${activeNode.target || 'Terapia ukierunkowana na patomechanizm'}</div>
   `;
   document.getElementById('pathoDiffTableContainer').innerHTML = renderDiffTableHtml(c.diffTable);
 }
@@ -2462,7 +2633,11 @@ function renderLekCarousel() {
   const letters = ['A', 'B', 'C', 'D', 'E'];
 
   // Dynamiczne tasowanie opcji pytań LEK
-  currentShuffledLekOptions = qItem.opts.map((optText, origIdx) => ({
+  const rawOpts = qItem.opts || qItem.options || [];
+  const correctIdx = qItem.correctIdx !== undefined ? qItem.correctIdx : (qItem.correct !== undefined ? qItem.correct : 0);
+  const explanation = qItem.exp || qItem.expl || '';
+
+  currentShuffledLekOptions = rawOpts.map((optText, origIdx) => ({
     text: cleanOptionText(optText),
     origIdx: origIdx
   })).sort(() => Math.random() - 0.5);
@@ -2476,14 +2651,14 @@ function renderLekCarousel() {
       <div style="font-weight:700; margin-bottom:16px;">${qItem.q}</div>
       <div class="options-list">
         ${currentShuffledLekOptions.map((item, displayIdx) => `
-          <button class="option-btn ${st && item.origIdx === qItem.correctIdx ? 'correct' : ''}" id="lekCar_${displayIdx}" onclick="answerLekCarousel(${displayIdx})">
+          <button class="option-btn ${st && item.origIdx === correctIdx ? 'correct' : ''}" id="lekCar_${displayIdx}" onclick="answerLekCarousel(${displayIdx})">
             <span class="option-letter">${letters[displayIdx]}</span>
             <span>${item.text}</span>
           </button>
         `).join('')}
       </div>
       <div id="lekCarFeedback" class="feedback-box ${st ? (st === 'green' ? 'correct' : 'wrong') : ''}">
-        ${st ? `<strong>Wyjaśnienie:</strong> ${qItem.exp}` : ''}
+        ${st ? `<strong>Wyjaśnienie:</strong> ${explanation}` : ''}
       </div>
       <div class="carousel-controls">
         <button class="db-btn" onclick="prevLekQuestion()">← Poprzednie</button>
@@ -2499,9 +2674,11 @@ function answerLekCarousel(displayIdx) {
   const c = getCurrentCase();
   if (!c || !currentShuffledLekOptions[displayIdx]) return;
   const qItem = c.lekQuestions[currentLekIdx];
+  const correctIdx = qItem.correctIdx !== undefined ? qItem.correctIdx : (qItem.correct !== undefined ? qItem.correct : 0);
+  const explanation = qItem.exp || qItem.expl || '';
   const origIdx = currentShuffledLekOptions[displayIdx].origIdx;
   const key = `${c.id}_${currentLekIdx}`;
-  const isCorrect = (origIdx === qItem.correctIdx);
+  const isCorrect = (origIdx === correctIdx);
   const firstAttempt = !LEK_STATUS[key];
 
   if (isCorrect) {
@@ -2521,7 +2698,7 @@ function answerLekCarousel(displayIdx) {
   currentShuffledLekOptions.forEach((item, idx) => {
     const btn = document.getElementById(`lekCar_${idx}`);
     if (btn) {
-      if (item.origIdx === qItem.correctIdx) btn.classList.add('correct');
+      if (item.origIdx === correctIdx) btn.classList.add('correct');
       else if (idx === displayIdx) btn.classList.add('wrong');
     }
   });
@@ -2529,7 +2706,7 @@ function answerLekCarousel(displayIdx) {
   const fb = document.getElementById('lekCarFeedback');
   if (fb) {
     fb.className = `feedback-box ${isCorrect ? 'correct' : 'wrong'}`;
-    fb.innerHTML = `<strong>Wyjaśnienie:</strong> ${qItem.exp}`;
+    fb.innerHTML = `<strong>Wyjaśnienie:</strong> ${explanation}`;
     fb.style.display = 'block';
   }
 
@@ -2719,8 +2896,11 @@ function renderSrsView() {
     : `<span style="color:var(--accent-blue); font-weight:800;">📦 Pudełko Leitnera: Box ${srsMeta.box || 1} (Interwał: ${SRS_INTERVAL_DAYS[srsMeta.box || 1]} dni)</span>`;
 
   const letters = ['A', 'B', 'C', 'D', 'E'];
+  const rawOpts = qItem.opts || qItem.options || [];
+  const correctIdx = qItem.correctIdx !== undefined ? qItem.correctIdx : (qItem.correct !== undefined ? qItem.correct : 0);
+
   // Dynamiczne tasowanie opcji w powtórkach SRS
-  currentShuffledSrsOptions = qItem.opts.map((optText, origIdx) => ({
+  currentShuffledSrsOptions = rawOpts.map((optText, origIdx) => ({
     text: cleanOptionText(optText),
     origIdx: origIdx
   })).sort(() => Math.random() - 0.5);
@@ -2753,7 +2933,9 @@ function answerSrsCard(displayIdx) {
   const qItem = c.lekQuestions[Number(qIdx)];
   if (!currentShuffledSrsOptions[displayIdx]) return;
   const origIdx = currentShuffledSrsOptions[displayIdx].origIdx;
-  const isCorrect = (origIdx === qItem.correctIdx);
+  const correctIdx = qItem.correctIdx !== undefined ? qItem.correctIdx : (qItem.correct !== undefined ? qItem.correct : 0);
+  const explanation = qItem.exp || qItem.expl || '';
+  const isCorrect = (origIdx === correctIdx);
 
   scheduleSrsCard(currentSrsItem, isCorrect);
   if (isCorrect) {
@@ -2768,7 +2950,7 @@ function answerSrsCard(displayIdx) {
   currentShuffledSrsOptions.forEach((item, idx) => {
     const btn = document.getElementById(`srsOpt_${idx}`);
     if (btn) {
-      if (item.origIdx === qItem.correctIdx) btn.classList.add('correct');
+      if (item.origIdx === correctIdx) btn.classList.add('correct');
       else if (idx === displayIdx) btn.classList.add('wrong');
     }
   });
@@ -2780,7 +2962,7 @@ function answerSrsCard(displayIdx) {
     fb.className = `feedback-box ${isCorrect ? 'correct' : 'wrong'}`;
     fb.innerHTML = `
       <div><strong>${isCorrect ? `✅ Dobrze! Karta awansuje do Box ${newBox} (kolejna powtórka za ${nextDays} dni).` : '❌ Błąd! Karta wraca do Box 0 (Pilne po błędzie).'}</strong></div>
-      <div style="margin-top:8px;">${qItem.exp}</div>
+      <div style="margin-top:8px;">${explanation}</div>
       <button class="next-step-btn" onclick="nextSrsQueueItem()">Następna powtórka →</button>
     `;
   }
@@ -2790,6 +2972,35 @@ function nextSrsQueueItem() {
   srsQueue.shift();
   currentSrsItem = srsQueue[0] || null;
   renderSrsView();
+}
+
+let FLASH_REVEALED_LIST = new Set();
+
+function toggleFlashCardAnswer(idx) {
+  if (FLASH_REVEALED_LIST.has(idx)) {
+    FLASH_REVEALED_LIST.delete(idx);
+  } else {
+    FLASH_REVEALED_LIST.add(idx);
+  }
+  renderFlashTab();
+}
+
+function revealAllFlashListAnswers() {
+  const list = getFilteredFlashcards();
+  list.forEach((_, i) => FLASH_REVEALED_LIST.add(i));
+  renderFlashTab();
+}
+
+function hideAllFlashListAnswers() {
+  FLASH_REVEALED_LIST.clear();
+  renderFlashTab();
+}
+
+function selectFlashcardForStudy(idx) {
+  currentQfIdx = idx;
+  renderFlashTab();
+  const topBox = document.querySelector('.flashcard-box');
+  if (topBox) topBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 function getFilteredFlashcards() {
@@ -2806,25 +3017,36 @@ function renderFlashTab() {
   }
   if (currentQfIdx >= list.length) currentQfIdx = 0;
   const item = list[currentQfIdx];
-  document.getElementById('qfCategory').textContent = `${item.cat} (${currentQfIdx + 1}/${list.length})`;
+  document.getElementById('qfCategory').textContent = `${item.cat || 'Klinika'} (${currentQfIdx + 1}/${list.length})`;
   document.getElementById('qfQuestion').textContent = item.q;
   document.getElementById('qfAnswerBox').style.display = 'none';
   document.getElementById('qfAnswerBox').textContent = item.a;
 
   if (allContainer) {
     allContainer.innerHTML = `
-      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:10px;">
+      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:12px;">
         ${list.map((fc, i) => {
           const globalIdx = QUICK_FIRE_NUMBERS.indexOf(fc);
           const isDone = FLASH_DONE_INDICES.includes(globalIdx);
+          const isRevealed = FLASH_REVEALED_LIST.has(i);
+          const isSelected = (i === currentQfIdx);
           return `
-            <div style="background:var(--bg-panel); border:1px solid ${isDone ? 'rgba(16,185,129,0.45)' : 'var(--border-color)'}; border-radius:10px; padding:12px; cursor:pointer;" onclick="currentQfIdx=${i}; renderFlashTab(); revealQuickFire();">
-              <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:var(--accent-blue); font-weight:700; margin-bottom:4px;">
-                <span>${fc.cat}</span>
-                <span style="color:${isDone ? 'var(--accent-emerald)' : 'var(--text-muted)'};">${isDone ? '✓ Opanowana' : '○ Do nauki'}</span>
+            <div style="background:var(--bg-panel); border:1px solid ${isSelected ? 'var(--accent-blue)' : (isDone ? 'rgba(16,185,129,0.45)' : 'var(--border-color)')}; border-radius:10px; padding:14px; cursor:pointer; display:flex; flex-direction:column; justify-content:space-between;" onclick="selectFlashcardForStudy(${i})">
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:var(--accent-blue); font-weight:700; margin-bottom:6px;">
+                  <span>#${i + 1} • ${fc.cat || 'Klinika'}</span>
+                  <span style="color:${isDone ? 'var(--accent-emerald)' : 'var(--text-muted)'};">${isDone ? '✓ Opanowana' : '○ Do nauki'}</span>
+                </div>
+                <div style="font-size:0.88rem; font-weight:700; margin-bottom:8px; line-height:1.4; color:var(--text-main);">${fc.q}</div>
               </div>
-              <div style="font-size:0.84rem; font-weight:700; margin-bottom:6px;">${fc.q}</div>
-              <div style="font-size:0.8rem; color:var(--accent-emerald); font-weight:600; background:rgba(16,185,129,0.12); padding:6px 8px; border-radius:6px;">${fc.a}</div>
+              <div>
+                <div id="fcAns_${i}" style="display:${isRevealed ? 'block' : 'none'}; font-size:0.84rem; color:var(--accent-emerald); font-weight:600; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); padding:8px 10px; border-radius:8px; margin-bottom:8px;">
+                  💡 <strong>Odpowiedź:</strong> ${fc.a}
+                </div>
+                <button type="button" class="db-btn" style="width:100%; font-size:0.75rem; padding:6px 10px; text-align:center;" onclick="event.stopPropagation(); toggleFlashCardAnswer(${i});">
+                  ${isRevealed ? '🔒 Ukryj odpowiedź' : '👁️ Pokaż odpowiedź'}
+                </button>
+              </div>
             </div>
           `;
         }).join('')}
@@ -2855,9 +3077,20 @@ function renderStarredTab() {
   container.innerHTML = STARRED_KEYS.map(key => {
     const [cId, qIdx] = key.split('_');
     const c = CASES.find(x => x.id === Number(cId));
-    if (!c || !c.lekQuestions[Number(qIdx)]) return '';
+    if (!c || !c.lekQuestions || !c.lekQuestions[Number(qIdx)]) return '';
     const qObj = c.lekQuestions[Number(qIdx)];
-    return `<div style="background:var(--bg-panel); padding:16px; border-radius:12px; margin-bottom:10px;"><strong>${qObj.q}</strong><p style="color:var(--accent-emerald); margin-top:6px;">✅ ${qObj.opts[qObj.correctIdx]}</p></div>`;
+    const opts = qObj.opts || qObj.options || [];
+    const correctIdx = qObj.correctIdx !== undefined ? qObj.correctIdx : (qObj.correct !== undefined ? qObj.correct : 0);
+    const correctText = opts[correctIdx] || 'Brak treści odpowiedzi';
+    const explanation = qObj.exp || qObj.expl || '';
+    return `
+      <div style="background:var(--bg-panel); padding:16px; border-radius:12px; margin-bottom:10px; border:1px solid var(--border-color);">
+        <div style="font-size:0.75rem; color:var(--accent-amber); font-weight:700; margin-bottom:6px;">Przypadek #${c.id} (${c.dept})</div>
+        <strong>${qObj.q}</strong>
+        <p style="color:var(--accent-emerald); margin-top:8px; font-weight:600;">✅ ${correctText}</p>
+        ${explanation ? `<p style="color:var(--text-muted); font-size:0.82rem; margin-top:6px;">💡 ${explanation}</p>` : ''}
+      </div>
+    `;
   }).join('');
 }
 
