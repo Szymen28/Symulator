@@ -350,56 +350,56 @@
     "filename": "59_hhs.json",
     "code": "INT-E02",
     "title": "Stan hiperglikemiczno-hiperosmolalny (HHS) u pacjenta z cukrzycą t. 2",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 60,
     "filename": "60_myxedema_coma.json",
     "code": "INT-E04",
     "title": "Śpiączka hipometaboliczna w skrajnej niedoczynności tarczycy (myxedema coma)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 61,
     "filename": "61_pheochromocytoma.json",
     "code": "INT-E06",
     "title": "Guz chromochłonny nadnerczy (pheochromocytoma)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 62,
     "filename": "62_zespol_cushinga.json",
     "code": "INT-E07",
     "title": "Zespół Cushinga (hiperkortyzolemia endogenna)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 63,
     "filename": "63_przelom_hiperkalcemiczny.json",
     "code": "INT-E08",
     "title": "Przełom hiperkalcemiczny w pierwotnej nadczynności przytarczyc",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 64,
     "filename": "64_zespol_conna.json",
     "code": "INT-E09",
     "title": "Pierwotny hiperaldosteronizm (zespół Conna)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 65,
     "filename": "65_moczkowka_prosta.json",
     "code": "INT-E10",
     "title": "Moczówka prosta ośrodkowa (CDI)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 66,
     "filename": "66_de_quervain.json",
     "code": "INT-E11",
     "title": "Podostre zapalenie tarczycy (choroba de Quervaina)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 67,

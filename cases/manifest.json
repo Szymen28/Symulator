@@ -56,5 +56,13 @@
   "55_clostridioides_difficile.json",
   "56_celiakia_dorosly.json",
   "57_aih.json",
-  "58_ibs.json"
+  "58_ibs.json",
+  "59_hhs.json",
+  "60_myxedema_coma.json",
+  "61_pheochromocytoma.json",
+  "62_zespol_cushinga.json",
+  "63_przelom_hiperkalcemiczny.json",
+  "64_zespol_conna.json",
+  "65_moczkowka_prosta.json",
+  "66_de_quervain.json"
 ]
