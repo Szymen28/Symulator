@@ -189,49 +189,49 @@
     "filename": "36_izw.json",
     "code": "INT-K11",
     "title": "Infekcyjne zapalenie wsierdzia (IZW) zastawki aortalnej",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 37,
     "filename": "37_blok_av_mas.json",
     "code": "INT-K12",
     "title": "Blok przedsionkowo-komorowy III stopnia z zespołem Morgagniego-Adamsa-Stokesa (MAS)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 38,
     "filename": "38_przelom_nadcisnieniowy.json",
     "code": "INT-K13",
     "title": "Przełom nadciśnieniowy z ostrym uszkodzeniem narządowym i encefalopatią",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 39,
     "filename": "39_zapalenie_osierdzia.json",
     "code": "INT-K14",
     "title": "Ostre zapalenie osierdzia i mięśnia sercowego (myopericarditis)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 40,
     "filename": "40_hocm.json",
     "code": "INT-K15",
     "title": "Kardiomiopatia przerostowa z zawężaniem drogi odpływu (HOCM)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 41,
     "filename": "41_avnrt.json",
     "code": "INT-K17",
     "title": "Częstoskurcz nadkomorowy z wąskimi zespołami QRS (AVNRT/AVRT)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 42,
     "filename": "42_takotsubo.json",
     "code": "INT-K18",
     "title": "Kardiomiopatia Takotsubo (zespół balotującego koniuszka)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 43,

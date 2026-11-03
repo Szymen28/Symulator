@@ -33,5 +33,12 @@
   "32_af_wpw.json",
   "33_stenoza_aortalna.json",
   "34_hfref_dekompensacja.json",
-  "35_torsade_de_pointes.json"
+  "35_torsade_de_pointes.json",
+  "36_izw.json",
+  "37_blok_av_mas.json",
+  "38_przelom_nadcisnieniowy.json",
+  "39_zapalenie_osierdzia.json",
+  "40_hocm.json",
+  "41_avnrt.json",
+  "42_takotsubo.json"
 ]
