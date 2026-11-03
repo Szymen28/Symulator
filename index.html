@@ -366,9 +366,10 @@
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
     border: 1px solid var(--accent-indigo);
     border-radius: var(--radius-lg);
-    padding: 38px 30px;
+    padding: 34px 28px;
     text-align: center;
-    margin-bottom: 22px;
+    margin: 0 auto 22px auto;
+    max-width: 860px;
     min-height: 380px;
     display: flex;
     flex-direction: column;
@@ -382,49 +383,81 @@
     font-size: 1.35rem;
     font-weight: 700;
     line-height: 1.5;
-    margin-bottom: 20px;
-    max-width: 820px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    max-width: 780px;
     color: var(--text-main);
   }
   .flashcard-box #qfAnswerBox {
     font-size: 1.15rem;
     line-height: 1.5;
-    max-width: 820px;
+    max-width: 780px;
+    margin: 0 auto 20px auto;
+    text-align: center;
     padding: 18px 24px;
-    margin-bottom: 20px;
   }
   .flashcard-box.fullscreen-mode {
     position: fixed;
     inset: 0;
-    z-index: 99999;
+    z-index: 999999;
     border-radius: 0;
     border: none;
     margin: 0;
-    padding: 60px 40px;
-    background: radial-gradient(circle at 50% 25%, #1e1b4b 0%, #090d16 100%);
+    padding: 24px;
+    background: rgba(8, 12, 22, 0.94);
+    backdrop-filter: blur(14px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flashcard-box.fullscreen-mode .flashcard-inner-card {
+    width: 100%;
+    max-width: 840px;
+    min-height: 440px;
+    max-height: 86vh;
+    background: linear-gradient(145deg, #1e1b4b 0%, #0f172a 100%);
+    border: 2px solid var(--accent-indigo);
+    border-radius: 24px;
+    padding: 36px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(99, 102, 241, 0.25);
+    position: relative;
     overflow-y: auto;
   }
   .flashcard-box.fullscreen-mode #qfQuestion {
-    font-size: 1.85rem;
-    max-width: 950px;
+    font-size: 1.65rem;
+    line-height: 1.45;
+    max-width: 760px;
+    margin: 0 auto 20px auto;
+    text-align: center;
   }
   .flashcard-box.fullscreen-mode #qfAnswerBox {
-    font-size: 1.45rem;
-    max-width: 950px;
-    padding: 24px 32px;
+    font-size: 1.3rem;
+    max-width: 760px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    padding: 20px 28px;
   }
   .fullscreen-close-btn {
     display: none;
     position: absolute;
-    top: 20px;
-    right: 24px;
+    top: 18px;
+    right: 20px;
     background: rgba(244, 63, 94, 0.2);
     border: 1px solid var(--accent-rose);
     color: #fca5a5;
     padding: 8px 16px;
     border-radius: 10px;
     font-weight: 700;
+    font-size: 0.85rem;
     cursor: pointer;
+    z-index: 10;
   }
   .flashcard-box.fullscreen-mode .fullscreen-close-btn {
     display: block;
@@ -1238,34 +1271,49 @@
             Dedykowany moduł fiszek do błyskawicznego odpytywania się z twardych wartości liczbowych, czasów ustawowych i dawek ratunkowych.
           </p>
         </div>
-        <select id="flashCatFilter" class="dept-select" style="width:auto; min-width:220px;" onchange="currentQfIdx=0; renderFlashTab();">
-          <option value="ALL">Wszystkie kategorie fiszek</option>
-        </select>
+        <div id="flashCatFilterWrap">
+          <select id="flashCatFilter" class="dept-select" style="width:auto; min-width:220px;" onchange="currentQfIdx=0; renderFlashTab();">
+            <option value="ALL">Wszystkie kategorie fiszek</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="caseStudyBanner" style="display:none; background: linear-gradient(135deg, rgba(99,102,241,0.2) 0%, rgba(139,92,246,0.2) 100%); border: 1px solid var(--accent-indigo); border-radius: 14px; padding: 14px 20px; margin-bottom: 18px; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:1.6rem;">🎯</span>
+          <div>
+            <div style="font-size:0.75rem; text-transform:uppercase; color:var(--accent-indigo); font-weight:800; letter-spacing:0.5px;">Tryb nauki z wybranego przypadku</div>
+            <div id="caseStudyTitle" style="font-size:1rem; font-weight:700; color:var(--text-main);"></div>
+          </div>
+        </div>
+        <button type="button" class="db-btn" style="font-size:0.8rem; padding:8px 14px; background:rgba(255,255,255,0.06);" onclick="exitCaseStudySession()">✕ Zakończ sesję tematyczną (pokaż wszystkie)</button>
       </div>
 
       <div class="flashcard-box" id="mainFlashcardBox">
-        <button type="button" class="fullscreen-close-btn" onclick="toggleFlashcardFullscreen()">✕ Wyjdź z pełnego ekranu (Esc)</button>
-        <div style="width:100%;">
-          <div style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom: 12px;">
-            <span style="font-size: 0.82rem; font-weight: 800; color: var(--accent-blue); text-transform: uppercase;" id="qfCategory"></span>
-            <button type="button" class="db-btn" style="padding: 4px 10px; font-size: 0.75rem;" onclick="toggleFlashcardFullscreen()" id="qfFullscreenToggleBtn">⛶ Pełny ekran</button>
-          </div>
-          <div id="qfQuestion"></div>
-        </div>
-
-        <div style="width:100%;">
-          <div id="qfAnswerBox" style="display:none; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); color: #a7f3d0; padding: 18px 24px; border-radius: 14px; font-weight: 700; font-size: 1.12rem; margin-bottom: 18px; max-width: 820px; margin-left: auto; margin-right: auto;"></div>
-          
-          <div id="qfLeitnerRow" style="display:none; margin-bottom:16px; gap:12px; justify-content:center; flex-wrap:wrap;">
-            <button type="button" class="db-btn" style="background:rgba(244,63,94,0.18); border-color:var(--accent-rose); color:#fca5a5; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(false)">🔴 Wymaga powtórki (Box 0)</button>
-            <button type="button" class="db-btn" style="background:rgba(16,185,129,0.22); border-color:var(--accent-emerald); color:#86efac; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(true)">🟢 Znam to! (Box +1 • SRS ✓)</button>
+        <div class="flashcard-inner-card" id="flashcardInnerCard" style="width:100%; display:flex; flex-direction:column; justify-content:space-between; align-items:center; flex:1;">
+          <button type="button" class="fullscreen-close-btn" onclick="toggleFlashcardFullscreen()">✕ Wyjdź z pełnego ekranu (Esc)</button>
+          <div style="width:100%; text-align:center;">
+            <div style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom: 14px;">
+              <span style="font-size: 0.85rem; font-weight: 800; color: var(--accent-blue); text-transform: uppercase;" id="qfCategory"></span>
+              <button type="button" class="db-btn" style="padding: 4px 10px; font-size: 0.75rem;" onclick="toggleFlashcardFullscreen()" id="qfFullscreenToggleBtn">⛶ Pełny ekran</button>
+            </div>
+            <div id="qfQuestion" style="text-align:center; margin:0 auto 20px auto;"></div>
           </div>
 
-          <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-            <button type="button" class="next-step-btn" style="margin-top:0; background:#334155; color:white;" onclick="prevQuickFire()">← Poprzednia fiszka</button>
-            <button type="button" class="next-step-btn" id="revealQfBtn" style="margin-top:0; background: var(--accent-amber); color:#0b0f19;" onclick="revealQuickFire()">👁️ Odkryj odpowiedź i oceń w SRS ✓</button>
-            <button type="button" class="next-step-btn" style="margin-top:0; background: var(--accent-emerald); color:#0b0f19;" onclick="markAllFlashcardsMastered()">✓✓ Zalicz wszystkie w dziale</button>
-            <button type="button" class="next-step-btn" style="margin-top:0;" onclick="nextQuickFire()">Następna fiszka →</button>
+          <div style="width:100%; text-align:center;">
+            <div id="qfAnswerBox" style="display:none; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); color: #a7f3d0; padding: 18px 24px; border-radius: 14px; font-weight: 700; font-size: 1.15rem; margin: 0 auto 18px auto; max-width: 780px; text-align:center;"></div>
+            
+            <div id="qfLeitnerRow" style="display:none; margin-bottom:16px; gap:12px; justify-content:center; flex-wrap:wrap;">
+              <button type="button" class="db-btn" style="background:rgba(244,63,94,0.18); border-color:var(--accent-rose); color:#fca5a5; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(false)">🔴 Wymaga powtórki (Box 0)</button>
+              <button type="button" class="db-btn" style="background:rgba(16,185,129,0.22); border-color:var(--accent-emerald); color:#86efac; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(true)">🟢 Znam to! (Box +1 • SRS ✓)</button>
+            </div>
+
+            <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+              <button type="button" class="next-step-btn" style="margin-top:0; background:#334155; color:white;" onclick="prevQuickFire()">← Poprzednia</button>
+              <button type="button" class="next-step-btn" id="revealQfBtn" style="margin-top:0; background: var(--accent-amber); color:#0b0f19;" onclick="revealQuickFire()">👁️ Odkryj odpowiedź i oceń w SRS ✓</button>
+              <button type="button" class="next-step-btn" style="margin-top:0; background: var(--accent-emerald); color:#0b0f19;" onclick="markAllFlashcardsMastered()">✓✓ Zalicz wszystkie w dziale</button>
+              <button type="button" class="next-step-btn" style="margin-top:0;" onclick="nextQuickFire()">Następna →</button>
+            </div>
           </div>
         </div>
       </div>
@@ -1665,6 +1713,20 @@ function normalizeCase(c) {
       if (typeof item === 'object' && item !== null) return [item.name || '', item.val || '', item.norm || ''];
       return [String(item), '', ''];
     });
+  } else if (c.labs && typeof c.labs === 'object') {
+    const flatLabs = [];
+    Object.entries(c.labs).forEach(([category, items]) => {
+      if (Array.isArray(items)) {
+        items.forEach(item => {
+          if (Array.isArray(item)) {
+            flatLabs.push([item[0] || '', item[1] || '', item[2] || '']);
+          } else if (typeof item === 'object' && item !== null) {
+            flatLabs.push([item.name || '', item.val || '', item.norm || '']);
+          }
+        });
+      }
+    });
+    c.labs = flatLabs;
   } else {
     c.labs = [];
   }
@@ -1675,11 +1737,16 @@ function normalizeCase(c) {
       const title = s.title || `Krok ${idx + 1}`;
       const desc = s.desc || s.scenario || s.text || '';
       const scenario = s.scenario || s.desc || s.text || '';
-      const options = (s.options || []).map(opt => ({
-        text: opt.text || opt.label || '',
-        correct: !!opt.correct,
-        feedback: opt.feedback || opt.expl || opt.explanation || (opt.correct ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.')
-      }));
+      const options = (s.options || []).map(opt => {
+        const isCorrect = typeof opt.correct === 'boolean'
+          ? opt.correct
+          : (typeof opt.feedback === 'string' ? (opt.feedback.startsWith('✅') || opt.feedback.includes('PRAWIDŁOWO') || opt.feedback.includes('POPRAWN')) : false);
+        return {
+          text: opt.text || opt.label || '',
+          correct: isCorrect,
+          feedback: opt.feedback || opt.expl || opt.explanation || (isCorrect ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.')
+        };
+      });
       return { ...s, title, desc, scenario, options };
     });
   } else {
@@ -1789,9 +1856,13 @@ async function loadAllCasesFromRepository() {
         }
         if (c && c.flashcards && Array.isArray(c.flashcards)) {
           c.flashcards.forEach(fc => {
-            if (!QUICK_FIRE_NUMBERS.some(x => x.q === fc.q)) {
+            const q = fc.front || fc.q || '';
+            const a = fc.back || fc.a || '';
+            if (q && !QUICK_FIRE_NUMBERS.some(x => x.q === q)) {
               QUICK_FIRE_NUMBERS.push({
-                ...fc,
+                q,
+                a,
+                caseId: c.id,
                 cat: fc.cat || c.dept || 'Klinika'
               });
             }
@@ -2575,7 +2646,7 @@ function renderStep() {
         <div style="margin: 12px 0 16px 0; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
           <button class="db-btn" onclick="prevStep()">← Wróć do poprzedniego kroku</button>
           <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('patho')">Przejdź do 2. Patomechanizmu →</button>
-          <button class="next-step-btn" style="margin-top:0; background:linear-gradient(135deg, #6366f1, #8b5cf6); color:white;" onclick="consolidateCaseFlashcards(${c.id})">⚡ Skonsoliduj wiedzę: Fiszki z tego tematu (${c.dept}) →</button>
+          <button class="next-step-btn" style="margin-top:0; background:linear-gradient(135deg, #6366f1, #8b5cf6); color:white; font-weight:800; padding:10px 20px; box-shadow:0 6px 20px rgba(99,102,241,0.35);" onclick="consolidateCaseFlashcards(${c.id})">⚡ Zrób fiszki z tego tematu (${(c.flashcards || []).length} fiszek) →</button>
         </div>
         <div class="duty-summary-box">
           <div style="margin-bottom: 14px;"><strong>💡 Istota choroby:</strong> ${ds.overview || ''}</div>
@@ -2609,7 +2680,7 @@ function renderStep() {
       ${prevBtnHtml}
     </div>
     <div class="step-title">${s.title}</div>
-    <div class="step-desc">${s.desc || s.scenario || ''}</div>
+    <div class="step-desc">${s.desc || s.scenario || s.task || ''}</div>
     <div class="options-list">
       ${currentShuffledStepOptions.map((item, displayIdx) => `
         <button class="option-btn" id="optBtn_${displayIdx}" onclick="checkOption(${displayIdx})">
@@ -3123,21 +3194,109 @@ function selectFlashcardForStudy(idx) {
   if (topBox) topBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
+let CASE_STUDY_SESSION = null;
+
+function ensureFlashcardBoxStructure() {
+  const mainBox = document.getElementById('mainFlashcardBox');
+  if (!mainBox) return;
+  if (!document.getElementById('qfQuestion')) {
+    mainBox.innerHTML = `
+      <div class="flashcard-inner-card" id="flashcardInnerCard" style="width:100%; display:flex; flex-direction:column; justify-content:space-between; align-items:center; flex:1;">
+        <button type="button" class="fullscreen-close-btn" onclick="toggleFlashcardFullscreen()">✕ Wyjdź z pełnego ekranu (Esc)</button>
+        <div style="width:100%; text-align:center;">
+          <div style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom: 14px;">
+            <span style="font-size: 0.85rem; font-weight: 800; color: var(--accent-blue); text-transform: uppercase;" id="qfCategory"></span>
+            <button type="button" class="db-btn" style="padding: 4px 10px; font-size: 0.75rem;" onclick="toggleFlashcardFullscreen()" id="qfFullscreenToggleBtn">${isFlashcardFullscreen ? '🗗 Zwiń' : '⛶ Pełny ekran'}</button>
+          </div>
+          <div id="qfQuestion" style="text-align:center; margin:0 auto 20px auto;"></div>
+        </div>
+
+        <div style="width:100%; text-align:center;">
+          <div id="qfAnswerBox" style="display:none; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); color: #a7f3d0; padding: 18px 24px; border-radius: 14px; font-weight: 700; font-size: 1.15rem; margin: 0 auto 18px auto; max-width: 780px; text-align:center;"></div>
+          
+          <div id="qfLeitnerRow" style="display:none; margin-bottom:16px; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <button type="button" class="db-btn" style="background:rgba(244,63,94,0.18); border-color:var(--accent-rose); color:#fca5a5; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(false)">🔴 Wymaga powtórki (Box 0)</button>
+            <button type="button" class="db-btn" style="background:rgba(16,185,129,0.22); border-color:var(--accent-emerald); color:#86efac; font-size:0.86rem; padding:8px 18px;" onclick="rateFlashcardSrs(true)">🟢 Znam to! (Box +1 • SRS ✓)</button>
+          </div>
+
+          <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+            <button type="button" class="next-step-btn" style="margin-top:0; background:#334155; color:white;" onclick="prevQuickFire()">← Poprzednia</button>
+            <button type="button" class="next-step-btn" id="revealQfBtn" style="margin-top:0; background: var(--accent-amber); color:#0b0f19;" onclick="revealQuickFire()">👁️ Odkryj odpowiedź i oceń w SRS ✓</button>
+            <button type="button" class="next-step-btn" style="margin-top:0; background: var(--accent-emerald); color:#0b0f19;" onclick="markAllFlashcardsMastered()">✓✓ Zalicz wszystkie w dziale</button>
+            <button type="button" class="next-step-btn" style="margin-top:0;" onclick="nextQuickFire()">Następna →</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
+
 function getFilteredFlashcards() {
-  const cat = document.getElementById('flashCatFilter').value;
+  if (CASE_STUDY_SESSION && Array.isArray(CASE_STUDY_SESSION.cards)) {
+    return CASE_STUDY_SESSION.cards;
+  }
+  const sel = document.getElementById('flashCatFilter');
+  const cat = sel ? sel.value : 'ALL';
   return cat === 'ALL' ? QUICK_FIRE_NUMBERS : QUICK_FIRE_NUMBERS.filter(f => f.cat === cat);
 }
 
 function renderFlashTab() {
+  const banner = document.getElementById('caseStudyBanner');
+  const bannerTitle = document.getElementById('caseStudyTitle');
+  const catWrap = document.getElementById('flashCatFilterWrap');
+
+  if (CASE_STUDY_SESSION) {
+    if (banner) {
+      banner.style.display = 'flex';
+      if (bannerTitle) bannerTitle.textContent = CASE_STUDY_SESSION.title;
+    }
+    if (catWrap) catWrap.style.display = 'none';
+  } else {
+    if (banner) banner.style.display = 'none';
+    if (catWrap) catWrap.style.display = 'block';
+  }
+
   const list = getFilteredFlashcards();
   const allContainer = document.getElementById('flashAllListContainer');
+
   if (list.length === 0) {
-    if (allContainer) allContainer.innerHTML = `<p style="color:var(--text-muted);">Brak fiszek w tej kategorii.</p>`;
+    ensureFlashcardBoxStructure();
+    if (allContainer) allContainer.innerHTML = `<p style="color:var(--text-muted); text-align:center; padding:20px;">Brak fiszek w wybranej kategorii.</p>`;
     return;
   }
+
+  // Check if case study session finished
+  if (CASE_STUDY_SESSION && currentQfIdx >= list.length) {
+    const mainBox = document.getElementById('mainFlashcardBox');
+    if (mainBox) {
+      mainBox.innerHTML = `
+        <div class="flashcard-inner-card" style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:36px 20px;">
+          <div style="font-size:3.5rem; margin-bottom:12px;">🎉</div>
+          <h2 style="color:var(--accent-emerald); font-size:1.5rem; margin-bottom:10px;">Świetna robota! Fiszki z tego tematu opanowane!</h2>
+          <p style="color:var(--text-muted); max-width:620px; margin:0 auto 24px auto; font-size:0.95rem; line-height:1.6;">
+            Ukończyłeś komplet <strong>${CASE_STUDY_SESSION.cards.length} fiszek</strong> z przypadku <em>„${CASE_STUDY_SESSION.title}”</em>. Wszystkie zostały pomyślnie zsynchronizowane z Twoim systemem powtórek Leitner SRS!
+          </p>
+          <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <button type="button" class="next-step-btn" style="margin-top:0;" onclick="exitCaseStudySessionAndBackToCase(${CASE_STUDY_SESSION.caseId})">← Wróć do przypadku #${CASE_STUDY_SESSION.caseId}</button>
+            <button type="button" class="next-step-btn" style="margin-top:0; background:linear-gradient(135deg, #059669, #10b981); color:#0b0f19;" onclick="currentQfIdx=0; renderFlashTab();">🔄 Powtórz jeszcze raz te fiszki</button>
+            <button type="button" class="next-step-btn" style="margin-top:0; background:#334155; color:white;" onclick="exitCaseStudySession()">Przejdź do bazy wszystkich fiszek →</button>
+          </div>
+        </div>
+      `;
+    }
+    if (allContainer) allContainer.innerHTML = '';
+    return;
+  }
+
+  ensureFlashcardBoxStructure();
   if (currentQfIdx >= list.length) currentQfIdx = 0;
   const item = list[currentQfIdx];
-  document.getElementById('qfCategory').textContent = `${item.cat || 'Klinika'} (${currentQfIdx + 1}/${list.length})`;
+
+  const catLabel = CASE_STUDY_SESSION 
+    ? `Fiszka ${currentQfIdx + 1} z ${list.length} • Temat: ${item.cat}` 
+    : `${item.cat || 'Klinika'} (${currentQfIdx + 1}/${list.length})`;
+
+  document.getElementById('qfCategory').textContent = catLabel;
   document.getElementById('qfQuestion').textContent = item.q;
   document.getElementById('qfAnswerBox').style.display = 'none';
   document.getElementById('qfAnswerBox').textContent = item.a;
@@ -3192,7 +3351,7 @@ function rateFlashcardSrs(isCorrect) {
   if (list.length === 0) return;
   const item = list[currentQfIdx];
   const globalIdx = QUICK_FIRE_NUMBERS.indexOf(item);
-  const key = `fc_${globalIdx}`;
+  const key = `fc_${globalIdx >= 0 ? globalIdx : item.q.slice(0, 25)}`;
 
   if (!SRS_DB[key]) {
     SRS_DB[key] = { box: 1, dueTime: Date.now(), wrongFlag: false, type: 'flashcard', cat: item.cat, q: item.q, a: item.a };
@@ -3200,7 +3359,7 @@ function rateFlashcardSrs(isCorrect) {
 
   scheduleSrsCard(key, isCorrect);
   if (isCorrect) {
-    if (!FLASH_DONE_INDICES.includes(globalIdx)) FLASH_DONE_INDICES.push(globalIdx);
+    if (globalIdx >= 0 && !FLASH_DONE_INDICES.includes(globalIdx)) FLASH_DONE_INDICES.push(globalIdx);
     addExp(15, `Fiszka opanowana (Box ${SRS_DB[key].box})!`);
   } else {
     addExp(5, 'Fiszka do powtórki (Box 0)');
@@ -3229,26 +3388,54 @@ function toggleFlashcardFullscreen() {
 }
 
 function consolidateCaseFlashcards(caseId) {
-  const c = CASES.find(x => x.id === caseId);
+  const c = CASES.find(x => x.id === caseId) || (currentCaseId ? CASES.find(x => x.id === currentCaseId) : null);
   if (!c) return;
-  const targetDept = c.dept;
-  const sel = document.getElementById('flashCatFilter');
-  if (sel) {
-    if (Array.from(sel.options).some(o => o.value === targetDept)) {
-      sel.value = targetDept;
-    } else {
-      sel.value = 'ALL';
-    }
+
+  const rawCards = (c.flashcards && c.flashcards.length > 0)
+    ? c.flashcards
+    : QUICK_FIRE_NUMBERS.filter(x => x.caseId === c.id);
+
+  const cards = rawCards.map(fc => ({
+    cat: c.dept || 'Klinika',
+    q: fc.front || fc.q || '',
+    a: fc.back || fc.a || '',
+    caseId: c.id
+  }));
+
+  if (cards.length === 0) {
+    alert('Brak przypisanych fiszek dla tego tematu.');
+    return;
   }
+
+  CASE_STUDY_SESSION = {
+    caseId: c.id,
+    title: c.shortTitle || c.diagnosisTitle || `Przypadek #${c.id}`,
+    cards: cards
+  };
+
   currentQfIdx = 0;
   switchTab('flash');
   renderFlashTab();
+
   const toast = document.getElementById('expToast');
   if (toast) {
-    toast.textContent = `⚡ Konsolidacja wiedzy: Fiszki z działu ${targetDept}!`;
+    toast.textContent = `⚡ Rozpoczęto: ${cards.length} fiszek z tematu „${c.diagnosisTitle || c.shortTitle}”!`;
     toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 3000);
+    setTimeout(() => toast.classList.remove('show'), 3500);
   }
+}
+
+function exitCaseStudySession() {
+  CASE_STUDY_SESSION = null;
+  currentQfIdx = 0;
+  ensureFlashcardBoxStructure();
+  renderFlashTab();
+}
+
+function exitCaseStudySessionAndBackToCase(caseId) {
+  exitCaseStudySession();
+  selectCase(caseId);
+  switchTab('sor');
 }
 
 function markAllFlashcardsMastered() {
