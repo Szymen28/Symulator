@@ -497,42 +497,42 @@
     "filename": "80_sle_toczen.json",
     "code": "INT-R01",
     "title": "Toczeń rumieniowaty układowy (SLE) z toczniowym zapaleniem nerek",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 81,
     "filename": "81_gca_zapalenie_skroniowej.json",
     "code": "INT-R02",
     "title": "Olbrzymiokomórkowe zapalenie tętnic (GCA) z polimialgią reumatyczną",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 82,
     "filename": "82_dna_moczanowa.json",
     "code": "INT-R03",
     "title": "Ostry napad dny moczanowej (podagra) vs septyczne zapalenie stawu",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 83,
     "filename": "83_rzs.json",
     "code": "INT-R04",
     "title": "Reumatoidalne zapalenie stawów (RZS) o wczesnym początku",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 84,
     "filename": "84_borelioza_rumien.json",
     "code": "INT-Z02",
     "title": "Borelioza z Lyme – rumień wędrujący (erythema migrans)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 85,
     "filename": "85_hbv_serologia.json",
     "code": "INT-Z03",
     "title": "Wirusowe zapalenie wątroby typu B (ostre i przewlekłe HBV)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 86,
