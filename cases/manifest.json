@@ -90,5 +90,13 @@
   "89_atrezja_dwunastnicy.json",
   "90_rds_noworodek.json",
   "91_tga_wada_przewodozalezna.json",
-  "92_sepsa_noworodka_gbs.json"
+  "92_sepsa_noworodka_gbs.json",
+  "93_krup_podglosniowe.json",
+  "94_epiglottitis_naglosnia.json",
+  "95_bronchiolitis_rsv.json",
+  "96_zap_pluc_dziecko.json",
+  "97_cialo_obce_dziecko.json",
+  "98_mukowiscydoza.json",
+  "99_wglobienie_jelita.json",
+  "100_volvulus_skret_jelita.json"
 ]

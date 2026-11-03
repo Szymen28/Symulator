@@ -588,55 +588,55 @@
     "filename": "93_krup_podglosniowe.json",
     "code": "PED-P01",
     "title": "Podgłośniowe zapalenie krtani (krup wirusowy)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 94,
     "filename": "94_epiglottitis_naglosnia.json",
     "code": "PED-P02",
     "title": "Ostre zapalenie nagłośni (epiglottitis) wywołane przez Hib",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 95,
     "filename": "95_bronchiolitis_rsv.json",
     "code": "PED-P03",
     "title": "Zapalenie oskrzelików (bronchiolitis RSV) u niemowlęcia",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 96,
     "filename": "96_zap_pluc_dziecko.json",
     "code": "PED-P04",
     "title": "Pozaszpitalne zapalenie płuc u dziecka (amoksycylina w wysokiej dawce)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 97,
     "filename": "97_cialo_obce_dziecko.json",
     "code": "PED-P05",
     "title": "Ciało obce w drogach oddechowych u małego dziecka",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 98,
     "filename": "98_mukowiscydoza.json",
     "code": "PED-P06",
     "title": "Mukowiscydoza (CF) – diagnostyka i zaostrzenie oskrzelowo-płucne",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 99,
     "filename": "99_wglobienie_jelita.json",
     "code": "PED-G02",
     "title": "Wgłobienie jelita (intussusceptio) u niemowlęcia",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 100,
     "filename": "100_volvulus_skret_jelita.json",
     "code": "PED-G03",
     "title": "Skręt jelita środkowego (volvulus) na podłożu malrotacji u noworodka",
-    "status": "pending"
+    "status": "completed"
   }
 ]
