@@ -294,56 +294,56 @@
     "filename": "51_krwawiacy_wrzod_forrest.json",
     "code": "INT-G02",
     "title": "Krwawiący wrzód trawienny opuszki dwunastnicy we wstrząsie (klasyfikacja Forresta)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 52,
     "filename": "52_encefalopatia_watrobowa.json",
     "code": "INT-G05",
     "title": "Encefalopatia wątrobowa w stadium dekompensacji marskości",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 53,
     "filename": "53_wzjg_megacolon.json",
     "code": "INT-G06",
     "title": "Ciężki rzut wrzodziejącego zapalenia jelita grubego (WZJG) z megacolon toxicum",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 54,
     "filename": "54_crohn.json",
     "code": "INT-G07",
     "title": "Choroba Leśniowskiego-Crohna ze zwężeniem i przetokami",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 55,
     "filename": "55_clostridioides_difficile.json",
     "code": "INT-G08",
     "title": "Ciężkie rzekomobłoniaste zapalenie jelit (Clostridioides difficile)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 56,
     "filename": "56_celiakia_dorosly.json",
     "code": "INT-G09",
     "title": "Celiakia u osoby dorosłej z dermatitis herpetiformis (chorobą Duhringa)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 57,
     "filename": "57_aih.json",
     "code": "INT-G11",
     "title": "Autoimmunologiczne zapalenie wątroby (AIH)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 58,
     "filename": "58_ibs.json",
     "code": "INT-G12",
     "title": "Zespół jelita drażliwego (IBS) wg kryteriów rzymskich IV",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 59,
