@@ -238,56 +238,56 @@
     "filename": "43_ciezkie_cap.json",
     "code": "INT-P03",
     "title": "Ciężkie pozaszpitalne zapalenie płuc (CAP) wg skali CURB-65",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 44,
     "filename": "44_rak_pluca_svcs_siadh.json",
     "code": "INT-P04",
     "title": "Rak drobnokomórkowy płuca (SCLC) z zespołem żyły głównej górnej (SVCS) i SIADH",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 45,
     "filename": "45_sarkoidoza_lofgren.json",
     "code": "INT-P05",
     "title": "Sarkoidoza płucna w stadium ostrego zespołu Löfgrena",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 46,
     "filename": "46_ipf.json",
     "code": "INT-P06",
     "title": "Idiopatyczne włóknienie płuc (IPF)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 47,
     "filename": "47_gruzlica_pluc.json",
     "code": "INT-P07",
     "title": "Gruźlica płuc jamista prątkująca z krwiopluciem",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 48,
     "filename": "48_plyn_oplucna_ropniak.json",
     "code": "INT-P08",
     "title": "Powikłany płyn w jamie opłucnej i ropniak opłucnej (kryteria Lighta)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 49,
     "filename": "49_odma_samoistna.json",
     "code": "INT-P09",
     "title": "Odma opłucnowa samoistna pierwotna (PSP)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 50,
     "filename": "50_bezdech_senny_obs.json",
     "code": "INT-P11",
     "title": "Obturacyjny bezdech senny (OBS)",
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": 51,
