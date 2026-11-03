@@ -148,5 +148,495 @@
     "id": 30,
     "filename": "30_stan_astmatyczny.json",
     "status": "completed"
+  },
+  {
+    "id": 31,
+    "filename": "31_af_z_rvr.json",
+    "code": "INT-K05",
+    "title": "Migotanie przedsionków z szybką czynnością komór (AF z RVR) i obrzękiem płuc",
+    "status": "completed"
+  },
+  {
+    "id": 32,
+    "filename": "32_af_wpw.json",
+    "code": "INT-K06",
+    "title": "Migotanie przedsionków z zespołem preekscytacji (AF + WPW)",
+    "status": "completed"
+  },
+  {
+    "id": 33,
+    "filename": "33_stenoza_aortalna.json",
+    "code": "INT-K07",
+    "title": "Skrajna objawowa stenoza aortalna (AS) z triadą SAD",
+    "status": "completed"
+  },
+  {
+    "id": 34,
+    "filename": "34_hfref_dekompensacja.json",
+    "code": "INT-K09",
+    "title": "Ostra dekompensacja przewlekłej niewydolności serca (HFrEF) profil mokry i zimny",
+    "status": "completed"
+  },
+  {
+    "id": 35,
+    "filename": "35_torsade_de_pointes.json",
+    "code": "INT-K10",
+    "title": "Częstoskurcz komorowy Torsade de Pointes w nabytym zespole długiego QT",
+    "status": "completed"
+  },
+  {
+    "id": 36,
+    "filename": "36_izw.json",
+    "code": "INT-K11",
+    "title": "Infekcyjne zapalenie wsierdzia (IZW) zastawki aortalnej",
+    "status": "pending"
+  },
+  {
+    "id": 37,
+    "filename": "37_blok_av_mas.json",
+    "code": "INT-K12",
+    "title": "Blok przedsionkowo-komorowy III stopnia z zespołem Morgagniego-Adamsa-Stokesa (MAS)",
+    "status": "pending"
+  },
+  {
+    "id": 38,
+    "filename": "38_przelom_nadcisnieniowy.json",
+    "code": "INT-K13",
+    "title": "Przełom nadciśnieniowy z ostrym uszkodzeniem narządowym i encefalopatią",
+    "status": "pending"
+  },
+  {
+    "id": 39,
+    "filename": "39_zapalenie_osierdzia.json",
+    "code": "INT-K14",
+    "title": "Ostre zapalenie osierdzia i mięśnia sercowego (myopericarditis)",
+    "status": "pending"
+  },
+  {
+    "id": 40,
+    "filename": "40_hocm.json",
+    "code": "INT-K15",
+    "title": "Kardiomiopatia przerostowa z zawężaniem drogi odpływu (HOCM)",
+    "status": "pending"
+  },
+  {
+    "id": 41,
+    "filename": "41_avnrt.json",
+    "code": "INT-K17",
+    "title": "Częstoskurcz nadkomorowy z wąskimi zespołami QRS (AVNRT/AVRT)",
+    "status": "pending"
+  },
+  {
+    "id": 42,
+    "filename": "42_takotsubo.json",
+    "code": "INT-K18",
+    "title": "Kardiomiopatia Takotsubo (zespół balotującego koniuszka)",
+    "status": "pending"
+  },
+  {
+    "id": 43,
+    "filename": "43_ciezkie_cap.json",
+    "code": "INT-P03",
+    "title": "Ciężkie pozaszpitalne zapalenie płuc (CAP) wg skali CURB-65",
+    "status": "pending"
+  },
+  {
+    "id": 44,
+    "filename": "44_rak_pluca_svcs_siadh.json",
+    "code": "INT-P04",
+    "title": "Rak drobnokomórkowy płuca (SCLC) z zespołem żyły głównej górnej (SVCS) i SIADH",
+    "status": "pending"
+  },
+  {
+    "id": 45,
+    "filename": "45_sarkoidoza_lofgren.json",
+    "code": "INT-P05",
+    "title": "Sarkoidoza płucna w stadium ostrego zespołu Löfgrena",
+    "status": "pending"
+  },
+  {
+    "id": 46,
+    "filename": "46_ipf.json",
+    "code": "INT-P06",
+    "title": "Idiopatyczne włóknienie płuc (IPF)",
+    "status": "pending"
+  },
+  {
+    "id": 47,
+    "filename": "47_gruzlica_pluc.json",
+    "code": "INT-P07",
+    "title": "Gruźlica płuc jamista prątkująca z krwiopluciem",
+    "status": "pending"
+  },
+  {
+    "id": 48,
+    "filename": "48_plyn_oplucna_ropniak.json",
+    "code": "INT-P08",
+    "title": "Powikłany płyn w jamie opłucnej i ropniak opłucnej (kryteria Lighta)",
+    "status": "pending"
+  },
+  {
+    "id": 49,
+    "filename": "49_odma_samoistna.json",
+    "code": "INT-P09",
+    "title": "Odma opłucnowa samoistna pierwotna (PSP)",
+    "status": "pending"
+  },
+  {
+    "id": 50,
+    "filename": "50_bezdech_senny_obs.json",
+    "code": "INT-P11",
+    "title": "Obturacyjny bezdech senny (OBS)",
+    "status": "pending"
+  },
+  {
+    "id": 51,
+    "filename": "51_krwawiacy_wrzod_forrest.json",
+    "code": "INT-G02",
+    "title": "Krwawiący wrzód trawienny opuszki dwunastnicy we wstrząsie (klasyfikacja Forresta)",
+    "status": "pending"
+  },
+  {
+    "id": 52,
+    "filename": "52_encefalopatia_watrobowa.json",
+    "code": "INT-G05",
+    "title": "Encefalopatia wątrobowa w stadium dekompensacji marskości",
+    "status": "pending"
+  },
+  {
+    "id": 53,
+    "filename": "53_wzjg_megacolon.json",
+    "code": "INT-G06",
+    "title": "Ciężki rzut wrzodziejącego zapalenia jelita grubego (WZJG) z megacolon toxicum",
+    "status": "pending"
+  },
+  {
+    "id": 54,
+    "filename": "54_crohn.json",
+    "code": "INT-G07",
+    "title": "Choroba Leśniowskiego-Crohna ze zwężeniem i przetokami",
+    "status": "pending"
+  },
+  {
+    "id": 55,
+    "filename": "55_clostridioides_difficile.json",
+    "code": "INT-G08",
+    "title": "Ciężkie rzekomobłoniaste zapalenie jelit (Clostridioides difficile)",
+    "status": "pending"
+  },
+  {
+    "id": 56,
+    "filename": "56_celiakia_dorosly.json",
+    "code": "INT-G09",
+    "title": "Celiakia u osoby dorosłej z dermatitis herpetiformis (chorobą Duhringa)",
+    "status": "pending"
+  },
+  {
+    "id": 57,
+    "filename": "57_aih.json",
+    "code": "INT-G11",
+    "title": "Autoimmunologiczne zapalenie wątroby (AIH)",
+    "status": "pending"
+  },
+  {
+    "id": 58,
+    "filename": "58_ibs.json",
+    "code": "INT-G12",
+    "title": "Zespół jelita drażliwego (IBS) wg kryteriów rzymskich IV",
+    "status": "pending"
+  },
+  {
+    "id": 59,
+    "filename": "59_hhs.json",
+    "code": "INT-E02",
+    "title": "Stan hiperglikemiczno-hiperosmolalny (HHS) u pacjenta z cukrzycą t. 2",
+    "status": "pending"
+  },
+  {
+    "id": 60,
+    "filename": "60_myxedema_coma.json",
+    "code": "INT-E04",
+    "title": "Śpiączka hipometaboliczna w skrajnej niedoczynności tarczycy (myxedema coma)",
+    "status": "pending"
+  },
+  {
+    "id": 61,
+    "filename": "61_pheochromocytoma.json",
+    "code": "INT-E06",
+    "title": "Guz chromochłonny nadnerczy (pheochromocytoma)",
+    "status": "pending"
+  },
+  {
+    "id": 62,
+    "filename": "62_zespol_cushinga.json",
+    "code": "INT-E07",
+    "title": "Zespół Cushinga (hiperkortyzolemia endogenna)",
+    "status": "pending"
+  },
+  {
+    "id": 63,
+    "filename": "63_przelom_hiperkalcemiczny.json",
+    "code": "INT-E08",
+    "title": "Przełom hiperkalcemiczny w pierwotnej nadczynności przytarczyc",
+    "status": "pending"
+  },
+  {
+    "id": 64,
+    "filename": "64_zespol_conna.json",
+    "code": "INT-E09",
+    "title": "Pierwotny hiperaldosteronizm (zespół Conna)",
+    "status": "pending"
+  },
+  {
+    "id": 65,
+    "filename": "65_moczkowka_prosta.json",
+    "code": "INT-E10",
+    "title": "Moczówka prosta ośrodkowa (CDI)",
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "filename": "66_de_quervain.json",
+    "code": "INT-E11",
+    "title": "Podostre zapalenie tarczycy (choroba de Quervaina)",
+    "status": "pending"
+  },
+  {
+    "id": 67,
+    "filename": "67_hiponatremia_ods.json",
+    "code": "INT-N02",
+    "title": "Ciężka objawowa hiponatremia z drgawkami i ryzykiem ODS",
+    "status": "pending"
+  },
+  {
+    "id": 68,
+    "filename": "68_aki_kdigo.json",
+    "code": "INT-N03",
+    "title": "Ostre uszkodzenie nerek (AKI) – różnicowanie przednerkowego i ATN wg KDIGO",
+    "status": "pending"
+  },
+  {
+    "id": 69,
+    "filename": "69_zespol_nerczycowy.json",
+    "code": "INT-N04",
+    "title": "Zespół nerczycowy u dorosłego z powikłaniami zakrzepowymi",
+    "status": "pending"
+  },
+  {
+    "id": 70,
+    "filename": "70_rpgn.json",
+    "code": "INT-N05",
+    "title": "Gwałtownie postępujące kłębuszkowe zapalenie nerek (RPGN) z półksiężycami",
+    "status": "pending"
+  },
+  {
+    "id": 71,
+    "filename": "71_pchn_dializa_ratunkowa.json",
+    "code": "INT-N06",
+    "title": "Schyłkowa przewlekła choroba nerek (PChN G5D) ze wskazaniami do pilnej dializoterapii",
+    "status": "pending"
+  },
+  {
+    "id": 72,
+    "filename": "72_ain_polekowe.json",
+    "code": "INT-N07",
+    "title": "Ostre cewkowo-śródmiąższowe zapalenie nerek (AIN) po lekach",
+    "status": "pending"
+  },
+  {
+    "id": 73,
+    "filename": "73_adpkd.json",
+    "code": "INT-N08",
+    "title": "Autosomalnie dominująca wielotorbielowatość nerek (ADPKD)",
+    "status": "pending"
+  },
+  {
+    "id": 74,
+    "filename": "74_niedokrwistosc_b12.json",
+    "code": "INT-H02",
+    "title": "Niedokrwistość megaloblastyczna w chorobie Addisona-Biermera",
+    "status": "pending"
+  },
+  {
+    "id": 75,
+    "filename": "75_ttp.json",
+    "code": "INT-H03",
+    "title": "Zakrzepowa plamica małopłytkowa (TTP) z niedoborem ADAMTS13",
+    "status": "pending"
+  },
+  {
+    "id": 76,
+    "filename": "76_goraczka_neutropeniczna.json",
+    "code": "INT-H04",
+    "title": "Gorączka neutropeniczna po chemioterapii przeciwnowotworowej",
+    "status": "pending"
+  },
+  {
+    "id": 77,
+    "filename": "77_szpiczak_mnogi.json",
+    "code": "INT-H05",
+    "title": "Szpiczak plazmocytowy (kryteria CRAB)",
+    "status": "pending"
+  },
+  {
+    "id": 78,
+    "filename": "78_aml.json",
+    "code": "INT-H06",
+    "title": "Ostra białaczka szpikowa (AML)",
+    "status": "pending"
+  },
+  {
+    "id": 79,
+    "filename": "79_tls.json",
+    "code": "INT-H07",
+    "title": "Zespół rozpadu guza (TLS) po chemioterapii",
+    "status": "pending"
+  },
+  {
+    "id": 80,
+    "filename": "80_sle_toczen.json",
+    "code": "INT-R01",
+    "title": "Toczeń rumieniowaty układowy (SLE) z toczniowym zapaleniem nerek",
+    "status": "pending"
+  },
+  {
+    "id": 81,
+    "filename": "81_gca_zapalenie_skroniowej.json",
+    "code": "INT-R02",
+    "title": "Olbrzymiokomórkowe zapalenie tętnic (GCA) z polimialgią reumatyczną",
+    "status": "pending"
+  },
+  {
+    "id": 82,
+    "filename": "82_dna_moczanowa.json",
+    "code": "INT-R03",
+    "title": "Ostry napad dny moczanowej (podagra) vs septyczne zapalenie stawu",
+    "status": "pending"
+  },
+  {
+    "id": 83,
+    "filename": "83_rzs.json",
+    "code": "INT-R04",
+    "title": "Reumatoidalne zapalenie stawów (RZS) o wczesnym początku",
+    "status": "pending"
+  },
+  {
+    "id": 84,
+    "filename": "84_borelioza_rumien.json",
+    "code": "INT-Z02",
+    "title": "Borelioza z Lyme – rumień wędrujący (erythema migrans)",
+    "status": "pending"
+  },
+  {
+    "id": 85,
+    "filename": "85_hbv_serologia.json",
+    "code": "INT-Z03",
+    "title": "Wirusowe zapalenie wątroby typu B (ostre i przewlekłe HBV)",
+    "status": "pending"
+  },
+  {
+    "id": 86,
+    "filename": "86_nls_noworodek.json",
+    "code": "PED-N01",
+    "title": "Resuscytacja noworodka na sali porodowej (algorytm NLS)",
+    "status": "pending"
+  },
+  {
+    "id": 87,
+    "filename": "87_konflikt_serologiczny_rhd.json",
+    "code": "PED-N02",
+    "title": "Konflikt serologiczny RhD i choroba hemolityczna noworodka",
+    "status": "pending"
+  },
+  {
+    "id": 88,
+    "filename": "88_nec_noworodek.json",
+    "code": "PED-N03",
+    "title": "Martwicze zapalenie jelit (NEC) u wcześniaka",
+    "status": "pending"
+  },
+  {
+    "id": 89,
+    "filename": "89_atrezja_dwunastnicy.json",
+    "code": "PED-N05",
+    "title": "Wrodzona niedrożność dwunastnicy u noworodka (objaw double bubble)",
+    "status": "pending"
+  },
+  {
+    "id": 90,
+    "filename": "90_rds_noworodek.json",
+    "code": "PED-N07",
+    "title": "Zespół zaburzeń oddychania noworodka (RDS) z niedoboru surfaktantu",
+    "status": "pending"
+  },
+  {
+    "id": 91,
+    "filename": "91_tga_wada_przewodozalezna.json",
+    "code": "PED-N08",
+    "title": "Wrodzona sinicza wada serca przewodozależna (TGA / koarktacja aorty)",
+    "status": "pending"
+  },
+  {
+    "id": 92,
+    "filename": "92_sepsa_noworodka_gbs.json",
+    "code": "PED-N09",
+    "title": "Wczesna sepsa noworodków (EOS) wywołana przez Streptococcus agalactiae (GBS)",
+    "status": "pending"
+  },
+  {
+    "id": 93,
+    "filename": "93_krup_podglosniowe.json",
+    "code": "PED-P01",
+    "title": "Podgłośniowe zapalenie krtani (krup wirusowy)",
+    "status": "pending"
+  },
+  {
+    "id": 94,
+    "filename": "94_epiglottitis_naglosnia.json",
+    "code": "PED-P02",
+    "title": "Ostre zapalenie nagłośni (epiglottitis) wywołane przez Hib",
+    "status": "pending"
+  },
+  {
+    "id": 95,
+    "filename": "95_bronchiolitis_rsv.json",
+    "code": "PED-P03",
+    "title": "Zapalenie oskrzelików (bronchiolitis RSV) u niemowlęcia",
+    "status": "pending"
+  },
+  {
+    "id": 96,
+    "filename": "96_zap_pluc_dziecko.json",
+    "code": "PED-P04",
+    "title": "Pozaszpitalne zapalenie płuc u dziecka (amoksycylina w wysokiej dawce)",
+    "status": "pending"
+  },
+  {
+    "id": 97,
+    "filename": "97_cialo_obce_dziecko.json",
+    "code": "PED-P05",
+    "title": "Ciało obce w drogach oddechowych u małego dziecka",
+    "status": "pending"
+  },
+  {
+    "id": 98,
+    "filename": "98_mukowiscydoza.json",
+    "code": "PED-P06",
+    "title": "Mukowiscydoza (CF) – diagnostyka i zaostrzenie oskrzelowo-płucne",
+    "status": "pending"
+  },
+  {
+    "id": 99,
+    "filename": "99_wglobienie_jelita.json",
+    "code": "PED-G02",
+    "title": "Wgłobienie jelita (intussusceptio) u niemowlęcia",
+    "status": "pending"
+  },
+  {
+    "id": 100,
+    "filename": "100_volvulus_skret_jelita.json",
+    "code": "PED-G03",
+    "title": "Skręt jelita środkowego (volvulus) na podłożu malrotacji u noworodka",
+    "status": "pending"
   }
 ]

@@ -28,5 +28,10 @@
   "27_przelom_nadnerczowy.json",
   "28_udar_niedokrwienny.json",
   "29_wstrzas_septyczny.json",
-  "30_stan_astmatyczny.json"
+  "30_stan_astmatyczny.json",
+  "31_af_z_rvr.json",
+  "32_af_wpw.json",
+  "33_stenoza_aortalna.json",
+  "34_hfref_dekompensacja.json",
+  "35_torsade_de_pointes.json"
 ]
