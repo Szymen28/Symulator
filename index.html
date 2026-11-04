@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
   <!-- PWA Settings -->
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0b0f19">
@@ -14,10 +17,12 @@
 
 <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+    navigator.serviceWorker.register('./sw.js?v=11.2').then(function(reg) {
+      reg.update();
+    }).catch(function() {});
   }
 </script>
-<title>Symulator Kliniczny LEK v11.1 | Autoryzacja AES-256 & 4-Paskowy Dashboard</title>
+<title>Symulator Kliniczny LEK v11.2 | Autoryzacja AES-256 & 4-Paskowy Dashboard</title>
 <style>
   :root {
     --bg-main: #0b0f19;
@@ -1354,7 +1359,7 @@
     <div class="brand-box">
       <div class="brand-icon">⚕️</div>
       <div class="brand-title">
-        <h1>Symulator LEK v11.1</h1>
+        <h1>Symulator LEK v11.2</h1>
         <p>Konto Prywatne AES-256</p>
       </div>
     </div>
