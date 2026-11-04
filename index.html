@@ -968,9 +968,10 @@
         <div id="activeCaseTabsGroup" class="active-case-nav-group" style="display: none;">
           <span class="active-case-pill" id="activeCaseNavBadge" title="Aktualnie otwarty przypadek">#1</span>
           <button class="tab-btn" onclick="switchTab('sim')" id="tabSim">🩺 1. Symulacja SOR</button>
-          <button class="tab-btn" onclick="switchTab('patho')" id="tabPatho">🧬 2. Patomechanizm & 1v1</button>
+          <button class="tab-btn" onclick="openSummaryTab()" id="tabSummary">📋 2. Podsumowanie</button>
+          <button class="tab-btn" onclick="switchTab('patho')" id="tabPatho">🧬 3. Patomechanizm & 1v1</button>
           <button class="tab-btn" onclick="switchTab('lek')" id="tabLek">
-            🎓 3. Dogrywka LEK <span class="tab-badge" id="lekTabCount">0 pytań</span>
+            🎓 4. Dogrywka LEK <span class="tab-badge" id="lekTabCount">0 pytań</span>
           </button>
           <button class="close-case-btn" onclick="closeActiveCase()" title="Zamknij bieżący przypadek i wróć do katalogu">✕ Zamknij</button>
         </div>
@@ -1175,7 +1176,12 @@
       </main>
     </div>
 
-    <!-- TAB 2: PATOMECHANIZM & TABELA 1v1 -->
+    <!-- TAB 2: PODSUMOWANIE DYŻURU (ODBLOKOWANE PO SYMULACJI) -->
+    <div id="viewSummary" class="workspace-card" style="display: none;">
+      <div id="summaryContent"></div>
+    </div>
+
+    <!-- TAB 3: PATOMECHANIZM & TABELA 1v1 -->
     <div id="viewPatho" class="workspace-card" style="display: none;">
       <div id="spoilerBox" class="spoiler-banner">
         <div>
@@ -1715,10 +1721,37 @@ function normalizeCase(c) {
       } else {
         status = 'vital-ok';
       }
+      const label = v.label || v.name || v.param || '';
+      let sub = v.sub || '';
+      if (!sub && v.val) {
+        const valStr = String(v.val);
+        const lStr = label.toLowerCase();
+        if (lStr.includes('hr') || lStr.includes('serc') || lStr.includes('tętn')) {
+          const num = parseInt(valStr.replace(/\D/g, ''), 10);
+          sub = num > 100 ? 'Tachykardia' : (num < 60 ? 'Bradykardia' : 'Prawidłowa czynność');
+        } else if (lStr.includes('bp') || lStr.includes('ciśn')) {
+          sub = valStr.startsWith('8') || valStr.startsWith('7') || valStr.startsWith('6') || valStr.startsWith('90/') ? 'Hipotensja' : 'Prawidłowe ciśnienie';
+        } else if (lStr.includes('spo2') || lStr.includes('sat')) {
+          const num = parseInt(valStr.replace(/\D/g, ''), 10);
+          sub = num < 95 ? 'Hipoksemia' : 'Prawidłowa oksygenacja';
+        } else if (lStr.includes('temp')) {
+          const num = parseFloat(valStr.replace(',', '.').replace(/[^\d.]/g, ''));
+          sub = num >= 38 ? 'Gorączka' : (num < 36 ? 'Hipotermia' : 'Prawidłowa ciepłota');
+        } else if (lStr.includes('rr') || lStr.includes('oddech')) {
+          const num = parseInt(valStr.replace(/\D/g, ''), 10);
+          sub = num > 20 ? 'Tachypnoë' : (num < 12 ? 'Bradypnoë' : 'Prawidłowy tor');
+        } else if (lStr.includes('gcs')) {
+          const num = parseInt(valStr.replace(/\D/g, ''), 10);
+          sub = num < 15 ? 'Zaburzenia świadomości' : 'Pełny kontakt';
+        } else {
+          sub = status === 'vital-crit' ? 'Wartość krytyczna!' : (status === 'vital-warn' ? 'Wymaga uwagi' : 'Prawidłowe');
+        }
+      }
       return {
-        label: v.label || '',
+        label: label,
+        name: label,
         val: v.val != null ? String(v.val) : '',
-        sub: v.sub || '',
+        sub: sub,
         status: status
       };
     });
@@ -2493,9 +2526,27 @@ function applySidebarState() {
   if (txt) txt.textContent = isSidebarCollapsed ? 'Pokaż panel boczny' : 'Schowaj panel';
 }
 
+function isSummaryUnlocked(caseId) {
+  if (SOLVED_IDS.includes(caseId)) return true;
+  const c = getCurrentCase();
+  if (c && c.id === caseId && currentStepIdx >= (c.steps ? c.steps.length : 8)) return true;
+  return false;
+}
+
+function openSummaryTab() {
+  const c = getCurrentCase();
+  if (!c) return;
+  if (!isSummaryUnlocked(c.id)) {
+    alert("Podsumowanie dyżuru odblokuje się automatycznie po ukończeniu symulacji SOR tego przypadku!");
+    return;
+  }
+  switchTab('summary');
+}
+
 function updateActiveCaseNavVisibility() {
   const group = document.getElementById('activeCaseTabsGroup');
   const badge = document.getElementById('activeCaseNavBadge');
+  const tabSummary = document.getElementById('tabSummary');
   if (!group) return;
   if (isCaseWorkspaceOpen) {
     const c = getCurrentCase();
@@ -2503,6 +2554,12 @@ function updateActiveCaseNavVisibility() {
     if (badge && c) {
       badge.textContent = `#${c.id} • ${c.dept}`;
       badge.title = `#${c.id}: ${c.shortTitle}`;
+    }
+    if (tabSummary && c) {
+      const unlocked = isSummaryUnlocked(c.id);
+      tabSummary.style.opacity = unlocked ? '1' : '0.65';
+      tabSummary.title = unlocked ? 'Podsumowanie dyżuru (odblokowane na stałe)' : 'Ukończ symulację SOR, aby odblokować Podsumowanie';
+      tabSummary.innerHTML = unlocked ? '📋 2. Podsumowanie ✓' : '🔒 2. Podsumowanie';
     }
   } else {
     group.style.display = 'none';
@@ -2680,7 +2737,7 @@ function pickRandomUnsolved() {
 }
 
 function switchTab(tab) {
-  if (['sim', 'patho', 'lek'].includes(tab) && !isCaseWorkspaceOpen) {
+  if (['sim', 'summary', 'patho', 'lek'].includes(tab) && !isCaseWorkspaceOpen) {
     isCaseWorkspaceOpen = true;
   }
   activeTabName = tab;
@@ -2690,23 +2747,105 @@ function switchTab(tab) {
   document.getElementById('topGamiBar').style.display = tab === 'home' ? 'none' : 'grid';
   document.getElementById('viewCases').style.display = tab === 'cases' ? 'block' : 'none';
   document.getElementById('viewSim').style.display = tab === 'sim' ? 'grid' : 'none';
+  const vSum = document.getElementById('viewSummary');
+  if (vSum) vSum.style.display = tab === 'summary' ? 'block' : 'none';
   document.getElementById('viewPatho').style.display = tab === 'patho' ? 'block' : 'none';
   document.getElementById('viewLek').style.display = tab === 'lek' ? 'block' : 'none';
   document.getElementById('viewSrs').style.display = tab === 'srs' ? 'block' : 'none';
   document.getElementById('viewFlash').style.display = tab === 'flash' ? 'block' : 'none';
   document.getElementById('viewStar').style.display = tab === 'star' ? 'block' : 'none';
 
-  ['home','cases','sim','patho','lek','srs','flash','star'].forEach(t => {
+  ['home','cases','sim','summary','patho','lek','srs','flash','star'].forEach(t => {
     const btn = document.getElementById('tab' + t.charAt(0).toUpperCase() + t.slice(1));
     if (btn) btn.classList.toggle('active', tab === t);
   });
 
   if (tab === 'home') renderGamificationBar();
   else if (tab === 'cases') renderCasesCatalog();
+  else if (tab === 'summary') renderSummaryView();
   else if (tab === 'patho' && pathoUnlocked) { recordNodeVisit(0); renderPatho(); }
   else if (tab === 'srs') { buildSrsQueue(); renderSrsView(); }
   else if (tab === 'flash') renderFlashTab();
   else if (tab === 'star') renderStarredTab();
+}
+
+function renderSummaryView() {
+  const c = getCurrentCase();
+  if (!c) return;
+  const isUnlocked = isSummaryUnlocked(c.id);
+  const container = document.getElementById('summaryContent');
+  if (!container) return;
+
+  if (!isUnlocked) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 40px 20px;">
+        <div style="font-size: 3rem; margin-bottom: 12px;">🔒</div>
+        <h2 style="color: var(--accent-amber); font-size: 1.3rem;">Podsumowanie dyżuru jest jeszcze zablokowane</h2>
+        <p style="color: var(--text-muted); max-width: 520px; margin: 10px auto 20px auto; font-size: 0.9rem;">
+          Ukończ wszystkie kroki diagnostyczne w <strong>1. Symulacji SOR</strong>, aby odblokować pełną kartę podsumowania, zalecenia farmakoterapii i tabelę różnicową.
+        </p>
+        <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('sim')">Wróć do Symulacji SOR →</button>
+      </div>
+    `;
+    return;
+  }
+
+  let ds = c.dutySummary || {};
+  if (typeof ds === 'string') {
+    ds = { overview: ds, diagnostics: '', drugsAndDoses: '', procedures: '', monitoring: '' };
+  } else if (ds.points && !ds.overview) {
+    ds = {
+      overview: ds.title || '',
+      diagnostics: ds.points.slice(0, 2).join('<br>'),
+      drugsAndDoses: ds.points.slice(2, 4).join('<br>'),
+      procedures: ds.points.slice(4, 6).join('<br>'),
+      monitoring: ds.points.slice(6).join('<br>')
+    };
+  }
+
+  container.innerHTML = `
+    <div style="padding: 6px 0;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 14px;">
+        <div>
+          <div style="font-size:0.75rem; color:var(--accent-blue); font-weight:800; text-transform:uppercase; letter-spacing:0.8px;">
+            📋 Karta Podsumowania Dyżuru SOR • Przypadek #${c.id} (${c.dept})
+          </div>
+          <h2 style="font-size:1.35rem; margin-top:4px; color:var(--text-main); font-weight:800;">${c.diagnosisTitle || c.title}</h2>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <button class="db-btn" onclick="switchTab('sim')">← Wróć do symulacji</button>
+          <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('patho')">3. Patomechanizm →</button>
+          <button class="next-step-btn" style="margin-top:0; background: var(--accent-emerald);" onclick="switchTab('lek')">4. Dogrywka LEK →</button>
+        </div>
+      </div>
+
+      <div class="duty-summary-box">
+        <div style="margin-bottom: 16px; padding: 12px 14px; background: rgba(56, 189, 248, 0.08); border-left: 4px solid var(--accent-blue); border-radius: 6px;">
+          <strong style="color:var(--accent-blue); font-size: 0.92rem;">💡 Istota jednostki chorobowej i kontekst kliniczny:</strong><br>
+          <span style="color: #cbd5e1; font-size: 0.9rem; line-height: 1.5; display: inline-block; margin-top: 4px;">${ds.overview || ''}</span>
+        </div>
+        <div class="duty-grid">
+          <div class="duty-item">
+            <div class="duty-item-title">🔬 1. Diagnostyka Priorytetowa</div>
+            <div class="duty-item-body">${ds.diagnostics || ''}</div>
+          </div>
+          <div class="duty-item">
+            <div class="duty-item-title">💊 2. Leki i Dawki (Złote Standardy)</div>
+            <div class="duty-item-body">${ds.drugsAndDoses || ''}</div>
+          </div>
+          <div class="duty-item">
+            <div class="duty-item-title">⚡ 3. Procedury Ratunkowe i Zabiegi</div>
+            <div class="duty-item-body">${ds.procedures || ''}</div>
+          </div>
+          <div class="duty-item">
+            <div class="duty-item-title">⏱️ 4. Monitorowanie i Bezpieczeństwo</div>
+            <div class="duty-item-body">${ds.monitoring || ''}</div>
+          </div>
+        </div>
+        ${renderDiffTableHtml(c.diffTable)}
+      </div>
+    </div>
+  `;
 }
 
 function toggleLabs() { document.getElementById('labsTable').classList.toggle('open'); }
@@ -2808,15 +2947,15 @@ function renderStep() {
       };
     }
     container.innerHTML = `
-      <div style="text-align: center; padding: 8px;">
-        <h2 style="color: var(--accent-emerald);">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>
-        <p style="color: var(--text-muted);">Rozpoznanie: <strong style="color: var(--text-main);">${c.diagnosisTitle}</strong></p>
-        <div style="margin: 12px 0 16px 0; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+      <div style="text-align: center; padding: 12px 8px;">
+        <h2 style="color: var(--accent-emerald); font-size: 1.35rem; margin-bottom: 6px;">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>
+        <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 14px;">Rozpoznanie końcowe: <strong style="color: var(--text-main);">${c.diagnosisTitle}</strong></p>
+        <div style="margin: 14px 0 18px 0; display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
           <button class="db-btn" onclick="prevStep()">← Wróć do poprzedniego kroku</button>
-          <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('patho')">Przejdź do 2. Patomechanizmu →</button>
-          <button class="next-step-btn" style="margin-top:0; background:linear-gradient(135deg, #6366f1, #8b5cf6); color:white; font-weight:800; padding:10px 20px; box-shadow:0 6px 20px rgba(99,102,241,0.35);" onclick="consolidateCaseFlashcards(${c.id})">⚡ Zrób fiszki z tego tematu (${(c.flashcards || []).length} fiszek) →</button>
+          <button class="next-step-btn" style="margin-top:0; background: #0284c7; box-shadow:0 4px 15px rgba(2,132,199,0.35);" onclick="switchTab('summary')">📋 2. Pełne Podsumowanie Dyżuru →</button>
+          <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('patho')">🧬 3. Patomechanizm →</button>
         </div>
-        <div class="duty-summary-box">
+        <div class="duty-summary-box" style="text-align: left;">
           <div style="margin-bottom: 14px;"><strong>💡 Istota choroby:</strong> ${ds.overview || ''}</div>
           <div class="duty-grid">
             <div class="duty-item"><div class="duty-item-title">🔬 1. Diagnostyka</div><div class="duty-item-body">${ds.diagnostics || ''}</div></div>
@@ -2828,6 +2967,7 @@ function renderStep() {
         </div>
       </div>
     `;
+    updateActiveCaseNavVisibility();
     return;
   }
 
@@ -2913,10 +3053,22 @@ function renderPatho() {
   `).join('');
 
   const activeNode = nodes[selectedNodeIdx] || nodes[0] || { title: '', detail: '', desc: '', target: '' };
+  let targetDisplay = activeNode.target || '';
+  if (activeNode.drugTarget && activeNode.drugTarget !== activeNode.target) {
+    if (targetDisplay && !activeNode.drugTarget.includes(targetDisplay)) {
+      targetDisplay = `${targetDisplay} — ${activeNode.drugTarget}`;
+    } else {
+      targetDisplay = activeNode.drugTarget;
+    }
+  }
+  // Usuń ramki dose-pill w widoku patomechanizmu, aby zachować czystość i czytelność tekstu
+  targetDisplay = targetDisplay.replace(/<span class=['"]dose-pill['"]>([\s\S]*?)<\/span>/gi, '<strong>$1</strong>');
+  if (!targetDisplay) targetDisplay = 'Terapia i diagnostyka ukierunkowana na patomechanizm';
+
   document.getElementById('nodeDetailPanel').innerHTML = `
     <h3 style="color: var(--accent-blue);">${activeNode.title || ''}</h3>
     <p>${activeNode.detail || activeNode.desc || ''}</p>
-    <div class="drug-target-box"><strong>💊 Punkt uchwytu:</strong> ${activeNode.target || 'Terapia ukierunkowana na patomechanizm'}</div>
+    <div class="drug-target-box"><strong>🎯 Punkt uchwytu (Diagnostyka i Terapia):</strong> ${targetDisplay}</div>
   `;
   document.getElementById('pathoDiffTableContainer').innerHTML = renderDiffTableHtml(c.diffTable);
 }
@@ -2981,11 +3133,14 @@ function renderLekCarousel() {
       <div id="lekCarFeedback" class="feedback-box ${st ? (st === 'green' ? 'correct' : 'wrong') : ''}">
         ${st ? `<strong>Wyjaśnienie:</strong> ${explanation}` : ''}
       </div>
-      <div class="carousel-controls">
-        <button class="db-btn" onclick="prevLekQuestion()">← Poprzednie</button>
-        ${currentLekIdx + 1 === qs.length 
-  ? `<button class="next-step-btn" style="margin-top:0; background: var(--accent-green, #10b981);" onclick="nextLekQuestion()">Zakończ pytania i zapisz 🎯</button>` 
-  : `<button class="next-step-btn" style="margin-top:0;" onclick="nextLekQuestion()">Następne -></button>`}
+      <div class="carousel-controls" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <button class="db-btn" onclick="prevLekQuestion()">← Poprzednie pytanie</button>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          ${currentLekIdx + 1 === qs.length 
+            ? `<button class="next-step-btn" style="margin-top:0; background: var(--accent-green, #10b981);" onclick="nextLekQuestion()">Zakończ pytania i zapisz 🎯</button>
+               <button class="next-step-btn" style="margin-top:0; background:linear-gradient(135deg, #6366f1, #8b5cf6); color:white; font-weight:800; padding:10px 18px; box-shadow:0 6px 20px rgba(99,102,241,0.35);" onclick="consolidateCaseFlashcards(${c.id})">⚡ Zrób fiszki z tego tematu (${(c.flashcards || []).length} fiszek) →</button>` 
+            : `<button class="next-step-btn" style="margin-top:0;" onclick="nextLekQuestion()">Następne pytanie →</button>`}
+        </div>
       </div>
     </div>
   `;

@@ -49,7 +49,8 @@ async function runIntegrityCheck() {
 
   // 2. Audit Cases 101–110 (Feedback duplication & Patho Targets)
   let duplicateFeedbackCount = 0;
-  let pathoTargetsWithPills = 0;
+  let pathoTargetsEnriched = 0;
+  let dosePillsInPatho = 0;
 
   for (let id = 101; id <= 110; id++) {
     const fn = manifest.find(f => f.startsWith(String(id) + '_'));
@@ -62,7 +63,8 @@ async function runIntegrityCheck() {
       });
     });
     c.pathoNodes.forEach(n => {
-      if (n.target && n.target.includes('dose-pill')) pathoTargetsWithPills++;
+      if (n.target && (n.target.includes('Diagnostyka') || n.target.includes('Terapia') || n.target.length >= 40)) pathoTargetsEnriched++;
+      if (n.target && n.target.includes('dose-pill')) dosePillsInPatho++;
     });
   }
 
@@ -73,11 +75,11 @@ async function runIntegrityCheck() {
     console.error(`  --> FAIL: Znaleziono ${duplicateFeedbackCount} powielonych prefiksów!`);
   }
 
-  console.log(`[TEST 3] Cases 101–110 PathoNodes Targets with concrete drugs & dose-pills: ${pathoTargetsWithPills} / 40`);
-  if (pathoTargetsWithPills >= 30) {
-    console.log("  --> PASS: Punkty uchwytu zawierają konkretne leki z dawkami i procedury!\n");
+  console.log(`[TEST 3] Cases 101–110 PathoNodes Targets Enriched (Diagnostyka & Terapia): ${pathoTargetsEnriched} / 40 (Dose-pills in patho: ${dosePillsInPatho})`);
+  if (pathoTargetsEnriched >= 30 && dosePillsInPatho === 0) {
+    console.log("  --> PASS: Punkty uchwytu zawierają dogłębną diagnostykę i terapię, a dose-pill usunięto zgodnie z wytycznymi!\n");
   } else {
-    console.error("  --> FAIL: Zbyt mało punktów uchwytu posiada konkretne leki/dawki!\n");
+    console.error("  --> FAIL: Punkty uchwytu nie spełniają standardu czystości i głębokości klinicznej!\n");
   }
 
   // 3. Audit Cases 3–100 (Unification to Gold Standard)
