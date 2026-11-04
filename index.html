@@ -2934,36 +2934,21 @@ function renderStep() {
     } else { saveDatabase(); }
     renderSidebar();
 
-    let ds = c.dutySummary || {};
-    if (typeof ds === 'string') {
-      ds = { overview: ds, diagnostics: '', drugsAndDoses: '', procedures: '', monitoring: '' };
-    } else if (ds.points && !ds.overview) {
-      ds = {
-        overview: ds.title || '',
-        diagnostics: ds.points.slice(0, 2).join('<br>'),
-        drugsAndDoses: ds.points.slice(2, 4).join('<br>'),
-        procedures: ds.points.slice(4, 6).join('<br>'),
-        monitoring: ds.points.slice(6).join('<br>')
-      };
-    }
     container.innerHTML = `
-      <div style="text-align: center; padding: 12px 8px;">
-        <h2 style="color: var(--accent-emerald); font-size: 1.35rem; margin-bottom: 6px;">🏆 Etap 1/3 (Przypadek SOR) zaliczony! ✓</h2>
-        <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 14px;">Rozpoznanie końcowe: <strong style="color: var(--text-main);">${c.diagnosisTitle}</strong></p>
-        <div style="margin: 14px 0 18px 0; display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
-          <button class="db-btn" onclick="prevStep()">← Wróć do poprzedniego kroku</button>
-          <button class="next-step-btn" style="margin-top:0; background: #0284c7; box-shadow:0 4px 15px rgba(2,132,199,0.35);" onclick="switchTab('summary')">📋 2. Pełne Podsumowanie Dyżuru →</button>
+      <div style="text-align: center; padding: 24px 12px; max-width: 680px; margin: 0 auto;">
+        <div style="font-size: 2.8rem; margin-bottom: 10px;">🏆</div>
+        <h2 style="color: var(--accent-emerald); font-size: 1.4rem; margin-bottom: 6px;">Etap 1: Symulacja SOR zaliczona! ✓</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 16px;">
+          Rozpoznanie końcowe: <strong style="color: var(--text-main); font-size: 1.05rem;">${c.diagnosisTitle || c.title}</strong>
+        </p>
+        <p style="color: #94a3b8; font-size: 0.88rem; line-height: 1.5; margin-bottom: 22px;">
+          Ścieżka postępowania ratunkowego została pomyślnie ukończona. Pełne podsumowanie dyżuru, zalecenia farmakoterapii oraz tabela różnicowa zostały odblokowane w dedykowanej karcie.
+        </p>
+        <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+          <button class="db-btn" onclick="prevStep()">← Wróć do ostatniego kroku</button>
+          <button class="next-step-btn" style="margin-top:0; background: #0284c7; box-shadow:0 4px 15px rgba(2,132,199,0.35);" onclick="openSummaryTab()">📋 2. Przejdź do Podsumowania →</button>
           <button class="next-step-btn" style="margin-top:0;" onclick="switchTab('patho')">🧬 3. Patomechanizm →</button>
-        </div>
-        <div class="duty-summary-box" style="text-align: left;">
-          <div style="margin-bottom: 14px;"><strong>💡 Istota choroby:</strong> ${ds.overview || ''}</div>
-          <div class="duty-grid">
-            <div class="duty-item"><div class="duty-item-title">🔬 1. Diagnostyka</div><div class="duty-item-body">${ds.diagnostics || ''}</div></div>
-            <div class="duty-item"><div class="duty-item-title">💊 2. Leki i Dawki</div><div class="duty-item-body">${ds.drugsAndDoses || ''}</div></div>
-            <div class="duty-item"><div class="duty-item-title">⚡ 3. Procedury</div><div class="duty-item-body">${ds.procedures || ''}</div></div>
-            <div class="duty-item"><div class="duty-item-title">⏱️ 4. Monitorowanie</div><div class="duty-item-body">${ds.monitoring || ''}</div></div>
-          </div>
-          ${renderDiffTableHtml(c.diffTable)}
+          <button class="next-step-btn" style="margin-top:0; background: var(--accent-emerald);" onclick="switchTab('lek')">🎯 4. Dogrywka LEK →</button>
         </div>
       </div>
     `;
@@ -3001,6 +2986,22 @@ function renderStep() {
   `;
 }
 
+function finishStepAndGoToSummary() {
+  const c = getCurrentCase();
+  if (!c) return;
+  currentStepIdx = c.steps.length;
+  pathoUnlocked = true;
+  if (!SOLVED_IDS.includes(c.id)) {
+    SOLVED_IDS.push(c.id);
+    addExp(50, `Ukończono Przypadek #${c.id}! (1. Ptaszek ✓)`);
+  } else {
+    saveDatabase();
+  }
+  renderSidebar();
+  updateActiveCaseNavVisibility();
+  openSummaryTab();
+}
+
 function checkOption(displayIdx) {
   const c = getCurrentCase();
   if (!c || currentStepIdx >= c.steps.length) return;
@@ -3013,12 +3014,14 @@ function checkOption(displayIdx) {
     btn.classList.add('correct');
     fb.className = 'feedback-box correct';
     const isLast = (currentStepIdx + 1 >= c.steps.length);
-    const nextBtnText = isLast ? 'Zakończ symulację i zobacz podsumowanie 🎯' : 'Kolejny krok (Spacja) →';
+    const nextBtnText = isLast ? '📋 Przejdź do podsumowania (Spacja) →' : 'Kolejny krok (Spacja) →';
+    const nextOnClick = isLast ? 'finishStepAndGoToSummary()' : 'currentStepIdx++; renderStep();';
+    const nextStyle = isLast ? 'margin-top:0; background: #0284c7; box-shadow:0 4px 15px rgba(2,132,199,0.35);' : 'margin-top:0;';
     fb.innerHTML = `
       <div>${chosen.feedback}</div>
       <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
         ${currentStepIdx > 0 ? '<button class="db-btn" onclick="prevStep()">← Poprzedni krok</button>' : ''}
-        <button class="next-step-btn" id="continueBtn" style="margin-top:0;" onclick="currentStepIdx++; renderStep();">${nextBtnText}</button>
+        <button class="next-step-btn" id="continueBtn" style="${nextStyle}" onclick="${nextOnClick}">${nextBtnText}</button>
       </div>
     `;
   } else {
@@ -3068,7 +3071,7 @@ function renderPatho() {
   document.getElementById('nodeDetailPanel').innerHTML = `
     <h3 style="color: var(--accent-blue);">${activeNode.title || ''}</h3>
     <p>${activeNode.detail || activeNode.desc || ''}</p>
-    <div class="drug-target-box"><strong>🎯 Punkt uchwytu (Diagnostyka i Terapia):</strong> ${targetDisplay}</div>
+    <div class="drug-target-box"><strong>💊 Punkt uchwytu (Diagnostyka i Terapia):</strong> ${targetDisplay}</div>
   `;
   document.getElementById('pathoDiffTableContainer').innerHTML = renderDiffTableHtml(c.diffTable);
 }
