@@ -286,9 +286,9 @@
   .vital-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px; }
   .vital-value { font-size: 1.25rem; font-weight: 800; margin-top: 2px; }
   .vital-sub { font-size: 0.69rem; color: #94a3b8; font-weight: 500; }
-  .vital-ok, .vital-value.ok, .vital-value.vital-ok { color: var(--accent-emerald); }
-  .vital-warn, .vital-value.warn, .vital-value.vital-warn { color: var(--accent-amber); font-weight: 800; }
-  .vital-crit, .vital-value.crit, .vital-value.vital-crit, .vital-value.bad { color: var(--accent-rose); font-weight: 800; animation: pulse 2s infinite; }
+  .vital-ok, .vital-value.ok, .vital-value.vital-ok, .vital-value.normal { color: var(--accent-emerald); }
+  .vital-warn, .vital-value.warn, .vital-value.vital-warn, .vital-value.warning { color: var(--accent-amber); font-weight: 800; }
+  .vital-crit, .vital-value.crit, .vital-value.vital-crit, .vital-value.bad, .vital-value.critical { color: var(--accent-rose); font-weight: 800; animation: pulse 2s infinite; }
 
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.65; } }
 
@@ -1706,10 +1706,15 @@ function normalizeCase(c) {
     ];
   } else if (Array.isArray(c.vitals)) {
     c.vitals = c.vitals.map(v => {
-      let status = v.status || 'ok';
-      if (status === 'bad' || status === 'crit' || status === 'vital-crit') status = 'vital-crit';
-      else if (status === 'warn' || status === 'warning' || status === 'vital-warn') status = 'vital-warn';
-      else status = 'vital-ok';
+      const s = String(v.status || '').toLowerCase().trim();
+      let status = 'vital-ok';
+      if (s.includes('crit') || s.includes('bad') || s.includes('danger') || s.includes('alarm') || s.includes('severe')) {
+        status = 'vital-crit';
+      } else if (s.includes('warn') || s.includes('caution') || s.includes('borderline') || s.includes('elevated')) {
+        status = 'vital-warn';
+      } else {
+        status = 'vital-ok';
+      }
       return {
         label: v.label || '',
         val: v.val != null ? String(v.val) : '',
