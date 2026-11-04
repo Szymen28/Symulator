@@ -1,0 +1,1982 @@
+[
+  {
+    "caseId": 126,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Wskaż prawidłowy mechanizm powstawania wędrującego bólu brzucha (objawu Kocha) w przebiegu ostrego zapalenia wyrostka robaczkowego:",
+    "key": "Początkowy ból trzewny z rozdęcia wyrostka jest przewodzony włóknami autonomicznymi Th8-Th10 do nadbrzusza/pępka, a po objęciu otrzewnej ściennej ból staje się somatyczny i lokalizuje się precyzyjnie w prawym dole biodrowym",
+    "correctIdx": 0,
+    "opts": [
+      "Początkowy ból trzewny z rozdęcia wyrostka jest przewodzony włóknami autonomicznymi Th8-Th10 do nadbrzusza/pępka, a po objęciu otrzewnej ściennej ból staje się somatyczny i lokalizuje się precyzyjnie w prawym dole biodrowym",
+      "Ból wędruje wskutek przesuwania się kamienia kałowego wzdłuż taśm okrężnicy",
+      "Wędrówka bólu wynika z migracji bakterii drogą naczyń chłonnych do wątroby",
+      "Początkowy ból wynika z zapalenia żołądka, które następnie przenosi się na jelito kręte",
+      "Ból wędrujący jest zjawiskiem czysto psychogennym bez podłoża anatomicznego"
+    ],
+    "corrLen": 223,
+    "avgWrong": 78,
+    "ratio": 2.87
+  },
+  {
+    "caseId": 126,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Ból w prawym dole biodrowym pojawiający się podczas powolnego opuszczania uniesionej prawej kończyny dolnej w stawie biodrowym u leżącego na wznak pacjenta to objaw:",
+    "key": "Jaworskiego (objaw mięśnia biodrowo-lędźwiowego / psoas sign)",
+    "correctIdx": 0,
+    "opts": [
+      "Jaworskiego (objaw mięśnia biodrowo-lędźwiowego / psoas sign)",
+      "Rovsinga",
+      "Blumberga",
+      "Chełmońskiego",
+      "Courvoisiera"
+    ],
+    "corrLen": 61,
+    "avgWrong": 11,
+    "ratio": 5.81
+  },
+  {
+    "caseId": 126,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Wskaż kryterium ultrasonograficzne (USG) potwierdzające rozpoznanie ostrego zapalenia wyrostka robaczkowego:",
+    "key": "Nieściśliwa pod uciskiem głowicy struktura o średnicy zewnętrznej w przekroju poprzecznym powyżej 6 mm z pogrubieniem ściany",
+    "correctIdx": 0,
+    "opts": [
+      "Nieściśliwa pod uciskiem głowicy struktura o średnicy zewnętrznej w przekroju poprzecznym powyżej 6 mm z pogrubieniem ściany",
+      "Średnica wyrostka robaczkowego poniżej 4 mm w przekroju podłużnym",
+      "Pełne zapadanie się światła wyrostka pod delikatnym uciskiem głowicy",
+      "Obecność pęcherzyków gazu w żyle wrotnej",
+      "Zanik unaczynienia ściany kątnicy w opcji Color Doppler"
+    ],
+    "corrLen": 124,
+    "avgWrong": 57,
+    "ratio": 2.18
+  },
+  {
+    "caseId": 126,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Prawidłowe postępowanie dotyczące antybiotykoprofilaktyki przed planowaną apendektomią w niepowikłanym zapaleniu wyrostka robaczkowego polega na:",
+    "key": "Podaniu pojedynczej dawki dożylnej antybiotyku o spektrum beztlenowym i tlenowym (np. cefazolina z metronidazolem) w ciągu 30-60 minut przed nacięciem skóry",
+    "correctIdx": 0,
+    "opts": [
+      "Podaniu pojedynczej dawki dożylnej antybiotyku o spektrum beztlenowym i tlenowym (np. cefazolina z metronidazolem) w ciągu 30-60 minut przed nacięciem skóry",
+      "Podawaniu antybiotyków doustnie przez 7 dni przed zabiegiem",
+      "Podaniu antybiotyku dopiero w 3. dobie po operacji w razie wystąpienia gorączki",
+      "Rutynowym stosowaniu wankomycyny z gentamycyną przez 14 dni",
+      "Całkowitym zaniechaniu antybiotykoterapii, gdyż operacje brzuszne są jałowe"
+    ],
+    "corrLen": 156,
+    "avgWrong": 68,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 126,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Dlaczego każdy usunięty operacyjnie wyrostek robaczkowy musi zostać obligatoryjnie przekazany do badania histopatologicznego?",
+    "key": "W celu weryfikacji rozpoznania oraz wykluczenia nowotworów wyrostka, głównie guzów neuroendokrynnych (NEN / dawniej rakowiaków) i nowotworów śluzowych",
+    "correctIdx": 0,
+    "opts": [
+      "W celu weryfikacji rozpoznania oraz wykluczenia nowotworów wyrostka, głównie guzów neuroendokrynnych (NEN / dawniej rakowiaków) i nowotworów śluzowych",
+      "Aby potwierdzić, czy pacjent nie połknął toksycznych substancji",
+      "W celu wykonania posiewu bakteriologicznego na obecność prątków gruźlicy",
+      "Jest to wymagane wyłącznie u pacjentów powyżej 80. roku życia",
+      "Badanie histopatologiczne wykonuje się tylko wtedy, gdy wyrostek był makroskopowo niezmieniony"
+    ],
+    "corrLen": 150,
+    "avgWrong": 73,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 127,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Zgodnie z wytycznymi Tokyo Guidelines (TG18) do postawienia pewnego rozpoznania ostrego zapalenia pęcherzyka żółciowego wymagane jest jednoczesne stwierdzenie:",
+    "key": "Objawów miejscowych (np. objaw Murphy'ego), objawów ogólnych (gorączka, leukocytoza lub wysokie CRP) oraz potwierdzenia w badaniu obrazowym (np. USG)",
+    "correctIdx": 0,
+    "opts": [
+      "Objawów miejscowych (np. objaw Murphy'ego), objawów ogólnych (gorączka, leukocytoza lub wysokie CRP) oraz potwierdzenia w badaniu obrazowym (np. USG)",
+      "Wyłącznie bezobjawowej kamicy żółciowej w USG",
+      "Wysokiej żółtaczki z bilirubiną całkowitą >15 mg/dl i odbarwionych stolców",
+      "Trzykrotnego wzrostu aktywności amylazy i lipazy w surowicy",
+      "Obecności powietrza pod kopułą przepony w RTG klatki piersiowej"
+    ],
+    "corrLen": 149,
+    "avgWrong": 60,
+    "ratio": 2.47
+  },
+  {
+    "caseId": 127,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Koncepcja Krytycznego Widoku Bezpieczeństwa (Critical View of Safety – CVS wg Strasberga) podczas cholecystektomii laparoskopowej ma na celu:",
+    "key": "Zapobieżenie jatrogennemu uszkodzeniu dróg żółciowych (przewodu żółciowego wspólnego) oraz prawej tętnicy wątrobowej",
+    "correctIdx": 0,
+    "opts": [
+      "Zapobieżenie jatrogennemu uszkodzeniu dróg żółciowych (przewodu żółciowego wspólnego) oraz prawej tętnicy wątrobowej",
+      "Przyspieszenie zabiegu operacyjnego do mniej niż 15 minut",
+      "Umożliwienie usunięcia pęcherzyka bez znieczulenia ogólnego",
+      "Ocena obecności kamieni w drogach moczowych",
+      "Zapobieżenie krwawieniu z żylaków przełyku"
+    ],
+    "corrLen": 116,
+    "avgWrong": 50,
+    "ratio": 2.31
+  },
+  {
+    "caseId": 127,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "U 84-letniego pacjenta z ciężkim ostrym zapaleniem pęcherzyka żółciowego (TG18 Grade III), we wstrząsie septycznym i z niewydolnością oddechową, zabiegiem ratującym życie z wyboru jest:",
+    "key": "Przezskórna przezwątrobowa cholecystostomia (PTGBD) pod kontrolą USG w znieczuleniu miejscowym",
+    "correctIdx": 0,
+    "opts": [
+      "Przezskórna przezwątrobowa cholecystostomia (PTGBD) pod kontrolą USG w znieczuleniu miejscowym",
+      "Pilna otwarta cholecystektomia w znieczuleniu ogólnym",
+      "Dożylna podaż paracetamolu bez jakichkolwiek procedur inwazyjnych",
+      "Przeszczepienie wątroby w trybie pilnym",
+      "Gastrostomia odżywcza (PEG)"
+    ],
+    "corrLen": 94,
+    "avgWrong": 46,
+    "ratio": 2.04
+  },
+  {
+    "caseId": 127,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Zespół Mirizziego jest powikłaniem kamicy pęcherzykowej polegającym na:",
+    "key": "Ucisku lub przetoki z przewodu pęcherzykowego/szyjki pęcherzyka do przewodu wątrobowego wspólnego wywołanym przez duży zaklinowany złóg",
+    "correctIdx": 0,
+    "opts": [
+      "Ucisku lub przetoki z przewodu pęcherzykowego/szyjki pęcherzyka do przewodu wątrobowego wspólnego wywołanym przez duży zaklinowany złóg",
+      "Perforacji wrzodu żołądka do światła pęcherzyka żółciowego",
+      "Zarośnięciu żyły wrotnej przez proces zapalny",
+      "Pęknięciu śledziony w przebiegu żółtaczki",
+      "Zakrzepicy żył wątrobowych (zespół Budda-Chiariego)"
+    ],
+    "corrLen": 135,
+    "avgWrong": 49,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 128,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Zabiegiem z wyboru i standardem ratującym życie w ciężkim ostrym zapaleniu dróg żółciowych (Tokyo Guidelines TG18 Grade III) jest:",
+    "key": "Pilne endoskopowe odbarczenie dróg żółciowych metodą ECPW (ERCP) z papillotomią lub protezowaniem dróg żółciowych",
+    "correctIdx": 0,
+    "opts": [
+      "Pilne endoskopowe odbarczenie dróg żółciowych metodą ECPW (ERCP) z papillotomią lub protezowaniem dróg żółciowych",
+      "Otwarta cholecystektomia z drenażem jamy otrzewnej",
+      "Laparotomia zwiadowcza z resekcją prawej połowy wątroby",
+      "Planowe wykonanie MRCP po 6 tygodniach antybiotykoterapii",
+      "Doraźne nakłucie śledziony w znieczuleniu miejscowym"
+    ],
+    "corrLen": 113,
+    "avgWrong": 54,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 128,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Zjawisko refluksu żółciowo-żylnego (cholangio-venous reflux) w ostrym zapaleniu dróg żółciowych polega na:",
+    "key": "Przerwaniu połączeń zamykających (tight junctions) między kanalikami żółciowymi a naczyniami zatokowymi wątroby przy wzroście ciśnienia żółci >25-30 cm H2O, co prowadzi do masywnego przenikania bakterii do krwiobiegu",
+    "correctIdx": 0,
+    "opts": [
+      "Przerwaniu połączeń zamykających (tight junctions) między kanalikami żółciowymi a naczyniami zatokowymi wątroby przy wzroście ciśnienia żółci >25-30 cm H2O, co prowadzi do masywnego przenikania bakterii do krwiobiegu",
+      "Zarastaniu żyły wrotnej przez proces zapalny wychodzący z pęcherzyka",
+      "Cofaniu się krwi z żyły głównej dolnej do pęcherzyka żółciowego",
+      "Przedostawaniu się żółci do światła żołądka przez odźwiernik",
+      "Przetoczeniu zakażonej żółci do aorty brzusznej"
+    ],
+    "corrLen": 216,
+    "avgWrong": 60,
+    "ratio": 3.63
+  },
+  {
+    "caseId": 128,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Do kryteriów ciężkiego (stopień III wg Tokyo Guidelines TG18) ostrego zapalenia dróg żółciowych należy obecność dysfunkcji co najmniej jednego narządu, w tym:\n1. Dysfunkcja układu krążenia: hipotensja wymagająca stosowania amin presyjnych (noradrenaliny lub dopaminy)\n2. Dysfunkcja układu nerwowego: zaburzenia świadomości (GCS <15)\n3. Dysfunkcja układu oddechowego: wskaźnik PaO2/FiO2 <300\n4. Dysfunkcja nerek: oliguria, stężenie kreatyniny w surowicy >2,0 mg/dl\n5. Dysfunkcja układu krzepnięcia: INR >1,5 oraz małopłytkowość PLT <100 000/µl\nPrawidłowa odpowiedź to:",
+    "key": "Wszystkie wymienione (1, 2, 3, 4, 5)",
+    "correctIdx": 3,
+    "opts": [
+      "1, 2, 4",
+      "2, 3, 5",
+      "1, 3, 5",
+      "Wszystkie wymienione (1, 2, 3, 4, 5)",
+      "1, 2, 3, 4"
+    ],
+    "corrLen": 36,
+    "avgWrong": 8,
+    "ratio": 4.65
+  },
+  {
+    "caseId": 128,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "72-letni pacjent z ostrym septycznym zapaleniem dróg żółciowych w przebiegu kamicy przewodowej trafia na SOR we wstrząsie septycznym z głębokimi zaburzeniami świadomości (GCS 8), bez obecności osób bliskich. Wymaga natychmiastowego pilnego ECPW z protezowaniem dróg żółciowych w trybie ratunkowym. Zgodnie z art. 34 ust. 7 Ustawy o zawodach lekarza i lekarza dentysty:",
+    "key": "Lekarz może wykonać procedurę bez zgody pacjenta, jeżeli zwłoka groziłaby niebezpieczeństwem utraty życia lub ciężkiego uszkodzenia ciała, po zasięgnięciu w miarę możliwości opinii drugiego lekarza i odnotowaniu tego faktu w dokumentacji medycznej oraz niezwłocznym powiadomieniu sądu opiekuńczego.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz może wykonać procedurę bez zgody pacjenta, jeżeli zwłoka groziłaby niebezpieczeństwem utraty życia lub ciężkiego uszkodzenia ciała, po zasięgnięciu w miarę możliwości opinii drugiego lekarza i odnotowaniu tego faktu w dokumentacji medycznej oraz niezwłocznym powiadomieniu sądu opiekuńczego.",
+      "Przed wykonaniem ECPW lekarz musi bezwzględnie zaczekać na postanowienie sądu opiekuńczego o ustanowieniu kuratora, nawet jeśli pacjent ulegnie zatrzymaniu krążenia.",
+      "Do wykonania procedury u nieprzytomnego konieczne jest uzyskanie zgody telefonicznej dowolnego sąsiada lub znajomego pacjenta.",
+      "Brak pisemnej zgody wyklucza jakąkolwiek interwencję inwazyjną, a lekarzowi wolno stosować jedynie leczenie farmakologiczne.",
+      "Zgodę na operację u każdego nieprzytomnego dorosłego pacjenta może wydać funkcjonariusz policji."
+    ],
+    "corrLen": 298,
+    "avgWrong": 128,
+    "ratio": 2.33
+  },
+  {
+    "caseId": 129,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Zanik stłumienia wątrobowego w badaniu fizykalnym u pacjenta z ostrym brzuchem wynika z:",
+    "key": "Obecności wolnego gazu w jamie otrzewnej (pneumoperitoneum) gromadzącego się pomiędzy wątrobą a ścianą klatki piersiowej",
+    "correctIdx": 0,
+    "opts": [
+      "Obecności wolnego gazu w jamie otrzewnej (pneumoperitoneum) gromadzącego się pomiędzy wątrobą a ścianą klatki piersiowej",
+      "Ostrego zaniku miąższu wątroby w przebiegu marskości",
+      "Wypchnięcia wątroby do klatki piersiowej przez przepuklinę przeponową",
+      "Masywnego powiększenia pęcherza moczowego",
+      "Zatkania żyły wrotnej przez skrzeplinę"
+    ],
+    "corrLen": 120,
+    "avgWrong": 50,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 129,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Klasyczna metoda chirurgicznego zaopatrzenia przedziurawionego wrzodu opuszki dwunastnicy polega na:",
+    "key": "Zszyciu otworu perforacyjnego szwami pojedynczymi i pokryciu uszypułowanym płatem sieci większej (łata Grahama)",
+    "correctIdx": 0,
+    "opts": [
+      "Zszyciu otworu perforacyjnego szwami pojedynczymi i pokryciu uszypułowanym płatem sieci większej (łata Grahama)",
+      "Całkowitym wycięciu żołądka z zespoleniem Roux-en-Y",
+      "Założeniu opaski uciskowej na odźwiernik",
+      "Wycięciu całej dwunastnicy z głową trzustki (operacja Whipple'a)",
+      "Pozostawieniu drenu w otworze bez szycia ściany narządu"
+    ],
+    "corrLen": 111,
+    "avgWrong": 53,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 129,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Wrzody przedniej ściany dwunastnicy najczęściej powikłane są perforacją do otrzewnej, natomiast wrzody tylnej ściany opuszki dwunastnicy typowo powikłane są:",
+    "key": "Masywnym krwawieniem z przewodu pokarmowego wskutek nadżarcia tętnicy żołądkowo-dwunastniczej (GDA) lub drążeniem do trzustki",
+    "correctIdx": 0,
+    "opts": [
+      "Masywnym krwawieniem z przewodu pokarmowego wskutek nadżarcia tętnicy żołądkowo-dwunastniczej (GDA) lub drążeniem do trzustki",
+      "Zatorowością tętnicy krezkowej górnej",
+      "Perforacją do lewej komory serca",
+      "Przetoką żołądkowo-oskrzelową",
+      "Pęknięciem śledziony"
+    ],
+    "corrLen": 125,
+    "avgWrong": 30,
+    "ratio": 4.24
+  },
+  {
+    "caseId": 129,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W jaki sposób niesteroidowe leki przeciwzapalne (NLPZ, np. ketoprofen) indukują powstawanie i pękanie wrzodów trawiennych?",
+    "key": "Poprzez układowe hamowanie enzymu COX-1, co prowadzi do niedoboru prostaglandyn (PGE2 i PGI2) chroniących błonę śluzową żołądka i dwunastnicy",
+    "correctIdx": 0,
+    "opts": [
+      "Poprzez układowe hamowanie enzymu COX-1, co prowadzi do niedoboru prostaglandyn (PGE2 i PGI2) chroniących błonę śluzową żołądka i dwunastnicy",
+      "Przez bezpośrednie podwyższanie pH soku żołądkowego do wartości zasadowych",
+      "Przez niszczenie komórek okładzinowych produkujących kwas solny",
+      "Poprzez wywoływanie zakrzepicy żyły śledzionowej",
+      "NLPZ nie mają żadnego wpływu na powstawanie wrzodów żołądka"
+    ],
+    "corrLen": 141,
+    "avgWrong": 61,
+    "ratio": 2.31
+  },
+  {
+    "caseId": 129,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Pojawienie się tzw. 'fazy pozornej poprawy' (fazy cichej) po 6-12 godzinach od perforacji wrzodu trawiennego wynika z:",
+    "key": "Rozcieńczenia kwaśnej treści żołądkowej przez obfity wysięk surowiczy z otrzewnej, co przejściowo zmniejsza stymulację chemiczną nocyceptorów",
+    "correctIdx": 0,
+    "opts": [
+      "Rozcieńczenia kwaśnej treści żołądkowej przez obfity wysięk surowiczy z otrzewnej, co przejściowo zmniejsza stymulację chemiczną nocyceptorów",
+      "Samoistnego zarośnięcia otworu perforacyjnego bez konieczności leczenia",
+      "Całkowitego wyleczenia zapalenia otrzewnej przez mechanizmy komórkowe",
+      "Gwałtownego spadku leukocytozy i braku stanu zapalnego",
+      "Wydzielenia olbrzymich dawek endorfin całkowicie eliminujących chorobę"
+    ],
+    "corrLen": 141,
+    "avgWrong": 66,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 129,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Obecność objawu Riglera na przeglądowym zdjęciu rentgenowskim jamy brzusznej wykonanym w pozycji leżącej polega na:",
+    "key": "Widoczności ściany jelita z obu stron (zarówno od strony światła, jak i od strony jamy otrzewnej) wskutek obecności gazu wewnątrz i na zewnątrz jelita",
+    "correctIdx": 0,
+    "opts": [
+      "Widoczności ściany jelita z obu stron (zarówno od strony światła, jak i od strony jamy otrzewnej) wskutek obecności gazu wewnątrz i na zewnątrz jelita",
+      "Obecności poziomej linii płynu w żołądku",
+      "Zwapnieniu ściany pęcherzyka żółciowego (pęcherzyk porcelanowy)",
+      "Poszerzeniu pętli esicy w kształcie ziarna kawy",
+      "Obecności zębów w jamie miednicy mniejszej"
+    ],
+    "corrLen": 150,
+    "avgWrong": 48,
+    "ratio": 3.13
+  },
+  {
+    "caseId": 129,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U pacjenta operowanego w trybie pilnym z powodu perforacji wrzodu dwunastnicy powikłanej rozlanym zapaleniem otrzewnej, po udanym zabiegu i 10-dniowej hospitalizacji, lekarz wypisujący pacjenta do domu:",
+    "key": "Wystawia zaświadczenie o czasowej niezdolności do pracy ZUS ZLA na okres rekonwalescencji z zaleceniem oszczędzającego trybu życia, zakazem dźwigania ciężarów przez 3 miesiące, bezwzględnym zaleceniem eradykacji Helicobacter pylori oraz kontrolną gastroskopią po 6-8 tygodniach.",
+    "correctIdx": 0,
+    "opts": [
+      "Wystawia zaświadczenie o czasowej niezdolności do pracy ZUS ZLA na okres rekonwalescencji z zaleceniem oszczędzającego trybu życia, zakazem dźwigania ciężarów przez 3 miesiące, bezwzględnym zaleceniem eradykacji Helicobacter pylori oraz kontrolną gastroskopią po 6-8 tygodniach.",
+      "Ma zakaz wystawienia zwolnienia lekarskiego ZUS ZLA na okres dłuższy niż 3 dni od dnia wypisu ze szpitala.",
+      "Ma obowiązek natychmiast zgłosić perforację wrzodu do Państwowej Inspekcji Pracy jako wypadek przy pracy, niezależnie od okoliczności zachorowania.",
+      "Zobowiązany jest wpisać do dokumentacji odmowę dalszego leczenia IPP w POZ z uwagi na zakończenie procesu leczenia szpitalnego.",
+      "Zwalnia chorego z konieczności jakiejkolwiek kontroli gastroskopowej, gdyż zabieg chirurgiczny całkowicie eliminuje ryzyko nawrotu wrzodu."
+    ],
+    "corrLen": 278,
+    "avgWrong": 130,
+    "ratio": 2.15
+  },
+  {
+    "caseId": 130,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Podanie wodnorozpuszczalnego środka cieniującego (Gastrografinu) przez zgłębnik żołądkowy u pacjenta ze zrostową niedrożnością jelita cienkiego wykazuje działanie:",
+    "key": "Zarówno diagnostyczne (pojawienie się kontrastu w kątnicy w ciągu 24 h wyklucza potrzebę operacji), jak i terapeutyczne",
+    "correctIdx": 0,
+    "opts": [
+      "Zarówno diagnostyczne (pojawienie się kontrastu w kątnicy w ciągu 24 h wyklucza potrzebę operacji), jak i terapeutyczne",
+      "Wyłącznie niszczące komórki bakteryjne w jelicie",
+      "Wyłącznie przeciwbólowe poprzez znieczulenie śluzówki dwunastnicy",
+      "Jest bezwzględnie przeciwwskazane we wszystkich postaciach niedrożności",
+      "Służy wyłącznie do barwienia moczu na kolor zielony"
+    ],
+    "corrLen": 119,
+    "avgWrong": 59,
+    "ratio": 2.03
+  },
+  {
+    "caseId": 130,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Który z poniższych objawów klinicznych u pacjenta z mechaniczną niedrożnością jelita cienkiego wskazuje na rozwój zadzierzgnięcia (strangulatio) i martwicy pętli jelita, wymagając NATYCHMIASTOWEJ operacji?",
+    "key": "Przejście bólu kurczowego w stały, gorączka, tachykardia, objawy otrzewnowe oraz wzrost stężenia mleczanów we krwi",
+    "correctIdx": 0,
+    "opts": [
+      "Przejście bólu kurczowego w stały, gorączka, tachykardia, objawy otrzewnowe oraz wzrost stężenia mleczanów we krwi",
+      "Pojawienie się apetytu i spadek nasilenia nudności",
+      "Oddanie gazów i stolca przez pacjenta",
+      "Obniżenie tętna z 110/min do 70/min przy prawidłowym ciśnieniu",
+      "Zmniejszenie obwodu brzucha w pomiarze taśmą centymetrową"
+    ],
+    "corrLen": 114,
+    "avgWrong": 52,
+    "ratio": 2.21
+  },
+  {
+    "caseId": 130,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Zastosowanie którego z poniższych leków jest BEZWZGLĘDNIE PRZECIWWSKAZANE u chorego z potwierdzoną mechaniczną niedrożnością jelita cienkiego?",
+    "key": "Metoklopramid (lek prokinetyczny pobudzający perystaltykę)",
+    "correctIdx": 0,
+    "opts": [
+      "Metoklopramid (lek prokinetyczny pobudzający perystaltykę)",
+      "Paracetamol dożylnie",
+      "Płyn wieloelektrolitowy (PWE)",
+      "Chlorek potasu dożylnie w pompie",
+      "Pantoprazol dożylnie"
+    ],
+    "corrLen": 58,
+    "avgWrong": 25,
+    "ratio": 2.3
+  },
+  {
+    "caseId": 130,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Podstawowym pierwszym krokiem w postępowaniu doraźnym na SOR u pacjenta z podejrzeniem niedrożności mechanicznej jelita cienkiego jest:",
+    "key": "Wprowadzenie zgłębnika nosowo-żołądkowego (sondy) celem dekompresji i odessania treści oraz wdrożenie dożylnej płynoterapii",
+    "correctIdx": 0,
+    "opts": [
+      "Wprowadzenie zgłębnika nosowo-żołądkowego (sondy) celem dekompresji i odessania treści oraz wdrożenie dożylnej płynoterapii",
+      "Podanie doustne 1 litra oleju parafinowego",
+      "Zlecenie doustnego wlewu przeczyszczającego z makrogoli",
+      "Natychmiastowe skierowanie na kolonoskopię w znieczuleniu miejscowym",
+      "Podanie leków nasennych i odesłanie do domu"
+    ],
+    "corrLen": 123,
+    "avgWrong": 52,
+    "ratio": 2.37
+  },
+  {
+    "caseId": 131,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego po pomyślnej endoskopowej derotacji skrętu esicy bezwzględnie zaleca się wykonanie planowej resekcji esicy (sigmoidektomii) w czasie tej samej hospitalizacji?",
+    "key": "Ponieważ ryzyko ponownego skrętu (nawrotu) po samej derotacji endoskopowej wynosi aż 50-70%, a nawroty często przebiegają z martwicą jelita",
+    "correctIdx": 0,
+    "opts": [
+      "Ponieważ ryzyko ponownego skrętu (nawrotu) po samej derotacji endoskopowej wynosi aż 50-70%, a nawroty często przebiegają z martwicą jelita",
+      "Ponieważ skręt esicy w 100% przypadków przekształca się w czerniaka złośliwego",
+      "Resekcja nie jest zalecana i pacjenta należy natychmiast wypisać do domu",
+      "Aby pobrać wycinki do oceny genetycznej mukowiscydozy",
+      "Ponieważ esica u ludzi dorosłych jest narządem całkowicie zbędnym"
+    ],
+    "corrLen": 139,
+    "avgWrong": 67,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 131,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym różni się skręt kątnicy (cecal volvulus) od skrętu esicy na przeglądowym RTG jamy brzusznej?",
+    "key": "W skręcie kątnicy rozdęta pętla ma kształt nerki lub 'przecinka' i przemieszcza się z prawego dołu biodrowego do lewego górnego kwadrantu brzucha (pod lewe żebra)",
+    "correctIdx": 0,
+    "opts": [
+      "W skręcie kątnicy rozdęta pętla ma kształt nerki lub 'przecinka' i przemieszcza się z prawego dołu biodrowego do lewego górnego kwadrantu brzucha (pod lewe żebra)",
+      "W skręcie kątnicy gaz gromadzi się wyłącznie w pęcherzu moczowym",
+      "Skręt kątnicy daje objaw 'ziarna kawy' wychodzący zawsze z lewego dołu biodrowego",
+      "Nie ma żadnych różnic, obrazy są w 100% identyczne",
+      "W skręcie kątnicy na RTG widoczny jest zawsze obcy metaliczny przedmiot"
+    ],
+    "corrLen": 162,
+    "avgWrong": 67,
+    "ratio": 2.44
+  },
+  {
+    "caseId": 131,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "78-letni pensjonariusz DPS z zaawansowanym otępieniem naczyniowym, ubezwłasnowolniony całkowicie, trafia na SOR ze skrętem esicy i cechami przedziurawienia jelita (wstrząs septyczny, deskowaty brzuch). Kto i w jakim trybie podejmuje prawnie wiążącą decyzję o natychmiastowej operacji ratującej życie (art. 33 i 34 ustawy o zawodach lekarza)?",
+    "key": "A. Lekarz może podjąć decyzję o natychmiastowej operacji bez uprzedniej zgody sądu opiekuńczego, jeśli zwłoka spowodowana uzyskaniem zgody groziłaby bezpośrednim niebezpieczeństwem utraty życia lub ciężkiego uszczerbku na zdrowiu, zasięgając w miarę możliwości opinii drugiego lekarza i odnotowując to w dokumentacji.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Lekarz może podjąć decyzję o natychmiastowej operacji bez uprzedniej zgody sądu opiekuńczego, jeśli zwłoka spowodowana uzyskaniem zgody groziłaby bezpośrednim niebezpieczeństwem utraty życia lub ciężkiego uszczerbku na zdrowiu, zasięgając w miarę możliwości opinii drugiego lekarza i odnotowując to w dokumentacji.",
+      "B. Lekarz musi bezwzględnie wstrzymać się z operacją do czasu doręczenia prawomocnego postanowienia sądu opiekuńczego pocztą tradycyjną.",
+      "C. Wymagana jest pisemna zgoda wszystkich członków rodziny pacjenta do drugiego stopnia pokrewieństwa.",
+      "D. Decyzję podejmuje wyłącznie dyrektor szpitala po zasięgnięciu opinii radcy prawnego w ciągu 48 godzin.",
+      "E. U pacjenta z demencją w wieku powyżej 75 lat prawo zabrania wykonywania operacji w trybie ostrodyżurowym."
+    ],
+    "corrLen": 317,
+    "avgWrong": 113,
+    "ratio": 2.81
+  },
+  {
+    "caseId": 132,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Przepuklina pachwinowa skośna (pośrednia) różni się anatomicznie od przepukliny pachwinowej prostej tym, że:",
+    "key": "Wnika do kanału pachwinowego przez pierścień pachwinowy głęboki, leżący bocznie od naczyń nabrzusznych dolnych, i może schodzić w powrózku nasiennym do moszny",
+    "correctIdx": 0,
+    "opts": [
+      "Wnika do kanału pachwinowego przez pierścień pachwinowy głęboki, leżący bocznie od naczyń nabrzusznych dolnych, i może schodzić w powrózku nasiennym do moszny",
+      "Uwypukla się bezpośrednio przez trójkąt Hesselbacha przyśrodkowo od naczyń nabrzusznych dolnych",
+      "Wychodzi poniżej więzadła pachwinowego do kanału udowego",
+      "Nigdy nie ulega uwięźnięciu ani zadzierzgnięciu",
+      "Występuje wyłącznie u kobiet w ciąży"
+    ],
+    "corrLen": 158,
+    "avgWrong": 59,
+    "ratio": 2.7
+  },
+  {
+    "caseId": 132,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Wskaż bezwzględne przeciwwskazanie do próby ręcznego odprowadzania przepukliny (taxis):",
+    "key": "Czas uwięźnięcia przekraczający 4-6 godzin lub obecność objawów stanu zapalnego skóry, gorączki i kwasicy mleczanowej",
+    "correctIdx": 0,
+    "opts": [
+      "Czas uwięźnięcia przekraczający 4-6 godzin lub obecność objawów stanu zapalnego skóry, gorączki i kwasicy mleczanowej",
+      "Młody wiek pacjenta (poniżej 30. roku życia)",
+      "Obecność przepukliny po stronie prawej zamiast lewej",
+      "Prawidłowa liczba krwinek białych w morfologii",
+      "Brak wcześniejszych operacji w jamie brzusznej"
+    ],
+    "corrLen": 117,
+    "avgWrong": 47,
+    "ratio": 2.49
+  },
+  {
+    "caseId": 132,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Przepuklina Richtera charakteryzuje się:",
+    "key": "Uwięźnięciem jedynie fragmentu obwodu ściany jelita (przeciwległego do krezki), co może nie dawać objawów pełnej niedrożności mechanicznej mimo postępującej martwicy ściany",
+    "correctIdx": 0,
+    "opts": [
+      "Uwięźnięciem jedynie fragmentu obwodu ściany jelita (przeciwległego do krezki), co może nie dawać objawów pełnej niedrożności mechanicznej mimo postępującej martwicy ściany",
+      "Obecnością uchyłka Meckela w worku przepuklinowym",
+      "Obecnością wyrostka robaczkowego w worku przepukliny pachwinowej",
+      "Wypadaniem narządów miednicy przez otwór zasłonowy",
+      "Uwięźnięciem żołądka w jamie opłucnej"
+    ],
+    "corrLen": 172,
+    "avgWrong": 50,
+    "ratio": 3.44
+  },
+  {
+    "caseId": 132,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Na czym polega niebezpieczeństwo tzw. 'odprowadzenia w masie' (reductio en masse) podczas próby ręcznego odprowadzenia uwięźniętej przepukliny?",
+    "key": "Na wepchnięciu całego worka przepuklinowego wraz ze zaciśniętym pierścieniem uwięźnięcia do przestrzeni przedotrzewnowej, co daje pozory ustąpienia guza, podczas gdy jelito nadal ulega martwicy w zaciśniętym pierścieniu",
+    "correctIdx": 0,
+    "opts": [
+      "Na wepchnięciu całego worka przepuklinowego wraz ze zaciśniętym pierścieniem uwięźnięcia do przestrzeni przedotrzewnowej, co daje pozory ustąpienia guza, podczas gdy jelito nadal ulega martwicy w zaciśniętym pierścieniu",
+      "Na pęknięciu jądra pod wpływem ucisku rąk badającego",
+      "Na natychmiastowym zatrzymaniu akcji serca z powodu odruchu wazowagalnego",
+      "Na rozerwaniu tętnicy udowej z powstaniem tętniaka rzekomego",
+      "Na trwałym zrośnięciu się skóry moszny z prąciem"
+    ],
+    "corrLen": 219,
+    "avgWrong": 58,
+    "ratio": 3.76
+  },
+  {
+    "caseId": 132,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Wskaż cechę, która śródoperacyjnie potwierdza PEŁNĄ ŻYWOTNOŚĆ niedokrwionej pętli jelita po uwolnieniu zaciśniętych wrót przepukliny:",
+    "key": "Powrót różowej barwy ściany, wyczuwalne tętno w tętniczkach krezki oraz powrót samoistnych skurczów perystaltycznych po ogrzaniu",
+    "correctIdx": 0,
+    "opts": [
+      "Powrót różowej barwy ściany, wyczuwalne tętno w tętniczkach krezki oraz powrót samoistnych skurczów perystaltycznych po ogrzaniu",
+      "Utrzymywanie się czarnego zabarwienia ściany bez perystaltyki",
+      "Brak krwawienia z naciętej surowicy jelita",
+      "Ścieńczenie ściany jelita do grubości papieru",
+      "Obecność pęcherzyków gazu w naczyniach krezkowych"
+    ],
+    "corrLen": 128,
+    "avgWrong": 49,
+    "ratio": 2.6
+  },
+  {
+    "caseId": 132,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z zasadami prawa medycznego dotyczącymi uzyskiwania zgody na zabieg operacyjny (art. 34 ustawy o zawodach lekarza), formularz świadomej zgody pacjenta na operację uwięźniętej przepukliny pachwinowej musi:",
+    "key": "A. Mieć formę pisemną oraz zawierać informację o typowych powikłaniach i możliwym zakresie zabiegu, w tym o potencjalnej konieczności resekcji martwiczego jelita i wyłonienia czasowej stomii.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Mieć formę pisemną oraz zawierać informację o typowych powikłaniach i możliwym zakresie zabiegu, w tym o potencjalnej konieczności resekcji martwiczego jelita i wyłonienia czasowej stomii.",
+      "B. Być sporządzony wyłącznie w obecności notariusza państwowego.",
+      "C. Ograniczać się do podpisu pacjenta bez podawania jakichkolwiek informacji o ryzyku operacyjnym, aby nie wywoływać lęku.",
+      "D. Być zatwierdzony przez ordynatora oddziału na 7 dni przed zabiegiem ostrodyżurowym.",
+      "E. Być podpisany wyłącznie przez małżonka pacjenta."
+    ],
+    "corrLen": 191,
+    "avgWrong": 81,
+    "ratio": 2.37
+  },
+  {
+    "caseId": 133,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Najczęstszym źródłem materiału zatorowego w ostrym zatorze tętnicy krezkowej górnej (SMA) jest:",
+    "key": "Skrzeplina powstała w lewym przedsionku (lub uszku lewego przedsionka) w przebiegu migotania przedsionków",
+    "correctIdx": 0,
+    "opts": [
+      "Skrzeplina powstała w lewym przedsionku (lub uszku lewego przedsionka) w przebiegu migotania przedsionków",
+      "Skrzeplina z żył głębokich kończyn dolnych (DVT)",
+      "Blaszka miażdżycowa z tętnicy promieniowej",
+      "Kamień żółciowy z pęcherzyka",
+      "Kłaczek bakteryjny z pęcherza moczowego"
+    ],
+    "corrLen": 105,
+    "avgWrong": 39,
+    "ratio": 2.68
+  },
+  {
+    "caseId": 133,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Na czym polega i jaki jest cel procedury 'second-look laparotomy' w leczeniu ostrego niedokrwienia krezki?",
+    "key": "Na zaplanowanej relaparotomii po 24-48 godzinach od pierwotnej operacji celem ostatecznej oceny żywotności pętli jelitowych i oszczędzającej resekcji jedynie tych odcinków, które definitywnie obumarły",
+    "correctIdx": 0,
+    "opts": [
+      "Na zaplanowanej relaparotomii po 24-48 godzinach od pierwotnej operacji celem ostatecznej oceny żywotności pętli jelitowych i oszczędzającej resekcji jedynie tych odcinków, które definitywnie obumarły",
+      "Na wykonaniu tomografii komputerowej głowy w drugiej dobie",
+      "Na pobraniu wycinków ze skóry brzucha po 48 godzinach",
+      "Na planowym usunięciu wyrostka robaczkowego u każdego chorego",
+      "Na rutynowym zamknięciu powłok brzusznych bez zaglądania do jelit"
+    ],
+    "corrLen": 200,
+    "avgWrong": 59,
+    "ratio": 3.38
+  },
+  {
+    "caseId": 133,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Objaw tzw. 'stolców o wyglądzie galaretki porzeczkowej' w ostrym niedokrwieniu krezki u dorosłego świadczy o:",
+    "key": "Zaawansowanym niedokrwieniu z martwicą i złuszczaniem błony śluzowej jelita oraz przesiąkaniem krwi do światła",
+    "correctIdx": 0,
+    "opts": [
+      "Zaawansowanym niedokrwieniu z martwicą i złuszczaniem błony śluzowej jelita oraz przesiąkaniem krwi do światła",
+      "Wyleczeniu zatoru i regeneracji nabłonka jelitowego",
+      "Spożyciu owoców leśnych w poprzednim dniu",
+      "Obecności polipa odbytnicy",
+      "Zakażeniu rotawirusem"
+    ],
+    "corrLen": 110,
+    "avgWrong": 35,
+    "ratio": 3.17
+  },
+  {
+    "caseId": 133,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Obecność gazu w ścianie jelita (pneumatosis intestinalis) oraz gazu w gałęziach żyły wrotnej (aeroportia / portal venous gas) w tomografii komputerowej u chorego z niedokrwieniem krezki oznacza:",
+    "key": "Zaawansowaną, nieodwracalną martwicę zgorzelinową pełnej grubości ściany jelita i skrajnie złe rokowanie",
+    "correctIdx": 0,
+    "opts": [
+      "Zaawansowaną, nieodwracalną martwicę zgorzelinową pełnej grubości ściany jelita i skrajnie złe rokowanie",
+      "Prawidłowy stan fizjologiczny trawienia gazów",
+      "Początkową odwracalną fazę niedotlenienia",
+      "Przedawkowanie leków zobojętniających kwas solny",
+      "Cechę wyleczenia zakażenia bakteryjnego"
+    ],
+    "corrLen": 104,
+    "avgWrong": 43,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 133,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Lekarz dyżurny SOR zbagatelizował silne bóle brzucha u 72-letniej pacjentki z migotaniem przedsionków ze względu na 'miękki, niebolesny brzuch' i odesłał ją do domu ze spazmolitykiem. Pacjentka zmarła w kolejnej dobie z powodu martwicy całego jelita cienkiego w przebiegu zatoru SMA. W opinii biegłego medycyny sądowej zaniechanie wykonania badania Angio-TK stanowiło:",
+    "key": "A. Rażący błąd diagnostyczny o charakterze zaniechania, naruszający zasady należytej staranności lekarskiej, pozostający w bezpośrednim związku przyczynowo-skutkowym ze zgonem pacjentki.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Rażący błąd diagnostyczny o charakterze zaniechania, naruszający zasady należytej staranności lekarskiej, pozostający w bezpośrednim związku przyczynowo-skutkowym ze zgonem pacjentki.",
+      "B. Dopuszczalną pomyłkę diagnostyczną niestanowiącą podstawy do jakiejkolwiek odpowiedzialności.",
+      "C. Prawidłowe postępowanie, gdyż ból brzucha bez objawów otrzewnowych nie wymaga diagnostyki obrazowej.",
+      "D. Wyłącznie uchybienie etyczne niepodlegające przepisom Kodeksu karnego.",
+      "E. Sytuację, w której winę ponosi wyłącznie producent leku spazmolitycznego."
+    ],
+    "corrLen": 186,
+    "avgWrong": 87,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 134,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego wykonywanie kolonoskopii w ostrej fazie zapalenia uchyłków jest BEZWZGLĘDNIE PRZECIWWSKAZANE?",
+    "key": "Ponieważ insuflacja powietrza pod ciśnieniem i manipulacja aparatem w zmienionej zapalnie, kruchej ścianie jelita stwarza wysokie ryzyko jatrogennej wolnej perforacji do jamy otrzewnej",
+    "correctIdx": 0,
+    "opts": [
+      "Ponieważ insuflacja powietrza pod ciśnieniem i manipulacja aparatem w zmienionej zapalnie, kruchej ścianie jelita stwarza wysokie ryzyko jatrogennej wolnej perforacji do jamy otrzewnej",
+      "Ponieważ kolonoskopia zawsze niszczy zwieracze odbytu",
+      "Ponieważ światło jelita grubego w zapaleniu uchyłków ulega całkowitemu zarośnięciu kostnemu",
+      "Z powodu natychmiastowego zawału mięśnia sercowego",
+      "Kolonoskopia nie jest przeciwwskazana i stanowi badanie pierwszego rzutu"
+    ],
+    "corrLen": 184,
+    "avgWrong": 67,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 134,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Wskaż prawdziwe stwierdzenie oparte na faktach medycznych (EBM) dotyczące diety w chorobie uchyłkowej jelita grubego:",
+    "key": "Spożywanie orzechów, nasion, kukurydzy i owoców drobnopestkowych NIE zwiększa ryzyka zapalenia uchyłków, a zalecana jest dieta bogatobłonnikowa (>25-35 g/dobę)",
+    "correctIdx": 0,
+    "opts": [
+      "Spożywanie orzechów, nasion, kukurydzy i owoców drobnopestkowych NIE zwiększa ryzyka zapalenia uchyłków, a zalecana jest dieta bogatobłonnikowa (>25-35 g/dobę)",
+      "Pacjent z uchyłkami ma dożywotni bezwzględny zakaz jedzenia truskawek, pomidorów i orzechów",
+      "Dieta w uchyłkowatości powinna być całkowicie pozbawiona jakiegokolwiek błonnika",
+      "Jedzenie bananów jest bezpośrednią przyczyną powstawania przetok esiczych",
+      "Zaleca się unikanie picia wody powyżej 500 ml na dobę"
+    ],
+    "corrLen": 159,
+    "avgWrong": 74,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 134,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Zabieg operacyjny sposobem Hartmanna w rozlanym kałowym zapaleniu otrzewnej w przebiegu perforacji uchyłka (Hinchey IV) polega na:",
+    "key": "Resekcji zmienionej chorobowo esicy, wyłonieniu pojedynczej kolostomii końcowej na powłokach brzucha oraz ślepym zaszyciu kikuta odbytnicy w miednicy",
+    "correctIdx": 0,
+    "opts": [
+      "Resekcji zmienionej chorobowo esicy, wyłonieniu pojedynczej kolostomii końcowej na powłokach brzucha oraz ślepym zaszyciu kikuta odbytnicy w miednicy",
+      "Wycięciu całego żołądka z pozostawieniem esicy bez zmian",
+      "Zszyciu otworu uchyłka bez wycinania pętli i założeniu drenu",
+      "Wyłonieniu pętlowej jejunostomii bez resekcji ogniska zapalnego",
+      "Zespoleniu omijającym krętniczo-odbytniczym"
+    ],
+    "corrLen": 149,
+    "avgWrong": 56,
+    "ratio": 2.68
+  },
+  {
+    "caseId": 134,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 62-letniego pacjenta po udanym leczeniu zapalenia uchyłków, w kontrolnej kolonoskopii po 8 tygodniach potwierdzono histopatologicznie raka esicy (adenocarcinoma G2). W świetle polskiego prawa medycznego, procedur orzecznictwa i przepisów o Karcie DiLO:",
+    "key": "Lekarz POZ lub gastrolog ma obowiązek natychmiast wystawić pacjentowi Kartę Diagnostyki i Leczenia Onkologicznego (Kartę DiLO) uprawniającą do szybkiej ścieżki onkologicznej, diagnostyki stopnia zaawansowania (staging TK) oraz zwołania wielodyscyplinarnego konsylium onkologicznego (KDO).",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz POZ lub gastrolog ma obowiązek natychmiast wystawić pacjentowi Kartę Diagnostyki i Leczenia Onkologicznego (Kartę DiLO) uprawniającą do szybkiej ścieżki onkologicznej, diagnostyki stopnia zaawansowania (staging TK) oraz zwołania wielodyscyplinarnego konsylium onkologicznego (KDO).",
+      "Karta DiLO może być wystawiona wyłącznie po zakończeniu leczenia chirurgicznego w oddziale hospicyjnym.",
+      "Pacjent z rakiem jelita grubego traci prawo do refundowanego leczenia operacyjnego, jeśli nie zgłosił uchyłkowatości przed 50. rokiem życia.",
+      "Lekarz ma bezwzględny zakaz informowania pacjenta o rozpoznaniu raka złośliwego.",
+      "Zgoda na badanie kolonoskopowe stanowi automatyczną zgodę na wycięcie połowy okrężnicy bez odrębnego formularza."
+    ],
+    "corrLen": 288,
+    "avgWrong": 109,
+    "ratio": 2.65
+  },
+  {
+    "caseId": 135,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "U pacjenta z masywną hematochezją (świeża krew z odbytu) i wstrząsem hipowolemicznym należy bezwzględnie w pierwszej kolejności:",
+    "key": "Wdrożyć agresywną resuscytację płynową oraz wykluczyć krwawienie z górnego odcinka przewodu pokarmowego",
+    "correctIdx": 0,
+    "opts": [
+      "Wdrożyć agresywną resuscytację płynową oraz wykluczyć krwawienie z górnego odcinka przewodu pokarmowego",
+      "Wykonać pilną kolonoskopię bez przygotowania jelita",
+      "Zlecić wlew doodbytniczy z zawiesiny barytowej",
+      "Podać dożylnie leki przeczyszczające i odesłać do domu",
+      "Wykonać rezonans magnetyczny miednicy mniejszej"
+    ],
+    "corrLen": 103,
+    "avgWrong": 50,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 135,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Superselektywna embolizacja naczyniowa (TAE) w pracowni radiologii zabiegowej w leczeniu krwawienia uchyłkowego polega na:",
+    "key": "Wprowadzeniu mikrocewnika i zamknięciu krwawiącej gałązki tętniczej (vasa recta) za pomocą mikrosprężynek naczyniowych (coils) lub cząstek żelatynowych",
+    "correctIdx": 0,
+    "opts": [
+      "Wprowadzeniu mikrocewnika i zamknięciu krwawiącej gałązki tętniczej (vasa recta) za pomocą mikrosprężynek naczyniowych (coils) lub cząstek żelatynowych",
+      "Wstrzyknięciu kleju tkankowego do aorty brzusznej",
+      "Całkowitym zablokowaniu pnia tętnicy krezkowej górnej balonem",
+      "Podwiązaniu żyły wrotnej nicią chirurgiczną",
+      "Wycięciu prawej połowy okrężnicy przez nakłucie tętnicy udowej"
+    ],
+    "corrLen": 151,
+    "avgWrong": 54,
+    "ratio": 2.81
+  },
+  {
+    "caseId": 135,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Z jakiego powodu krwawienie z uchyłków okrężnicy częściej dotyczy prawej połowy okrężnicy, mimo że sama uchyłkowatość występuje najliczniej w esicy?",
+    "key": "Uchyłki w prawej połowie okrężnicy mają szersze szyje i cieńszą ścianę, a zaopatrujące je naczynia proste (vasa recta) są dłuższe i bardziej podatne na naprężenia mechaniczne i pęknięcie",
+    "correctIdx": 0,
+    "opts": [
+      "Uchyłki w prawej połowie okrężnicy mają szersze szyje i cieńszą ścianę, a zaopatrujące je naczynia proste (vasa recta) są dłuższe i bardziej podatne na naprężenia mechaniczne i pęknięcie",
+      "Prawa połowa okrężnicy nie ma w ogóle ściany mięśniowej",
+      "Treść w kątnicy jest całkowicie sucha, co niszczy naczynia krwionośne",
+      "W prawej połowie okrężnicy ciśnienie krwi wynosi 300 mmHg",
+      "Jest to zjawisko całkowicie przypadkowe bez podłoża anatomicznego"
+    ],
+    "corrLen": 186,
+    "avgWrong": 62,
+    "ratio": 3.02
+  },
+  {
+    "caseId": 135,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Wskaźnik mocznika do kreatyniny w surowicy krwi (BUN/kreatynina) w krwawieniu z DOLNEGO odcinka przewodu pokarmowego typowo wynosi:",
+    "key": "< 20 - 25 (brak trawienia i wchłaniania białek krwi w jelicie cienkim)",
+    "correctIdx": 0,
+    "opts": [
+      "< 20 - 25 (brak trawienia i wchłaniania białek krwi w jelicie cienkim)",
+      "> 35 - 40 (wysoki wskaźnik)",
+      "> 100 u każdego chorego",
+      "Zawsze dokładnie 0",
+      "Wskaźnik ten nie zależy od poziomu krwawienia"
+    ],
+    "corrLen": 70,
+    "avgWrong": 28,
+    "ratio": 2.48
+  },
+  {
+    "caseId": 135,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Skala Oakland jest nowoczesnym narzędziem klinicznym rekomendowanym przez wytyczne BSG/ESGE służącym do:",
+    "key": "Stratyfikacji ryzyka w krwawieniu z dolnego odcinka przewodu pokarmowego i identyfikacji pacjentów o niskim ryzyku, którzy mogą być bezpiecznie wypisani do diagnostyki ambulatoryjnej",
+    "correctIdx": 0,
+    "opts": [
+      "Stratyfikacji ryzyka w krwawieniu z dolnego odcinka przewodu pokarmowego i identyfikacji pacjentów o niskim ryzyku, którzy mogą być bezpiecznie wypisani do diagnostyki ambulatoryjnej",
+      "Oceny stopnia zaawansowania raka trzustki",
+      "Kwalifikacji do natychmiastowego przeszczepu wątroby",
+      "Oceny ryzyka pęknięcia tętniaka aorty",
+      "Wyboru dawki paracetamolu u noworodków"
+    ],
+    "corrLen": 182,
+    "avgWrong": 42,
+    "ratio": 4.33
+  },
+  {
+    "caseId": 135,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 78-letniego przytomnego pacjenta z masywnym krwotokiem z uchyłków esicy (Hb 5,8 g/dl, wstrząs krwotoczny) lekarz podejmuje decyzję o pilnej transfuzji koncentratu krwinek czerwonych (KKCz). Zgodnie z ustawą o publicznej służbie krwi oraz przepisami prawa medycznego:",
+    "key": "Przetoczenie krwi lub jej składników wymaga uzyskania pisemnej zgody pacjenta (lub jego przedstawiciela ustawowego) po uprzednim poinformowaniu o celu, korzyściach i możliwych powikłaniach przetoczenia, a każda jednostka krwi musi być zweryfikowana podwójną próbą zgodności i próbą biologiczną.",
+    "correctIdx": 0,
+    "opts": [
+      "Przetoczenie krwi lub jej składników wymaga uzyskania pisemnej zgody pacjenta (lub jego przedstawiciela ustawowego) po uprzednim poinformowaniu o celu, korzyściach i możliwych powikłaniach przetoczenia, a każda jednostka krwi musi być zweryfikowana podwójną próbą zgodności i próbą biologiczną.",
+      "Na przetoczenie krwi u dorosłego i przytomnego pacjenta nie jest wymagana żadna zgoda, gdyż krew jest traktowana jak zwykły płyn infuzyjny.",
+      "Jeśli przytomny pacjent jest Świadkiem Jehowy i świadomie odmawia transfuzji na piśmie, lekarz ma prawny obowiązek przetoczyć krew siłą przy udziale policji.",
+      "Zgodę na przetoczenie krwi może wydać wyłącznie dyrektor regionalnego centrum krwiodawstwa.",
+      "Podanie KKCz w szpitalu zwalnia lekarza z obowiązku odnotowania numeru donacji w dokumentacji medycznej."
+    ],
+    "corrLen": 294,
+    "avgWrong": 123,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 136,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "38-letni pracownik fizyczny po pilnym nacięciu i zdrenowaniu ropnia kulszowo-odbytniczego jest wypisywany do domu z zaleceniem codziennych płukań i zmiany setonów. Zgodnie z zasadami prawa medycznego i orzecznictwa lekarskiego ZUS:",
+    "key": "Lekarz wystawia zaświadczenie o czasowej niezdolności do pracy ZUS ZLA na okres gojenia rany (zwykle 2-4 tygodnie w zależności od charakteru pracy fizycznej) oraz informuje pacjenta o konieczności planowej kontroli proktologicznej po wygojeniu pod kątem uformowania się przetoki odbytu.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz wystawia zaświadczenie o czasowej niezdolności do pracy ZUS ZLA na okres gojenia rany (zwykle 2-4 tygodnie w zależności od charakteru pracy fizycznej) oraz informuje pacjenta o konieczności planowej kontroli proktologicznej po wygojeniu pod kątem uformowania się przetoki odbytu.",
+      "Nacięcie ropnia w trybie ambulatoryjnym wyklucza możliwość wystawienia zwolnienia ZUS ZLA na okres dłuższy niż 24 godziny.",
+      "Lekarz ma prawny obowiązek zakwalifikować ropień okołoodbytniczy jako chorobę zawodową.",
+      "Pacjent po operacji proktologicznej traci bezterminowo prawo do wykonywania zawodu kierowcy.",
+      "Zgoda pacjenta na nacięcie ropnia unieważnia obowiązek prowadzenia dokumentacji pielęgniarskiej zmian opatrunków."
+    ],
+    "corrLen": 286,
+    "avgWrong": 104,
+    "ratio": 2.76
+  },
+  {
+    "caseId": 137,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Obecność tzw. 'contrast blush' (aktywnego wynaczynienia środka cieniującego w fazie tętniczej) w TK u stabilnego chorego z urazem śledziony wskazuje na:",
+    "key": "Aktywne krwawienie tętnicze będące wskazaniem do przezcewnikowej embolizacji tętnicy śledzionowej (SAE) lub operacji",
+    "correctIdx": 0,
+    "opts": [
+      "Aktywne krwawienie tętnicze będące wskazaniem do przezcewnikowej embolizacji tętnicy śledzionowej (SAE) lub operacji",
+      "Prawidłowe, fizjologiczne unaczynienie miazgi białej śledziony",
+      "Przebyte w dzieciństwie zapalenie wątroby typu A",
+      "Wrodzoną torbiel bąblowcową śledziony",
+      "Brak konieczności jakiejkolwiek hospitalizacji i możliwość wypisu do domu"
+    ],
+    "corrLen": 116,
+    "avgWrong": 55,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 138,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Wskaż cechę kliniczną charakterystyczną dla raka prawej połowy okrężnicy (kątnicy i wstępnicy) w porównaniu do raka lewej połowy:",
+    "key": "Przewlekłe utajone krwawienie prowadzące do ciężkiej niedokrwistości mikrocytarnej z niedoboru żelaza",
+    "correctIdx": 0,
+    "opts": [
+      "Przewlekłe utajone krwawienie prowadzące do ciężkiej niedokrwistości mikrocytarnej z niedoboru żelaza",
+      "Wczesne wystąpienie mechanicznej niedrożności jelit",
+      "Stolce ołówkowate i częste parcie naglące",
+      "Wyłącznie łagodny przebieg bez skłonności do przerzutów",
+      "Brak konieczności leczenia operacyjnego"
+    ],
+    "corrLen": 101,
+    "avgWrong": 47,
+    "ratio": 2.17
+  },
+  {
+    "caseId": 138,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Wprowadzenie samorozprężalnego stentu metalowego (SEMS) w niedrożności lewej połowy okrężnicy jako 'bridge to surgery' pozwala na:",
+    "key": "Odbarczenie niedrożności, przygotowanie jelita i wykonanie planowej resekcji z zespoleniem, co znacząco zmniejsza odsetek wyłanianych stomii",
+    "correctIdx": 0,
+    "opts": [
+      "Odbarczenie niedrożności, przygotowanie jelita i wykonanie planowej resekcji z zespoleniem, co znacząco zmniejsza odsetek wyłanianych stomii",
+      "Całkowite wyleczenie raka bez konieczności resekcji chirurgicznej",
+      "Natychmiastowe zniszczenie wszystkich przerzutów w wątrobie",
+      "Zastąpienie radioterapii i chemioterapii adiuwantowej",
+      "Trwałe zamknięcie ujścia wyrostka robaczkowego"
+    ],
+    "corrLen": 140,
+    "avgWrong": 56,
+    "ratio": 2.51
+  },
+  {
+    "caseId": 138,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Operacja sposobem Hartmanna polega na:",
+    "key": "Resekcji odcinka jelita z guzem, ślepym zaszyciu kikuta odbytnicy i wyłonieniu bliższego końca w postaci kolostomii końcowej",
+    "correctIdx": 0,
+    "opts": [
+      "Resekcji odcinka jelita z guzem, ślepym zaszyciu kikuta odbytnicy i wyłonieniu bliższego końca w postaci kolostomii końcowej",
+      "Resekcji guza z natychmiastowym zespoleniem i wycięciem żołądka",
+      "Wycięciu całej wątroby i śledziony bez usuwania guza pierwotnego",
+      "Założeniu opaski uciskowej na aortę brzuszną",
+      "Zespoleniu omijającym omijającym kątnicę z pęcherzem moczowym"
+    ],
+    "corrLen": 124,
+    "avgWrong": 58,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 138,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "70-letni pacjent operowany doraźnie z powodu niedrożności w przebiegu raka esicy (wykonano procedurę Hartmanna z wyłonieniem kolostomii). Wynik histopatologiczny: adenocarcinoma G2, pT3N1M0. Zgodnie z polskimi przepisami prawa medycznego, procedurami NFZ i Kartą DiLO:",
+    "key": "Szpital ma obowiązek wystawić pacjentowi Kartę Diagnostyki i Leczenia Onkologicznego (Karta DiLO) najpóźniej w momencie wypisu, zwołać wielodyscyplinarne konsylium onkologiczne (KDO) w celu zaplanowania leczenia adiuwantowego (uzupełniająca chemioterapia) oraz wyznaczyć koordynatora opieki onkologicznej.",
+    "correctIdx": 0,
+    "opts": [
+      "Szpital ma obowiązek wystawić pacjentowi Kartę Diagnostyki i Leczenia Onkologicznego (Karta DiLO) najpóźniej w momencie wypisu, zwołać wielodyscyplinarne konsylium onkologiczne (KDO) w celu zaplanowania leczenia adiuwantowego (uzupełniająca chemioterapia) oraz wyznaczyć koordynatora opieki onkologicznej.",
+      "Karta DiLO może być wystawiona wyłącznie w przychodni POZ przed wykonaniem pierwszej operacji.",
+      "Pacjent ze stomią traci prawo do konsylium onkologicznego i może być leczony wyłącznie objawowo.",
+      "Informacja o stopniu zaawansowania pT3N1 podlega utajnieniu przed pacjentem na mocy tajemnicy lekarskiej.",
+      "Zgoda na operację w stanie nagłym zwalnia konsylium z obowiązku uzyskania odrębnej zgody pacjenta na chemioterapię."
+    ],
+    "corrLen": 305,
+    "avgWrong": 103,
+    "ratio": 2.98
+  },
+  {
+    "caseId": 139,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Które z poniższych miejsc anatomicznych w jelicie grubym stanowią tzw. 'działy wodne' (watershed areas) o najwyższej podatności na niedokrwienie przy spadku ciśnienia tętniczego?",
+    "key": "Zgięcie śledzionowe (punkt Griffithsa) oraz połączenie odbytniczo-esicze (punkt Sudecka)",
+    "correctIdx": 0,
+    "opts": [
+      "Zgięcie śledzionowe (punkt Griffithsa) oraz połączenie odbytniczo-esicze (punkt Sudecka)",
+      "Kątnica i wyrostek robaczkowy",
+      "Zgięcie wątrobowe okrężnicy i poprzecznica",
+      "Środkowa część odbytnicy i kanał odbytu",
+      "Dno żołądka i odźwiernik"
+    ],
+    "corrLen": 88,
+    "avgWrong": 34,
+    "ratio": 2.63
+  },
+  {
+    "caseId": 139,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Klasyczna triada objawów w niedokrwiennym zapaleniu jelita grubego obejmuje:",
+    "key": "Nagły kurczowy ból w lewym boku brzucha, naglące parcie na stolec oraz krwisty stolec (hematochezia) po epizodzie hipotonii",
+    "correctIdx": 0,
+    "opts": [
+      "Nagły kurczowy ból w lewym boku brzucha, naglące parcie na stolec oraz krwisty stolec (hematochezia) po epizodzie hipotonii",
+      "Wysoką gorączkę, żółtaczkę mechaniczną oraz wodobrzusze",
+      "Chlustające wymioty treścią żołądkową, ból głowy i światłowstręt",
+      "Całkowity brak bólu, masywne krwawienie z górnego odcinka i melenę",
+      "Ból w prawym dole biodrowym promieniujący do prawego jądra"
+    ],
+    "corrLen": 123,
+    "avgWrong": 61,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 139,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Czym różni się niedokrwienne zapalenie okrężnicy (IC) od ostrego niedokrwienia jelita cienkiego w przebiegu zatoru tętnicy krezkowej górnej (AMI)?",
+    "key": "W niedokrwiennym zapaleniu okrężnicy ból jest łagodniejszy, wcześnie występuje krew w stolcu, a większość przypadków (80-85%) przebiega łagodnie i leczy się zachowawczo",
+    "correctIdx": 0,
+    "opts": [
+      "W niedokrwiennym zapaleniu okrężnicy ból jest łagodniejszy, wcześnie występuje krew w stolcu, a większość przypadków (80-85%) przebiega łagodnie i leczy się zachowawczo",
+      "W zatorze SMA krew w stolcu pojawia się zawsze w pierwszych 5 minutach",
+      "Niedokrwienne zapalenie okrężnicy dotyczy wyłącznie dzieci, a zator SMA osób dorosłych",
+      "W niedokrwiennym zapaleniu okrężnicy kwasica mleczanowa wynosi zawsze powyżej 10 mmol/l",
+      "Oba stany mają identyczny przebieg i leczy się je wyłącznie doustnymi probiotykami"
+    ],
+    "corrLen": 168,
+    "avgWrong": 81,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 139,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Podstawą leczenia zachowawczego u pacjenta z niegorzelinową (przemijającą) postacią niedokrwiennego zapalenia okrężnicy jest:",
+    "key": "Płynoterapia dożylna, odstawienie leków hipotensyjnych/diuretyków, odpoczynek jelita (dieta zerowa) oraz antybiotykoterapia o szerokim spektrum",
+    "correctIdx": 0,
+    "opts": [
+      "Płynoterapia dożylna, odstawienie leków hipotensyjnych/diuretyków, odpoczynek jelita (dieta zerowa) oraz antybiotykoterapia o szerokim spektrum",
+      "Natychmiastowe podanie leków silnie obkurczających naczynia krwionośne",
+      "Podanie dożylne leków trombolitycznych (np. alteplazy)",
+      "Zalecenie spożywania dużej ilości surowych warzyw i otrębów pszennych",
+      "Wypisanie do domu z zaleceniem zażywania węgla leczniczego"
+    ],
+    "corrLen": 143,
+    "avgWrong": 63,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 139,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Wskaż objaw będący bezwzględnym wskazaniem do natychmiastowej interwencji operacyjnej (laparotomii) u chorego z niedokrwiennym zapaleniem jelita grubego:",
+    "key": "Pojawienie się objawów rozlanego zapalenia otrzewnej, perforacji lub wstrząsu septycznego z narastającą kwasicą mleczanową",
+    "correctIdx": 0,
+    "opts": [
+      "Pojawienie się objawów rozlanego zapalenia otrzewnej, perforacji lub wstrząsu septycznego z narastającą kwasicą mleczanową",
+      "Oddanie jednego luźnego stolca o zabarwieniu ciemnobrązowym",
+      "Spadek częstości tętna ze 100/min do 75/min po nawodnieniu",
+      "Ustąpienie nudności po podaniu leków przeciwwymiotnych",
+      "Prawidłowy wynik stężenia hemoglobiny w badaniu kontrolnym"
+    ],
+    "corrLen": 122,
+    "avgWrong": 57,
+    "ratio": 2.13
+  },
+  {
+    "caseId": 139,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Objaw 'tarczy strzeleckiej' (target sign / halo sign) widoczny w tomografii komputerowej ściany okrężnicy w niedokrwiennym zapaleniu jelit odpowiada:",
+    "key": "Wyraźnemu obrzękowi błony podśluzowej ze wzmocnieniem kontrastowym przekrwionej śluzówki i surowicówki",
+    "correctIdx": 0,
+    "opts": [
+      "Wyraźnemu obrzękowi błony podśluzowej ze wzmocnieniem kontrastowym przekrwionej śluzówki i surowicówki",
+      "Obecności guza nowotworowego o średnicy 15 cm",
+      "Obecności ciała obcego o kształcie tarczy w świetle jelita",
+      "Wrodzonemu zarośnięciu odbytnicy",
+      "Torbieli bąblowcowej w ścianie jelita grubego"
+    ],
+    "corrLen": 102,
+    "avgWrong": 45,
+    "ratio": 2.27
+  },
+  {
+    "caseId": 139,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 74-letniego pacjenta z niedokrwiennym zapaleniem jelita grubego w przebiegu ciężkiej hipotensji, lekarz podejmuje leczenie zachowawcze na sali wzmożonego nadzoru. Zgodnie z zasadami prawa medycznego, etyki lekarskiej (KEL) i standardami prowadzenia dokumentacji medycznej:",
+    "key": "Lekarz ma obowiązek prowadzić szczegółowy, systematyczny zapis stanu klinicznego pacjenta (parametry życiowe, stan powłok brzusznych, stężenie mleczanów co 4-6 h), odnotować w historii choroby przesłanki decyzji o leczeniu zachowawczym vs operacyjnym oraz poinformować pacjenta i osobę upoważnioną o ryzyku konieczności pilnej operacji w razie wystąpienia martwicy ściany jelita.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma obowiązek prowadzić szczegółowy, systematyczny zapis stanu klinicznego pacjenta (parametry życiowe, stan powłok brzusznych, stężenie mleczanów co 4-6 h), odnotować w historii choroby przesłanki decyzji o leczeniu zachowawczym vs operacyjnym oraz poinformować pacjenta i osobę upoważnioną o ryzyku konieczności pilnej operacji w razie wystąpienia martwicy ściany jelita.",
+      "Zapisy w historii choroby mogą być sporządzone zbiorczo po miesiącu od zakończenia leczenia szpitalnego.",
+      "Lekarz nie ma obowiązku monitorowania pacjenta, jeśli leczenie ma charakter zachowawczy.",
+      "Wszelkie powikłania niedokrwienne w szpitalu stanowią z mocy prawa przestępstwo ścigane z urzędu.",
+      "Zgoda pacjenta na leczenie kardiologiczne zwalnia personel z obowiązku dokumentowania powikłań brzusznych."
+    ],
+    "corrLen": 379,
+    "avgWrong": 99,
+    "ratio": 3.84
+  },
+  {
+    "caseId": 140,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego agresywna płynoterapia i dążenie do normalizacji ciśnienia tętniczego (SBP >120-130 mmHg) przed chirurgicznym zaopatrzeniem rAAA jest błędem sztuki?",
+    "key": "Wzrost ciśnienia krwi wypłukuje wytworzoną skrzeplinę w przestrzeni zaotrzewnowej, a duże objętości płynów nasilają koagulopatię z rozcieńczenia i hipotermię",
+    "correctIdx": 0,
+    "opts": [
+      "Wzrost ciśnienia krwi wypłukuje wytworzoną skrzeplinę w przestrzeni zaotrzewnowej, a duże objętości płynów nasilają koagulopatię z rozcieńczenia i hipotermię",
+      "Powoduje natychmiastowe zrośnięcie zastawek aortalnych",
+      "Prowadzi do ostrej martwicy kości długich kończyn dolnych",
+      "Wywołuje zakażenie krwi bakteriami beztlenowymi",
+      "Zmniejsza filtrację kłębuszkową w nerkach"
+    ],
+    "corrLen": 157,
+    "avgWrong": 50,
+    "ratio": 3.16
+  },
+  {
+    "caseId": 140,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Leczeniem z wyboru w rozwiniętym zespole ciasnoty wewnątrzbrzusznej (ACS) zagrażającym życiu pacjenta jest:",
+    "key": "Natychmiastowa dekompresyjna laparotomia ratunkowa i pozostawienie jamy brzusznej otwartej (laparostomia)",
+    "correctIdx": 0,
+    "opts": [
+      "Natychmiastowa dekompresyjna laparotomia ratunkowa i pozostawienie jamy brzusznej otwartej (laparostomia)",
+      "Podanie leków obkurczających naczynia we wlewie ciągłym",
+      "Zastosowanie ciasnego bandażowania powłok brzusznych pasem elastycznym",
+      "Wykonanie pilnej resekcji żołądka",
+      "Podanie 5 litrów roztworu Ringera w ciągu 1 godziny"
+    ],
+    "corrLen": 105,
+    "avgWrong": 52,
+    "ratio": 2.01
+  },
+  {
+    "caseId": 140,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "69-letni pacjent z pękniętym tętniakiem aorty brzusznej trafia na blok operacyjny we wstrząsie krwotocznym ze skrajną hipotensją (RR 60/30 mmHg) i utratą przytomności. Brak obecności rodziny. Zgodnie z art. 34 ust. 7 Ustawy o zawodach lekarza i lekarza dentysty oraz zasadami prawa medycznego:",
+    "key": "Zespół chirurgów naczyniowych ma prawo i prawny obowiązek natychmiast podjąć ratującą życie operację (laparotomię z zaklemowaniem aorty lub rEVAR) bez zgody pacjenta, z odnotowaniem tego faktu w dokumentacji medycznej i w miarę możliwości zasięgnięciem opinii drugiego lekarza oraz powiadomieniem sądu opiekuńczego.",
+    "correctIdx": 0,
+    "opts": [
+      "Zespół chirurgów naczyniowych ma prawo i prawny obowiązek natychmiast podjąć ratującą życie operację (laparotomię z zaklemowaniem aorty lub rEVAR) bez zgody pacjenta, z odnotowaniem tego faktu w dokumentacji medycznej i w miarę możliwości zasięgnięciem opinii drugiego lekarza oraz powiadomieniem sądu opiekuńczego.",
+      "Chirurdzy muszą wstrzymać się z cięciem skóry do momentu ustanowienia kuratora przez sąd opiekuńczy na posiedzeniu jawnym.",
+      "Do wykonania operacji u nieprzytomnego konieczna jest pisemna zgoda dyspozytora medycznego pogotowia.",
+      "Brak pisemnej zgody pacjenta nakazuje zaniechanie operacji i ograniczenie się do leczenia paliatywnego.",
+      "Zgoda na operację ratującą życie u nieprzytomnego dorosłego może zostać wydana wyłącznie przez notariusza."
+    ],
+    "corrLen": 315,
+    "avgWrong": 108,
+    "ratio": 2.92
+  },
+  {
+    "caseId": 141,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Gwałtowny obrzęk łydki, potężny ból nasilający się przy biernym rozciąganiu mięśni oraz twardość tkanek podudzia po udanej embolektomii tętniczej świadczą o:",
+    "key": "Poreperfuzyjnym zespole ciasnoty przedziałów powięziowych (Compartment Syndrome) wymagającym natychmiastowej fasciotomii",
+    "correctIdx": 0,
+    "opts": [
+      "Poreperfuzyjnym zespole ciasnoty przedziałów powięziowych (Compartment Syndrome) wymagającym natychmiastowej fasciotomii",
+      "Prawidłowej fizjologicznej adaptacji naczyń krwionośnych do tlenu",
+      "Róży pęcherzowej wywołanej przez paciorkowce grupy A",
+      "Pęknięciu ścięgna Achillesa w trakcie znieczulenia",
+      "Odwodnieniu komórkowym wymagającym wstrzymania płynoterapii"
+    ],
+    "corrLen": 120,
+    "avgWrong": 57,
+    "ratio": 2.12
+  },
+  {
+    "caseId": 141,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które z poniższych źródeł odpowiada za powstanie ponad 70-80% wszystkich zatorów obwodowych tętnic kończyn dolnych?",
+    "key": "Serce (migotanie przedsionków, skrzeplina w lewej komorze po zawale, wady zastawkowe)",
+    "correctIdx": 0,
+    "opts": [
+      "Serce (migotanie przedsionków, skrzeplina w lewej komorze po zawale, wady zastawkowe)",
+      "Żyły głębokie podudzia (zator typowy bez ubytku w przegrodzie)",
+      "Tętnice nerkowe z powodu zwężenia miażdżycowego",
+      "Żyła wrotna w marskości wątroby",
+      "Tętnice mózgowe koła Willisa"
+    ],
+    "corrLen": 85,
+    "avgWrong": 42,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 141,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "74-letni pacjent z ostrym niedokrwieniem kończyny dolnej (Rutherford IIb) w przebiegu zatoru tętnicy udowej kwalifikowany jest do pilnej embolektomii cewnikiem Fogarty'ego. Zgodnie z przepisami prawa medycznego, Ustawą o prawach pacjenta oraz art. 34 Ustawy o zawodach lekarza:",
+    "key": "Lekarz ma obowiązek przystępnie poinformować pacjenta o istocie zabiegu embolektomii, ryzyku nawrotu zakrzepicy, zespole poreperfuzyjnym oraz o możliwości konieczności wykonania fasciotomii lub amputacji kończyny w przypadku braku powodzenia rewaskularyzacji, odbierając pisemną świadomą zgodę na zabieg.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma obowiązek przystępnie poinformować pacjenta o istocie zabiegu embolektomii, ryzyku nawrotu zakrzepicy, zespole poreperfuzyjnym oraz o możliwości konieczności wykonania fasciotomii lub amputacji kończyny w przypadku braku powodzenia rewaskularyzacji, odbierając pisemną świadomą zgodę na zabieg.",
+      "W chirurgii naczyniowej pisemna zgoda pacjenta jest zbędna ze względu na pilny charakter procedur naczyniowych.",
+      "Lekarz nie może informować pacjenta o możliwości amputacji kończyny, gdyż stanowi to błąd jatrogenny.",
+      "Pacjent po embolektomii traci prawo do wglądu we własną dokumentację medyczną.",
+      "Zgodę na operację u przytomnego dorosłego pacjenta może podpisać ordynator oddziału zamiast chorego."
+    ],
+    "corrLen": 304,
+    "avgWrong": 98,
+    "ratio": 3.12
+  },
+  {
+    "caseId": 142,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Przewlekłe zagrażające kończynie niedokrwienie (CLTI – Chronic Limb-Threatening Ischemia) definiuje się klinicznie jako:",
+    "key": "Przewlekły (trwający >2 tygodnie) spoczynkowy ból niedokrwienny stopy, obecność owrzodzenia troficznego lub martwicy tkanek spowodowane miażdżycą tętnic",
+    "correctIdx": 0,
+    "opts": [
+      "Przewlekły (trwający >2 tygodnie) spoczynkowy ból niedokrwienny stopy, obecność owrzodzenia troficznego lub martwicy tkanek spowodowane miażdżycą tętnic",
+      "Nagły brak tętna na kończynie trwający krócej niż 6 godzin",
+      "Obrzęk goleni z obecnością brązowych przebarwień i owrzodzenia żylnego nad kostką przyśrodkową",
+      "Chromanie przestankowe po przejściu dystansu powyżej 500 metrów bez bólu spoczynkowego",
+      "Ból mięśni uda występujący wyłącznie w trakcie szybkiego biegu"
+    ],
+    "corrLen": 152,
+    "avgWrong": 75,
+    "ratio": 2.03
+  },
+  {
+    "caseId": 142,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego u pacjenta z wieloletnią cukrzycą i niewydolnością nerek pomiar wskaźnika kostka-ramię (ABI) może dać wynik fałszywie wysoki (> 1,40)?",
+    "key": "Z powodu stwardnienia i zwapnienia błony środkowej tętnic piszczelowych (mediaskleroza Mönckeberga), co uniemożliwia ich ściśnięcie mankietem ciśnieniomierza",
+    "correctIdx": 0,
+    "opts": [
+      "Z powodu stwardnienia i zwapnienia błony środkowej tętnic piszczelowych (mediaskleroza Mönckeberga), co uniemożliwia ich ściśnięcie mankietem ciśnieniomierza",
+      "Z powodu wrodzonego braku zastawek w żyłach głębokich kończyny dolnej",
+      "Wskutek nadmiernego gromadzenia się kwasu moczowego w stawach stóp",
+      "Z powodu przyspieszonego przepływu krwi włośniczkowej przez przetoki tętniczo-żylne",
+      "Jest to błąd laboratoryjny wynikający z obecności przeciwciał przeciwjądrowych"
+    ],
+    "corrLen": 157,
+    "avgWrong": 74,
+    "ratio": 2.12
+  },
+  {
+    "caseId": 142,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W badaniu klinicznym COMPASS wykazano, że u pacjentów z przewlekłą chorobą tętnic obwodowych (PAD) istotną redukcję poważnych incydentów sercowo-naczyniowych (MACE) i amputacji kończyn (MALE) zapewnia terapia skojarzona:",
+    "key": "Kwasem acetylosalicylowym w dawce 100 mg raz/d + rywaroksabanem w dawce naczyniowej 2,5 mg 2x/d",
+    "correctIdx": 0,
+    "opts": [
+      "Kwasem acetylosalicylowym w dawce 100 mg raz/d + rywaroksabanem w dawce naczyniowej 2,5 mg 2x/d",
+      "Warfaryną w dawce utrzymującej INR >4,0",
+      "Klopidogrelem w dawce 300 mg 3x na dobę",
+      "Heparyną drobnocząsteczkową podawaną przez 5 lat",
+      "Aspiryną 500 mg w skojarzeniu z ibuprofenem 800 mg"
+    ],
+    "corrLen": 95,
+    "avgWrong": 44,
+    "ratio": 2.16
+  },
+  {
+    "caseId": 142,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jakie jest prawidłowe postępowanie miejscowe w przypadku obecności suchej, czarnej martwicy na paluchu stopy u chorego z CLTI PRZED wykonaniem rewaskularyzacji naczyniowej?",
+    "key": "Utrzymanie martwicy w stanie suchym (dezynfekcja spirytusowa/jodowa, suchy jałowy opatrunek) i odroczenie debridementu do czasu po udrożnieniu naczyń",
+    "correctIdx": 0,
+    "opts": [
+      "Utrzymanie martwicy w stanie suchym (dezynfekcja spirytusowa/jodowa, suchy jałowy opatrunek) i odroczenie debridementu do czasu po udrożnieniu naczyń",
+      "Natychmiastowe mechaniczne wycięcie martwicy skalpelem do kości w gabinecie zabiegowym",
+      "Zalecenie codziennego moczenia stopy w misce z gorącą wodą z szarym mydłem",
+      "Nałożenie wilgotnych okładów z maści ichtiolowej pod folią okluzyjną",
+      "Wprowadzenie pijawek lekarskich na brzeg martwicy"
+    ],
+    "corrLen": 149,
+    "avgWrong": 69,
+    "ratio": 2.15
+  },
+  {
+    "caseId": 142,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Docelowe stężenie cholesterolu frakcji LDL w surowicy u chorego z rozpoznaniem CLTI (kategoria ekstremalnego ryzyka sercowo-naczyniowego) zgodnie z wytycznymi ESC/PTK wynosi:",
+    "key": "< 55 mg/dl (< 1,4 mmol/l) oraz redukcja o co najmniej 50% w stosunku do wartości wyjściowej",
+    "correctIdx": 0,
+    "opts": [
+      "< 55 mg/dl (< 1,4 mmol/l) oraz redukcja o co najmniej 50% w stosunku do wartości wyjściowej",
+      "< 115 mg/dl (< 3,0 mmol/l)",
+      "< 190 mg/dl (< 5,0 mmol/l)",
+      "Stężenie LDL nie ma znaczenia w chorobach tętnic obwodowych",
+      "Pomiędzy 150 a 200 mg/dl"
+    ],
+    "corrLen": 91,
+    "avgWrong": 34,
+    "ratio": 2.7
+  },
+  {
+    "caseId": 142,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z przepisami o orzekaniu o niepełnosprawności oraz zasadami refundacji wyrobów medycznych przez Narodowy Fundusz Zdrowia (NFZ), pacjentowi z zaawansowanym zespołem stopy cukrzycowej i krytycznym niedokrwieniem kończyn (Fontaine IV) przysługuje zlecenie na zaopatrzenie w:",
+    "key": "A. Specjalistyczne obuwie ortopedyczne z indywidualną wkładką odciążającą przodostopie oraz wózek inwalidzki (w razie obustronnej niesprawności lub amputacji), wystawiane przez uprawnionego lekarza specjalistę.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Specjalistyczne obuwie ortopedyczne z indywidualną wkładką odciążającą przodostopie oraz wózek inwalidzki (w razie obustronnej niesprawności lub amputacji), wystawiane przez uprawnionego lekarza specjalistę.",
+      "B. Wyłącznie skierowanie do zakładu opiekuńczo-leczniczego (ZOL) z zakazem opuszczania placówki.",
+      "C. Karnet na zabiegi krioterapii ogólnoustrojowej w kriokomorze bez konsultacji angiologicznej.",
+      "D. Płatne w 100% przez pacjenta ortezy bez możliwości jakiejkolwiek refundacji publicznej.",
+      "E. Zwolnienie z obowiązku posiadania dokumentacji medycznej w poradni stopy cukrzycowej."
+    ],
+    "corrLen": 210,
+    "avgWrong": 92,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 143,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Objaw Amaurosis fugax (przemijająca ślepota jednooczna) jest patognomonicznym zwiastunem niedokrwienia mózgu w dorzeczu:",
+    "key": "Tętnicy szyjnej wewnętrznej po tej samej stronie co zaburzenia widzenia",
+    "correctIdx": 0,
+    "opts": [
+      "Tętnicy szyjnej wewnętrznej po tej samej stronie co zaburzenia widzenia",
+      "Tętnicy szyjnej wewnętrznej po stronie przeciwnej",
+      "Tętnicy kręgowej i tętnicy podstawnej",
+      "Tętnicy rdzeniowej przedniej",
+      "Żyły głównej górnej"
+    ],
+    "corrLen": 71,
+    "avgWrong": 33,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 143,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Wskaż prawidłowy sposób obliczania stopnia stenozy tętnicy szyjnej wewnętrznej zgodnie z metodą NASCET:",
+    "key": "Porównanie średnicy światła w miejscu zwężenia do średnicy prawidłowego, dystalnego odcinka tętnicy szyjnej wewnętrznej poza opuszką",
+    "correctIdx": 0,
+    "opts": [
+      "Porównanie średnicy światła w miejscu zwężenia do średnicy prawidłowego, dystalnego odcinka tętnicy szyjnej wewnętrznej poza opuszką",
+      "Porównanie średnicy zwężenia do średnicy tętnicy szyjnej wspólnej",
+      "Porównanie średnicy zwężenia do szacowanej pierwotnej średnicy opuszki",
+      "Ocena wyłącznie pola powierzchni przekroju żyły szyjnej wewnętrznej",
+      "Stosunek długości blaszki miażdżycowej do wzrostu pacjenta"
+    ],
+    "corrLen": 132,
+    "avgWrong": 65,
+    "ratio": 2.03
+  },
+  {
+    "caseId": 143,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Stentowanie tętnicy szyjnej (CAS) jest preferowaną alternatywą dla endarterektomii chirurgicznej (CEA) w przypadku:",
+    "key": "Trudnych warunków anatomicznych do operacji otwartej: szyi po radioterapii, restenozy po przebytej CEA lub bardzo wysokiego odejścia zwężenia",
+    "correctIdx": 0,
+    "opts": [
+      "Trudnych warunków anatomicznych do operacji otwartej: szyi po radioterapii, restenozy po przebytej CEA lub bardzo wysokiego odejścia zwężenia",
+      "Obecności masywnych, okrężnych zwapnień łuku aorty u pacjenta w wieku 85 lat",
+      "Uczulenia pacjenta na znieczulenie miejscowe",
+      "Tętniaka rozwarstwiającego aorty wstępującej typu Stanford A",
+      "Zwężenia tętnicy szyjnej o stopniu poniżej 20%"
+    ],
+    "corrLen": 141,
+    "avgWrong": 57,
+    "ratio": 2.5
+  },
+  {
+    "caseId": 144,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Oznaczenie stężenia D-dimerów w surowicy u pacjenta z podejrzeniem zakrzepicy żył głębokich charakteryzuje się:",
+    "key": "Bardzo wysoką czułością i wysoką ujemną wartością predykcyjną (NPV), co pozwala na bezpieczne wykluczenie DVT u chorych z niskim prawdopodobieństwem klinicznym",
+    "correctIdx": 0,
+    "opts": [
+      "Bardzo wysoką czułością i wysoką ujemną wartością predykcyjną (NPV), co pozwala na bezpieczne wykluczenie DVT u chorych z niskim prawdopodobieństwem klinicznym",
+      "Wysoką swoistością pozwalającą na jednoznaczne potwierdzenie zakrzepicy przy każdym podwyższonym wyniku",
+      "Całkowitym brakiem przydatności w diagnostyce żylnej choroby zakrzepowo-zatorowej",
+      "Przydatnością wyłącznie u kobiet ciężarnych w III trymestrze",
+      "Zależnością wyniku wyłącznie od stężenia cholesterolu we krwi"
+    ],
+    "corrLen": 159,
+    "avgWrong": 76,
+    "ratio": 2.09
+  },
+  {
+    "caseId": 144,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Bolesny obrzęk siniczy (Phlegmasia cerulea dolens) jest najcięższą postacią zakrzepicy żylnej charakteryzującą się:",
+    "key": "Masywną, całkowitą niedrożnością wszystkich pni żylnych kończyny (biodrowo-udowych), prowadzącą do krytycznego wzrostu ciśnienia tkanek, wtórnego zaciśnięcia tętnic i zgorzeli żylnej",
+    "correctIdx": 0,
+    "opts": [
+      "Masywną, całkowitą niedrożnością wszystkich pni żylnych kończyny (biodrowo-udowych), prowadzącą do krytycznego wzrostu ciśnienia tkanek, wtórnego zaciśnięcia tętnic i zgorzeli żylnej",
+      "Łagodnym zapaleniem mieszków włosowych podudzia",
+      "Wrodzonym brakiem żyły odpiszczelowej",
+      "Izolowanym pęknięciem torbieli Bakera bez zakrzepicy",
+      "Zakażeniem wirusem półpaśca wzdłuż dermatomu L4"
+    ],
+    "corrLen": 182,
+    "avgWrong": 46,
+    "ratio": 3.98
+  },
+  {
+    "caseId": 145,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Zgodnie z wytycznymi Europejskiego Towarzystwa Chirurgii Naczyniowej (ESVS), jeśli skrzeplina w zakrzepowym zapaleniu żyły odpiszczelowej (SVT) zbliża się do ujścia odpiszczelowo-udowego (SFJ) na odległość mniejszą niż 3 cm, właściwym postępowaniem jest:",
+    "key": "Wdrożenie pełnej terapeutycznej dawki antykoagulacji (tak jak w zakrzepicy żył głębokich – DVT) przez okres co najmniej 3 miesięcy",
+    "correctIdx": 0,
+    "opts": [
+      "Wdrożenie pełnej terapeutycznej dawki antykoagulacji (tak jak w zakrzepicy żył głębokich – DVT) przez okres co najmniej 3 miesięcy",
+      "Stosowanie wyłącznie maści z wyciągiem z kasztanowca i okładów z kwasu bornego",
+      "Zalecenie całkowitego bezruchu w łóżku przez 30 dni bez podawania leków",
+      "Podanie profilaktycznej dawki aspiryny (75 mg raz na dobę) przez 7 dni",
+      "Wykonanie pilnego nakłucia lędźwiowego"
+    ],
+    "corrLen": 130,
+    "avgWrong": 64,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 145,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego u każdego pacjenta z klinicznym podejrzeniem zakrzepowego zapalenia żył powierzchownych (SVT) konieczne jest wykonanie badania ultrasonograficznego Duplex Doppler obu kończyn dolnych?",
+    "key": "Ponieważ u około 20-25% chorych z klinicznym SVT współistnieje niema klinicznie zakrzepica żył głębokich (DVT), a granica skrzepliny w naczyniu sięga zwykle wyżej niż widoczny rumień skóry",
+    "correctIdx": 0,
+    "opts": [
+      "Ponieważ u około 20-25% chorych z klinicznym SVT współistnieje niema klinicznie zakrzepica żył głębokich (DVT), a granica skrzepliny w naczyniu sięga zwykle wyżej niż widoczny rumień skóry",
+      "W celu pomiaru długości kości udowej",
+      "Badanie USG wykonuje się wyłącznie w celu kwalifikacji do amputacji",
+      "USG jest wymagane tylko u pacjentów z temperaturą ciała powyżej 40°C",
+      "Jest to wymóg wyłącznie statystyczny niemający wpływu na postępowanie lecznicze"
+    ],
+    "corrLen": 188,
+    "avgWrong": 63,
+    "ratio": 3.01
+  },
+  {
+    "caseId": 145,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Objaw Trousseau (Thrombophlebitis migrans – wędrujące zakrzepowe zapalenie żył powierzchownych) jest klasycznym zespołem paraneoplastycznym najczęściej towarzyszącym:",
+    "key": "Rakowi trzustki, rakowi żołądka lub gruczolakorakowi płuca",
+    "correctIdx": 0,
+    "opts": [
+      "Rakowi trzustki, rakowi żołądka lub gruczolakorakowi płuca",
+      "Białaczce limfoblastycznej u dzieci",
+      "Łagodnemu gruczolakowi kory nadnerczy",
+      "Chorobie Hashimoto",
+      "Torbieli prostej nerki"
+    ],
+    "corrLen": 58,
+    "avgWrong": 28,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 145,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Kiedy w ostrym zakrzepowym zapaleniu żyły odpiszczelowej może być rozważana pilna interwencja chirurgiczna (crossektomia – podwiązanie ujścia SFJ)?",
+    "key": "Gdy skrzeplina penetruje do żyły udowej wspólnej (SFJ), a u pacjenta występują bezwzględne przeciwwskazania do leczenia przeciwkrzepliwego",
+    "correctIdx": 0,
+    "opts": [
+      "Gdy skrzeplina penetruje do żyły udowej wspólnej (SFJ), a u pacjenta występują bezwzględne przeciwwskazania do leczenia przeciwkrzepliwego",
+      "U każdego chorego z żylakami niezależnie od stopnia zaawansowania",
+      "Wyłącznie u kobiet w pierwszym trymestrze ciąży",
+      "W przypadku współistnienia cukrzycy typu 2",
+      "Crossektomia jest zabiegiem historycznym i nie wolno jej wykonywać"
+    ],
+    "corrLen": 138,
+    "avgWrong": 55,
+    "ratio": 2.51
+  },
+  {
+    "caseId": 145,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 62-letniego dotychczas zdrowego pacjenta bez żylaków stwierdzono kolejny (trzeci w ciągu 2 miesięcy) epizod zakrzepowego zapalenia żył powierzchownych w zmiennych lokalizacjach (objaw Trousseau). Jakie postępowanie orzecznicze i administracyjne w ramach polskiego systemu ochrony zdrowia powinien podjąć lekarz POZ?",
+    "key": "A. Natychmiastowe wystawienie Karty Diagnostyki i Leczenia Onkologicznego (Karty DiLO) z podejrzeniem procesu rozrostowego (np. raka trzustki/płuc) w celu skierowania do szybkiej terapii onkologicznej oraz pilne zlecenie badań obrazowych.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Natychmiastowe wystawienie Karty Diagnostyki i Leczenia Onkologicznego (Karty DiLO) z podejrzeniem procesu rozrostowego (np. raka trzustki/płuc) w celu skierowania do szybkiej terapii onkologicznej oraz pilne zlecenie badań obrazowych.",
+      "B. Wystawienie zwolnienia ZUS ZLA na 182 dni bez podejmowania jakiejkolwiek diagnostyki przyczynowej.",
+      "C. Zgłoszenie przypadku do Państwowej Inspekcji Sanitarnej jako ogniska zakażenia szpitalnego.",
+      "D. Odmowa dalszego leczenia i zalecenie stosowania wyłącznie maści z kasztanowca.",
+      "E. Skierowanie do sanatorium uzdrowiskowego na kąpiele siarczkowe w trybie pilnym."
+    ],
+    "corrLen": 238,
+    "avgWrong": 90,
+    "ratio": 2.66
+  },
+  {
+    "caseId": 146,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Jaki test prowokacyjny w badaniu fizykalnym pozwala na wysunięcie podejrzenia zespołu usidlenia tętnicy podkolanowej (PAES)?",
+    "key": "Badanie tętna na tętnicy grzbietowej stopy podczas czynnego zgięcia podeszwowego stopy z oporem lub biernego zgięcia grzbietowego przy wyprostowanym kolanie",
+    "correctIdx": 0,
+    "opts": [
+      "Badanie tętna na tętnicy grzbietowej stopy podczas czynnego zgięcia podeszwowego stopy z oporem lub biernego zgięcia grzbietowego przy wyprostowanym kolanie",
+      "Badanie odruchów ścięgnistych młoteczkiem neurologicznym",
+      "Uniesienie kończyny górnej z głębokim wdechem (próba Adsona)",
+      "Pomiar ciśnienia tętniczego na obu ramionach",
+      "Próba Trendelenburga dla żył powierzchownych"
+    ],
+    "corrLen": 156,
+    "avgWrong": 51,
+    "ratio": 3.06
+  },
+  {
+    "caseId": 146,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Badaniem obrazowym z wyboru o najwyższej wartości diagnostycznej w zespole usidlenia tętnicy podkolanowej jest:",
+    "key": "Rezonans magnetyczny z angiografią (Angio-MRI) dołu podkolanowego z próbami czynnościowymi",
+    "correctIdx": 0,
+    "opts": [
+      "Rezonans magnetyczny z angiografią (Angio-MRI) dołu podkolanowego z próbami czynnościowymi",
+      "Przeglądowe zdjęcie RTG stawu kolanowego na stojąco",
+      "Pletyzmografia płucna",
+      "Scyntygrafia perfuzyjna mięśnia sercowego",
+      "Tomografia komputerowa głowy bez kontrastu"
+    ],
+    "corrLen": 90,
+    "avgWrong": 39,
+    "ratio": 2.32
+  },
+  {
+    "caseId": 146,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Dlaczego angioplastyka balonowa i wszczepienie stentu naczyniowego (PTA/stent) są BEZWZGLĘDNIE PRZECIWWSKAZANE w anatomicznym zespole usidlenia tętnicy podkolanowej?",
+    "key": "Siły mechaniczne wywierane przez pracujący mięsień powodują zgniecenie, złamanie stentu i ostrą zakrzepicę naczynia bez usunięcia przyczyny ucisku",
+    "correctIdx": 0,
+    "opts": [
+      "Siły mechaniczne wywierane przez pracujący mięsień powodują zgniecenie, złamanie stentu i ostrą zakrzepicę naczynia bez usunięcia przyczyny ucisku",
+      "Stenty metalowe ulegają natychmiastowej korozji chemicznej pod wpływem kwasu mlekowego",
+      "W tętnicy podkolanowej krew nie krzepnie",
+      "Stentowanie tętnic jest zakazane u sportowców przez przepisy antydopingowe WADA",
+      "Zabieg ten wywołuje natychmiastowe zrośnięcie rzepki z kością udową"
+    ],
+    "corrLen": 146,
+    "avgWrong": 68,
+    "ratio": 2.15
+  },
+  {
+    "caseId": 146,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Leczeniem z wyboru u pacjenta z anatomicznym zespołem usidlenia tętnicy podkolanowej bez uszkodzenia ściany naczynia jest:",
+    "key": "Chirurgiczne odbarczenie naczynia poprzez miotomię (przecięcie) ektopowego przyczepu głowy przyśrodkowej mięśnia brzuchatego łydki",
+    "correctIdx": 0,
+    "opts": [
+      "Chirurgiczne odbarczenie naczynia poprzez miotomię (przecięcie) ektopowego przyczepu głowy przyśrodkowej mięśnia brzuchatego łydki",
+      "Amputacja kończyny dolnej na poziomie podudzia",
+      "Długotrwała farmakoterapia doustnymi antykoagulantami bez operacji",
+      "Wstrzyknięcie glikokortykosteroidów do jamy stawu kolanowego",
+      "Zalecenie całkowitej rezygnacji z chodzenia i poruszanie się na wózku"
+    ],
+    "corrLen": 130,
+    "avgWrong": 60,
+    "ratio": 2.16
+  },
+  {
+    "caseId": 146,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Nieleczony zespół usidlenia tętnicy podkolanowej stwarza ryzyko rozwoju powikłania w postaci:",
+    "key": "Tętniaka pozawężeniowego tętnicy podkolanowej, zakrzepicy i ostrego niedokrwienia stopy w mechanizmie zatorowości obwodowej",
+    "correctIdx": 0,
+    "opts": [
+      "Tętniaka pozawężeniowego tętnicy podkolanowej, zakrzepicy i ostrego niedokrwienia stopy w mechanizmie zatorowości obwodowej",
+      "Wrzodziejącego zapalenia jelita grubego",
+      "Ostrej niewydolności wątroby z encefalopatią",
+      "Odmy opłucnowej prężnej",
+      "Wrodzonego zwichnięcia stawu biodrowego"
+    ],
+    "corrLen": 123,
+    "avgWrong": 36,
+    "ratio": 3.39
+  },
+  {
+    "caseId": 146,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym różni się torbielowate zwyrodnienie przydanki tętnicy podkolanowej (Cystic Adventitial Disease – CAD) od zespołu usidlenia tętnicy podkolanowej (PAES)?",
+    "key": "W CAD zwężenie naczynia wynika z obecności torbieli śródściennej wypełnionej galaretowatą mucyną w obrębie przydanki tętnicy, bez anomalii anatomicznej mięśni",
+    "correctIdx": 0,
+    "opts": [
+      "W CAD zwężenie naczynia wynika z obecności torbieli śródściennej wypełnionej galaretowatą mucyną w obrębie przydanki tętnicy, bez anomalii anatomicznej mięśni",
+      "CAD dotyczy wyłącznie małych dzieci w 1. roku życia",
+      "W CAD ból pojawia się wyłącznie podczas snu",
+      "CAD leczy się wyłącznie aspiryną w małej dawce",
+      "CAD jest chorobą nowotworową złośliwą dającą przerzuty do mózgu"
+    ],
+    "corrLen": 158,
+    "avgWrong": 51,
+    "ratio": 3.11
+  },
+  {
+    "caseId": 146,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z zasadami medycyny sportowej i orzecznictwa lekarskiego, jakie orzeczenie o zdolności do uprawiania wyczynowego sportu biegowego powinien wydać lekarz u 24-letniego sportowca z rozpoznanym objawowym zespołem usidlenia tętnicy podkolanowej (PAES) przed zabiegiem operacyjnym?",
+    "key": "A. Czasowa niezdolność do uprawiania sportów wyczynowych wymagających biegu do czasu udanego chirurgicznego odbarczenia naczynia i pełnej rekonwalescencji, ze względu na ryzyko ostrej zakrzepicy, tętniaka i utraty kończyny.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Czasowa niezdolność do uprawiania sportów wyczynowych wymagających biegu do czasu udanego chirurgicznego odbarczenia naczynia i pełnej rekonwalescencji, ze względu na ryzyko ostrej zakrzepicy, tętniaka i utraty kończyny.",
+      "B. Całkowity brak przeciwwskazań – pacjent może kontynuować starty w maratonach pod warunkiem stosowania maści rozgrzewających.",
+      "C. Trwała dyskwalifikacja ze wszelkich form aktywności ruchowej do końca życia.",
+      "D. Zezwolenie na biegi długodystansowe wyłącznie w obuwiu z twardą wkładką węglową.",
+      "E. Obowiązek startu wyłącznie w zawodach na dystansach sprinterskich do 60 metrów."
+    ],
+    "corrLen": 223,
+    "avgWrong": 93,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 147,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Podstawowym badaniem fizykalnym pozwalającym na wysunięcie podejrzenia istotnego zwężenia tętnicy podobojczykowej u pacjenta z zawrotami głowy jest:",
+    "key": "Obustronny pomiar ciśnienia tętniczego na obu ramionach i stwierdzenie asymetrii ciśnienia skurczowego > 20-30 mmHg",
+    "correctIdx": 0,
+    "opts": [
+      "Obustronny pomiar ciśnienia tętniczego na obu ramionach i stwierdzenie asymetrii ciśnienia skurczowego > 20-30 mmHg",
+      "Pomiar obwodu klatki piersiowej na wdechu i wydechu",
+      "Ostukiwanie kręgosłupa piersiowego młotkiem neurologicznym",
+      "Badanie czucia wibracji stroikiem na rzepce",
+      "Pomiar ciśnienia śródgałkowego metodą aplanacyjną"
+    ],
+    "corrLen": 115,
+    "avgWrong": 50,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 147,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Objawy neurologiczne w zespole podkradania tętnicy podobojczykowej wynikają z niedokrwienia struktur zaopatrywanych przez krążenie kręgowo-podstawne i obejmują:",
+    "key": "Zawroty głowy, ataksję, zaburzenia widzenia (podwójne widzenie) oraz nagłe upadki atoniczne (drop attacks) prowokowane wysiłkiem kończyny górnej",
+    "correctIdx": 0,
+    "opts": [
+      "Zawroty głowy, ataksję, zaburzenia widzenia (podwójne widzenie) oraz nagłe upadki atoniczne (drop attacks) prowokowane wysiłkiem kończyny górnej",
+      "Masywne zaburzenia czucia na przeciwstronnej połowie twarzy",
+      "Afazję ruchową Broca bez zaburzeń równowagi",
+      "Wyłącznie drżenie spoczynkowe palców rąk o typie 'kręcenia pigułek'",
+      "Utratę pamięci świeżej o charakterze amnezji całkowitej"
+    ],
+    "corrLen": 144,
+    "avgWrong": 56,
+    "ratio": 2.57
+  },
+  {
+    "caseId": 147,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Na czym polega zespół podkradania wieńcowo-podobojczykowego (Coronary-Subclavian Steal Syndrome)?",
+    "key": "U pacjenta po CABG z użyciem LIMA, zwężenie tętnicy podobojczykowej powoduje odwrócenie przepływu w pomoście wieńcowym i niedokrwienie serca podczas wysiłku lewej ręki",
+    "correctIdx": 0,
+    "opts": [
+      "U pacjenta po CABG z użyciem LIMA, zwężenie tętnicy podobojczykowej powoduje odwrócenie przepływu w pomoście wieńcowym i niedokrwienie serca podczas wysiłku lewej ręki",
+      "Polega na zakrzepicy żyły podobojczykowej wywołanej zawałem serca",
+      "Jest to zakażenie elektrod stymulatora serca przez bakterie z jamy ustnej",
+      "Oznacza wrodzone odejście tętnicy wieńcowej od tętnicy promieniowej",
+      "Jest to pęknięcie tętniaka aorty wstępującej do tętnicy podobojczykowej"
+    ],
+    "corrLen": 167,
+    "avgWrong": 69,
+    "ratio": 2.42
+  },
+  {
+    "caseId": 147,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W badaniu USG Duplex Doppler tętnic kręgowych, próba przekrwienia reaktywnego (cuff hyperaemia test) polega na:",
+    "key": "Zaciśnięciu mankietu ciśnieniomierza na ramieniu powyżej ciśnienia skurczowego na 3 minuty, po czym nagłym spuszczeniu powietrza celem wyzwolenia wstecznego przepływu w tętnicy kręgowej",
+    "correctIdx": 0,
+    "opts": [
+      "Zaciśnięciu mankietu ciśnieniomierza na ramieniu powyżej ciśnienia skurczowego na 3 minuty, po czym nagłym spuszczeniu powietrza celem wyzwolenia wstecznego przepływu w tętnicy kręgowej",
+      "Ogrzewaniu kończyny w gorącej wodzie przez 2 godziny",
+      "Zanurzeniu dłoni w lodowatej wodzie z lodem",
+      "Podaniu dożylnym atropiny w dawce 2 mg",
+      "Wykonywaniu przysiadów na bieżni mechanicznej"
+    ],
+    "corrLen": 185,
+    "avgWrong": 45,
+    "ratio": 4.16
+  },
+  {
+    "caseId": 147,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z zasadami orzekania o czasowej niezdolności do pracy (ZUS ZLA), jakie zalecenie orzecznicze powinien wydać lekarz u 58-letniego mechanika samochodowego z objawowym zespołem podkradania tętnicy podobojczykowej lewej, u którego praca z uniesionymi rękami prowokuje zawroty głowy i stany przedomdleniowe?",
+    "key": "A. Wystawienie zaświadczenia o czasowej niezdolności do pracy (zwolnienia lekarskiego ZUS ZLA) ze względu na zagrożenie wypadkiem przy pracy oraz skierowanie do pilnego zabiegu rewaskularyzacyjnego (PTA/stent).",
+    "correctIdx": 0,
+    "opts": [
+      "A. Wystawienie zaświadczenia o czasowej niezdolności do pracy (zwolnienia lekarskiego ZUS ZLA) ze względu na zagrożenie wypadkiem przy pracy oraz skierowanie do pilnego zabiegu rewaskularyzacyjnego (PTA/stent).",
+      "B. Zalecenie pracy na drabinie z asekuracją sznurową bez zwolnienia z pracy.",
+      "C. Zezwolenie na pracę pod warunkiem wykonywania jej wyłącznie lewą ręką.",
+      "D. Natychmiastowe orzeczenie o całkowitej trwałej niezdolności do samodzielnej egzystencji.",
+      "E. Skierowanie na leczenie uzdrowiskowe bez diagnostyki naczyniowej."
+    ],
+    "corrLen": 210,
+    "avgWrong": 77,
+    "ratio": 2.73
+  },
+  {
+    "caseId": 148,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Zgodnie z zasadami protokołu ATLS (Advanced Trauma Life Support), badanie wstępne (Primary Survey) u pacjenta po ciężkim urazie wielonarządowym rozpoczyna się od litery 'c', która oznacza:",
+    "key": "Natychmiastowe zaopatrzenie katastrofalnych, masywnych krwotoków zewnętrznych zagrażających wykrwawieniem w kilkadziesiąt sekund",
+    "correctIdx": 0,
+    "opts": [
+      "Natychmiastowe zaopatrzenie katastrofalnych, masywnych krwotoków zewnętrznych zagrażających wykrwawieniem w kilkadziesiąt sekund",
+      "Podanie leków przeciwbólowych i uspokajających",
+      "Wykonanie przeglądowego zdjęcia rentgenowskiego czaszki",
+      "Pobranie wymazu z gardła w kierunku koronawirusa",
+      "Wprowadzenie zgłębnika żołądkowego celem odbarczenia"
+    ],
+    "corrLen": 128,
+    "avgWrong": 50,
+    "ratio": 2.55
+  },
+  {
+    "caseId": 148,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Koncepcja Damage Control Surgery (chirurgii kontroli uszkodzeń) u pacjenta w ciężkim wstrząsie urazowym polega na:",
+    "key": "Szybkim opanowaniu krwotoku i skażenia jelitowego oraz czasowym zamknięciu powłok, z odroczeniem ostatecznych rekonstrukcji narządowych do czasu ustabilizowania stanu chorego na OIT",
+    "correctIdx": 0,
+    "opts": [
+      "Szybkim opanowaniu krwotoku i skażenia jelitowego oraz czasowym zamknięciu powłok, z odroczeniem ostatecznych rekonstrukcji narządowych do czasu ustabilizowania stanu chorego na OIT",
+      "Wykonaniu wszystkich definitywnych rekonstrukcji narządowych i zespoleń kostnych podczas pierwszej operacji",
+      "Stosowaniu wyłącznie nieinwazyjnych metod zachowawczych bez otwierania powłok",
+      "Zastosowaniu znieczulenia miejscowego i wypisie chorego do domu",
+      "Podwiązaniu aorty piersiowej na stałe"
+    ],
+    "corrLen": 181,
+    "avgWrong": 71,
+    "ratio": 2.55
+  },
+  {
+    "caseId": 148,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Wskaż docelową wartość skurczowego ciśnienia tętniczego (SBP) w ramach tzw. hipotensji przyzwalającej (permissive hypotension) u pacjenta z krwotokiem pourazowym BEZ podejrzenia ciężkiego urazu czaszkowo-mózgowego:",
+    "key": "80 - 90 mmHg (lub wyczuwalne tętno na tętnicy promieniowej)",
+    "correctIdx": 0,
+    "opts": [
+      "80 - 90 mmHg (lub wyczuwalne tętno na tętnicy promieniowej)",
+      "130 - 150 mmHg",
+      "Powyżej 160 mmHg",
+      "Poniżej 40 mmHg",
+      "Dokładnie 120/80 mmHg"
+    ],
+    "corrLen": 59,
+    "avgWrong": 17,
+    "ratio": 3.58
+  },
+  {
+    "caseId": 148,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Nieprzytomny nieznany mężczyzna (NN) po wypadku komunikacyjnym z obrażeniami wielonarządowymi, odmą prężną i wstrząsem krwotocznym trafia do Centrum Urazowego. Zgodnie z art. 33 i art. 34 ust. 7 Ustawy o zawodach lekarza i lekarza dentysty oraz zasadami prawa medycznego:",
+    "key": "Lekarz podejmuje wszelkie niezbędne czynności diagnostyczne i zabiegi operacyjne ratujące życie bez zgody pacjenta (zgoda domniemana w stanie nagłym), odnotowując okoliczności w dokumentacji medycznej i niezwłocznie zawiadamiając właściwy sąd opiekuńczy o podjętych działaniach wobec pacjenta o nieustalonej tożsamości.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz podejmuje wszelkie niezbędne czynności diagnostyczne i zabiegi operacyjne ratujące życie bez zgody pacjenta (zgoda domniemana w stanie nagłym), odnotowując okoliczności w dokumentacji medycznej i niezwłocznie zawiadamiając właściwy sąd opiekuńczy o podjętych działaniach wobec pacjenta o nieustalonej tożsamości.",
+      "Do wykonania drenażu jamy opłucnej u nieprzytomnego NN konieczne jest wcześniejsze uzyskanie postanowienia sądu rodzinnego.",
+      "Personel ma prawny obowiązek wstrzymać wszelkie procedury ratunkowe do momentu ustalenia danych osobowych przez policję.",
+      "Brak możliwości uzyskania zgody pacjenta nakazuje zaniechanie transfuzji krwi i intubacji.",
+      "Decyzję o operacji u pacjenta NN może podjąć wyłącznie prokurator rejonowy w formie pisemnej."
+    ],
+    "corrLen": 319,
+    "avgWrong": 107,
+    "ratio": 3
+  },
+  {
+    "caseId": 149,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Wskaż prawidłową zasadę dotyczącą płynoterapii u pacjenta ze stłuczeniem płuc po tępym urazie klatki piersiowej bez aktywnego masywnego krwawienia:",
+    "key": "B. Obowiązuje restrykcyjna strategia płynowa z unikaniem przewodnienia, ponieważ nadmiar płynów nasila obrzęk stłuczonego płuca i przyspiesza rozwój ARDS.",
+    "correctIdx": 1,
+    "opts": [
+      "A. Należy wdrożyć agresywne przetaczanie krystaloidów (>3000 ml w pierwszych 2 godzinach).",
+      "B. Obowiązuje restrykcyjna strategia płynowa z unikaniem przewodnienia, ponieważ nadmiar płynów nasila obrzęk stłuczonego płuca i przyspiesza rozwój ARDS.",
+      "C. Płyny dożylne są bezwzględnie przeciwwskazane przez pierwsze 72 godziny.",
+      "D. Płynem z wyboru jest wyłącznie 10% roztwór glukozy.",
+      "E. Rutynowo podaje się 2000 ml 20% albuminy w pierwszych 6 godzinach."
+    ],
+    "corrLen": 154,
+    "avgWrong": 72,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 149,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Na czym polega zjawisko 'wewnętrznej pneumatycznej stabilizacji' (internal pneumatic splinting) w leczeniu wiotkiej klatki piersiowej?",
+    "key": "B. Na zastosowaniu nieinwazyjnego dodatniego ciśnienia w drogach oddechowych (CPAP / PEEP), które rozpręża płuco i od wewnątrz stabilizuje wyłamany segment ściany klatki piersiowej.",
+    "correctIdx": 1,
+    "opts": [
+      "A. Na chirurgicznym wprowadzeniu balonów do jam opłucnowych.",
+      "B. Na zastosowaniu nieinwazyjnego dodatniego ciśnienia w drogach oddechowych (CPAP / PEEP), które rozpręża płuco i od wewnątrz stabilizuje wyłamany segment ściany klatki piersiowej.",
+      "C. Na dooskrzelowym podaniu surfaktantu syntetycznego.",
+      "D. Na wypełnieniu żołądka powietrzem przez sondę żołądkową w celu podparcia przepony.",
+      "E. Na zastosowaniu kamizelki pneumatycznej uciskającej klatkę od zewnątrz."
+    ],
+    "corrLen": 181,
+    "avgWrong": 68,
+    "ratio": 2.65
+  },
+  {
+    "caseId": 149,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Pacjent doznał wiotkiej klatki piersiowej w wyniku upadku z rusztowania podczas pracy na budowie. Zgodnie z przepisami Kodeksu pracy i ustawy o ubezpieczeniu społecznym z tytułu wypadków przy pracy, jakie obowiązki spoczywają na pracodawcy i placówce medycznej?",
+    "key": "A. Obowiązek powołania zespołu powypadkowego, sporządzenia protokołu powypadkowego (karty wypadku w ciągu 14 dni) oraz niezwłocznego zawiadomienia właściwego okręgowego inspektora pracy (PIP) i prokuratora o wypadku ciężkim.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Obowiązek powołania zespołu powypadkowego, sporządzenia protokołu powypadkowego (karty wypadku w ciągu 14 dni) oraz niezwłocznego zawiadomienia właściwego okręgowego inspektora pracy (PIP) i prokuratora o wypadku ciężkim.",
+      "B. Bezwzględny zakaz leczenia szpitalnego do czasu zakończenia kontroli przez inspektora budowlanego.",
+      "C. Obowiązek pokrycia kosztów leczenia szpitalnego w całości przez poszkodowanego pracownika.",
+      "D. Wystawienie zaświadczenia lekarskiego z zakazem zgłaszania wypadku organom państwowym.",
+      "E. Zwolnienie pracodawcy z jakiejkolwiek odpowiedzialności pod warunkiem wypłacenia jednorazowej zapomogi."
+    ],
+    "corrLen": 224,
+    "avgWrong": 97,
+    "ratio": 2.3
+  },
+  {
+    "caseId": 150,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Zgodnie z wytycznymi ATLS (Advanced Trauma Life Support), masywny krwiak opłucnej (massive hemothorax) definiuje się jako nagłe nagromadzenie w jamie opłucnowej co najmniej:",
+    "key": "A. 1500 ml krwi (lub >1/3 objętości krwi krążącej pacjenta).",
+    "correctIdx": 0,
+    "opts": [
+      "A. 1500 ml krwi (lub >1/3 objętości krwi krążącej pacjenta).",
+      "B. 500 ml krwi.",
+      "C. 300 ml krwi.",
+      "D. 100 ml krwi z obecnością skrzepów.",
+      "E. 2500 ml krwi."
+    ],
+    "corrLen": 60,
+    "avgWrong": 21,
+    "ratio": 2.89
+  },
+  {
+    "caseId": 150,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Który z poniższych objawów klinicznych pozwala najpewniej odróżnić masywny krwiak opłucnej od odmy prężnej (tension pneumothorax) w badaniu fizykalnym na sali reanimacyjnej?",
+    "key": "A. Odgłos opukowy (stłumiony w krwiaku opłucnej vs bębenkowy w odmie prężnej) oraz wypełnienie żył szyjnych",
+    "correctIdx": 0,
+    "opts": [
+      "A. Odgłos opukowy (stłumiony w krwiaku opłucnej vs bębenkowy w odmie prężnej) oraz wypełnienie żył szyjnych",
+      "B. Wartość saturacji krwi tętniczej SpO2 (obniżona tylko w odmie).",
+      "C. Obecność tachykardii powyżej 100/min (obecna tylko w krwiaku).",
+      "D. Temperatura ciała mierzona w odbytnicy.",
+      "E. Liczba płytek krwi w morfologii."
+    ],
+    "corrLen": 107,
+    "avgWrong": 52,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 150,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Wskaż prawidłową lokalizację anatomiczną oraz zalecany rozmiar drenu opłucnowego stosowanego w leczeniu masywnego krwiaka opłucnej u osoby dorosłej:",
+    "key": "A. Gruby dren o rozmiarze 28–32F (lub do 36F) wprowadzony w V przestrzeni międzyżebrowej, nieco do przodu od linii pachowej środkowej, po górnym brzegu dolnego żebra.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Gruby dren o rozmiarze 28–32F (lub do 36F) wprowadzony w V przestrzeni międzyżebrowej, nieco do przodu od linii pachowej środkowej, po górnym brzegu dolnego żebra.",
+      "B. Cienki cewnik Pigtail 8F wprowadzony w II przestrzeni międzyżebrowej w linii środkowo-obojczykowej.",
+      "C. Igła 14G wprowadzona w VIII przestrzeni międzyżebrowej w linii łopatkowej.",
+      "D. Kaniula 18G wprowadzona w dołku podsercowym.",
+      "E. Dren 10F prowadzony bezpośrednio przez ranę kłutą klatki piersiowej."
+    ],
+    "corrLen": 166,
+    "avgWrong": 74,
+    "ratio": 2.24
+  },
+  {
+    "caseId": 150,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Które z poniższych kryteriów drenażowych stanowi bezwzględne wskazanie do pilnej torakotomii ratunkowej u pacjenta z krwiakiem opłucnej po urazie klatki piersiowej?",
+    "key": "A. Natychmiastowe utoczenie po założeniu drenu >1500 ml krwi LUB utrzymujące się krwawienie z drenu >200–250 ml/h przez kolejne 2–4 godziny.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Natychmiastowe utoczenie po założeniu drenu >1500 ml krwi LUB utrzymujące się krwawienie z drenu >200–250 ml/h przez kolejne 2–4 godziny.",
+      "B. Drenaż 50 ml krwi w ciągu pierwszych 6 godzin.",
+      "C. Utrzymujące się krwawienie o natężeniu 30 ml/h przez 12 godzin.",
+      "D. Drenaż 500 ml krwi z całkowitą stabilizacją ciśnienia tętniczego.",
+      "E. Obecność pojedynczego skrzepu w butli drenażowej."
+    ],
+    "corrLen": 140,
+    "avgWrong": 59,
+    "ratio": 2.38
+  },
+  {
+    "caseId": 150,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Które naczynia krwionośne najczęściej odpowiadają za masywne krwawienie do jamy opłucnej wymagające interwencji chirurgicznej (torakotomii)?",
+    "key": "A. Naczynia krążenia układowego wysokociśnieniowego: tętnice międzyżebrowe oraz tętnica piersiowa wewnętrzna.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Naczynia krążenia układowego wysokociśnieniowego: tętnice międzyżebrowe oraz tętnica piersiowa wewnętrzna.",
+      "B. Włośniczki miąższu płucnego krążenia małego.",
+      "C. Żyła odpromieniowa.",
+      "D. Drobne żyły powierzchowne skóry.",
+      "E. Tętnica krezkowa dolna."
+    ],
+    "corrLen": 109,
+    "avgWrong": 33,
+    "ratio": 3.35
+  },
+  {
+    "caseId": 150,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "W resuscytacji hemostatycznej pacjenta z masywnym krwiakiem opłucnej i wstrząsem krwotocznym lekiem antyfibrynolitycznym o udowodnionym wpływie na redukcję śmiertelności (badanie CRASH-2) jest:",
+    "key": "A. Kwas traneksamowy (TXA) podany w dawce 1 g i.v. w ciągu pierwszych 3 godzin od urazu.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Kwas traneksamowy (TXA) podany w dawce 1 g i.v. w ciągu pierwszych 3 godzin od urazu.",
+      "B. Heparyna niefrakcjonowana w bolusie 5000 j.m.",
+      "C. Alteplaza (rtPA) we wlewie dożylnym.",
+      "D. Kwas acetylosalicylowy w dawce 300 mg p.o.",
+      "E. Klopidogrel w dawce nasycającej 600 mg."
+    ],
+    "corrLen": 88,
+    "avgWrong": 44,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 150,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Jakie jest najczęstsze późne powikłanie niedostatecznie ewakuowanego lub przetrwałego krwiaka jamy opłucnej (retained hemothorax)?",
+    "key": "A. Ropniak opłucnej (empyema pleurae) oraz zwłóknienie opłucnej (fibrothorax) z uwięzieniem płuca.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Ropniak opłucnej (empyema pleurae) oraz zwłóknienie opłucnej (fibrothorax) z uwięzieniem płuca.",
+      "B. Pęknięcie aorty wstępującej.",
+      "C. Ostra białaczka limfoblastyczna.",
+      "D. Odruchowy obrzęk Quinckego.",
+      "E. Kamica pęcherzyka żółciowego."
+    ],
+    "corrLen": 98,
+    "avgWrong": 32,
+    "ratio": 3.06
+  },
+  {
+    "caseId": 150,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "29-letni mężczyzna trafił na SOR z raną kłutą klatki piersiowej zadaną nożem podczas bójki przed klubem. Zgodnie z art. 304 Kodeksu postępowania karnego (obowiązek zawiadomienia o przestępstwie) oraz przepisami o zawodzie lekarza, jakie postępowanie formalno-prawne jest wymagane od personelu medycznego?",
+    "key": "A. Niezwłoczne powiadomienie Policji lub Prokuratury o przyjęciu pacjenta z obrażeniami zadanymi niebezpiecznym narzędziem (przestępstwo ścigane z urzędu) oraz zabezpieczenie odzieży i ewentualnego narzędzia jako dowodów w sprawie, z zachowaniem nadrzędnego priorytetu ratowania życia.",
+    "correctIdx": 0,
+    "opts": [
+      "A. Niezwłoczne powiadomienie Policji lub Prokuratury o przyjęciu pacjenta z obrażeniami zadanymi niebezpiecznym narzędziem (przestępstwo ścigane z urzędu) oraz zabezpieczenie odzieży i ewentualnego narzędzia jako dowodów w sprawie, z zachowaniem nadrzędnego priorytetu ratowania życia.",
+      "B. Bezwzględne zachowanie tajemnicy lekarskiej i zakaz informowania Policji bez uprzedniej pisemnej zgody sprawcy napadu.",
+      "C. Zawiadomienie wyłącznie ubezpieczyciela pacjenta w celu wyegzekwowania opłaty za drenaż.",
+      "D. Samodzielne zatrzymanie pacjenta w izolatce do czasu przesłuchania przez sąd cywilny.",
+      "E. Brak jakichkolwiek obowiązków zawiadomienia, o ile pacjent był pod wpływem alkoholu."
+    ],
+    "corrLen": 285,
+    "avgWrong": 97,
+    "ratio": 2.95
+  }
+]

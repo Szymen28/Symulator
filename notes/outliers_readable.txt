@@ -1,0 +1,469 @@
+Total outliers: 78
+
+1. [Case #100 Step 2] ratio=2.17 (corr=290c, avgWrong=133c): Krok 2: Natychmiastowa wstępna resuscytacja przedoperacyjna (ABC)
+   V: Natychmiastowe założenie grubego zgłębnika nosowo-żołądkowego na grawitacyjny spływ w celu dekompresji żołądka (ochrona przed zachłyśnięciem), tlenoterapia, pilny dostęp naczyniowy i szybki bolus płynowy z krystaloidu (0.9% NaCl 10-20 ml/kg) oraz antybiotykoterapia o szerokim spektrum i.v.
+   X1 (136c): Podanie leków przeciwbiegunkowych doustnie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (134c): Nakłucie otrzewnej w celu pobrania żółci, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (130c): Karmienie piersią w celu nawodnienia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+2. [Case #102 Step 7] ratio=2.19 (corr=330c, avgWrong=151c): Krok 7: Ciężka postać IgE-niezależna: Zespół enteropatii FPIES
+   V: Ostry FPIES to ciężka, zagrażająca życiu reakcja IgE-niezależna, w której po 1–4 godzinach od spożycia alergenu (mleka, soi, ryżu) występują gwałtowne, wielokrotne wymioty, bladość, hipotermia (<36°C), letarg i wstrząs hipowolemiczny z leukocytozą z przesunięciem w lewo i kwasicą metaboliczną (często mylony z sepsą niemowlęcą!).
+   X1 (152c): FPIES to łagodny katar sienny występujący wyłącznie wiosną, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (155c): FPIES objawia się wyłącznie łysieniem plackowatym u noworodka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (146c): FPIES jest chorobą wywołaną zakażeniem koronawirusem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+3. [Case #102 Step 8] ratio=2.09 (corr=370c, avgWrong=177c): Krok 8: Nabywanie tolerancji immunologicznej i tzw. drabina mleczna
+   V: Rokowanie jest doskonałe: u ponad 80–90% dzieci z ABMK samoistna tolerancja immunologiczna wykształca się do 3.–5. roku życia; dietę bezmleczną kontynuuje się do ukończenia 9.–12. miesiąca życia, po czym podejmuje się kontrolowane próby reintrodukcji w oparciu o tzw. 'drabinę mleczną' (zaczynając od produktów pieczonych w wysokiej temperaturze – herbatniki, muffinki).
+   X1 (196c): Alergia na mleko jest nieuleczalna i dziecko do końca życia nie może mieć kontaktu z krową ani mlekiem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (164c): Już jutro należy podać dziecku 500 ml surowego mleka krowiego od krowy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (171c): Dziecko należy natychmiast zaszczepić odczulającą szczepionką wziewną z mleka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+4. [Case #103 Step 1] ratio=2.18 (corr=388c, avgWrong=178c): Krok 1: Wstępna ocena kliniczna ostrego bólu brzucha i wędrówki Kochera
+   V: Objaw Kochera (wędrujący ból brzucha): początkowy ból trzewny (przewodzony niespecyficznymi włóknami C układu autonomicznego z segmentu Th10 w rzucie pępka na skutek wzrostu ciśnienia w świetle wyrostka) przekształca się po kilkunastu godzinach w ból somatyczny (ostry, zlokalizowany w prawym dole biodrowym w wyniku przejścia procesu zapalnego na otrzewną ścienną unerwianą somatycznie).
+   X1 (191c): Wędrówka bólu świadczy o przemieszczaniu się kamienia moczowodowego z nerki do pęcherza moczowego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (168c): Jest to objaw Goldflama wskazujący na ostre odmiedniczkowe zapalenie nerek, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (174c): Ból okołopępkowy to czysta histeria dziecięca, zlecasz leki uspokajające i wypis, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+5. [Case #103 Step 2] ratio=2.99 (corr=466c, avgWrong=156c): Krok 2: Badanie przedmiotowe powłok brzusznych – punkty bolesności i objawy otrzewnowe
+   V: Punkt McBurneya (w 1/3 odległości od kolca biodrowego przedniego górnego do pępka), punkt Lanza (w 1/3 odległości między kolcami biodrowymi), objaw Blumberga (ból przy nagłym zwolnieniu ucisku powłok – zapalenie otrzewnej ściennej), objaw Rovsinga (ból w prawym dole biodrowym przy ucisku lewego dołu biodrowego) oraz objaw Jaworskiego (ból przy prostowaniu kończyny dolnej w stawie biodrowym przeciw oporowi – zapalenie wyrostka położonego zakątniczo / psoas sign).
+   X1 (171c): Objaw Chełmońskiego i objaw Murphy'ego, które potwierdzają zapalenie wyrostka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (130c): Objaw Courvoisiera w lewym podżebrzu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (166c): Głębokie i forsowne ugniatanie brzucha pięścią w celu pęknięcia wyrostka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+6. [Case #103 Step 4] ratio=2.31 (corr=438c, avgWrong=190c): Krok 4: Diagnostyka obrazowa z wyboru w pediatrii – Ultrasonografia (USG)
+   V: USG jest metodą I wyboru z uwagi na brak promieniowania jonizującego (ochrona radiologiczna tkanek dziecka); kryteria to: niepodatny na ucisk głowicą (incompressible), ślepo zakończony narząd cewkowy o średnicy zewnętrznej >6 mm, pogrubienie ściany >2-3 mm z hiperwaskularyzacją w color-Dopplerze, obecność hiperechogennego kamienia kałowego (fecalith) dającego cień akustyczny oraz wzmożona echogeniczność otaczającej tkanki tłuszczowej.
+   X1 (229c): Złotym standardem u każdego dziecka jest tomografia komputerowa (TK) brzucha i miednicy z kontrastem dożylnym, doustnym i doodbytniczym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (181c): USG wykazuje zapalenie wyrostka tylko wtedy, gdy jego średnica wynosi dokładnie 1 mm jako badanie pierwszego rzutu przed podjęciem jakichkolwiek inwazyjnych decyzji terapeutycznych.
+   X3 (159c): Wystarczy wykonanie przeglądowego RTG klatki piersiowej na leżąco, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+7. [Case #103 Step 6] ratio=2.07 (corr=368c, avgWrong=178c): Krok 6: Przygotowanie przedoperacyjne i profilaktyka antybiotykowa
+   V: Ścisła dieta zero (nic doustnie), nawadnianie dożylne zbilansowanym krystaloidem w celu wyrównania odwodnienia, dożylne leki przeciwbólowe (paracetamol i.v.) oraz podanie pojedynczej dawki profilaktyki antybiotykowej o szerokim spektrum przeciw tlenowcom i beztlenowcom jelitowym (np. ceftriakson/cefazolina + metronidazol i.v.) w ciągu 60 minut przed nacięciem skóry.
+   X1 (185c): Podanie doustnego syropu przeczyszczającego z laktulozą, aby wypróżnić dziecko przed stołem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (207c): Odstąpienie od antybiotyku, ponieważ antybiotyk podaje się dopiero wtedy, gdy po 7 dniach pojawi się ropa w ranie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (141c): Ciepłe okłady z termoforu na prawy dół biodrowy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+8. [Case #103 Step 8] ratio=2.29 (corr=331c, avgWrong=145c): Krok 8: Powikłania pooperacyjne – Ropień w zagłębieniu Douglasa i zrostowa niedrożność jelit
+   V: Ropień miednicy mniejszej / zagłębienia Douglasa (Abscessus cavi Douglasi); diagnozuje się go badaniem per rectum (wyczuwalne bolesne, chełboczące uwypuklenie przedniej ściany odbytnicy) oraz USG przezbrzusznym / przezodbytniczym; leczenie polega na drenażu (przezodbytniczym, przezskórnym lub laparoskopowym) i antybiotykoterapii.
+   X1 (147c): Zwykłe ząbkowanie zębów mądrości u 7-letniego dziecka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (150c): Nawrót wyrostka robaczkowego, który odrósł w ciągu 6 dni, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (137c): Celiakia o piorunującym początku po zabiegu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+9. [Case #104 Step 4] ratio=2.13 (corr=310c, avgWrong=146c): Krok 4: Wdrożenie empirycznej antybiotykoterapii parenteralnej
+   V: Hospitalizacja na oddziale pediatrycznym i natychmiastowa dożylna (parenteralna) antybiotykoterapia empiryczna cefalosporyną III generacji (ceftriakson 50–75 mg/kg m.c. 1x/dobę i.v. lub cefotaksym 100–150 mg/kg m.c./dobę w 3 dawkach) LUB ampicylina z aminoglikozydem (gentamycyna) wraz z nawadnianiem dożylnym.
+   X1 (132c): Doustna furagina w syropie przez 3 dni, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (127c): Doustna doksycyklina w tabletkach, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (178c): Wyłącznie leki przeciwgorączkowe i oczekiwanie na posiew przez 5 dni bez antybiotyku, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+10. [Case #104 Step 8] ratio=2.44 (corr=355c, avgWrong=145c): Krok 8: Dokończenie leczenia (terapia sekwencyjna) i zalecenia przy wypisie
+   V: Dokończenie pełnego 10–14-dniowego kursu antybiotykoterapii doustnie, prawidłowa higiena krocza (podcieranie od przodu do tyłu, unikanie płynów do kąpieli z pianą), obfite pojenie dziecka oraz żelazna zasada: przy KAŻDYM kolejnym epizodzie gorączki bez jasnego ogniska należy W PIERWSZEJ KOLEJNOŚCI zbadać mocz przed włączeniem jakiegokolwiek antybiotyku.
+   X1 (152c): Odstawienie antybiotyku natychmiast po wyjściu ze szpitala, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (153c): Dożywotnia profilaktyka cyprofloksacyną w dawce maksymalnej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (131c): Zakaz podawania dziecku wody i płynów, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+11. [Case #116 Step 7] ratio=2.12 (corr=310c, avgWrong=146c): Krok 7: Diagnostyka różnicowa – dlaczego to nie jest odra ani różyczka?
+   V: Czas pojawienia się wysypki względem gorączki (wysypka pojawia się PO krytycznym spadku temperatury do normy, podczas gdy w odrze i różyczce występuje w trakcie trwania gorączki) oraz lokalizacja (w rumieniu nagłym głównie na tułowiu z oszczędzeniem twarzy, w odrze i różyczce zaczyna się od twarzy i zstępuje)
+   X1 (151c): Rumień nagły występuje wyłącznie u osób po 80. roku życia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (141c): W odrze nie występuje nigdy gorączka ani kaszel, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (146c): W różyczce zawsze dochodzi do martwicy kości długich, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+12. [Case #117 Step 4] ratio=2.06 (corr=321c, avgWrong=156c): Krok 4: Najczęstsze powikłanie ostrej fazy – odwodnienie i postępowanie
+   V: Głównym zagrożeniem jest odwodnienie spowodowane odynofagią (bólem przy połykaniu); kluczowe jest skuteczne znieczulenie przeciwbólowe (Paracetamol, Ibuprofen, aerozole mukoadhezyjne z lidokainą/kwasem hialuronowym) oraz podawanie chłodnych, niekwaśnych płynów, lodów i jogurtów; w razie braku poprawy nawadnianie dożylne
+   X1 (173c): Podawanie gorącej herbaty z dużą ilością cytryny i soli w celu wypalenia wirusa, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (145c): Natychmiastowe usunięcie wszystkich zębów mlecznych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (150c): Zalecenie całkowitej głodówki i zakazu picia przez 7 dni, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+13. [Case #118 Step 3] ratio=2.14 (corr=384c, avgWrong=180c): Krok 3: Kwalifikacja do nakłucia lędźwiowego (LP) – wykluczenie ZOMR
+   V: Nakłucie lędźwiowe jest bezwzględnie wskazane w przypadku obecności objawów oponowych, przedłużających się zaburzeń świadomości po napadzie, u dzieci wcześniej leczonych antybiotykami (które mogą maskować ZOMR) oraz silnie rozważane u niemowląt <12. (a szczególnie <6.) miesiąca życia. U 18-miesięcznego Jasia w pełnym kontakcie logicznym i bez objawów oponowych LP NIE JEST wskazane!
+   X1 (190c): Nakłucie lędźwiowe musi być wykonane u każdego dziecka po każdym napadzie drgawek bez wyjątku jako badanie pierwszego rzutu przed podjęciem jakichkolwiek inwazyjnych decyzji terapeutycznych.
+   X2 (173c): Nakłucie lędźwiowe wykonuje się wyłącznie wtedy, gdy dziecko ma złamaną nogę jako badanie pierwszego rzutu przed podjęciem jakichkolwiek inwazyjnych decyzji terapeutycznych.
+   X3 (176c): Nakłucie lędźwiowe jest prawnie zakazane w Polsce u osób poniżej 18. roku życia jako badanie pierwszego rzutu przed podjęciem jakichkolwiek inwazyjnych decyzji terapeutycznych.
+
+14. [Case #119 Step 2] ratio=2.42 (corr=384c, avgWrong=159c): Krok 2: Natychmiastowe postępowanie resuscytacyjne w przełomie solnym
+   V: 1. Kardiomonitoring + zabezpieczenie wkłucia dożylnego/doszpikowego, 2. Bolus płynowy 0,9% NaCl 20 ml/kg m.c. w ciągu 30 minut (bez dodatku potasu!), 3. Wyrównanie hipoglikemii (10% Glukoza 2-4 ml/kg bolus), 4. Natychmiastowe dożylne podanie Hydrokortyzonu w dawce ratunkowej 50-100 mg/m² (ok. 25-50 mg i.v.), 5. Kardioprotekcja: 10% Glukonian wapnia 0,5-1 ml/kg i.v. pod kontrolą EKG
+   X1 (178c): Wlew płynu wieloelektrolitowego z dodatkiem 40 mmol/l chlorku potasu w celu natychmiastowej stabilizacji parametrów hemodynamicznych i zabezpieczenia chorego przed dekompensacją.
+   X2 (148c): Podanie furosemidu i spironolaktonu w wysokich dawkach, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (150c): Pilna laparotomia zwiadowcza w celu nacięcia odźwiernika, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+15. [Case #119 Step 5] ratio=2.21 (corr=324c, avgWrong=147c): Krok 5: Manifestacja u noworodków płci żeńskiej (46,XX) – wirylizacja
+   V: Występuje wirylizacja narządów płciowych zewnętrznych (obojnacze narządy płciowe / DSD) – przerost łechtaczki przypominający prącie, zrośnięcie warg sromowych przypominające mosznę oraz wspólne ujście cewki moczowej i pochwy (zatoka moczowo-płciowa) wg skali Pradera (I-V), przy prawidłowej obecności macicy i jajników w USG
+   X1 (146c): Dziewczynki rodzą się bez nerek i pęcherza moczowego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (156c): U dziewczynek nie występują żadne objawy, są całkowicie zdrowe, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (138c): Następuje odwrócenie trzewi (situs inversus), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+16. [Case #120 Step 5] ratio=2.49 (corr=403c, avgWrong=162c): Krok 5: Rola wodorowęglanów (NaHCO3) – KONTROWERSJA I ZALECENIA
+   V: Podawanie wodorowęglanów (NaHCO3) jest w rutynowym leczeniu DKA BEZWZGLĘDNIE PRZECIWWSKAZANE! Zwiększa ryzyko obrzęku mózgu, wywołuje paradoksalną kwasicę wewnątrzkomórkową OUN (CO2 łatwo dyfunduje przez barierę krew-mózg, a HCO3- nie), nasila hipokaliemię i opóźnia ustępowanie ketonemii. Może być rozważane jedynie w skrajnych stanach zagrożenia życia przy pH <6,9 z wstrząsem opornym na katecholaminy
+   X1 (171c): Wodorowęglany należy podać każdemu dziecku, u którego pH jest niższe niż 7,30, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (150c): Wodorowęglany są jedynym lekiem leczącym cukrzycę typu 1, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (164c): Należy podać 1000 ml czystego kwasu solnego w celu neutralizacji zasad, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+17. [Case #120 Step 7] ratio=2.24 (corr=356c, avgWrong=159c): Krok 7: Najgroźniejsze powikłanie DKA – obrzęk mózgu (cerebral edema)
+   V: Obrzęk mózgu (najgroźniejsze powikłanie DKA, główna przyczyna zgonów dzieci z cukrzycą!); NATYCHMIAST: 1. Uniesienie wezgłowia łóżka o 30 stopni, 2. Natychmiastowy wlew 20% Mannitolu (0,5-1,0 g/kg m.c. w 20 minut) LUB 3% NaCl (3-5 ml/kg m.c.), 3. Zmniejszenie tempa wlewu płynów o 1/3; leczenie wdrożyć natychmiast PRZED wykonaniem tomografii komputerowej!
+   X1 (200c): Spokojnie skierować dziecko na tomografię komputerową głowy za 4 godziny bez podawania jakichkolwiek leków, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (142c): Podać czysty wlew z heparyny drobnocząsteczkowej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (134c): Wstrzyknąć 100 mg furosemidu doopłucnowo, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+18. [Case #129 Step 5] ratio=2.01 (corr=340c, avgWrong=169c): Krok 5: Przygotowanie przedoperacyjne na SOR
+   V: Ścisła dieta (NPO), wprowadzenie zgłębnika żołądkowego (sondy) i odessanie zalegającej treści, agresywna płynoterapia krystaloidowa i.v., podanie inhibitora pompy protonowej w dużej dawce dożylnej (pantoprazol 80 mg bolus), empiryczna antybiotykoterapia o szerokim spektrum (np. cefalosporyna III gen. + metronidazol) oraz analgezja dożylna
+   X1 (180c): Podanie choremu doustnie 1 litra zimnego mleka w celu zneutralizowania kwasu w żołądku, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (169c): Zalecenie picia dużej ilości ciepłej herbaty i podanie czopka glicerynowego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (159c): Podanie wlewu z wodorowęglanu sodu doustnie bez wkłucia dożylnego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+19. [Case #130 Step 6] ratio=2.23 (corr=372c, avgWrong=167c): Krok 6: Test z Gastrografinem (wodnorozpuszczalnym środkiem cieniującym)
+   V: Podaje się przez sondę żołądkową 50-100 ml Gastrografiny (kontrastu rozpuszczalnego w wodzie); badanie jest diagnostyczne (obecność kontrastu w kątnicy w RTG po 4-24 h wyklucza konieczność operacji) oraz terapeutyczne (silnie hipermolarny kontrast ściąga wodę ze ściany obrzękniętego jelita do światła i pobudza perystaltykę, odblokowując niedrożność w >70-80% przypadków)
+   X1 (171c): Polega na podaniu kontrastu dożylnie i wykonaniu angiografii naczyń mózgowych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (172c): Jest to podanie zawiesiny siarczanu baru przez odbyt w celu zaklejenia zrostów, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (157c): Test służy wyłącznie do oceny wydolności wydzielniczej trzustki, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+20. [Case #131 Step 4] ratio=2.42 (corr=363c, avgWrong=150c): Krok 4: Zabieg pierwszego rzutu – Endoskopowa derotacja i drenaż doodbytniczy
+   V: Wprowadza się sigmoidoskop lub kolonoskop do miejsca zwężenia skrętowego (obraz 'wirówki' / spiralnych fałdów), delikatnie przeprowadza końcówkę aparatu przez zwężenie do rozdętej pętli, odsysając gaz i płyn pod ciśnieniem, a po rozprostowaniu pętli wprowadza się rurkę doodbytniczą (rectal tube) na 24-48 godzin, aby zapobiec natychmiastowemu ponownemu skręceniu
+   X1 (158c): Wykonuje się biopsję kleszczykową ściany esicy na głębokość 2 cm, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (145c): Wstrzykuje się 100 ml adrenaliny w błonę podśluzową, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (147c): Zakłada się opaski elastyczne na fałdy błony śluzowej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+21. [Case #145 Step 1] ratio=2.14 (corr=361c, avgWrong=169c): Krok 1: Wstępna ocena kliniczna i mechanizm zakrzepicy powierzchownej (SVT)
+   V: SVT dotyczy żył położonych powyżej powięzi głębokiej kończyny (najczęściej żyły odpiszczelowej GSV w obrębie istniejących żylaków); charakteryzuje się wyraźnymi objawami miejscowego odczynu zapalnego skóry (rumień, ucieplenie, bolesny stwardniały powrózek), a czynnikami ryzyka są przewlekła niewydolność żylna, praca stojąca, doustna antykoncepcja i mikrourazy
+   X1 (146c): SVT występuje wyłącznie w tętnicach wieńcowych serca, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (156c): SVT nigdy nie daje objawów miejscowych i przebiega bezboleśnie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (204c): SVT jest zakażeniem bakteryjnym wywołanym przez gronkowca złocistego leczonym wyłącznie maścią z antybiotykiem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+22. [Case #146 Step 2] ratio=2.04 (corr=281c, avgWrong=138c): Krok 2: Badanie przedmiotowe i testy prowokacyjne w PAES
+   V: Badanie tętna na tętnicy grzbietowej stopy i piszczelowej tylnej podczas czynnego zgięcia podeszwowego stopy z oporem lub maksymalnego biernego zgięcia grzbietowego przy wyprostowanym kolanie – dochodzi wówczas do całkowitego zaniku lub znacznego osłabienia tętna i przepływu krwi!
+   X1 (129c): Próba Romberga z zamkniętymi oczami, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (143c): Test prowokacji zimnem z zanurzeniem rąk w lodzie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (142c): Próba pionizacyjna na stole uchylnym (tilt test), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+23. [Case #148 Step 1] ratio=2.25 (corr=342c, avgWrong=152c): Krok 1: Wstępna ocena w protokole ATLS – Schemat cABCDE
+   V: cABCDE: c – catastrophic hemorrhage (zatrzymanie masywnych krwotoków zewnętrznych), A – airway (drogi oddechowe ze stabilizacją kręgosłupa szyjnego), B – breathing (oddychanie i wentylacja), C – circulation (krążenie i wstrząs), D – disability (stan neurologiczny GCS/źrenice), E – exposure/environment (rozebranie i ochrona przed hipotermią)
+   X1 (139c): ABCDE bez uwzględniania krwawień zewnętrznych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (177c): Rozpoczęcie od natychmiastowego zespolenia złamań kończyn w znieczuleniu miejscowym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (141c): Kolejność alfabetyczna od badania uszu i gardła, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+24. [Case #19 Step 2] ratio=2.11 (corr=394c, avgWrong=186c): Krok 2: KARDYNALNA PUŁAPKA LEK – leki bezwzględnie przeciwwskazane w zawale prawej komory
+   V: BEZWZGLĘDNY ZAKAZ podawania azotanów (nitrogliceryny), diuretyków (furosemidu) oraz beta-blokerów! Zawał prawej komory charakteryzuje się sztywnością i spadkiem podatności RV – rzut prawej komory i napełnianie lewej komory zależą krytycznie od wysokiego ciśnienia napełniania (preload). Azotany rozszerzają łożysko żylne, drastycznie ścinają preload i wywołują natychmiastową zapaść naczyniową!
+   X1 (173c): Zgoda na podanie nitrogliceryny w podwójnej dawce (2 tabletki) wraz z 80 mg furosemidu dożylnie, ponieważ każdy zawał serca wymaga natychmiastowego obniżenia ciśnienia krwi.
+   X2 (180c): Podanie dożylne metoprololu w dawce 15 mg w celu zwolnienia akcji serca poniżej 30/min, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (206c): Podanie leków obniżających ciśnienie jest w pełni bezpieczne, o ile pacjent leży z uniesioną głową pod kątem 90°, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+25. [Case #26 Step 6] ratio=2.16 (corr=401c, avgWrong=185c): Krok 6: Wybór metody operacyjnej – rEVAR vs klasyczna operacja otwarta
+   V: Zaopatrzenie wewnątrznaczyniowe (rEVAR – implantacja stentgraftu aortalnego przez tętnice udowe, często w znieczuleniu miejscowym) jako metoda preferowana, jeśli warunki anatomiczne i infrastruktura na to pozwalają LUB klasyczna operacja otwarta przez laparotomię pośrodkową z pilnym zaciśnięciem aorty (podnerkowo lub nadtrzewnowo / supra-celiac clamp) i wszyciem protezy naczyniowej (prostej lub Y).
+   X1 (167c): Metodą z wyboru jest laparoskopowe wycięcie obu nerek bez dotykania aorty, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (214c): Jedyną dopuszczalną metodą jest ostrzyknięcie tętniaka klejem cyjanoakrylowym przez powłoki brzuszne bez użycia rentgena, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (175c): Operacja otwarta jest prawnie zakazana w Unii Europejskiej od 2010 roku w trybie pilnym w celu natychmiastowego opanowania zagrożenia życia i zabezpieczenia funkcji życiowych.
+
+26. [Case #42 Step 5] ratio=2.72 (corr=370c, avgWrong=136c): Krok 5: Zasady bezpiecznego postępowania hemodynamicznego we wstrząsie w Takotsubo
+   V: Natychmiast powstrzymać podanie dobutaminy; u chorych z hipotonią/wstrząsem w Takotsubo z LVOTO należy ostrożnie przetaczać płyny (do kontroli wolemii) oraz wdrożyć nienasercowy wazokonstryktor (np. noradrenalinę w minimalnej dawce) lub zastosować mechaniczne wspomaganie krążenia (kontrapulsacja wewnątrzaortalna IABP / pompa Impella), a przy braku LVOTO – lewosymendan
+   X1 (144c): Zaakceptować wlew dobutaminy w dawce 15 mcg/kg/min, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (128c): Podać atropinę 3 mg i.v. w bolusie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (136c): Podać siarczan magnezu 10 g i.v. w bolusie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+27. [Case #43 Step 4] ratio=2.49 (corr=344c, avgWrong=138c): Krok 4: Empiryczna antybiotykoterapia i.v. w ciężkim CAP wg wytycznych
+   V: Terapia skojarzona i.v.: beta-laktam aktywny przeciw pneumokokom (Ceftriakson 2 g i.v. 1x/d LUB Cefotaksym LUB Amoksycylina z kwasem klawulanowym 1.2 g i.v. co 8h) W SKOJARZENIU z makrolidem (Klarytromycyna 500 mg i.v. co 12h LUB Azytromycyna 500 mg i.v. 1x/d) ALBO fluorochinolon oddechowy w monoterapii (Lewofloksacyna / Moksyfloksacyna i.v.)
+   X1 (141c): Doustna amoksycylina 500 mg co 8h w monoterapii, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (141c): Kotrimoksazol (Biseptol) doustnie w monoterapii, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (132c): Metronidazol 500 mg i.v. w monoterapii, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+28. [Case #43 Step 6] ratio=2.2 (corr=355c, avgWrong=162c): Krok 6: Ocena kryteriów przyjęcia na OIT wg ATS/IDSA
+   V: Chory spełnia oba kryteria DUŻE ATS/IDSA: 1. Wstrząs septyczny wymagający amin katecholowych (noradrenaliny) oraz 2. Ostra niewydolność oddechowa wymagająca inwazyjnej wentylacji mechanicznej (lub spełnienie co najmniej 3 kryteriów mniejszych: PaO2/FiO2 <=250, wielopłatowe nacieki, splątanie, mocznik >=7 mmol/l, leukopenia, hipotermia, trombocytopenia).
+   X1 (158c): Na OIT przyjmuje się wyłącznie pacjentów z zatrzymaniem krążenia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (166c): Pacjent powinien pozostać na sali ogólnej z okresowym pomiarem ciśnienia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (161c): Wskazaniem do OIT jest wyłącznie podwyższone stężenie CRP >300 mg/l, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+29. [Case #45 Step 5] ratio=2.7 (corr=336c, avgWrong=125c): Krok 5: Ocena pozapłucnych powikłań sarkoidozy (oko, serce, wapń)
+   V: Badanie okulistyczne w lampie szczelinowej (wykluczenie bezobjawowego zapalenia przedniego/tylnego odcinka błony naczyniowej – uveitis), spoczynkowe 12-odprowadzeniowe EKG (wykluczenie bloków przewodzenia i arytmii w sarkoidozie serca) oraz stężenie wapnia w surowicy i dobowej zbiórce moczu (wykluczenie hiperkalcemii i hiperkalciurii)
+   X1 (116c): Wyłącznie kolonoskopia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (131c): Rutynowa angiografia tętnic mózgowych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (127c): Scyntygrafia tarczycy z technetem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+30. [Case #47 Step 6] ratio=2.47 (corr=345c, avgWrong=140c): Krok 6: Monitorowanie działań niepożądanych leków przeciwprątkowych
+   V: Ryfampicyna, Izoniazyd i Pirazynamid wykazują hepatotoksyczność (wymóg monitorowania AST/ALT); Pirazynamid powoduje hiperurykemię i napady dny moczanowej; Etambutol wywołuje pozagałkowe zapalenie nerwu wzrokowego (zaburzenia widzenia barwy czerwonej i zielonej, spadek ostrości wzroku); Ryfampicyna barwi mocz, pot i łzy na pomarańczowo-czerwono
+   X1 (154c): Żaden z leków przeciwprątkowych nie ma działań niepożądanych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (131c): Etambutol wywołuje głuchotę odbiorczą, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (134c): Ryfampicyna barwi skórę na kolor zielony, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+31. [Case #47 Step 8] ratio=3.1 (corr=484c, avgWrong=156c): Krok 8: Postępowanie epidemiologiczne i nadzór Sanepidu
+   V: Obowiązkowe zgłoszenie podejrzenia/rozpoznania gruźlicy do właściwej Powiatowej Stacji Sanitarno-Epidemiologicznej (PSSE) na formularzu ZLK-1 w ciągu 24 godzin, objęcie pacjenta leczeniem bezpośrednio nadzorowanym (DOTS), badanie osób z bliskiego kontaktu (RTG klatki piersiowej, próba tuberkulinowa/IGRA) oraz wdrożenie leczenia profilaktycznego (profilaktyka zakażenia prątkiem – TPT) u osób zakażonych (np. izoniazyd przez 6 miesięcy lub ryfampicyna z izoniazydem przez 3 miesiące)
+   X1 (168c): Lekarz nie ma obowiązku zgłaszania gruźlicy z uwagi na ochronę danych RODO, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (154c): Zgłoszenie wyłącznie wtedy, gdy pacjent wyrazi pisemną zgodę, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (146c): Zamknięcie całego szpitala na 6 miesięcy kwarantanny, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+32. [Case #49 Step 7] ratio=2.03 (corr=264c, avgWrong=130c): Krok 7: Wskazania do zabiegu torakochirurgicznego (VATS / Pleurodeza)
+   V: Drugi (nawrotowy) epizod odmy po tej samej stronie, pierwszy epizod odmy po stronie przeciwnej, odma obustronna jednoczasowa, utrzymujący się przeciek powietrza przez dren > 3-5 dni (brak rozprężenia płuca) oraz zawody wysokiego ryzyka (piloci samolotów, nurkowie)
+   X1 (137c): Każdy pierwszy epizod małej odmy u 18-latka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (130c): Wskazaniem jest wyłącznie płeć męska, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (124c): Podwyższone stężenie ferrytyny, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+33. [Case #49 Step 8] ratio=2.47 (corr=356c, avgWrong=144c): Krok 8: Zalecenia profilaktyczne przy wypisie i zakazy życiowe
+   V: Bezwzględny, dożywotni zakaz nurkowania z akwalungiem (scuba diving) – chyba że przebył obustronną chirurgiczną pleurektomię; zakaz podróżowania samolotem pasażerskim przez co najmniej 1-2 tygodnie od pełnego radiologicznego rozprężenia płuca; bezwzględne zaprzestanie palenia tytoniu i e-papierosów (palenie zwiększa ryzyko nawrotu odmy ponad 20-krotnie!)
+   X1 (130c): Zakaz spożywania nabiału przez 5 lat, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (157c): Nakaz natychmiastowego rozpoczęcia kursu nurkowania głębinowego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (146c): Zalecenie palenia wyłącznie cygar zamiast papierosów, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+34. [Case #51 Step 8] ratio=2.41 (corr=346c, avgWrong=143c): Krok 8: Eradykacja Helicobacter pylori i prewencja wtórna wrzodów
+   V: Wdrożenie 14-dniowej terapii eradykacyjnej Helicobacter pylori (terapia poczwórna z bizmutem: IPP + Cytrynian bizmutu + Metronidazol + Tetracyklina) oraz bezwzględny zakaz stosowania klasycznych NLPZ (w razie konieczności analgezji: paracetamol, a przy bólach zapalnych – kardiologicznie bezpieczny selektywny inhibitor COX-2 w skojarzeniu z IPP)
+   X1 (140c): Kontynuacja ketoprofenu bez żadnych ograniczeń, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (158c): Eradykacja H. pylori jest przeciwwskazana po krwawieniu z wrzodu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (132c): Przyjmowanie amoksycyliny przez 3 lata, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+35. [Case #52 Step 2] ratio=2.33 (corr=287c, avgWrong=123c): Krok 2: Poszukiwanie i identyfikacja odwracalnych czynników wyzwalających HE
+   V: Wieloczynnikowy zespół wyzwalający: zaparcie (4 dni bez stolca – namnażanie flory amoniakogennej), przedawkowanie diuretyków wywołujące hipokaliemię, hipowolemię i zasadowicę metaboliczną (która ułatwia dyfuzję nienaładowanego NH3 przez barierę krew-mózg) oraz potencjalna infekcja (SBP)
+   X1 (122c): Wyłącznie nadmiar witaminy C, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (131c): Jedyną przyczyną jest udar pnia mózgu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (116c): Wypicie szklanki mleka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+36. [Case #53 Step 4] ratio=2.84 (corr=413c, avgWrong=145c): Krok 4: Wdrożenie intensywnego leczenia zachowawczego pierwszego rzutu
+   V: Ścisła dieta zerowa (NPO), dekompresja żołądkowo-jelitowa zgłębnikiem, agresywna płynoterapia krystaloidami z suplementacją potasu (cel K+ >4.0 mmol/l), dożylne glikokortykosteroidy w wysokiej dawce (Metyloprednizolon 60 mg/dobę i.v. LUB Hydrokortyzon 400 mg/dobę i.v.), antybiotykoterapia o szerokim spektrum (np. ceftriakson + metronidazol) oraz profilaktyka przeciwzakrzepowa heparyną drobnocząsteczkową (LMWH)
+   X1 (143c): Monoterapia doustną mesalazyną w tabletkach 4 g/d, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (146c): Zlecenie diety bogatoresztkowej z otrębami pszennymi, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (147c): Podanie doustnego oleju rycynowego na przeczyszczenie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+37. [Case #54 Step 7] ratio=2.58 (corr=346c, avgWrong=134c): Krok 7: Ocena zwężenia jelita krętego – leczenie zachowawcze vs operacyjne
+   V: Wdrożenie intensywnego leczenia przeciwzapalnego (leczenie biologiczne + ewentualnie budezonid) w celu wygaszenia komponenty zapalnej; w razie przetrwałego włóknistego zwężenia z objawami subileusu – oszczędzająca operacja chirurgiczna: strikturoplastyka (plastyka poszerzająca zwężenie) LUB ograniczona resekcja krętniczo-kątnicza (ileocectomia)
+   X1 (136c): Wycięcie całego jelita cienkiego i grubego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (151c): Endoskopowe nacięcie zwężenia nożem elektrycznym na ślepo, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (115c): Zignorowanie zwężenia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+38. [Case #55 Step 6] ratio=2.15 (corr=356c, avgWrong=165c): Krok 6: Monitorowanie pod kątem postaci piorunującej i toksycznego rozdęcia okrężnicy
+   V: Podejrzenie powikłania w postaci piorunującego CDI z toksycznym rozdęciem okrężnicy (toxic megacolon): pilne RTG/TK brzucha (ocena średnicy jelita >6 cm i perforacji), pilna konsultacja chirurgiczna, eskalacja leczenia: Wankomycyna p.o. (lub przez sondę) 500 mg 4x/d + Metronidazol i.v. 500 mg 3x/d (+ wlewy doodbytnicze z wankomycyny w razie niedrożności)
+   X1 (169c): Uznanie ustąpienia biegunki za pełne wyleczenie i wypisanie chorego do domu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (143c): Podanie czopka glicerynowego i czekanie na stolec, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (184c): Natychmiastowe wykonanie pełnej kolonoskopii z insuflacją powietrza pod wysokim ciśnieniem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+39. [Case #56 Step 8] ratio=2.01 (corr=304c, avgWrong=151c): Krok 8: Długoterminowe monitorowanie i nadzór nad powikłaniami onkologicznymi
+   V: Okresowa ocena miana przeciwciał anty-tTG IgA (po 6 i 12 miesiącach jako marker adherencji do diety bezglutenowej), kontrola morfologii i stężenia ferrytyny, a w przypadku braku odpowiedzi na dietę (celiakia oporna na leczenie - RCD) czujność onkologiczna w kierunku chłoniaka T-komórkowego jelita (EATL)
+   X1 (173c): Brak konieczności jakichkolwiek wizyt kontrolnych po wdrożeniu diety z obawy przed powikłaniami jatrogennymi oraz w oczekiwaniu na dalszy rozwój dynamiki obrazu klinicznego.
+   X2 (125c): Coroczna laparotomia zwiadowcza, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (155c): Comiesięczna gastroskopia z pobieraniem wycinków przez 10 lat, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+40. [Case #57 Step 8] ratio=2.16 (corr=320c, avgWrong=148c): Krok 8: Profilaktyka powikłań jatrogennych i zespoły nakładania (Overlap)
+   V: Profilaktyka osteoporozy (suplementacja witaminy D3 i wapnia, kontrola gęstości mineralnej kości DXA), coroczne szczepienia przeciw grypie i pneumokokom szczepionkami inaktywowanymi oraz czujność pod kątem zespołu nakładania (np. AIH/PBC przy ewentualnym wzroście fosfatazy zasadowej i pojawieniu się przeciwciał AMA-M2)
+   X1 (158c): Podanie żywej szczepionki przeciw odrze, śwince i różyczce (MMR), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (148c): Bezwzględny zakaz wykonywania jakichkolwiek badań krwi, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (139c): Zastosowanie profilaktycznej cholecystektomii, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+41. [Case #58 Step 2] ratio=2.46 (corr=338c, avgWrong=137c): Krok 2: Aktywne poszukiwanie i wykluczenie objawów alarmowych ('czerwonych flag')
+   V: Wiek > 50 lat w chwili początku objawów, niezamierzony spadek masy ciała, wybudzanie przez ból brzucha lub biegunkę w nocy, krwawienie z przewodu pokarmowego (świeża krew w stolcu / krew utajona), niewyjaśniona niedokrwistość, gorączka, wyczuwalny opór w jamie brzusznej oraz dodatni wywiad rodzinny w kierunku raka jelita grubego lub IBD
+   X1 (144c): Uczucie niepełnego wypróżnienia i parcie na stolec, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (131c): Obecność przejrzystego śluzu w stolcu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (137c): Zwiększenie wzdęć po posiłkach wzdymających, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+42. [Case #59 Step 1] ratio=2.04 (corr=281c, avgWrong=138c): Krok 1: Różnicowanie HHS z cukrzycową kwasicą ketonową (DKA)
+   V: Stan hiperglikemiczno-hiperosmolalny (HHS): ekstremalna glikemia (>600 mg/dl), wysoka efektywna osmolalność osocza (>320 mOsm/kg H2O), brak istotnej kwasicy ketonowej (pH >7.30, HCO3- >18 mmol/l, ketony ujemne lub śladowe) oraz zaburzenia świadomości wynikające z hiperosmolalności
+   X1 (150c): Ciężka kwasica ketonowa z pH < 7.00 i luką anionową > 16, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (117c): Moczówka prosta nerkowa, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (147c): Zespół nieadekwatnego wydzielania wazopresyny (SIADH), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+43. [Case #59 Step 8] ratio=2.19 (corr=319c, avgWrong=145c): Krok 8: Identyfikacja czynnika wyzwalającego i plan opieki długoterminowej
+   V: Wyleczenie zakażenia układu moczowego celowanym antybiotykiem (główny czynnik spustowy HHS), edukacja pacjenta i rodziny w zakresie regularnego przyjmowania płynów ('sick day rules'), czasowe prowadzenie insulinoterapii podskórnej i unikanie leków odwadniających (np. flozyn/SGLT2i) w okresie niestabilności nawodnienia
+   X1 (140c): Powrót do metforminy i gliklazydu bez edukacji, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (162c): Zalecenie ograniczenia spożycia płynów do maksymalnie 500 ml na dobę, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (134c): Bezwzględny zakaz mierzenia cukru w domu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+44. [Case #60 Step 5] ratio=2.37 (corr=326c, avgWrong=138c): Krok 5: Postępowanie w hiponatremii z rozcieńczenia (121 mmol/l)
+   V: Jest to hiponatremia hipoosmolalna z rozcieńczenia (spowodowana spadkiem GFR i nieosmotycznym wydzielaniem wazopresyny); podstawą leczenia jest restrykcja płynów, a hipertoniczny 3% NaCl stosuje się wyłącznie przy drgawkach lub głębokiej encefalopatii w małych dawkach (podnosząc sód o maks. 4-6 mmol/l w pierwszych godzinach)
+   X1 (149c): Agresywny szybki wlew 3% NaCl 1000 ml w ciągu 1 godziny, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (132c): Wymuszenie diurezy hydrochlorotiazydem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (132c): Podanie 5 litrów czystej wody dożylnie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+45. [Case #60 Step 6] ratio=2.02 (corr=308c, avgWrong=153c): Krok 6: Monitorowanie kardiologiczne i płynoterapia – ostrożność we wstrząsie
+   V: Bardzo ostrożna płynoterapia krystaloidami (ryzyko przeciążenia objętościowego i zaostrzenia niewydolności serca), wykonanie pilnego echokardiogramu (wykluczenie tamponady serca/płynu w osierdziu) oraz świadomość, że kurczliwość serca i opór naczyniowy poprawią się głównie dzięki działaniu hormonów tarczycy
+   X1 (170c): Przetoczenie 5 litrów 0.9% NaCl w 2 godziny i maksymalne dawki noradrenaliny, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (150c): Pilne wszczepienie mechanicznego sztucznego serca (LVAD), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (138c): Podanie dożylne digoksyny w dawce toksycznej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+46. [Case #62 Step 7] ratio=2.33 (corr=370c, avgWrong=159c): Krok 7: Ocena wczesnego wyleczenia i wtórna niedoczynność kory nadnerczy
+   V: Ekstremalnie niski poziom kortyzolu (<2 µg/dl / 50 nmol/l) jest markerem pełnego sukcesu operacyjnego i remisji choroby Cushinga; objawy wynikają z ostrej wtórnej niedoczynności nadnerczy (ponieważ prawidłowe komórki kortykotropowe przysadki były uśpione przez wieloletni nadmiar kortyzolu) – konieczne jest natychmiastowe wdrożenie czasowej substytucji hydrokortyzonem!
+   X1 (175c): Wynik wskazuje na niepowodzenie operacji i konieczność natychmiastowej reoperacji, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (152c): Zignorowanie objawów i zakaz podawania jakichkolwiek leków, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (150c): Podanie ketokonazolu w celu dalszego obniżenia kortyzolu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+47. [Case #64 Step 1] ratio=2.13 (corr=305c, avgWrong=143c): Krok 1: Wskazania do badań przesiewowych w kierunku pierwotnego hiperaldosteronizmu
+   V: Oporne nadciśnienie tętnicze (niekontrolowane mimo 3 leków w tym diuretyku), nadciśnienie tętnicze z samoistną lub indukowaną diuretykiem hipokaliemią, nadciśnienie ze zdiagnozowanym incydentaloma nadnercza, ciężkie nadciśnienie (BP >150/100 mmHg), nadciśnienie u osób <35 r.ż. lub z udarem w młodym wieku
+   X1 (162c): Wyłącznie obecność obrzęków uogólnionych ciastowatych na całym ciele, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (139c): Prawidłowe ciśnienie tętnicze z hiperkaliemią, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (128c): Zakażenie dróg moczowych u dziecka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+48. [Case #64 Step 5] ratio=2.22 (corr=369c, avgWrong=166c): Krok 5: ZŁOTY STANDARD różnicowania boczności – Cewnikowanie żył nadnerczowych (AVS)
+   V: Ponieważ u pacjentów powyżej 35-40 roku życia w TK często stwierdza się nieczynne hormonalnie incydentaloma (mikrogruczolaki bezobjawowe), podczas gdy rzeczywista nadprodukcja aldosteronu może pochodzić z mikrogruczolaka w drugim nadnerczu lub z obustronnego przerostu – złotym standardem przed operacją jest cewnikowanie żył nadnerczowych (AVS – Adrenal Vein Sampling)
+   X1 (128c): Ponieważ TK promieniuje zbyt mocno, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (245c): TK jest w 100% wystarczające i AVS jest błędem w sztuce jako badanie pierwszego rzutu przed podjęciem jakichkolwiek inwazyjnych decyzji terapeutycznych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (125c): Wystarczy wykonać badanie moczu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+49. [Case #65 Step 5] ratio=2.13 (corr=272c, avgWrong=128c): Krok 5: Diagnostyka neuroobrazowa – rezonans magnetyczny (MR) przysadki
+   V: MR okolicy podwzgórzowo-przysadkowej; u zdrowych osób tylny płat przysadki daje charakterystyczny hiperintensywny sygnał w obrazach T1-zależnych ('bright spot' tylnego płata) odpowiadający zmagazynowanej wazopresynie – w moczówce ośrodkowej 'bright spot' całkowicie zanika
+   X1 (136c): Zdjęcie RTG kości czaszki w rzucie bocznym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (121c): Elektroencefalografia (EEG), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (127c): Ultrasonografia przezciemiączkowa, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+50. [Case #66 Step 5] ratio=2.26 (corr=328c, avgWrong=145c): Krok 5: JATROGENNY BŁĄD – Bezwzględny zakaz stosowania tyreostatyków
+   V: Ponieważ tyreostatyki hamują syntezę hormonów tarczycy de novo, a w chorobie de Quervaina tarczyca NIE PRODUKUJE nadmiernie hormonów – tyreotoksykoza wynika z biernego uwolnienia hormonów z rozpadających się pęcherzyków, więc leki te są całkowicie nieskuteczne, a jedynie narażają pacjenta na agranulocytozę i hepatotoksyczność!
+   X1 (154c): Ponieważ tiamazol wywołuje natychmiastowe pęknięcie tarczycy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (135c): Ponieważ tyreostatyki nasilają ból gardła, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (147c): Ponieważ tiamazol wolno stosować wyłącznie u mężczyzn, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+51. [Case #66 Step 6] ratio=2.23 (corr=317c, avgWrong=142c): Krok 6: Leczenie objawowe tyreotoksykozy i terapia przeciwzapalna pierwszego wyboru
+   V: Do kontroli objawów tyreotoksykozy: beta-adrenolityk (np. propranolol); do leczenia bólu i zapalenia w postaci łagodnej/umiarkowanej: niesteroidowe leki przeciwzapalne (NLPZ, np. ibuprofen 600-800 mg 3x/d lub kwas acetylosalicylowy), a w razie braku poprawy lub silnego bólu – glikokortykosteroidy doustne (Prednizon)
+   X1 (139c): Natychmiastowa pilna tyreoidektomia całkowita, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (152c): Podanie dożylnych antybiotyków (wankomycyna z meropenemem), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (135c): Podanie radiojodu 131I w dawce ablacyjnej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+52. [Case #66 Step 8] ratio=2.08 (corr=284c, avgWrong=137c): Krok 8: Postępowanie w fazie hipotyreozy i zakończenie leczenia
+   V: Wdrożenie czasowej suplementacji lewotyroksyną (LT4 w małej dawce 25-50 µg/d) w celu złagodzenia objawów niedoczynności tarczycy na okres 2-3 miesięcy, a następnie próba stopniowego odstawienia leku i kontrola TSH po 6 tygodniach w celu potwierdzenia trwałego powrotu funkcji tarczycy
+   X1 (145c): Natychmiastowe podanie jodu promieniotwórczego 131I, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (127c): Włączenie tiamazolu w dużej dawce, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (138c): Orzeczenie trwałego inwalidztwa bez leczenia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+53. [Case #67 Step 1] ratio=2.06 (corr=302c, avgWrong=147c): Krok 1: Wstępna ocena ciężkości hiponatremii i protokół obrzęku mózgu
+   V: Natychmiastowe podanie bolusa 150 ml 3% hipertonicznego roztworu NaCl (3% NaCl) we wlewie dożylnym trwającym 20 minut; w razie braku poprawy neurologicznej powtórzenie bolusa 150 ml po 20 minutach (maksymalnie trzykrotnie), z celem natychmiastowego podniesienia sodu o 4-6 mmol/l w pierwszych godzinach
+   X1 (145c): Powolny wlew 0.9% NaCl w dawce 50 ml/h i obserwacja, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (140c): Podanie dożylne 20% mannitolu w bolusie 500 ml, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (155c): Forsowanie diurezy 80 mg furosemidu w bolusie bez podaży sodu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+54. [Case #67 Step 6] ratio=2.21 (corr=330c, avgWrong=149c): Krok 6: Rola waptanów (antagonistów receptora V2) – wskazania i przeciwwskazania
+   V: Nie, waptany są bezwzględnie przeciwwskazane w stanach nagłych z ciężkimi objawami neurologicznymi (drgawki, śpiączka), ponieważ ich działanie rozpoczyna się zbyt późno (po kilku godzinach), a tempo wywołanej diurezy wodnej jest nieprzewidywalne, co stwarza ogromne ryzyko gwałtownego przekroczenia limitu korekty i wywołania ODS!
+   X1 (166c): Tak, tolwaptan jest lekiem pierwszego wyboru w obrzęku mózgu i drgawkach, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (142c): Waptany podaje się wyłącznie w postaci inhalacji, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (140c): Waptany wolno podawać tylko z preparatami litu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+55. [Case #67 Step 8] ratio=2.25 (corr=331c, avgWrong=147c): Krok 8: Profilaktyka nawrotu i zalecenia przy wypisie
+   V: Bezwzględne unikanie diuretyków tiazydowych i tiazydopodobnych oraz ostrożność przy lekach z grupy SSRI (zamiana leczenia przeciwdepresyjnego na lek o mniejszym ryzyku SIADH, np. bupropion lub mirtazapinę, oraz hipotensyjnego na ACEI/ARB lub antagonistę wapnia), edukacja na temat unikania nadmiernej podaży płynów bez elektrolitów
+   X1 (162c): Powrót do przyjmowania indapamidu i sertraliny w tych samych dawkach, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (140c): Nakaz picia co najmniej 6 litrów wody dziennie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (140c): Zakaz spożywania soli kuchennej do końca życia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+56. [Case #68 Step 1] ratio=2.36 (corr=271c, avgWrong=115c): Krok 1: Klasyfikacja ciężkości AKI wg wytycznych KDIGO (2012)
+   V: Stadium 3 AKI wg KDIGO – spełnione kryteria: ponad 3-krotny wzrost stężenia kreatyniny w surowicy w stosunku do wartości wyjściowej (lub bezwzględne stężenie kreatyniny >= 4.0 mg/dl z ostrym wzrostem o co najmniej 0.5 mg/dl) oraz oliguria < 0.3 ml/kg/h przez >= 12 godzin
+   X1 (107c): Stadium 1 AKI, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (107c): Stadium 2 AKI, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (130c): Prawidłowa czynność nerek (brak AKI), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+57. [Case #68 Step 2] ratio=2.1 (corr=331c, avgWrong=157c): Krok 2: Różnicowanie przednerkowego AKI od ostrej martwicy cewek (ATN)
+   V: Nerkowe AKI – Ostra martwica cewek nerkowych (ATN – Acute Tubular Necrosis): martwica nabłonka cewek uniemożliwia wchłanianie sodu (FENa > 2%, Na w moczu > 40 mmol/l) oraz uniemożliwia zagęszczanie moczu (izostenuria ~300 mOsm/kg), a złuszczone komórki tworzą patognomoniczne ciemnobrunatne wałeczki ziarniste ('muddy brown casts')
+   X1 (177c): Czynnościowe przednerkowe AKI (prerenal azotemia) spowodowane wyłącznie hipowolemią, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (145c): Pozanerkowa niedrożność dróg moczowych (wodonercze), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (150c): Kłębuszkowe zapalenie nerek z wałeczkami erytrocytarnymi, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+58. [Case #68 Step 4] ratio=2.19 (corr=376c, avgWrong=172c): Krok 4: Rola furosemidu i 'Test stresowy z furosemidem' (FST)
+   V: Wytyczne KDIGO zakazują stosowania diuretyków do leczenia AKI (nie poprawiają rokowania); furosemid może być stosowany wyłącznie do leczenia objawowego przewodnienia, a jednorazowy 'test stresowy z furosemidem' (FST: bolus 1.0-1.5 mg/kg i.v.) służy jedynie jako narzędzie prognostyczne do oceny integralności cewek (brak diurezy >200 ml w ciągu 2h wskazuje na konieczność RRT)
+   X1 (202c): Furosemid jest lekiem przyczynowym odwracającym martwicę cewek i powinien być podawany każdemu choremu z AKI, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (138c): Furosemid jest prawnie zakazany w szpitalach, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (176c): Furosemid należy podawać wyłącznie łącznie z hydrochlorotiazydem i spironolaktonem, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+59. [Case #68 Step 5] ratio=2.49 (corr=316c, avgWrong=127c): Krok 5: Farmakoterapia ostrej hiperkaliemii (5.8 mmol/l) i kwasicy
+   V: Natychmiastowe podanie 10 ml 10% glukonianu wapnia i.v. w celu stabilizacji błony kardiomiocytów, wlew glukozy z insuliną krótko działającą (np. 25 g glukozy + 10 j. insuliny i.v.), inhalacja z salbutamolu oraz doustny lek wiążący potas w przewodzie pokarmowym (np. cyklokrzemian sodowo-cyrkonowy ZS-9 lub patiromer)
+   X1 (130c): Podanie suplementu potasu w tabletce, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (123c): Podanie spironolaktonu 100 mg, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (128c): Wyłącznie wlew soli fizjologicznej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+60. [Case #68 Step 8] ratio=2.24 (corr=324c, avgWrong=144c): Krok 8: Faza poliurii w okresie zdrowienia po ostrej martwicy cewek nerkowych
+   V: Świadczy o wejściu w 'fazę wielomoczu' (fazę poliurii) po przebytej ATN, w której regenerujący się nabłonek cewek odzyskuje filtrację kłębuszkową, lecz nie potrafi jeszcze zagęszczać moczu i wchłaniać elektrolitów – wymaga to uważnego uzupełniania wody i elektrolitów (potasu, magnezu), aby uniknąć śmiertelnego odwodnienia!
+   X1 (173c): Świadczy o trwałym zniszczeniu nerek i konieczności natychmiastowej nefrektomii, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (128c): Wskazuje na rozwój cukrzycy typu 1, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (132c): Należy podać potrójną dawkę furosemidu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+61. [Case #69 Step 1] ratio=2.17 (corr=361c, avgWrong=166c): Krok 1: Weryfikacja kryteriów diagnostycznych zespołu nerczycowego
+   V: Klasyczna triada: 1. Dobowy białkomocz nerczycowy > 3.5 g/24h (lub wskaźnik białko/kreatynina UPCR > 3.5 g/g / > 350 mg/mmol); 2. Hipoalbuminemia < 30 g/l (hipoproteinemia < 60 g/l); 3. Obrzęki obwodowe; często towarzyszy im ciężka dyslipidemia (hipercholesterolemia) oraz lipiduria (ciałka tłuszczowe o wyglądzie 'krzyża maltańskiego' w świetle spolaryzowanym)
+   X1 (169c): Krwiomocz z wałeczkami erytrocytarnymi i nadciśnieniem (zespół nefrytyczny), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (146c): Wystąpienie wielomoczu > 5 litrów bez białka w moczu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (183c): Podwyższenie ciśnienia rozkurczowego powyżej 130 mmHg z obrzękiem tarczy nerwu wzrokowego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+62. [Case #69 Step 2] ratio=2.36 (corr=326c, avgWrong=138c): Krok 2: Rozpoznanie powikłania zakrzepowo-zatorowego – Zakrzepica żyły nerkowej (RVT)
+   V: Utrata przez uszkodzone kłębuszki naturalnych endogennych antykoagulantów (zwłaszcza antytrombiny III) połączona z nasiloną wątrobową syntezą czynników krzepnięcia (fibrynogenu, czynników V i VIII) oraz zagęszczeniem krwi stwarza ogromne ryzyko zakrzepicy – powikłaniem u tego chorego jest ostra zakrzepica żyły nerkowej (RVT)
+   X1 (127c): Wynika to z wrodzonej hemofilii B, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (158c): Ból w boku wynika wyłącznie ze skurczu mięśni przykręgosłupowych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (129c): Jest to zakażenie prątkiem gruźlicy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+63. [Case #69 Step 3] ratio=2.35 (corr=335c, avgWrong=143c): Krok 3: Natychmiastowe leczenie przeciwkrzepliwe w zakrzepicy żyły nerkowej
+   V: Pełnodawkowa terapeutyczna antykoagulacja heparyną drobnocząsteczkową (LMWH w dawce leczniczej w przeliczeniu na masę ciała, np. enoksaparyna 1 mg/kg co 12h) przechodząca w doustny antykoagulant (warfarynę lub NOAC) stosowana przez co najmniej 6 miesięcy lub tak długo, jak utrzymuje się ciężki zespół nerczycowy (albumina < 20-25 g/l)
+   X1 (157c): Podanie kwasu traneksamowego i.v. w celu zatrzymania krwiomoczu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (123c): Aspiryna 75 mg raz w tygodniu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (148c): Pilna nefrektomia lewostronna w trybie natychmiastowym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+64. [Case #69 Step 7] ratio=2.2 (corr=338c, avgWrong=153c): Krok 7: Profilaktyka powikłań infekcyjnych – utrata immunoglobulin z moczem
+   V: Ponieważ wraz z białkomoczem dochodzi do masywnej utraty immunoglobulin klasy IgG oraz składowych dopełniacza (opsonin: czynnika B i D), co powoduje ciężki nabyty niedobór odporności humoralnej i wysokie ryzyko śmiertelnych zakażeń bakteriami otoczkowymi (np. Streptococcus pneumoniae – sepsa, spontaniczne bakteryjne zapalenie otrzewnej)
+   X1 (146c): W celu zahamowania produkcji cholesterolu w wątrobie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (165c): Szczepienia przeciw pneumokokom rozpuszczają skrzeplinę w żyle nerkowej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (149c): Szczepienia są u chorych z białkomoczem surowo zakazane, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+65. [Case #70 Step 3] ratio=2.09 (corr=344c, avgWrong=164c): Krok 3: Rola i ograniczenia biopsji nerki w chorobie anty-GBM
+   V: Biopsja nerki jest złotym standardem oceny morfologicznej (wykazuje zewnątrzwłośniczkowy rozplem komórek tworzący półksiężyce w >50% kłębuszków oraz patognomoniczne LINIJNE złogi IgG wzdłuż błony podstawnej w immunofluorescencji), jednak NIGDY NIE MOŻE OPÓŹNIAĆ rozpoczęcia natychmiastowego leczenia ratunkowego (plazmaferezy i immunosupresji)!
+   X1 (225c): Należy bezwzględnie wstrzymać wszelkie leczenie do czasu pobrania bioptatu i otrzymania pełnego wyniku histopatologicznego za 5 dni, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (151c): Biopsja nerki jest w chorobie anty-GBM prawnie zabroniona, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (117c): Wystarczy biopsja skóry, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+66. [Case #70 Step 5] ratio=2.17 (corr=275c, avgWrong=127c): Krok 5: Agresywna farmakoterapia immunosupresyjna skojarzona z plazmaferezą
+   V: Pulsujące dożylne podanie metyloprednizolonu (500-1000 mg i.v. przez 3 kolejne dni, następnie prednizon doustnie 1 mg/kg/d) W SKOJARZENIU z cyklofosfamidem (doustnie 2 mg/kg/d lub w pulsach i.v.) w celu zablokowania produkcji nowych przeciwciał przez limfocyty B i plazmocyty
+   X1 (135c): Monoterapia paracetamolem 500 mg doustnie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (120c): Wdrożenie interferonu alfa, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (126c): Podanie penicyliny krystalicznej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+67. [Case #70 Step 7] ratio=2.3 (corr=351c, avgWrong=152c): Krok 7: Ocena szansy na odzyskanie funkcji nerek i kryteria kwalifikacji do PLEX
+   V: Szansa na odzyskanie czynności nerek zależy od wyjściowego stężenia kreatyniny i diurezy: pacjenci z bezmoczem (anurią) i 100% włóknistych półksiężyców w biopsji rzadko odzyskują funkcję nerek, jednak OBECNOŚĆ KRWAWIENIA PŁUCNEGO ZAWSZE STANOWI BEZWZGLĘDNE WSKAZANIE DO PEŁNEGO LECZENIA (plazmaferezy + sterydy + cyklofosfamid) w celu ratowania życia!
+   X1 (157c): Choroba anty-GBM zawsze samoistnie cofa się w 100% bez leczenia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (151c): Młody wiek wyklucza konieczność leczenia nerkozastępczego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (149c): Plazmaferezy są przeciwwskazane przy krwawieniu płucnym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+68. [Case #71 Step 1] ratio=2.33 (corr=317c, avgWrong=136c): Krok 1: Identyfikacja bezwzględnych wskazań do natychmiastowej hemodializy ratunkowej
+   V: Obecność krytycznych wskazań ratunkowych: 1. Mocznicowe zapalenie osierdzia (tarcie osierdziowe – bezwzględne wskazanie do dializy!); 2. Zagrażająca asystolią hiperkaliemia (7.1 mmol/l z poszerzeniem QRS); 3. Oporne przewodnienie z obrzękiem płuc; 4. Ciężka kwasica metaboliczna (pH 7.12); 5. Encefalopatia mocznicowa
+   X1 (162c): Żadne, pacjent wymaga wyłącznie podania doustnego węgla aktywowanego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (124c): Izolowana anemia z Hb 7.4 g/dl, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (123c): Podwyższony poziom fosforanów, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+69. [Case #71 Step 2] ratio=2.29 (corr=306c, avgWrong=133c): Krok 2: KROK 0 – Farmakologiczne zabezpieczenie przed zatrzymaniem krążenia
+   V: Natychmiastowe podanie 10-20 ml 10% chlorku wapnia (lub 10% glukonianu wapnia) dożylnie w celu stabilizacji elektrycznej kardiomiocytów, wlew 25 g glukozy z 10 j. insuliny krótko działającej, nebulizacja z 10-20 mg salbutamolu oraz nieinwazyjna wentylacja dodatnim ciśnieniem (CPAP) z tlenem na obrzęk płuc
+   X1 (128c): Podanie 500 ml 0.9% NaCl w bolusie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (120c): Podanie dużej dawki potasu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (152c): Zastosowanie wyłącznie zimnych okładów na klatkę piersiową, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+70. [Case #82 Step 8] ratio=2.02 (corr=312c, avgWrong=155c): Krok 8: Modyfikacja diety i stylu życia w dnie moczanowej
+   V: Bezwzględne unikanie piwa (także bezalkoholowego) i mocnych alkoholi, ograniczenie produktów bogatopurynowych (czerwone mięso, podroby, owoce morza), eliminacja napojów słodzonych fruktozą/syropem glukozowo-fruktozowym, redukcja masy ciała oraz spożywanie chudego nabiału i kawy (wykazujących działanie ochronne)
+   X1 (155c): Zalecenie picia 2 litrów piwa dziennie jako leku moczopędnego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (178c): Dieta złożona wyłącznie z podrobów (wątróbka, nerki) i napojów gazowanych z fruktozą, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (131c): Całkowity zakaz picia wody mineralnej, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+71. [Case #84 Step 8] ratio=2.01 (corr=311c, avgWrong=155c): Krok 8: Nieskuteczność i szkodliwość wieloletniej antybiotykoterapii (tzw. metoda ILADS)
+   V: Zgodnie ze stanowiskiem wszystkich wiodących towarzystw naukowych (PTEiLChZ, IDSA, EFNS) wielomiesięczna lub wieloletnia terapia skojarzona antybiotykami jest całkowicie nieskuteczna, niepoparta dowodami naukowymi i wysoce niebezpieczna dla pacjenta (ryzyko zakażenia C. difficile, uszkodzenia szpiku i wątroby)
+   X1 (161c): Metoda ILADS jest jedyną skuteczną metodą leczenia każdego kleszcza, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (154c): Należy profilaktycznie usunąć całą krew i wymienić na osocze, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (150c): Po 21 dniach należy podawać antybiotyki przez całe życie, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+72. [Case #87 Step 3] ratio=2.22 (corr=317c, avgWrong=143c): Krok 3: Zagrożenie encefalopatią bilirubinową (Kernicterus)
+   V: Nieskoniugowana bilirubina jest lipofilna, nie posiada ładunku i po przekroczeniu zdolności wiązania z albuminami przenika przez niedojrzałą barierę krew-mózg, odkładając się w neuronach jąder podkorowych mózgu (jądra podstawy, hipokamp, gałka blada), wywołując nieodwracalną żółtaczkę jąder podkorowych (kernicterus)
+   X1 (152c): Ponieważ bilirubina nieskoniugowana niszczy stawy kolanowe, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (127c): Ponieważ rozpuszcza kości czaszki, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (149c): Bilirubina wolna jest całkowicie nieszkodliwa dla mózgu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+73. [Case #87 Step 6] ratio=2.11 (corr=290c, avgWrong=138c): Krok 6: Zabieg ratunkowy – Transfuzja wymienna (Exchange Transfusion)
+   V: Krew pełna rekonstytuowana RhD-UJEMNA, zgodna grupowo w układzie AB0 z matką i dzieckiem (lub krwinki grupy 0 RhD- zawieszone w osoczu grupy AB), świeża (<5 dni), przemywana i napromieniowana, przetaczana przez cewnik w żyle pępowinowej w objętości 2 objętości krwi krążącej (160–180 ml/kg)
+   X1 (135c): Krew RhD-dodatnia pobrana od ojca dziecka, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (141c): 5 litrów czystego osocza bez krwinek czerwonych, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (137c): Krew podaje się dootrzewnowo igłą punkcyjną, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+74. [Case #92 Step 1] ratio=2.14 (corr=301c, avgWrong=141c): Krok 1: Rozpoznanie wstrząsu septycznego i natychmiastowa stabilizacja ABCDE
+   V: Przeniesienie na stanowisko intensywnej terapii pod promiennik ciepła (kontrola hipotermii), tlenoterapia bierna/CPAP w celu utrzymania SpO2 > 92%, pilny dostęp naczyniowy (kaniulacja żyły obwodowej lub żyły pępowinowej UVC) oraz bolus płynowy z krystaloidu (0.9% NaCl 10-20 ml/kg w ciągu 10-20 minut)
+   X1 (159c): Kąpiel noworodka w ciepłej wodzie z mydłem w celu ogrzania powłok, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (124c): Podanie doustnego paracetamolu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (139c): Zlecenie kontroli za 6 godzin bez interwencji, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+75. [Case #94 Step 8] ratio=2.12 (corr=328c, avgWrong=155c): Krok 8: Kryteria ekstubacji i profilaktyka pierwotna (PSO)
+   V: Pacjent kwalifikuje się do bezpiecznej ekstubacji; rodzicom należy wyjaśnić, że przebycie zakażenia Hib u dziecka < 24. m.ż. lub ciężkiego przebiegu nie gwarantuje trwałej odporności, a szczepienie przeciwko Hib w Programie Szczepień Ochronnych (PSO) jest najskuteczniejszą metodą trwałego zapobiegania epiglottitis i sepsie Hib
+   X1 (152c): Szczepienia przeciwko Hib są zakazane po przebyciu choroby, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (165c): Należy profilaktycznie usunąć nagłośnię chirurgicznie (epiglottektomia), traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (148c): Utrzymanie rurki intubacyjnej przez kolejne 6 miesięcy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+76. [Case #97 Step 6] ratio=2.05 (corr=286c, avgWrong=140c): Krok 6: Zagrożenie powikłaniami – chemiczne zapalenie oskrzeli (Bronchitis arachidica)
+   V: Ponieważ orzechy arachidowe zawierają nienasycone kwasy tłuszczowe i oleje roślinne, które wywołują silną, jałową reakcję zapalną błony śluzowej (bronchitis arachidica / arachidic bronchitis) z obrzękiem, ziarninowaniem, martwicą ściany oskrzela i szybkim wtórnym zakażeniem bakteryjnym
+   X1 (149c): Ponieważ orzechy wytwarzają prąd elektryczny w oskrzelu, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (136c): Ponieważ natychmiast prowadzą do białaczki, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (134c): Orzeszki nie stanowią żadnego zagrożenia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+77. [Case #98 Step 8] ratio=2.18 (corr=278c, avgWrong=128c): Krok 8: Powikłania wielonarządowe w dorosłości – co monitorować?
+   V: Cukrzyca związana z mukowiscydozą (CFRD – Cystic Fibrosis-Related Diabetes, doustny test tolerancji glukozy OGTT co roku od 10. r.ż.), choroba wątroby (CFLD – stłuszczenie, żółciowa marskość wątroby), osteopenia/osteoporoza (DEXA) oraz niepłodność męska (CBAVD u > 98% mężczyzn)
+   X1 (127c): Choroba Alzheimera w wieku 15 lat, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (129c): Dna moczanowa u każdego niemowlęcia, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (127c): Rzekomorzekome zapalenie tarczycy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+
+78. [Case #99 Step 4] ratio=2.4 (corr=294c, avgWrong=123c): Krok 4: Etiologia wgłobienia niemowlęcego – przerost kępek Peyera
+   V: Idiopatyczny odczynowy przerost tkanki limfatycznej ściany jelita (kępek Peyera) w końcowym odcinku jelita krętego, często po przebytej łagodnej infekcji wirusowej (np. adenowirusowej lub rotawirusowej), stanowiący tzw. anatomiczny punkt wyjścia (lead point) w ponad 90% przypadków niemowlęcych
+   X1 (131c): Wrzodziejące zapalenie jelita grubego, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X2 (113c): Gruczolakorak esicy, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.
+   X3 (124c): Zakażenie tasiemcem uzbrojonym, traktując ten mechanizm jako wiodący czynnik determinujący aktualny stan kliniczny pacjenta.

@@ -1,0 +1,302 @@
+Wielki Kanon 265 Przypadków Klinicznych do Lekarskiego Egzaminu Końcowego (LEK)
+Kompletny wykaz 265 kluczowych scenariuszy klinicznych mapujących bazę pytań CEM, pytania archiwalne LEK oraz wytyczne towarzystw naukowych (Interna Szczeklika, Pediatria Kawalec, Chirurgia Noszczyka, Położnictwo i Ginekologia Bręborowicza, ERC, wytyczne PTK, PTE, PTD, PTGiP).
+CZĘŚĆ I: CHOROBY WEWNĘTRZNE (Przypadki 1–75)
+1. Kardiologia (Przypadki 1–18)
+1. INT-K01: Zawał ściany dolno-tylnej z OMI (STEMI/OMI) powikłany ostrym pęknięciem mięśnia brodawkowatego mitralnej i wstrząsem kardiogennym (pilna PCI, kontrapulsacja IABP, kardiochirurgia).
+2. INT-K02: Jednokształtny częstoskurcz komorowy (VT) po zawale u niestabilnego pacjenta (kardiowersja elektryczna zsynchronizowana, amiodaron, poszukiwanie niedokrwienia).
+3. INT-K03: Ostre rozwarstwienie aorty piersiowej typu A wg Stanford z niedomykalnością aortalną (angio-TK, pilna operacja kardiochirurgiczna, obniżenie ciśnienia i HR).
+4. INT-K04: Zatorowość płucna wysokiego ryzyka (masywna) ze wstrząsem obstrukcyjnym i przeciążeniem prawej komory (tromboliza rtPA, HNF i.v., angio-TK klatki piersiowej).
+5. INT-K05: Migotanie przedsionków z szybką czynnością komór (AF z RVR) powikłane obrzękiem płuc (kardiowersja elektryczna lub kontrola rytmu/częstości, heparyna, diuretyki pętlowe).
+6. INT-K06: Migotanie przedsionków z zespołem preekscytacji (AF + WPW) – bezwzględny zakaz leków blokujących węzeł AV (digoksyna, werapamil, diltiazem, beta-blokery; wybór: kardiowersja/prokainamid).
+7. INT-K07: Skrajna objawowa stenoza aortalna (AS) z triadą SAD (syncope, angina, dyspnoea) – gradient śr. &gt; 40 mmHg, pole &lt; 1 cm2, kwalifikacja do TAVI lub SAVR.
+8. INT-K08: Tamponada serca w przebiegu zapalenia osierdzia (triada Becka: hipotensja, ciche tony, poszerzenie żył szyjnych; tętno paradoksalne, pilna perikardiocenteza).
+9. INT-K09: Ostra dekompensacja przewlekłej niewydolności serca (HFrEF) – profil 'mokry i ciepły' vs 'mokry i zimny' (furosemid i.v., wazodylatatory, inotropowo dobutamina).
+10. INT-K10: Częstoskurcz komorowy typu Torsade de Pointes w zespole nabytego długiego QT (siarczan magnezu i.v., stymulacja czasowa, odstawienie leków wydłużających QTc).
+11. INT-K11: Infekcyjne zapalenie wsierdzia (IZW) zastawki naturalnej (kryteria Duke'a, posiewy krwi przed antybiotykiem, TEE, ampicylina z gentamycyną).
+12. INT-K12: Blok przedsionkowo-komorowy III stopnia (całkowity) z zespołem Morgagniego-Adamsa-Stokesa (MAS) – atropina, stymulacja przezskórna, pilna implantacja stymulatora serca.
+13. INT-K13: Przełom nadciśnieniowy z ostrym uszkodzeniem narządowym (encefalopatia, obrzęk tarczy nerwu wzrokowego, nitroprusydek, labetalol, urapidyl).
+14. INT-K14: Ostre zapalenie osierdzia i mięśnia sercowego (myopericarditis) – rozlane uniesienia ST, obniżenie odcinków PQ, NLPZ i kolchicyna.
+15. INT-K15: Kardiomiopatia przerostowa z zawężaniem drogi odpływu lewej komory (HOCM) – szmer nasilający się w próbie Valsalvy, unikanie leków inotropowych dodatnich i azotanów.
+16. INT-K16: Przewlekły zespół wieńcowy (CCS) – stratyfikacja ryzyka, próba wysiłkowa EKG, angio-TK naczyń wieńcowych, farmakoterapia optymalna OMT.
+17. INT-K17: Częstoskurcz nadkomorowy z wąskimi zespołami QRS (AVNRT/AVRT) – manewry wagalne, adenozyna w szybkim bolusie i.v., kardiowersja w niestabilności.
+18. INT-K18: Kardiomiopatia Takotsubo (zespół balotującego koniuszka) – uniesienie ST, ujemna koronarografia, dyskineza koniuszka po stresie emocjonalnym.
+2. Pulmonologia (Przypadki 19–30)
+19. INT-P01: Ciężkie zaostrzenie POChP z kwasicą oddechową (pH &lt; 7,35, retencja CO2) po tlenoterapii bez kontroli (nieinwazyjna wentylacja mechaniczna NIV BiPAP, nebulizacje SABA+SAMA, GKS).
+20. INT-P02: Stan astmatyczny (status asthmaticus) z objawem 'cichej klatki piersiowej' (tlenoterapia, wysokie dawki SABA, bromek ipratropium, hydrokortyzon i.v., siarczan magnezu).
+21. INT-P03: Ciężkie pozaszpitalne zapalenie płuc (CAP) wg skali CURB-65 / CRB-65 kwalifikowane do hospitalizacji (ceftriakson + makrolid, ocena sepsy).
+22. INT-P04: Rak drobnokomórkowy płuca (SCLC) powikłany zespołem żyły głównej górnej (SVCS) i SIADH (pilna chemioradioterapia, ograniczenie płynów, deksametazon).
+23. INT-P05: Sarkoidoza płucna w stadium ostrego zespołu Löfgrena (triada: rumień guzowaty, obustronna limfadenopatia wnęk, zapalenie stawów skokowych).
+24. INT-P06: Idiopatyczne włóknienie płuc (IPF) – postępująca duszność, trzeszczenia u podstawy płuc, obraz zwykłego śródmiąższowego zapalenia płuc (UIP) w HRCT, pirfenidon/nintedanib.
+25. INT-P07: Gruźlica płuc jamista prątkująca z krwiopluciem (preparat bezpośredni plwociny na kwasooporne prątki Ziehl-Neelsena, izolacja, schemat 2HRZE/4HR).
+26. INT-P08: Płyn w jamie opłucnej (kryteria Lighta: białko, LDH) – powikłany płyn parapneumoniczny i ropniak opłucnej wymagający drenażu opłucnowego.
+27. INT-P09: Odma opłucnowa samoistna pierwotna u młodego szczupłego mężczyzny (ból opłucnowy, asymetria szmerów, odbarczenie igłowe lub drenaż ssący).
+28. INT-P10: Rozstrzenie oskrzeli z przewlekłym odkrztuszaniem obfitej ropnej plwociny i krwiopluciem (HRCT klatki piersiowej, fizjoterapia oddechowa, antybiotykoterapia celowana).
+29. INT-P11: Obturacyjny bezdech senny (OBS) – skala Epworth, polisomnografia (AHI ≥ 15/h lub ≥ 5/h z objawami), proteza powietrzna CPAP.
+30. INT-P12: Zatorowość płucna pośredniego ryzyka (sPESI ≥ 1, podwyższone troponiny i/lub BNP bez wstrząsu) – hospitalizacja, NOAC lub HDCz.
+3. Gastroenterologia i Hepatologia (Przypadki 31–42)
+31. INT-G01: Krwotok z żylaków przełyku w marskości wątroby (terlipresyna/somatostatyna, ceftriakson profilaktycznie, pilna gastroskopia i opaskowanie endoskopowe EVL).
+32. INT-G02: Krwawiący wrzód trawienny opuszki dwunastnicy we wstrząsie (klasyfikacja Forresta Ia/Ib, hemostaza endoskopowa podwójna, IPP i.v. w bolusie i wlewie).
+33. INT-G03: Samoistne bakteryjne zapalenie otrzewnej (SBP) u pacjenta z wodobrzuszem (paracenteza diagnostyczna, PMN w płynie &gt; 250/µl, ceftriakson, albuminy i.v.).
+34. INT-G04: Ciężkie ostre zapalenie trzustki (OZT) na tle kamiczym lub hipertriglicerydemii (skala BISAP, wczesna agresywna płynoterapia krystaloidami, unikanie rutynowej antybiotykoterapii).
+35. INT-G05: Encefalopatia wątrobowa w stadium dekompensacji wyzwolona zaparciem lub krwawieniem (laktuloza doustnie/wlewki, rifaksymina alfa, korekta hipokaliemii).
+36. INT-G06: Ciężki rzut wrzodziejącego zapalenia jelita grubego (WZJG – kryteria Truelove'a i Wittsa) z ryzykiem megacolon toxicum (GKS i.v., cyklosporyna/infliksymab, RTG przeglądowe).
+37. INT-G07: Choroba Leśniowskiego-Crohna ze zwężeniem końcowego odcinka jelita krętego i przetokami okołoodbytniczymi (kolonoskopia z biopsją, enterografia MR, leczenie biologiczne).
+38. INT-G08: Zakażenie Clostridioides difficile o ciężkim przebiegu (leukocytoza &gt; 15 000, wzrost kreatyniny) – wankomycyna p.o. lub fidaksomycyna p.o., przeszczepienie mikrobioty jelitowej FMT.
+39. INT-G09: Celiakia u osoby dorosłej z niedokrwistością z niedoboru żelaza i dermatitis herpetiformis (przeciwciała anty-tTG IgA, biopsja dwunastnicy ze skalą Marsha, dieta bezglutenowa).
+40. INT-G10: Ostra niewydolność wątroby (ALF) po przedawkowaniu paracetamolu z koagulopatią (INR &gt; 1,5) i encefalopatią (kryteria King's College, pilna kwalifikacja do transplantacji).
+41. INT-G11: Autoimmunologiczne zapalenie wątroby (AIH) u młodej kobiety (hipergammaglobulinemia IgG, przeciwciała ANA, SMA, biopsja wątroby, prednizon z azatiopryną).
+42. INT-G12: Zespół jelita drażliwego (IBS) – kryteria rzymskie IV, wykluczenie objawów alarmowych, dieta low-FODMAP, leki rozkurczowe i regulujące pasaż.
+4. Endokrynologia i Diabetologia (Przypadki 43–53)
+43. INT-E01: Cukrzycowa kwasica ketonowa (DKA) z ciężką hipokaliemią początkową (nawadnianie 0,9% NaCl, wstrzymanie wlewu insuliny do czasu K+ &gt; 3,3 mmol/l, wyrównanie potasu).
+44. INT-E02: Stan hiperglikemiczno-hiperosmolalny (HHS) u starszego pacjenta z cukrzycą t. 2 (glikemia &gt; 600 mg/dl, osmolalność &gt; 320 mOsm/kg, deficyt płynów 8–10 l, wolna rehydratacja).
+45. INT-E03: Przełom tarczycowy (hipermetaboliczny) w chorobie Gravesa-Basedowa (skala Burcha-Wartofsky'ego ≥ 45 pkt; tiamazol i.v./p.o., po 1h płyn Lugola, hydrokortyzon, propranolol).
+46. INT-E04: Śpiączka hipometaboliczna w skrajnej niedoczynności tarczycy (myxedema coma; hipotermia, hipowentylacja, podanie hydrokortyzonu i.v. przed lewotyroksyną).
+47. INT-E05: Ostry przełom nadnerczowy (kryza addisonowska) we wstrząsie (hipotensja oporna na aminy, hiponatremia, hiperkaliemia; natychmiast hydrokortyzon 100 mg i.v. i 0,9% NaCl z glukozą).
+48. INT-E06: Guz chromochłonny nadnerczy (pheochromocytoma) – triada napadowa: ból głowy, poty, kołatanie serca; metanefryny w DZM, alfa-bloker fenoksybenzamina/doksazosyna przed beta-blokerem).
+49. INT-E07: Hiperkortyzolemia (zespół Cushinga) – test hamowania 1 mg deksametazonu, wolny kortyzol w moczu, stężenie ACTH do różnicowania ACTH-zależnego i ACTH-niezależnego.
+50. INT-E08: Pierwotna nadczynność przytarczyc z przełomem hiperkalcemicznym (wapń &gt; 3,5 mmol/l; intensywne nawadnianie 0,9% NaCl, furosemid po nawodnieniu, bisfosfoniany i.v., kalcytonina).
+51. INT-E09: Pierwotny hiperaldosteronizm (zespół Conna) – lekooporne nadciśnienie tętnicze ze spontaniczną lub indukowaną hipokaliemią (wskaźnik aldosteronowo-reninowy ARR, spironolakton).
+52. INT-E10: Moczówka prosta ośrodkowa po operacji przysadki (hipoosmolalny mocz, hipernatremia, test odwodnieniowy i wazopresynowy, leczenie desmopresyną).
+53. INT-E11: Podostre zapalenie tarczycy (choroba de Quervaina) – silny ból szyi promieniujący do uszu po infekcji wirusowej, bardzo wysokie OB przy niskim CRP, tyreotoksykoza z niskim jodochwytem, NLPZ/GKS).
+5. Nefrologia i Zaburzenia Wodno-Elektrolitowe (Przypadki 54–61)
+54. INT-N01: Ciężka hiperkaliemia (K+ &gt; 7,0 mmol/l) ze zmianami EKG (wysokie załamki T, poszerzenie QRS; kardioprotekcja glukonianem wapnia, insulina z glukozą, nebulizacja salbutamolu, hemodializa).
+55. INT-N02: Ciężka objawowa hiponatremia hipotoniczna (Na+ &lt; 120 mmol/l) z drgawkami (bolus 3% NaCl 100-150 ml, limit korekty max 8–10 mmol/l/dobę ze względu na ryzyko mielinolizy ODS).
+56. INT-N03: Ostre uszkodzenie nerek (AKI) – kryteria KDIGO, różnicowanie przednerkowego (FENa &lt; 1%) i nerkowego (martwica cewek nerkowych ATN, FENa &gt; 2%, wałeczki ziarniste).
+57. INT-N04: Zespół nerczycowy u dorosłego (białkomocz &gt; 3,5 g/dobę, hipoalbuminemia, uogólnione obrzęki, hiperlipidemia, powikłania zakrzepowe, biopsja nerki).
+58. INT-N05: Gwałtownie postępujące kłębuszkowe zapalenie nerek (RPGN) z półksiężycami (zespół płucno-nerkowy, przeciwciała ANCA i anty-GBM, pilna plazmafereza i puls metyloprednizolonu).
+59. INT-N06: Schyłkowa przewlekła choroba nerek (PChN G5D) ze wskazaniami do pilnej dializoterapii ratunkowej (bezwzględne: mocznicowe zapalenie osierdzia, hiperkaliemia i kwasica oporne na leczenie, obrzęk płuc).
+60. INT-N07: Ostre cewkowo-śródmiąższowe zapalenie nerek (AIN) po lekach (NLPZ, antybiotyki beta-laktamowe, IPP; triada: gorączka, osutka, eozynofilia, odstawienie leku, GKS).
+61. INT-N08: Autosomalnie dominująca wielotorbielowatość nerek (ADPKD) – krwiomocz, nadciśnienie tętnicze, tętniaki tętnic podstawy mózgu (koła Willisa), tolwaptan.
+6. Hematologia i Onkologia Kliniczna (Przypadki 62–68)
+62. INT-H01: Ciężka niedokrwistość z niedoboru żelaza (IDA) w przebiegu przewlekłego krwawienia z przewodu pokarmowego (mikrocytoza, niska ferrytyna, poszukiwanie źródła w endoskopii, preparaty żelaza).
+63. INT-H02: Niedokrwistość megaloblastyczna z niedoboru witaminy B12 w chorobie Addisona-Biermera (makrocytoza MCV &gt; 100 fl, hipersegmentacja granulocytów, podostre złożone zwyrodnienie rdzenia, witamina B12 i.m.).
+64. INT-H03: Zakrzepowa plamica małopłytkowa (TTP) – niedokrwistość hemolityczna mikroangiopatyczna (MAHA, schizocyty), trombocytopenia, objawy neurologiczne, niedobór ADAMTS13, pilna plazmafereza).
+65. INT-H04: Gorączka neutropeniczna po chemioterapii przeciwnowotworowej (ANC &lt; 500/µl, temp. &gt; 38,3°C; pilna antybiotykoterapia empiryczna o szerokim spektrum przeciw Pseudomonas w 1h, np. cefepim/meropenem).
+66. INT-H05: Szpiczak plazmocytowy (kryteria CRAB: hiperkalcemia, niewydolność nerek, anemia, zmiany osteolityczne; białko monoklonalne w elektroforezie, biopsja szpiku).
+67. INT-H06: Ostra białaczka szpikowa (AML) – obecność blastów we krwi obwodowej i szpiku (≥ 20%), pałeczki Auera, skaza krwotoczna, pilna indukcja chemioterapii 7+3.
+68. INT-H07: Zespół rozpadu guza (TLS) po chemioterapii nowotworów hematologicznych (hiperurykemia, hiperkaliemia, hiperfosfatemia, hipokalcemia; forsowna hydratacja, rasburykaza/allopurynol).
+7. Reumatologia (Przypadki 69–72)
+69. INT-R01: Toczeń rumieniowaty układowy (SLE) z toczniowym zapaleniem nerek (kryteria EULAR/ACR: przeciwciała ANA, anty-dsDNA, anty-Sm, obniżenie składowych C3/C4 dopełniacza, hydroksychlorochina, mykofenolan mofetylu).
+70. INT-R02: Olbrzymiokomórkowe zapalenie tętnic (GCA) z polimialgią reumatyczną – jednostronny ból głowy, chromanie żuchwy, bolesność tętnicy skroniowej, OB &gt; 50 mm/h, natychmiastowe GKS w wysokiej dawce przed biopsją tętnicy).
+71. INT-R03: Ostry napad dny moczanowej (podagra) vs septyczne zapalenie stawu – punkcja diagnostyczna stawu, identyfikacja kryształów moczanu sodu w mikroskopie polaryzacyjnym, NLPZ, kolchicyna, GKS dostawowo).
+72. INT-R04: Reumatoidalne zapalenie stawów (RZS) o wczesnym początku – symetryczne zapalenie drobnych stawów rąk i stóp, sztywność poranna &gt; 1h, przeciwciała anty-CCP i RF, wczesne włączenie metotreksatu).
+8. Choroby Zakaźne (Przypadki 73–75)
+73. INT-Z01: Ropne zapalenie opon mózgowo-rdzeniowych (ZOMR) u dorosłego – triada: gorączka, ból głowy, sztywność karku; ceftriakson + wankomycyna + deksametazon przed lub równolegle z pierwszą dawką antybiotyku).
+74. INT-Z02: Borelioza z Lyme – rumień wędrujący (erythema migrans ≥ 5 cm; rozpoznanie czysto kliniczne, doksycyklina 14–21 dni bez badań serologicznych) vs wczesna neuroborelioza.
+75. INT-Z03: Wirusowe zapalenie wątroby typu B (ostre i przewlekłe HBV) – interpretacja profilu serologicznego (HBsAg, anty-HBs, HBeAg, anty-HBe, anty-HBc IgM/total, HBV-DNA), wskazania do leczenia entekawirem/tenofowirem.
+CZĘŚĆ II: PEDIATRIA I NEONATOLOGIA (Przypadki 76–125)
+1. Neonatologia i Okres Niemowlęcy (Przypadki 76–87)
+76. PED-N01: Resuscytacja noworodka na sali porodowej (algorytm NLS: osuszenie, stymulacja, wentylacja dodatnim ciśnieniem PEEP 5 cmH2O przez maskę, uciśnięcia klatki przy HR &lt; 60/min stosunkiem 3:1).
+77. PED-N02: Konflikt serologiczny RhD i choroba hemolityczna noworodka (konflikt antygenowy, bezpośredni test Coombsa BTA, fototerapia ciągła, kryteria transfuzji wymiennej, immunoglobulina anty-D).
+78. PED-N03: Martwicze zapalenie jelit (NEC) u wcześniaka (klasyfikacja Bella, wzdęcie brzucha, krew w stolcu, obecność gazu w ścianie jelita – pneumatoza jelitowa w RTG, dekompresja żołądka, antybiotyki).
+79. PED-N04: Przerostowe zwężenie odźwiernika (pylorostenoza) u 3–6-tygodniowego niemowlęcia (chlustające wymioty treścią bezżółciową, zasadowica metaboliczna hipochloremiczna i hipokaliemiczna, operacja Ramstedta po wyrównaniu).
+80. PED-N05: Wrodzona niedrożność dwunastnicy u noworodka z zespołem Downa (wymioty żółciowe w 1. dobie, objaw podwójnej bańki 'double bubble' w RTG przeglądowym jamy brzusznej).
+81. PED-N06: Żółtaczki okresu noworodkowego – różnicowanie hiperbilirubinemii niesprzężonej (żółtaczka fizjologiczna, pokarmu kobiecego) a sprzężonej (atrezja dróg żółciowych, acholiczne stolce, ciemny mocz, zabieg Kasai przed 60. d.ż.).
+82. PED-N07: Zespół zaburzeń oddychania noworodka (RDS) z niedoboru surfaktantu u wcześniaka (stękanie wydechowe, zaciąganie międzyżebrzy, obraz mlecznej szyby w RTG, nCPAP, wczesna podaż surfaktantu).
+83. PED-N08: Wrodzona sinicza wada serca przewodozależna (przełożenie wielkich pni tętniczych TGA / krytyczna koarktacja aorty CoA) – hipoksja oporna na tlenoterapię (test hiperoksji), natychmiastowy wlew prostaglandyny E1 (alprostadil).
+84. PED-N09: Sepsa wczesna noworodków (EOS) wywołana przez Streptococcus agalactiae (GBS) lub Listeria monocytogenes (profilaktyka okołoporodowa u ciężarnej, ampicylina z gentamycyną).
+85. PED-N10: Zespół aspiracji smółki (MAS) u noworodka przenoszonego (zielony płyn owodniowy, zaburzenia wentylacji, powikłanie odmą opłucnową i przetrwałym nadciśnieniem płucnym PPHN).
+86. PED-N11: Retinopatia wcześniaków (ROP) – badanie okulistyczne wcześniaków &lt; 33 hbd lub &lt; 1800 g m.ur., laseroterapia siatkówki, anty-VEGF.
+87. PED-N12: Encefalopatia niedokrwienno-niedotlenieniowa (HNN) u noworodka po asfiksji okołoporodowej (skala Sarnat, hipotermia terapeutyczna całego ciała wdrożona w pierwszych 6h życia).
+2. Pulmonologia i Laryngologia Dziecięca (Przypadki 88–95)
+88. PED-P01: Podgłośniowe zapalenie krtani (krup wirusowy) – duszność wdechowa, stridor, szczekający kaszel (deksametazon p.o./i.m. w pojedynczej dawce, nebulizacja z L-adrenaliny).
+89. PED-P02: Ostre zapalenie nagłośni (epiglottitis) wywołane przez Haemophilus influenzae b (ślinotok, pozycja wąchająca, wysoka gorączka, bezwzględny zakaz dotykania gardła łopatką, pilna intubacja w znieczuleniu).
+90. PED-P03: Zapalenie oskrzelików (bronchiolitis RSV) u niemowlęcia (świsty, trzeszczenia, wydłużony wydech, bezdechy, toaleta nosa, tlenoterapia, nawadnianie, brak wskazań do GKS i rutynowych leków rozkurczowych).
+91. PED-P04: Pozaszpitalne zapalenie płuc u dziecka (etiologia zależna od wieku: S. pneumoniae; lek pierwszego rzutu: amoksycylina w wysokiej dawce 90 mg/kg mc./dobę).
+92. PED-P05: Ciało obce w drogach oddechowych u małego dziecka (nagły napad kaszlu w wywiadzie, jednostronne ściszenie szmeru oddechowego, zjawisko wentylowe, pilna bronchoskopia sztywna).
+93. PED-P06: Mukowiscydoza (CF) – niedrożność smółkowa u noworodka, nawracające zapalenia płuc, rozstrzenie oskrzeli, zewnątrzwydzielnicza niewydolność trzustki, test potowy (chlorki w pocie &gt; 60 mmol/l), modulatory CFTR).
+94. PED-P07: Zaostrzenie astmy oskrzelowej u dziecka (ocena ciężkości zaostrzenia wg GINA, salbutamol z komory inhalacyjnej z maską, wczesne podanie sterydu systemowego p.o.).
+95. PED-P08: Przewlekły wysiękowy stan zapalny ucha środkowego (OME) z niedosłuchem przewodzeniowym u dziecka z przerostem migdałka gardłowego (tympanometria, adenotomia, drenaż wentylacyjny błon bębenkowych).
+3. Gastroenterologia i Chirurgia Dziecięca (Przypadki 96–103)
+96. PED-G01: Ostre odwodnienie w przebiegu biegunki rotawirusowej (skala Gorelicka, doustne płyny nawadniające DPN hipoosmolalne, kryteria nawadniania dożylnego 0,9% NaCl/płynem wieloelektrolitowym).
+97. PED-G02: Wgłobienie jelita (intussusceptio) u niemowlęcia (napadowy kolkowy ból brzucha, podkurczanie nóżek, stolec o wyglądzie galaretki porzeczkowej, objaw tarczy strzelniczej w USG, odwgłobienie pneumatyczne pod kontrolą USG/RTG).
+98. PED-G03: Skręt jelita środkowego (volvulus) na podłożu malrotacji u noworodka (nagłe wymioty żółciowe, objaw wiru naczyniowego w USG Doppler, pilna operacja sposobem Ladda).
+99. PED-G04: Krwawienie z uchyłka Meckela u 2-latka (bezbolesne masywne krwawienie z dolnego odcinka przewodu pokarmowego, scyntygrafia z użyciem 99mTc-pertechnetatu wykazująca ektopową błonę śluzową żołądka).
+100. PED-G05: Choroba Hirschsprunga (aganglionoza jelitowa) – opóźnienie oddania smółki &gt; 48 h, rozdęcie brzucha, pustka w bańce odbytnicy i gwałtowny wystrzał gazów/stolca po badaniu per rectum, biopsja ssąca odbytnicy).
+101. PED-G06: Celiakia u małego dziecka – przewlekła biegunka tłuszczowa, spadek masy ciała, powiększenie obwodu brzucha, przeciwciała anty-tTG IgA z całkowitym IgA (ścieżka bez biopsji przy mianie &gt; 10x GGN i obecności EMA-IgA).
+102. PED-G07: Alergia na białka mleka krowiego (ABMK) u niemowlęcia – wyprysk atopowy, krew w stolcu, kolki; próba eliminacji i prowokacji, preparaty o wysokim stopniu hydrolizy kazeiny/serwatki lub mieszanki aminokwasowe).
+103. PED-G08: Ostre zapalenie wyrostka robaczkowego u małego dziecka (nietypowy obraz, drażliwość, gorączka, wczesna perforacja i zapalenie otrzewnej, USG jamy brzusznej, pilna appendektomia).
+4. Nefrologia i Zakażenia Układu Moczowego u Dzieci (Przypadki 104–109)
+104. PED-M01: Zakażenie układu moczowego (ZUM) u niemowlęcia z gorączką bez uchwytnego źródła (posiew moczu pobranego z nakłucia nadłonowego lub cewnikowania, USG nerek, wskazania do cystourografii mikcyjnej CUM).
+105. PED-M02: Zespół nerczycowy o typie zmian minimalnych (MCD) u 3-latka (ciastowate obrzęki powiek i podudzi, białkomocz selektywny bez krwinkomoczu, prawidłowe składowe dopełniacza, prednizon 60 mg/m2/d).
+106. PED-M03: Zespół hemolityczno-mocznicowy (typowy STEC-HUS) po krwistej biegunce wywołanej przez E. coli O157:H7 (triada: mikroangiopatyczna niedokrwistość hemolityczna MAHA, małopłytkowość, ostre uszkodzenie nerek; zakaz antybiotykoterapii).
+107. PED-M04: Odpływ pęcherzowo-moczowodowy (VUR) u małego dziecka z nawrotowymi odmiedniczkowymi zapaleniami nerek (stopnie I–V w CUM, profilaktyka przeciwbakteryjna vs leczenie endoskopowe/chirurgiczne).
+108. PED-M05: Ostre poinfekcyjne (popaciorkowcowe) kłębuszkowe zapalenie nerek (APSGN) – ciemny mocz (o barwie popłuczyn mięsnych), obrzęki, nadciśnienie tętnicze, podwyższone ASO, obniżenie C3 dopełniacza).
+109. PED-M06: Wodonercze wrodzone u noworodka na podłożu zwężenia przejścia miedniczkowo-moczowodowego (UPJO) – diagnostyka USG prenatalna i poporodowa, scyntygrafia dynamiczna MAG3).
+5. Infekcjologia i Choroby Wysypkowe Wieku Dziecięcego (Przypadki 110–117)
+110. PED-I01: Odra (morbilli) u nieszczepionego dziecka – wysoka gorączka, kaszel, katar, zapalenie spojówek ze światłowstrętem, plamki Koplika na śluzówce policzków, zstępująca gruboplamista wysypka, zgłoszenie do PSSE.
+111. PED-I02: Płonica (szkarlatyna) wywołana przez S. pyogenes – zapalenie gardła, malinowy język, drobnoplamista wysypka w zgięciach stawowych (linie Pastii), trójkąt Fiłatowa, fenoksymetylopenicylina p.o. przez 10 dni.
+112. PED-I03: Ospa wietrzna (varicella) – polimorfizm wysypki (plamka, grudka, pęcherzyk 'kropla rosy', strupek), świąd, powikłania bakteryjne skóry (liszajec, martwicze zapalenie powięzi), ataksja móżdżkowa.
+113. PED-I04: Mononukleoza zakaźna (EBV) – triada objawów: wysoka gorączka, zapalenie gardła z nalotami na migdałkach, uogólniona limfadenopatia i hepatosplenomegalia; osutka plamisto-grudkowa po amoksycylinie, limfocyty atypowe.
+114. PED-I05: Krztusiec (pertussis) u nieuodpornionego niemowlęcia – napady bezdechów, duszności, napadowy kaszel z 'pianiem' i wymiotami na szczycie napadu, leukocytoza z limfocytozą, leczenie makrolidem (azytromycyna).
+115. PED-I06: Rumień zakaźny (piąta choroba, Parvovirus B19) – objaw 'spoliczkowanego dziecka' na twarzy, girlandowata/koronkowa wysypka na tułowiu i kończynach, ryzyko przełomu aplastycznego w niedokrwistościach wrodzonych.
+116. PED-I07: Gorączka trzydniowa (rumień nagły, szósta choroba, HHV-6) – wysoka gorączka przez 3 dni u niemowlęcia przy dobrym stanie ogólnym, nagły spadek temperatury i pojawienie się drobnoplamistej wysypki na tułowiu.
+117. PED-I08: Choroba dłoni, stóp i jamy ustnej (HFMD, enterowirusy/Coxsackie) – bolesne owrzodzenia w jamie ustnej (herpangina) oraz grudki i pęcherzyki na dłoniach i podeszwach stóp.
+6. Neurologia, Endokrynologia i Hematologia Dziecięca (Przypadki 118–125)
+118. PED-H01: Drgawki gorączkowe proste vs złożone u dziecka w wieku 6–60 miesięcy (czas trwania, symetria napadu, brak deficytu neurologicznego po napadzie, diazepam p.r. / midazolam na śluzówkę policzka, wskazania do punkcji lędźwiowej).
+119. PED-H02: Wrodzony przerost nadnerczy (WPN, niedobór 21-hydroksylazy) – postać klasyczna z utratą soli u noworodka (wymioty, hiponatremia, hiperkaliemia, kwasica metaboliczna, obojnacze narządy płciowe u dziewczynek, podwyższony 17-OH-progesteron).
+120. PED-H03: Cukrzyca typu 1 u dziecka debiutująca kwasicą ketonową (DKA) – wielomocz, polidypsja, spadek masy ciała, oddech Kussmaula, zapach acetonu; nawadnianie, ostrożny wlew insuliny w celu zapobiegania obrzękowi mózgu).
+121. PED-H04: Wrodzona niedoczynność tarczycy wykrywana w badaniach przesiewowych (przedłużona żółtaczka, przepuklina pępkowa, duży język, zaparcia, konieczność włączenia L-tyroksyny przed 14. dniem życia).
+122. PED-H05: Ostra białaczka limfoblastyczna (ALL) u dziecka w wieku przedszkolnym – bóle kostno-stawowe, bladość powłok, wybroczyny na skórze, hepatosplenomegalia, limfadenopatia, obecność blastów w mielogramie).
+123. PED-H06: Plamica Henocha-Schönleina (zapalenie naczyń związane z IgA) – uniesiona plamica wyczuwalna dotykiem na pośladkach i kończynach dolnych, bóle brzucha, zapalenie stawów, krwiomocz/białkomocz).
+124. PED-H07: Guz tylnego dołu czaszki (rdzeniak / gwiaździak włosowatokomórkowy) u dziecka – poranne bóle głowy z chlustającymi wymiotami, ataksja móżdżkowa, tarcza zastoinowa na dnie oka, badanie MR mózgu).
+125. PED-H08: Choroba Kawasakiego – gorączka trwająca ≥ 5 dni oraz cechy kliniczne (przekrwienie spojówek, malinowy język i spierzchnięte wargi, obrzęki rąk/stóp, limfadenopatia szyjna, polimorficzna wysypka; IVIG + kwas acetylosalicylowy, echo serca pod kątem tętniaków wieńcowych).
+CZĘŚĆ III: CHIRURGIA OGÓLNA, NACZYNIOWA, URAZOWA I DZIECIĘCA (Przypadki 126–167)
+1. Ostre Stany Brzuszne (Przypadki 126–139)
+126. CHIR-B01: Ostre zapalenie wyrostka robaczkowego (objawy Blumberga, Rovsinga, Jaworskiego, z mięśnia zasłonowego i lędźwiowego; punkt McBurneya, laparoskopowa appendektomia).
+127. CHIR-B02: Ostre kamicze zapalenie pęcherzyka żółciowego (kolka żółciowa nieustępująca, gorączka, objaw Murphy'ego, pogrubienie ściany pęcherzyka w USG &gt; 4 mm, cholecystektomia laparoskopowa w ciągu 72h).
+128. CHIR-B03: Ostre zapalenie dróg żółciowych (cholangitis acuta) – triada Charcota (ból w prawym podżebrzu, żółtaczka, gorączka z dreszczami) i pentada Reynoldsa (+ wstrząs i zaburzenia świadomości); pilne ECPW z drenażem).
+129. CHIR-B04: Perforacja wrzodu trawiennego żołądka lub dwunastnicy – nagły 'cios sztyletem', brzuch deskowaty, zanik stłumienia wątrobowego, sierp powietrza pod kopułą przepony w RTG na stojąco, pilna laparotomia/laparoskopia z zaopatrzeniem).
+130. CHIR-B05: Mechaniczna niedrożność jelita cienkiego ze zrostów pooperacyjnych (bóle kolkowe, nudności, wymioty, zatrzymanie gazów i stolca, metaliczny perystaltyczny szmer, poziomy płynów w RTG jamy brzusznej).
+131. CHIR-B06: Skręt esicy (volvulus sigmoidei) – wzdęcie brzucha, obraz 'ziarna kawy' w RTG, próba derotacji endoskopowej za pomocą rektosigmoidoskopu lub operacja sposobem Hartmanna przy cechach martwicy).
+132. CHIR-B07: Uwięźnięta przepuklina pachwinowa ze zgorzelą jelita (bolesny, nieodprowadzalny guz w pachwinie, objawy niedrożności przewodu pokarmowego; bezwzględny zakaz siłowego odprowadzania, pilna operacja w trybie ostrym).
+133. CHIR-B08: Ostre niedokrwienie krezki (zator tętnicy krezkowej górnej) – silny ból brzucha nieproporcjonalny do ubogiego badania palpacyjnego, kwasica mleczanowa, pilne angio-TK i laparotomia z embolektomią lub resekcją martwego jelita).
+134. CHIR-B09: Ostre zapalenie uchyłków esicy (diverticulitis) powikłane ropniem lub zapaleniem otrzewnej (klasyfikacja Hincheya, 'lewozronny wyrostek', TK jamy brzusznej, drenaż przezskórny vs operacja Hartmanna).
+135. CHIR-B10: Krwawienie z dolnego odcinka przewodu pokarmowego (LGIB) – krwawienie z uchyłków jelita grubego, angiodysplazje, pilna kolonoskopia po stabilizacji hemodynamicznej, embolizacja angiograficzna).
+136. CHIR-B11: Ropień okołoodbytniczy i przetoka odbytu – ostry ból okolicy odbytu nasilający się przy siadaniu i defekacji, chełbotanie, pilne nacięcie i drenaż w znieczuleniu, zakaz monoterapii antybiotykiem).
+137. CHIR-B12: Pęknięcie śledziony w tępym urazie brzucha (objaw Kehra – ból promieniujący do lewego barku, badanie FAST, niestabilność hemodynamiczna jako wskazanie do pilnej splenektomii lub embolizacji tętnicy śledzionowej).
+138. CHIR-B13: Ostra niedrożność mechaniczna jelita grubego w przebiegu raka odbytnicy lub esicy (konieczność odbarczenia: doraźna stomia odbarczająca, stent samorozprężalny SEMS lub zabieg resekcyjny).
+139. CHIR-B14: Niedokrwienne zapalenie jelita grubego (ischaemic colitis) – przemijający ból w lewym dolnym kwadrancie, krwista biegunka u osoby starszej z miażdżycą, obraz 'odcisków kciuka' w RTG/TK).
+2. Chirurgia Naczyniowa (Przypadki 140–147)
+140. CHIR-N01: Pęknięty tętniak aorty brzusznej (rAAA) – triada objawów: nagły silny ból lędźwiowo-brzuszny, pulsujący guz w jamie brzusznej, wstrząs hipowolemiczny; natychmiastowy transport na blok operacyjny (EVAR lub operacja otwarta).
+141. CHIR-N02: Ostre niedokrwienie kończyny dolnej (zator tętnicy udowej/podkolanowej) – zasada 5xP (pain, pallor, pulselessness, paresthesia, paralysis), pilna embolektomia cewnikiem Fogarty'ego w oknie do 6h).
+142. CHIR-N03: Przewlekłe krytyczne niedokrwienie kończyn dolnych (CLTI wg Fontaine'a III/IV: bóle spoczynkowe nocne, owrzodzenia troficzne, martwica; wskaźnik ABI &lt; 0,4, rewaskularyzacja wewnątrznaczyniowa lub by-pass).
+143. CHIR-N04: Objawowe zwężenie tętnicy szyjnej wewnętrznej (ICA &gt; 70% po TIA/udarze) – wskazanie do endarterektomii szyjnej (CEA) lub stentowania (CAS) optymalnie w ciągu 14 dni od incydentu neurologicznego).
+144. CHIR-N05: Zakrzepica żył głębokich (ZŻG) proksymalna kończyny dolnej – skala Wellsa, objaw Homansa, test uciskowy USG Doppler (CUS), leczenie przeciwkrzepliwe (NOAC/HDCz), pończochy uciskowe).
+145. CHIR-N06: Zakrzepowe zapalenie żył powierzchownych (SVT) pnia żyły odpiszczelowej &lt; 3 cm od ujścia odpiszczelowo-udowego – ryzyko progresji do ZŻG, terapeutyczna dawka fondaparynuksu/HDCz).
+146. CHIR-N07: Zespół usidlenia tętnicy podkolanowej (PAES) u młodego sportowca z chromaniem przestankowym i brakiem tętna przy zgięciu grzbietowym stopy (angio-TK/MR, leczenie chirurgiczne).
+147. CHIR-N08: Zespół podkradania tętnicy podobojczykowej (subclavian steal syndrome) – niedokrwienie kończyny górnej i zawroty głowy indukowane pracą ręki, odwrócenie przepływu w tętnicy kręgowej w USG Doppler).
+3. Traumatologia i Medycyna Polowa ATLS (Przypadki 148–157)
+148. CHIR-U01: Pacjent z urazem wielonarządowym (Polytrauma) – algorytm ATLS (ABCDE: udrożnienie dróg oddechowych z protekcją kręgosłupa szyjnego, odbarczenie odmy, protokół MTP transfuzji masywnej 1:1:1, badanie eFAST).
+149. CHIR-U02: Wiotka klatka piersiowa (flail chest) – złamanie ≥ 3 żeber w ≥ 2 miejscach, paradoksalny ruch ściany klatki piersiowej, stłuczenie płuca, intubacja i wentylacja dodatnim ciśnieniem przy niewydolności oddechowej).
+150. CHIR-U03: Masywny krwiak opłucnej (haemothorax &gt; 1500 ml krwi po drenażu lub &gt; 200 ml/h przez 2–4 h) – bezwzględne wskazanie do natychmiastowej torakotomii ratunkowej).
+151. CHIR-U04: Niestabilne hemodynamicznie złamanie miednicy (typ C wg Tile'a / open-book) – założenie pasa miednicowego na wysokości krętarzy większych, stabilizacja zewnętrzna, packing przedotrzewnowy).
+152. CHIR-U05: Złamanie szyjki kości udowej u osoby starszej – złamanie podgłowowe ze zwichnięciem (Garden III/IV) ze względu na ryzyko martwicy jałowej głowy kości udowej kwalifikowane do pierwotnej alloplastyki stawu biodrowego).
+153. CHIR-U06: Zespół ciasnoty przedziałów powięziowych (compartment syndrome) podudzia po złamaniu piszczeli (ból nieproporcjonalny, narastający przy biernym rozciąganiu, wzrost ciśnienia w przedziale &gt; 30 mmHg; pilna fasciotomia odbarczająca).
+154. CHIR-U07: Oparzenie termiczne pełnej grubości skóry (&gt; 20% TBSA) – reguła Parkland (4 ml x kg mc. x % TBSA, połowa płynów w pierwszych 8h), escharotomia w oparzeniach okrężnych klatki piersiowej i kończyn).
+155. CHIR-U08: Rany kąsane przez psa i kota – specyfika flory bakteryjnej (Pasteurella multocida, Capnocytophaga), zakaz pierwotnego szycia ran szarpanych, profilaktyka przeciwtężcowa i przeciw wściekliźnie, amoksycylina z kwasem klawulanowym).
+156. CHIR-U09: Krwiak nadtwardówkowy (EDH) po urazie głowy ze złamaniem łuski kości skroniowej – uszkodzenie tętnicy oponowej środkowej, klasyczny 'jasny odstęp' (lucidum intervallum), soczewkowate ognisko hiperdensyjne w TK, pilna kraniotomia).
+157. CHIR-U10: Krwiak podtwardówkowy ostry (SDH) po ciężkim urazie czaszkowo-mózgowym (rozerwanie żył mostkowych, krwiak o kształcie półksiężycowatym w TK, ucisk na struktury linii pośrodkowej, pilne odbarczenie operacyjne).
+4. Onkologia Chirurgiczna i Chirurgia Gruczołów (Przypadki 158–167)
+158. CHIR-O01: Rak piersi – diagnostyka potrójna (badanie fizykalne, mammografia/USG, biopsja gruboigłowa core-biopsy), chirurgia oszczędzająca BCT z biopsją węzła wartowniczego SLNB vs mastektomia, receptorozależność ER/PR/HER2).
+159. CHIR-O02: Rak gruczołowy jelita grubego (okrężnicy i odbytnicy) – screening kolonoskopowy, całkowite wycięcie mezorektum (TME) w raku odbytnicy, chemioradioterapia neoadjuwantowa w stopniach cT3/T4 lub N+).
+160. CHIR-O03: Rak żołądka z objawami alarmowymi i wczesnym uczuciem sytości (węzeł Virchowa, węzeł Siostry Mary Joseph, gastroskopia z mnogimi wycinkami, gastrektomia z limfadenektomią D2).
+161. CHIR-O04: Rak głowy trzustki powikłany bezbolesną żółtaczką zaporową i powiększonym niebolesnym pęcherzykiem żółciowym (objaw Courvoisiera, TK wielofazowa, operacja pankreatoduodenektomii sposobem Whipple'a).
+162. CHIR-O05: Czerniak złośliwy skóry – kryteria ABCDE, biopsja wycinająca ze skąpym marginesem 1–2 mm, ocena głębokości naciekania wg Breslowa decydująca o docięciu marginesów i wykonaniu SLNB).
+163. CHIR-O06: Rak brodawkowaty tarczycy (najczęstszy rak tarczycy, biopsja aspiracyjna cienkoigłowa BACC – kategoria Bethesda V/VI, tyreoidektomia z oceną węzłów przedziału środkowego, leczenie jodem promieniotwórczym 131-I).
+164. CHIR-O07: Rak pęcherza moczowego z bezbolesnym krwiomoczem makroskopowym (rak urotelialny, cystoskopia z przezcewkową resekcją guza pęcherza TURBT, w raku naciekającym mięśniówkę MIBC pilna cystektomia radykalna).
+165. CHIR-O08: Niedrożność mechaniczna w przebiegu zaawansowanego raka przełyku – dysfagia postępująca, gastroskopia, zabiegi paliatywne (protezowanie samorozprężalnym stentem metalowym, radioterapia paliatywna).
+166. CHIR-O09: Rak nerkokomórkowy (RCC) – klasyczna triada: krwiomocz, ból w boku, wyczuwalny guz (zespół paraneoplastyczny: policytemia, hiperkalcemia, nefrektomia radykalna lub oszczędzająca miąższ NSS).
+167. CHIR-O10: Wole guzkowe toksyczne i choroba Plummera – tyreotoksykoza z autonomicznym guzkiem tarczycy (scyntygrafia tarczycy – 'gorący guzek', przygotowanie tyreostatykiem, leczenie 131-I lub strumektomia).
+CZĘŚĆ IV: POŁOŻNICTWO I GINEKOLOGIA (Przypadki 168–205)
+1. Patologia Ciąży i Stany Nagłe (Przypadki 168–181)
+168. GIN-C01: Stan przedrzucawkowy z ciężkimi objawami (pre-eclampsia) i zespół HELLP – siarczan magnezu (schemat Zuspan), labetalol/hydralazyna, pilne ukończenie ciąży po stabilizacji.
+169. GIN-C02: Rzucawka poporodowa i śródporodowa (eclampsia) – drgawki toniczno-kloniczne, ochrona dróg oddechowych, MgSO4 w dawce nasycającej 4–6 g i.v.
+170. GIN-C03: Ciąża ektopowa jajowodowa pęknięta – ostry brzuch, objawy wstrząsu hipowolemicznego, beta-hCG, pilna laparoskopia ratunkowa (salpingektomia/salpingostomia).
+171. GIN-C04: Ciąża ektopowa wczesna niepęknięta – kryteria kwalifikacji do metotreksatu (MTX: beta-hCG &lt; 5000 IU/l, brak czynności serca płodu, masa &lt; 3,5 cm, brak płynu w jamie otrzewnej).
+172. GIN-C05: Łożysko przodujące (placenta praevia) z bezbolesnym krwawieniem w III trymestrze – bezwzględny zakaz badania we wziernikach i per vaginam przed oceną USG, cięcie cesarskie.
+173. GIN-C06: Przedwczesne oddzielenie łożyska prawidłowo usadowionego (abruptio placentae) – bolesne krwawienie, macica deskowata, bradykardia płodu, pilne cięcie cesarskie.
+174. GIN-C07: Zagrażający poród przedwczesny (PTL &lt; 34 hbd) – tokoliza (atosyban / nifedypina), sterydoterapia prenatalna (deksametazon/betametazon) i neuroprotekcja MgSO4.
+175. GIN-C08: Przedwczesne pęknięcie pęcherza płodowego przedwczesne (PPROM &lt; 37 hbd) – profilaktyka antybiotykowa (erytromycyna/ampicylina), monitorowanie chorioamnionitis.
+176. GIN-C09: Cukrzyca ciążowa (GDM) – diagnostyka testem OGTT 75g w 24–28 hbd (kryteria IADPSG: na czczo ≥ 92 mg/dl, 1h ≥ 180 mg/dl, 2h ≥ 153 mg/dl), dieta vs insulina.
+177. GIN-C10: Cholestaza ciężarnych (ICP) – świąd skóry dłoni i stóp nasilony w nocy, podwyższone kwasy żółciowe (&gt; 10 µmol/l), kwas ursodeoksycholowy (UDCA), monitorowanie dobrostanu płodu.
+178. GIN-C11: Konflikt serologiczny RhD w ciąży – ocena przeciwciał anty-D, profilaktyka śródciążowa immunoglobuliną anty-RhD w 28–30 hbd i do 72 h po porodzie.
+179. GIN-C12: Zaśniad groniasty całkowity vs częściowy – krwawienie w I trymestrze, obraz 'zamieci śnieżnej' w USG, bardzo wysokie stężenia beta-hCG, ewakuacja z jamy macicy, ryzyko kosmówczaka.
+180. GIN-C13: Ciąża wielopłodowa powikłana zespołem przetoczenia między płodami (TTTS) w ciąży jednokosmówkowej dwuowodniowej (fetoskopowa ablacja laserowa naczyń).
+181. GIN-C14: Zakażenie parwowirusem B19 w ciąży – aplazja czerwonokrwinkowa płodu, obrzęk uogólniony płodu (hydrops fetalis), kordocenteza i transfuzja dopłodowa.
+2. Poród, Połóg i Patologia Łożyska (Przypadki 182–191)
+182. GIN-P01: Krwotok poporodowy (PPH) w mechanizmie atonii macicy (reguła 4T: Tonus, Trauma, Tissue, Thrombin) – masaż macicy, oksytocyna, karbetocyna, sulproston, tamponada Bakri, embolizacja/szew B-Lyncha).
+183. GIN-P02: Dystocja barkowa – manewry ratunkowe (McRoberts, ucisk nadłonowy, manewr Woodsa, uwolnienie tylnego barku; bezwzględny zakaz ucisku na dno macicy Kristellera!).
+184. GIN-P03: Wypadnięcie pępowiny – odprowadzenie części przodującej ręcznie per vaginam, ułożenie kolankowo-łokciowe lub Trendelenburga, natychmiastowe cięcie cesarskie w trybie pilnym.
+185. GIN-P04: Pęknięcie macicy w bliźnie po cięciu cesarskim – nagłe ustanie czynności skurczowej, silny ból brzucha, objawy wstrząsu i ostrej asfiksji płodu, natychmiastowa laparotomia).
+186. GIN-P05: Zator płynem owodniowym (AFE) – nagłe załamanie krążeniowo-oddechowe, wstrząs kardiogenny, DIC, drgawki i sinica w trakcie porodu lub bezpośrednio po nim.
+187. GIN-P06: Położenie miednicowe płodu – kryteria kwalifikacji do próby porodu drogami natury vs planowe cięcie cesarskie (pomoc ręczna wg Brachta, manewr Veita-Smelliego).
+188. GIN-P07: Zakażenie połogowe (endometritis puerperalis) – bolesność uciskowa trzonu macicy, cuchnące odchody połogowe, gorączka, antybiotykoterapia skojarzona i.v. (klindamycyna z gentamycyną).
+189. GIN-P08: Pęknięcie krocza III i IV stopnia (uszkodzenie zwieracza odbytu i błony śluzowej odbytnicy) – pierwotne warstwowe zaopatrzenie na bloku, profilaktyka antybiotykowa, leki zmiękczające stolec).
+190. GIN-P09: Zakrzepowe zapalenie żył miednicy mniejszej i septyczne zakrzepowe zapalenie żył w połogu (gorączka hektyczna oporna na antybiotyki, wdrożenie heparyny terapeutycznej).
+191. GIN-P10: Niedokrwistość poporodowa po krwotoku – wskazania do przetoczenia KKCz i dożylnej podaży preparatów żelaza (karboksymaltoza żelazowa).
+3. Ginekologia Zachowawcza i Endokrynologiczna (Przypadki 192–199)
+192. GIN-G01: Zespół policystycznych jajników (PCOS) – kryteria rotterdamskie (oligo/amenorrhoea, hiperandrogenizm kliniczny/biochemiczny, obraz jajników policyklicznych w USG; metformina, antykoncepcja dwuskładnikowa).
+193. GIN-G02: Endometrioza głęboko naciekająca i torbiele czekoladowe jajników – dysmenorrhoea, dyspareunia, niepłodność, progestageny (dienogest), laparoskopowe wyłuszczenie torbieli).
+194. GIN-G03: Skręt przydatków (adnexal torsion) – nagły, ostry ból w podbrzuszu, nudności, powiększony jajnik bez przepływu naczyniowego w USG Doppler, pilna laparoskopia z derotacją jajnika).
+195. GIN-G04: Zapalenie narządów miednicy mniejszej (PID) wywołane przez N. gonorrhoeae i C. trachomatis (ból miednicy, tkliwość przy poruszaniu szyjką, ryzyko ropnia jajowodowo-jajnikowego TOA, ceftriakson + doksycyklina + metronidazol).
+196. GIN-G05: Nieprawidłowe krwawienia maciczne (AUB) wg klasyfikacji FIGO (PALM-COEIN: Polip, Adenomioza, Mięśniak, Malignancy; Koagulopatia, Ovulatory, Endometrial, Jatrogenne, Not specified).
+197. GIN-G06: Pierwotny brak miesiączki (amenorrhoea primaria) – diagnostyka różnicowa: zespół Turnera (45,X), zespół Mayera-Rokitansky'ego-Küstera-Hausera (MRKH) oraz zespół niewrażliwości na androgeny (CAIS, 46,XY).
+198. GIN-G07: Przedwczesne wygasanie czynności jajników (POI &lt; 40 r.ż.) – wtórny brak miesiączki, hipoestrogenizm, wzrost FSH &gt; 25 IU/l, konieczność hormonalnej terapii zastępczej MTH do wieku naturalnej menopauzy).
+199. GIN-G08: Antykoncepcja hormonalna – bezwzględne przeciwwskazania (kryteria WHO kat. 4 dla estrogenów: przebyta żylna choroba zakrzepowo-zatorowa, migrena z aurą, palenie &gt; 35 r.ż., niekontrolowane nadciśnienie tętnicze ≥ 160/100).
+200. Ginekologia Onkologiczna (Przypadki 200–205)
+200. GIN-O01: Rak szyjki macicy – infekcja przetrwała HPV wysokiego ryzyka (16, 18), cytologia na podłożu płynnym LBC, test HPV-DNA, kolposkopia z biopsją celowaną, stopnie zaawansowania FIGO, radiochemioterapia).
+201. GIN-O02: Rak trzonu macicy (rak endometrium) – krwawienie pomenopauzalne (PMB), grubość endometrium &gt; 4 mm w USG TV, biopsja aspiracyjna endometrium (Pipelle), histerektomia z obustronną adneksektomią).
+202. GIN-O03: Rak jajnika (wysokojakościowy rak surowiczy HGSOC) – marker CA 125, HE4, algorytm ROMA, podstawa chirurgii cytoredukcyjnej debulking, mutacja w genach BRCA1/BRCA2, inhibitory PARP).
+203. GIN-O04: Rak sromu – podłoże przewlekłego liszaja twardzinowego lub infekcji HPV, świąd i niegojące się owrzodzenie sromu, biopsja wycinkowa, wulwektomia z obustronną limfadenektomią pachwinową).
+204. GIN-O05: Atypowa hiperplazja endometrium (EIN) – stan przednowotworowy u kobiety po menopauzie lub okołomenopauzalnej, histerektomia z adneksektomią, terapia progestagenami przy chęci zachowania płodności).
+205. GIN-O06: Ciążowa choroba trofoblastyczna (kosmówczak / choriocarcinoma) – wysokie miana beta-hCG po poronieniu lub ciąży zaśniadowej, przerzuty drogą krwi do płuc i mózgu, wysoka chemiowrażliwość (metotreksat/EMA-CO).
+CZĘŚĆ V: MEDYCYNA RATUNKOWA, INTENSYWNA TERAPIA I TOKSYKOLOGIA (Przypadki 206–230)
+1. Resuscytacja ALS i Wstrząs (Przypadki 206–213)
+206. RAT-A01: Nagłe zatrzymanie krążenia w mechanizmie VF/pVT – algorytm ALS, wczesna defibrylacja, adrenalina 1 mg po 3. wyładowaniu, amiodaron 300 mg po 3. defibrylacji (150 mg po 5. defibrylacji).
+207. RAT-A02: Nagłe zatrzymanie krążenia w rytmie niedeofibrylacyjnym (PEA / asystolia) – poszukiwanie odwracalnych przyczyn (4H: hipoksja, hipowolemia, hipo/hiperkaliemia, hipotermia; 4T: tamponada, tension pneumothorax, toksyny, tromboza), adrenalina 1 mg natychmiast).
+208. RAT-A03: Wstrząs anafilaktyczny – adrenalina domięśniowo w przednio-boczną powierzchnię uda (0,5 mg u dorosłego), tlenoterapia, ułożenie z uniesionymi nogami, wlewy krystaloidów, hydrokortyzon i leki antyhistaminowe jako leczenie II rzutu).
+209. RAT-A04: Odma prężna (tension pneumothorax) – hipotensja, asymetria szmerów, poszerzenie żył szyjnych; natychmiastowe odbarczenie igłowe (II m-ż linia środkowo-obojczykowa lub V m-ż linia pachowa przednia), a następnie drenaż opłucnej).
+210. RAT-A05: Wstrząs septyczny oporny na wstępną płynoterapię (30 ml/kg krystaloidów) – wlew noradrenaliny jako wazopresora pierwszego wyboru, monitorowanie mleczanów, posiewy krwi i antybiotyk szerokowidmowy w ciągu 1h).
+211. RAT-A06: Zespół ostrej niewydolności oddechowej (ARDS) – kryteria berlińskie (czas, obustronne zacienienia, brak sercopochodnego obrzęku, wskaźnik PaO2/FiO2 ≤ 300), wentylacja protekcyjna płuc (objętość oddechowa 6 ml/kg PBW, wysokie PEEP, prone position).
+212. RAT-A07: Ostra niewydolność wielonarządowa (MODS) w sepsie lub urazie – skala SOFA, zaawansowane monitorowanie hemodynamiczne, dializoterapia ciągła (CRRT).
+213. RAT-A08: Trudne drogi oddechowe – algorytm DAS (Difficult Airway Society), rurka/maska krtaniowa (SGA/LMA), wideolaryngoskopia, chirurgiczna konikotomia ratunkowa techniką skalpel-bougie-rurka w sytuacji CICO (cannot intubate, cannot oxygenate).
+2. Toksykologia Ostra i Odtrutki (Przypadki 214–223)
+214. RAT-T01: Ostre zatrucie paracetamolem – hepatotoksyczność metabolitu NAPQI, nomogram Rumacka-Matthewa, swoista odtrutka: N-acetylocysteina (NAC i.v. schemat 3-wlewowy).
+215. RAT-T02: Ostre zatrucie opioidami (fentanyl, morfina, heroina) – triada: śpiączka, szpilkowate źrenice, depresja ośrodka oddechowego; swoista odtrutka: nalokson miareczkowany do powrotu wydolnego oddechu).
+216. RAT-T03: Ostre zatrucie benzodiazepinami – odtrutka: flumazenil i.v. (uwaga na wywołanie drgawek przy współistniejącym zatruciu TLPD lub u osób uzależnionych).
+217. RAT-T04: Ostre zatrucie tlenkiem węgla (CO) – pomiar karboksyhemoglobiny (HbCO), normobaryczna tlenoterapia 100% przez maskę z rezerwuarem, wskazania do tlenoterapii hiperbarycznej HBO2 (utrata przytomności, ciąża, cechy niedokrwienia serca).
+218. RAT-T05: Zatrucie glikolem etylenowym lub metanolem – kwasica metaboliczna z głęboką luką anionową i osmolalną, odtrutka: fomepizol lub etanol, pilna hemodializa w celu eliminacji toksyny).
+219. RAT-T06: Zatrucie trójpierścieniowymi lekami przeciwdepresyjnymi (TLPD) – kardiotoksyczność: poszerzenie zespołu QRS &gt; 100 ms, arytmie komorowe; odtrutka: 8,4% wodorowęglan sodu NaHCO3 i.v. alkalizujący krew).
+220. RAT-T07: Zespół cholinergiczny w zatruciu pestycydami fosforoorganicznymi (inhibitorami acetylocholinoesterazy) – ślinotok, łzawienie, zwężenie źrenic, zlewne poty, bradykardia, skurcz oskrzeli; odtrutki: atropina w wysokich rosnących dawkach + reaktywatory cholinoesterazy: oksymy).
+221. RAT-T08: Zatrucie beta-adrenolitykami (beta-blokerami) – oporna bradykardia, blok AV, wstrząs kardiogenny; leczenie: glukagon i.v. w wysokiej dawce, wlew insuliny z glukozą (HIET), emulsja tłuszczowa (lipid rescue).
+222. RAT-T09: Zatrucie blokerami kanału wapniowego (CCB – werapamil, diltiazem) – hipotensja, bradykardia, hiperglikemia; leczenie: glukonian/chlorek wapnia i.v., terapia hiperinsulinemiczno-euglikemiczna (HIET).
+223. RAT-T10: Zespół serotoninowy po lekach serotoninergicznych (SSRI, SNRI, tramadol, IMAO) – klonusy, wzmożenie odruchów ścięgnistych, hipertermia, pobudzenie; leczenie: sedacja benzodiazepinami, chłodzenie, odtrutka: cyproheptadyna).
+3. Stany Środowiskowe i Zabiegowe (Przypadki 224–230)
+224. RAT-S01: Ciężka hipotermia przypadkowa (temp. głęboka &lt; 28°C) – algorytm ERC (max 3 próby defibrylacji do temp. &gt; 30°C, wstrzymanie leków reanimacyjnych do 30°C), aktywne ogrzewanie pozaustrojowe ECMO).
+225. RAT-S02: Udar cieplny (heat stroke) – hipertermia osiowa &gt; 40°C z dysfunkcją OUN (splątanie, śpiączka) i anhidrozą; agresywne chłodzenie ewaporacyjne (zraszanie letnią wodą i nawiew), płynoterapia chłodnymi płynami).
+226. RAT-S03: Podtopienie (drowning) – ostre uszkodzenie surfaktantu, hipoksja pęcherzykowa, obrzęk płuc, algorytm RKO z 5 wstępnymi oddechami ratowniczymi, profilaktyka ARDS i hipotermii).
+227. RAT-S04: Porażenie prądem elektrycznym wysokiego napięcia i piorunem – arytmie komorowe, oparzenia tkanek głębokich, rabdomioliza powikłana ostrym uszkodzeniem nerek, forsowna diureza).
+228. RAT-S05: Ukąszenie przez żmiję zygzakowatą (Vipera berus) – obrzęk narastający, ból, martwica miejscowa, objawy ogólne; unieruchomienie kończyny, swoista antytoksyna (surowica przeciw jadowi żmij) przy objawach systemowych).
+229. RAT-S06: Zespół zmiażdżenia (crush syndrome) i pourazowa rabdomioliza po przysypaniu – uwolnienie mioglobiny i potasu po dekompresji kończyny, forsowna hydratacja 0,9% NaCl i alkalizacja moczu NaHCO3 przed odbarczeniem).
+230. RAT-S07: Zdarzenie masowe i segregacja medyczna poszkodowanych – system START (Simple Triage and Rapid Treatment: ocena chodzenia, oddechu, nawrotu kapilarnego/tętna, spełniania poleceń) oraz JumpSTART u dzieci.
+CZĘŚĆ VI: NEUROLOGIA I PSYCHIATRIA (Przypadki 231–250)
+1. Neurologia (Przypadki 231–240)
+231. NEU-N01: Udar niedokrwienny mózgu – okno trombolizy dożylnej alteplazą (rtPA do 4,5 h od wystąpienia objawów) oraz trombektomii mechanicznej (do 6h lub do 24h na podstawie kryteriów niezgodności perfuzji DAWN/DEFUSE-3).
+232. NEU-N02: Krwotok podpajęczynówkowy (SAH) z pękniętego tętniaka tętnic mózgowych – nagły 'najsilniejszy ból głowy w życiu', objawy oponowe, TK głowy bez kontrastu (punkcja lędźwiowa przy ujemnym TK), nimodypina, pilna embolizacja/klipsowanie).
+233. NEU-N03: Stan padaczkowy drgawkowy (status epilepticus trwający ≥ 5 min) – I rzut: diazepam/midazolam i.v./i.m./buccal; II rzut: lewetyracetam, walproinian lub fosfenytoina i.v.; III rzut: propofol/tiopental z intubacją).
+234. NEU-N04: Stwardnienie rozsiane (SM) – postać rzutowo-remisyjna, pozagałkowe zapalenie nerwu wzrokowego, objaw Lhermitte'a, prążki oligoklonalne w PMR, kryteria McDonalda w MR, rzut leczony metyloprednizolonem w pulsach i.v.).
+235. NEU-N05: Zespół Guillaina-Barrégo (GBS / AIDP) po infekcji Campylobacter jejuni – symetryczny wstępujący wiotki niedowład kończyn ze zniesieniem odruchów, rozszczepienie białkowo-komórkowe w PMR, leczenie: plazmafereza lub IVIG, zakaz GKS!).
+236. NEU-N06: Przełom miasteniczny (myasthenic crisis) w miastenii rzekomoporaźnej – niewydolność oddechowa z osłabienia mięśni opuszkowych i oddechowych, intubacja, wymiana osocza (plazmafereza) lub IVIG, czasowe odstawienie inhibitorów AChE).
+237. NEU-N07: Choroba Parkinsona – zespół hipokinetyczno-hipertoniczny: asymetryczne drżenie spoczynkowe, sztywność mięśniowa typu koła zębatego, bradykinezja, niestabilność postawy; leczenie lewodopą z inhibitorem dekarboksylazy).
+238. NEU-N08: Guz mózgu z zespołem ciasnoty wewnątrzczaszkowej i obrzękiem mózgu – triada Cushinga (nadciśnienie tętnicze, bradykardia, nieregularny oddech), deksametazon w obrzęku naczyniopochodnym, 15–20% mannitol i.v., pilna interwencja neurochirurgiczna).
+239. NEU-N09: Klasterowy ból głowy vs migrena z aurą – silny jednostronny ból oczodołowy z tożstronnymi objawami autonomicznymi (łzawienie, zwężenie źrenicy, wyciek z nosa); doraźnie 100% tlen 12 l/min i sumatryptan podskórnie, profilaktycznie werapamil).
+240. NEU-N10: Otępienie z ciałami Lewy'ego (DLB) vs choroba Alzheimera – fluktuacje funkcji poznawczych, wczesne omamy wzrokowe, zespół parkinsonowski, skrajna nadwrażliwość na klasyczne neuroleptyki).
+2. Psychiatria (Przypadki 241–250)
+241. PSY-P01: Epizod depresyjny ciężki z objawami psychotycznymi i wysokim ryzykiem samobójczym – wskazanie do pilnej hospitalizacji psychiatrycznej (w tym bez zgody na podst. art. 23 UoOZP), farmakoterapia (SSRI/SNRI + lek przeciwpsychotyczny II generacji), terapia elektrowstrząsowa EW).
+242. PSY-P02: Ostra mania z objawami psychotycznymi w przebiegu choroby afektywnej dwubiegunowej (ChAD) – gonitwa myśli, zmniejszona potrzeba snu, urojenia wielkościowe; leczenie: atypowe leki przeciwpsychotyczne (olanzapina, kwetiapina) + stabilizator nastroju (lit, walproinian).
+243. PSY-P03: Schizofrenia paranoidalna w zaostrzeniu – urojenia ksobne, prześladowcze i oddziaływania, omamy słuchowe rzekome (pseudohalucynacje – głosy komentujące/nakazujące); leki przeciwpsychotyczne II generacji (np. olanzapina, risperidon).
+244. PSY-P04: Majaczenie drżenne (delirium tremens) w alkoholowym zespole abstynencyjnym (AZA) – zaburzenia świadomości z omamami wzrokowymi (mikrozoopsje), drżeniem, zaburzeniami wegetatywnymi; diazepam i.v. w protokole miareczkowania + tiamina (wit. B1) i.v. przed glukozą).
+245. PSY-P05: Złośliwy zespół neuroleptyczny (NMS) po lekach przeciwpsychotycznych – hipertermia, uogólniona sztywność mięśniowa ('rura ołowiana'), zaburzenia świadomości, niestabilność autonomiczna, drastyczny wzrost CK; odstawienie neuroleptyku, dantrolen, bromokryptyna).
+246. PSY-P06: Zaburzenie lękowe z napadami lęku (lęk paniczny) – nagły napad silnego lęku z hiperwentylacją, kołataniem serca, tężyczką oddechową; różnicowanie z ostrym zespołem wieńcowym, doraźnie alprazolam, długofalowo SSRI i psychoterapia CBT).
+247. PSY-P07: Jadłowstręt psychiczny (anorexia nervosa) o skrajnym nasileniu (BMI &lt; 13 kg/m2) – wyniszczenie, bradykardia, hipotermia, zaburzenia elektrolitowe, zespół ponownego odżywienia (refeeding syndrome: hipofosfatemia, obrzęki, arytmia po zbyt szybkim żywieniu).
+248. PSY-P08: Zaburzenie obsesyjno-kompulsyjne (OCD) – intruzywne natrętne myśli i przymusowe rytuały redukujące lęk (np. mycie rąk), farmakoterapia wysokimi dawkami SSRI (sertralina, fluwoksamina) oraz terapia behawioralna ekspozycji z powstrzymaniem reakcji (ERP).
+249. PSY-P09: Zaburzenie stresowe pourazowe (PTSD) po urazie zagrażającym życiu – intruzje (flashbacki, koszmary senne), unikanie bodźców, nadmierne wzbudzenie, psychoterapia ukierunkowana na traumę (TF-CBT, EMDR), leki z grupy SSRI).
+250. PSY-P10: Zaburzenie osobowości chwiejnej emocjonalnie typu borderline (BPD) – niestabilność relacji, lęk przed porzuceniem, impulsywność, przewlekłe poczucie pustki, samouszkodzenia i groźby samobójcze; terapia dialektyczno-behawioralna DBT).
+CZĘŚĆ VII: MEDYCYNA RODZINNA I SPECJALNOŚCI WĄSKIE (Przypadki 251–260)
+251. POZ-01: Wielochorobowość i polipragmazja u pacjenta w wieku podeszłym – kryteria Beersa oraz narzędzia STOPP/START do eliminacji leków potencjalnie nieodpowiednich, kaskada lekowa, ocena funkcji nerek.
+252. POZ-02: Przewlekłe zapalenie błony śluzowej nosa i zatok przynosowych (CRS) – wytyczne EPOS: objawy trwające ≥ 12 tygodni (niedrożność nosa, wyciek, ból/rozpieranie twarzy, upośledzenie węchu); donosowe glikokortykosteroidy i płukanie jam nosa solą fizjologiczną).
+253. POZ-03: Ostre zapalenie ucha środkowego (AOM) u dziecka – kryteria strategii wyczekującej (watchful waiting 48–72h) vs natychmiastowa antybiotykoterapia (&lt; 6 m.ż., obustronne AOM &lt; 2 r.ż., wysoka gorączka z wymiotami); amoksycylina w wysokiej dawce jako lek I wyboru).
+254. POZ-04: Zapalenie spojówek w gabinecie POZ – różnicowanie bakteryjnego (obfita ropna wydzielina, sklejone powieki rano), wirusowego (grudkowe, wodnista wydzielina, powiększenie węzłów przyusznych) i alergicznego (świąd, obrzęk powiek, sezonowość).
+255. POZ-05: Ostry napad jaskry z zamkniętym kątem przesączania – silny ból oka i głowy, zamglenie widzenia z kołami tęczowymi wokół źródeł światła, nudności, gałka oczna 'twarda jak kamień', szeroka sztywna źrenica; natychmiast acetazolamid i.v./p.o., krople obniżające ciśnienie (tymolol, pilokarpina), pilna konsultacja okulistyczna).
+256. POZ-06: Zakażenia skóry i tkanek miękkich (SSTI) – róża (erysipelas, wyraźnie odgraniczony, lśniący rumień wywołany przez S. pyogenes; penicylina/amoksycylina) vs zapalenie tkanki łącznej (cellulitis, nieostro odgraniczony naciek).
+257. POZ-07: Łuszczyca plackowata (psoriasis vulgaris) – rumieniowo-grudkowe ogniska pokryte srebrzystą łuską na łokciach, kolanach i skórze owłosionej głowy, objaw świecy stearynowej i objaw Auspitza; preparaty miejscowe: pochodne witaminy D3 i silne GKS).
+258. POZ-08: Zespół cieśni nadgarstka (CTS) – drętwienie i parestezje kciuka, wskaziciela i palca środkowego (nerw pośrodkowy), wybudzające w nocy; dodatni objaw Tinela i manewr Phalena, badanie EMG/ENG, orteza, iniekcje sterydowe lub chirurgiczne przecięcie troczka zginaczy).
+259. POZ-09: Zespół bólowy kręgosłupa lędźwiowego z rwą kulszową (ischialgia) – dodatni objaw Lasegue'a; identyfikacja 'czerwonych flag' (zespół ogona końskiego: zaburzenia mikcji/defekacji, opadanie stopy, znieczulenie siodłowe wymagające pilnej interwencji neurochirurgicznej w ciągu 24h).
+260. POZ-10: Opieka paliatywna nad chorym z bólem nowotworowym – trójstopniowa drabina analgetyczna WHO (nieopioidy -&gt; słabe opioidy: tramadol/kodeina -&gt; silne opioidy: morfina, fentanyl, oksykodon); miareczkowanie dawki morfiny o natychmiastowym uwalnianiu, dawki ratunkowe na ból przebijający, profilaktyka zaparć poopioidowych).
+CZĘŚĆ VIII: PRAWO MEDYCZNE, BIOETYKA, ORZECZNICTWO ZUS I ZDROWIE PUBLICZNE (Przypadki 261–265)
+261. LAW-01: Zgoda na zabieg operacyjny i badanie – pacjent małoletni w wieku 16–18 lat (zgoda podwójna kumulatywna: pacjenta i przedstawiciela ustawowego; w razie sprzeczności rozstrzyga sąd opiekuńczy), pacjent nieprzytomny w stanie bezpośredniego zagrożenia życia (działanie bez zgody na podstawie art. 33/34 ustawy o zawodach lekarza i lekarza dentysty z wpisem do dokumentacji medycznej i poinformowaniem przełożonego).
+262. LAW-02: Tajemnica lekarska i sytuacje uchylające obowiązek jej zachowania – śmierć pacjenta a sprzeciw osób bliskich, zgoda pacjenta lub jego przedstawiciela, sytuacja bezpośredniego zagrożenia życia pacjenta lub innych osób, obowiązek denuncjacji najcięższych przestępstw (art. 240 Kodeksu karnego).
+263. LAW-03: Stwierdzenie zgonu i śmierć mózgu – procedura komisyjna stwierdzania nieodwracalnego ustania czynności mózgu (etap wysunięcia podejrzenia, wykonanie badań potwierdzających i bezdechu, orzeczenie dwóch lekarzy specjalistów), zasady wystawiania karty zgonu i przesłanki obligatoryjnego skierowania na sądowo-lekarską sekcję zwłok (zgon gwałtowny, podejrzenie udziału osób trzecich).
+264. LAW-04: Orzecznictwo o czasowej niezdolności do pracy (ZUS ZLA) – maksymalny okres zasiłkowy (182 dni, w przypadku gruźlicy lub ciąży do 270 dni), świadczenie rehabilitacyjne (do 12 miesięcy), orzekanie o trwałej niezdolności do pracy i samodzielnej egzystencji, zasady wstecznego wystawiania zwolnienia (do 3 dni wstecz, psychiatra bez tego ograniczenia).
+265. LAW-05: Badania profilaktyczne, programy badań przesiewowych i zdrowie publiczne – poziomy profilaktyki (wczesna, pierwotna, wtórna/screeningowa, trzeciorzędowa i czwartorzędowa), cechy testu przesiewowego (czułość, swoistość, wartość predykcyjna dodatnia PPV), populacyjne programy w Polsce (cytologia/HPV, mammografia, kolonoskopia).

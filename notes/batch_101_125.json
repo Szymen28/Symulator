@@ -1,0 +1,1352 @@
+[
+  {
+    "caseId": 101,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego u każdego pacjenta z podejrzeniem celiakii rutynowym badaniem pierwszego rzutu obok oznaczania przeciwciał przeciwko transglutaminazie tkankowej w klasie IgA (anty-tTG IgA) jest oznaczenie całkowitego stężenia immunoglobuliny A (całkowitego IgA)?",
+    "key": "A) Selektywny niedobór IgA występuje u chorych na celiakię 10–15 razy częściej niż w populacji ogólnej i w razie jego obecności test anty-tTG IgA da fałszywie ujemny wynik",
+    "correctIdx": 0,
+    "opts": [
+      "A) Selektywny niedobór IgA występuje u chorych na celiakię 10–15 razy częściej niż w populacji ogólnej i w razie jego obecności test anty-tTG IgA da fałszywie ujemny wynik",
+      "B) Wysokie stężenie całkowitego IgA jest bezpośrednim kryterium rozpoznania atrofii kosmków jelitowych",
+      "C) Całkowite IgA jest enzymem trawiącym gluten w świetle przewodu pokarmowego",
+      "D) Badanie to służy do wykluczenia szpiczaka mnogiego u dzieci",
+      "E) Jeśli całkowite IgA jest prawidłowe, wyklucza to definitywnie celiakię"
+    ],
+    "corrLen": 171,
+    "avgWrong": 79,
+    "ratio": 2.18
+  },
+  {
+    "caseId": 101,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 4-letniego dziecka z celiakią potwierdzoną wg kryteriów ESPGHAN (anty-tTG IgA >10x GGN, EMA-IgA dodatnie), lekarz pediatra w ramach opieki i procedur orzeczniczych:",
+    "key": "Wystawia zaświadczenie lekarskie potwierdzające rozpoznanie choroby trzewnej i konieczność bezwzględnego stosowania ścisłej diety bezglutenowej w placówce przedszkolnej, zaleca edukację dietetyczną (Polskie Stowarzyszenie Osób z Celiakią) oraz wystawia dokumentację do Miejskiego Zespołu ds. Orzekania o Niepełnosprawności w razie ciężkiego zespołu złego wchłaniania z zaburzeniami rozwoju.",
+    "correctIdx": 0,
+    "opts": [
+      "Wystawia zaświadczenie lekarskie potwierdzające rozpoznanie choroby trzewnej i konieczność bezwzględnego stosowania ścisłej diety bezglutenowej w placówce przedszkolnej, zaleca edukację dietetyczną (Polskie Stowarzyszenie Osób z Celiakią) oraz wystawia dokumentację do Miejskiego Zespołu ds. Orzekania o Niepełnosprawności w razie ciężkiego zespołu złego wchłaniania z zaburzeniami rozwoju.",
+      "Kieruje dziecko na przymusową hospitalizację do sanatorium uzdrowiskowego na okres 2 lat.",
+      "Informuje rodziców, że po ukończeniu 7. roku życia dieta bezglutenowa może zostać bezpiecznie zastąpiona normalnym pieczywem pszennym.",
+      "Zgłasza przypadek celiakii do Sanepidu na formularzu ZLK-1 jako zakaźną enteropatię.",
+      "Odmawia wystawienia jakichkolwiek zaświadczeń dla przedszkola, uznając dietę za fanaberię rodziców."
+    ],
+    "corrLen": 390,
+    "avgWrong": 102,
+    "ratio": 3.84
+  },
+  {
+    "caseId": 102,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "U 8-miesięcznego niemowlęcia z IgE-zależną alergią na mleko krowie omyłkowo podano jogurt. Po 5 minutach wystąpiła uogólniona pokrzywka, obrzęk warg i powiek, świszczący oddech (stridor) oraz narastająca duszność. Jaki lek należy podać w pierwszej kolejności, jaką drogą i w jakiej dawce?",
+    "key": "A) Adrenalinę domięśniowo (i.m.) w przednio-boczną powierzchnię uda w dawce 0.01 mg/kg m.c.",
+    "correctIdx": 0,
+    "opts": [
+      "A) Adrenalinę domięśniowo (i.m.) w przednio-boczną powierzchnię uda w dawce 0.01 mg/kg m.c.",
+      "B) Hydrokortyzon dożylnie w dawce 10 mg/kg m.c.",
+      "C) Klemastynę domięśniowo w dawce 1 mg",
+      "D) Wziewny salbutamol przez nebulizator jako jedyny lek",
+      "E) Deksametazon doustnie w kroplach"
+    ],
+    "corrLen": 91,
+    "avgWrong": 44,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 102,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Na czym polega koncepcja tzw. 'drabiny mlecznej' (Milk Ladder) wykorzystywana w ponownym wprowadzaniu produktów mlecznych u dzieci z ustępującą ABMK?",
+    "key": "A) Na stopniowym podawaniu produktów mlecznych od poddanych najsilniejszej obróbce termicznej w matrycy mącznej (np. pieczone herbatniki, muffinki), przez produkty fermentowane (jogurt, ser żółty), aż po mleko pasteryzowane",
+    "correctIdx": 0,
+    "opts": [
+      "A) Na stopniowym podawaniu produktów mlecznych od poddanych najsilniejszej obróbce termicznej w matrycy mącznej (np. pieczone herbatniki, muffinki), przez produkty fermentowane (jogurt, ser żółty), aż po mleko pasteryzowane",
+      "B) Na codziennym podwajaniu ilości surowego mleka krowiego pitego rano na czczo",
+      "C) Na wspinaniu się dziecka po drabince gimnastycznej podczas picia mleka modyfikowanego",
+      "D) Na podawaniu mleka wyłącznie w pozycji pionowej z użyciem specjalnego cewnika",
+      "E) Na zastępowaniu mleka krowiego mlekiem sojowym w parzyste dni tygodnia"
+    ],
+    "corrLen": 223,
+    "avgWrong": 80,
+    "ratio": 2.79
+  },
+  {
+    "caseId": 102,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z polskimi przepisami refundacyjnymi (ustawa o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego) oraz zasadami ordynacji lekarskiej:",
+    "key": "Lekarz ma prawo wystawić receptę na refundowane mieszanki o wysokim stopniu hydrolizy (eHF) lub mieszanki aminokwasowe (AAF) pod warunkiem udokumentowania w historii choroby objawów klinicznych i wskazań do diety eliminacyjnej w przebiegu udokumentowanej alergii na białka mleka krowiego.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma prawo wystawić receptę na refundowane mieszanki o wysokim stopniu hydrolizy (eHF) lub mieszanki aminokwasowe (AAF) pod warunkiem udokumentowania w historii choroby objawów klinicznych i wskazań do diety eliminacyjnej w przebiegu udokumentowanej alergii na białka mleka krowiego.",
+      "Mieszanki eHF są dostępne wyłącznie na receptę weterynaryjną i nie podlegają żadnej refundacji w Polsce.",
+      "Wystawienie recepty na preparat mlekozastępczy eHF ze zniżką wymaga każdorazowej zgody wojewódzkiego konsultanta ds. gastroenterologii.",
+      "Refundacja mieszanek mlekozastępczych przysługuje wyłącznie dzieciom powyżej 18. roku życia.",
+      "Lekarz POZ nie ma prawa ordynować preparatów mlekozastępczych i musi bezwzględnie odsyłać każdego pacjenta do kliniki uniwersyteckiej."
+    ],
+    "corrLen": 288,
+    "avgWrong": 116,
+    "ratio": 2.48
+  },
+  {
+    "caseId": 103,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "9-letnie dziecko z ostrym zapaleniem wyrostka robaczkowego wymaga pilnej operacji w trybie ostrym. Przy dziecku obecna jest matka, natomiast ojciec przebywa za granicą. Zgodnie z art. 34 Ustawy o zawodach lekarza i lekarza dentysty:",
+    "key": "Pisemną zgodę na zabieg operacyjny o podwyższonym ryzyku u pacjenta małoletniego może skutecznie podpisać jeden z rodziców wykonujący władzę rodzicielską (w tym przypadku matka), o ile między rodzicami nie ma udokumentowanego sporu.",
+    "correctIdx": 0,
+    "opts": [
+      "Pisemną zgodę na zabieg operacyjny o podwyższonym ryzyku u pacjenta małoletniego może skutecznie podpisać jeden z rodziców wykonujący władzę rodzicielską (w tym przypadku matka), o ile między rodzicami nie ma udokumentowanego sporu.",
+      "Wykonanie operacji u dziecka wymaga bezwzględnie jednoczesnego podpisu obojga rodziców w obecności notariusza.",
+      "Dziecko w wieku 9 lat ma prawny obowiązek złożyć równoległy pisemny podpis na formularzu zgody pod rygorem nieważności.",
+      "W trybie ostrym nie jest wymagana żadna zgoda i lekarz nie informuje rodziców o operacji.",
+      "Operację może podpisać nauczyciel szkolny zamiast rodziców."
+    ],
+    "corrLen": 232,
+    "avgWrong": 94,
+    "ratio": 2.46
+  },
+  {
+    "caseId": 104,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego wytyczne międzynarodowe kategorycznie zabraniają pobierania moczu na posiew za pomocą plastikowych woreczków przyklejanych na krocze u niemowląt?",
+    "key": "A) Odsetek wyników fałszywie dodatnich z powodu kontaminacji florą skóry krocza i odbytu sięga 70–85%, co prowadzi do nadrozpoznawalności i niepotrzebnej antybiotykoterapii",
+    "correctIdx": 0,
+    "opts": [
+      "A) Odsetek wyników fałszywie dodatnich z powodu kontaminacji florą skóry krocza i odbytu sięga 70–85%, co prowadzi do nadrozpoznawalności i niepotrzebnej antybiotykoterapii",
+      "B) Klej z woreczka niszczy ściany komórkowe bakterii, dając wyłącznie wyniki fałszywie ujemne",
+      "C) Woreczek pochłania leukocyty, uniemożliwiając ocenę ropomoczu",
+      "D) Zastosowanie woreczka wywołuje u niemowląt odruchowe zatrzymanie moczu na 48 godzin",
+      "E) Woreczki są dopuszczone wyłącznie u chłopców obrzezanych"
+    ],
+    "corrLen": 172,
+    "avgWrong": 76,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 104,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego stosowanie furazydyny (Furaginy) w leczeniu ostrego odmiedniczkowego zapalenia nerek (OZZN) u niemowlęcia jest bezwzględnym błędem sztuki lekarskiej?",
+    "key": "A) Furazydyna osiąga stężenie terapeutyczne wyłącznie w dolnych drogach moczowych i nie osiąga stężenia przeciwbakteryjnego w miąższu nerek i surowicy krwi",
+    "correctIdx": 0,
+    "opts": [
+      "A) Furazydyna osiąga stężenie terapeutyczne wyłącznie w dolnych drogach moczowych i nie osiąga stężenia przeciwbakteryjnego w miąższu nerek i surowicy krwi",
+      "B) Furazydyna jest lekiem z wyboru wyłącznie w zakażeniach wywołanych przez Pseudomonas aeruginosa",
+      "C) Furazydyna działa wyłącznie na grzyby z rodzaju Candida",
+      "D) Furazydyna wywołuje u niemowląt natychmiastowe stwardnienie tętnic nerkowych",
+      "E) Lek ten jest skuteczny w OZZN, ale podaje się go wyłącznie dożylnie"
+    ],
+    "corrLen": 155,
+    "avgWrong": 76,
+    "ratio": 2.03
+  },
+  {
+    "caseId": 104,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Zgodnie ze współczesnymi wytycznymi AAP i PTNFD, u którego z poniższych dzieci po przebytym zakażeniu układu moczowego wskazane jest wykonanie mikcyjnej cystouretrografii (CUM / VCUG) w celu wykluczenia odpływu pęcherzowo-moczowodowego (VUR)?",
+    "key": "A) U dziecka z nieprawidłowym wynikiem USG nerek (poszerzenie UKM, wodonercze, podejrzenie wady) LUB po drugim (nawrotowym) epizodzie gorączkowego ZUM",
+    "correctIdx": 0,
+    "opts": [
+      "A) U dziecka z nieprawidłowym wynikiem USG nerek (poszerzenie UKM, wodonercze, podejrzenie wady) LUB po drugim (nawrotowym) epizodzie gorączkowego ZUM",
+      "B) U każdego noworodka i niemowlęcia po pierwszym niepowikłanym epizodzie ZUM z prawidłowym USG",
+      "C) Wyłącznie u dziewczynek powyżej 10. roku życia z zapaleniem pęcherza",
+      "D) U każdego dziecka z obecnością białka w moczu",
+      "E) CUM wykonuje się zawsze w ostrej fazie gorączkowej w 1. dobie hospitalizacji"
+    ],
+    "corrLen": 150,
+    "avgWrong": 73,
+    "ratio": 2.05
+  },
+  {
+    "caseId": 104,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Matka 5-miesięcznego niemowlęcia hospitalizowanego z powodu ostrego odmiedniczkowego zapalenia nerek (OZZN) jest osobą pracującą zawodowo i ubezpieczoną w ZUS. W ramach orzecznictwa lekarskiego:",
+    "key": "Lekarz prowadzący ma obowiązek wystawić matce zaświadczenie o czasowej niezdolności do pracy z powodu konieczności sprawowania osobistej opieki nad chorym dzieckiem (ZUS ZLA) na pełen okres hospitalizacji oraz ewentualnej rekonwalescencji domowej",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz prowadzący ma obowiązek wystawić matce zaświadczenie o czasowej niezdolności do pracy z powodu konieczności sprawowania osobistej opieki nad chorym dzieckiem (ZUS ZLA) na pełen okres hospitalizacji oraz ewentualnej rekonwalescencji domowej",
+      "Szpital ma prawny zakaz wystawiania druków ZUS ZLA matkom dzieci hospitalizowanych, uznając opiekę szpitalną za wystarczającą.",
+      "Zasiłek opiekuńczy przysługuje rodzicowi wyłącznie po ukończeniu przez dziecko 1. roku życia.",
+      "Lekarz może wystawić ZUS ZLA maksymalnie na 3 dni hospitalizacji.",
+      "Wystawienie ZUS ZLA na opiekę nad dzieckiem wymaga zgody prezesa ZUS."
+    ],
+    "corrLen": 246,
+    "avgWrong": 88,
+    "ratio": 2.79
+  },
+  {
+    "caseId": 105,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Definicja sterydoopornego zespołu nerczycowego (SRNS – Steroid-Resistant Nephrotic Syndrome) u dzieci oznacza:",
+    "key": "A. Brak remisji (utrzymywanie się białkomoczu nerczycowego) pomimo leczenia prednizonem w dawce 60 mg/m² pc./d (lub 2 mg/kg mc./d) przez 4 do 6 tygodni",
+    "correctIdx": 0,
+    "opts": [
+      "A. Brak remisji (utrzymywanie się białkomoczu nerczycowego) pomimo leczenia prednizonem w dawce 60 mg/m² pc./d (lub 2 mg/kg mc./d) przez 4 do 6 tygodni",
+      "B. Wystąpienie nawrotu białkomoczu w trakcie redukcji dawki sterydów",
+      "C. Wystąpienie co najmniej 4 nawrotów w ciągu 12 miesięcy",
+      "D. Wystąpienie cech zespołu Cushinga w 2. tygodniu leczenia",
+      "E. Konieczność włączenia diuretyków pętlowych z powodu braku diurezy w 1. dobie"
+    ],
+    "corrLen": 151,
+    "avgWrong": 66,
+    "ratio": 2.3
+  },
+  {
+    "caseId": 105,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 4-letniego dziecka z zespołem nerczycowym leczonego prednizonem w dawce 60 mg/m²/dobę, zgodnie z Programem Szczepień Ochronnych (PSO) oraz wytycznymi Polskiego Towarzystwa Nefrologii Dziecięcej:",
+    "key": "Szczepienia żywymi atenuowanymi szczepionkami (np. MMR, ospa wietrzna) są BEZWZGLĘDNIE PRZECIWWSKAZANE w trakcie wysokodawkowej steroidoterapii oraz przez okres minimum 1-3 miesięcy po jej zakończeniu ze względu na ryzyko uogólnionego poszczepiennego zakażenia",
+    "correctIdx": 0,
+    "opts": [
+      "Szczepienia żywymi atenuowanymi szczepionkami (np. MMR, ospa wietrzna) są BEZWZGLĘDNIE PRZECIWWSKAZANE w trakcie wysokodawkowej steroidoterapii oraz przez okres minimum 1-3 miesięcy po jej zakończeniu ze względu na ryzyko uogólnionego poszczepiennego zakażenia",
+      "Dziecko w trakcie immunosupresji prednizonem powinno natychmiast otrzymać podwójną dawkę żywej szczepionki przeciwko odrze.",
+      "Wszystkie szczepienia inaktywowane są dożywotnio zakazane u chorych na zespół nerczycowy.",
+      "Lekarz POZ ma obowiązek całkowicie wykreślić dziecko z ewidencji szczepień.",
+      "Steroidoterapia nie ma żadnego wpływu na układ odpornościowy dziecka i szczepienia żywe można kontynuować bez zmian."
+    ],
+    "corrLen": 260,
+    "avgWrong": 101,
+    "ratio": 2.58
+  },
+  {
+    "caseId": 106,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "U 3-letniego dziecka z rozpoznanym STEC-HUS liczba płytek krwi wynosi 18 G/L, a na skórze widoczne są drobne wybroczyny. Nie stwierdza się krwawień zagrażających życiu. Wskaż prawidłowe postępowanie:",
+    "key": "A. Wstrzymanie przetaczania koncentratu krwinek płytkowych (KKP), ponieważ podanie płytek nasila mikrozakrzepicę w naczyniach nerkowych i mózgowych",
+    "correctIdx": 0,
+    "opts": [
+      "A. Wstrzymanie przetaczania koncentratu krwinek płytkowych (KKP), ponieważ podanie płytek nasila mikrozakrzepicę w naczyniach nerkowych i mózgowych",
+      "B. Pilne przetoczenie 2 jednostek KKP z uwagi na liczbę płytek poniżej 20 G/L",
+      "C. Przetoczenie KKP w skojarzeniu z kwasem traneksamowym",
+      "D. Podać kwas acetylosalicylowy w dawce przeciwpłytkowej",
+      "E. Wdrożyć leczenie rekombinowanym czynnikiem VIIa"
+    ],
+    "corrLen": 147,
+    "avgWrong": 60,
+    "ratio": 2.46
+  },
+  {
+    "caseId": 106,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Zgodnie z polską Ustawą o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi, w przypadku rozpoznania zespołu hemolityczno-mocznicowego (HUS) lub zakażenia enterokrwotoczną E. coli (STEC):",
+    "key": "Lekarz ma ustawowy obowiązek niezwłocznego zgłoszenia przypadku do właściwego państwowego powiatowego inspektora sanitarnego (Sanepidu) w ciągu 24 godzin od powzięcia podejrzenia lub rozpoznania na formularzu ZLK-1 w celu wszczęcia dochodzenia epidemiologicznego",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma ustawowy obowiązek niezwłocznego zgłoszenia przypadku do właściwego państwowego powiatowego inspektora sanitarnego (Sanepidu) w ciągu 24 godzin od powzięcia podejrzenia lub rozpoznania na formularzu ZLK-1 w celu wszczęcia dochodzenia epidemiologicznego",
+      "Zgłoszenie do Sanepidu jest fakultatywne i zależy wyłącznie od uznania kierownika kliniki.",
+      "HUS podlega zgłoszeniu wyłącznie wtedy, gdy doszło do zgonu pacjenta.",
+      "Sanepid nie zajmuje się zakażeniami STEC, a sprawę należy przekazać do Inspekcji Weterynaryjnej bez udziału lekarza.",
+      "Zgłoszenie zakażenia zwalnia lekarza z obowiązku leczenia pacjenta w szpitalu."
+    ],
+    "corrLen": 262,
+    "avgWrong": 88,
+    "ratio": 2.97
+  },
+  {
+    "caseId": 107,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Małoinwazyjna metoda endoskopowego leczenia odpływu pęcherzowo-moczowodowego (metoda STING) polega na:",
+    "key": "A. Podśluzówkowym wstrzyknięciu substancji wypełniającej (np. kopolimeru dekstranomeru i kwasu hialuronowego – Deflux) pod ujście moczowodu za pomocą cystoskopu",
+    "correctIdx": 0,
+    "opts": [
+      "A. Podśluzówkowym wstrzyknięciu substancji wypełniającej (np. kopolimeru dekstranomeru i kwasu hialuronowego – Deflux) pod ujście moczowodu za pomocą cystoskopu",
+      "B. Laserowym nacięciu ujścia moczowodowego w celu poszerzenia światła",
+      "C. Założeniu zewnętrznego stentu moczowodowego na okres 2 lat",
+      "D. Koagulacji prądem elektrycznym trójkąta pęcherza moczowego",
+      "E. Otwartym przeszczepieniu moczowodu do szczytu pęcherza"
+    ],
+    "corrLen": 160,
+    "avgWrong": 62,
+    "ratio": 2.58
+  },
+  {
+    "caseId": 107,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Które z poniższych stwierdzeń dotyczących zespołu zaburzeń pęcherzowo-jelitowych (BBD – Bladder and Bowel Dysfunction) u dzieci z VUR jest PRAWDZIWE?",
+    "key": "A. Przewlekłe zaparcia stolca nasilają dysfunkcję mikcji, zwiększają ciśnienie śródpęcherzowe i sprzyjają nawrotom ZUM, a ich skuteczne leczenie jest warunkiem ustąpienia VUR",
+    "correctIdx": 0,
+    "opts": [
+      "A. Przewlekłe zaparcia stolca nasilają dysfunkcję mikcji, zwiększają ciśnienie śródpęcherzowe i sprzyjają nawrotom ZUM, a ich skuteczne leczenie jest warunkiem ustąpienia VUR",
+      "B. Zaparcia chronią przed zakażeniami układu moczowego poprzez mechaniczną kompresję dróg moczowych",
+      "C. BBD występuje wyłącznie u dzieci z wadami cewy nerwowej",
+      "D. Leczenie BBD polega na ograniczeniu podaży płynów do minimum",
+      "E. Zaparcia nie mają żadnego wpływu na wskaźnik powodzenia zabiegów antyrefluksowych"
+    ],
+    "corrLen": 174,
+    "avgWrong": 76,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 107,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 6-letniego dziecka z rozpoznanym odpływem pęcherzowo-moczowodowym IV stopnia i pęcherzem nadreaktywnym, zgodnie z zasadami orzecznictwa lekarskiego i prawa oświatowego, lekarz urolog dziecięcy przygotowujący zalecenia dla szkoły:",
+    "key": "Wystawia zaświadczenie lekarskie zobowiązujące nauczycieli do umożliwienia dziecku korzystania z toalety w dowolnym momencie lekcji na żądanie (mikcje w schemacie timed voiding co 2-3 godziny, podwójna mikcja double voiding) w celu unikania powstrzymywania moczu i zapobiegania nawrotom gorączkowych ZUM.",
+    "correctIdx": 0,
+    "opts": [
+      "Wystawia zaświadczenie lekarskie zobowiązujące nauczycieli do umożliwienia dziecku korzystania z toalety w dowolnym momencie lekcji na żądanie (mikcje w schemacie timed voiding co 2-3 godziny, podwójna mikcja double voiding) w celu unikania powstrzymywania moczu i zapobiegania nawrotom gorączkowych ZUM.",
+      "Wystawia zakaz opuszczania sali lekcyjnej przez dziecko przez pełne 8 godzin zajęć.",
+      "Kieruje dziecko do szkoły specjalnej ze względu na rozpoznanie VUR.",
+      "Zaleca nauczycielom całkowity zakaz pojenia dziecka w szkole.",
+      "Wymaga każdorazowej zgody kuratorium oświaty na wyjście dziecka do toalety."
+    ],
+    "corrLen": 304,
+    "avgWrong": 72,
+    "ratio": 4.25
+  },
+  {
+    "caseId": 108,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "7-letni chłopiec po przebytej hospitalizacji z powodu ostrego popaciorkowcowego KZN jest wypisywany do domu w stanie dobrym (RR prawidłowe, diureza prawidłowa, utrzymuje się mikrokrwinkomocz). W ramach opieki ambulatoryjnej POZ i orzecznictwa lekarskiego:",
+    "key": "Lekarz POZ zleca systematyczną kontrolę ciśnienia tętniczego, kontrolne badanie ogólne moczu co 4-6 tygodni oraz OBOWIĄZKOWE oznaczenie składowej C3 dopełniacza po 6-8 tygodniach od zachorowania w celu potwierdzenia jego normalizacji, wydając czasowe zwolnienie z zajęć wychowania fizycznego na okres rekonwalescencji.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz POZ zleca systematyczną kontrolę ciśnienia tętniczego, kontrolne badanie ogólne moczu co 4-6 tygodni oraz OBOWIĄZKOWE oznaczenie składowej C3 dopełniacza po 6-8 tygodniach od zachorowania w celu potwierdzenia jego normalizacji, wydając czasowe zwolnienie z zajęć wychowania fizycznego na okres rekonwalescencji.",
+      "Lekarz ma obowiązek wystawić skierowanie na przewlekłą hemodializoterapię do stacji dializ.",
+      "Dziecko otrzymuje bezwzględny zakaz nauki szkolnej na okres 3 lat.",
+      "Lekarz zgłasza przypadek do prokuratury z powodu zakażenia paciorkowcowego.",
+      "Zaleca się zaniechanie jakichkolwiek dalszych badań moczu, gdyż mikrokrwinkomocz nie ma znaczenia klinicznego."
+    ],
+    "corrLen": 318,
+    "avgWrong": 86,
+    "ratio": 3.72
+  },
+  {
+    "caseId": 109,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Które z poniższych kryteriów stanowi bezwzględne wskazanie do wykonania pieloplastyki u dziecka ze zwężeniem UPJO?",
+    "key": "A. Spadek względnego udziału chorej nerki w funkcji globalnej (DRF) poniżej 40% lub spadek o >5% w kolejnych badaniach scyntygraficznych",
+    "correctIdx": 0,
+    "opts": [
+      "A. Spadek względnego udziału chorej nerki w funkcji globalnej (DRF) poniżej 40% lub spadek o >5% w kolejnych badaniach scyntygraficznych",
+      "B. Obecność poszerzenia miedniczki nerkowej o wymiarze APD 6 mm w 1. dobie życia",
+      "C. Czas półtrwania wydalania T1/2 w renografii wynoszący 8 minut",
+      "D. Prawidłowy symetryczny rozkład funkcji nerek 50% : 50% w scyntygrafii",
+      "E. Izolowane zasinienie powłok brzusznych podczas płaczu"
+    ],
+    "corrLen": 136,
+    "avgWrong": 68,
+    "ratio": 2
+  },
+  {
+    "caseId": 109,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "U 11-letniego chłopca występują napadowe, silne bóle lewego boku i wymioty pojawiające się po wypiciu dużej ilości płynów (tzw. przełomy Dietla). W USG w trakcie bólu widoczne jest wodonercze lewostronne. Najbardziej prawdopodobną przyczyną tych dolegliwości jest:",
+    "key": "A. Zewnętrzny ucisk połączenia miedniczkowo-moczowodowego przez dodatkowe naczynie biegunowe dolne nerki",
+    "correctIdx": 0,
+    "opts": [
+      "A. Zewnętrzny ucisk połączenia miedniczkowo-moczowodowego przez dodatkowe naczynie biegunowe dolne nerki",
+      "B. Zastawka cewki tylnej",
+      "C. Zespół nerczycowy o zmianach minimalnych",
+      "D. Pęknięcie torbieli jajnika",
+      "E. Odpływ pęcherzowo-moczowodowy I stopnia"
+    ],
+    "corrLen": 104,
+    "avgWrong": 35,
+    "ratio": 3.01
+  },
+  {
+    "caseId": 109,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "W jakim celu podczas operacji pieloplastyki wprowadza się do moczowodu stent typu Double-J (JJ)?",
+    "key": "A. Aby zapewnić drożność i zabezpieczyć zespolenie miedniczkowo-moczowodowe przed wyciekiem moczu i zarośnięciem bliznowatym w okresie gojenia",
+    "correctIdx": 0,
+    "opts": [
+      "A. Aby zapewnić drożność i zabezpieczyć zespolenie miedniczkowo-moczowodowe przed wyciekiem moczu i zarośnięciem bliznowatym w okresie gojenia",
+      "B. W celu stałego rozszerzania cewki moczowej u chłopców",
+      "C. Jako nośnik dla chemioterapii przeciwnowotworowej",
+      "D. Aby zablokować całkowicie odpływ moczu z operowanej nerki",
+      "E. Stent zakłada się w celu pobierania wymazów bakteriologicznych co 12 godzin"
+    ],
+    "corrLen": 142,
+    "avgWrong": 62,
+    "ratio": 2.31
+  },
+  {
+    "caseId": 109,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Rodzice 6-miesięcznego niemowlęcia z wodonerczem stopnia IV i zwężeniem UPJO zostają zakwalifikowani do zabiegu pieloplastyki laparoskopowej z czasowym założeniem stentu Double-J. W ramach świadomej zgody i procedur prawno-medycznych lekarz chirurg dziecięcy:",
+    "key": "Przedstawia rodzicom w sposób przystępny cel operacji, technikę zabiegu, przewidywane korzyści (ochrona miąższu nerki), typowe ryzyka (krwawienie, zakażenie, przeciek moczu ze szwów, konieczność konwersji do operacji otwartej) oraz konieczność planowego usunięcia stentu DJ po 4-6 tygodniach w krótkim znieczuleniu, odbierając pisemną zgodę obojga lub jednego z rodziców.",
+    "correctIdx": 0,
+    "opts": [
+      "Przedstawia rodzicom w sposób przystępny cel operacji, technikę zabiegu, przewidywane korzyści (ochrona miąższu nerki), typowe ryzyka (krwawienie, zakażenie, przeciek moczu ze szwów, konieczność konwersji do operacji otwartej) oraz konieczność planowego usunięcia stentu DJ po 4-6 tygodniach w krótkim znieczuleniu, odbierając pisemną zgodę obojga lub jednego z rodziców.",
+      "Odbiera zgodę ustną bez wpisu do historii choroby, informując, że zabiegi laparoskopowe nie niosą ze sobą żadnych powikłań.",
+      "Ma prawny zakaz informowania rodziców o konieczności usunięcia stentu DJ, aby ich nie denerwować.",
+      "Pobiera pisemną zgodę od 6-miesięcznego niemowlęcia.",
+      "Zastępuje formularz zgody ustnym zapewnieniem pielęgniarki dyżurnej."
+    ],
+    "corrLen": 371,
+    "avgWrong": 85,
+    "ratio": 4.36
+  },
+  {
+    "caseId": 110,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Nieszczepiona kobieta w 16. tygodniu ciąży miała kontakt z chorym na odrę 3 dni temu. Prawidłowym postępowaniem profilaktycznym jest:",
+    "key": "A. Podanie standardowej immunoglobuliny ludzkiej (HNIG) domięśniowo w ciągu 6 dni od ekspozycji",
+    "correctIdx": 0,
+    "opts": [
+      "A. Podanie standardowej immunoglobuliny ludzkiej (HNIG) domięśniowo w ciągu 6 dni od ekspozycji",
+      "B. Natychmiastowe zaszczepienie szczepionką MMR",
+      "C. Podanie doustnej szczepionki przeciw polio",
+      "D. Wykonanie natychmiastowego cięcia cesarskiego",
+      "E. Podanie amoksycyliny z kwasem klawulanowym"
+    ],
+    "corrLen": 95,
+    "avgWrong": 46,
+    "ratio": 2.05
+  },
+  {
+    "caseId": 110,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "W przychodni POZ lekarz rozpoznaje klinicznie odrę u nieszczepionego 4-letniego dziecka. Zgodnie z polską Ustawą o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi:",
+    "key": "Lekarz ma bezwzględny prawny obowiązek natychmiastowego telefonicznego oraz pisemnego (druk ZLK-1) zgłoszenia każdego przypadku podejrzenia lub rozpoznania odry do właściwego państwowego powiatowego inspektora sanitarnego (Sanepidu) w ciągu 24 godzin oraz pobrania próbek do badań laboratoryjnych (wymaz z gardła/moczu na PCR oraz krew na IgM) w ramach nadzoru WHO nad eliminacją odry.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma bezwzględny prawny obowiązek natychmiastowego telefonicznego oraz pisemnego (druk ZLK-1) zgłoszenia każdego przypadku podejrzenia lub rozpoznania odry do właściwego państwowego powiatowego inspektora sanitarnego (Sanepidu) w ciągu 24 godzin oraz pobrania próbek do badań laboratoryjnych (wymaz z gardła/moczu na PCR oraz krew na IgM) w ramach nadzoru WHO nad eliminacją odry.",
+      "Odra nie wymaga żadnego zgłoszenia do Sanepidu, o ile dziecko nie jest hospitalizowane na OIOM.",
+      "Zgłoszenie odry do Sanepidu jest dozwolone dopiero po uzyskaniu ostatecznego wyniku zgonu pacjenta.",
+      "Lekarz ma prawny zakaz zgłaszania odry, aby nie pogarszać statystyk epidemiologicznych regionu.",
+      "Każdy przypadek odry wymaga natychmiastowej ewakuacji całego miasta decyzją premiera."
+    ],
+    "corrLen": 385,
+    "avgWrong": 94,
+    "ratio": 4.12
+  },
+  {
+    "caseId": 111,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 6-letniego dziecka z rozpoznaną płonicą lekarz wdrożył leczenie fenoksymetylopenicyliną. W kontekście zakaźności, izolacji szkolnej oraz orzecznictwa ZUS:",
+    "key": "Dziecko przestaje stanowić zagrożenie epidemiczne dla innych dzieci po 24 godzinach od przyjęcia pierwszej dawki skutecznego antybiotyku i wówczas może powrócić do przedszkola/szkoły (przy braku gorączki i dobrym stanie ogólnym), a rodzicowi przysługuje zwolnienie ZUS ZLA na opiekę nad chorym dzieckiem.",
+    "correctIdx": 0,
+    "opts": [
+      "Dziecko przestaje stanowić zagrożenie epidemiczne dla innych dzieci po 24 godzinach od przyjęcia pierwszej dawki skutecznego antybiotyku i wówczas może powrócić do przedszkola/szkoły (przy braku gorączki i dobrym stanie ogólnym), a rodzicowi przysługuje zwolnienie ZUS ZLA na opiekę nad chorym dzieckiem.",
+      "Dziecko podlega bezwzględnej przymusowej kwarantannie domowej przez pełne 21 dni nakładanej decyzją Sanepidu.",
+      "Lekarz ma prawny zakaz wystawienia zwolnienia ZUS ZLA na opiekę nad dzieckiem chorującym na szkarlatynę.",
+      "Każdy przypadek płonicy musi być zgłoszony do prokuratury jako przestępstwo przeciwko zdrowiu publicznemu.",
+      "Dziecko może powrócić do placówki opiekuńczej dopiero po całkowitym ustąpieniu grubopłatkowego złuszczania naskórka dłoni i stóp (tj. po ok. 4-6 tygodniach)."
+    ],
+    "corrLen": 304,
+    "avgWrong": 119,
+    "ratio": 2.55
+  },
+  {
+    "caseId": 112,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Co oznacza pojęcie 'polimorfizmu rzekomego' w odniesieniu do wysypki w ospie wietrznej?",
+    "key": "B. Obecność na tym samym obszarze skóry wykwitów w różnych stadiach ewolucji (plamka, grudka, pęcherzyk, strup) z powodu rzutowego wysiewu zmian",
+    "correctIdx": 1,
+    "opts": [
+      "A. Współistnienie na skórze zmian wywołanych przez różne wirusy",
+      "B. Obecność na tym samym obszarze skóry wykwitów w różnych stadiach ewolucji (plamka, grudka, pęcherzyk, strup) z powodu rzutowego wysiewu zmian",
+      "C. Zmienność barwy wysypki pod wpływem temperatury otoczenia",
+      "D. Obecność wykwitów wyłącznie na podeszwach stóp i dłoniach",
+      "E. Przekształcanie się pęcherzyków w trwałe teleangiektazje naczyniowe"
+    ],
+    "corrLen": 144,
+    "avgWrong": 63,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 112,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego współcześnie odradza się smarowanie wykwitów w ospie wietrznej papkami pudrowymi i płynnymi pudrami z cynkiem?",
+    "key": "B. Tworzą na skórze nieprzepuszczalną skorupę, pod którą dochodzi do namnażania bakterii beztlenowych i ciężkich zakażeń ropnych naskórka",
+    "correctIdx": 1,
+    "opts": [
+      "A. Ponieważ zawierają ołów powodujący ołowicę",
+      "B. Tworzą na skórze nieprzepuszczalną skorupę, pod którą dochodzi do namnażania bakterii beztlenowych i ciężkich zakażeń ropnych naskórka",
+      "C. Blokują wydzielanie potu prowadząc do udaru cieplnego u każdego dziecka",
+      "D. Barwią skórę na zielono uniemożliwiając ocenę żółtaczki",
+      "E. Wchodzą w interakcję chemiczną z acyklowirem neutralizując jego działanie"
+    ],
+    "corrLen": 137,
+    "avgWrong": 63,
+    "ratio": 2.17
+  },
+  {
+    "caseId": 112,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "W jakich strukturach układu nerwowego wirus ospy wietrznej i półpaśca (VZV) przechodzi w stan dożywotniej latencji?",
+    "key": "B. W zwojach czuciowych korzeni grzbietowych (DRG) i zwojach czuciowych nerwów czaszkowych",
+    "correctIdx": 1,
+    "opts": [
+      "A. W neuronach rogów przednich rdzenia kręgowego",
+      "B. W zwojach czuciowych korzeni grzbietowych (DRG) i zwojach czuciowych nerwów czaszkowych",
+      "C. W komórkach mikrogleju kory wzrokowej",
+      "D. W komórkach Purkinjego kory móżdżku",
+      "E. W zwojach współczulnych pnia współczulnego"
+    ],
+    "corrLen": 90,
+    "avgWrong": 43,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 113,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Wskaż bezwzględne wskazanie do zastosowania glikokortykosteroidów u pacjenta z mononukleozą zakaźną:",
+    "key": "A. Zagrażająca obturacja dróg oddechowych spowodowana masywnym powiększeniem migdałków podniebiennych",
+    "correctIdx": 0,
+    "opts": [
+      "A. Zagrażająca obturacja dróg oddechowych spowodowana masywnym powiększeniem migdałków podniebiennych",
+      "B. Obecność szarobiałego nalotu na migdałkach bez duszności",
+      "C. Umiarkowane powiększenie węzłów chłonnych szyi do 2 cm",
+      "D. Gorączka 38,2°C trwająca 3 dni",
+      "E. Izolowane podwyższenie aktywności ALT do 90 IU/l"
+    ],
+    "corrLen": 101,
+    "avgWrong": 50,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 113,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Wirus Epsteina-Barr (EBV) łączy się z docelową komórką układu odpornościowego za pośrednictwem cząsteczki powierzchniowej:",
+    "key": "B. CD21 (receptor dla składnika C3d dopełniacza / CR2) na limfocytach B",
+    "correctIdx": 1,
+    "opts": [
+      "A. CD4 na limfocytach T pomocniczych",
+      "B. CD21 (receptor dla składnika C3d dopełniacza / CR2) na limfocytach B",
+      "C. CD8 na limfocytach cytotoksycznych",
+      "D. CD14 na monocytach",
+      "E. Cząsteczki ACE-2 na pneumocytach"
+    ],
+    "corrLen": 71,
+    "avgWrong": 32,
+    "ratio": 2.2
+  },
+  {
+    "caseId": 113,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "17-letni uczeń liceum, aktywny zawodnik drużyny piłkarskiej, przebył mononukleozę zakaźną powikłaną splenomegalią (biegun dolny śledziony 4 cm poniżej łuku żebrowego). Zgodnie z wytycznymi medycyny sportowej i zasadami orzecznictwa lekarskiego:",
+    "key": "Lekarz ma obowiązek wydać bezwzględny zakaz uprawiania sportów kontaktowych, podnoszenia ciężarów i intensywnego wysiłku fizycznego na okres minimum 3-4 tygodni od początku objawów, a powrót do sportu uzależnić od ustąpienia objawów i normalizacji wielkości śledziony w badaniu USG.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma obowiązek wydać bezwzględny zakaz uprawiania sportów kontaktowych, podnoszenia ciężarów i intensywnego wysiłku fizycznego na okres minimum 3-4 tygodni od początku objawów, a powrót do sportu uzależnić od ustąpienia objawów i normalizacji wielkości śledziony w badaniu USG.",
+      "Pacjent może wrócić do gry w meczu piłkarskim natychmiast po ustąpieniu gorączki (np. w 5. dobie choroby).",
+      "Pęknięcie śledziony w mononukleozie jest mitem medycznym i nie wymaga żadnych ograniczeń wysiłkowych.",
+      "Lekarz ma prawny obowiązek natychmiastowego wystawienia orzeczenia o trwałej niezdolności do uprawiania jakiegokolwiek sportu do końca życia.",
+      "W celu umożliwienia szybkiego powrotu do sportu należy profilaktycznie wykonać laparoskopową splenektomię."
+    ],
+    "corrLen": 282,
+    "avgWrong": 114,
+    "ratio": 2.48
+  },
+  {
+    "caseId": 114,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych objawów laboratoryjnych w morfologii krwi obwodowej jest wysoce charakterystyczny (patognomoniczny) dla krztuśca wywołanego przez Bordetella pertussis?",
+    "key": "B. Znaczna leukocytoza z bezwzględną limfocytozą przy prawidłowym lub nieznacznie podwyższonym CRP",
+    "correctIdx": 1,
+    "opts": [
+      "A. Leukopenia z ciężką neutropenią",
+      "B. Znaczna leukocytoza z bezwzględną limfocytozą przy prawidłowym lub nieznacznie podwyższonym CRP",
+      "C. Izolowana małopłytkowość poniżej 10 G/L",
+      "D. Masywna eozynofilia przekraczająca 40% rozmazu",
+      "E. Pancytopenia z obecnością komórek Reed-Sternberga"
+    ],
+    "corrLen": 98,
+    "avgWrong": 44,
+    "ratio": 2.21
+  },
+  {
+    "caseId": 114,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "U niemowląt poniżej 6. miesiąca życia zakażenie Bordetella pertussis charakteryzuje się odmiennym przebiegiem klinicznym polegającym na:",
+    "key": "A. Braku typowego świstu wdechowego (piania) oraz dominacji epizodów bezdechu (apnea), sinicy i bradykardii stwarzających ryzyko nagłego zgonu",
+    "correctIdx": 0,
+    "opts": [
+      "A. Braku typowego świstu wdechowego (piania) oraz dominacji epizodów bezdechu (apnea), sinicy i bradykardii stwarzających ryzyko nagłego zgonu",
+      "B. Występowaniu wyłącznie obfitych krwawień z przewodu pokarmowego",
+      "C. Całkowitym braku kaszlu i obecności wyłącznie rumienia dłoniowego",
+      "D. Piorunującym zapaleniu stawów biodrowych",
+      "E. Utracie słuchu jako jedynym objawie infekcji"
+    ],
+    "corrLen": 142,
+    "avgWrong": 56,
+    "ratio": 2.54
+  },
+  {
+    "caseId": 114,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jaki jest główny cel wdrożenia antybiotykoterapii makrolidowej u pacjenta w fazie napadowego kaszlu krztuśca?",
+    "key": "B. Eradykacja bakterii z dróg oddechowych, skrócenie okresu zakaźności dla otoczenia oraz zapobieganie wtórnym nadkażeniom bakteryjnym",
+    "correctIdx": 1,
+    "opts": [
+      "A. Natychmiastowe zatrzymanie kaszlu w ciągu 2 godzin",
+      "B. Eradykacja bakterii z dróg oddechowych, skrócenie okresu zakaźności dla otoczenia oraz zapobieganie wtórnym nadkażeniom bakteryjnym",
+      "C. Wywołanie natychmiastowej atrofii migdałków podniebiennych",
+      "D. Zablokowanie receptorów histaminowych H1 w mózgu",
+      "E. Wyleczenie skoliozy klatki piersiowej"
+    ],
+    "corrLen": 134,
+    "avgWrong": 51,
+    "ratio": 2.61
+  },
+  {
+    "caseId": 114,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Kto z osób mających bliski kontakt z chorym na potwierdzony krztusiec powinien otrzymać chemioprofilaktykę poekspozycyjną?",
+    "key": "B. Wszyscy domownicy i osoby z bliskiego kontaktu, bez względu na wiek i przebyte w przeszłości szczepienia ochronne",
+    "correctIdx": 1,
+    "opts": [
+      "A. Wyłącznie osoby, które mają gorączkę i świszczący oddech",
+      "B. Wszyscy domownicy i osoby z bliskiego kontaktu, bez względu na wiek i przebyte w przeszłości szczepienia ochronne",
+      "C. Jedynie dzieci, które nigdy nie były szczepione",
+      "D. Wyłącznie osoby w podeszłym wieku powyżej 80 lat",
+      "E. Nikt, ponieważ chemioprofilaktyka w krztuścu jest nieskuteczna"
+    ],
+    "corrLen": 116,
+    "avgWrong": 56,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 114,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Czym jest tzw. strategia kokonowa (cocoon strategy) w profilaktyce krztuśca?",
+    "key": "A. Zaszczepienie przeciw krztuścowi wszystkich osób z bezpośredniego otoczenia noworodka (rodziców, rodzeństwa, dziadków, opiekunów), aby chronić niemowlę przed zakażeniem w okresie przed uzyskaniem własnej odporności poszczepiennej",
+    "correctIdx": 0,
+    "opts": [
+      "A. Zaszczepienie przeciw krztuścowi wszystkich osób z bezpośredniego otoczenia noworodka (rodziców, rodzeństwa, dziadków, opiekunów), aby chronić niemowlę przed zakażeniem w okresie przed uzyskaniem własnej odporności poszczepiennej",
+      "B. Izolacja niemowlęcia w hermetycznym inkubatorze przez pierwszy rok życia",
+      "C. Podawanie dziecku antybiotyków profilaktycznie każdego dnia aż do ukończenia 2 lat",
+      "D. Owijanie klatki piersiowej niemowlęcia bandażem elastycznym w czasie snu",
+      "E. Płukanie nosa noworodka solą fizjologiczną 10 razy na dobę"
+    ],
+    "corrLen": 232,
+    "avgWrong": 74,
+    "ratio": 3.14
+  },
+  {
+    "caseId": 114,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 2-miesięcznego nieszczepionego niemowlęcia rozpoznano laboratoryjnie krztusiec. W gospodarstwie domowym przebywają: rodzice oraz 4-letni zaszczepiony brat. Zgodnie z ustawą o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi oraz wytycznymi sanitarno-epidemiologicznymi Sanepidu:",
+    "key": "Lekarz ma ustawowy obowiązek zgłosić przypadek do powiatowej stacji Sanepidu w ciągu 24 godzin na druku ZLK-1 oraz wdrożyć poekspozycyjną profilaktykę antybiotykową (makrolidem, np. azytromycyną) u WSZYSTKICH osób mających bliski kontakt domowy, bez względu na ich wiek i status wcześniejszych szczepień.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma ustawowy obowiązek zgłosić przypadek do powiatowej stacji Sanepidu w ciągu 24 godzin na druku ZLK-1 oraz wdrożyć poekspozycyjną profilaktykę antybiotykową (makrolidem, np. azytromycyną) u WSZYSTKICH osób mających bliski kontakt domowy, bez względu na ich wiek i status wcześniejszych szczepień.",
+      "Chemoprofilaktykę poekspozycyjną podaje się wyłącznie osobom, które prezentują już ciężkie objawy duszności.",
+      "Krztusiec nie podlega obowiązkowemu zgłoszeniu epidemiologicznemu do organów Państwowej Inspekcji Sanitarnej.",
+      "Szczepiony 4-letni brat nie może otrzymać makrolidu, gdyż antybiotyki są prawnie zakazane u dzieci zaszczepionych.",
+      "Poekspozycyjne podanie makrolidów rodzinie wymaga każdorazowo pisemnej zgody prokuratora rejonowego."
+    ],
+    "corrLen": 304,
+    "avgWrong": 108,
+    "ratio": 2.82
+  },
+  {
+    "caseId": 115,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych objawów klinicznych jest patognomoniczny dla rumienia zakaźnego (piątej choroby) wywołanego przez Parwowirus B19?",
+    "key": "A. Jaskrawoczerwony rumień na obu policzkach z bladością wokół ust (tzw. objaw spoliczkowanego dziecka) oraz siateczkowata, koronkowata osutka na kończynach",
+    "correctIdx": 0,
+    "opts": [
+      "A. Jaskrawoczerwony rumień na obu policzkach z bladością wokół ust (tzw. objaw spoliczkowanego dziecka) oraz siateczkowata, koronkowata osutka na kończynach",
+      "B. Pęcherzyki wypełnione mętnym płynem na owłosionej skórze głowy",
+      "C. Drobnoplamista szorstka wysypka przypominająca papier ścierny z liniami Pastii",
+      "D. Płomienne gardło z truskawkowym językiem i ropnymi czopami na migdałkach",
+      "E. Uogólnione pęcherze z dodatnim objawem Nikolskiego"
+    ],
+    "corrLen": 156,
+    "avgWrong": 69,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 115,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Najgroźniejszym powikłaniem pierwotnego zakażenia Parwowirusem B19 u kobiety w II trymestrze ciąży jest:",
+    "key": "B. Ciężka niedokrwistość płodu, uogólniony nieimmunologiczny obrzęk płodu (hydrops fetalis) i wewnątrzmaciczny zgon płodu",
+    "correctIdx": 1,
+    "opts": [
+      "A. Zespół różyczki wrodzonej",
+      "B. Ciężka niedokrwistość płodu, uogólniony nieimmunologiczny obrzęk płodu (hydrops fetalis) i wewnątrzmaciczny zgon płodu",
+      "C. Przetrwały przewód tętniczy Botalla u matki",
+      "D. Przedwczesne skostnienie szwów czaszkowych płodu (kraniosynostoza)",
+      "E. Zaćma wrodzona i mikrocefalia"
+    ],
+    "corrLen": 121,
+    "avgWrong": 44,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 115,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "U dorosłych kobiet zakażenie Parwowirusem B19 najczęściej przebiega pod postacią:",
+    "key": "A. Ostrej, symetrycznej artropatii (bólu i zapalenia drobnych stawów rąk i kolan) imitującej reumatoidalne zapalenie stawów",
+    "correctIdx": 0,
+    "opts": [
+      "A. Ostrej, symetrycznej artropatii (bólu i zapalenia drobnych stawów rąk i kolan) imitującej reumatoidalne zapalenie stawów",
+      "B. Zapalenia trzustki ze wstrząsem",
+      "C. Ostrej niedrożności jelit",
+      "D. Jednostronnego zapalenia nerwu wzrokowego",
+      "E. Pęcherzowego oddzielania się naskórka"
+    ],
+    "corrLen": 123,
+    "avgWrong": 37,
+    "ratio": 3.37
+  },
+  {
+    "caseId": 115,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Które z poniższych niefarmakologicznych zjawisk typowo nasila lub wyzwala nawrót wysypki w rumieniu zakaźnym?",
+    "key": "A. Gorąca kąpiel, wysiłek fizyczny, nasłonecznienie oraz silne emocje",
+    "correctIdx": 0,
+    "opts": [
+      "A. Gorąca kąpiel, wysiłek fizyczny, nasłonecznienie oraz silne emocje",
+      "B. Przebywanie w ciemnym, chłodnym pokoju",
+      "C. Picie zimnej wody niegazowanej",
+      "D. Spożycie jabłka lub gruszki",
+      "E. Długi, spokojny sen w nocy"
+    ],
+    "corrLen": 69,
+    "avgWrong": 33,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 115,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym jest zespół PPGSS (Papular Purpuric Gloves and Socks Syndrome)?",
+    "key": "A. Rzadką postacią zakażenia Parwowirusem B19 charakteryzującą się bolesnym obrzękiem i plamicą o ostrym odgraniczeniu na nadgarstkach i kostkach u nastolatków",
+    "correctIdx": 0,
+    "opts": [
+      "A. Rzadką postacią zakażenia Parwowirusem B19 charakteryzującą się bolesnym obrzękiem i plamicą o ostrym odgraniczeniu na nadgarstkach i kostkach u nastolatków",
+      "B. Zespołem metabolicznym wywołanym zatruciem rtęcią",
+      "C. Zmianami skórnymi po ukąszeniu skorpiona",
+      "D. Odmianą liszajca zakaźnego stóp",
+      "E. Postacią łuszczycy krostkowej dłoni"
+    ],
+    "corrLen": 159,
+    "avgWrong": 42,
+    "ratio": 3.81
+  },
+  {
+    "caseId": 116,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Czym są tzw. plamki Nagayamy obserwowane w przebiegu rumienia nagłego?",
+    "key": "A. Rumieniowe grudki i owrzodzenia na błonie śluzowej języczka i podniebienia miękkiego",
+    "correctIdx": 0,
+    "opts": [
+      "A. Rumieniowe grudki i owrzodzenia na błonie śluzowej języczka i podniebienia miękkiego",
+      "B. Białawe naloty w kryptach migdałków",
+      "C. Wybroczyny pod paznokciami rąk",
+      "D. Niebieskawe plamy w okolicy kości krzyżowej",
+      "E. Zmiany pęcherzykowe wokół odbytu"
+    ],
+    "corrLen": 87,
+    "avgWrong": 38,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 116,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Gdzie typowo zlokalizowana jest wysypka w rumieniu nagłym?",
+    "key": "A. Przede wszystkim na tułowiu i szyi, w znacznie mniejszym stopniu na kończynach, zazwyczaj oszczędza twarz",
+    "correctIdx": 0,
+    "opts": [
+      "A. Przede wszystkim na tułowiu i szyi, w znacznie mniejszym stopniu na kończynach, zazwyczaj oszczędza twarz",
+      "B. Wyłącznie na twarzy i dłoniach",
+      "C. Ściśle na podeszwach stóp",
+      "D. W fałdach łokciowych w postaci linii Pastii",
+      "E. Wzdłuż pojedynczego dermatomu na klatce piersiowej"
+    ],
+    "corrLen": 108,
+    "avgWrong": 40,
+    "ratio": 2.7
+  },
+  {
+    "caseId": 116,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Lekarz POZ bada 10-miesięczne niemowlę z podejrzeniem rumienia nagłego w 4. dobie choroby: temperatura ciała znormalizowała się rano, a na tułowiu pojawiły się bladoróżowe plamki. Rodzice są zaniepokojeni wysypką. Prawidłowe postępowanie lekarskie i orzecznictwo obejmuje:",
+    "key": "Poinformowanie rodziców, że pojawienie się osutki równolegle ze spadkiem gorączki jest typowym objawem wyzdrowienia (gorączka trzydniowa), nie wymaga leczenia farmakologicznego ani badań inwazyjnych, a dziecko po ustąpieniu osutki (1-2 dni) może powrócić do żłobka.",
+    "correctIdx": 0,
+    "opts": [
+      "Poinformowanie rodziców, że pojawienie się osutki równolegle ze spadkiem gorączki jest typowym objawem wyzdrowienia (gorączka trzydniowa), nie wymaga leczenia farmakologicznego ani badań inwazyjnych, a dziecko po ustąpieniu osutki (1-2 dni) może powrócić do żłobka.",
+      "Pilne skierowanie dziecka karetką na oddział dermatologii z rozpoznaniem zespołu Lyella.",
+      "Natychmiastowe wdrożenie dożylnego wankomycyny i acyklowiru w warunkach OIT.",
+      "Zgłoszenie podejrzenia przestępstwa narażenia dziecka na niebezpieczeństwo do sądu rodzinnego.",
+      "Wystawienie bezterminowego przeciwwskazania do szczepień przeciwko odrze i ospie wietrznej."
+    ],
+    "corrLen": 265,
+    "avgWrong": 87,
+    "ratio": 3.04
+  },
+  {
+    "caseId": 117,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Która z wymienionych lokalizacji wykwitów skórno-śluzówkowych jest najbardziej charakterystyczna dla choroby dłoni, stóp i jamy ustnej (HFMD)?",
+    "key": "A. Bolesne nadżerki na błonie śluzowej policzków i języka oraz owalne pęcherzyki na dłoniach, podeszwach stóp i pośladkach",
+    "correctIdx": 0,
+    "opts": [
+      "A. Bolesne nadżerki na błonie śluzowej policzków i języka oraz owalne pęcherzyki na dłoniach, podeszwach stóp i pośladkach",
+      "B. Pęcherzyki wyłącznie na owłosionej skórze głowy i powiekach",
+      "C. Zmiany rumieniowe ograniczone do fałdów pachwinowych i pachy",
+      "D. Wykwity grudkowe na grzbietach obu rąk bez zmian w jamie ustnej",
+      "E. Owrzodzenia wyłącznie na małżowinach usznych"
+    ],
+    "corrLen": 122,
+    "avgWrong": 60,
+    "ratio": 2.05
+  },
+  {
+    "caseId": 117,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Czym jest onychomadesis obserwowane u dzieci po przebyciu choroby dłoni, stóp i jamy ustnej?",
+    "key": "A. Bezbolesnym oddzielaniem się i odpadaniem płytek paznokciowych u rąk i stóp po 4-8 tygodniach od infekcji",
+    "correctIdx": 0,
+    "opts": [
+      "A. Bezbolesnym oddzielaniem się i odpadaniem płytek paznokciowych u rąk i stóp po 4-8 tygodniach od infekcji",
+      "B. Zakażeniem bakteryjnym wałów paznokciowych wywołanym przez gronkowca",
+      "C. Trwałą martwicą opuszek palców",
+      "D. Płaskostopiem poprzecznym pourazowym",
+      "E. Wylewami krwawymi pod wszystkimi paznokciami"
+    ],
+    "corrLen": 108,
+    "avgWrong": 48,
+    "ratio": 2.27
+  },
+  {
+    "caseId": 117,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Czym różni się herpangina od choroby dłoni, stóp i jamy ustnej (HFMD)?",
+    "key": "A. W herpanginie owrzodzenia zlokalizowane są wyłącznie w tylnej części gardła (łuki podniebienne, migdałki, języczek) i nie ma wykwitów na dłoniach i stopach",
+    "correctIdx": 0,
+    "opts": [
+      "A. W herpanginie owrzodzenia zlokalizowane są wyłącznie w tylnej części gardła (łuki podniebienne, migdałki, języczek) i nie ma wykwitów na dłoniach i stopach",
+      "B. W herpanginie zawsze występuje ropne zapalenie opon mózgowych",
+      "C. Herpangina wywoływana jest przez bakterie Pseudomonas aeruginosa",
+      "D. W herpanginie dochodzi do trwałej utraty mowy",
+      "E. Herpangina występuje wyłącznie u osób dorosłych po 60. roku życia"
+    ],
+    "corrLen": 158,
+    "avgWrong": 62,
+    "ratio": 2.56
+  },
+  {
+    "caseId": 117,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jakie jest najczęstsze bezpośrednie wskazanie do hospitalizacji dziecka z chorobą dłoni, stóp i jamy ustnej?",
+    "key": "A. Odwodnienie wynikające z silnego bólu przy połykaniu (odynofagii) i odmowy przyjmowania płynów",
+    "correctIdx": 0,
+    "opts": [
+      "A. Odwodnienie wynikające z silnego bólu przy połykaniu (odynofagii) i odmowy przyjmowania płynów",
+      "B. Pęknięcie śledziony",
+      "C. Złamanie kości śródstopia",
+      "D. Ostra niewydolność nerek wymagająca dializoterapii",
+      "E. Skręt jądra"
+    ],
+    "corrLen": 97,
+    "avgWrong": 29,
+    "ratio": 3.32
+  },
+  {
+    "caseId": 117,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czy Acyklowir jest skuteczny w leczeniu choroby dłoni, stóp i jamy ustnej (HFMD)?",
+    "key": "A. Nie, ponieważ Acyklowir działa wyłącznie na wirusy Herpes (HSV, VZV) kodujące kinazę tymidynową, a Enterowirusy są wirusami RNA pozbawionymi tego enzymu",
+    "correctIdx": 0,
+    "opts": [
+      "A. Nie, ponieważ Acyklowir działa wyłącznie na wirusy Herpes (HSV, VZV) kodujące kinazę tymidynową, a Enterowirusy są wirusami RNA pozbawionymi tego enzymu",
+      "B. Tak, jest lekiem pierwszego rzutu z wyboru",
+      "C. Jest skuteczny, ale tylko podawany we wlewie dokomorowym",
+      "D. Działa wyłącznie w połączeniu z aspiryną",
+      "E. Skraca czas wydalania wirusa w kale do 2 sekund"
+    ],
+    "corrLen": 155,
+    "avgWrong": 49,
+    "ratio": 3.15
+  },
+  {
+    "caseId": 118,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Czy agresywne profilaktyczne stosowanie leków przeciwgorączkowych (paracetamolu, ibuprofenu) zapobiega nawrotom drgawek gorączkowych u predysponowanego dziecka?",
+    "key": "A. Nie, leki przeciwgorączkowe poprawiają samopoczucie dziecka, ale nie zmniejszają ryzyka wystąpienia ani nawrotu drgawek gorączkowych",
+    "correctIdx": 0,
+    "opts": [
+      "A. Nie, leki przeciwgorączkowe poprawiają samopoczucie dziecka, ale nie zmniejszają ryzyka wystąpienia ani nawrotu drgawek gorączkowych",
+      "B. Tak, podawanie paracetamolu całkowicie eliminuje ryzyko drgawek w 100% przypadków",
+      "C. Zapobiega, ale tylko pod warunkiem podawania leków dożylnie co 2 godziny",
+      "D. Zapobiega wyłącznie u dziewczynek",
+      "E. Tak, o ile lek zostanie podany w postaci aerozolu do nosa"
+    ],
+    "corrLen": 135,
+    "avgWrong": 64,
+    "ratio": 2.12
+  },
+  {
+    "caseId": 118,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Czym jest tzw. porażenie (niedowład) Todda?",
+    "key": "A. Przejściowy, najczęściej połowiczy niedowład kończyn występujący w okresie ponapadowym po drgawkach o charakterze ogniskowym",
+    "correctIdx": 0,
+    "opts": [
+      "A. Przejściowy, najczęściej połowiczy niedowład kończyn występujący w okresie ponapadowym po drgawkach o charakterze ogniskowym",
+      "B. Trwałe uszkodzenie nerwu twarzowego po porodzie kleszczowym",
+      "C. Wrodzona wiotkość stawów kolanowych",
+      "D. Porażenie mięśni krtani w krztuścu",
+      "E. Brak czucia w obu stopach po zakażeniu tężcem"
+    ],
+    "corrLen": 127,
+    "avgWrong": 46,
+    "ratio": 2.75
+  },
+  {
+    "caseId": 118,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 18-miesięcznego dziecka po przebytym pierwszym w życiu napadzie prostych drgawek gorączkowych w przebiegu infekcji wirusowej, zgodnie z zasadami prawa medycznego i orzecznictwa lekarskiego lekarz wypisujący dziecko po obserwacji SOR:",
+    "key": "Przekazuje rodzicom szczegółowy instruktaż pierwszej pomocy (ułożenie w pozycji bocznej bezpiecznej, ochrona głowy, zakaz wkładania czegokolwiek do ust, wezwanie ZRM przy napadzie >5 min), wystawia receptę na midazolam dopoliczkowy (Buccolam) do apteczki domowej oraz informuje, że przebyty napad nie stanowi przeciwwskazania do dalszych rutynowych szczepień ochronnych.",
+    "correctIdx": 0,
+    "opts": [
+      "Przekazuje rodzicom szczegółowy instruktaż pierwszej pomocy (ułożenie w pozycji bocznej bezpiecznej, ochrona głowy, zakaz wkładania czegokolwiek do ust, wezwanie ZRM przy napadzie >5 min), wystawia receptę na midazolam dopoliczkowy (Buccolam) do apteczki domowej oraz informuje, że przebyty napad nie stanowi przeciwwskazania do dalszych rutynowych szczepień ochronnych.",
+      "Wystawia bezwzględne, dożywotnie przeciwwskazanie do jakichkolwiek szczepień ochronnych w PSO.",
+      "Wdraża przewlekłą terapię karbamazepiną lub kwasem walproinowym na okres 3 lat.",
+      "Kieruje dziecko w trybie natychmiastowym na zabieg neurochirurgicznej resekcji płata skroniowego mózgu.",
+      "Nakazuje rodzicom rezygnację z pracy i nieopuszczanie łóżka dziecka przez najbliższe 5 lat."
+    ],
+    "corrLen": 370,
+    "avgWrong": 92,
+    "ratio": 4.03
+  },
+  {
+    "caseId": 119,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "W jaki sposób wrodzony przerost nadnerczy spowodowany niedoborem 21-hydroksylazy manifestuje się u noworodków o kariotypie żeńskim (46,XX)?",
+    "key": "A. Obojnactwem narządów płciowych zewnętrznych (wirylizacją: przerostem łechtaczki, zrośnięciem warg sromowych) przy obecności prawidłowej macicy i jajników",
+    "correctIdx": 0,
+    "opts": [
+      "A. Obojnactwem narządów płciowych zewnętrznych (wirylizacją: przerostem łechtaczki, zrośnięciem warg sromowych) przy obecności prawidłowej macicy i jajników",
+      "B. Brakiem macicy i pochwy przy prawidłowych zewnętrznych narządach żeńskich",
+      "C. Wykształceniem jąder w jamie brzusznej",
+      "D. Niedorozwojem gruczołów piersiowych u matki",
+      "E. Całkowitym brakiem jakichkolwiek objawów przez całe życie"
+    ],
+    "corrLen": 156,
+    "avgWrong": 56,
+    "ratio": 2.8
+  },
+  {
+    "caseId": 119,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jakie zaburzenie elektrolitowe i równowagi kwasowo-zasadowej pozwala odróżnić przełom solny w WPN od przerostowego zwężenia odźwiernika (IHPS) u wymiotującego noworodka?",
+    "key": "A. W WPN występuje hiponatremia, HIPERKALIEMIA i KWASICA, podczas gdy w zwężeniu odźwiernika występuje HIPOKALIEMIA i ZASADOWICA hipochloremiczna",
+    "correctIdx": 0,
+    "opts": [
+      "A. W WPN występuje hiponatremia, HIPERKALIEMIA i KWASICA, podczas gdy w zwężeniu odźwiernika występuje HIPOKALIEMIA i ZASADOWICA hipochloremiczna",
+      "B. W obu chorobach występuje identyczna zasadowica z hiperkaliemią",
+      "C. W zwężeniu odźwiernika potas zawsze przekracza 9,0 mmol/l",
+      "D. W WPN nie ma zaburzeń elektrolitowych",
+      "E. W zwężeniu odźwiernika występuje kwasica ketonowa z glikemią 500 mg/dl"
+    ],
+    "corrLen": 145,
+    "avgWrong": 60,
+    "ratio": 2.43
+  },
+  {
+    "caseId": 119,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jakie jest postępowanie farmakologiczne I wyboru w ostrym przełomie nadnerczowym u noworodka?",
+    "key": "A. Wlew 0,9% NaCl z 10% glukozą oraz dożylne podanie Hydrokortyzonu w dawce stresowej (50-100 mg/m²)",
+    "correctIdx": 0,
+    "opts": [
+      "A. Wlew 0,9% NaCl z 10% glukozą oraz dożylne podanie Hydrokortyzonu w dawce stresowej (50-100 mg/m²)",
+      "B. Podanie dożylne chlorku potasu i spironolaktonu",
+      "C. Dożylny wlew z furosemidu i mannitolu",
+      "D. Wstrzyknięcie czystej insuliny w bolusie",
+      "E. Podanie deksametazonu doustnie w tabletkach"
+    ],
+    "corrLen": 100,
+    "avgWrong": 45,
+    "ratio": 2.23
+  },
+  {
+    "caseId": 119,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego u noworodka z klasyczną postacią WPN obserwuje się hiperpigmentację skóry moszny i otoczek brodawek?",
+    "key": "A. Brak kortyzolu znosi ujemne sprzężenie zwrotne, powodując masywne wydzielanie ACTH i MSH (melanotropiny) przez przysadkę",
+    "correctIdx": 0,
+    "opts": [
+      "A. Brak kortyzolu znosi ujemne sprzężenie zwrotne, powodując masywne wydzielanie ACTH i MSH (melanotropiny) przez przysadkę",
+      "B. Wirusowe zapalenie skóry wywołane przez wirus cytomegalii",
+      "C. Złogi hemosyderyny po krwotoku dokomorowym",
+      "D. Zwiększone stężenie witaminy B12 we krwi",
+      "E. Działanie leków przeciwgorączkowych podawanych matce w ciąży"
+    ],
+    "corrLen": 123,
+    "avgWrong": 53,
+    "ratio": 2.33
+  },
+  {
+    "caseId": 119,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U noworodka urodzonego z obojnaczymi narządami płciowymi zewnętrznymi (przerost łechtaczki, zrośnięcie fałdów wargowo-mosznowych), u którego podejrzewa się wrodzony przerost nadnerczy, zgodnie z polskim prawem (Prawo o aktach stanu cywilnego) oraz wytycznymi medycznymi:",
+    "key": "Kierownik USC na wniosek personelu medycznego może zarejestrować dziecko z oznaczeniem płci nieokreślonej na okres do ustalenia płci genetycznej (kariotyp 46,XX/46,XY), a rodzice muszą zostać wyedukowani w zakresie zasad postępowania w sytuacjach stresu (podwajanie dawek hydrokortyzonu) oraz zaopatrzeni w 'Kartę pacjenta z niewydolnością nadnerczy' i ampułkę hydrokortyzonu do iniekcji domowej.",
+    "correctIdx": 0,
+    "opts": [
+      "Kierownik USC na wniosek personelu medycznego może zarejestrować dziecko z oznaczeniem płci nieokreślonej na okres do ustalenia płci genetycznej (kariotyp 46,XX/46,XY), a rodzice muszą zostać wyedukowani w zakresie zasad postępowania w sytuacjach stresu (podwajanie dawek hydrokortyzonu) oraz zaopatrzeni w 'Kartę pacjenta z niewydolnością nadnerczy' i ampułkę hydrokortyzonu do iniekcji domowej.",
+      "Lekarz ma prawny obowiązek natychmiastowego arbitralnego wpisania płci męskiej do aktu urodzenia bez czekania na wyniki badań genetycznych.",
+      "Dziecko z WPN nie ma prawa do leczenia refundowanymi preparatami hydrokortyzonu.",
+      "Oznaczenie kariotypu u noworodka z obojnaczymi narządami płciowymi jest w Polsce prawnie zabronione.",
+      "Podanie hydrokortyzonu w stanie zagrożenia życia wymaga uprzedniej zgody sądu opiekuńczego."
+    ],
+    "corrLen": 396,
+    "avgWrong": 103,
+    "ratio": 3.86
+  },
+  {
+    "caseId": 120,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego w leczeniu DKA u dzieci BEZWZGLĘDNIE ZAKAZANE jest podawanie wstępnego bolusa insuliny dożylnej?",
+    "key": "A. Gwałtowny spadek glikemii i osmolalności osocza indukuje masywny napływ wody do neuronów i grozi śmiertelnym obrzękiem mózgu",
+    "correctIdx": 0,
+    "opts": [
+      "A. Gwałtowny spadek glikemii i osmolalności osocza indukuje masywny napływ wody do neuronów i grozi śmiertelnym obrzękiem mózgu",
+      "B. Bolus insuliny natychmiastowo niszczy mięsień sercowy",
+      "C. Insulina w bolusie powoduje trwałą ślepotę",
+      "D. Wywołuje nieodwracalną martwicę cewek nerkowych",
+      "E. U dzieci insulina w bolusie ulega zablokowaniu przez albuminy"
+    ],
+    "corrLen": 127,
+    "avgWrong": 54,
+    "ratio": 2.36
+  },
+  {
+    "caseId": 120,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Co należy zrobić, gdy podczas leczenia DKA stężenie glukozy we krwi obniży się do około 250-300 mg/dl (14-17 mmol/l), a kwasica metaboliczna i ketonemia nadal trwają?",
+    "key": "A. Do płynów infuzyjnych należy dołączyć glukozę (płyn 5-10% glukozy z elektrolitami) i kontynuować wlew insuliny aż do ustąpienia kwasicy i ketonemii",
+    "correctIdx": 0,
+    "opts": [
+      "A. Do płynów infuzyjnych należy dołączyć glukozę (płyn 5-10% glukozy z elektrolitami) i kontynuować wlew insuliny aż do ustąpienia kwasicy i ketonemii",
+      "B. Całkowicie wyłączyć wlew insuliny",
+      "C. Zwiększyć dawkę insuliny trzykrotnie",
+      "D. Podać wodorowęglan sodu w bolusie",
+      "E. Wypisać pacjenta ze szpitala"
+    ],
+    "corrLen": 150,
+    "avgWrong": 36,
+    "ratio": 4.23
+  },
+  {
+    "caseId": 120,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Dlaczego rutynowe stosowanie wodorowęglanu sodu (NaHCO3) w DKA u dzieci jest PRZECIWWSKAZANE?",
+    "key": "A. Zwiększa ryzyko obrzęku mózgu, wywołuje paradoksalną kwasicę wewnątrzkomórkową OUN i nasila hipokaliemię",
+    "correctIdx": 0,
+    "opts": [
+      "A. Zwiększa ryzyko obrzęku mózgu, wywołuje paradoksalną kwasicę wewnątrzkomórkową OUN i nasila hipokaliemię",
+      "B. Powoduje natychmiastowe zniszczenie wątroby",
+      "C. Wywołuje skazę krwotoczną hemofilopodobną",
+      "D. Neutralizuje cząsteczki potasu",
+      "E. Jest wskazane i stanowi lek I rzutu w każdym DKA"
+    ],
+    "corrLen": 107,
+    "avgWrong": 44,
+    "ratio": 2.46
+  },
+  {
+    "caseId": 120,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Który objaw kliniczny u dziecka leczonego z powodu DKA powinien wzbudzić natychmiastowe podejrzenie rozwijającego się obrzęku mózgu?",
+    "key": "A. Ból głowy, wymioty, zwolnienie akcji serca (bradykardia), wzrost ciśnienia tętniczego oraz pogorszenie kontaktu słownego (spadek GCS)",
+    "correctIdx": 0,
+    "opts": [
+      "A. Ból głowy, wymioty, zwolnienie akcji serca (bradykardia), wzrost ciśnienia tętniczego oraz pogorszenie kontaktu słownego (spadek GCS)",
+      "B. Zblednięcie skóry wokół ust z zachowanym doskonałym kontaktem",
+      "C. Wzrost łaknienia i prośba o jedzenie",
+      "D. Obfite oddawanie moczu o jasnej barwie",
+      "E. Spadek temperatury ciała o 0,2°C"
+    ],
+    "corrLen": 136,
+    "avgWrong": 45,
+    "ratio": 3.04
+  },
+  {
+    "caseId": 120,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Lekiem pierwszego rzutu w leczeniu obrzęku mózgu w przebiegu DKA u dziecka jest:",
+    "key": "A. 20% Mannitol dożylnie (0,5-1,0 g/kg m.c. w 20 minut) LUB 3% NaCl (3-5 ml/kg m.c.)",
+    "correctIdx": 0,
+    "opts": [
+      "A. 20% Mannitol dożylnie (0,5-1,0 g/kg m.c. w 20 minut) LUB 3% NaCl (3-5 ml/kg m.c.)",
+      "B. Deksametazon w wysokiej dawce dożylnej",
+      "C. Furosemid w bolusie 5 mg/kg",
+      "D. Heparyna niefrakcjonowana",
+      "E. Czysta woda we wlewie doszpikowym"
+    ],
+    "corrLen": 84,
+    "avgWrong": 34,
+    "ratio": 2.49
+  },
+  {
+    "caseId": 121,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który z poniższych produktów spożywczych lub leków podany łącznie z lewotyroksyną dramatycznie upośledza jej wchłanianie z przewodu pokarmowego?",
+    "key": "Preparaty żelaza, węglan wapnia oraz odżywki sojowe",
+    "correctIdx": 0,
+    "opts": [
+      "Preparaty żelaza, węglan wapnia oraz odżywki sojowe",
+      "Witamina D3 w kroplach",
+      "Glukoza 5% w wodzie",
+      "Kwas foliowy",
+      "Probiotyki zawierające Lactobacillus rhamnosus"
+    ],
+    "corrLen": 51,
+    "avgWrong": 25,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 122,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego u każdego dziecka z nowo rozpoznaną ALL rutynowo podaje się cytostatyki dokanałowo (i.t.) w punkcji lędźwiowej?",
+    "key": "Ponieważ bariera krew-mózg chroni OUN przed większością leków podawanych dożylnie, co bez profilaktyki prowadziłoby do wznowy neurobiałaczki",
+    "correctIdx": 0,
+    "opts": [
+      "Ponieważ bariera krew-mózg chroni OUN przed większością leków podawanych dożylnie, co bez profilaktyki prowadziłoby do wznowy neurobiałaczki",
+      "Ponieważ komórki białaczkowe powstają pierwotnie w komorach mózgowych",
+      "Aby zapobiec zakażeniom bakteryjnym opon mózgowo-rdzeniowych",
+      "W celu obniżenia podwyższonego ciśnienia tętniczego krwi",
+      "Jest to wymagane wyłącznie u dzieci z objawami neurologicznymi"
+    ],
+    "corrLen": 140,
+    "avgWrong": 62,
+    "ratio": 2.27
+  },
+  {
+    "caseId": 122,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Wskaż prawidłowe postępowanie w przypadku gorączki neutropenicznej (T > 38,5°C, ANC < 500/µl) u dziecka leczonego z powodu ALL:",
+    "key": "Pobranie posiewów krwi (z wkłucia centralnego i obwodu) oraz natychmiastowe wdrożenie empirycznej dożylnej antybiotykoterapii o szerokim spektrum (np. cefepim lub piperacylina z tazobaktamem) w pierwszej godzinie",
+    "correctIdx": 0,
+    "opts": [
+      "Pobranie posiewów krwi (z wkłucia centralnego i obwodu) oraz natychmiastowe wdrożenie empirycznej dożylnej antybiotykoterapii o szerokim spektrum (np. cefepim lub piperacylina z tazobaktamem) w pierwszej godzinie",
+      "Podanie leków przeciwgorączkowych i obserwacja przez 48 godzin do momentu uzyskania wyników badań bakteriologicznych",
+      "Natychmiastowe przetoczenie 2 jednostek koncentratu krwinek białych",
+      "Podanie pojedynczej dawki amoksycyliny doustnie i odesłanie do domu",
+      "Wykonanie pilnej trepanobiopsji szpiku w celu oceny komórkowości"
+    ],
+    "corrLen": 212,
+    "avgWrong": 79,
+    "ratio": 2.7
+  },
+  {
+    "caseId": 122,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Do niekorzystnych czynników rokowniczych (wysokiego ryzyka) w ostrej białaczce limfoblastycznej u dzieci należą:\n1. Wiek w chwili rozpoznania poniżej 1. roku życia (niemowlęta) lub powyżej 10. roku życia\n2. Wyjściowa leukocytoza przekraczająca 50 000/µl (50 x 10⁹/l)\n3. Obecność chromosomu Philadelphia t(9;22) BCR-ABL1 lub rearanżacji genu MLL/KMT2A [t(4;11)]\n4. Słaba odpowiedź na wstępną 7-dniową prednizonoterapię (≥1000 blastów/µl we krwi obwodowej w 8. dobie)\n5. Dodatnia minimalna choroba resztkowa (MRD ≥10⁻³ w cytometrii przepływowej/PCR) po zakończeniu indukcji\nPrawidłowa odpowiedź to:",
+    "key": "Wszystkie wymienione (1, 2, 3, 4, 5)",
+    "correctIdx": 3,
+    "opts": [
+      "1, 2, 3",
+      "2, 4, 5",
+      "1, 3, 4, 5",
+      "Wszystkie wymienione (1, 2, 3, 4, 5)",
+      "1, 4, 5"
+    ],
+    "corrLen": 36,
+    "avgWrong": 8,
+    "ratio": 4.65
+  },
+  {
+    "caseId": 123,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Zgodnie z kryteriami klasyfikacyjnymi EULAR/PRINTO/PRES (2010) bezwzględnym warunkiem koniecznym do rozpoznania zapalenia naczyń związanego z IgA (plamicy Henocha-Schönleina) jest obecność:",
+    "key": "Wyczuwalnej dotykiem plamicy (palpable purpura) lub wybroczyn o przewadze na kończynach dolnych, bez małopłytkowości",
+    "correctIdx": 0,
+    "opts": [
+      "Wyczuwalnej dotykiem plamicy (palpable purpura) lub wybroczyn o przewadze na kończynach dolnych, bez małopłytkowości",
+      "Małopłytkowości poniżej 50 000/µl",
+      "Wysokiego miana przeciwciał c-ANCA w surowicy",
+      "Przetrwałej gorączki trwającej co najmniej 7 dni",
+      "Płaskiego rumienia na twarzy w kształcie motyla"
+    ],
+    "corrLen": 116,
+    "avgWrong": 43,
+    "ratio": 2.68
+  },
+  {
+    "caseId": 123,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym charakteryzuje się zapalenie stawów w przebiegu plamicy Henocha-Schönleina?",
+    "key": "Jest przemijające, nie prowadzi do destrukcji ani zniekształcenia stawów i najczęściej dotyczy stawów skokowych i kolanowych",
+    "correctIdx": 0,
+    "opts": [
+      "Jest przemijające, nie prowadzi do destrukcji ani zniekształcenia stawów i najczęściej dotyczy stawów skokowych i kolanowych",
+      "Prowadzi do szybkiego powstawania nadżerek kostnych i zesztywnienia stawów",
+      "Zawsze dotyczy wyłącznie małych stawów rąk i stóp symetrycznie",
+      "Wymaga pilnej punkcji i płukania stawów na bloku operacyjnym",
+      "Zawsze przechodzi w postać przewlekłą toczniową"
+    ],
+    "corrLen": 124,
+    "avgWrong": 61,
+    "ratio": 2.04
+  },
+  {
+    "caseId": 123,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 7-letniego chłopca wypisywanego ze szpitala po ostrym rzucie plamicy Henocha-Schönleina bez powikłań narządowych, lekarz planujący dalszą opiekę w POZ zgodnie z zasadami sztuki lekarskiej i orzecznictwa powinien:",
+    "key": "Zlecić systematyczną kontrolę badania ogólnego moczu oraz pomiar ciśnienia tętniczego co 1-2 tygodnie przez pierwsze 2 miesiące, a następnie co miesiąc przez minimum 6 miesięcy, oraz zalecić czasowe zwolnienie z zajęć WF na okres ostrych objawów.",
+    "correctIdx": 0,
+    "opts": [
+      "Zlecić systematyczną kontrolę badania ogólnego moczu oraz pomiar ciśnienia tętniczego co 1-2 tygodnie przez pierwsze 2 miesiące, a następnie co miesiąc przez minimum 6 miesięcy, oraz zalecić czasowe zwolnienie z zajęć WF na okres ostrych objawów.",
+      "Wystawić bezterminowe trwałe zwolnienie ze wszystkich szczepień ochronnych w kalendarzu szczepień.",
+      "Natychmiast złożyć wniosek do zespołu ds. orzekania o stopniu niepełnosprawności ze względu na trwały uszczerbek na zdrowiu.",
+      "Zakazać powrotu do szkoły przez okres minimum 12 miesięcy ze względu na wysokie ryzyko zarażenia innych uczniów.",
+      "Zgłosić przypadek do powiatowej stacji sanitarno-epidemiologicznej (Sanepid) jako chorobę zakaźną podlegającą obowiązkowej kwarantannie."
+    ],
+    "corrLen": 246,
+    "avgWrong": 118,
+    "ratio": 2.09
+  },
+  {
+    "caseId": 124,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Wykonanie nakłucia lędźwiowego (LP) u dziecka z podejrzeniem guza tylnego dołu czaszki i tarczą zastoinową na dnie oka PRZED badaniem neuroobrazowym jest:",
+    "key": "Bezwzględnie przeciwwskazane z powodu ryzyka śmiertelnego wklinowania migdałków móżdżku do otworu wielkiego",
+    "correctIdx": 0,
+    "opts": [
+      "Bezwzględnie przeciwwskazane z powodu ryzyka śmiertelnego wklinowania migdałków móżdżku do otworu wielkiego",
+      "Wskazane natychmiast w celu odbarczenia podwyższonego ciśnienia śródczaszkowego",
+      "Dozwolone wyłącznie po podaniu dożylnym 500 ml 5% glukozy",
+      "Wskazane tylko w przypadku braku gorączki",
+      "Obojętne dla rokowania pacjenta"
+    ],
+    "corrLen": 107,
+    "avgWrong": 52,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 124,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "5-letnie dziecko z guzem tylnego dołu czaszki i ostrym wodogłowiem obturacyjnym trafia na SOR w stanie śpiączki z cechami wklinowania mózgu. Rodzice są nieosiągalni. W świetle polskiego prawa medycznego (art. 34 ust. 7 Ustawy o zawodach lekarza i lekarza dentysty):",
+    "key": "Lekarz ma prawo i obowiązek wykonać natychmiast ratujący życie zabieg operacyjny (np. założenie zewnętrznego drenażu komorowego) bez zgody przedstawiciela ustawowego, zasięgając w miarę możliwości opinii drugiego lekarza i odnotowując to w dokumentacji oraz niezwłocznie powiadamiając sąd opiekuńczy.",
+    "correctIdx": 0,
+    "opts": [
+      "Lekarz ma prawo i obowiązek wykonać natychmiast ratujący życie zabieg operacyjny (np. założenie zewnętrznego drenażu komorowego) bez zgody przedstawiciela ustawowego, zasięgając w miarę możliwości opinii drugiego lekarza i odnotowując to w dokumentacji oraz niezwłocznie powiadamiając sąd opiekuńczy.",
+      "Lekarz musi bezwzględnie wstrzymać się z jakimkolwiek zabiegiem inwazyjnym do czasu uzyskania pisemnej zgody sądu opiekuńczego, ograniczając się do leczenia zachowawczego.",
+      "Do wykonania operacji w stanie nagłym u dziecka wystarczy zgoda pełnoletniego sąsiada lub dalszego krewnego, który przyprowadził dziecko do szpitala.",
+      "W przypadku braku rodziców zgodę na operację może wydać telefonicznie dyżurny pracownik socjalny ośrodka pomocy społecznej.",
+      "Lekarz operujący bez pisemnej zgody sądu w stanie bezpośredniego zagrożenia życia popełnia przestępstwo ścigane z urzędu."
+    ],
+    "corrLen": 300,
+    "avgWrong": 141,
+    "ratio": 2.13
+  },
+  {
+    "caseId": 125,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Standardowym leczeniem pierwszego rzutu o udowodnionej w badaniach EBM skuteczności w redukcji ryzyka tętniaków wieńcowych w chorobie Kawasakiego jest:",
+    "key": "Immunoglobuliny dożylne (IVIG 2 g/kg) w pojedynczym wlewie w skojarzeniu z kwasem acetylosalicylowym (ASA)",
+    "correctIdx": 0,
+    "opts": [
+      "Immunoglobuliny dożylne (IVIG 2 g/kg) w pojedynczym wlewie w skojarzeniu z kwasem acetylosalicylowym (ASA)",
+      "Glikokortykosteroidy w monoterapii doustnej przez 30 dni",
+      "Cefalosporyny III generacji dożylnie przez 14 dni",
+      "Metotreksat w dawce immunosupresyjnej podawany podskórnie",
+      "Plazmafereza z wymianą osocza"
+    ],
+    "corrLen": 106,
+    "avgWrong": 48,
+    "ratio": 2.22
+  },
+  {
+    "caseId": 125,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Do kryteriów klinicznych rozpoznania klasycznej postaci choroby Kawasakiego (gorączka trwająca ≥5 dni oraz co najmniej 4 z 5 cech) należą:\n1. Obustronne, bezwysiękowe przekrwienie spojówek gałkowych (oszczędzające rąbek rogówki)\n2. Zmiany na wargach i w jamie ustnej (suche, spękane wargi, 'język truskawkowy', rumień gardła)\n3. Zmiany w dystalnych częściach kończyn (rumień dłoni i podeszw, twardy obrzęk rąk i stóp, łuszczenie okołopaznokciowe w fazie podostrej)\n4. Polimorficzna osutka skórna (z wyjątkiem pęcherzykowej i pęcherzowej)\n5. Ostre nieropne powiększenie szyjnego węzła chłonnego (zazwyczaj jednostronne, o średnicy >1,5 cm)\nPrawidłowa odpowiedź to:",
+    "key": "Wszystkie wymienione (1, 2, 3, 4, 5)",
+    "correctIdx": 3,
+    "opts": [
+      "1, 2, 4",
+      "2, 3, 5",
+      "1, 3, 4, 5",
+      "Wszystkie wymienione (1, 2, 3, 4, 5)",
+      "1, 2, 3, 5"
+    ],
+    "corrLen": 36,
+    "avgWrong": 9,
+    "ratio": 4.24
+  },
+  {
+    "caseId": 125,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "U 2-letniego dziecka leczonego z powodu choroby Kawasakiego pojedynczym wlewem IVIG w dawce 2 g/kg m.c., zgodnie z polskim Programem Szczepień Ochronnych (PSO) oraz wytycznymi ekspertów:",
+    "key": "Szczepienia żywymi atenuowanymi szczepionkami (przeciwko odrze, śwince, różyczce – MMR oraz ospie wietrznej) należy odroczyć o 11 miesięcy od podania IVIG z powodu pasywnej obecności przeciwciał neutralizujących w preparacie immunoglobulin.",
+    "correctIdx": 0,
+    "opts": [
+      "Szczepienia żywymi atenuowanymi szczepionkami (przeciwko odrze, śwince, różyczce – MMR oraz ospie wietrznej) należy odroczyć o 11 miesięcy od podania IVIG z powodu pasywnej obecności przeciwciał neutralizujących w preparacie immunoglobulin.",
+      "Wszystkie szczepienia (zarówno żywe, jak i inaktywowane) muszą zostać trwale wstrzymane do osiągnięcia pełnoletności.",
+      "Dziecko powinno otrzymać szczepionkę MMR niezwłocznie w 7. dobie po podaniu IVIG w celu stymulacji odporności przeciwwirusowej.",
+      "Szczepienie przeciwko grypie sezonowej szczepionką inaktywowaną jest bezwzględnie przeciwwskazane u dzieci przyjmujących kwas acetylosalicylowy.",
+      "Zastosowanie IVIG zwalnia lekarza POZ z obowiązku prowadzenia karty uodpornienia dziecka."
+    ],
+    "corrLen": 240,
+    "avgWrong": 119,
+    "ratio": 2.01
+  }
+]

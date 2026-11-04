@@ -1,0 +1,1514 @@
+[
+  {
+    "caseId": 100,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Wystąpienie nagłych wymiotów podbarwionych żółcią (ciemnozielonych) u dotychczas zdrowego noworodka w 1. lub 2. tygodniu życia nakazuje w pierwszej kolejności pilne podejrzenie:",
+    "key": "A) Skrętu jelita środkowego (volvulus) na podłożu malrotacji",
+    "correctIdx": 0,
+    "opts": [
+      "A) Skrętu jelita środkowego (volvulus) na podłożu malrotacji",
+      "B) Przerostowego zwężenia odźwiernika",
+      "C) Zwykłego ulewania pokarmu",
+      "D) Alergii na białka mleka krowiego",
+      "E) Niedoboru laktazy"
+    ],
+    "corrLen": 60,
+    "avgWrong": 30,
+    "ratio": 2
+  },
+  {
+    "caseId": 100,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego podczas operacji Ladda rutynowo wykonuje się profilaktyczną appendektomię?",
+    "key": "A) Ponieważ po ułożeniu jelit sposobem Ladda kątnica z wyrostkiem robaczkowym przemieszcza się do lewego podżebrza/lewej połowy brzucha, co w przyszłości uniemożliwiłoby typowe rozpoznanie zapalenia wyrostka",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ po ułożeniu jelit sposobem Ladda kątnica z wyrostkiem robaczkowym przemieszcza się do lewego podżebrza/lewej połowy brzucha, co w przyszłości uniemożliwiłoby typowe rozpoznanie zapalenia wyrostka",
+      "B) Ponieważ wyrostek robaczkowy zawsze ulega martwicy w trakcie skrętu",
+      "C) Ponieważ wyrostek uciska tętnicę krezkową górną",
+      "D) Ponieważ wyrostek robaczkowy produkuje żółć",
+      "E) Ze względów refundacyjnych"
+    ],
+    "corrLen": 207,
+    "avgWrong": 49,
+    "ratio": 4.25
+  },
+  {
+    "caseId": 100,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Czym są tzw. 'pasma Ladda' (Ladd's bands) stwierdzane u pacjentów z malrotacją jelit?",
+    "key": "A) Nieprawidłowymi pasmami otrzewnowymi biegnącymi od nieprawidłowo położonej w nadbrzuszu kątnicy do tylnej ściany brzucha, uciskającymi i zaginającymi dwunastnicę",
+    "correctIdx": 0,
+    "opts": [
+      "A) Nieprawidłowymi pasmami otrzewnowymi biegnącymi od nieprawidłowo położonej w nadbrzuszu kątnicy do tylnej ściany brzucha, uciskającymi i zaginającymi dwunastnicę",
+      "B) Wrodzonymi przetokami między aortą a jelitem",
+      "C) Zrostami po zapaleniu trzustki",
+      "D) Pasemkami mięśniowymi w odźwierniku",
+      "E) Skrzeplinami w żyle wrotnej"
+    ],
+    "corrLen": 164,
+    "avgWrong": 37,
+    "ratio": 4.43
+  },
+  {
+    "caseId": 100,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Co jest patognomonicznym obrazem w badaniu kontrastowym górnego odcinka przewodu pokarmowego (UGI) w skręcie jelita na podłożu malrotacji?",
+    "key": "A) Zgięcie dwunastniczo-czcze (kąt Treitza) po prawej stronie kręgosłupa oraz obraz 'korkociągu' (corkscrew sign) w dwunastnicy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zgięcie dwunastniczo-czcze (kąt Treitza) po prawej stronie kręgosłupa oraz obraz 'korkociągu' (corkscrew sign) w dwunastnicy",
+      "B) Objaw tarczy strzeleckiej",
+      "C) Obraz 'sznura pereł'",
+      "D) Prawidłowe zagięcie dwunastnicy w kształcie litery C",
+      "E) Całkowity brak żołądka"
+    ],
+    "corrLen": 127,
+    "avgWrong": 33,
+    "ratio": 3.88
+  },
+  {
+    "caseId": 100,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Co to jest strategia 'second-look laparotomy' stosowana w chirurgii noworodka w przypadku skrętu jelita z wątpliwą żywotnością tkanek?",
+    "key": "A) Pozostawienie wątpliwego jelita po odkręceniu i planowe ponowne otwarcie jamy brzusznej po 24-48 godzinach w celu precyzyjnej oceny granicy martwicy i ocalenia maksymalnej długości jelita",
+    "correctIdx": 0,
+    "opts": [
+      "A) Pozostawienie wątpliwego jelita po odkręceniu i planowe ponowne otwarcie jamy brzusznej po 24-48 godzinach w celu precyzyjnej oceny granicy martwicy i ocalenia maksymalnej długości jelita",
+      "B) Spojrzenie na brzuch dziecka przez innego lekarza po 5 minutach",
+      "C) Wykonanie kontrolnego USG przez stażystę",
+      "D) Zbadanie dziecka wyłącznie stetoskopem",
+      "E) Reoperacja po ukończeniu 18. roku życia"
+    ],
+    "corrLen": 190,
+    "avgWrong": 48,
+    "ratio": 3.96
+  },
+  {
+    "caseId": 100,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Które naczynie krwionośne ulega bezpośredniemu zaciśnięciu w osi skrętu jelita środkowego w przebiegu volvulus?",
+    "key": "A) Tętnica krezkowa górna (SMA) wraz z żyłą krezkową górną (SMV)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Tętnica krezkowa górna (SMA) wraz z żyłą krezkową górną (SMV)",
+      "B) Tętnica krezkowa dolna (IMA)",
+      "C) Pień trzewny",
+      "D) Tętnica nerkowa lewa",
+      "E) Tętnica biodrowa wewnętrzna"
+    ],
+    "corrLen": 64,
+    "avgWrong": 25,
+    "ratio": 2.59
+  },
+  {
+    "caseId": 100,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Która cecha kliniczna pozwala odróżnić wymioty w przeroście odźwiernika (HPS) od wymiotów w skręcie jelita środkowego (volvulus)?",
+    "key": "A) Wymioty w przeroście odźwiernika są bezżółciowe (mleczne), podczas gdy w skręcie jelita są ciemnozielone (żółciowe)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wymioty w przeroście odźwiernika są bezżółciowe (mleczne), podczas gdy w skręcie jelita są ciemnozielone (żółciowe)",
+      "B) Wymioty w przeroście odźwiernika zawierają zawsze krew",
+      "C) W przeroście odźwiernika nie ma wymiotów",
+      "D) Skręt jelita nie daje żadnych wymiotów",
+      "E) Wymioty w obu chorobach są identyczne"
+    ],
+    "corrLen": 118,
+    "avgWrong": 45,
+    "ratio": 2.61
+  },
+  {
+    "caseId": 81,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Jakie jest bezwzględne postępowanie pierwszego wyboru u 75-letniego pacjenta z podejrzeniem olbrzymiokomórkowego zapalenia tętnic (GCA) i epizodem amaurosis fugax w wywiadzie?",
+    "key": "A) Natychmiastowe podanie wysokiej dawki glikokortykosteroidów drogą dożylną (metyloprednizolon w pulsach 500-1000 mg/d) PRZED wykonaniem jakichkolwiek badań inwazyjnych, w tym biopsji tętnicy skroniowej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Natychmiastowe podanie wysokiej dawki glikokortykosteroidów drogą dożylną (metyloprednizolon w pulsach 500-1000 mg/d) PRZED wykonaniem jakichkolwiek badań inwazyjnych, w tym biopsji tętnicy skroniowej",
+      "B) Wstrzymanie się z farmakoterapią do czasu uzyskania wyniku biopsji tętnicy skroniowej",
+      "C) Skierowanie pacjenta na planową tomografię głowy za 3 tygodnie",
+      "D) Podanie wyłącznie kropli nawilżających do worka spojówkowego",
+      "E) Wdrożenie kwasu acetylosalicylowego w dawce 75 mg bez sterydów"
+    ],
+    "corrLen": 203,
+    "avgWrong": 70,
+    "ratio": 2.89
+  },
+  {
+    "caseId": 81,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki patomechanizm odpowiada za nagłą, bezbolesną i najczęściej nieodwracalną utratę wzroku u chorych z olbrzymiokomórkowym zapaleniem tętnic?",
+    "key": "A) Przednia niedokrwienna neuropatia nerwu wzrokowego (AION) wywołana zamknięciem gałęzi tętnic rzęskowych tylnych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przednia niedokrwienna neuropatia nerwu wzrokowego (AION) wywołana zamknięciem gałęzi tętnic rzęskowych tylnych",
+      "B) Odwarstwienie siatkówki na tle cukrzycowym",
+      "C) Ostre zamknięcie kąta przesączania z jaskrą",
+      "D) Wylew krwi do ciała szklistego z pękniętych mikrotętniaków",
+      "E) Zmętnienie soczewki wywołane wiekiem"
+    ],
+    "corrLen": 114,
+    "avgWrong": 48,
+    "ratio": 2.39
+  },
+  {
+    "caseId": 81,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co należy zrobić, jeśli u chorego z polimialgią reumatyczną skutecznie leczonego prednizonem w dawce 15 mg/d nagle pojawi się jednostronny ból głowy i przeczulica skóry skroni?",
+    "key": "A) Natychmiast zwiększyć dawkę prednizonu do 40-60 mg/d (lub podać pulsy i.v.) i pilnie skierować chorego do okulisty/reumatologa z podejrzeniem rozwinięcia GCA",
+    "correctIdx": 0,
+    "opts": [
+      "A) Natychmiast zwiększyć dawkę prednizonu do 40-60 mg/d (lub podać pulsy i.v.) i pilnie skierować chorego do okulisty/reumatologa z podejrzeniem rozwinięcia GCA",
+      "B) Zmniejszyć dawkę prednizonu do zera",
+      "C) Zalecić okłady z lodu na czoło bez zmiany dawki sterydów",
+      "D) Włączyć antybiotyk przeciwko boreliozie",
+      "E) Odczekać miesiąc do kolejnej wizyty kontrolnej"
+    ],
+    "corrLen": 160,
+    "avgWrong": 47,
+    "ratio": 3.4
+  },
+  {
+    "caseId": 82,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego w ostrym napadzie dny moczanowej NIE WOLNO rozpoczynać leczenia allopurynolem ani modyfikować jego dotychczasowej dawki?",
+    "key": "A) Gwałtowny spadek stężenia kwasu moczowego wywołuje destabilizację i mobilizację kryształów ze złogów tkankowych, co nasila i przedłuża ostry stan zapalny",
+    "correctIdx": 0,
+    "opts": [
+      "A) Gwałtowny spadek stężenia kwasu moczowego wywołuje destabilizację i mobilizację kryształów ze złogów tkankowych, co nasila i przedłuża ostry stan zapalny",
+      "B) Allopurynol neutralizuje działanie przeciwbólowe paracetamolu",
+      "C) Allopurynol w ostrym napadzie natychmiast krystalizuje w płucach",
+      "D) Powoduje natychmiastowe zrośnięcie kości śródstopia",
+      "E) Allopurynol wchodzi w interakcję z kompensatorem mikroskopu"
+    ],
+    "corrLen": 156,
+    "avgWrong": 62,
+    "ratio": 2.53
+  },
+  {
+    "caseId": 82,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego przez pierwsze 3–6 miesięcy miareczkowania dawki allopurynolu obligatoryjnie zaleca się równoległe stosowanie małej dawki kolchicyny (0.5 mg/d)?",
+    "key": "A) W celu profilaktyki napadów dny prowokowanych rozpuszczaniem złogów moczanowych na skutek spadku urykemii",
+    "correctIdx": 0,
+    "opts": [
+      "A) W celu profilaktyki napadów dny prowokowanych rozpuszczaniem złogów moczanowych na skutek spadku urykemii",
+      "B) Aby zapobiec wypadaniu włosów po allopurynolu",
+      "C) Kolchicyna zapobiega powstawaniu kamicy żółciowej",
+      "D) W celu ochrony wątroby",
+      "E) Kolchicyna wzmaga wchłanianie allopurynolu w jelicie"
+    ],
+    "corrLen": 108,
+    "avgWrong": 45,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 82,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Który składnik diety i napojów, oprócz alkoholu i czerwonego mięsa, najsilniej stymuluje wątrobową syntezę kwasu moczowego i zwiększa ryzyko napadu dny?",
+    "key": "A) Fruktoza (oraz syrop glukozowo-fruktozowy zawarty w napojach słodzonych)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Fruktoza (oraz syrop glukozowo-fruktozowy zawarty w napojach słodzonych)",
+      "B) Kofeina zawarta w czarnej kawie",
+      "C) Chude mleko krowie",
+      "D) Błonnik pokarmowy",
+      "E) Witamina C"
+    ],
+    "corrLen": 75,
+    "avgWrong": 22,
+    "ratio": 3.41
+  },
+  {
+    "caseId": 83,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jaka zasada dotycząca suplementacji kwasu foliowego musi być bezwzględnie przestrzegana u pacjentów leczonych metotreksatem w RZS?",
+    "key": "A) Kwas foliowy (minimum 5 mg/tydzień) należy podawać obligatoryjnie w odstępie 24–48 godzin po przyjęciu metotreksatu w celu zmniejszenia jego toksyczności",
+    "correctIdx": 0,
+    "opts": [
+      "A) Kwas foliowy (minimum 5 mg/tydzień) należy podawać obligatoryjnie w odstępie 24–48 godzin po przyjęciu metotreksatu w celu zmniejszenia jego toksyczności",
+      "B) Kwas foliowy należy przyjmować dokładnie w tej samej minucie co metotreksat",
+      "C) Kwas foliowy jest bezwzględnie przeciwwskazany u osób biorących metotreksat",
+      "D) Kwas foliowy podaje się wyłącznie dożylnie co godzinę",
+      "E) Kwas foliowy podaje się tylko wtedy, gdy pacjent ma anemię mikrocytarną"
+    ],
+    "corrLen": 156,
+    "avgWrong": 72,
+    "ratio": 2.18
+  },
+  {
+    "caseId": 83,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Na czym polega pojęcie 'okna terapeutycznego' (Window of Opportunity) we wczesnym reumatoidalnym zapaleniu stawów?",
+    "key": "A) Jest to wczesny okres choroby (zazwyczaj pierwsze 12 tygodni), w którym wdrożenie leków modyfikujących (DMARD) daje największą szansę na zatrzymanie destrukcji stawów i osiągnięcie trwałej remisji",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jest to wczesny okres choroby (zazwyczaj pierwsze 12 tygodni), w którym wdrożenie leków modyfikujących (DMARD) daje największą szansę na zatrzymanie destrukcji stawów i osiągnięcie trwałej remisji",
+      "B) Jest to okres letni, w którym nie stosuje się leków",
+      "C) Oznacza przerwę w podawaniu metotreksatu na czas urlopu",
+      "D) Jest to czas oczekiwania na pojawienie się pierwszego guzka reumatoidalnego",
+      "E) Oznacza okres po 10 latach od rozpoznania choroby"
+    ],
+    "corrLen": 199,
+    "avgWrong": 61,
+    "ratio": 3.29
+  },
+  {
+    "caseId": 83,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaki jest cel docelowy leczenia RZS w strategii 'Treat-to-Target' (T2T) wg międzynarodowych wytycznych?",
+    "key": "A) Osiągnięcie pełnej remisji klinicznej (np. wskaźnik DAS28 < 2.6) lub co najmniej niskiej aktywności choroby",
+    "correctIdx": 0,
+    "opts": [
+      "A) Osiągnięcie pełnej remisji klinicznej (np. wskaźnik DAS28 < 2.6) lub co najmniej niskiej aktywności choroby",
+      "B) Utrzymanie podwyższonego stężenia CRP",
+      "C) Wytworzenie guzków reumatoidalnych na łokciach",
+      "D) Wzrost liczby płytek krwi powyżej 800 G/l",
+      "E) Zwiększenie dawki sterydów do 100 mg/d"
+    ],
+    "corrLen": 110,
+    "avgWrong": 44,
+    "ratio": 2.53
+  },
+  {
+    "caseId": 83,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym są guzki Heberdena i Boucharda i dlaczego ich obecność przeczy rozpoznaniu typowego RZS?",
+    "key": "A) Są to kostno-chrzęstne zgrubienia charakterystyczne dla choroby zwyrodnieniowej stawów rąk, lokalizujące się odpowiednio w stawach DIP i PIP",
+    "correctIdx": 0,
+    "opts": [
+      "A) Są to kostno-chrzęstne zgrubienia charakterystyczne dla choroby zwyrodnieniowej stawów rąk, lokalizujące się odpowiednio w stawach DIP i PIP",
+      "B) Są to zmiany nowotworowe kości łódeczkowatej",
+      "C) Są to ropnie bakteryjne wywołane przez gronkowca złocistego",
+      "D) Są to guzki skórne występujące w toczniu rumieniowatym",
+      "E) Są to zwapnienia tętnic promieniowych"
+    ],
+    "corrLen": 143,
+    "avgWrong": 52,
+    "ratio": 2.78
+  },
+  {
+    "caseId": 83,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który z poniższych leków należy do celowanych syntetycznych leków modyfikujących przebieg choroby (tsDMARD) i działa poprzez hamowanie kinaz janusowych (JAK)?",
+    "key": "A) Tofacytynib / Upadacytynib",
+    "correctIdx": 0,
+    "opts": [
+      "A) Tofacytynib / Upadacytynib",
+      "B) Infliksymab",
+      "C) Etanercept",
+      "D) Rytuksymab",
+      "E) Anakinra"
+    ],
+    "corrLen": 29,
+    "avgWrong": 13,
+    "ratio": 2.27
+  },
+  {
+    "caseId": 83,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jaka jest rola glikokortykosteroidów (np. prednizonu w małej dawce <= 10 mg/d) na początku leczenia RZS?",
+    "key": "A) Służą jako krótkotrwała terapia pomostowa ('bridging therapy') do czasu zadziałania metotreksatu i powinny być odstawione w ciągu 3 miesięcy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Służą jako krótkotrwała terapia pomostowa ('bridging therapy') do czasu zadziałania metotreksatu i powinny być odstawione w ciągu 3 miesięcy",
+      "B) Powinny być stosowane w stałej dawce do końca życia chorego jako jedyny lek",
+      "C) Służą do przyspieszenia powstawania nadżerek kostnych",
+      "D) Podaje się je wyłącznie przed snem w celu wywołania gorączki",
+      "E) Glikokortykosteroidy nie wykazują żadnego działania przeciwbólowego w RZS"
+    ],
+    "corrLen": 143,
+    "avgWrong": 68,
+    "ratio": 2.1
+  },
+  {
+    "caseId": 84,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Jakie jest prawidłowe postępowanie diagnostyczne u pacjenta z typowym rumieniem wędrującym o średnicy 8 cm z centralnym przejaśnieniem, który wystąpił 10 dni po ukłuciu kleszcza?",
+    "key": "A) Rozpoznanie ustala się wyłącznie na podstawie obrazu klinicznego i natychmiast wdraża antybiotykoterapię bez wykonywania badań serologicznych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Rozpoznanie ustala się wyłącznie na podstawie obrazu klinicznego i natychmiast wdraża antybiotykoterapię bez wykonywania badań serologicznych",
+      "B) Należy bezwzględnie potwierdzić zakażenie testem Western Blot przed podaniem leku",
+      "C) Należy wykonać badanie PCR ze śliny kleszcza",
+      "D) Należy pobrać wycinek skóry do badania histopatologicznego",
+      "E) Należy wykonać punkcję lędźwiową w celu wykluczenia tężca"
+    ],
+    "corrLen": 144,
+    "avgWrong": 63,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 84,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki antybiotyk stanowi lek pierwszego wyboru w leczeniu rumienia wędrującego u kobiety w 14. tygodniu ciąży?",
+    "key": "A) Amoksycylina doustnie w dawce 500 mg 3 razy na dobę przez 14–21 dni",
+    "correctIdx": 0,
+    "opts": [
+      "A) Amoksycylina doustnie w dawce 500 mg 3 razy na dobę przez 14–21 dni",
+      "B) Doksycyklina doustnie w dawce 200 mg 2 razy na dobę",
+      "C) Gentamycyna domięśniowo",
+      "D) Streptomycyna doustnie",
+      "E) Ciprofloksacyna w dużej dawce"
+    ],
+    "corrLen": 70,
+    "avgWrong": 34,
+    "ratio": 2.04
+  },
+  {
+    "caseId": 84,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaki antybiotyk podawany dożylnie jest standardem leczenia neuroboreliozy (np. zespołu Bannwartha lub zapalenia opon mózgowo-rdzeniowych)?",
+    "key": "A) Ceftriakson w dawce 2.0 g i.v. raz na dobę przez 14–28 dni",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ceftriakson w dawce 2.0 g i.v. raz na dobę przez 14–28 dni",
+      "B) Wankomycyna doustnie",
+      "C) Amantadyna w ciągłym wlewie",
+      "D) Klindamycyna domięśniowo",
+      "E) Nystatyna w zawiesinie"
+    ],
+    "corrLen": 61,
+    "avgWrong": 26,
+    "ratio": 2.32
+  },
+  {
+    "caseId": 84,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Na czym polega dwuetapowa diagnostyka serologiczna boreliozy z Lyme stosowana w stadiach narządowych (np. w zapaleniu stawów lub neuroboreliozie)?",
+    "key": "A) W I etapie wykonuje się czuły test immunoenzymatyczny (ELISA), a w przypadku wyniku dodatniego lub wątpliwego w II etapie wykonuje się swoisty test potwierdzenia Western Blot",
+    "correctIdx": 0,
+    "opts": [
+      "A) W I etapie wykonuje się czuły test immunoenzymatyczny (ELISA), a w przypadku wyniku dodatniego lub wątpliwego w II etapie wykonuje się swoisty test potwierdzenia Western Blot",
+      "B) W I etapie wykonuje się badanie moczu, a w II etapie posiew krwi",
+      "C) W I etapie wykonuje się Western Blot, a w II etapie badanie kału",
+      "D) Badanie polega na posiewie kleszcza na agarze z krwią",
+      "E) Oznacza się poziom dehydrogenazy mleczanowej"
+    ],
+    "corrLen": 177,
+    "avgWrong": 59,
+    "ratio": 2.99
+  },
+  {
+    "caseId": 84,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "O czym należy bezwzględnie pouczyć pacjenta rozpoczynającego 21-dniową kurację doksycykliną?",
+    "key": "A) O konieczności unikania bezpośredniej ekspozycji na słońce i stosowania filtrów UV z powodu ryzyka fototoksyczności i oparzeń skóry",
+    "correctIdx": 0,
+    "opts": [
+      "A) O konieczności unikania bezpośredniej ekspozycji na słońce i stosowania filtrów UV z powodu ryzyka fototoksyczności i oparzeń skóry",
+      "B) O konieczności popijania tabletki wyłącznie mlekiem",
+      "C) O bezwzględnym zakazie picia czystej wody",
+      "D) O zakazie spania w pozycji leżącej",
+      "E) O konieczności jednoczesnego przyjmowania preparatów żelaza"
+    ],
+    "corrLen": 134,
+    "avgWrong": 49,
+    "ratio": 2.72
+  },
+  {
+    "caseId": 85,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jakie postępowanie profilaktyczne należy wdrożyć u noworodka urodzonego przez matkę z dodatnim antygenem HBsAg w celu zapobieżenia zakażeniu wertykalnemu?",
+    "key": "A) Podanie w ciągu pierwszych 12 godzin życia pierwszej dawki szczepionki przeciw HBV oraz swoistej immunoglobuliny anty-HBs (HBIG) w dwa różne miejsca anatomiczne",
+    "correctIdx": 0,
+    "opts": [
+      "A) Podanie w ciągu pierwszych 12 godzin życia pierwszej dawki szczepionki przeciw HBV oraz swoistej immunoglobuliny anty-HBs (HBIG) w dwa różne miejsca anatomiczne",
+      "B) Zastosowanie wyłącznie profilaktyki doustnym acyklowirem przez 3 miesiące",
+      "C) Odroczenie szczepień do ukończenia 1. roku życia",
+      "D) Podanie wyłącznie immunoglobuliny nieswoistej dożylnie",
+      "E) Przetoczenie 1 jednostki osocza świeżo mrożonego"
+    ],
+    "corrLen": 163,
+    "avgWrong": 59,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 85,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego u pacjentów z obecnością przeciwciał anty-HBc total, którzy mają otrzymać chemioterapię z przeciwciałem anty-CD20 (rytuksymabem), konieczne jest wdrożenie profilaktyki przeciwwirusowej entekawirem lub tenofowirem?",
+    "key": "A) Ponieważ głęboka immunosupresja limfocytów B stwarza ogromne ryzyko reaktywacji uśpionego w hepatocytach wirusa HBV (cccDNA), co grozi piorunującym zapaleniem wątroby i zgonem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ głęboka immunosupresja limfocytów B stwarza ogromne ryzyko reaktywacji uśpionego w hepatocytach wirusa HBV (cccDNA), co grozi piorunującym zapaleniem wątroby i zgonem",
+      "B) Ponieważ rytuksymab wchodzi w chemiczną reakcję z enzymami żółciowymi",
+      "C) Ponieważ chemioterapia fałszuje wyniki badań grupy krwi",
+      "D) W celu zapobiegania nudnościom i wymiotom po cytostatykach",
+      "E) Ponieważ wirus HBV niszczy lek przeciwnowotworowy"
+    ],
+    "corrLen": 178,
+    "avgWrong": 61,
+    "ratio": 2.93
+  },
+  {
+    "caseId": 85,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Czym charakteryzuje się postać przewlekłego WZW B HBeAg-ujemna (zakażenie mutantem pre-core / core-promoter)?",
+    "key": "A) Brakiem ekspresji antygenu HBeAg przy jednoczesnej obecności przeciwciał anty-HBe, podwyższonej wiremii HBV DNA i postępującym uszkodzeniu wątroby wskutek mutacji uniemożliwiającej syntezę HBeAg",
+    "correctIdx": 0,
+    "opts": [
+      "A) Brakiem ekspresji antygenu HBeAg przy jednoczesnej obecności przeciwciał anty-HBe, podwyższonej wiremii HBV DNA i postępującym uszkodzeniu wątroby wskutek mutacji uniemożliwiającej syntezę HBeAg",
+      "B) Całkowitym brakiem DNA wirusa we krwi",
+      "C) Brakiem możliwości transmisji na inne osoby",
+      "D) Błyskawicznym wyleczeniem bez leków",
+      "E) Występowaniem wyłącznie u noworodków"
+    ],
+    "corrLen": 197,
+    "avgWrong": 41,
+    "ratio": 4.83
+  },
+  {
+    "caseId": 85,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaki jest mechanizm działania pegylowanego interferonu alfa-2a (Peg-IFN-alfa-2a) w leczeniu przewlekłego zapalenia wątroby typu B?",
+    "key": "A) Działanie przeciwwirusowe oraz silna stymulacja komórkowej odpowiedzi immunologicznej gospodarza skierowanej przeciwko zakażonym hepatocytom",
+    "correctIdx": 0,
+    "opts": [
+      "A) Działanie przeciwwirusowe oraz silna stymulacja komórkowej odpowiedzi immunologicznej gospodarza skierowanej przeciwko zakażonym hepatocytom",
+      "B) Bezpośrednie niszczenie cccDNA za pomocą enzymu restrykcyjnego",
+      "C) Blokowanie receptora insulinowego w wątrobie",
+      "D) Neutralizacja kwasu solnego w żołądku",
+      "E) Zahamowanie syntezy płytek krwi w szpiku"
+    ],
+    "corrLen": 143,
+    "avgWrong": 49,
+    "ratio": 2.93
+  },
+  {
+    "caseId": 86,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Jaki jest pierwszy krok resuscytacji oddechowej u noworodka urodzonego o czasie, który po osuszeniu i udrożnieniu dróg oddechowych nie oddycha, a jego akcja serca wynosi < 100/min?",
+    "key": "A) Wykonanie 5 oddechów rozprężających trwających po 2–3 sekundy każdy, z użyciem powietrza atmosferycznego (21% O2)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wykonanie 5 oddechów rozprężających trwających po 2–3 sekundy każdy, z użyciem powietrza atmosferycznego (21% O2)",
+      "B) Natychmiastowe rozpoczęcie uciskania klatki piersiowej w stosunku 30:2",
+      "C) Dożylne podanie adrenaliny w bolusie 1 mg",
+      "D) Wstrzyknięcie glukonianu wapnia",
+      "E) Podanie 100% tlenu w ciągłym wolnym przepływie przez 15 minut"
+    ],
+    "corrLen": 116,
+    "avgWrong": 54,
+    "ratio": 2.16
+  },
+  {
+    "caseId": 86,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Kiedy zgodnie z wytycznymi NLS należy rozpocząć uciskanie klatki piersiowej u noworodka?",
+    "key": "A) Gdy po skutecznych 5 oddechach rozprężających i 30 sekundach efektywnej wentylacji akcja serca pozostaje poniżej 60/min",
+    "correctIdx": 0,
+    "opts": [
+      "A) Gdy po skutecznych 5 oddechach rozprężających i 30 sekundach efektywnej wentylacji akcja serca pozostaje poniżej 60/min",
+      "B) Natychmiast u każdego noworodka z sinicą obwodową",
+      "C) Gdy akcja serca wynosi pomiędzy 80 a 100/min",
+      "D) Dopiero po wykonaniu badania echokardiograficznego",
+      "E) Uciskania klatki piersiowej nie wykonuje się nigdy u noworodków"
+    ],
+    "corrLen": 122,
+    "avgWrong": 55,
+    "ratio": 2.24
+  },
+  {
+    "caseId": 86,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Jakie stężenie tlenu (FiO2) jest zalecane do rozpoczęcia oddechów rozprężających u noworodka urodzonego o czasie (>= 35. Hbd)?",
+    "key": "A) 21% (powietrze atmosferyczne)",
+    "correctIdx": 0,
+    "opts": [
+      "A) 21% (powietrze atmosferyczne)",
+      "B) 100% tlen",
+      "C) 60% tlen",
+      "D) 80% tlen",
+      "E) Czysty hel"
+    ],
+    "corrLen": 32,
+    "avgWrong": 12,
+    "ratio": 2.72
+  },
+  {
+    "caseId": 87,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który wynik badania laboratoryjnego u noworodka w 6. godzinie życia definitywnie potwierdza rozpoznanie immunologicznej choroby hemolitycznej w przebiegu konfliktu serologicznego?",
+    "key": "A) Silnie dodatni bezpośredni test antyglobulinowy (BTA / odczyn Coombsa) z krwinek noworodka",
+    "correctIdx": 0,
+    "opts": [
+      "A) Silnie dodatni bezpośredni test antyglobulinowy (BTA / odczyn Coombsa) z krwinek noworodka",
+      "B) Prawidłowe stężenie leukocytów w morfologii",
+      "C) Obecność bilirubiny w moczu",
+      "D) Podwyższone stężenie mocznika w surowicy",
+      "E) Ujemny pośredni test Coombsa u ojca dziecka"
+    ],
+    "corrLen": 93,
+    "avgWrong": 41,
+    "ratio": 2.25
+  },
+  {
+    "caseId": 87,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "W jakim schemacie podaje się immunoglobulinę anty-RhD w ramach rutynowej profilaktyki konfliktu serologicznego u kobiety RhD-ujemnej nieposiadającej przeciwciał anty-D?",
+    "key": "A) W 28.–30. tygodniu ciąży (profilaktyka śródciążowa) oraz w ciągu 72 godzin po porodzie, jeśli dziecko urodziło się RhD-dodatnie",
+    "correctIdx": 0,
+    "opts": [
+      "A) W 28.–30. tygodniu ciąży (profilaktyka śródciążowa) oraz w ciągu 72 godzin po porodzie, jeśli dziecko urodziło się RhD-dodatnie",
+      "B) Wyłącznie raz w życiu przed ślubem",
+      "C) Codziennie przez cały okres ciąży doustnie",
+      "D) Wyłącznie po ukończeniu 40. roku życia",
+      "E) Dopiero wtedy, gdy u dziecka rozwinie się kernicterus"
+    ],
+    "corrLen": 130,
+    "avgWrong": 45,
+    "ratio": 2.91
+  },
+  {
+    "caseId": 87,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Na czym polega mechanizm działania fototerapii w leczeniu hiperbilirubinemii u noworodka?",
+    "key": "A) Na fotoizomeryzacji strukturalnej nieskoniugowanej bilirubiny do lumirubiny, która jest rozpuszczalna w wodzie i wydalana z moczem i żółcią bez konieczności sprzęgania w wątrobie",
+    "correctIdx": 0,
+    "opts": [
+      "A) Na fotoizomeryzacji strukturalnej nieskoniugowanej bilirubiny do lumirubiny, która jest rozpuszczalna w wodzie i wydalana z moczem i żółcią bez konieczności sprzęgania w wątrobie",
+      "B) Na niszczeniu śledziony za pomocą promieniowania gamma",
+      "C) Na bezpośrednim rozkładzie erytrocytów w skórze",
+      "D) Na podwyższeniu stężenia albuminy w osoczu o 500%",
+      "E) Na chemicznym wiązaniu bilirubiny z wapniem"
+    ],
+    "corrLen": 181,
+    "avgWrong": 51,
+    "ratio": 3.53
+  },
+  {
+    "caseId": 87,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Czym jest żółtaczka jąder podkorowych mózgu (kernicterus) i która frakcja bilirubiny odpowiada za to powikłanie?",
+    "key": "A) Uszkodzeniem jąder podstawy mózgu (m.in. gałki bladej) wywołanym odkładaniem się wolnej (nieskoniugowanej) lipofilnej bilirubiny po przekroczeniu bariery krew-mózg",
+    "correctIdx": 0,
+    "opts": [
+      "A) Uszkodzeniem jąder podstawy mózgu (m.in. gałki bladej) wywołanym odkładaniem się wolnej (nieskoniugowanej) lipofilnej bilirubiny po przekroczeniu bariery krew-mózg",
+      "B) Zapaleniem mózgu wywołanym przez bilirubinę sprzężoną (glukuronid)",
+      "C) Wylewem krwawym do komór bocznych mózgu wywołanym przez witaminę K",
+      "D) Wrodzonym zwapnieniem kory czołowej",
+      "E) Zażółceniem kości czaszki bez zaburzeń neurologicznych"
+    ],
+    "corrLen": 166,
+    "avgWrong": 58,
+    "ratio": 2.85
+  },
+  {
+    "caseId": 87,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego konflikt serologiczny w układzie AB0 (np. matka 0, dziecko A) rzadko prowadzi do ciężkiej choroby hemolitycznej z uogólnionym obrzękiem płodu (hydrops fetalis)?",
+    "key": "A) Ponieważ antygeny A i B są słabo rozwinięte na erytrocytach noworodka i występują powszechnie na innych komórkach i w płynach ustrojowych, co neutralizuje matczyne przeciwciała",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ antygeny A i B są słabo rozwinięte na erytrocytach noworodka i występują powszechnie na innych komórkach i w płynach ustrojowych, co neutralizuje matczyne przeciwciała",
+      "B) Ponieważ przeciwciała anty-A i anty-B nigdy nie przechodzą przez łożysko",
+      "C) Ponieważ grupa krwi A chroni przed działaniem makrofagów",
+      "D) W układzie AB0 nie występują żadne przeciwciała u dorosłych",
+      "E) Konflikt AB0 jest zawsze w 100% śmiertelny w I trymestrze"
+    ],
+    "corrLen": 179,
+    "avgWrong": 64,
+    "ratio": 2.8
+  },
+  {
+    "caseId": 87,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Dlaczego u noworodka z ciężką chorobą hemolityczną stwierdza się hepatosplenomegalię (powiększenie wątroby i śledziony)?",
+    "key": "A) Wskutek kompensacyjnej pozaszpikowej hematopoezy w wątrobie i śledzionie oraz masywnego niszczenia erytrocytów w układzie siateczkowym śledziony",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wskutek kompensacyjnej pozaszpikowej hematopoezy w wątrobie i śledzionie oraz masywnego niszczenia erytrocytów w układzie siateczkowym śledziony",
+      "B) Z powodu wrodzonej atrezji dróg żółciowych",
+      "C) W wyniku stłuszczenia wątroby",
+      "D) Wskutek wrodzonego przerostu odźwiernika",
+      "E) Wątroba i śledziona powiększają się z powodu picia mleka"
+    ],
+    "corrLen": 147,
+    "avgWrong": 45,
+    "ratio": 3.28
+  },
+  {
+    "caseId": 88,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Co jest bezwzględnym wskazaniem do pilnego leczenia operacyjnego u wcześniaka z martwiczym zapaleniem jelit (NEC)?",
+    "key": "A) Stwierdzenie obecności wolnego gazu w jamie otrzewnej (pneumoperitoneum) świadczące o perforacji przewodu pokarmowego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Stwierdzenie obecności wolnego gazu w jamie otrzewnej (pneumoperitoneum) świadczące o perforacji przewodu pokarmowego",
+      "B) Pojedynczy epizod ulewania pokarmu",
+      "C) Liczba płytek krwi 180 G/l",
+      "D) Dodatni posiew moczu na pałeczki Coli",
+      "E) Wzrost masy ciała o 10 gramów"
+    ],
+    "corrLen": 120,
+    "avgWrong": 35,
+    "ratio": 3.48
+  },
+  {
+    "caseId": 88,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki jest KROK 1 postępowania leczniczego u wcześniaka z podejrzeniem lub potwierdzeniem martwiczego zapalenia jelit (NEC)?",
+    "key": "A) Natychmiastowe całkowite wstrzymanie żywienia enteralnego (dieta ścisła NPO), dekompresja żołądka sondą otwartą na spływ i wdrożenie całkowitego żywienia pozajelitowego (TPN)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Natychmiastowe całkowite wstrzymanie żywienia enteralnego (dieta ścisła NPO), dekompresja żołądka sondą otwartą na spływ i wdrożenie całkowitego żywienia pozajelitowego (TPN)",
+      "B) Zwiększenie stężenia mieszanki modyfikowanej",
+      "C) Podanie doustnego leku przeczyszczającego",
+      "D) Natychmiastowe wypisanie dziecka do domu",
+      "E) Płukanie jelita grubego zimną wodą z mydłem"
+    ],
+    "corrLen": 177,
+    "avgWrong": 45,
+    "ratio": 3.93
+  },
+  {
+    "caseId": 88,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "W jakiej projekcji radiologicznej, oprócz standardowego zdjęcia AP w leżeniu na plecach, należy wykonać RTG jamy brzusznej u noworodka z podejrzeniem perforacji w przebiegu NEC?",
+    "key": "A) W projekcji na lewym boku promieniem poziomym (horyzontalnym) lub na wznak promieniem poziomym",
+    "correctIdx": 0,
+    "opts": [
+      "A) W projekcji na lewym boku promieniem poziomym (horyzontalnym) lub na wznak promieniem poziomym",
+      "B) W pozycji wiszącej za nóżki",
+      "C) W ułożeniu na brzuchu z uciskiem",
+      "D) W pozycji siedzącej na krześle",
+      "E) RTG wykonuje się wyłącznie w tomografii z kontrastem barowym"
+    ],
+    "corrLen": 97,
+    "avgWrong": 40,
+    "ratio": 2.41
+  },
+  {
+    "caseId": 88,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Obecność gazu w układzie żyły wrotnej (portal venous gas) na RTG jamy brzusznej u wcześniaka z NEC świadczy o:",
+    "key": "A) Zaawansowanym zakażeniu i ucieczce gazu z naczyń śródściennych jelita przez żyły krezkowe do wątroby",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zaawansowanym zakażeniu i ucieczce gazu z naczyń śródściennych jelita przez żyły krezkowe do wątroby",
+      "B) Prawidłowym trawieniu laktozy",
+      "C) Zakażeniu wirusem ospy wietrznej",
+      "D) Wylewie krwi do komór mózgu",
+      "E) Błędzie technicznym aparatu RTG"
+    ],
+    "corrLen": 103,
+    "avgWrong": 33,
+    "ratio": 3.15
+  },
+  {
+    "caseId": 89,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "O czym świadczy obecność żółci (zielonkawe zabarwienie) w treści wymiocin u noworodka w pierwszych dobach życia?",
+    "key": "A) Jest to zawsze objaw alarmowy chirurgicznej niedrożności przewodu pokarmowego zlokalizowanej poniżej brodawki Vatera",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jest to zawsze objaw alarmowy chirurgicznej niedrożności przewodu pokarmowego zlokalizowanej poniżej brodawki Vatera",
+      "B) Świadczy o całkowitej dojrzałości enzymatycznej żołądka",
+      "C) Jest to fizjologiczna reakcja na podanie witaminy K",
+      "D) Świadczy o obecności kamieni w pęcherzyku żółciowym",
+      "E) Jest to objaw zapalenia ucha środkowego"
+    ],
+    "corrLen": 119,
+    "avgWrong": 52,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 89,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego ciąża, z której rodzi się dziecko z atrezją dwunastnicy, jest typowo powikłana wielowodziem (polyhydramnios)?",
+    "key": "A) Ponieważ przeszkoda w dwunastnicy uniemożliwia połykanie i wchłanianie płynu owodniowego przez jelito płodu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ przeszkoda w dwunastnicy uniemożliwia połykanie i wchłanianie płynu owodniowego przez jelito płodu",
+      "B) Ponieważ nerki płodu produkują 10-krotnie więcej moczu",
+      "C) Z powodu wrodzonego braku łożyska",
+      "D) Ponieważ matka pije zbyt duże ilości płynów w III trymestrze",
+      "E) Z powodu braku surfaktantu w płucach płodu"
+    ],
+    "corrLen": 110,
+    "avgWrong": 50,
+    "ratio": 2.19
+  },
+  {
+    "caseId": 89,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaki jest KROK 1 postępowania przedoperacyjnego u noworodka z podejrzeniem atrezji dwunastnicy?",
+    "key": "A) Założenie zgłębnika nosowo-żołądkowego z ciągłym odbarczaniem żołądka oraz wstrzymanie karmienia doustnego (NPO)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Założenie zgłębnika nosowo-żołądkowego z ciągłym odbarczaniem żołądka oraz wstrzymanie karmienia doustnego (NPO)",
+      "B) Podanie kontrastu barytowego przez butelkę ze smoczkiem",
+      "C) Wymuszenie karmienia piersią",
+      "D) Podanie dożylne insuliny",
+      "E) Zastosowanie lewatywy z soli fizjologicznej"
+    ],
+    "corrLen": 115,
+    "avgWrong": 41,
+    "ratio": 2.84
+  },
+  {
+    "caseId": 89,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które badanie diagnostyczne należy bezwzględnie wykonać u noworodka z atrezją dwunastnicy i cechami zespołu Downa przed znieczuleniem ogólnym?",
+    "key": "A) Badanie echokardiograficzne serca (echo serca) w celu wykluczenia wrodzonej wady serca (np. AVSD)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Badanie echokardiograficzne serca (echo serca) w celu wykluczenia wrodzonej wady serca (np. AVSD)",
+      "B) Scyntygrafię tarczycy",
+      "C) Rezonans magnetyczny kolana",
+      "D) Kolonoskopię diagnostyczną",
+      "E) Gastroskopię diagnostyczną"
+    ],
+    "corrLen": 100,
+    "avgWrong": 28,
+    "ratio": 3.57
+  },
+  {
+    "caseId": 89,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Czym różnią się wymioty w atrezji dwunastnicy od wymiotów w przeroście odźwiernika (HPS)?",
+    "key": "A) W atrezji dwunastnicy wymioty pojawiają się w 1. dobie i są żółciowe (zielone), a w HPS pojawiają się w 3.–6. tygodniu życia i NIGDY nie zawierają żółci",
+    "correctIdx": 0,
+    "opts": [
+      "A) W atrezji dwunastnicy wymioty pojawiają się w 1. dobie i są żółciowe (zielone), a w HPS pojawiają się w 3.–6. tygodniu życia i NIGDY nie zawierają żółci",
+      "B) W HPS wymioty są zawsze krwiste i cuchnące",
+      "C) W atrezji dwunastnicy wymioty nie występują wcale",
+      "D) Nie ma żadnych różnic klinicznych",
+      "E) W atrezji dwunastnicy wymiotuje wyłącznie matka dziecka"
+    ],
+    "corrLen": 155,
+    "avgWrong": 48,
+    "ratio": 3.25
+  },
+  {
+    "caseId": 89,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaki kształt ma brzuch noworodka z atrezją dwunastnicy w badaniu przedmiotowym?",
+    "key": "A) Wzdęte nadbrzusze (rozdęty żołądek) z zapadniętym, 'łódkowatym' podbrzuszem i śródbrzuszem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wzdęte nadbrzusze (rozdęty żołądek) z zapadniętym, 'łódkowatym' podbrzuszem i śródbrzuszem",
+      "B) Masywne, uogólnione wzdęcie całego brzucha jak balon",
+      "C) Prawidłowy, symetrycznie wypukły brzuch bez zmian",
+      "D) Brzuch deskowaty z objawem Blumberga",
+      "E) Brzuch żabi z rozlanym wodobrzuszem"
+    ],
+    "corrLen": 93,
+    "avgWrong": 46,
+    "ratio": 2.02
+  },
+  {
+    "caseId": 90,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Na czym polega metoda LISA (Less Invasive Surfactant Administration) podawania surfaktantu u wcześniaka?",
+    "key": "B) Podaniu surfaktantu przez cienki cewnik naczyniowy wprowadzony do tchawicy u spontanicznie oddychającego noworodka na nCPAP bez konieczności intubacji rurką intubacyjną",
+    "correctIdx": 1,
+    "opts": [
+      "A) Podaniu surfaktantu w ciągłym wlewie dożylnym przez cewnik pępowinowy",
+      "B) Podaniu surfaktantu przez cienki cewnik naczyniowy wprowadzony do tchawicy u spontanicznie oddychającego noworodka na nCPAP bez konieczności intubacji rurką intubacyjną",
+      "C) Podaniu surfaktantu do żołądka przez zgłębnik nosowo-żołądkowy",
+      "D) Podaniu surfaktantu we wstrzyknięciu domięśniowym w mięsień czworogłowy uda",
+      "E) Wykonaniu tracheostomii i podaniu surfaktantu przez kaniulę tracheostomijną"
+    ],
+    "corrLen": 171,
+    "avgWrong": 73,
+    "ratio": 2.33
+  },
+  {
+    "caseId": 90,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jakie jest optymalne docelowe nasycenie hemoglobiny tlenem (SpO2) u skrajnego wcześniaka w celu uniknięcia toksyczności tlenowej i retinopatii wcześniaków (ROP)?",
+    "key": "C) 90 - 94% (lub 91 - 95%)",
+    "correctIdx": 2,
+    "opts": [
+      "A) 75 - 80%",
+      "B) 85 - 89%",
+      "C) 90 - 94% (lub 91 - 95%)",
+      "D) 98 - 100%",
+      "E) Zawsze 100%"
+    ],
+    "corrLen": 26,
+    "avgWrong": 12,
+    "ratio": 2.17
+  },
+  {
+    "caseId": 91,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Lekiem pierwszego rzutu stosowanym w celu utrzymania drożności przewodu tętniczego (PDA) u noworodka z podejrzeniem przewodozależnej wady serca jest:",
+    "key": "B) Alprostadyl (Prostaglandyna E1)",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ibuprofen",
+      "B) Alprostadyl (Prostaglandyna E1)",
+      "C) Indometacyna",
+      "D) Dopamina",
+      "E) Digoksyna"
+    ],
+    "corrLen": 34,
+    "avgWrong": 13,
+    "ratio": 2.72
+  },
+  {
+    "caseId": 91,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Zabieg atrioseptostomii balonowej sposobem Rashkinda w przebiegu przełożenia wielkich pni tętniczych (d-TGA) ma na celu:",
+    "key": "B) Wytworzenie lub powiększenie ubytku w przegrodzie międzyprzedsionkowej w celu poprawy mieszania krwi utlenowanej i odtlenowanej",
+    "correctIdx": 1,
+    "opts": [
+      "A) Zamknięcie przetrwałego przewodu tętniczego",
+      "B) Wytworzenie lub powiększenie ubytku w przegrodzie międzyprzedsionkowej w celu poprawy mieszania krwi utlenowanej i odtlenowanej",
+      "C) Poszerzenie zwężonej zastawki pnia płucnego",
+      "D) Wytworzenie sztucznego połączenia między aortą a tętnicą płucną",
+      "E) Zamknięcie ubytku w przegrodzie międzykomorowej"
+    ],
+    "corrLen": 130,
+    "avgWrong": 52,
+    "ratio": 2.5
+  },
+  {
+    "caseId": 91,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego operacja Jatene w prostym d-TGA musi zostać wykonana optymalnie w pierwszych 2-3 tygodniach życia noworodka?",
+    "key": "B) Ponieważ po 3. tygodniu życia lewa komora traci masę mięśniową w krążeniu płucnym o niskim ciśnieniu i nie będzie w stanie sprostać oporowi systemowemu",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ po tym czasie dochodzi do trwałego zarośnięcia tętnic wieńcowych",
+      "B) Ponieważ po 3. tygodniu życia lewa komora traci masę mięśniową w krążeniu płucnym o niskim ciśnieniu i nie będzie w stanie sprostać oporowi systemowemu",
+      "C) Ponieważ grasica powiększa się i uniemożliwia dostęp operacyjny",
+      "D) Ponieważ po 3. tygodniu dochodzi do zwapnienia pnia płucnego",
+      "E) Czas operacji jest dowolny i można ją wykonać po ukończeniu 5. roku życia"
+    ],
+    "corrLen": 154,
+    "avgWrong": 70,
+    "ratio": 2.19
+  },
+  {
+    "caseId": 91,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który z poniższych objawów klinicznych pozwala odróżnić krytyczną koarktację aorty od przełożenia wielkich pni tętniczych u noworodka w stanie dekompensacji krążeniowej?",
+    "key": "A) Niewyczuwalne lub znacznie osłabione tętno na tętnicach udowych przy dobrze napiętym tętnie na tętnicach promieniowych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Niewyczuwalne lub znacznie osłabione tętno na tętnicach udowych przy dobrze napiętym tętnie na tętnicach promieniowych",
+      "B) Brak sinicy obwodowej",
+      "C) Obecność postękiwania wydechowego (grunting)",
+      "D) Podwyższona temperatura ciała powyżej 39°C",
+      "E) Ujemny test na obecność krwi utajonej w stolcu"
+    ],
+    "corrLen": 121,
+    "avgWrong": 41,
+    "ratio": 2.93
+  },
+  {
+    "caseId": 92,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Który lek stanowi złoty standard śródporodowej profilaktyki antybiotykowej (IAP) u ciężarnej GBS-dodatniej?",
+    "key": "A) Penicylina krystaliczna G podana dożylnie co najmniej 4 godziny przed porodem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Penicylina krystaliczna G podana dożylnie co najmniej 4 godziny przed porodem",
+      "B) Erytromycyna doustnie przez 14 dni przed porodem",
+      "C) Ciprofloksacyna jednorazowo domięśniowo",
+      "D) Klindamycyna dopochwowo w trakcie parcia",
+      "E) Wankomycyna doustnie"
+    ],
+    "corrLen": 80,
+    "avgWrong": 40,
+    "ratio": 2.01
+  },
+  {
+    "caseId": 93,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Wskazaniem do natychmiastowej nebulizacji z L-adrenaliny (epinefryny) w przebiegu krupu u dziecka jest:",
+    "key": "B) Obecność stridoru wdechowego i cech wzmożonego wysiłku oddechowego w spoczynku",
+    "correctIdx": 1,
+    "opts": [
+      "A) Wyłącznie obecność suchego kaszlu w ciągu dnia",
+      "B) Obecność stridoru wdechowego i cech wzmożonego wysiłku oddechowego w spoczynku",
+      "C) Gorączka powyżej 38.5°C",
+      "D) Przejściowa chrypka po płaczu",
+      "E) Zgłoszenie się do lekarza w godzinach porannych"
+    ],
+    "corrLen": 81,
+    "avgWrong": 39,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 93,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego dziecko po nebulizacji z adrenaliny z powodu krupu musi pozostać pod obserwacją na oddziale ratunkowym przez minimum 3-4 godziny?",
+    "key": "B) Z powodu ryzyka wystąpienia efektu z odbicia (rebound effect) i ponownego zaostrzenia obrzęku krtani po wygaśnięciu działania adrenaliny",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ze względu na ryzyko ostrej martwicy nerek",
+      "B) Z powodu ryzyka wystąpienia efektu z odbicia (rebound effect) i ponownego zaostrzenia obrzęku krtani po wygaśnięciu działania adrenaliny",
+      "C) Aby upewnić się, że nie rozwinie się cukrzyca typu 1",
+      "D) Z powodu konieczności wykonania tomografii komputerowej głowy",
+      "E) Nie ma takiego wymogu – dziecko można wypisać bezpośrednio po inhalacji"
+    ],
+    "corrLen": 139,
+    "avgWrong": 60,
+    "ratio": 2.34
+  },
+  {
+    "caseId": 93,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jakie postępowanie niefarmakologiczne ma kluczowe znaczenie w początkowym zaopatrzeniu dziecka z podejrzeniem krupu?",
+    "key": "A) Pozostawienie dziecka w ramionach rodzica i maksymalne ograniczenie stresu oraz bolesnych zabiegów",
+    "correctIdx": 0,
+    "opts": [
+      "A) Pozostawienie dziecka w ramionach rodzica i maksymalne ograniczenie stresu oraz bolesnych zabiegów",
+      "B) Wymuszenie pozycji leżącej na płasko",
+      "C) Obejrzenie gardła metalową szpatułką z unieruchomieniem głowy",
+      "D) Pobranie gazometrii tętniczej z tętnicy promieniowej",
+      "E) Założenie sondy żołądkowej"
+    ],
+    "corrLen": 101,
+    "avgWrong": 47,
+    "ratio": 2.16
+  },
+  {
+    "caseId": 93,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Jaki jest patofizjologiczny mechanizm powstawania stridoru wdechowego w krupie?",
+    "key": "B) Turbulentny przepływ powietrza przez zwężony wskutek obrzęku podgłośniowy odcinek krtani",
+    "correctIdx": 1,
+    "opts": [
+      "A) Skurcz mięśni gładkich oskrzelików końcowych",
+      "B) Turbulentny przepływ powietrza przez zwężony wskutek obrzęku podgłośniowy odcinek krtani",
+      "C) Porażenie nerwu przeponowego",
+      "D) Wiotkość tylnej ściany tchawicy",
+      "E) Zamknięcie nozdrzy tylnych przez polipy"
+    ],
+    "corrLen": 91,
+    "avgWrong": 39,
+    "ratio": 2.36
+  },
+  {
+    "caseId": 94,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Charakterystyczna pozycja przyjmowana instynktownie przez dziecko z ostrym zapaleniem nagłośni to:",
+    "key": "B) Pozycja 'trójnoga' (tripod position) z pochyleniem tułowia do przodu i wyciągnięciem szyi",
+    "correctIdx": 1,
+    "opts": [
+      "A) Pozycja Trendelenburga",
+      "B) Pozycja 'trójnoga' (tripod position) z pochyleniem tułowia do przodu i wyciągnięciem szyi",
+      "C) Pozycja embrionalna na lewym boku",
+      "D) Pozycja zgięciowa z kolanami przyciśniętymi do klatki piersiowej",
+      "E) Pozycja na wznak z odgiętą głową (opistotonus)"
+    ],
+    "corrLen": 92,
+    "avgWrong": 44,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 94,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Obecność ślinotoku (drooling) u dziecka z ostrą dusznością i gorączką wynika z:",
+    "key": "B) Skrajnego bólu gardła i mechanicznej przeszkody uniemożliwiającej połykanie śliny",
+    "correctIdx": 1,
+    "opts": [
+      "A) Nadprodukcji śliny przez ślinianki przyuszne w przebiegu świnki",
+      "B) Skrajnego bólu gardła i mechanicznej przeszkody uniemożliwiającej połykanie śliny",
+      "C) Porażenia nerwu twarzowego",
+      "D) Refluksu żołądkowo-przełykowego",
+      "E) Porażenia opuszkowego"
+    ],
+    "corrLen": 84,
+    "avgWrong": 38,
+    "ratio": 2.2
+  },
+  {
+    "caseId": 94,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Gdzie wg obowiązujących standardów medycznych powinno nastąpić ostateczne zabezpieczenie dróg oddechowych (intubacja) u dziecka z zapaleniem nagłośni?",
+    "key": "A) Na sali operacyjnej, w znieczuleniu ogólnym wziewnym, w obecności doświadczonego anestezjologa i laryngologa ze sterylnym zestawem do tracheostomii",
+    "correctIdx": 0,
+    "opts": [
+      "A) Na sali operacyjnej, w znieczuleniu ogólnym wziewnym, w obecności doświadczonego anestezjologa i laryngologa ze sterylnym zestawem do tracheostomii",
+      "B) W karetce pogotowia podczas transportu",
+      "C) W gabinecie lekarza POZ",
+      "D) Na korytarzu izby przyjęć",
+      "E) W pracowni tomografii komputerowej"
+    ],
+    "corrLen": 150,
+    "avgWrong": 33,
+    "ratio": 4.55
+  },
+  {
+    "caseId": 94,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego u pacjenta z ostrym zapaleniem nagłośni głos określany jest jako 'stłumiony/kluskowaty' (hot potato voice), a NIE zachrypnięty?",
+    "key": "A) Ponieważ proces zapalny dotyczy tkanek nadgłośniowych, a struny głosowe pozostają niezmienione",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ proces zapalny dotyczy tkanek nadgłośniowych, a struny głosowe pozostają niezmienione",
+      "B) Ponieważ struny głosowe są zrośnięte od urodzenia",
+      "C) Ponieważ dochodzi do porażenia nerwu podjęzykowego",
+      "D) Ponieważ migdałki podniebienne ulegają atrofii",
+      "E) Ponieważ język ulega martwicy"
+    ],
+    "corrLen": 97,
+    "avgWrong": 47,
+    "ratio": 2.09
+  },
+  {
+    "caseId": 94,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co jest najczęstszą bezpośrednią przyczyną zgonu w nierozpoznanym lub nieleczonym ostrym zapaleniu nagłośni?",
+    "key": "A) Ostra asfiksja wskutek całkowitego zamknięcia światła krtani przez obrzękniętą nagłośnię",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ostra asfiksja wskutek całkowitego zamknięcia światła krtani przez obrzękniętą nagłośnię",
+      "B) Pęknięcie śledziony",
+      "C) Krwawienie z wrzodu żołądka",
+      "D) Zawał serca",
+      "E) Niewydolność wątroby"
+    ],
+    "corrLen": 91,
+    "avgWrong": 22,
+    "ratio": 4.09
+  },
+  {
+    "caseId": 94,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "W Programie Szczepień Ochronnych (PSO) w Polsce szczepienie przeciwko Haemophilus influenzae typ b (Hib) jest:",
+    "key": "A) Szczepieniem obowiązkowym dla wszystkich dzieci, podawanym w schemacie 2, 3-4, 5-6 oraz 16-18 miesiąc życia",
+    "correctIdx": 0,
+    "opts": [
+      "A) Szczepieniem obowiązkowym dla wszystkich dzieci, podawanym w schemacie 2, 3-4, 5-6 oraz 16-18 miesiąc życia",
+      "B) Szczepieniem zalecanym, wyłącznie płatnym",
+      "C) Szczepieniem podawanym tylko osobom po 65. roku życia",
+      "D) Szczepieniem wycofanym z użycia",
+      "E) Szczepieniem jednorazowym w wieku 18 lat"
+    ],
+    "corrLen": 110,
+    "avgWrong": 44,
+    "ratio": 2.49
+  },
+  {
+    "caseId": 95,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Zgodnie z wytycznymi Amerykańskiej Akademii Pediatrii (AAP) i rekomendacjami polskimi, które z poniższych postępowań stanowi podstawę leczenia niemowlęcia z bronchiolitis?",
+    "key": "B) Tlenoterapia (przy SpO2 < 90-92%), odpowiednie nawadnianie i toaleta górnych dróg oddechowych",
+    "correctIdx": 1,
+    "opts": [
+      "A) Rutynowa antybiotykoterapia ceftriaksonem",
+      "B) Tlenoterapia (przy SpO2 < 90-92%), odpowiednie nawadnianie i toaleta górnych dróg oddechowych",
+      "C) Rutynowe stosowanie doustnych glikokortykosteroidów",
+      "D) Rutynowa nebulizacja z salbutamolu co 4 godziny",
+      "E) Dożylny wlew aminofiliny"
+    ],
+    "corrLen": 96,
+    "avgWrong": 44,
+    "ratio": 2.19
+  },
+  {
+    "caseId": 95,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego rutynowe stosowanie wziewnych leków rozszerzających oskrzela (beta-2-mimetyków, np. salbutamolu) NIE jest zalecane u niemowląt z bronchiolitis?",
+    "key": "B) Ponieważ u małych niemowląt mięśniówka oskrzelików jest słabo wykształcona, a niedrożność wynika głównie z obrzęku śluzówki i zalegania czopów śluzowych",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ salbutamol wywołuje natychmiastowe zatrzymanie krążenia u niemowląt",
+      "B) Ponieważ u małych niemowląt mięśniówka oskrzelików jest słabo wykształcona, a niedrożność wynika głównie z obrzęku śluzówki i zalegania czopów śluzowych",
+      "C) Ponieważ salbutamol jest lekiem przeciwgrzybiczym",
+      "D) Ponieważ receptory beta-2 wykształcają się dopiero w okresie dojrzewania",
+      "E) Ponieważ salbutamol nasila replikację wirusa RSV"
+    ],
+    "corrLen": 155,
+    "avgWrong": 64,
+    "ratio": 2.41
+  },
+  {
+    "caseId": 95,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co oznacza objaw 'kiwania główką' (head bobbing) u niemowlęcia z niewydolnością oddechową?",
+    "key": "B) Skrajny wysiłek oddechowy ze wspomaganiem wentylacji przez mięśnie mostkowo-obojczykowo-sutkowe",
+    "correctIdx": 1,
+    "opts": [
+      "A) Objaw zapalenia opon mózgowo-rdzeniowych",
+      "B) Skrajny wysiłek oddechowy ze wspomaganiem wentylacji przez mięśnie mostkowo-obojczykowo-sutkowe",
+      "C) Drgawki gorączkowe",
+      "D) Wrodzoną wiotkość więzadeł szyjnych",
+      "E) Prawidłowe zachowanie w czasie snu"
+    ],
+    "corrLen": 98,
+    "avgWrong": 35,
+    "ratio": 2.82
+  },
+  {
+    "caseId": 96,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego w leczeniu empirycznym pneumokokowego zapalenia płuc u dzieci rutynowo stosuje się samą amoksycylinę, a NIE amoksycylinę z kwasem klawulanowym?",
+    "key": "A) Ponieważ Streptococcus pneumoniae nie wytwarza beta-laktamaz, więc kwas klawulanowy jest zbędny i jedynie nasila objawy niepożądane ze strony przewodu pokarmowego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ Streptococcus pneumoniae nie wytwarza beta-laktamaz, więc kwas klawulanowy jest zbędny i jedynie nasila objawy niepożądane ze strony przewodu pokarmowego",
+      "B) Ponieważ kwas klawulanowy hamuje wchłanianie amoksycyliny z jelit",
+      "C) Ponieważ kwas klawulanowy jest lekiem nefrotoksycznym",
+      "D) Ponieważ amoksycylina z kwasem klawulanowym jest zarezerwowana wyłącznie dla osób po 65. r.ż.",
+      "E) Ponieważ pneumokoki są w 100% oporne na kwas klawulanowy"
+    ],
+    "corrLen": 165,
+    "avgWrong": 70,
+    "ratio": 2.37
+  },
+  {
+    "caseId": 96,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Wystąpienie bólu brzucha u małego dziecka z gorączką i przyspieszonym oddechem nasuwa w pierwszej kolejności podejrzenie:",
+    "key": "A) Bólu rzutowanego w przebiegu zapalenia dolnego płata płuca",
+    "correctIdx": 0,
+    "opts": [
+      "A) Bólu rzutowanego w przebiegu zapalenia dolnego płata płuca",
+      "B) Wrzodziejącego zapalenia jelita grubego",
+      "C) Kamicy nerkowej",
+      "D) Zawału krezki",
+      "E) Pęknięcia tętniaka aorty brzusznej"
+    ],
+    "corrLen": 61,
+    "avgWrong": 28,
+    "ratio": 2.16
+  },
+  {
+    "caseId": 96,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "W jakim schemacie podaje się skoniugowaną szczepionkę przeciwko pneumokokom (PCV) w obowiązkowym PSO w Polsce?",
+    "key": "A) Schemat 2+1: dwie dawki w 1. roku życia (2., 4. m.ż.) oraz dawka uzupełniająca w 2. roku życia (13.-15. m.ż.)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Schemat 2+1: dwie dawki w 1. roku życia (2., 4. m.ż.) oraz dawka uzupełniająca w 2. roku życia (13.-15. m.ż.)",
+      "B) Jedna dawka w 18. roku życia",
+      "C) Cztery dawki w 1. tygodniu życia",
+      "D) Co roku jesienią",
+      "E) Wyłącznie po ukończeniu 65 lat"
+    ],
+    "corrLen": 112,
+    "avgWrong": 30,
+    "ratio": 3.8
+  },
+  {
+    "caseId": 97,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Jaki jest mechanizm powstawania rozedmy wentylowej (powietrznej pułapki / air trapping) w przebiegu aspiracji ciała obcego do oskrzela?",
+    "key": "A) Ciało obce działa jak zastawka jednokierunkowa: przepuszcza powietrze w fazie wdechu (gdy oskrzele się rozszerza), a blokuje jego wypływ w fazie wydechu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ciało obce działa jak zastawka jednokierunkowa: przepuszcza powietrze w fazie wdechu (gdy oskrzele się rozszerza), a blokuje jego wypływ w fazie wydechu",
+      "B) Ciało obce całkowicie uniemożliwia wniknięcie powietrza do płuca w obu fazach",
+      "C) Dochodzi do odruchowego porażenia przepony po stronie zablokowanej",
+      "D) Ciało obce indukuje nadprodukcję surfaktantu",
+      "E) Jest to zjawisko czysto artefaktowe"
+    ],
+    "corrLen": 155,
+    "avgWrong": 59,
+    "ratio": 2.65
+  },
+  {
+    "caseId": 97,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego brak cienia ciała obcego na rutynowym zdjęciu RTG klatki piersiowej NIE wyklucza aspiracji?",
+    "key": "A) Ponieważ większość ciał obcych u małych dzieci (orzechy, nasiona, plastik) to materiały organiczne niepochłaniające promieni RTG (radiolucent)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ większość ciał obcych u małych dzieci (orzechy, nasiona, plastik) to materiały organiczne niepochłaniające promieni RTG (radiolucent)",
+      "B) Ponieważ promienie rentgenowskie omijają klatkę piersiową dziecka",
+      "C) Ponieważ ciała obce rozpuszczają się pod wpływem promieni X",
+      "D) Ponieważ RTG uwidacznia wyłącznie naczynia krwionośne",
+      "E) Prawidłowy RTG w 100% wyklucza obecność ciała obcego"
+    ],
+    "corrLen": 145,
+    "avgWrong": 60,
+    "ratio": 2.41
+  },
+  {
+    "caseId": 97,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Co oznacza pojęcie 'bronchitis arachidica' w kontekście aspiracji ciała obcego?",
+    "key": "A) Ciężkie, chemiczne zapalenie oskrzeli wywołane uwalnianiem wolnych kwasów tłuszczowych i olejów roślinnych z zaaspirowanego orzeszka ziemnego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ciężkie, chemiczne zapalenie oskrzeli wywołane uwalnianiem wolnych kwasów tłuszczowych i olejów roślinnych z zaaspirowanego orzeszka ziemnego",
+      "B) Ukąszenie krtani przez pająka",
+      "C) Wrodzoną wadę pajęczynówki",
+      "D) Grzybicze zapalenie płuc",
+      "E) Alergiczne zapalenie pęcherzyków płucnych u hodowców ptaków"
+    ],
+    "corrLen": 144,
+    "avgWrong": 38,
+    "ratio": 3.84
+  },
+  {
+    "caseId": 97,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który objaw osłuchowy jest najbardziej charakterystyczny dla obecności ciała obcego częściowo zamykającego jedno z oskrzeli?",
+    "key": "A) Jednostronny, monofoniczny, stały świst wydechowy (wheezing) ze ściszeniem szmeru pęcherzykowego po tej samej stronie",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jednostronny, monofoniczny, stały świst wydechowy (wheezing) ze ściszeniem szmeru pęcherzykowego po tej samej stronie",
+      "B) Obustronne symetryczne rzężenia grubobańkowe nad szczytami płuc",
+      "C) Tarcie osierdziowe",
+      "D) Szmer skurczowy nad koniuszkiem",
+      "E) Zaostrzony szmer pęcherzykowy po obu stronach"
+    ],
+    "corrLen": 120,
+    "avgWrong": 42,
+    "ratio": 2.84
+  },
+  {
+    "caseId": 97,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "W jakiej sytuacji u dziecka z podejrzeniem aspiracji ciała obcego należy wykonać bronchoskopię, jeśli zdjęcie RTG klatki piersiowej jest CAŁKOWICIE PRAWIDŁOWE?",
+    "key": "A) Zawsze, gdy wywiad nagłego zakrztuszenia jest jednoznaczny lub utrzymują się objawy kliniczne",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zawsze, gdy wywiad nagłego zakrztuszenia jest jednoznaczny lub utrzymują się objawy kliniczne",
+      "B) Nigdy – prawidłowy RTG wyklucza potrzebę bronchoskopii",
+      "C) Wyłącznie wtedy, gdy wystąpi krwioplucie",
+      "D) Tylko po ukończeniu 18. roku życia",
+      "E) Wyłącznie na pisemne żądanie policji"
+    ],
+    "corrLen": 96,
+    "avgWrong": 44,
+    "ratio": 2.18
+  },
+  {
+    "caseId": 98,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Stężenie chlorków w pocie uzyskane metodą jonoforezy pilokarpinowej przekraczające jaką wartość jednoznacznie potwierdza rozpoznanie mukowiscydozy?",
+    "key": "C) >= 60 mmol/l w co najmniej dwóch niezależnych pomiarach",
+    "correctIdx": 2,
+    "opts": [
+      "A) >= 20 mmol/l",
+      "B) >= 40 mmol/l",
+      "C) >= 60 mmol/l w co najmniej dwóch niezależnych pomiarach",
+      "D) >= 120 mmol/l",
+      "E) >= 200 mmol/l"
+    ],
+    "corrLen": 58,
+    "avgWrong": 16,
+    "ratio": 3.74
+  },
+  {
+    "caseId": 98,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Najczęstszą mutacją genu CFTR odpowiedzialną za rozwój mukowiscydozy w populacji polskiej i europejskiej jest:",
+    "key": "A) p.Phe508del (DeltaF508)",
+    "correctIdx": 0,
+    "opts": [
+      "A) p.Phe508del (DeltaF508)",
+      "B) G542X",
+      "C) G551D",
+      "D) W1282X",
+      "E) N1303K"
+    ],
+    "corrLen": 26,
+    "avgWrong": 9,
+    "ratio": 3.06
+  },
+  {
+    "caseId": 98,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jaki jest mechanizm działania dornazy alfa (rhDNazy) stosowanej w inhalacjach u chorych na mukowiscydozę?",
+    "key": "A) Hydrolizuje zewnątrzkomórkowe DNA uwolnione z rozpadających się neutrofili w ropnym śluzie, zmniejszając lepkość wydzieliny",
+    "correctIdx": 0,
+    "opts": [
+      "A) Hydrolizuje zewnątrzkomórkowe DNA uwolnione z rozpadających się neutrofili w ropnym śluzie, zmniejszając lepkość wydzieliny",
+      "B) Bezpośrednio niszczy otoczkę bakteryjną Pseudomonas aeruginosa",
+      "C) Rozszerza mięśniówkę gładką oskrzeli przez stymulację receptorów beta-2",
+      "D) Hamuje wydzielanie kwasu solnego w żołądku",
+      "E) Pobudza regenerację wysp trzustkowych Langerhansa"
+    ],
+    "corrLen": 126,
+    "avgWrong": 59,
+    "ratio": 2.14
+  },
+  {
+    "caseId": 98,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jaka jest zalecana dieta dla pacjenta z mukowiscydozą i zewnątrzwydzielniczą niewydolnością trzustki?",
+    "key": "A) Dieta wysokoenergetyczna (120-150% normy), bogatotłuszczowa (35-40% energii z tłuszczów), bogatobiałkowa z dosalaniem potraw",
+    "correctIdx": 0,
+    "opts": [
+      "A) Dieta wysokoenergetyczna (120-150% normy), bogatotłuszczowa (35-40% energii z tłuszczów), bogatobiałkowa z dosalaniem potraw",
+      "B) Dieta niskokaloryczna, bezsolna i beztłuszczowa",
+      "C) Ścisła głodówka co drugi dzień",
+      "D) Dieta ketogeniczna z zakazem podawania soli",
+      "E) Dieta ubogobiałkowa jak w niewydolności nerek"
+    ],
+    "corrLen": 127,
+    "avgWrong": 44,
+    "ratio": 2.87
+  },
+  {
+    "caseId": 99,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Co jest najczęstszą przyczyną wgłobienia jelita u niemowląt w wieku pomiędzy 5. a 9. miesiącem życia?",
+    "key": "A) Idiopatyczny przerost tkanki limfatycznej ściany jelita (kępek Peyera) po infekcji wirusowej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Idiopatyczny przerost tkanki limfatycznej ściany jelita (kępek Peyera) po infekcji wirusowej",
+      "B) Rak jelita grubego",
+      "C) Zespół Gardnera",
+      "D) Wrzód żołądka",
+      "E) Przewlekłe zapalenie trzustki"
+    ],
+    "corrLen": 95,
+    "avgWrong": 22,
+    "ratio": 4.37
+  },
+  {
+    "caseId": 99,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który z poniższych objawów klinicznych stanowi bezwzględne PRZECIWWSKAZANIE do próby nieoperacyjnego odprowadzenia wgłobienia (dezynwaginacji pneumatycznej)?",
+    "key": "A) Obecność wolnego gazu w jamie otrzewnej (pneumoperitoneum na RTG) lub objawy zapalenia otrzewnej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność wolnego gazu w jamie otrzewnej (pneumoperitoneum na RTG) lub objawy zapalenia otrzewnej",
+      "B) Płacz dziecka podczas badania USG",
+      "C) Gorączka 37.8°C",
+      "D) Wiek dziecka 8 miesięcy",
+      "E) Wymioty treścią pokarmową"
+    ],
+    "corrLen": 99,
+    "avgWrong": 27,
+    "ratio": 3.67
+  },
+  {
+    "caseId": 99,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Co oznacza 'objaw Dance'a' stwierdzany w badaniu palpacyjnym brzucha u niemowlęcia z wgłobieniem?",
+    "key": "A) Uczucie pustki w prawym dole biodrowym spowodowane przemieszczeniem się kątnicy w głąb okrężnicy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Uczucie pustki w prawym dole biodrowym spowodowane przemieszczeniem się kątnicy w głąb okrężnicy",
+      "B) Ból przy nagłym zwolnieniu ucisku powłok brzusznych",
+      "C) Tętnienie aorty brzusznej w śródbrzuszu",
+      "D) Wypadanie odbytnicy przy płaczu",
+      "E) Drżenie mięśniowe przy zginaniu kończyn dolnych"
+    ],
+    "corrLen": 99,
+    "avgWrong": 45,
+    "ratio": 2.2
+  },
+  {
+    "caseId": 99,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który objaw u niemowlęcia z wgłobieniem jelita bywa częstą przyczyną pomyłek diagnostycznych z chorobami neurologicznymi?",
+    "key": "A) Epizody znacznego letargu, senności i wiotkości mięśniowej występujące pomiędzy napadami bólu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Epizody znacznego letargu, senności i wiotkości mięśniowej występujące pomiędzy napadami bólu",
+      "B) Sztywność karku",
+      "C) Odruch Babińskiego",
+      "D) Porażenie nerwu twarzowego",
+      "E) Oczopląs poziomy"
+    ],
+    "corrLen": 96,
+    "avgWrong": 22,
+    "ratio": 4.41
+  },
+  {
+    "caseId": 99,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co jest patognomonicznym obrazem wgłobienia jelita w przekroju poprzecznym w badaniu USG?",
+    "key": "A) Objaw tarczy strzelniczej / tarczy strzeleckiej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Objaw tarczy strzelniczej / tarczy strzeleckiej",
+      "B) Objaw podwójnej bańki",
+      "C) Objaw wieżyczki kościoła",
+      "D) Objaw kciuka",
+      "E) Obraz 'matowej szyby'"
+    ],
+    "corrLen": 50,
+    "avgWrong": 23,
+    "ratio": 2.22
+  }
+]

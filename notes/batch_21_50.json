@@ -1,0 +1,2722 @@
+[
+  {
+    "caseId": 21,
+    "caseFile": "21_pochp.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Jaki jest docelowy przedział saturacji krwi tętniczej (SpO2) w trakcie biernej tlenoterapii u pacjenta z zaostrzeniem POChP zagrożonego hiperkapniczną niewydolnością oddechową?",
+    "opts": [
+      "A) 88 – 92 % (lub 85–90% u chorych z udokumentowaną skrajną hiperkapnią).",
+      "B) 98 – 100 %.",
+      "C) 94 – 98 %.",
+      "D) Zawsze powyżej 96 %.",
+      "E) Poniżej 80 %."
+    ],
+    "correctIdx": 0,
+    "corrLen": 73,
+    "avgWrong": 16.5,
+    "ratio": 4.42,
+    "exp": "Zgodnie z wytycznymi British Thoracic Society (BTS) oraz GOLD docelowa saturacja w tlenoterapii kontrolowanej u pacjentów z POChP (i innymi przewlekłymi chorobami obturacyjnymi zagrożonymi retencją CO2) wynosi 88–92%. Utrzymanie saturacji w tym przedziale zapewnia odpowiednie utlenowanie tkanek, jednocześnie zapobiegając znoszeniu napędu hipoksycznego, pogorszeniu niedopasowania V/Q i efektowi Haldane'a."
+  },
+  {
+    "caseId": 21,
+    "caseFile": "21_pochp.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Dlaczego podczas prowadzenia nebulizacji z salbutamolu i bromku ipratropium u chorego z zaostrzeniem POChP i hiperkapnią zaleca się napędzanie nebulizatora sprężonym powietrzem, a NIE tlenem o wysokim przepływie?",
+    "opts": [
+      "A) Ponieważ przepływ 6–8 l/min 100% tlenu przez nebulizator dostarcza wysokie stężenie FiO2, co podczas 15-minutowej inhalacji może wywołać gwałtowną retencję dwutlenku węgla i śpiączkę hiperkapniczną.",
+      "B) Ponieważ tlen wchodzi w reakcję wybuchową z cząsteczkami salbutamolu.",
+      "C) Ponieważ sprężone powietrze powoduje natychmiastowe zniszczenie bakterii.",
+      "D) Ponieważ tlen w nebulizatorze ulega zamrożeniu i zatyka dyszę.",
+      "E) Nie ma to żadnego znaczenia i zawsze należy stosować tlen 100%."
+    ],
+    "correctIdx": 0,
+    "corrLen": 201,
+    "avgWrong": 69.8,
+    "ratio": 2.88,
+    "exp": "Napędzanie nebulizatora czystym tlenem ze ściany (przepływ 6-8 l/min) generuje FiO2 >40-50%, co u pacjenta z ciężką POChP w ciągu kilkunastu minut wywołuje zniesienie napędu oddechowego, zapaść wentylacji pęcherzykowej i ostrą dekompensację kwasicy oddechowej. Dlatego wytyczne nakazują napędzanie nebulizatora sprężonym powietrzem, a tlenoterapię (jeśli konieczna) podaje się równolegle wąsami tlenowymi z kontrolowanym przepływem 1-2 l/min."
+  },
+  {
+    "caseId": 21,
+    "caseFile": "21_pochp.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Jakie działanie niepożądane wywołuje efekt Haldane'a podczas podania tlenu w wysokim stężeniu choremu na POChP?",
+    "opts": [
+      "A) Zmniejszenie powinowactwa utlenowanej hemoglobiny do dwutlenku węgla, co powoduje uwalnianie CO2 z hemoglobiny do osocza i gwałtowny wzrost PaCO2.",
+      "B) Skurcz tętnicy płucnej z rozwojem ostrego nadciśnienia płucnego.",
+      "C) Masywne pękanie erytrocytów w krążeniu płucnym.",
+      "D) Całkowite zablokowanie dysocjacji tlenu w tkankach obwodowych.",
+      "E) Nadmierne wydalanie jonów wodorowęglanowych przez nerki."
+    ],
+    "correctIdx": 0,
+    "corrLen": 149,
+    "avgWrong": 60.3,
+    "ratio": 2.47,
+    "exp": "Efekt Haldane'a polega na tym, że utlenowanie hemoglobiny zmniejsza jej zdolność do wiązania CO2 oraz jonów wodorowych. W rezultacie po podaniu tlenu w wysokim stężeniu związany z hemoglobiną dwutlenek węgla zostaje wyparty do osocza krwi, co u pacjenta z niezdolnością do hiperwentylacji prowadzi do bezpośredniego wzrostu ciśnienia cząstkowego PaCO2 we krwi tętniczej."
+  },
+  {
+    "caseId": 21,
+    "caseFile": "21_pochp.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "U pacjenta z częstymi zaostrzeniami POChP planowane jest dołączenie wziewnego glikokortykosteroidu (wGKS) do terapii LABA + LAMA. Zgodnie z wytycznymi GOLD, który parametr laboratoryjny w morfologii krwi najlepiej przewiduje wysoką skuteczność wGKS w zapobieganiu zaostrzeniom?",
+    "opts": [
+      "A) Bezwzględna liczba eozynofilów we krwi obwodowej ≥300 komórek/µl.",
+      "B) Liczba płytek krwi >450 000 /µl.",
+      "C) Stężenie hemoglobiny >18 g/dl.",
+      "D) Odsetek monocytów >15 %.",
+      "E) Liczba retikulocytów <0.5 %."
+    ],
+    "correctIdx": 0,
+    "corrLen": 68,
+    "avgWrong": 31.5,
+    "ratio": 2.16,
+    "exp": "Wytyczne GOLD jednoznacznie wskazują, że stężenie eozynofilów we krwi obwodowej jest biomarkerem odpowiedzi na wziewne sterydy (wGKS): eozynofilia krwi ≥300/µl silnie wskazuje na korzyść z dodania wGKS do terapii podwójnej LABA+LAMA (zmniejszenie częstości zaostrzeń). Z kolei przy eozynofilach <100/µl wGKS są nieskuteczne i zwiększają ryzyko zapalenia płuc."
+  },
+  {
+    "caseId": 22,
+    "caseFile": "22_marskosc_sbp.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "U pacjenta z marskością wątroby i krwawieniem z przewodu pokarmowego profilaktyczne zastosowanie ceftriaksonu (1 g/dobę i.v. przez 7 dni):",
+    "opts": [
+      "A) Jest bezwzględnie zalecanym standardem postępowania, ponieważ redukuje ryzyko powikłań infekcyjnych (SBP, sepsa), nawrotu krwotoku i zgonu.",
+      "B) Jest błędem w sztuce i powinno być zaniechane z uwagi na brak infekcji w momencie przyjęcia.",
+      "C) Jest wskazane wyłącznie wtedy, gdy posiew krwi jest dodatni przed podaniem leku.",
+      "D) Wymaga równoczesnego usunięcia śledziony.",
+      "E) Stosuje się wyłącznie u pacjentów w wieku poniżej 18 lat."
+    ],
+    "correctIdx": 0,
+    "corrLen": 142,
+    "avgWrong": 70.5,
+    "ratio": 2.01,
+    "exp": "Zgodnie z konsensusem Baveno VII profilaktyczna antybiotykoterapia (ceftriakson 1 g/d i.v. przez 7 dni) jest obligatoryjna u każdego chorego z marskością wątroby powikłaną krwawieniem z przewodu pokarmowego. Translokacja bakteryjna w trakcie krwotoku jest powszechna, a antybiotykoterapia zapobiega sepsie, zmniejsza wczesne nawroty krwawienia i istotnie poprawia przeżycie."
+  },
+  {
+    "caseId": 22,
+    "caseFile": "22_marskosc_sbp.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Który lek przeciwbólowy jest BEZWZGLĘDNIE PRZECIWWSKAZANY u pacjenta ze zdekompensowaną marskością wątroby i wodobrzuszem z uwagi na ryzyko wywołania ostrego zespołu wątrobowo-nerkowego (HRS)?",
+    "opts": [
+      "A) Ibuprofen (oraz inne niesteroidowe leki przeciwzapalne – NLPZ).",
+      "B) Paracetamol w dawce do 2 g/dobę.",
+      "C) Tramadol w małych dawkach.",
+      "D) Buprenorfina przezskórnie.",
+      "E) Paracetamol w dawce 500 mg doraźnie."
+    ],
+    "correctIdx": 0,
+    "corrLen": 66,
+    "avgWrong": 33,
+    "ratio": 2,
+    "exp": "NLPZ (ibuprofen, ketoprofen, diklofenak) hamują syntezę prostaglandyn nerkowych (PGE2, PGI2), które u chorych z marskością odpowiadają za kompensacyjne utrzymanie przepływu krwi przez nerki w warunkach hiperaktywacji układu współczulnego i RAA. Podanie NLPZ powoduje nagły, głęboki skurcz tętniczek nerkowych, ostry spadek GFR i wyzwolenie zespołu wątrobowo-nerkowego (HRS) oraz zatrzymanie sodu i wody."
+  },
+  {
+    "caseId": 22,
+    "caseFile": "22_marskosc_sbp.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "U pacjenta z marskością wątroby wykonano paracentezę wielkoobjętościową z ewakuacją 7 litrów płynu puchlinowego. Aby zapobiec powikłaniu pod postacią dysfunkcji krążeniowej wywołanej paracentezą (PICD), należy dożylnie podać:",
+    "opts": [
+      "A) 20% roztwór albuminy w dawce 8 g na każdy litr usuniętego płynu puchlinowego powyżej 5 litrów",
+      "B) 0,9% roztwór chlorku sodu w objętości 10 litrów.",
+      "C) Dextran 40 w dawce 2 litrów.",
+      "D) Osocze świeżo mrożone w dawce 5 jednostek.",
+      "E) Wlew potasu 40 mmol/l."
+    ],
+    "correctIdx": 0,
+    "corrLen": 96,
+    "avgWrong": 38,
+    "ratio": 2.53,
+    "exp": "Zgodnie z wytycznymi EASL, przy usunięciu >5 litrów płynu puchlinowego (Large Volume Paracentesis – LVP) konieczne jest dożylne uzupełnienie 20% albuminy w dawce 8 gramów na każdy usunięty litr płynu (dla 7 litrów: 56 g albuminy, czyli ok. 280 ml 20% roztworu). Zapobiega to gwałtownemu rozszerzeniu łożyska naczyniowego (PICD – Paracentesis-Induced Circulatory Dysfunction), hiponatremii i niewydolności nerek. [Uzupełnienie: (tj. 56 g albuminy)]"
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Pojęcie 'strefy dyskryminacyjnej' (discriminatory zone) w diagnostyce ultrasonograficznej wczesnej ciąży oznacza:",
+    "opts": [
+      "A) Graniczne stężenie beta-hCG w surowicy (zwykle 1500–2000 mIU/ml dla TV-USG), powyżej którego w prawidłowej ciąży wewnątrzmacicznej pęcherzyk ciążowy musi być widoczny w badaniu USG.",
+      "B) Stężenie progesteronu, poniżej którego dochodzi do nieuchronnego poronienia.",
+      "C) Wartość ciśnienia tętniczego, poniżej której nie wykonuje się badania ginekologicznego.",
+      "D) Objętość płynu w jamie Douglasa kwalifikującą do nakłucia przez sklepienie pochwy.",
+      "E) Poziom estriolu świadczący o dojrzałości płuc płodu."
+    ],
+    "correctIdx": 0,
+    "corrLen": 184,
+    "avgWrong": 77.3,
+    "ratio": 2.38,
+    "exp": "Strefa dyskryminacyjna to stężenie beta-hCG w surowicy krwi, powyżej którego prawidłowy pęcherzyk ciążowy powinien być bezwzględnie zidentyfikowany w jamie macicy. Dla ultrasonografii przezpochwowej (TV-USG) próg ten wynosi standardowo 1500–2000 mIU/ml (wg niektórych wytycznych do 3000 mIU/ml). Brak pęcherzyka ciążowego powyżej tego stężenia silnie wskazuje na ciążę ektopową."
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Ból promieniujący do prawego barku u pacjentki z pękniętą ciążą pozamaciczną (objaw Laffonta) jest spowodowany:",
+    "opts": [
+      "A) Bezpośrednim podrażnieniem otrzewnej przeponowej przez wynaczynioną krew (haemoperitoneum) i przewodzeniem bodźców przez gałęzie nerwu przeponowego (C3–C5) do dermatomów szyjnych.",
+      "B) Odruchowym skurczem tętnicy podobojczykowej prawej wywołanym stresem.",
+      "C) Zatorowością płucną wywołaną komórkami trofoblastu.",
+      "D) Współistniejącym zwichnięciem stawu ramienno-obojczykowego.",
+      "E) Skurczem mięśnia czworobocznego na tle tężyczki hipokalcemicznej."
+    ],
+    "correctIdx": 0,
+    "corrLen": 182,
+    "avgWrong": 64,
+    "ratio": 2.84,
+    "exp": "Objaw Laffonta (odpowiednik objawu Kehra po prawej stronie) to ból rzutowany do prawego barku. Wynika z podrażnienia receptorów czuciowych otrzewnej pokrywającej przeponę przez krew gromadzącą się pod kopułą przepony w pozycji leżącej. Włókna nerwu przeponowego (pochodzące z segmentów C3-C5 rdzenia kręgowego) dzielą wspólne neurony czuciowe z nerwami nadobojczykowymi zaopatrującymi skórę okolicy barku."
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Który z poniższych czynników stanowi BEZWZGLĘDNE PRZECIWWSKAZANIE do zastosowania metotreksatu (MTX) w leczeniu ciąży ektopowej?",
+    "opts": [
+      "A) Niestabilność hemodynamiczna pacjentki (objawy wstrząsu hipowolemicznego) lub cechy pęknięcia jajowodu z krwawieniem do otrzewnej.",
+      "B) Brak przebytych ciąż w wywiadzie.",
+      "C) Wiek pacjentki poniżej 30 lat.",
+      "D) Stężenie beta-hCG wynoszące 800 mIU/ml.",
+      "E) Wymiar zmiany w przydatkach wynoszący 2.0 cm bez widocznej akcji serca."
+    ],
+    "correctIdx": 0,
+    "corrLen": 133,
+    "avgWrong": 46.3,
+    "ratio": 2.88,
+    "exp": "Bezwzględnymi przeciwwskazaniami do leczenia zachowawczego metotreksatem są: niestabilność krążeniowa (hipotensja, wstrząs), pęknięcie ciąży ektopowej, obecność wolnego płynu w jamie otrzewnej powyżej jamy Douglasa, stężenie beta-hCG >5000 mIU/ml, wymiar zmiany >3.5-4.0 cm, obecność akcji serca płodu (FHR), a także niewydolność nerek, wątroby, anemia lub brak możliwości kontroli pacjentki."
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "U pacjentki z grupą krwi A RhD-ujemny po operacyjnym usunięciu pękniętej ciąży ektopowej w 7. tygodniu ciąży, w celu profilaktyki konfliktu serologicznego należy:",
+    "opts": [
+      "A) Podać domięśniowo immunoglobulinę anty-D w dawce co najmniej 50 µg (lub standardową dawkę 150 µg) w ciągu maksymalnie 72 godzin od zabiegu.",
+      "B) Podać kwas foliowy w dawce 5 mg przez 3 miesiące.",
+      "C) Zastosować plazmaferezę w celu usunięcia przeciwciał anty-RhD.",
+      "D) Wdrożyć heparynę drobnocząsteczkową w dawce terapeutycznej.",
+      "E) Odstąpić od podania immunoglobuliny anty-D, gdyż w I trymestrze nie dochodzi do alloimmunizacji."
+    ],
+    "correctIdx": 0,
+    "corrLen": 142,
+    "avgWrong": 69.5,
+    "ratio": 2.04,
+    "exp": "Zgodnie z wytycznymi PTGiP każda kobieta RhD-ujemna (nierozpoznana jako immunizowana), u której doszło do przerwania ciąży ektopowej, poronienia zabiegowego lub krwawienia w I trymestrze, musi otrzymać immunoglobulinę anty-D w ciągu 72 godzin od incydentu. Dawka w I trymestrze (do 12. Hbd) wynosi co najmniej 50 µg i.m. (w praktyce polskiej najczęściej 150 µg). Zapobiega to chorobie hemolitycznej noworodka w kolejnych ciążach."
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Co oznacza stwierdzenie obecności 'pseudopęcherzyka ciążowego' (pseudogestational sac) w badaniu USG u pacjentki z podejrzeniem ciąży pozamacicznej?",
+    "opts": [
+      "A) Centralnie zlokalizowane w jamie macicy zbiorowisko płynu lub krwi otoczone pojedynczą warstwą doczesnej, które nie zawiera pęcherzyka żółtkowego ani zarodka, występujące u 10–20% kobiet z ciążą ektopową.",
+      "B) Prawidłowy pęcherzyk ciążowy, który uległ zakażeniu bakteryjnemu.",
+      "C) Pęcherzyk ciążowy zlokalizowany w bliźnie po cięciu cesarskim.",
+      "D) Wrodzoną wadę macicy w postaci przegrody.",
+      "E) Obecność ciąży heterotopowej w obu jajowodach."
+    ],
+    "correctIdx": 0,
+    "corrLen": 207,
+    "avgWrong": 56.5,
+    "ratio": 3.66,
+    "exp": "Pseudogestational sac (pseudopęcherzyk) to gromadzący się w jamie macicy płyn/krew na tle zmian doczesnowych wywołanych hormonami ciąży pozamacicznej. W odróżnieniu od prawdziwego pęcherzyka ciążowego jest ułożony centralnie w jamie (a nie ekscentrycznie w doczesnej), ma ostro zakończone brzegi i brak mu podwójnego pierścienia doczesnowego (double decidual sac sign) oraz pęcherzyka żółtkowego."
+  },
+  {
+    "caseId": 23,
+    "caseFile": "23_ciaza_ektopowa.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Podczas badania ginekologicznego u kobiety z podejrzeniem pękniętej ciąży pozamacicznej stwierdzono tzw. 'objaw krzyku szyjkowego' (cervical motion tenderness). Na czym polega ten objaw i o czym świadczy?",
+    "opts": [
+      "A) O ostrym, gwałtownym bólu pojawiającym się przy poruszaniu częścią pochwową szyjki macicy, wynikającym z napinania podrażnionej przez krew lub proces zapalny otrzewnej ściennej i więzadeł miednicy mniejszej.",
+      "B) O głośnym dźwięku słyszalnym podczas wprowadzania wziernika ginekologicznego.",
+      "C) O skurczu mięśniówki szyjki macicy zamykającym jej ujście zewnętrzne.",
+      "D) O pęknięciu torbieli Nabotha w trakcie badania palpacyjnego.",
+      "E) O patologicznym poszerzeniu kanału szyjki macicy powyżej 4 cm w I trymestrze."
+    ],
+    "correctIdx": 0,
+    "corrLen": 210,
+    "avgWrong": 73.8,
+    "ratio": 2.85,
+    "exp": "Bolesność przy poruszaniu szyjką macicy ('krzyk szyjkowy' / cervical motion tenderness / objaw Chrobaka) jest klasycznym objawem podrażnienia otrzewnej miednicy mniejszej. Poruszanie szyjką pociąga więzadła krzyżowo-maciczne i przemieszcza trzon macicy, co wywołuje silny ból w przypadku obecności krwi w jamie Douglasa (haemoperitoneum) lub zapalenia otrzewnej miednicy (PID)."
+  },
+  {
+    "caseId": 24,
+    "caseFile": "24_rozwarstwienie_aorty.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "58-letni mężczyzna z wieloletnim nadciśnieniem tętniczym zgłosił się z powodu nagłego, rozdzierającego bólu w klatce piersiowej promieniującego do pleców. Stwierdzono ciśnienie tętnicze 185/100 mmHg na ramieniu prawym oraz 120/70 mmHg na ramieniu lewym. W EKG nie wykazano uniesień ST, a stężenie troponiny T hs wynosi 24 ng/l (norma <14). Wskaż PRAWIDŁOWE postępowanie w pierwszej kolejności:",
+    "opts": [
+      "A) Pilne wykonanie angio-TK aorty piersiowo-brzusznej oraz dożylne podanie beta-blokera (np. esmololu) z jednoczesnym unikaniem leków przeciwpłytkowych i przeciwkrzepliwych.",
+      "B) Natychmiastowe podanie 300 mg aspiryny, 180 mg tikagreloru i 5000 j.m. heparyny niefrakcjonowanej w podejrzeniu STEMI.",
+      "C) Zlecenie pilnej koronarografii przez tętnicę promieniową lewą.",
+      "D) Podanie alteplazy (rt-PA) w podejrzeniu zatorowości płucnej.",
+      "E) Wypisanie do domu z zaleceniem kontroli ciśnienia w POZ."
+    ],
+    "correctIdx": 0,
+    "corrLen": 173,
+    "avgWrong": 77,
+    "ratio": 2.25,
+    "exp": "Obraz kliniczny (nagły rozdzierający ból z promieniowaniem do pleców, asymetria ciśnień >20 mmHg) jednoznacznie wskazuje na ostre rozwarstwienie aorty. Badaniem z wyboru jest angio-TK aorty z bramkowaniem EKG. Podanie leków przeciwpłytkowych i heparyny przed wykluczeniem rozwarstwienia jest ciężkim błędem jatrogennym, który drastycznie zwiększa śmiertelność krwotoczną!"
+  },
+  {
+    "caseId": 24,
+    "caseFile": "24_rozwarstwienie_aorty.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "W farmakoterapii ratunkowej ostrego rozwarstwienia aorty u pacjenta z ciężkim nadciśnieniem tętniczym (RR 190/110 mmHg, HR 105/min), dlaczego beta-bloker dożylny musi zostać podany PRZED lekiem rozszerzającym naczynia (np. nitroprusydkiem sodu)?",
+    "opts": [
+      "A) Ponieważ podanie samego wazodylatatora wywołuje odruchową tachykardię i zwiększa siłę wyrzutu lewej komory (dP/dt), co nasila propagację rozwarstwienia i grozi pęknięciem aorty.",
+      "B) Ponieważ nitroprusydek sodu całkowicie unieczynnia receptory beta-adrenergiczne w sercu.",
+      "C) Ponieważ beta-bloker działa rozpuszczająco na zakrzepy w kanale rzekomym.",
+      "D) Ponieważ podanie beta-blokera po wazodylatatorze wywołuje natychmiastowe zatrzymanie moczu.",
+      "E) Nie ma to znaczenia klinicznego – kolejność leków jest dowolna."
+    ],
+    "correctIdx": 0,
+    "corrLen": 180,
+    "avgWrong": 81.8,
+    "ratio": 2.2,
+    "exp": "Siła niszcząca ścianę aorty zależy od parametru dP/dt (prędkości narastania ciśnienia skurczowego). Leki rozszerzające naczynia obniżają opór obwodowy, co wyzwala silny odruch z baroreceptorów: tachykardię i skurcz kardiomiocytów. Zwiększone dP/dt działa jak klin rozdzierający ścianę naczynia. Dlatego najpierw należy zablokować receptory beta (cel HR <60/min), a dopiero potem dołączyć wazodylatator."
+  },
+  {
+    "caseId": 24,
+    "caseFile": "24_rozwarstwienie_aorty.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "U pacjenta z rozwarstwieniem aorty typu B wg Stanford (aorta zstępująca), stabilnego hemodynamicznie, bez cech niedokrwienia narządów i bez nawrotu bólu, postępowaniem z wyboru jest:",
+    "opts": [
+      "A) Leczenie zachowawcze oparte na intensywnej farmakoterapii hipotensyjnej (beta-blokery i inne leki obniżające ciśnienie) oraz ścisłym monitorowaniu w warunkach OIT.",
+      "B) Pilna natychmiastowa sternotomia i wymiana aorty wstępującej.",
+      "C) Wycięcie obu nerek w celu zapobieżenia nadciśnieniu.",
+      "D) Wdrożenie pełnej antykoagulacji doustnej warfaryną.",
+      "E) Natychmiastowa transplantacja płuc."
+    ],
+    "correctIdx": 0,
+    "corrLen": 166,
+    "avgWrong": 52.8,
+    "ratio": 3.15,
+    "exp": "W niepowikłanym ostrym rozwarstwieniu aorty typu B wg Stanford metodą z wyboru jest leczenie zachowawcze farmakologiczne (kontrola ciśnienia i HR na OIT). Leczenie inwazyjne wewnątrznaczyniowe (TEVAR – stentgraft aortalny) jest wskazane w postaci powikłanej: przy pęknięciu, zagrażającym pęknięciu, hipoperfuzji narządowej (niedokrwienie nerek/jelit/kończyn) lub opornym bólu i nadciśnieniu."
+  },
+  {
+    "caseId": 24,
+    "caseFile": "24_rozwarstwienie_aorty.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Nowy szmer rozkurczowy słyszalny wzdłuż lewego brzegu mostka u chorego z rozwarstwieniem aorty wstępującej świadczy o:",
+    "opts": [
+      "A) Ostrej niedomykalności zastawki aortalnej powstałej na tle poszerzenia pierścienia lub asymetrycznego pociągania płatków przez intimal flap.",
+      "B) Zwężeniu zastawki trójdzielnej.",
+      "C) Pęknięciu przegrody międzykomorowej.",
+      "D) Przepuklinie rozworu przełykowego.",
+      "E) Zwężeniu lewego ujścia żylnego."
+    ],
+    "correctIdx": 0,
+    "corrLen": 143,
+    "avgWrong": 36,
+    "ratio": 3.97,
+    "exp": "Rozwarstwienie aorty wstępującej propagujące wstecznie ku pierścieniowi aortalnemu rozciąga pierścień zastawki lub powoduje odwarstwienie spoidła i wypadanie płatka aortalnego. Skutkuje to ostrą, ciężką niedomykalnością aortalną z cichym szmerem rozkurczowym decrescendo i szybkim rozwojem obrzęku płuc."
+  },
+  {
+    "caseId": 24,
+    "caseFile": "24_rozwarstwienie_aorty.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "W badaniu laboratoryjnym ujemny wynik oznaczenia stężenia D-dimerów (<500 ng/ml) u pacjenta z bólem klatki piersiowej:",
+    "opts": [
+      "A) Cechuje się bardzo wysoką wartością predykcyjną ujemną (>95–98%) i pozwala z wysokim prawdopodobieństwem wykluczyć ostre rozwarstwienie aorty u chorych o niskim ryzyku klinicznym.",
+      "B) Potwierdza zawał STEMI z zamknięciem pnia lewej tętnicy wieńcowej.",
+      "C) Wskazuje na konieczność natychmiastowej torakotomii.",
+      "D) Jest błędem laboratoryjnym, gdyż D-dimery oznacza się wyłącznie w moczu.",
+      "E) Nie ma żadnego zastosowania w chorobach układu krążenia."
+    ],
+    "correctIdx": 0,
+    "corrLen": 182,
+    "avgWrong": 64.5,
+    "ratio": 2.82,
+    "exp": "Oznaczenie D-dimerów w ostrym rozwarstwieniu aorty charakteryzuje się bardzo wysoką czułością (>97%). Stężenie D-dimeru <500 ng/ml u pacjenta z niskim prawdopodobieństwem klinicznym (skala ADD-RS = 0) pozwala na bezpieczne wykluczenie ostrego zespołu aortalnego bez konieczności wykonywania Angio-TK."
+  },
+  {
+    "caseId": 25,
+    "caseFile": "25_tamponada_serca.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "W zapisie EKG u pacjenta z dużą tamponadą serca stwierdzono naprzemienną zmienność amplitudy zespołów QRS w kolejnych ewolucjach (electrical alternans). Zjawisko to wynika z:",
+    "opts": [
+      "A) Mechanicznego kołysania się serca w wypełnionym płynem worku osierdziowym (tzw. swinging heart), co cyklicznie zmienia wektor elektryczny względem elektrod.",
+      "B) Naprzemiennego bloku prawej i lewej odnogi pęczka Hisa.",
+      "C) Porażenia układu bodźcoprzewodzącego przez hiperkaliemię.",
+      "D) Zmian stężenia tlenu we krwi tętniczej w zależności od fazy oddechowej.",
+      "E) Błędu technicznego spowodowanego drżeniem mięśniowym."
+    ],
+    "correctIdx": 0,
+    "corrLen": 159,
+    "avgWrong": 62,
+    "ratio": 2.56,
+    "exp": "Naprzemienność elektryczna (electrical alternans) to naprzemienna zmiana amplitudy lub osi zespołów QRS w kolejnych cyklach serca. Jest spowodowana zjawiskiem 'swinging heart' – serce swobodnie pływa i wykonuje ruchy wahadłowe w płynie osierdziowym, przybliżając się i oddalając od ściany klatki piersiowej w rytm skurczów."
+  },
+  {
+    "caseId": 25,
+    "caseFile": "25_tamponada_serca.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Dlaczego wdrożenie wentylacji mechanicznej z dodatnim ciśnieniem (PPV z PEEP) i intubacji dotchawiczej u pacjenta z nieodbarczoną tamponadą serca wiąże się ze skrajnym ryzykiem nagłego zatrzymania krążenia (PEA)?",
+    "opts": [
+      "A) Dodatnie ciśnienie w klatce piersiowej wywołane przez respirator gwałtownie zmniejsza powrót żylny do prawego serca, co w połączeniu z uciskiem zewnątrzsertcowym całkowicie likwiduje rzut serca.",
+      "B) Respirator powoduje natychmiastowe wykrzepianie krwi w komorach serca.",
+      "C) Dodatnie ciśnienie powoduje odruchowy skurcz wszystkich naczyń wieńcowych.",
+      "D) Wentylacja mechaniczna prowadzi do natychmiastowego zarośnięcia pnia płucnego.",
+      "E) Tlenoterapia w respiratorze wywołuje porażenie nerwu błędnego."
+    ],
+    "correctIdx": 0,
+    "corrLen": 197,
+    "avgWrong": 74,
+    "ratio": 2.66,
+    "exp": "W tamponadzie serca powrót żylny resztkowo utrzymuje się dzięki ujemnemu ciśnieniu śródpiersia generowanemu podczas wdechu własnego. Zastosowanie wentylacji mechanicznej z ciśnieniem dodatnim (PPV) odwraca ten gradient i podnosi ciśnienie w klatce piersiowej, co odcina dopływ krwi do serca. W połączeniu z lekami sedatywnymi dochodzi do natychmiastowego zatrzymania krążenia w mechanizmie PEA. Dlatego tamponadę należy odbarczyć PRZED intubacją!"
+  },
+  {
+    "caseId": 25,
+    "caseFile": "25_tamponada_serca.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Które zjawisko fizjologiczne odpowiada za fakt, że odessanie zaledwie 50–100 ml płynu z worka osierdziowego podczas perikardiocentezy przynosi natychmiastową i spektakularną poprawę hemodynamiczną?",
+    "opts": [
+      "A) Stroma krzywa zależności ciśnienia od objętości w worku osierdziowym po przekroczeniu granicy rozciągliwości osierdzia.",
+      "B) Gwałtowne obniżenie stężenia potasu w osoczu krwi.",
+      "C) Przyspieszenie przewodzenia przedsionkowo-komorowego w węźle AV.",
+      "D) Odruchowe rozszerzenie tętnic nerkowych wywołane ukłuciem igły.",
+      "E) Wypłukanie dwutlenku węgla z komór serca."
+    ],
+    "correctIdx": 0,
+    "corrLen": 122,
+    "avgWrong": 57.5,
+    "ratio": 2.12,
+    "exp": "Zależność ciśnienie-objętość w osierdziu jest silnie nieliniowa. Po wyczerpaniu rezerwy elastycznej ciśnienie rośnie wykładniczo. Usunięcie nawet niewielkiej objętości płynu (50-100 ml) natychmiast przesuwa stan układu w dół pionowego ramienia krzywej, obniżając ciśnienie wewnątrzosierdziowe poniżej ciśnień napełniania komór, co odwraca wstrząs."
+  },
+  {
+    "caseId": 25,
+    "caseFile": "25_tamponada_serca.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Wytworzenie 'okna osierdziowego' (pericardial window) jest procedurą z wyboru w przypadku:",
+    "opts": [
+      "A) Nawracającego wysięku w worku osierdziowym (zwłaszcza o etiologii nowotworowej), w celu zapewnienia stałego drenażu do jamy opłucnej i zapobieżenia nawrotom tamponady.",
+      "B) Pierwszego epizodu łagodnego wirusowego zapalenia osierdzia.",
+      "C) Ostrego zawału serca bez powikłań mechanicznych.",
+      "D) Zwężenia zastawki dwudzielnej w III klasie NYHA.",
+      "E) Zatorowości płucnej niskiego ryzyka."
+    ],
+    "correctIdx": 0,
+    "corrLen": 170,
+    "avgWrong": 51,
+    "ratio": 3.33,
+    "exp": "Okno osierdziowe (pericardial window / fenestracja osierdzia) polega na chirurgicznym wycięciu fragmentu worka osierdziowego techniką torakoskopową (VATS) lub z małego cięcia podmostkowego. Wskazaniem jest nawracający, szybko narastający wysięk (najczęściej w nowotworach), gdzie wielokrotne nakłucia igłowe są nieskuteczne. Umożliwia to stały drenaż płynu do opłucnej, chroniąc przed tamponadą."
+  },
+  {
+    "caseId": 26,
+    "caseFile": "26_pepniety_tetniak_aorty.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Jaki jest patofizjologiczny cel stosowania strategii 'hipotensji permisyjnej' (permissive hypotension) u pacjenta z pękniętym tętniakiem aorty brzusznej przed chirurgicznym zaopatrzeniem naczynia?",
+    "opts": [
+      "A) Utrzymanie ciśnienia skurczowego w granicach 70–90 mmHg w celu uniknięcia zerwania skrzepu tamponującego pęknięcie w przestrzeni zaotrzewnowej, przy jednoczesnym zachowaniu minimalnej perfuzji mózgowej i wieńcowej.",
+      "B) Wywołanie celowego obrzęku mózgu w celu wprowadzenia pacjenta w stan hipotermii terapeutycznej.",
+      "C) Zwiększenie filtracji kłębuszkowej w nerkach poprzez obniżenie oporu naczyniowego.",
+      "D) Wypłukanie kwasu mlekowego z kończyn dolnych.",
+      "E) Zmniejszenie stężenia potasu w osoczu krwi."
+    ],
+    "correctIdx": 0,
+    "corrLen": 217,
+    "avgWrong": 69.3,
+    "ratio": 3.13,
+    "exp": "Pęknięcie tętniaka do przestrzeni zaotrzewnowej jest częściowo powstrzymywane przez opór okolicznych tkanek i krwiaka (samotamponada). Agresywne podnoszenie ciśnienia krwi płynami (SBP >100 mmHg) powoduje wzrost ciśnienia transmuralnego, zerwanie świeżego skrzepu oraz rozcieńczenie czynników krzepnięcia, co skutkuje masywnym wykrwawieniem do wolnej jamy otrzewnej. Hipotensja permisyjna (SBP 70-90 mmHg, MAP 50-65 mmHg) jest kluczowa dla przeżycia."
+  },
+  {
+    "caseId": 26,
+    "caseFile": "26_pepniety_tetniak_aorty.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Co oznacza termin rEVAR w chirurgii naczyniowej?",
+    "opts": [
+      "A) Wewnątrznaczyniowe zaopatrzenie pękniętego tętniaka aorty brzusznej za pomocą stentgraftu wprowadzanego przez tętnice udowe",
+      "B) Chirurgiczne podwiązanie aorty bez użycia protezy naczyniowej.",
+      "C) Wycięcie pęcherzyka żółciowego u chorego z tętniakiem.",
+      "D) Wszczepienie sztucznego serca.",
+      "E) Mechaniczne rozszerzenie aorty balonem wysokociśnieniowym."
+    ],
+    "correctIdx": 0,
+    "corrLen": 126,
+    "avgWrong": 54,
+    "ratio": 2.33,
+    "exp": "rEVAR (ruptured Endovascular Aneurysm Repair) to małoinwazyjna technika wewnątrznaczyniowa stosowana w leczeniu pękniętych tętniaków aorty brzusznej. Polega na wprowadzeniu pod kontrolą fluoroskopii rentgenowskiej samorozprężalnego stentgraftu przez tętnice udowe w celu odcięcia krwiaka od światła naczynia. Wiąże się z mniejszą utratą krwi i niższą wczesną śmiertelnością niż klasyczna laparotomia. [Uzupełnienie: (ruptured Endovascular Aneurysm Repair)]"
+  },
+  {
+    "caseId": 26,
+    "caseFile": "26_pepniety_tetniak_aorty.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Zaciśnięcie aorty powyżej pnia trzewnego (supra-celiac aortic clamping) podczas operacji otwartej pękniętego tętniaka aorty brzusznej skutkuje:",
+    "opts": [
+      "A) Gwałtownym wzrostem obciążenia następczego (afterload) lewej komory serca z ryzykiem ostrej niewydolności lewokomorowej oraz przemijającym niedokrwieniem narządów jamy brzusznej",
+      "B) Natychmiastowym spadkiem ciśnienia w aorcie wstępującej do zera.",
+      "C) Całkowitym ustaniem perfuzji mózgowej.",
+      "D) Skrajną zasadowicą metaboliczną w ciągu 30 sekund.",
+      "E) Wzrostem temperatury ciała do 42°C."
+    ],
+    "correctIdx": 0,
+    "corrLen": 180,
+    "avgWrong": 49.8,
+    "ratio": 3.62,
+    "exp": "Zaciśnięcie aorty na poziomie nadtrzewnowym jest procedurą ratunkową w masywnym krwotoku. Skutkuje gwałtownym skokiem oporu naczyniowego (afterload), co obciąża lewą komorę serca i grozi jej ostrą dekompensacją lub zawałem, a poniżej zacisku wywołuje całkowite niedokrwienie trzewi i nerek. Zdjęcie zacisku (de-clamping) wywołuje z kolei tzw. wstrząs odklemowania (declamping shock) z kwasicą i hipotensją. [Uzupełnienie: (wątroby, trzustki, jelit i nerek)]"
+  },
+  {
+    "caseId": 27,
+    "caseFile": "27_przelom_nadnerczowy.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Który z poniższych mechanizmów odpowiada za powstawanie tzw. 'rzekomego ostrego brzucha' (pseudoperitonitis) w przebiegu przełomu nadnerczowego?",
+    "opts": [
+      "A) Bakteryjne zapalenie otrzewnej w wyniku translokacji jelitowej.",
+      "B) Ostre niedokrwienie krezkowe z powodu obkurczenia naczyń trzewnych przez aldosteron.",
+      "C) Zaburzenia motoryki przewodu pokarmowego, obrzęk ściany jelit i zaburzenia elektrolitowe (ciężka hiponatremia i hiperkaliemia) wywołujące skurcze spastyczne mięśniówki gładkiej jelit i otrzewnej.",
+      "D) Martwica krwotoczna sieci większej.",
+      "E) Pęknięcie śledziony w wyniku splenomegalii."
+    ],
+    "correctIdx": 2,
+    "corrLen": 198,
+    "avgWrong": 59.3,
+    "ratio": 3.34,
+    "exp": "Pseudoperitonitis addisoniana wynika ze skrajnych zaburzeń elektrolitowych (hiponatremia, hiperkaliemia, odwodnienie komórkowe), hipoperfuzji trzewnej oraz braku hamującego wpływu kortyzolu na miejscowe uwalnianie cytokin zapalnych w ścianie jelita. Objawia się silnym bólem brzucha i obroną mięśniową, symulując perforację przewodu pokarmowego."
+  },
+  {
+    "caseId": 27,
+    "caseFile": "27_przelom_nadnerczowy.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Który z poniższych płynów infuzyjnych jest BEZWZGLĘDNIE PRZECIWWSKAZANY we wstępnej resuscytacji pacjenta w przełomie nadnerczowym z kaliemią K+ >6,5 mmol/l?",
+    "opts": [
+      "A) 0,9% NaCl.",
+      "B) 10% roztwór glukozy.",
+      "C) Płyn Ringera / Płyn Wieloelektrolitowy (PWE) zawierający sole potasu.",
+      "D) 5% roztwór glukozy.",
+      "E) Mieszanina 0,9% NaCl i 5% glukozy w stosunku 1:1."
+    ],
+    "correctIdx": 2,
+    "corrLen": 72,
+    "avgWrong": 27.5,
+    "ratio": 2.62,
+    "exp": "U chorego w przełomie nadnerczowym z groźną dla życia hiperkaliemią (K+ >6,5 mmol/l) podanie płynów zawierających potas (Płyn Ringera, mleczan Ringera, PWE) grozi natychmiastowym zatrzymaniem krążenia. Płynem z wyboru jest wyłącznie 0,9% NaCl z dodatkiem glukozy."
+  },
+  {
+    "caseId": 28,
+    "caseFile": "28_udar_niedokrwienny.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "U pacjenta z ostrym udarem niedokrwiennym mózgu zakończono pomyślnie dożylny wlew alteplazy (rt-PA). Kiedy najwcześniej można bezpiecznie wdrożyć kwas acetylosalicylowy (ASA) lub heparynę drobnocząsteczkową?",
+    "opts": [
+      "A) Natychmiast po zakończeniu 60-minutowego wlewu rt-PA.",
+      "B) Po 4 godzinach od zakończenia trombolizy pod warunkiem prawidłowego ciśnienia.",
+      "C) Po upływie 24 godzin od podania rt-PA, pod warunkiem wcześniejszego wykonania kontrolnego badania TK głowy wykluczającego krwawienie śródczaszkowe.",
+      "D) Dopiero po 30 dniach od incydentu udarowego.",
+      "E) Nigdy – przebycie trombolizy stanowi dożywotnie przeciwwskazanie do stosowania kwasu acetylosalicylowego."
+    ],
+    "correctIdx": 2,
+    "corrLen": 150,
+    "avgWrong": 73,
+    "ratio": 2.05,
+    "exp": "Leki przeciwpłytkowe (ASA) oraz antykoagulanty są bezwzględnie przeciwwskazane przez pierwsze 24 godziny po podaniu alteplazy z powodu skrajnego ryzyka ukrwotocznienia ogniska niedokrwiennego. Ich włączenie po 24 godzinach wymaga wcześniejszego wykonania kontrolnego badania TK głowy i potwierdzenia braku powikłań krwotocznych."
+  },
+  {
+    "caseId": 28,
+    "caseFile": "28_udar_niedokrwienny.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Które z poniższych kryteriów jest BEZWZGLĘDNYM wskazaniem do wykonania pilnej trombektomii mechanicznej (EVT) u pacjenta z ostrym udarem niedokrwiennym mózgu?",
+    "opts": [
+      "A) Niedrożność małych gałęzi korowych w badaniu EEG u pacjenta bez niedowładu.",
+      "B) Potwierdzona w badaniu naczyniowym (Angio-TK / CTA) okluzja dużego naczynia (LVO) przedniego krążenia mózgowego (np. pnia tętnicy środkowej mózgu M1 lub tętnicy szyjnej wewnętrznej ICA) w oknie czasowym do 6 godzin od wystąpienia objawów.",
+      "C) Czas od wystąpienia objawów przekraczający 48 godzin przy braku zmian w TK.",
+      "D) Obecność krwiaka przymózgowego o grubości powyżej 10 mm.",
+      "E) Udar lakunarny w obrębie torebki wewnętrznej o średnicy 4 mm."
+    ],
+    "correctIdx": 1,
+    "corrLen": 241,
+    "avgWrong": 69.8,
+    "ratio": 3.46,
+    "exp": "Trombektomia mechaniczna (EVT) jest standardem leczenia w ostrej niedrożności dużego naczynia (LVO – large vessel occlusion: ICA, M1 MCA) w oknie czasowym do 6 godzin od początku objawów, a u wyselekcjonowanych chorych na podstawie badań perfuzyjnych (mismatch penumbra/core) nawet do 24 godzin (badania DAWN i DEFUSE-3)."
+  },
+  {
+    "caseId": 28,
+    "caseFile": "28_udar_niedokrwienny.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Jakie postępowanie z ciśnieniem tętniczym zalecają międzynarodowe wytyczne u pacjenta z ostrym udarem niedokrwiennym mózgu, który NIE kwalifikuje się do trombolizy ani trombektomii mechanicznej?",
+    "opts": [
+      "A) Natychmiastowe obniżenie ciśnienia skurczowego poniżej 120 mmHg w celu odciążenia lewej komory serca.",
+      "B) Tolerowanie wartości ciśnienia tętniczego do 220/120 mmHg (hipotensja permisyjna) i wdrożenie leczenia obniżającego ciśnienie dopiero po przekroczeniu tych wartości lub w razie uszkodzenia innych narządów.",
+      "C) Bezwzględne podawanie amin presyjnych w celu utrzymania ciśnienia skurczowego powyżej 240 mmHg.",
+      "D) Odstawienie wszelkich płynów infuzyjnych.",
+      "E) Natychmiastowe podanie diuretyków pętlowych w wysokiej dawce."
+    ],
+    "correctIdx": 1,
+    "corrLen": 208,
+    "avgWrong": 77.5,
+    "ratio": 2.68,
+    "exp": "U pacjentów z ostrym udarem niedokrwiennym mózgu niepodlegających leczeniu reperfuzyjnemu zaleca się strategię tzw. permisyjnego nadciśnienia tętniczego. Ciśnienie obniża się dopiero wtedy, gdy przekracza 220/120 mmHg (lub w razie ostrego zespołu wieńcowego, rozwarstwienia aorty, obrzęku płuc), a tempo obniżania nie powinno przekraczać 15% w ciągu pierwszych 24 godzin, aby nie pogorszyć perfuzji w obszarze penumbry."
+  },
+  {
+    "caseId": 28,
+    "caseFile": "28_udar_niedokrwienny.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "W jakich okolicznościach u pacjenta z udarem niedokrwiennym mózgu w oknie <4,5 h dopuszczalne jest podanie alteplazy, jeżeli chory przyjmuje doustny bezpośredni inhibitor trombiny – dabigatran?",
+    "opts": [
+      "A) Po wcześniejszym podaniu specyficznego antidotum odwracającego działanie dabigatranu – idarucizumabu (Praxbind).",
+      "B) Po podaniu 4 jednostek świeżo mrożonego osocza (FFP).",
+      "C) Po przetoczeniu koncentratu krwinek płytkowych.",
+      "D) Dabigatran nigdy nie stanowi przeciwwskazania do trombolizy.",
+      "E) Po podaniu witaminy K w powolnym wlewie i.v."
+    ],
+    "correctIdx": 0,
+    "corrLen": 115,
+    "avgWrong": 54,
+    "ratio": 2.13,
+    "exp": "Zgodnie z wytycznymi ESO, jeżeli pacjent przyjmował dabigatran w ciągu ostatnich 48 godzin, tromboliza rt-PA jest dopuszczalna po uprzednim podaniu swoistego przeciwciała neutralizującego – idarucizumabu (5 g i.v. w dwóch dawkach po 2,5 g). Idarucizumab natychmiastowo i trwale odwraca działanie dabigatranu, umożliwiając bezpieczne podanie rt-PA."
+  },
+  {
+    "caseId": 29,
+    "caseFile": "29_wstrzas_septyczny.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "W jakich okolicznościach dopuszcza się podanie drugiej aminy presyjnej – wazopresyny (w stałej dawce 0,03 j./min) u pacjenta we wstrząsie septycznym?",
+    "opts": [
+      "A) W celu zmniejszenia zapotrzebowania na wysokie dawki noradrenaliny lub podwyższenia MAP przy nieskuteczności monoterapii noradrenaliną.",
+      "B) Jako lek pierwszego wyboru zamiast noradrenaliny u każdego chorego z urosepsą.",
+      "C) Wyłącznie po zatrzymaniu krążenia i defibrylacji.",
+      "D) Jako lek moczopędny w skąpomoczu septycznym.",
+      "E) W celu wywołania natychmiastowej wazodylatacji naczyń nerkowych."
+    ],
+    "correctIdx": 0,
+    "corrLen": 138,
+    "avgWrong": 61.8,
+    "ratio": 2.23,
+    "exp": "Wazopresynę (w nienasycającej dawce 0,03 j./min) włącza się jako wazopresor drugiego rzutu, gdy zapotrzebowanie na noradrenalinę rośnie lub w celu redukcji dawki noradrenaliny (efekt oszczędzający katecholaminy). Wazopresyna pobudza receptory V1a w naczyniach, działając w odmiennym mechanizmie i skutecznie przełamując wazoplegię septyczną."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "U 24-letniego pacjenta z ciężkim napadem astmy oskrzelowej w badaniu przedmiotowym stwierdzono zanik wcześniej słyszalnych świstów i niemal całkowity brak szmerów oddechowych ('cicha klatka piersiowa' / silent chest), spowolnienie częstości oddechów z 34 do 12/min oraz narastającą senność. Jak należy zinterpretować ten stan?",
+    "opts": [
+      "A) Poprawa stanu klinicznego w wyniku samoistnego ustąpienia skurczu oskrzeli.",
+      "B) Skrajne, zagrażające zatrzymaniem oddychania zaostrzenie astmy (stan astmatyczny) wynikające z krytycznej obturacji oskrzeli i wyczerpania mięśni oddechowych.",
+      "C) Początek fazy snu fizjologicznego po ustąpieniu duszności.",
+      "D) Wystąpienie przetoki tchawiczo-przełykowej z zalaniem drzewa oskrzelowego.",
+      "E) Histeryczny napad lękowy z celowym wstrzymywaniem oddechu."
+    ],
+    "correctIdx": 1,
+    "corrLen": 161,
+    "avgWrong": 69.3,
+    "ratio": 2.32,
+    "exp": "'Cicha klatka piersiowa' (silent chest) u pacjenta z astmą w połączeniu ze zwalnianiem częstości oddechów i sennością jest objawem krytycznym (Near-Fatal Asthma). Oznacza, że przepływ powietrza przez skrajnie zwężone i zaczopowane śluzem oskrzela jest zbyt mały, by wytworzyć dźwięk świstu, a mięśnie oddechowe uległy wyczerpaniu. Stanowi bezwzględne wskazanie do natychmiastowej resuscytacji oddechowej i przygotowania do intubacji."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Co oznacza zjawisko 'pseudonormalizacji' PaCO2 w gazometrii tętniczej (np. PaCO2 = 42 mmHg) u pacjenta z ciężkim napadem astmy oskrzelowej?",
+    "opts": [
+      "A) Pełną normalizację wentylacji pęcherzykowej i wyleczenie napadu astmy.",
+      "B) Krytyczne wyczerpanie mięśni oddechowych, załamanie wentylacji i początek ostrej dekompensacji oddechowej zagrażającej zatrzymaniem krążenia.",
+      "C) Błąd laboratoryjny aparatu gazometrycznego.",
+      "D) Rozwój ostrej kwasicy metabolicznej z luką anionową.",
+      "E) Prawidłową odpowiedź nerkową na hiperwentylację."
+    ],
+    "correctIdx": 1,
+    "corrLen": 144,
+    "avgWrong": 56.3,
+    "ratio": 2.56,
+    "exp": "W napadzie astmy z powodu tachypnoe i hiperwentylacji fizjologicznym zjawiskiem jest hipokapnia (PaCO2 <35 mmHg). Jeżeli u pacjenta z ciężką dusznością PaCO2 'normalizuje się' (osiąga 40-45 mmHg) lub przekracza 45 mmHg przy kwasicy, oznacza to skrajne wyczerpanie przepony, dramatyczny spadek wentylacji pęcherzykowej i natychmiastowe ryzyko zatrzymania oddychania!"
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jaki lek drugiego rzutu o udowodnionej skuteczności w zaostrzeniach astmy opornych na leki wziewne należy podać dożylnie wg wytycznych GINA i BTS?",
+    "opts": [
+      "A) Dożylny Siarczan Magnezu (MgSO4) w dawce 2,0 g w 20-minutowym wlewie.",
+      "B) Morfina 10 mg w szybkim bolusie i.v.",
+      "C) Aminofilina w dawce uderzeniowej 10 mg/kg i.v.",
+      "D) Wodorowęglan sodu 8,4% 200 ml.",
+      "E) Furosemid 40 mg i.v."
+    ],
+    "correctIdx": 0,
+    "corrLen": 72,
+    "avgWrong": 36,
+    "ratio": 2,
+    "exp": "Dożylny siarczan magnezu (MgSO4 w dawce 2,0 g we wlewie trwającym 20 minut) jest lekiem drugiego rzutu o wysokiej skuteczności udowodnionej w badaniach klinicznych. Działa bezpośrednio miorelaksacyjnie na mięśniówkę gładką oskrzeli poprzez blokowanie napływu jonów wapnia do komórek, istotnie zmniejszając częstość intubacji i hospitalizacji na OIT."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Dlaczego monoterapia krótko działającymi beta2-mimetykami (SABA, np. samym salbutamolem bez wziewnego sterydu) została całkowicie wycofana i uznana za niezalecaną w wytycznych GINA?",
+    "opts": [
+      "A) Ponieważ salbutamol wywołuje nieodwracalną niewydolność nerek.",
+      "B) Ponieważ regularne stosowanie samego SABA prowadzi do desensytyzacji receptorów beta2, nasilenia eozynofilowego zapalenia dróg oddechowych i istotnego wzrostu ryzyka ciężkich, śmiertelnych zaostrzeń astmy.",
+      "C) Ponieważ SABA są nieskuteczne w rozkurczaniu mięśniówki oskrzeli.",
+      "D) Ponieważ SABA wchodzą w śmiertelne interakcje ze wszystkimi antybiotykami.",
+      "E) Ponieważ SABA powodują natychmiastowe uzależnienie psychiczne."
+    ],
+    "correctIdx": 1,
+    "corrLen": 208,
+    "avgWrong": 68.8,
+    "ratio": 3.03,
+    "exp": "Zgodnie z przełomową modyfikacją wytycznych GINA monoterapia SABA (leczenie wyłącznie doraźnym salbutamolem) jest niebezpieczna: prowadzi do tachyfilaksji i down-regulacji receptorów beta2, nasilenia zapalenia dróg oddechowych i zwiększa ryzyko zgonu z powodu astmy. Preferowaną strategią (ścieżka 1) jest schemat MART – preparat łączący formoterol z małą dawką wGKS (np. budezonidem) stosowany doraźnie i podtrzymująco."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Jaka podstawowa zasada wentylacji mechanicznej chroni pacjenta ze stanem astmatycznym przed powikłaniami dynamicznej hiperinflacji (auto-PEEP) i odmą prężną?",
+    "opts": [
+      "A) Wentylacja z wysoką częstością oddechów (>30/min) i krótkim wydechem.",
+      "B) Utrzymanie niskiej częstości oddechów (8–10/min), wydłużenie czasu wydechu (stosunek I:E 1:3 lub 1:4) oraz akceptacja hiperkapnii permisyjnej.",
+      "C) Zastosowanie zewnętrznego PEEP o wartości 20 cm H2O.",
+      "D) Podawanie czystego azotu przez rurkę intubacyjną.",
+      "E) Stosowanie bardzo wysokich objętości oddechowych (15 ml/kg m.c.)."
+    ],
+    "correctIdx": 1,
+    "corrLen": 145,
+    "avgWrong": 61.8,
+    "ratio": 2.35,
+    "exp": "W obturacji dróg oddechowych podstawowym problemem jest upośledzenie wydechu. Aby zapobiec uwięzieniu powietrza (auto-PEEP) i pęknięciu pęcherzyków (odma prężna), należy zapewnić długi czas na wydech: niska częstość oddechów (8-10/min), wydłużony czas wydechu (I:E 1:3 lub 1:4) oraz niska objętość Vt (6 ml/kg). Wzrost PaCO2 (hiperkapnia permisyjna) jest bezpieczny i dobrze tolerowany, pod warunkiem pH >7,15-7,20."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Które z poniższych powikłań metabolicznych może wystąpić w wyniku intensywnej, powtarzanej nebulizacji wysokimi dawkami Salbutamolu?",
+    "opts": [
+      "A) Ciężka hiperkaliemia z poszerzeniem zespołów QRS.",
+      "B) Przemijająca hipokaliemia (przesunięcie jonów K+ do wnętrza komórek) oraz łagodna hiperlaktatemia.",
+      "C) Skrajna hipernatremia z obrzękiem mózgu.",
+      "D) Trwała niewydolność przytarczyc z hipokalcemią.",
+      "E) Hiperurykemia z ostrym atakiem dny moczanowej."
+    ],
+    "correctIdx": 1,
+    "corrLen": 101,
+    "avgWrong": 48.5,
+    "ratio": 2.08,
+    "exp": "Agoniści receptorów beta2-adrenergicznych (salbutamol) stymulują pompę sodowo-potasową (Na+/K+-ATPazę) w komórkach mięśni szkieletowych, powodując gwałtowny dokomórkowy dokomórkowy transport jonów potasu i hipokaliemię. Ponadto stymulacja beta2 nasila glikolizę i może prowadzić do łagodnej hiperlaktatemii typu B, która nie świadczy o hipoperfuzji tkankowej."
+  },
+  {
+    "caseId": 30,
+    "caseFile": "30_stan_astmatyczny.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "26-letnia kobieta w 32. tygodniu ciąży trafia na SOR z ciężkim napadem astmy. Jakie są zasady stosowania leków przeciwastmatycznych u kobiet w ciąży w stanach nagłych?",
+    "opts": [
+      "A) Wszystkie leki przeciwastmatyczne są bezwzględnie zakazane ze względu na teratogenność.",
+      "B) Leki przeciwastmatyczne (SABA wziewne, bromek ipratropium, systemowe glikokortykosteroidy) stosuje się w takich samych dawkach i schematach jak u kobiet niebędących w ciąży, dążąc do SpO2 ≥95% w celu ochrony płodu przed hipoksją.",
+      "C) Należy natychmiast wykonać cięcie cesarskie przed podaniem jakichkolwiek leków wziewnych.",
+      "D) Jedynym dopuszczalnym lekiem jest dożylny wlew glukozy.",
+      "E) Należy odstawić tlenoterapię z obawy przed retinopatią u płodu."
+    ],
+    "correctIdx": 1,
+    "corrLen": 232,
+    "avgWrong": 76.5,
+    "ratio": 3.03,
+    "exp": "Zgodnie z wytycznymi GINA i PTGiP zaostrzenie astmy u ciężarnej stanowi bezpośrednie zagrożenie dla życia płodu (niedotlenienie, przedwczesny poród, zgon wewnątrzmaciczny). Korzyści z agresywnego leczenia matki znacznie przewyższają potencjalne ryzyko leków. SABA, SAMA i sterydy systemowe podaje się w pełnych dawkach terapeutycznych, z celem saturacji SpO2 ≥95%."
+  },
+  {
+    "caseId": 31,
+    "caseFile": "31_af_z_rvr.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Dlaczego w defibrylatorze podczas wykonywania kardiowersji elektrycznej migotania przedsionków kluczowe jest włączenie funkcji synchronizacji (przycisk SYNC)?",
+    "opts": [
+      "A) W celu zsynchronizowania wyładowania z oddechem pacjenta.",
+      "B) Aby impuls elektryczny został wyzwolony dokładnie w fazie załamka R, unikając fazy wrażliwej załamka T i wywołania migotania komór (zjawisko R-on-T).",
+      "C) Aby zmniejszyć zużycie baterii defibrylatora.",
+      "D) Aby uniknąć oparzenia skóry klatki piersiowej.",
+      "E) Aby impuls został dostarczony wyłącznie do prawej komory serca."
+    ],
+    "correctIdx": 1,
+    "corrLen": 152,
+    "avgWrong": 55.8,
+    "ratio": 2.73,
+    "exp": "Funkcja synchronizacji (SYNC) zapewnia wyzwolenie impulsu defibrylatora w szczycie załamka R (depolaryzacja komór). Dostarczenie impulsu elektrycznego w fazie repolaryzacji komór (ramię zstępujące załamka T) mogłoby wywołać zjawisko R-on-T i spowodować natychmiastowe, śmiertelne migotanie komór (VF)."
+  },
+  {
+    "caseId": 31,
+    "caseFile": "31_af_z_rvr.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Jaki jest mechanizm działania i korzyść hemodynamiczna zastosowania wentylacji CPAP w kardiogennym obrzęku płuc powikłanym szybkim migotaniem przedsionków?",
+    "opts": [
+      "A) Obniża ciśnienie w drogach oddechowych, zwiększając powrót żylny do prawej komory.",
+      "B) Generuje dodatnie ciśnienie w klatce piersiowej, zmniejsza obciążenie wstępne (preload) i następcze (afterload) lewej komory oraz przemieszcza płyn z pęcherzyków do naczyń.",
+      "C) Działa jako selektywny antagonista receptorów aldosteronowych w nerkach.",
+      "D) Hamuje przewodzenie w węźle zatokowo-przedsionkowym poprzez stymulację nerwu błędnego.",
+      "E) Wypłukuje tlen z krwi, stymulując ośrodek oddechowy."
+    ],
+    "correctIdx": 1,
+    "corrLen": 175,
+    "avgWrong": 76,
+    "ratio": 2.3,
+    "exp": "CPAP (Continuous Positive Airway Pressure) wywiera zbawienny wpływ hemodynamiczny w ostrym obrzęku płuc: dodatnie ciśnienie śródpiersiowe zmniejsza powrót żylny (odciąża prawą komorę), zmniejsza transmuralne ciśnienie w lewej komorze (zmniejsza afterload) oraz zapobiega zapadaniu się pęcherzyków i wypycha płyn przesiękowy do łożyska naczyniowego."
+  },
+  {
+    "caseId": 31,
+    "caseFile": "31_af_z_rvr.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "U pacjenta z migotaniem przedsionków i niewydolnością serca z LVEF 30% zastosowano dożylną digoksynę. Jaki jest główny elektrofizjologiczny mechanizm zwalniania czynności komór przez ten lek?",
+    "opts": [
+      "A) Blokada kanałów sodowych fazy 0 depolaryzacji komór.",
+      "B) Zwiększenie napięcia nerwu błędnego (działanie wagotoniczne) i bezpośrednie hamowanie przewodzenia w węźle przedsionkowo-komorowym (AV).",
+      "C) Otwarcie kanałów potasowych w komórkach Purkinjego.",
+      "D) Wybiórczy skurcz tętnic wieńcowych.",
+      "E) Blokada receptorów beta-2 w oskrzelach."
+    ],
+    "correctIdx": 1,
+    "corrLen": 139,
+    "avgWrong": 47.3,
+    "ratio": 2.94,
+    "exp": "Digoksyna wykazuje ośrodkowe i obwodowe działanie wagotoniczne (stymuluje nerw błędny), co prowadzi do wydłużenia okresu refrakcji i zwolnienia przewodzenia impulsów w węźle AV. Ponadto wykazuje umiarkowane działanie inotropowo dodatnie (poprzez hamowanie Na+/K+-ATPazy), co czyni ją cennym lekiem w HFrEF."
+  },
+  {
+    "caseId": 31,
+    "caseFile": "31_af_z_rvr.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Jaka jest definicja 'deficytu tętna' badanego przyłóżkowo u pacjenta z szybkim migotaniem przedsionków?",
+    "opts": [
+      "A) Różnica pomiędzy ciśnieniem skurczowym na prawej i lewej kończynie górnej przekraczająca 20 mmHg.",
+      "B) Różnica pomiędzy liczbą skurczów serca wysłuchiwanych stetoskopem nad koniuszkiem a liczbą fal tętna wyczuwalnych na tętnicy promieniowej w tym samym czasie.",
+      "C) Brak tętna na tętnicach grzbietowych stopy.",
+      "D) Spadek tętna o 30 uderzeń/minutę w czasie głębokiego wdechu.",
+      "E) Różnica pomiędzy tętnem w pozycji leżącej i stojącej."
+    ],
+    "correctIdx": 1,
+    "corrLen": 160,
+    "avgWrong": 66.3,
+    "ratio": 2.42,
+    "exp": "Deficyt tętna to różnica między częstością akcji serca ocenianą osłuchowo nad sercem a częstością tętna na obwodzie (np. na tętnicy promieniowej). Wynika z tego, że niektóre skurcze komór w AF następują tak wcześnie w fazie rozkurczu, że objętość wyrzutowa jest zbyt mała, by wygenerować wyczuwalną falę tętna na obwodzie."
+  },
+  {
+    "caseId": 32,
+    "caseFile": "32_af_wpw.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Dlaczego u pacjenta z migotaniem przedsionków w przebiegu zespołu WPW (preexcited AF) leki blokujące węzeł przedsionkowo-komorowy (adenozyna, werapamil, diltiazem, digoksyna) są BEZWZGLĘDNIE PRZECIWWSKAZANE?",
+    "opts": [
+      "A) Wywołują natychmiastową nieodwracalną anafilotoksycję płucną.",
+      "B) Blokują przewodzenie przez węzeł AV, kierując wszystkie impulsy z przedsionka przez szlak dodatkowy, co prowadzi do drastycznego przyspieszenia rytmu komór i transformacji w śmiertelne migotanie komór (VF).",
+      "C) Powodują gwałtowny wzrost stężenia potasu powyżej 9,0 mmol/l.",
+      "D) Prowadzą do zakrzepicy żyły głównej dolnej.",
+      "E) Uniemożliwiają późniejsze wykonanie badania echokardiograficznego."
+    ],
+    "correctIdx": 1,
+    "corrLen": 209,
+    "avgWrong": 60.8,
+    "ratio": 3.44,
+    "exp": "Zablokowanie przewodzenia węzłowego znosi fizjologiczny bufor opóźniający i likwiduje kolizję wsteczną w szlaku dodatkowym. Wszystkie fale migotania przedsionków trafiają bez oporu pęczkiem Kenta do komór, co przy braku właściwości dekrementnych szlaku powoduje przewodzenie z częstością >300/min i natychmiastowe wyzwolenie migotania komór (VF)."
+  },
+  {
+    "caseId": 32,
+    "caseFile": "32_af_wpw.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Która cecha elektrokardiograficzna mierzona w zapisie EKG podczas migotania przedsionków ze szlakiem dodatkowym stanowi uznany czynnik SKRAJNEGO ryzyka nagłego zgonu sercowego (SCD)?",
+    "opts": [
+      "A) Najkrótszy odstęp R-R pomiędzy przewiedzionymi zespołami z preekscytacją krótszy niż 250 ms",
+      "B) Obecność załamka P przed każdym zespołem QRS.",
+      "C) Odstęp PR dłuższy niż 280 ms.",
+      "D) Czas trwania zespołu QRS poniżej 80 ms.",
+      "E) Brak zmian odcinka ST w odprowadzeniach kończynowych."
+    ],
+    "correctIdx": 0,
+    "corrLen": 94,
+    "avgWrong": 44.5,
+    "ratio": 2.11,
+    "exp": "Obecność najkrótszego odstępu R-R w preexcited AF <250 ms (a szczególnie <200 ms) jest kluczowym elektrofizjologicznym markerem wysokiego ryzyka nagłego zgonu sercowego. Oznacza krótki efektywny okres refrakcji szlaku dodatkowego (ERP <250 ms), co umożliwia wyzwolenie migotania komór (VF). [Uzupełnienie: (zwłaszcza <200 ms)]"
+  },
+  {
+    "caseId": 32,
+    "caseFile": "32_af_wpw.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "22-letni bezobjawowy mężczyzna podczas badań wstępnych do pracy w policji ma wykonane EKG, w którym stwierdzono krótki PR (105 ms) i obecność fali delta (wzorzec WPW). Nigdy nie miał kołatań serca ani omdleń. Jakie postępowanie jest zalecane wg wytycznych ESC?",
+    "opts": [
+      "A) Natychmiastowe wszczepienie kardiowertera-defibrylatora.",
+      "B) Ocena ryzyka w teście wysiłkowym (nagły zanik fali delta przy wzroście tętna wskazuje na niskie ryzyko) lub inwazyjne badanie elektrofizjologiczne (EPS) z ablacją, zwłaszcza przy zawodach wysokiego ryzyka.",
+      "C) Zlecenie dożywotniego przyjmowania digoksyny.",
+      "D) Uznanie badania za artefakt i zignorowanie wyniku.",
+      "E) Bezwzględny zakaz wykonywania jakiejkolwiek pracy zarobkowej."
+    ],
+    "correctIdx": 1,
+    "corrLen": 208,
+    "avgWrong": 56,
+    "ratio": 3.71,
+    "exp": "U osób z bezobjawowym wzorcem WPW (zwłaszcza wykonujących zawody wysokiego ryzyka: piloci, kierowcy zawodowi, policjanci, sportowcy) zaleca się stratyfikację ryzyka. Nagły, skokowy zanik preekscytacji podczas testu wysiłkowego świadczy o długiej refrakcji szlaku (niskie ryzyko SCD). Przy braku pewności zaleca się badanie EPS i ablację szlaku w tej samej sesji."
+  },
+  {
+    "caseId": 32,
+    "caseFile": "32_af_wpw.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Który z poniższych mechanizmów odpowiada za powstawanie fali delta w zapisie EKG u pacjenta z zespołem WPW?",
+    "opts": [
+      "A) Opóźnienie depolaryzacji prawej komory w bloku prawej odnogi.",
+      "B) Wczesna, powolna depolaryzacja fragmentu miokardium komory docierająca przez pęczek Kenta z pominięciem wyspecjalizowanego, szybkiego układu Hisa-Purkinjego.",
+      "C) Wsteczna depolaryzacja zatoki wieńcowej.",
+      "D) Lokalne niedokrwienie mięśnia brodawkowatego.",
+      "E) Przeciążenie ciśnieniowe prawej komory serca."
+    ],
+    "correctIdx": 1,
+    "corrLen": 160,
+    "avgWrong": 50.8,
+    "ratio": 3.15,
+    "exp": "Szlak dodatkowy uchodzi bezpośrednio do roboczej mięśniówki komory. Przewodzenie w roboczym miokardium odbywa się powoli od komórki do komórki (nie przez wyspecjalizowane włókna Purkinjego), co daje charakterystyczne powolne, zawęźlone uniesienie początkowej części zespołu QRS zwane falą delta."
+  },
+  {
+    "caseId": 33,
+    "caseFile": "33_stenoza_aortalna.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Jakie trzy kryteria hemodynamiczne w badaniu echokardiograficznym definiują ciężką stenozę aortalną o wysokim gradiencie wg wytycznych ESC?",
+    "opts": [
+      "A) Pole powierzchni zastawki aortalnej (AVA) <1,0 cm², maksymalna prędkość przepływu aortalnego Vmax ≥4,0 m/s oraz średni gradient przezstawkowy dP mean ≥40 mmHg.",
+      "B) AVA <2,0 cm², Vmax ≥2,5 m/s, dP mean ≥20 mmHg.",
+      "C) AVA <1,5 cm², Vmax ≥3,0 m/s, dP mean ≥25 mmHg.",
+      "D) Frakcja wyrzutowa lewej komory LVEF <30% niezależnie od gradientu.",
+      "E) Średnica aorty wstępującej >55 mm."
+    ],
+    "correctIdx": 0,
+    "corrLen": 162,
+    "avgWrong": 51,
+    "ratio": 3.18,
+    "exp": "Zgodnie z wytycznymi ESC/EACTS ciężką stenozę aortalną o wysokim gradiencie definiują: AVA <1,0 cm² (lub AVAi <0,6 cm²/m² powierzchni ciała), maksymalna prędkość przepływu aortalnego Vmax ≥4,0 m/s oraz średni gradient ciśnień przezastawkowych dP mean ≥40 mmHg."
+  },
+  {
+    "caseId": 33,
+    "caseFile": "33_stenoza_aortalna.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Na czym polega tzw. zespół Heyde'a obserwowany u pacjentów ze stenozą aortalną?",
+    "opts": [
+      "A) Współistnienie ciężkiej stenozy aortalnej z nawracającymi krwawieniami z przewodu pokarmowego z angiodysplazji jelitowych na podłożu nabytego zespołu von Willebranda typu 2A.",
+      "B) Jednoczesne występowanie stenozy aortalnej i guza rdzenia nadnerczy.",
+      "C) Połączenie stenozy aortalnej, ostrego zapalenia trzustki i retinopatii.",
+      "D) Wrodzone zwężenie aorty skojarzone z ubytkiem przegrody międzykomorowej.",
+      "E) Przerostowa kardiomiopatia z blokiem przedsionkowo-komorowym."
+    ],
+    "correctIdx": 0,
+    "corrLen": 177,
+    "avgWrong": 71,
+    "ratio": 2.49,
+    "exp": "Zespół Heyde'a to współistnienie stenozy aortalnej i krwawiących angiodysplazji jelitowych. Wysokie naprężenia ścinające w zwężonym ujściu aorty rozwijają multimery czynnika von Willebranda, powodując ich nadmierną degradację przez ADAMTS13 (nabyty vWD typ 2A). Wymiana zastawki aortalnej prowadzi do trwałego wyleczenia krwawień jelitowych."
+  },
+  {
+    "caseId": 33,
+    "caseFile": "33_stenoza_aortalna.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Dlaczego u chorego ze stenozą aortalną szmer skurczowy CICHNIE podczas wykonywania manewru Valsalvy (fazy II tężenia)?",
+    "opts": [
+      "A) Ponieważ manewr Valsalvy zwiększa powrót żylny do serca.",
+      "B) Ponieważ wzrost ciśnienia w klatce piersiowej zmniejsza powrót żylny do serca, redukując objętość wyrzutową przepływającą przez zwężoną zastawkę.",
+      "C) Ponieważ dochodzi do rozszerzenia pierścienia aortalnego.",
+      "D) Ponieważ zastawka aortalna ulega natychmiastowemu zwiotczeniu.",
+      "E) Ponieważ aktywuje się układ renina-angiotensyna."
+    ],
+    "correctIdx": 1,
+    "corrLen": 148,
+    "avgWrong": 58.8,
+    "ratio": 2.52,
+    "exp": "Podczas fazy natężenia manewru Valsalvy wzrost ciśnienia śródpiersiowego utrudnia napływ krwi żylnej do serca (spadek preload). Zmniejszenie objętości wyrzutowej przepływającej przez zwężoną zastawkę aortalną powoduje wyciszenie szmeru stenozy aortalnej (w przeciwieństwie do szmeru HOCM, który w próbie Valsalvy głośno narasta!)."
+  },
+  {
+    "caseId": 33,
+    "caseFile": "33_stenoza_aortalna.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Czym różni się szmer stenozy aortalnej od szmeru w kardiomiopatii przerostowej z zawężaniem drogi odpływu (HOCM)?",
+    "opts": [
+      "A) Szmer stenozy promieniuje do tętnic szyjnych i cichnie w próbie Valsalvy, a szmer HOCM nie promieniuje do szyi i gwałtownie narasta w próbie Valsalvy.",
+      "B) Szmer stenozy aortalnej występuje w rozkurczu, a HOCM w skurczu.",
+      "C) Szmer HOCM promieniuje do pleców, a stenozy do pachy.",
+      "D) Szmer stenozy nie zależy od przepływu krwi.",
+      "E) Nie ma żadnych różnic osłuchowych między tymi wadami."
+    ],
+    "correctIdx": 0,
+    "corrLen": 153,
+    "avgWrong": 56.3,
+    "ratio": 2.72,
+    "exp": "Szmer stenozy aortalnej promieniuje do tętnic szyjnych i cichnie w manewrze Valsalvy. W kardiomiopatii przerostowej (HOCM) szmer skurczowy wysłuchuje się wzdłuż lewego brzegu mostka, nie promieniuje do szyi i paradoksalnie znacznie głośniej narasta w próbie Valsalvy (zmniejszenie napełniania komory nasila dynamiczną obstrukcję LVOT)."
+  },
+  {
+    "caseId": 33,
+    "caseFile": "33_stenoza_aortalna.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "U pacjenta po zabiegu przezcewnikowej implantacji zastawki aortalnej (TAVI) planowany jest inwazyjny zabieg ekstrakcji zęba z naruszeniem tkanek okołowierzchołkowych. Jakie są aktualne zalecenia ESC dotyczące profilaktyki infekcyjnego zapalenia wsierdzia (IZW)?",
+    "opts": [
+      "A) Bezwzględne podanie antybiotyku profilaktycznego (np. amoksycylina 2 g doustnie na 30–60 minut przed zabiegiem), ponieważ sztuczna zastawka przezcewnikowa kwalifikuje pacjenta do grupy najwyższego ryzyka IZW.",
+      "B) Brak wskazań do jakiejkolwiek profilaktyki antybiotykowej u pacjentów po TAVI.",
+      "C) Podanie pojedynczej dawki gentamycyny 24 godziny po zabiegu.",
+      "D) Odroczenie zabiegu stomatologicznego o co najmniej 10 lat.",
+      "E) Wykonanie kontrolnej koronarografii przed wizytą u stomatologa."
+    ],
+    "correctIdx": 0,
+    "corrLen": 211,
+    "avgWrong": 67.8,
+    "ratio": 3.11,
+    "exp": "Zgodnie z wytycznymi ESC pacjenci po implantacji protezy zastawkowej (zarówno chirurgicznej, jak i przezcewnikowej TAVI) należą do grupy NAJWYŻSZEGO ryzyka IZW i bezwzględnie wymagają profilaktyki antybiotykowej (amoksycylina 2 g p.o. lub klindamycyna 600 mg przy alergii) przed procedurami stomatologicznymi naruszającymi dziąsła."
+  },
+  {
+    "caseId": 34,
+    "caseFile": "34_hfref_dekompensacja.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Dlaczego u pacjenta ze skrajną niewydolnością serca przyjęcie niesteroidowego leku przeciwzapalnego (NLPZ, np. ketoprofenu) może wywołać ostrą dekompensację z obrzękiem płuc i oligurią?",
+    "opts": [
+      "A) NLPZ blokują syntezę nerkowych prostaglandyn (PGE2, PGI2), co powoduje skurcz tętniczki doprowadzającej kłębuszka, spadek GFR oraz masywną retencję sodu i wody.",
+      "B) NLPZ bezpośrednio niszczą zastawkę aortalną, powodując ostrą niedomykalność.",
+      "C) NLPZ wywołują natychmiastowe zablokowanie receptorów beta-adrenergicznych w sercu.",
+      "D) NLPZ stymulują wydzielanie peptydu BNP, wywołując hipowolemię.",
+      "E) NLPZ trwale neutralizują działanie insuliny w nerkach."
+    ],
+    "correctIdx": 0,
+    "corrLen": 163,
+    "avgWrong": 71.5,
+    "ratio": 2.28,
+    "exp": "Prostaglandyny nerkowe (PGE2, PGI2) fizjologicznie rozszerzają tętniczkę doprowadzającą kłębuszka nerkowego, chroniąc filtrację w stanach niskiego rzutu serca. NLPZ poprzez hamowanie COX-1 i COX-2 znoszą to działanie ochronne, wywołując skurcz naczynia, załamanie GFR oraz retencję sodu i wody, co prowadzi do ostrej dekompensacji HFrEF."
+  },
+  {
+    "caseId": 34,
+    "caseFile": "34_hfref_dekompensacja.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jakie postępowanie z przewlekłym leczeniem beta-adrenolitykiem (np. bisoprololem) zalecają wytyczne ESC u pacjenta z ostrą dekompensacją niewydolności serca we wstrząsie kardiogennym (profil 'mokry i zimny')?",
+    "opts": [
+      "A) Natychmiastowe podwojenie dawki beta-blokera.",
+      "B) Czasowe odstawienie lub zredukowanie dawki beta-adrenolityku o połowę ze względu na ujemny inotropizm nasilający wstrząs.",
+      "C) Podanie beta-blokera w bolusie dożylnym.",
+      "D) Zamiana bisoprololu na propranolol w wysokiej dawce.",
+      "E) Pozostawienie bez zmian i ignorowanie ciśnienia tętniczego."
+    ],
+    "correctIdx": 1,
+    "corrLen": 124,
+    "avgWrong": 52,
+    "ratio": 2.38,
+    "exp": "Zgodnie z wytycznymi ESC w ostrej dekompensacji z cechami hipoperfuzji narządowej i wstrząsu (profil 'zimny') beta-adrenolityk musi zostać czasowo zredukowany lub odstawiony. Ponowne włączenie lub powrót do pełnej dawki jest możliwy dopiero po pełnej stabilizacji hemodynamicznej pacjenta i odstawieniu inotropów."
+  },
+  {
+    "caseId": 34,
+    "caseFile": "34_hfref_dekompensacja.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Jaki jest główny hemodynamiczny patomechanizm ostrego uszkodzenia nerek w zespole sercowo-nerkowym typu 1 (CRS 1) w przebiegu ostrej niewydolności serca?",
+    "opts": [
+      "A) Wyłącznie bezpośrednie toksyczne uszkodzenie cewek nerkowych przez troponiny.",
+      "B) Zastój w łożysku żylnym nerek (wzrost ciśnienia w żyłach nerkowych) w połączeniu z hipoperfuzją tętniczą, spłaszczający przeznerkowy gradient filtracji.",
+      "C) Zator bakteryjny tętnic nerkowych.",
+      "D) Ostra martwica brodawek nerkowych z powodu infekcji wirusowej.",
+      "E) Zwężenie tętnicy nerkowej wywołane miażdżycą."
+    ],
+    "correctIdx": 1,
+    "corrLen": 155,
+    "avgWrong": 57.5,
+    "ratio": 2.7,
+    "exp": "W ostrym zespole sercowo-nerkowym (CRS 1) kluczowym czynnikiem niszczącym filtrację jest zastój żylny nerkowy (renal congestion). Wzrost ośrodkowego ciśnienia żylnego (CVP) i ciśnienia w żyłach nerkowych podnosi ciśnienie w torebce Bowmana, spłaszczając gradient ciśnienia niezbędny do filtracji kłębuszkowej GFR."
+  },
+  {
+    "caseId": 34,
+    "caseFile": "34_hfref_dekompensacja.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Dlaczego u chorego we wstrząsie kardiogennym z hipotensją 78/48 mmHg i oligurią podanie wysokich dawek dożylnego furosemidu PRZED wdrożeniem amin inotropowych jest błędem?",
+    "opts": [
+      "A) Ponieważ furosemid wywołuje gwałtowny wzrost ciśnienia powyżej 200 mmHg.",
+      "B) Ponieważ przy braku adekwatnego ciśnienia perfuzji (MAP <60-65 mmHg) nerki nie filtrują moczu, a sam diuretyk pogłębi hipowolemię i wywoła martwicę cewek nerkowych.",
+      "C) Ponieważ furosemid trwale blokuje receptory dla dobutaminy.",
+      "D) Ponieważ furosemid powoduje natychmiastową hiperglikemię >600 mg/dl.",
+      "E) Ponieważ furosemid działa wyłącznie przy pH >7,60."
+    ],
+    "correctIdx": 1,
+    "corrLen": 167,
+    "avgWrong": 65.3,
+    "ratio": 2.56,
+    "exp": "Filtracja kłębuszkowa wymaga minimalnego ciśnienia napędowego (MAP ≥65 mmHg). Forsowanie diurezy u pacjenta we wstrząsie kardiogennym przed ustabilizowaniem rzutu serca i ciśnienia perfuzyjnego prowadzi do załamania powrotu żylnego, skurczu tętniczek nerkowych i ostrej martwicy cewek (ATN)."
+  },
+  {
+    "caseId": 34,
+    "caseFile": "34_hfref_dekompensacja.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Co oznacza obecność III tonu serca (S3 gallop) stwierdzana osłuchowo u dorosłego pacjenta z zaostrzeniem niewydolności serca?",
+    "opts": [
+      "A) Fizjologiczny wariant normy u każdego chorego po 60. roku życia.",
+      "B) Gwałtowne hamowanie napływu krwi do przeciążonej objętościowo, rozstrzeniowej lewej komory we wczesnej fazie rozkurczu",
+      "C) Pęknięcie płatka zastawki aortalnej.",
+      "D) Obecność skrzepliny w aorcie wstępującej.",
+      "E) Całkowity blok odnogi pęczka Hisa."
+    ],
+    "correctIdx": 1,
+    "corrLen": 121,
+    "avgWrong": 46.8,
+    "ratio": 2.59,
+    "exp": "Ton III serca (S3, rytm cwałowy protodiastoliczny) powstaje we wczesnej fazie rozkurczu komór w momencie szybkiego napełniania komory. Występuje, gdy duża objętość krwi z przedsionka uderza o rozstrzeniową, mało podatną ścianę przeciążonej objętościowo lewej komory, stanowiąc twardy marker podwyższonego ciśnienia napełniania i ciężkiej dysfunkcji skurczowej. [Uzupełnienie: (marker wysokiego ciśnienia napełniania i niewydolności skurczowej)]"
+  },
+  {
+    "caseId": 35,
+    "caseFile": "35_torsade_de_pointes.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "45-letnia kobieta leczona citalopramem i przyjmująca furosemid trafia na SOR po utracie przytomności. W monitorowaniu EKG zarejestrowano wielokształtny częstoskurcz komorowy ze skręcaniem osi zespołów QRS wokół linii izoelektrycznej (Torsade de Pointes). W rytmie zatokowym QTc wynosi 570 ms, potas 2,9 mmol/l, magnez 0,6 mmol/l. Jaki lek należy podać NATYCHMIAST dożylnie w pierwszej kolejności?",
+    "opts": [
+      "A) Siarczan magnezu (MgSO4) 2,0 g i.v. w powolnym bolusie w ciągu 2–5 minut.",
+      "B) Amiodaron 300 mg i.v. w szybkim bolusie.",
+      "C) Sotalol 80 mg doustnie.",
+      "D) Metoprolol 10 mg i.v.",
+      "E) Digoksyna 0,5 mg i.v."
+    ],
+    "correctIdx": 0,
+    "corrLen": 76,
+    "avgWrong": 29.3,
+    "ratio": 2.6,
+    "exp": "Siarczan magnezu (MgSO4 2,0 g i.v.) jest lekiem pierwszego rzutu w ostrym leczeniu i zapobieganiu Torsade de Pointes. Magnez blokuje napływ wapnia i gasi wczesne depolaryzacje następcze (EAD). Amiodaron i sotalol są bezwzględnie przeciwwskazane, ponieważ same wydłużają odstęp QT."
+  },
+  {
+    "caseId": 35,
+    "caseFile": "35_torsade_de_pointes.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Dlaczego u pacjenta z nabytym zespołem długiego odstępu QT i Torsade de Pointes stosowanie leków przeciwarytmicznych klasy III (amiodaron, sotalol) oraz klasy Ia (chinidyna, prokainamid) jest BEZWZGLĘDNIE ZAKAZANE?",
+    "opts": [
+      "A) Wywołują złośliwą hipertermię pooperacyjną.",
+      "B) Blokują kanały potasowe odpowiedzialne za repolaryzację komór, co jeszcze bardziej wydłuża odstęp QT i wyzwala nieodwracalne migotanie komór (VF).",
+      "C) Powodują gwałtowny spadek stężenia magnezu poniżej zera.",
+      "D) Wchodzą w reakcję chemiczną z plastikiem rurki intubacyjnej.",
+      "E) Zwiększają opór naczyniowy w łożysku płucnym o 500%."
+    ],
+    "correctIdx": 1,
+    "corrLen": 149,
+    "avgWrong": 55.8,
+    "ratio": 2.67,
+    "exp": "Podstawowym mechanizmem działania leków klasy Ia i III jest blokada kanałów potasowych i wydłużenie czasu trwania potencjału czynnościowego (wydłużenie QT). W zespole długiego QT ich podanie drastycznie pogłębia istniejącą patologię, prowokując burzę elektryczną TdP i zgon pacjenta."
+  },
+  {
+    "caseId": 35,
+    "caseFile": "35_torsade_de_pointes.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Jaki jest podstawowy wzór elektrokardiograficzny powszechnie stosowany do obliczania skorygowanego odstępu QT (QTc) w zależności od częstości rytmu serca?",
+    "opts": [
+      "A) Wzór Bazetta: QTc = QT / pierwiastek kwadratowy z RR.",
+      "B) Wzór Cockcrofta-Gaulta.",
+      "C) Wzór Friedewalda.",
+      "D) Wzór MDRD.",
+      "E) Wzór Wintersa."
+    ],
+    "correctIdx": 0,
+    "corrLen": 56,
+    "avgWrong": 19,
+    "ratio": 2.95,
+    "exp": "Do korekcji odstępu QT względem częstości rytmu serca (RR wyrażone w sekundach) najpowszechniej stosuje się wzór Bazetta: QTc = QT / √(RR). Wartości QTc >450 ms u mężczyzn i >460 ms u kobiet uznaje się za wydłużone, a wartości >500 ms niosą wysokie ryzyko TdP."
+  },
+  {
+    "caseId": 35,
+    "caseFile": "35_torsade_de_pointes.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Na czym polega zjawisko 'wczesnych depolaryzacji następczych' (Early Afterdepolarizations – EAD) leżące u podstaw powstawania Torsade de Pointes?",
+    "opts": [
+      "A) Spontaniczne patologiczne depolaryzacje komórkowe powstające w fazie 2 lub 3 potencjału czynnościowego komory w wyniku reaktywacji kanałów wapniowych typu L w warunkach przedłużonej repolaryzacji.",
+      "B) Przedwczesne pobudzenia węzła zatokowego wywołane stymulacją nerwu błędnego.",
+      "C) Wsteczna depolaryzacja przedsionków przez pęczek Kenta.",
+      "D) Załamanie przewodzenia w pęczku Hisa.",
+      "E) Zablokowanie pompy sodowo-potasowej przez glukozę."
+    ],
+    "correctIdx": 0,
+    "corrLen": 199,
+    "avgWrong": 57.5,
+    "ratio": 3.46,
+    "exp": "EAD powstają w warunkach wydłużonego potencjału czynnościowego (faza 2 i 3). Przedłużony stan częściowej depolaryzacji umożliwia powtórne otwarcie (reaktywację) napięciozależnych kanałów wapniowych L-type (prąd ICa,L). Jeśli napływ Ca2+ osiągnie potencjał progowy, wyzwala dodatkowy skurcz (triggered activity), inicjujący TdP."
+  },
+  {
+    "caseId": 35,
+    "caseFile": "35_torsade_de_pointes.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Czy pacjentka po skutecznym leczeniu nabytego, polekowego zespołu długiego QT z TdP, u której po odstawieniu leków i wyrównaniu elektrolitów QTc wynosi trwale 420 ms, wymaga wszczepienia kardiowertera-defibrylatora (ICD)?",
+    "opts": [
+      "A) Tak, każdy chory po epizodzie TdP bezwzględnie wymaga ICD.",
+      "B) Nie, nabyty zespół LQTS z przemijającą, odwracalną przyczyną (polipragmazja, hipokaliemia) nie stanowi wskazania do implantacji ICD, pod warunkiem trwałej eliminacji czynnika wyzwalającego i edukacji pacjenta.",
+      "C) Wymaga wszczepienia stymulatora VVI bez funkcji defibrylacji.",
+      "D) Wymaga natychmiastowej transplantacji serca.",
+      "E) Wymaga ablacji chirurgicznej lewej komory."
+    ],
+    "correctIdx": 1,
+    "corrLen": 212,
+    "avgWrong": 54.3,
+    "ratio": 3.91,
+    "exp": "Zgodnie z wytycznymi ESC/AHA implantacja ICD nie jest wskazana u chorych z nabytym LQTS o znanej, w pełni odwracalnej etiologii (leki, zaburzenia elektrolitowe), u których po usunięciu przyczyny dochodzi do trwałej normalizacji odstępu QTc (<450 ms)."
+  },
+  {
+    "caseId": 36,
+    "caseFile": "36_izw.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Które z poniższych zjawisk stanowi kryterium większe w zmodyfikowanych kryteriach Duke'a dla rozpoznania infekcyjnego zapalenia wsierdzia?",
+    "opts": [
+      "A) Gorączka >= 38.0°C",
+      "B) Uwidocznienie wegetacji, ropnia lub nowego rozejścia się sztucznej zastawki w badaniu echokardiograficznym (TEE/TTE)",
+      "C) Obecność plamek Rotha w badaniu dna oka",
+      "D) Wylewy krwawe pod paznokciami (splinter hemorrhages)",
+      "E) Dodatni wynik pojedynczego posiewu krwi w kierunku Staphylococcus epidermidis"
+    ],
+    "correctIdx": 1,
+    "corrLen": 119,
+    "avgWrong": 49.5,
+    "ratio": 2.4,
+    "exp": "Kryteriami większymi Duke'a są: 1. Dodatnie posiewy krwi typowe dla IZW (np. z dwóch osobnych pobrań) oraz 2. Dowody zajęcia wsierdzia w badaniach obrazowych (wegetacja, ropień, przetoka, tętniak rzekomy, nowe rozejście sztucznej zastawki). Gorączka, plamki Rotha, wybroczyny to kryteria mniejsze."
+  },
+  {
+    "caseId": 36,
+    "caseFile": "36_izw.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Czym charakteryzuje się objaw Janewaya w przebiegu IZW?",
+    "opts": [
+      "A) Bolesne, uniesione guzki na opuszkach palców",
+      "B) Niebolesne, rumieniowe lub krwotoczne plamki na skórze dłoni i podeszw stóp o podłożu zatorowo-naczyniowym",
+      "C) Wybroczyny siatkówkowe z bladym centrum",
+      "D) Zażółcenie twardówek z powodu hemolizy",
+      "E) Drżenie głowy zsynchronizowane ze skurczem komór"
+    ],
+    "correctIdx": 1,
+    "corrLen": 109,
+    "avgWrong": 45.3,
+    "ratio": 2.41,
+    "exp": "Plamki Janewaya to niebolesne plamy rumieniowe/krwotoczne na dłoniach i stopach spowodowane mikrozatorami septycznymi. Guzki Oslera są bolesne i mają podłoże immunologiczne."
+  },
+  {
+    "caseId": 36,
+    "caseFile": "36_izw.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "U których pacjentów według wytycznych ESC i PTK zaleca się stosowanie profilaktyki antybiotykowej IZW przed zabiegami stomatologicznymi?",
+    "opts": [
+      "A) U każdego pacjenta z wypadaniem płatka zastawki mitralnej",
+      "B) U pacjentów z grupy najwyższego ryzyka: ze sztuczną zastawką, przebytym IZW lub nieskorygowaną siniczą wadą wrodzoną",
+      "C) U pacjentów z nadciśnieniem tętniczym i cukrzycą",
+      "D) U wszystkich chorych z jakimkolwiek szmerem serca",
+      "E) U pacjentów po wszczepieniu stentu wieńcowego (DES) 2 lata wcześniej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 119,
+    "avgWrong": 58.5,
+    "ratio": 2.03,
+    "exp": "Profilaktyka IZW wg ESC dotyczy wyłącznie pacjentów z grupy najwyższego ryzyka (sztuczna zastawka serca, przebyte IZW, nieskorygowana wada wrodzona sinicza lub stan do 6 mies. po jej korekcji)."
+  },
+  {
+    "caseId": 37,
+    "caseFile": "37_blok_av_mas.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Która z poniższych cech elektrokardiograficznych jednoznacznie definiuje całkowity blok przedsionkowo-komorowy (blok AV III stopnia)?",
+    "opts": [
+      "A) Wydłużenie odstępu PR > 200 ms ze stałym przewodzeniem każdego załamka P",
+      "B) Stopniowe wydłużanie PR z wypadaniem co 3-4 zespołu QRS",
+      "C) Całkowity brak zależności między rytmem załamków P a zespołami QRS (rozkojarzenie AV) przy wolniejszej czynności komór niż przedsionków",
+      "D) Wypadanie zespołów QRS bez uprzedniego wydłużenia odstępu PR",
+      "E) Skrócenie odstępu PR < 120 ms z obecnością fali delta"
+    ],
+    "correctIdx": 2,
+    "corrLen": 138,
+    "avgWrong": 63,
+    "ratio": 2.19,
+    "exp": "W bloku AV III stopnia przedsionki i komory pracują całkowicie niezależnie (rozkojarzenie przedsionkowo-komorowe). Rytm przedsionków (zatokowy) jest zazwyczaj prawidłowy lub przyspieszony, a rytm zastępczy komór znacznie wolniejszy."
+  },
+  {
+    "caseId": 37,
+    "caseFile": "37_blok_av_mas.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Czym charakteryzuje się zespół Morgagniego-Adamsa-Stokesa (MAS)?",
+    "opts": [
+      "A) Napadowym bólem głowy z potami i bladością w przebiegu guza chromochłonnego",
+      "B) Nagłą utratą przytomności z bladością i drgawkami anoksycznymi wskutek ostrego niedokrwienia mózgu z powodu asystolii lub skrajnej bradykardii",
+      "C) Porażeniem nerwu twarzowego w przebiegu boreliozy",
+      "D) Zapaścią ortostatyczną po nagłym wstaniu z łóżka",
+      "E) Dusznością w pozycji leżącej ustępującą po wstaniu (orthopnoe)"
+    ],
+    "correctIdx": 1,
+    "corrLen": 145,
+    "avgWrong": 61.5,
+    "ratio": 2.36,
+    "exp": "Zespół MAS to nagła utrata przytomności wywołana przejściowym zatrzymaniem krążenia (asystolia, blok AV, migotanie komór), cechująca się nagłą bladością, drgawkami mózgowymi i szybkim powrotem świadomości z zaczerwienieniem twarzy."
+  },
+  {
+    "caseId": 37,
+    "caseFile": "37_blok_av_mas.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Czym objawia się tzw. 'zespół stymulatorowy' u pacjenta ze stymulatorem komorowym typu VVI?",
+    "opts": [
+      "A) Odmą opłucnową po nakłuciu żyły",
+      "B) Spadkiem rzutu serca, dusznością, męczliwością i pulsowaniem w szyi wskutek asynchronii przedsionkowo-komorowej i wstecznego przewodzenia VA",
+      "C) Zapaleniem wsierdzia loży stymulatora",
+      "D) Wzrostem progu stymulacji powyżej 5 V",
+      "E) Drganiami mięśni ściany klatki piersiowej na skutek stymulacji nerwu przeponowego"
+    ],
+    "correctIdx": 1,
+    "corrLen": 143,
+    "avgWrong": 49.5,
+    "ratio": 2.89,
+    "exp": "Zespół stymulatorowy występuje przy stymulacji VVI, gdy brak synchronii AV lub wsteczne przewodzenie VA powoduje skurcz przedsionków przy zamkniętych zastawkach AV, co prowadzi do spadku BP, duszności i pulsowania w szyi."
+  },
+  {
+    "caseId": 37,
+    "caseFile": "37_blok_av_mas.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Dlaczego u chorego z blokiem AV III stopnia występuje tzw. 'zmienny I ton serca' w badaniu osłuchowym?",
+    "opts": [
+      "A) Z powodu okresowego pękania struny ścięgnistej",
+      "B) Z powodu ciągłych zmian położenia płatków zastawki mitralnej w momencie skurczu komór, zależnych od zmiennego odstępu między skurczem przedsionka a skurczem komory",
+      "C) Z powodu zwężenia zastawki aortalnej",
+      "D) Z powodu skurczu tętnic płucnych",
+      "E) Z powodu niedomykalności zastawki trójdzielnej wywołanej infekcją"
+    ],
+    "correctIdx": 1,
+    "corrLen": 166,
+    "avgWrong": 47.8,
+    "ratio": 3.48,
+    "exp": "Głośność I tonu zależy od stopnia rozwarcia płatków zastawki mitralnej na początku skurczu komory. Przy rozkojarzeniu AV odstęp PR stale się zmienia – gdy przedsionek kurczy się tuż przed komorą, I ton jest bardzo głośny ('kłapiący'), a gdy skurcz następuje dawno – I ton jest cichy."
+  },
+  {
+    "caseId": 38,
+    "caseFile": "38_przelom_nadcisnieniowy.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Jaka jest fundamentalna różnica kliniczna między stanem nagłym (hypertensive emergency) a stanem pilnym (hypertensive urgency) w nadciśnieniu tętniczym?",
+    "opts": [
+      "A) W stanie nagłym ciśnienie skurczowe zawsze przekracza 250 mmHg, a w stanie pilnym nie",
+      "B) Stan nagły charakteryzuje się obecnością ostrego uszkodzenia narządów krytycznych (serca, mózgu, nerek, naczyń), podczas gdy w stanie pilnym takiego uszkodzenia nie ma",
+      "C) W stanie pilnym zawsze występuje obrzęk płuc",
+      "D) Stan nagły leczy się wyłącznie lekami doustnymi, a stan pilny lekami dożylnymi",
+      "E) Stan pilny wymaga natychmiastowej intubacji dotchawiczej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 170,
+    "avgWrong": 68.8,
+    "ratio": 2.47,
+    "exp": "Kluczowym kryterium podziału jest obecność ostrego, postępującego uszkodzenia narządów docelowych (HMOD: encefalopatia, obrzęk płuc, OZW, rozwarstwienie aorty, AKI, retinopatia z obrzękiem tarczy)."
+  },
+  {
+    "caseId": 38,
+    "caseFile": "38_przelom_nadcisnieniowy.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Który z poniższych leków jest BEZWZGLĘDNIE PRZECIWWSKAZANY w doraźnym obniżaniu ciśnienia w stanach nagłych i pilnych z powodu ryzyka gwałtownego spadku ciśnienia i udaru mózgu?",
+    "opts": [
+      "A) Urapidyl i.v.",
+      "B) Labetalol i.v.",
+      "C) Nifedypina w postaci krótko działającej podjęzykowo (krople/kapsułka)",
+      "D) Nitrogliceryna we wlewie ciągłym",
+      "E) Esmolol i.v."
+    ],
+    "correctIdx": 2,
+    "corrLen": 72,
+    "avgWrong": 20.8,
+    "ratio": 3.47,
+    "exp": "Krótko działająca doustna lub podjęzykowa nifedypina jest przeciwwskazana w stanach nagłych ze względu na gwałtowny, niemożliwy do kontrolowania spadek ciśnienia, odruchową tachykardię i wysokie ryzyko zawału lub udaru."
+  },
+  {
+    "caseId": 38,
+    "caseFile": "38_przelom_nadcisnieniowy.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Jak działa urapidyl – lek z wyboru w stanach nagłych w nadciśnieniu tętniczym?",
+    "opts": [
+      "A) Wybiórczy agonista receptorów beta-2",
+      "B) Blokuje obwodowe receptory alfa-1-adrenergiczne oraz pobudza ośrodkowe receptory serotoninowe 5-HT1A",
+      "C) Jest bezpośrednim inhibitorem konwertazy angiotensyny",
+      "D) Blokuje kanały sodowe w pętli Henlego",
+      "E) Jest bezpośrednim donorem tlenku azotu bez wpływu na receptory"
+    ],
+    "correctIdx": 1,
+    "corrLen": 103,
+    "avgWrong": 50,
+    "ratio": 2.06,
+    "exp": "Urapidyl wykazuje podwójny mechanizm: obwodowo blokuje receptory postsynaptyczne alfa-1 (rozszerzenie naczyń), a ośrodkowo pobudza receptory serotoninowe 5-HT1A, co hamuje odruchową tachykardię."
+  },
+  {
+    "caseId": 38,
+    "caseFile": "38_przelom_nadcisnieniowy.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Jakie powikłanie toksyczne może wystąpić podczas długotrwałego wlewu nitroprusydku sodu, szczególnie u chorych z niewydolnością nerek?",
+    "opts": [
+      "A) Zatrucie tiocyjanianami i cyjankami oraz kwasica mleczanowa",
+      "B) Zwłóknienie płuc",
+      "C) Zespół Guillaina-Barrégo",
+      "D) Agranulocytoza",
+      "E) Hiperurykemia z napadem dny moczanowej"
+    ],
+    "correctIdx": 0,
+    "corrLen": 62,
+    "avgWrong": 26,
+    "ratio": 2.38,
+    "exp": "Nitroprusydek sodu metabolizowany jest do cyjanków, które wątroba przekształca w tiocyjaniany wydalane przez nerki. Przy wlewach >24-48h lub w PChN grozi śmiertelne zatrucie cyjankami/tiocyjanianami."
+  },
+  {
+    "caseId": 39,
+    "caseFile": "39_zapalenie_osierdzia.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Jak definiuje się pojęcie 'myopericarditis' wg wytycznych ESC?",
+    "opts": [
+      "A) Zapalenie osierdzia z ciężką dysfunkcją skurczową lewej komory (EF <30%)",
+      "B) Spełnienie kryteriów zapalenia osierdzia ze współistniejącym wzrostem biomarkerów martwicy mięśnia sercowego (troponiny) przy zachowanej lub nieznacznie upośledzonej funkcji lewej komory",
+      "C) Zapalenie osierdzia wywołane wyłącznie zakażeniem prątkiem gruźlicy",
+      "D) Izolowane zapalenie wsierdzia i mięśnia sercowego bez zajęcia osierdzia",
+      "E) Obecność płynu w osierdziu o objętości przekraczającej 1000 ml"
+    ],
+    "correctIdx": 1,
+    "corrLen": 189,
+    "avgWrong": 71,
+    "ratio": 2.66,
+    "exp": "Gdy spełnione są kryteria zapalenia osierdzia, a troponiny są podwyższone bez cech ostrej niewydolności serca i ciężkiego upośledzenia kurczliwości, stan ten określa się jako myopericarditis."
+  },
+  {
+    "caseId": 39,
+    "caseFile": "39_zapalenie_osierdzia.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Jakie badanie obrazowe jest uważane za złoty standard w różnicowaniu zapalenia mięśnia sercowego z zawałem i ocenie obrzęku tkanek serca?",
+    "opts": [
+      "A) Rezonans magnetyczny serca (CMR) z oceną późnego wzmocnienia po gadolinie (LGE)",
+      "B) Koronarografia inwazyjna",
+      "C) RTG klatki piersiowej w projekcji bocznej",
+      "D) Scyntygrafia perfuzyjna SPECT",
+      "E) Pozytonowa tomografia emisyjna (PET) z fludeoksyglukozą"
+    ],
+    "correctIdx": 0,
+    "corrLen": 82,
+    "avgWrong": 40.3,
+    "ratio": 2.04,
+    "exp": "CMR (rezonans magnetyczny serca) wg kryteriów z Lake Louise jest złotym standardem oceny myopericarditis: uwidacznia obrzęk miokardium w T2 oraz podnasierdziowe/śródścienne późne wzmocnienie kontrastowe (LGE)."
+  },
+  {
+    "caseId": 40,
+    "caseFile": "40_hocm.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Czym jest zjawisko SAM (systolic anterior motion) w echokardiografii chorego z HOCM?",
+    "opts": [
+      "A) Skurczowy ruch przedniego płatka zastawki mitralnej w stronę przegrody międzykomorowej wywołujący zawężenie drogi odpływu lewej komory",
+      "B) Rozkurczowe zapadanie się wolnej ściany prawej komory w tamponadzie",
+      "C) Skurczowy ruch tylnej ściany lewej komory w stronę worka osierdziowego",
+      "D) Wypadanie płatka zastawki aortalnej do lewej komory w rozkurczu",
+      "E) Ruch płatka zastawki trójdzielnej ku górze w skurczu komór"
+    ],
+    "correctIdx": 0,
+    "corrLen": 137,
+    "avgWrong": 67.5,
+    "ratio": 2.03,
+    "exp": "SAM to skurczowy ruch przedniego (lub obu) płatka zastawki mitralnej ku przerośniętej przegrodzie międzykomorowej, napędzany efektem Venturiego i siłami hydrodynamicznymi, stanowiący główną przyczynę zawężenia LVOT i niedomykalności mitralnej."
+  },
+  {
+    "caseId": 40,
+    "caseFile": "40_hocm.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Który lek stanowi farmakologiczny pierwszy rzut w łagodzeniu objawów u pacjentów z HOCM wg wytycznych ESC?",
+    "opts": [
+      "A) Digoksyna",
+      "B) Beta-bloker niesercoaktywny lub kardioselektywny miareczkowany do dawki docelowej",
+      "C) Amlodypina",
+      "D) Spironolakton",
+      "E) Furosemid w wysokiej dawce"
+    ],
+    "correctIdx": 1,
+    "corrLen": 84,
+    "avgWrong": 17.5,
+    "ratio": 4.8,
+    "exp": "Beta-adrenolityki (np. bisoprolol, metoprolol, propranolol) są lekami pierwszego wyboru; działają inotropowo ujemnie, wydłużają rozkurcz i zmniejszają powysiłkowy gradient w LVOT."
+  },
+  {
+    "caseId": 40,
+    "caseFile": "40_hocm.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Jaki jest mechanizm działania Mawakamtenu (Mavacamten) – nowoczesnego leku celowanego w HCM?",
+    "opts": [
+      "A) Selektywny allosteryczny inhibitor sercowej miozyny redukujący powstawanie mostków aktynowo-miozynowych",
+      "B) Bloker receptorów angiotensyny II",
+      "C) Bezpośredni aktywator kanałów potasowych w komórkach rozrusznikowych",
+      "D) Antagonista receptorów aldosteronowych",
+      "E) Monoklonalne przeciwciało przeciwko PCSK9"
+    ],
+    "correctIdx": 0,
+    "corrLen": 106,
+    "avgWrong": 48,
+    "ratio": 2.21,
+    "exp": "Mawakamten hamuje allosterycznie miozynę sercową, obniżając nadmierną kurczliwość sarkomeru i zmniejszając dynamiczny gradient w LVOT u chorych z HOCM."
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Który z poniższych objawów klinicznych jest najbardziej swoisty dla AVNRT i wynika ze skurczu przedsionków przy zamkniętych zastawkach przedsionkowo-komorowych?",
+    "opts": [
+      "A) Szmer holosystoliczny w punkcie Erba",
+      "B) Uczucie silnego, szybkiego łomotania i tętnienia w dołku podsercowym oraz w gardle",
+      "C) Bradykardia poniżej 40/min w pozycji leżącej",
+      "D) Wzrost ciśnienia rozkurczowego powyżej 130 mmHg",
+      "E) Sinica obwodowa płatków uszu"
+    ],
+    "correctIdx": 1,
+    "corrLen": 85,
+    "avgWrong": 41.8,
+    "ratio": 2.04,
+    "exp": "W typowym AVNRT komory i przedsionki depolaryzują się niemal jednocześnie. Skurcz prawego przedsionka przy zamkniętej zastawce trójdzielnej generuje wsteczne fale tętna żylnego odczuwane jako gwałtowne pulsowanie w gardle (tzw. frog sign). [Uzupełnienie: (tzw. frog sign – objaw żaby)]"
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Jaka jest dawka początkowa i technika podania Adenozyny w celu przerwania stabilnego hemodynamicznie częstoskurczu z wąskimi zespołami QRS u dorosłego wg wytycznych ESC/ERC?",
+    "opts": [
+      "A) 1 mg podskórnie",
+      "B) 6 mg w szybkim bolusie dożylnym (push and flush) z natychmiastowym przepłukaniem 20 ml soli fizjologicznej",
+      "C) 12 mg w powolnym wlewie kroplowym przez 1 godzinę",
+      "D) 300 mg we wlewie ciągłym w 5% glukozie",
+      "E) 0.5 mg doustnie podjęzykowo"
+    ],
+    "correctIdx": 1,
+    "corrLen": 109,
+    "avgWrong": 35.3,
+    "ratio": 3.09,
+    "exp": "Standardem jest szybki bolus i.v. 6 mg do dużej żyły obwodowej z natychmiastowym 'przepłukaniem' 20 ml 0.9% NaCl, ze względu na ultrakrótki czas półtrwania leku (<10 s)."
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Jaki jest typowy obraz elektrokardiograficzny wstecznego załamka P w typowej postaci AVNRT (postać 'slow-fast')?",
+    "opts": [
+      "A) Wyraźny załamek P z długim odstępem PR > 300 ms przed każdym QRS",
+      "B) Załamek P ukryty w zespole QRS lub tuż za nim, tworzący rzekomy załamek r' w V1 oraz rzekome załamki s w odprowadzeniach dolnych",
+      "C) Ujemny załamek P w odprowadzeniu I z przerwą komorową 4 sekundy",
+      "D) Dodatni załamek P w aVR",
+      "E) Załamek P o morfologii fali delta"
+    ],
+    "correctIdx": 1,
+    "corrLen": 131,
+    "avgWrong": 48.8,
+    "ratio": 2.69,
+    "exp": "W typowym AVNRT wsteczna depolaryzacja przedsionków zachodzi niemal w tym samym czasie co komór; załamek P nakłada się na końcową część QRS, naśladując załamek r' w V1 (pseudo-r') i s w II, III, aVF (pseudo-s). [Uzupełnienie: (odstęp RP < 70 ms)]"
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Jakie działanie ma adenozyna na komórki węzła przedsionkowo-komorowego na poziomie receptorowym?",
+    "opts": [
+      "A) Blokuje receptory beta-1 i hamuje cyklazę adenylanową",
+      "B) Aktywuje receptory purynergiczne A1, hamuje dokomórkowy prąd wapniowy (ICa,L) i otwiera acetylocholinoniezależne kanały potasowe (IK,Ado), powodując hiperpolaryzację i zwolnienie przewodzenia AV",
+      "C) Pobudza receptory muskarynowe M2",
+      "D) Otwiera kanały sodowe bramkowane napięciem",
+      "E) Jest bezpośrednim antagonistą receptora rianodynowego RyR2"
+    ],
+    "correctIdx": 1,
+    "corrLen": 197,
+    "avgWrong": 49.3,
+    "ratio": 4,
+    "exp": "Adenozyna działa przez receptor A1 sprzężony z białkiem Gi, co obniża cAMP, zmniejsza dokomórkowy prąd wapniowy oraz aktywuje prąd potasowy IK,Ado, wywołując hiperpolaryzację i przejściowy blok przewodzenia AV."
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Jak zareaguje trzepotanie przedsionków (AFL) z przewodzeniem 2:1 na podanie dożylne adenozyny?",
+    "opts": [
+      "A) Natychmiastowym i trwałym powrotem do rytmu zatokowego",
+      "B) Przejściowym blokiem przewodzenia w węźle AV (ujawniającym w zapisie fale trzepotania F 'zęby piły' o częstości ~300/min), bez przerwania częstoskurczu przedsionkowego",
+      "C) Przekształceniem w asystolię trwającą ponad 30 minut",
+      "D) Wzrostem częstości rytmu komór do 300/min",
+      "E) Brak jakiejkolwiek reakcji w EKG"
+    ],
+    "correctIdx": 1,
+    "corrLen": 170,
+    "avgWrong": 47.8,
+    "ratio": 3.56,
+    "exp": "Adenozyna blokuje węzeł AV, ale nie przerywa pętli trzepotania w prawym przedsionku. Odsłania fale F o częstości 300/min przy przejściowym zwolnieniu rytmu komór, co ma ogromną wartość diagnostyczną."
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Który lek doustny jest zalecany w profilaktyce nawrotów AVNRT u pacjentów, którzy nie wyrażają zgody na ablację RF lub oczekują na zabieg?",
+    "opts": [
+      "A) Beta-adrenolityk (np. bisoprolol, metoprolol) lub niedihydropirydynowy antagonista wapnia",
+      "B) Monoterapia kwasem acetylosalicylowym",
+      "C) Spironolakton w dawce 100 mg/d",
+      "D) Furosemid 40 mg rano",
+      "E) Doksycyklina 100 mg co drugi dzień"
+    ],
+    "correctIdx": 0,
+    "corrLen": 92,
+    "avgWrong": 33.3,
+    "ratio": 2.77,
+    "exp": "Lekami pierwszego rzutu w farmakologicznej prewencji nawrotów AVNRT są doustne leki blokujące węzeł AV: beta-blokery lub werapamil/diltiazem. [Uzupełnienie: (diltiazem, werapamil)]"
+  },
+  {
+    "caseId": 41,
+    "caseFile": "41_avnrt.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Czym różni się ortodromowy AVRT od typowego AVNRT w badaniu elektrofizjologicznym?",
+    "opts": [
+      "A) W AVRT pętla reentry wykorzystuje anatomiczną dodatkową drogę przewodzenia (szlak przedsionkowo-komorowy), a w AVNRT pętla zamknięta jest w obrębie podwójnych dróg węzła AV",
+      "B) AVRT występuje wyłącznie u osób po 70. roku życia",
+      "C) AVNRT zawsze przebiega z szerokimi zespołami QRS",
+      "D) AVRT nie reaguje na adenozynę",
+      "E) W AVNRT nigdy nie udaje się wykonać ablacji"
+    ],
+    "correctIdx": 0,
+    "corrLen": 175,
+    "avgWrong": 45.3,
+    "ratio": 3.87,
+    "exp": "W AVRT (np. w zespole WPW) pętla obejmuje węzeł AV oraz dodatkowy szlak przedsionkowo-komorowy (pęczek Kenta). W AVNRT pętla re-entry znajduje się w całości w węźle AV (droga szybka i droga wolna)."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Które z poniższych kryteriów diagnostycznych wchodzi w skład kryteriów Mayo dla rozpoznania kardiomiopatii Takotsubo?",
+    "opts": [
+      "A) Obecność świeżej skrzepliny zamykającej gałąź międzykomorową przednią (LAD)",
+      "B) Przejściowa akineza, hipokineza lub dyskineza segmentów koniuszkowych i środkowych lewej komory wykraczająca poza obszar unaczynienia pojedynczej tętnicy wieńcowej",
+      "C) Trwałe, nieodwracalne uszkodzenie mięśnia sercowego w 12-miesięcznej obserwacji",
+      "D) Wzrost stężenia troponiny sercowej powyżej 50 000 ng/l",
+      "E) Obecność transmuralnego późnego wzmocnienia (LGE) w rezonansie magnetycznym"
+    ],
+    "correctIdx": 1,
+    "corrLen": 166,
+    "avgWrong": 73.8,
+    "ratio": 2.25,
+    "exp": "Kluczowym kryterium Mayo i InterTAK jest obecność przemijających zaburzeń kurczliwości wykraczających poza obszar unaczynienia pojedynczego naczynia wieńcowego, przy braku okluzji wieńcowej w koronarografii."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Jaki jest mechanizm powstawania zjawiska SAM i dynamicznego zawężenia drogi odpływu lewej komory (LVOTO) w kardiomiopatii Takotsubo?",
+    "opts": [
+      "A) Skurczowe rozdęcie aorty wstępującej",
+      "B) Kompensacyjna hiperkineza segmentów podstawnych lewej komory zbliżająca przedni płatek zastawki mitralnej do przegrody",
+      "C) Pęknięcie mięśnia brodawkowatego tylno-przyśrodkowego",
+      "D) Wypadanie płatka zastawki aortalnej do koniuszka lewej komory",
+      "E) Zatkanie drogi odpływu przez ruchomą skrzeplinę"
+    ],
+    "correctIdx": 1,
+    "corrLen": 121,
+    "avgWrong": 52.3,
+    "ratio": 2.32,
+    "exp": "Gdy koniuszek i segmenty środkowe ulegają zwiotczeniu, segmenty podstawne kurczą się hiperkinetycznie pod wpływem katecholamin, co zwęża LVOT i wywołuje zjawisko Venturiego zasysające płatek mitralny (SAM)."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Jakie powikłanie wewnątrzsercowe rozwija się u 5-10% pacjentów z kardiomiopatią Takotsubo wskutek stazy krwi w akinetycznym koniuszku lewej komory?",
+    "opts": [
+      "A) Rzekomy tętniak aorty",
+      "B) Przyścienna skrzeplina w koniuszku lewej komory (LV thrombus) niosąca ryzyko udaru zatorowego mózgu",
+      "C) Ostra przetoka międzykomorowa",
+      "D) Zapalenie wsierdzia zastawki trójdzielnej",
+      "E) Zwapnienie mięśni brodawkowatych"
+    ],
+    "correctIdx": 1,
+    "corrLen": 102,
+    "avgWrong": 33.8,
+    "ratio": 3.02,
+    "exp": "Staza krwi w balonowato rozdętym, nieruchomym koniuszku sprzyja powstawaniu skrzepliny przyściennej (skrzeplina w koniuszku LV), co wymaga pełnej antykoagulacji do czasu normalizacji kurczliwości."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Który z poniższych leków jest rekomendowany w fazie ostrej i podostrej u pacjentów z kardiomiopatią Takotsubo bez przeciwwskazań w celu poprawy przeżywalności i regeneracji lewej komory?",
+    "opts": [
+      "A) Inhibitor enzymu konwertującego angiotensynę (ACEI) lub sartan (ARB)",
+      "B) Digoksyna w stałej dawce dobowej",
+      "C) Diltiazem w monoterapii",
+      "D) Monoazotan izosorbidu",
+      "E) Teofilina"
+    ],
+    "correctIdx": 0,
+    "corrLen": 71,
+    "avgWrong": 24.3,
+    "ratio": 2.93,
+    "exp": "Analizy z międzynarodowych rejestrów (m.in. InterTAK) wykazały, że stosowanie inhibitorów ACE lub ARB wiąże się z niższą śmiertelnością i szybszą poprawą kurczliwości lewej komory u chorych z Takotsubo."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Czym różni się postać odwrócona (inverted / reverse Takotsubo) od postaci klasycznej?",
+    "opts": [
+      "A) Zaburzenia kurczliwości dotyczą wyłącznie prawej komory",
+      "B) Występuje hipokineza segmentów podstawnych z zachowaną lub nadmierną kurczliwością koniuszka lewej komory",
+      "C) Dotyczy wyłącznie pacjentów z cukrzycą typu 1",
+      "D) Przebiega ze skrajnym obniżeniem stężenia BNP",
+      "E) Występuje wyłącznie po zatruciu cyjankami"
+    ],
+    "correctIdx": 1,
+    "corrLen": 108,
+    "avgWrong": 49.5,
+    "ratio": 2.18,
+    "exp": "W postaci odwróconej (reverse/basal Takotsubo) to segmenty podstawne i okołopodstawne są akinetyczne, a koniuszek serca zachowuje prawidłową lub hiperkinetyczną kurczliwość; częściej dotyczy młodszych chorych."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Jakie zmiany w repolaryzacji komór w zapisie EKG są charakterystyczne dla podostrej fazy zespołu Takotsubo (po 2-3 dniach od początku)?",
+    "opts": [
+      "A) Przejście w blok prawej odnogi pęczka Hisa",
+      "B) Głębokie, szerokie, symetryczne ujemne załamki T oraz znaczne wydłużenie odstępu QTc",
+      "C) Skrócenie odstępu PR poniżej 100 ms",
+      "D) Wzrost amplitudy załamka P powyżej 4 mm",
+      "E) Zniknięcie załamków T w całym zapisie"
+    ],
+    "correctIdx": 1,
+    "corrLen": 87,
+    "avgWrong": 41.3,
+    "ratio": 2.11,
+    "exp": "Po ustąpieniu wczesnych uniesień ST w zespole Takotsubo pojawiają się głębokie, symetryczne, ujemne załamki T w odprowadzeniach przedsercowych oraz znaczne wydłużenie odstępu QTc, co stwarza przejściowe ryzyko Torsade de Pointes."
+  },
+  {
+    "caseId": 42,
+    "caseFile": "42_takotsubo.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Skąd wywodzi się nazwa 'Takotsubo' nadana tej kardiomiopatii przez japońskich kardiologów (Sato i wsp. 1990)?",
+    "opts": [
+      "A) Od nazwiska pierwszego pacjenta wyleczonego z choroby",
+      "B) Od nazwy tradycyjnego japońskiego naczynia ceramicznego z wąską szyjką i pękatym dnem służącego do połowu ośmiornic",
+      "C) Od gatunku jadowitej meduzy japońskiej wywołującej zawał serca",
+      "D) Od góry wulkanicznej w prefekturze Hiroszima",
+      "E) Od starojapońskiego słowa oznaczającego nagły zawał serca"
+    ],
+    "correctIdx": 1,
+    "corrLen": 118,
+    "avgWrong": 57,
+    "ratio": 2.07,
+    "exp": "Nazwa tako-tsubo oznacza ceramiczne naczynie/pułapkę na ośmiornice z szerokim, okrągłym dnem i wąską szyjką, co idealnie oddaje obraz wentrykulograficzny lewej komory w skurczu z rozdętym koniuszkiem i obkurczoną podstawą."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Jaki jest zalecany schemat dożylnej empirycznej antybiotykoterapii w ciężkim pozaszpitalnym zapaleniu płuc leczonym w szpitalu wg wytycznych PTChP i ATS/IDSA?",
+    "opts": [
+      "A) Ciprofloksacyna w monoterapii doustnej",
+      "B) Beta-laktam aktywny przeciw pneumokokom (np. ceftriakson lub cefotaksym lub amoksycylina z klawulanianem) w skojarzeniu z makrolidem (np. klarytromycyną lub azytromycyną) dożylnie",
+      "C) Monoterapia wankomycyną doustnie",
+      "D) Trimetoprim z sulfametoksazolem (kotrimoksazol)",
+      "E) Gentamycyna w monoterapii i.m."
+    ],
+    "correctIdx": 1,
+    "corrLen": 182,
+    "avgWrong": 39.8,
+    "ratio": 4.58,
+    "exp": "W ciężkim CAP standardem jest terapia skojarzona beta-laktamem i makrolidem (lub monoterapia fluorochinolonem oddechowym: lewofloksacyną/moksyfloksacyną), co zapewnia pokrycie pneumokoków i bakterii atypowych."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Która z poniższych cech klinicznych i laboratoryjnych jest wysoce charakterystyczna dla zapalenia płuc wywołanego przez Legionella pneumophila?",
+    "opts": [
+      "A) Wybitna hiperkaliemia i kwasica oddechowa",
+      "B) Objawy żołądkowo-jelitowe (wodnista biegunka, bóle brzucha), hiponatremia oraz podwyższenie aktywności aminotransferaz",
+      "C) Ropień zęba trzonowego",
+      "D) Wykwity pęcherzowe na dłoniach i stopach",
+      "E) Płytki krwi > 800 G/l"
+    ],
+    "correctIdx": 1,
+    "corrLen": 121,
+    "avgWrong": 34,
+    "ratio": 3.56,
+    "exp": "Zapalenie płuc o etiologii Legionella (choroba legionistów) klasycznie przebiega z wysoką gorączką, względną bradykardią (objaw Fageta), biegunką, splątaniem oraz hiponatremią i wzrostem AST/ALT."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Co oznacza bronchogram powietrzny (air bronchogram) widoczny w badaniu RTG klatki piersiowej?",
+    "opts": [
+      "A) Odmę opłucnową z uciskiem płuca",
+      "B) Uwidocznienie drożnych, wypełnionych powietrzem oskrzeli na tle zagęszczonego, pozbawionego powietrza miąższu płucnego w przebiegu zapalenia płatowego",
+      "C) Przerost prawej komory serca",
+      "D) Obecność płynu w szczelinie międzypłatowej",
+      "E) Pęknięcie ściany tchawicy"
+    ],
+    "correctIdx": 1,
+    "corrLen": 153,
+    "avgWrong": 34.5,
+    "ratio": 4.43,
+    "exp": "Bronchogram powietrzny to radiologiczny objaw konsolidacji miąższu płucnego (np. w płatowym zapaleniu płuc): pęcherzyki wypełnione są wysiękiem zapalnym, a oskrzela pozostają drożne i powietrzne."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Który z poniższych stanów stanowi DUŻE kryterium przyjęcia chorego z CAP na Oddział Intensywnej Terapii wg wytycznych ATS/IDSA?",
+    "opts": [
+      "A) Wiek powyżej 75 lat",
+      "B) Wstrząs septyczny wymagający zastosowania leków obkurczających naczynia (wazopresorów)",
+      "C) Temperatura ciała > 39.0°C",
+      "D) Wzrost stężenia prokalcytoniny > 2.0 ng/ml",
+      "E) Kaszel z ropną wydzieliną"
+    ],
+    "correctIdx": 1,
+    "corrLen": 89,
+    "avgWrong": 31,
+    "ratio": 2.87,
+    "exp": "Kryteria duże ATS/IDSA to: 1. Wstrząs septyczny z koniecznością wazopresorów; 2. Niewydolność oddechowa wymagająca intubacji i inwazyjnej wentylacji mechanicznej."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Które szybkie badanie moczu ma wysoką wartość w diagnostyce ciężkiego CAP i pozostaje dodatnie nawet po podaniu pierwszej dawki antybiotyku?",
+    "opts": [
+      "A) Oznaczenie ketonów w moczu",
+      "B) Test immunochromatograficzny na obecność antygenu Streptococcus pneumoniae w moczu",
+      "C) Pomiar dobowej zbiórki kwasu moczowego",
+      "D) Test w kierunku białka Bence-Jonesa",
+      "E) Badanie osadu moczu na obecność wałeczków woskowych"
+    ],
+    "correctIdx": 1,
+    "corrLen": 85,
+    "avgWrong": 40.5,
+    "ratio": 2.1,
+    "exp": "Wykrywanie antygenu otoczkowego S. pneumoniae w moczu charakteryzuje się wysoką swoistością (>95%) i utrzymuje się przez kilka dni po wdrożeniu leczenia przeciwbakteryjnego."
+  },
+  {
+    "caseId": 43,
+    "caseFile": "43_ciezkie_cap.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Jakie zaburzenie osłuchowe jest typowe dla fazy nacieku pęcherzykowego w płatowym zapaleniu płuc?",
+    "opts": [
+      "A) Szmer pęcherzykowy zaostrzony bez rzężeń",
+      "B) Patologiczny szmer oskrzelowy, wzmożone drżenie piersiowe (fremitus pectoralis) oraz dźwięczne rzężenia drobnobańkowe",
+      "C) Zniesienie drżenia piersiowego i wypuk bębenkowy",
+      "D) Tarcie opłucnowe słyszalne wyłącznie nad koniuszkiem serca",
+      "E) Świsty wydechowe o zmiennej lokalizacji"
+    ],
+    "correctIdx": 1,
+    "corrLen": 120,
+    "avgWrong": 49.3,
+    "ratio": 2.44,
+    "exp": "Konsolidacja pęcherzykowa (bez niedodmy oskrzela) doskonale przewodzi dźwięki z dużych dróg oddechowych: pojawia się patologiczny szmer oskrzelowy, wzmożenie drżenia piersiowego i dźwięczne rzężenia pęcherzykowe."
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Czym charakteryzuje się dodatni objaw Pembertona w badaniu fizykalnym?",
+    "opts": [
+      "A) Zblednięciem kończyny dolnej po uniesieniu jej do kąta 45 stopni",
+      "B) Nasileniem zaczerwienienia twarzy, poszerzeniem żył szyjnych i dusznością po obustronnym uniesieniu rąk powyżej głowy przez 1 minutę",
+      "C) Odgięciem palucha ku górze przy drażnieniu bocznego brzegu stopy",
+      "D) Wzrostem ciśnienia tętniczego o 30 mmHg przy wdechu",
+      "E) Zanikiem tętna na tętnicy promieniowej po obrocie głowy w stronę badaną"
+    ],
+    "correctIdx": 1,
+    "corrLen": 135,
+    "avgWrong": 65.5,
+    "ratio": 2.06,
+    "exp": "Objaw Pembertona polega na pojawieniu się zaczerwienienia/sinicy twarzy, poszerzenia żył szyjnych i świstu krtaniowego/duszności po uniesieniu obu rąk nad głowę na 60 s, co świadczy o uwięźnięciu struktur w otworze górnym klatki piersiowej (wole zamostkowe, guz śródpiersia, SVCS)."
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Które z poniższych kryteriów laboratoryjnych jest konieczne do rozpoznania zespołu SIADH (Schwartza-Barttera)?",
+    "opts": [
+      "A) Hiperosmolalność osocza > 300 mOsm/kg H2O",
+      "B) Hiponatremia hipoosmotyczna z nieadekwatnie wysoką osmolalnością moczu (>100 mOsm/kg H2O) i wydalaniem sodu w moczu > 30 mmol/l przy klinicznej euwolemii",
+      "C) Ciężka hiperkaliemia powyżej 6.5 mmol/l",
+      "D) Wysokie stężenie kwasu moczowego w surowicy (>10 mg/dl)",
+      "E) Wzrost stężenia TSH powyżej 20 mIU/l"
+    ],
+    "correctIdx": 1,
+    "corrLen": 156,
+    "avgWrong": 45.8,
+    "ratio": 3.41,
+    "exp": "Kryteria rozpoznania SIADH obejmują hiponatremię hipoosmotyczną (<275 mOsm/kg), nieadekwatnie zagęszczony mocz (>100 mOsm/kg), podwyższone wydalanie sodu w moczu (>30 mmol/l przy prawidłowej podaży soli), euwolemię kliniczną oraz wykluczenie niedoczynności tarczycy i kory nadnerczy."
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Czym objawia się osmotyczny zespół demielinizacyjny (mielinoliza pośrodkowa mostu, CPM/ODS) wywołany zbyt szybkim wyrównaniem hiponatremii?",
+    "opts": [
+      "A) Masywnym krwiakiem podtwardówkowym",
+      "B) Spastycznym porażeniem czterokończynowym, porażeniem opuszkowym (zaburzenia połykania i mowy) oraz zespołem zamknięcia",
+      "C) Przełomem nadnerczowym",
+      "D) Ostrym zapaleniem trzustki",
+      "E) Niedokrwieniem kończyn dolnych"
+    ],
+    "correctIdx": 1,
+    "corrLen": 121,
+    "avgWrong": 31,
+    "ratio": 3.9,
+    "exp": "Zbyt szybki wzrost osmolalności osocza odwadnia komórki glejowe w moście mózgu, wywołując demielinizację szlaków korowo-rdzeniowych i korowo-opuszkowych: porażenie czterokończynowe, dyzartrię, dysfagię i zespół zamknięcia (chory zachowuje świadomość, poruszając jedynie gałkami ocznymi). [Uzupełnienie: (locked-in syndrome)]"
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Która metoda interwencyjna cechuje się najszybszym i najtrwalszym efektem objawowym w zespole żyły głównej górnej wywołanym rakiem płuca?",
+    "opts": [
+      "A) Chirurgiczne wycięcie żyły głównej górnej bez rekonstrukcji",
+      "B) Przezskórne wewnątrznaczyniowe wszczepienie stentu (SVC stenting) do żyły głównej górnej",
+      "C) Odbarczenie przez nakłucie osierdzia",
+      "D) Wlew dożylny 20% mannitolu przez 14 dni",
+      "E) Założenie opaski uciskowej na szyję"
+    ],
+    "correctIdx": 1,
+    "corrLen": 91,
+    "avgWrong": 45.3,
+    "ratio": 2.01,
+    "exp": "Stentowanie wewnątrznaczyniowe żyły głównej górnej (SVC stenting) przynosi ustąpienie objawów u >90-95% pacjentów w ciągu 24-48 godzin i jest zabiegiem z wyboru w pilnym opanowaniu objawów SVCS."
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Który zestaw markerów immunohistochemicznych jest charakterystyczny dla raka drobnokomórkowego płuca (SCLC)?",
+    "opts": [
+      "A) CD20(+), CD3(+)",
+      "B) Synaptofizyna(+), Chromogranina A(+), CD56(+), wysoki indeks Ki-67 (>80%)",
+      "C) HER2(+++), Receptor estrogenowy ER(+)",
+      "D) Kalretynina(+), Wilms Tumor 1 (WT1)(+)",
+      "E) Desmina(+), Miogenina(+)"
+    ],
+    "correctIdx": 1,
+    "corrLen": 76,
+    "avgWrong": 31.5,
+    "ratio": 2.41,
+    "exp": "SCLC jest wysoce złośliwym nowotworem neuroendokrynnym o bardzo wysokiej frakcji proliferacyjnej (Ki-67 zwykle 80-100%) z ekspresją markerów neuroendokrynnych: synaptofizyny, chromograniny A oraz CD56 (NCAM)."
+  },
+  {
+    "caseId": 44,
+    "caseFile": "44_rak_pluca_svcs_siadh.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Jaki jest cel profilaktycznego napromieniania mózgowia (PCI) w raku drobnokomórkowym płuca?",
+    "opts": [
+      "A) Zmniejszenie ryzyka wystąpienia udaru niedokrwiennego mózgu",
+      "B) Zmniejszenie ryzyka rozwoju przerzutów do ośrodkowego układu nerwowego i poprawa całkowitego przeżycia u chorych z dobrą odpowiedzią na chemioterapię",
+      "C) Zapobieganie zapaleniu opon mózgowo-rdzeniowych",
+      "D) Pobudzenie regeneracji komórek glejowych",
+      "E) Leczenie padaczki poudarowej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 152,
+    "avgWrong": 46.5,
+    "ratio": 3.27,
+    "exp": "Z powodu bariery krew-mózg leki cytostatyczne słabo penetrują do OUN, czyniąc mózg rezerwuarem nawrotu SCLC. PCI zmniejsza częstość przerzutów do mózgu o ponad 50% i wydłuża przeżycie."
+  },
+  {
+    "caseId": 45,
+    "caseFile": "45_sarkoidoza_lofgren.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Czy pacjent z pełnoobjawowym, klasycznym zespołem Löfgrena wymaga wykonania inwazyjnej biopsji tkankowej do potwierdzenia rozpoznania sarkoidozy?",
+    "opts": [
+      "A) Tak, bezwzględnie konieczna jest torakotomia z biopsją płuca",
+      "B) Nie, klasyczny zespół Löfgrena cechuje się swoistością >95% i pozwala na pewne rozpoznanie kliniczne bez weryfikacji histopatologicznej",
+      "C) Tak, konieczna jest biopsja wątroby",
+      "D) Tak, konieczne jest pobranie wycinka ze stawu skokowego",
+      "E) Tak, konieczna jest trepanobiopsja szpiku"
+    ],
+    "correctIdx": 1,
+    "corrLen": 138,
+    "avgWrong": 50.8,
+    "ratio": 2.72,
+    "exp": "Wytyczne międzynarodowe (ERS, ATS) uznają zespół Löfgrena za jeden z nielicznych stanów, w których pełny obraz kliniczno-radiologiczny pozwala na rozpoznanie sarkoidozy bez konieczności biopsji."
+  },
+  {
+    "caseId": 45,
+    "caseFile": "45_sarkoidoza_lofgren.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jaki jest mechanizm powstawania hiperkalcemii i hiperkalciurii u chorych na sarkoidozę?",
+    "opts": [
+      "A) Ektopowe wydzielanie parathormonu (PTH) przez komórki nabłonka oskrzeli",
+      "B) Autonomiczna synteza aktywnego kalcytriolu (1,25(OH)2D3) przez enzym 1-alfa-hydroksylazę obecny w makrofagach ziarniniaków",
+      "C) Pierwotna nadczynność przytarczyc wywołana gruczolakiem",
+      "D) Zmniejszone wydalanie wapnia przez uszkodzone cewki nerkowe",
+      "E) Wzmożona osteoliza w przebiegu przerzutów do kości"
+    ],
+    "correctIdx": 1,
+    "corrLen": 125,
+    "avgWrong": 61.8,
+    "ratio": 2.02,
+    "exp": "Makrofagi tworzące ziarniniaki sarkoidalne wykazują niekontrolowaną aktywność 1-alfa-hydroksylazy, przekształcającej kalcidiol w aktywny kalcytriol (1,25-OH2-witaminę D3), co zwiększa wchłanianie wapnia w jelitach i nerkach."
+  },
+  {
+    "caseId": 45,
+    "caseFile": "45_sarkoidoza_lofgren.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Czym charakteryzuje się zespół Heerfordta (inna ostra postać sarkoidozy)?",
+    "opts": [
+      "A) Gorączką, obustronnym powiększeniem ślinianek przyusznych, zapaleniem przedniego odcinka błony naczyniowej oka oraz porażeniem nerwu twarzowego (VII)",
+      "B) Zmianami toczniowymi na nosie i policzkach (lupus pernio)",
+      "C) Obrzękiem powiek, dusznością i kołnierzem Stokesa",
+      "D) Bólem stawów krzyżowo-biodrowych u młodych mężczyzn z antygenem HLA-B27",
+      "E) Sinicą dystalnych części palców po ekspozycji na zimno"
+    ],
+    "correctIdx": 0,
+    "corrLen": 152,
+    "avgWrong": 60.8,
+    "ratio": 2.5,
+    "exp": "Zespół Heerfordta (gorączka naczyniówkowo-przyusznicza) to ostra sarkoidoza obejmująca: powiększenie ślinianek, zapalenie błony naczyniowej oka, porażenie nerwu twarzowego (n. VII) oraz gorączkę."
+  },
+  {
+    "caseId": 45,
+    "caseFile": "45_sarkoidoza_lofgren.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Co to jest 'lupus pernio' w przebiegu sarkoidozy przewlekłej?",
+    "opts": [
+      "A) Toczeń rumieniowaty układowy współistniejący z sarkoidozą",
+      "B) Fioletowo-sine, stwardniałe nacieki guzowato-tarczkowe na nosie, policzkach i uszach o przewlekłym charakterze",
+      "C) Odmrożenie IV stopnia u chorych z sarkoidozą",
+      "D) Wypadanie włosów na tle autoimmunologicznym",
+      "E) Zapalenie kącików ust wywołane drożdżakami"
+    ],
+    "correctIdx": 1,
+    "corrLen": 113,
+    "avgWrong": 49.5,
+    "ratio": 2.28,
+    "exp": "Lupus pernio (toczeń odmrozinowy) to najbardziej swoista zmiana skórna w przewlekłej sarkoidozie – zniekształcające, fioletowo-brunatne nacieki na nosie, policzkach i uszach, świadczące o przewlekłym przebiegu i gorszym rokowaniu."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Który z poniższych objawów osłuchowych jest najbardziej charakterystyczny dla idiopatycznego włóknienia płuc (IPF)?",
+    "opts": [
+      "A) Świsty i furczenia wydechowe o zmiennej lokalizacji",
+      "B) Obustronne, dźwięczne, późnowdechowe trzeszczenia o typie 'rozpinania rzepów' (velcro crackles) słyszalne głównie u podstawy płuc",
+      "C) Wypuk bębenkowy z osłabieniem szmerów oddechowych",
+      "D) Szmer krtaniowy (stridor)",
+      "E) Szmer pęcherzykowy prawidłowy bez żadnych dźwięków dodatkowych"
+    ],
+    "correctIdx": 1,
+    "corrLen": 132,
+    "avgWrong": 49.8,
+    "ratio": 2.65,
+    "exp": "Trzeszczenia o charakterze velcro crackles (dźwięk rozpinanych rzepów) słyszalne u podstawy płuc na końcu wdechu są typowym, wczesnym objawem włóknienia płuc."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 1,
+    "qNum": 2,
+    "question": "Jaka cecha radiologiczna w tomografii komputerowej wysokiej rozdzielczości (HRCT) jest kluczowa dla rozpoznania PEWNEGO wzorca zwykłego śródmiąższowego zapalenia płuc (UIP)?",
+    "opts": [
+      "A) Rozlane zacienienia typu matowej szyby bez innych zmian",
+      "B) Obecność objawu 'plastra miodu' (honeycombing) zlokalizowanego podopłucnowo i przypodstawnie z rozstrzeniami z pociągania",
+      "C) Obecność mnogich jam ze ścianami o grubości >15 mm w szczytach płuc",
+      "D) Drzewo w pączkach (tree-in-bud)",
+      "E) Izolowane powiększenie węzłów chłonnych wnęk bez zmian miąższowych"
+    ],
+    "correctIdx": 1,
+    "corrLen": 124,
+    "avgWrong": 57.8,
+    "ratio": 2.15,
+    "exp": "Objaw plastra miodu (honeycombing) – torbielowate przestrzenie powietrzne ułożone w rzędach podopłucnowo i przypodstawnie – jest definicyjnym kryterium wzorca UIP w HRCT."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jakie były wnioski z przełomowego badania PANTHER-IPF dotyczące stosowania potrójnej terapii (prednizon + azatiopryna + N-acetylocysteina) w IPF?",
+    "opts": [
+      "A) Schemat ten całkowicie wyleczył 80% pacjentów z włóknienia",
+      "B) Schemat ten spowodował istotny wzrost śmiertelności oraz częstości hospitalizacji, w związku z czym jest BEZWZGLĘDNIE ZAKAZANY w IPF",
+      "C) Schemat ten okazał się równoważny przeszczepieniu płuca",
+      "D) Schemat ten jest lekiem z wyboru wyłącznie u kobiet w ciąży",
+      "E) Schemat ten nie wykazał żadnych różnic w porównaniu z placebo"
+    ],
+    "correctIdx": 1,
+    "corrLen": 135,
+    "avgWrong": 61.3,
+    "ratio": 2.2,
+    "exp": "Badanie PANTHER-IPF wykazało, że potrójna terapia immunosupresyjna w IPF jest szkodliwa – zwiększa śmiertelność i ryzyko hospitalizacji, co doprowadziło do bezwzględnego zakazu jej stosowania."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Jaki typ zaburzeń wentylacji w pletyzmografii jest charakterystyczny dla idiopatycznego włóknienia płuc?",
+    "opts": [
+      "A) Zespół obturacyjny ze spadkiem FEV1/FVC < 70%",
+      "B) Zespół restrykcyjny charakteryzujący się obniżeniem całkowitej pojemności płuc (TLC < 80% wartości należnej) przy prawidłowym lub podwyższonym wskaźniku FEV1/FVC",
+      "C) Prawidłowe TLC ze wzrostem objętości zalegającej (RV > 150%)",
+      "D) Izolowany spadek pojemności dyfuzyjnej bez żadnych zmian objętości płuc",
+      "E) Wzrost podatności płuc powyżej normy"
+    ],
+    "correctIdx": 1,
+    "corrLen": 164,
+    "avgWrong": 56,
+    "ratio": 2.93,
+    "exp": "Zesztywnienie miąższu płuc w IPF zmniejsza ich rozciągliwość (podatność) i prowadzi do restrykcji: spadek TLC <80% i FVC, przy zachowanym lub podwyższonym wskaźniku FEV1/FVC (często >85%)."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Czy pacjent z PEWNYM wzorcem UIP w badaniu HRCT klatki piersiowej i wykluczonymi przyczynami wtórnymi wymaga chirurgicznej biopsji płuca do rozpoznania IPF?",
+    "opts": [
+      "A) Tak, bezwzględnie konieczna jest torakotomia otwarta",
+      "B) Nie, pewny wzorzec UIP w HRCT ma swoistość >95% dla histopatologicznego UIP, co pozwala postawić rozpoznanie IPF przez konsylium MDD bez biopsji chirurgicznej",
+      "C) Tak, wymagana jest biopsja aspiracyjna cienkoigłowa",
+      "D) Tak, konieczna jest mediastinoskopia",
+      "E) Wymagana jest wyłącznie biopsja śluzówki nosa"
+    ],
+    "correctIdx": 1,
+    "corrLen": 161,
+    "avgWrong": 49,
+    "ratio": 3.29,
+    "exp": "Zgodnie z wytycznymi ATS/ERS obecność pewnego wzorca UIP w HRCT pozwala na ustalenie rozpoznania IPF bez konieczności biopsji chirurgicznej, która u chorych z zaawansowaną restrykcją niesie wysokie ryzyko powikłań."
+  },
+  {
+    "caseId": 46,
+    "caseFile": "46_ipf.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Czym są rozstrzenie oskrzeli z pociągania (traction bronchiectasis) w przebiegu włóknienia płuc?",
+    "opts": [
+      "A) Wrodzona wada budowy chrząstek oskrzelowych",
+      "B) Mechaniczne rozciągnięcie i poszerzenie światła oskrzeli i oskrzelików wywołane kurczeniem się otaczającej zwłókniałej tkanki płucnej",
+      "C) Zakażenie pałeczką ropy błękitnej w mukowiscydozie",
+      "D) Skurcz mięśniówki gładkiej w astmie",
+      "E) Rozstrzenie pourazowe po wypadku"
+    ],
+    "correctIdx": 1,
+    "corrLen": 136,
+    "avgWrong": 43,
+    "ratio": 3.16,
+    "exp": "Rozstrzenie z pociągania powstają na skutek retrakcji (kurczenia się) włókniejącego zrębu płuca, który promieniście pociąga i naciąga ściany przylegających oskrzeli i oskrzelików, powodując ich trwałe poszerzenie."
+  },
+  {
+    "caseId": 47,
+    "caseFile": "47_gruzlica_pluc.json",
+    "caseTitle": "",
+    "qIdx": 0,
+    "qNum": 1,
+    "question": "Jaki jest standardowy czas trwania i schemat leczenia nowo rozpoznanej, wrażliwej na leki gruźlicy płuc u dorosłego wg wytycznych WHO i PTChP?",
+    "opts": [
+      "A) 2 miesiące: RIPE (Ryfampicyna, Izoniazyd, Pirazynamid, Etambutol), następnie 4 miesiące: RI (Ryfampicyna, Izoniazyd) – łącznie 6 miesięcy",
+      "B) 12 miesięcy monoterapii izoniazydem",
+      "C) 3 tygodnie ceftriaksonu z azytromycyną",
+      "D) 24 miesiące schematem 5-lekowym",
+      "E) 6 miesięcy samego etambutolu"
+    ],
+    "correctIdx": 0,
+    "corrLen": 140,
+    "avgWrong": 36,
+    "ratio": 3.89,
+    "exp": "Standardowy schemat leczenia gruźlicy (2HRZE / 4HR) trwa 6 miesięcy: faza wstępna intensywna 2 miesiące (RIPE – 4 leki), faza kontynuacji 4 miesiące (RI – 2 leki)."
+  },
+  {
+    "caseId": 47,
+    "caseFile": "47_gruzlica_pluc.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jakie działanie niepożądane jest typowe dla Ryfampicyny i należy o nim bezwzględnie uprzedzić pacjenta przed rozpoczęciem terapii?",
+    "opts": [
+      "A) Pomarańczowo-czerwone zabarwienie moczu, śliny, potu i łez",
+      "B) Trwałe łysienie plackowate",
+      "C) Sinica dystalnych części palców",
+      "D) Przerost dziąseł",
+      "E) Zespół suchości jamy ustnej"
+    ],
+    "correctIdx": 0,
+    "corrLen": 61,
+    "avgWrong": 28,
+    "ratio": 2.18,
+    "exp": "Ryfampicyna i jej metabolity mają intensywną pomarańczowo-czerwoną barwę i zabarwiają płyny ustrojowe (mocz, pot, ślinę, łzy – może trwale zabarwić soczewki kontaktowe!)."
+  },
+  {
+    "caseId": 47,
+    "caseFile": "47_gruzlica_pluc.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Czym jest tętniak Rasmussena w jamistej gruźlicy płuc?",
+    "opts": [
+      "A) Tętniak aorty wstępującej w kile",
+      "B) Tętniak rzekomy odgałęzienia tętnicy płucnej w ścianie jamy gruźliczej, którego pęknięcie prowadzi do masywnego, zagrażającego życiu krwioplucia",
+      "C) Tętniak tętnicy śledzionowej",
+      "D) Tętniak koła Willisa w gruźliczym ZOMR",
+      "E) Tętniak komory serca po zapaleniu mięśnia sercowego"
+    ],
+    "correctIdx": 1,
+    "corrLen": 147,
+    "avgWrong": 40.3,
+    "ratio": 3.65,
+    "exp": "Tętniak Rasmussena to poszerzenie naczynia płucnego przebiegającego w ścianie lub świetle jamy gruźliczej na skutek osłabienia jego ściany przez proces zapalny; jego pęknięcie jest przyczyną piorunującego krwotoku z płuc."
+  },
+  {
+    "caseId": 47,
+    "caseFile": "47_gruzlica_pluc.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Które z poniższych twierdzeń dotyczące testów IGRA (np. QuantiFERON-TB) jest PRAWDZIWE?",
+    "opts": [
+      "A) Dodatni wynik testu IGRA pozwala jednoznacznie odróżnić aktywną gruźlicę od zakażenia utajonego (LTBI)",
+      "B) Testy IGRA opierają się na pomiarze interferonu gamma uwalnianego przez limfocyty T po stymulacji swoistymi antygenami prątka (ESAT-6, CFP-10) i nie dają wyników fałszywie dodatnich po szczepieniu BCG",
+      "C) Ujemny wynik testu IGRA w 100% wyklucza gruźlicę u chorego z zaawansowanym AIDS",
+      "D) Test IGRA wykonuje się z wymazu z nosogardła",
+      "E) Test IGRA zastępuje konieczność badania bakterioskopowego plwociny"
+    ],
+    "correctIdx": 1,
+    "corrLen": 203,
+    "avgWrong": 75.8,
+    "ratio": 2.68,
+    "exp": "Testy IGRA wykorzystują antygeny swoiste dla M. tuberculosis nieobecne w szczepionce BCG (szczep M. bovis BCG) ani większości prątków środowiskowych, dzięki czemu szczepienie BCG nie fałszuje ich wyników."
+  },
+  {
+    "caseId": 47,
+    "caseFile": "47_gruzlica_pluc.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Kiedy wg wytycznych leczenie przeciwprątkowe uważa się za hepatotoksyczne nakazujące natychmiastowe przerwanie terapii?",
+    "opts": [
+      "A) Wzrost AST/ALT > 1.5x górna granica normy bez objawów",
+      "B) Wzrost aktywności aminotransferaz (AST/ALT) > 3x powyżej górnej granicy normy z objawami klinicznymi (żółtaczka, nudności, bóle brzucha) LUB > 5x powyżej normy bez objawów",
+      "C) Izolowany spadek stężenia bilirubiny",
+      "D) Każdy wzrost stężenia mocznika",
+      "E) Pojawienie się pomarańczowego zabarwienia moczu"
+    ],
+    "correctIdx": 1,
+    "corrLen": 174,
+    "avgWrong": 44.5,
+    "ratio": 3.91,
+    "exp": "Standardowe kryterium przerwania leków potencjalnie hepatotoksycznych (R, I, Z) to wzrost aminotransferaz >3x GGNT z objawami uszkodzenia wątroby LUB >5x GGNT bez objawów."
+  },
+  {
+    "caseId": 48,
+    "caseFile": "48_plyn_oplucna_ropniak.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Co to jest linia Ellisa-Damoiseau widoczna w badaniu radiologicznym klatki piersiowej?",
+    "opts": [
+      "A) Linia złamania obojczyka",
+      "B) Górna granica cienia wolnego płynu w jamie opłucnej, biegnąca łukowato ku górze i do boku w kierunku dołu pachowego w projekcji PA w pozycji stojącej",
+      "C) Pozioma linia wyznaczająca odmę prężną",
+      "D) Linia pęknięcia przełyku w zespole Boerhaavego",
+      "E) Granica cienia serca w kardiomegalii"
+    ],
+    "correctIdx": 1,
+    "corrLen": 152,
+    "avgWrong": 39,
+    "ratio": 3.9,
+    "exp": "Linia Ellisa-Damoiseau to typowa, łukowata linia wyznaczająca górną granicę cienia wolnego płynu w opłucnej w pozycji stojącej, biegnąca od kręgosłupa skośnie ku górze i do boku w kierunku pachy."
+  },
+  {
+    "caseId": 48,
+    "caseFile": "48_plyn_oplucna_ropniak.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Które skojarzenie leków podawanych dopłucnowo przez dren wykazało w badaniu MIST-2 wybitną skuteczność w upłynnianiu ropniaka opłucnej z lokulacjami i redukcji konieczności operacji?",
+    "opts": [
+      "A) Tkankowy aktywator plazminogenu (tPA / alteplaza) w skojarzeniu z dornazą alfa (DNazą)",
+      "B) Heparyna z antybiotykiem aminoglikozydowym",
+      "C) Hydrokortyzon z solą fizjologiczną",
+      "D) Streptokinaza w monoterapii dożylnej",
+      "E) Wodorowęglan sodu z insuliną"
+    ],
+    "correctIdx": 0,
+    "corrLen": 89,
+    "avgWrong": 38,
+    "ratio": 2.34,
+    "exp": "W badaniu MIST-2 wykazano, że łączne dopłucnowe podanie tPA (rozpuszcza włóknik) i DNazy (rozbija lepki DNA z martwych leukocytów) istotnie zwiększa objętość drenażu i zmniejsza potrzebę chirurgicznej dekortykacji."
+  },
+  {
+    "caseId": 48,
+    "caseFile": "48_plyn_oplucna_ropniak.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Czym charakteryzuje się płyn chłonkowy w jamie opłucnej (chylothorax)?",
+    "opts": [
+      "A) Przezroczysty, bezbarwny płyn o pH < 6.5",
+      "B) Mlecznobiały płyn o stężeniu trójglicerydów > 110 mg/dl (1.24 mmol/l) i obecności chylomikronów",
+      "C) Płyn o zawartości erytrocytów > 90%",
+      "D) Czysta żółć o podwyższonej bilirubinie",
+      "E) Płyn zawierający kryształy moczanu sodu"
+    ],
+    "correctIdx": 1,
+    "corrLen": 98,
+    "avgWrong": 41,
+    "ratio": 2.39,
+    "exp": "Chylothorax (chłonkotok) to mlecznobiały płyn bogaty w lipidy, zdefiniowany stężeniem trójglicerydów > 110 mg/dl i obecnością chylomikronów, najczęściej po uszkodzeniu przewodu piersiowego (uraz, zabieg, chłoniak)."
+  },
+  {
+    "caseId": 48,
+    "caseFile": "48_plyn_oplucna_ropniak.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Który drobnoustrój jest szczególnie często izolowany w ropniakach opłucnej powikłających zapalenie płuc u chorych z zaniedbanym uzębieniem i po aspiracji?",
+    "opts": [
+      "A) Bakterie beztlenowe jamy ustnej (np. Fusobacterium, Prevotella, Peptostreptococcus) oraz Streptococcus z grupy anginosus (milleri)",
+      "B) Pseudomonas aeruginosa",
+      "C) Legionella pneumophila",
+      "D) Mycoplasma pneumoniae",
+      "E) Pneumocystis jirovecii"
+    ],
+    "correctIdx": 0,
+    "corrLen": 133,
+    "avgWrong": 24.8,
+    "ratio": 5.37,
+    "exp": "Zakażenia ropne opłucnej o podłożu aspiracyjnym cechują się dominacją flory beztlenowej jamy ustnej oraz bakterii z grupy Streptococcus anginosus (S. milleri), co wymaga antybiotykoterapii aktywnej przeciw beztlenowcom."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "W jaki sposób tlenoterapia bierna przyspiesza resorpcję powietrza z jamy opłucnej?",
+    "opts": [
+      "A) Zwiększa ciśnienie cząstkowe azotu w kapilarach opłucnej",
+      "B) Obniża ciśnienie cząstkowe azotu we krwi włośniczkowej (wypłukiwanie azotu), co zwiększa gradient ciśnień i przyspiesza dyfuzję azotu z jamy opłucnej do naczyń",
+      "C) Pobudza kaszel i ułatwia wydech",
+      "D) Zwęża naczynia oskrzelowe",
+      "E) Działa przeciwbólowo na receptory opłucnej ściennej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 162,
+    "avgWrong": 43.8,
+    "ratio": 3.7,
+    "exp": "Tlenoterapia wypłukuje azot z krwi żylnej i pęcherzyków, tworząc duży gradient stężeń azotu między jamą opłucnej (gdzie jest 78% azotu) a krwią, co przyspiesza wchłanianie odmy nawet 4-krotnie."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Jakie jest postępowanie pierwszego rzutu u stabilnego hemodynamicznie pacjenta z DUŻĄ, objawową odmą samoistną pierwotną (PSP) wg wytycznych BTS?",
+    "opts": [
+      "A) Torakotomia otwarta z wycięciem płuca",
+      "B) Prosta aspiracja strzykawkowa za pomocą kaniuli (needle aspiration) LUB drenaż klatki piersiowej cienkim drenem",
+      "C) Wprowadzenie grubego drenu 36F podłączonego do pompy próżniowej",
+      "D) Wyłącznie obserwacja ambulatoryjna bez leczenia",
+      "E) Podanie wziewnego budezonidu"
+    ],
+    "correctIdx": 1,
+    "corrLen": 114,
+    "avgWrong": 46.8,
+    "ratio": 2.44,
+    "exp": "BTS rekomenduje jako pierwszy krok zabiegowy prostą aspirację igłową/cewnikową (needle aspiration); w razie jej nieskuteczności zakłada się cienki dren (small-bore 8-14F). [Uzupełnienie: (small-bore 8-14F)]"
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Dlaczego nurkowanie z aparatem oddechowym (scuba diving) jest BEZWZGLĘDNIE i DOŻYWOTNIO ZAKAZANE u osób po przebytej odmie samoistnej?",
+    "opts": [
+      "A) Ze względu na hipotermię w wodzie",
+      "B) Ponieważ rozprężanie gazu podczas wynurzania (zgodnie z prawem Boyle'a) przy obecności pęcherzy podopłucnowych grozi natychmiastową odmą prężną, pęknięciem płuca i śmiertelnym zatorem gazowym mózgu",
+      "C) Ze względu na kontakt z solą morską",
+      "D) Ponieważ pianka nurkowa uciska klatkę piersiową",
+      "E) Ze względu na ryzyko zapalenia ucha środkowego"
+    ],
+    "correctIdx": 1,
+    "corrLen": 200,
+    "avgWrong": 43.3,
+    "ratio": 4.62,
+    "exp": "Zgodnie z prawem Boyle'a objętość gazu rośnie proporcjonalnie do spadku ciśnienia otoczenia. Przy wynurzaniu uwięzione powietrze rozpręża się gwałtownie, wywołując odmę prężną i zator tętniczy gazowy mózgu (AGE)."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 6,
+    "qNum": 7,
+    "question": "Jakie badanie obrazowe jest złotym standardem w poszukiwaniu pęcherzy rozedmowych w szczytach płuc u chorych z nawracającą odmą?",
+    "opts": [
+      "A) Tomografia komputerowa klatki piersiowej wysokiej rozdzielczości (HRCT)",
+      "B) RTG klatki piersiowej na wydechu",
+      "C) USG jamy brzusznej",
+      "D) Scyntygrafia płuc",
+      "E) Pozytonowa tomografia emisyjna (PET)"
+    ],
+    "correctIdx": 0,
+    "corrLen": 74,
+    "avgWrong": 28.8,
+    "ratio": 2.57,
+    "exp": "HRCT klatki piersiowej z dużą czułością uwidacznia podopłucnowe pęcherze rozedmowe (blebs i bullae) w szczytach płuc, co pomaga w planowaniu zabiegu resekcji (bullectomy)."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 7,
+    "qNum": 8,
+    "question": "Jak długo po pełnym radiologicznym rozprężeniu płuca pacjent po odmie samoistnej powinien powstrzymać się od podróży samolotem pasażerskim?",
+    "opts": [
+      "A) Przez co najmniej 1 do 2 tygodni od całkowitego wyleczenia odmy",
+      "B) 10 lat",
+      "C) Wystarczy odczekać 30 minut",
+      "D) Zakaz lotów obowiązuje dożywotnio",
+      "E) Nie ma żadnych ograniczeń w podróżowaniu samolotem"
+    ],
+    "correctIdx": 0,
+    "corrLen": 66,
+    "avgWrong": 32,
+    "ratio": 2.06,
+    "exp": "Wytyczne BTS i towarzystw medycyny lotniczej zalecają odczekanie minimum 1-2 tygodni od udokumentowanego, pełnego rozprężenia płuca w RTG przed lotem samolotem pasażerskim."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Czym różni się odma samoistna pierwotna (PSP) od odmy samoistnej wtórnej (SSP)?",
+    "opts": [
+      "A) PSP występuje u osób bez klinicznie jawnej choroby płuc w wywiadzie, podczas gdy SSP rozwija się jako powikłanie istniejącej przewlekłej choroby płuc",
+      "B) PSP występuje wyłącznie u kobiet w ciąży",
+      "C) SSP nigdy nie wymaga drenażu",
+      "D) W PSP zawsze występuje płyn ropny",
+      "E) W SSP ciśnienie w opłucnej jest zawsze ujemne"
+    ],
+    "correctIdx": 0,
+    "corrLen": 152,
+    "avgWrong": 39.5,
+    "ratio": 3.85,
+    "exp": "Podstawowy podział: PSP dotyczy osób bez uprzedniej choroby płuc (najczęściej pęknięcie pęcherzy szczytowych u młodych palaczy), a SSP występuje na podłożu uszkodzonego miąższu płuca (POChP, gruźlica, nowotwór) i ma znacznie cięższy przebieg. [Uzupełnienie: (np. POChP, mukowiscydozy, włóknienia)]"
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 9,
+    "qNum": 10,
+    "question": "Czym charakteryzuje się odma przymaciczna (katamenialna) u kobiet?",
+    "opts": [
+      "A) Odmą występującą wyłącznie po porodzie siłami natury",
+      "B) Nawracającą odmą opłucnową (zazwyczaj prawostronną) występującą w czasie krwawienia miesiączkowego (w ciągu 48-72h od początku miesiączki) w przebiegu endometriozy opłucnowej lub przeponowej",
+      "C) Odmą wywołaną przyjmowaniem doustnych antykoncepcyjnych",
+      "D) Odmą związaną z menopauzą",
+      "E) Odmą wywołaną przez zakażenie chlamydią"
+    ],
+    "correctIdx": 1,
+    "corrLen": 193,
+    "avgWrong": 45.8,
+    "ratio": 4.22,
+    "exp": "Odma katamenialna (miesiączkowa) to rzadka postać odmy u kobiet w wieku rozrodczym, rozwijająca się synchronicznie z miesiączką na tle endometriozy klatki piersiowej lub ubytków w przeponie."
+  },
+  {
+    "caseId": 49,
+    "caseFile": "49_odma_samoistna.json",
+    "caseTitle": "",
+    "qIdx": 10,
+    "qNum": 11,
+    "question": "Jaka metoda pleurodezy chirurgicznej podczas zabiegu VATS cechuje się najniższym odsetkiem nawrotów odmy?",
+    "opts": [
+      "A) Płukanie opłucnej solą fizjologiczną",
+      "B) Mechaniczna abrazja opłucnej (pleural abrasion) LUB pleurektomia ścienna w połączeniu z talkowaniem (poudrage)",
+      "C) Wstrzyknięcie glukozy do opłucnej",
+      "D) Wstrzyknięcie heparyny",
+      "E) Zastosowanie czystego tlenu do jamy opłucnej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 113,
+    "avgWrong": 36.8,
+    "ratio": 3.07,
+    "exp": "Złotym standardem chirurgicznym w VATS jest resekcja pęcherzy szczytowych (bullectomy) skojarzona z mechanicznym starciem opłucnej ściennej (abrazja) lub wycięciem opłucnej ściennej (pleurektomia) bądź talkowaniem (talc poudrage)."
+  },
+  {
+    "caseId": 50,
+    "caseFile": "50_bezdech_senny_obs.json",
+    "caseTitle": "",
+    "qIdx": 2,
+    "qNum": 3,
+    "question": "Dlaczego benzodiazepiny i inne leki nasenne są BEZWZGLĘDNIE PRZECIWWSKAZANE u pacjentów z obturacyjnym bezdechem sennym?",
+    "opts": [
+      "A) Wywołują nagłą hiperkaliemię",
+      "B) Obniżają napięcie mięśniówki gardła, hamują wybudzenia i ośrodek oddechowy, drastycznie wydłużając czas trwania bezdechów i pogłębiając hipoksemię",
+      "C) Powodują biegunkę osmotyczną",
+      "D) Wchodzą w groźną interakcję z witaminą C",
+      "E) Zwiększają apetyt na sól kuchenną"
+    ],
+    "correctIdx": 1,
+    "corrLen": 149,
+    "avgWrong": 35.3,
+    "ratio": 4.23,
+    "exp": "Leki sedatywne i nasenne (benzodiazepiny) zwiotczają mięśnie rozszerzające gardło i hamują bodziec wybudzeniowy, co zamienia krótkie epizody bezdechu w przedłużone, głębokie asfiksje zagrażające zgonem sercowym we śnie."
+  },
+  {
+    "caseId": 50,
+    "caseFile": "50_bezdech_senny_obs.json",
+    "caseTitle": "",
+    "qIdx": 3,
+    "qNum": 4,
+    "question": "Która choroba układu krążenia jest najczęstszą wtórną manifestacją nieleczonego obturacyjnego bezdechu sennego (OBS)?",
+    "opts": [
+      "A) Kardiomiopatia przerostowa z zawężaniem",
+      "B) Oporne na leczenie farmakologiczne nadciśnienie tętnicze z profilem 'non-dipper' lub 'riser'",
+      "C) Odma opłucnowa prężna",
+      "D) Zapalenie wsierdzia Libmana-Sacksa",
+      "E) Wypadanie płatka zastawki mitralnej"
+    ],
+    "correctIdx": 1,
+    "corrLen": 95,
+    "avgWrong": 35.3,
+    "ratio": 2.7,
+    "exp": "OBS jest najczęstszą wtórną przyczyną nadciśnienia tętniczego (występuje u ponad 70-80% chorych z opornym NT). Nocne wyrzuty katecholamin znoszą fizjologiczny spadek ciśnienia w nocy (brak dippingu)."
+  },
+  {
+    "caseId": 50,
+    "caseFile": "50_bezdech_senny_obs.json",
+    "caseTitle": "",
+    "qIdx": 4,
+    "qNum": 5,
+    "question": "Co to jest wskaźnik AHI (Apnea-Hypopnea Index) w badaniu polisomnograficznym?",
+    "opts": [
+      "A) Średnia liczba bezdechów (apnea) i spłyceń oddychania (hypopnea) przypadająca na jedną godzinę snu",
+      "B) Procentowy udział fazy REM w czasie całego snu",
+      "C) Maksymalna objętość wydechowa pierwszosekundowa",
+      "D) Średnie tętno podczas wybudzeń nocnych",
+      "E) Liczba zmian pozycji ciała w ciągu nocy"
+    ],
+    "correctIdx": 0,
+    "corrLen": 101,
+    "avgWrong": 45.5,
+    "ratio": 2.22,
+    "exp": "AHI to podstawowy wskaźnik diagnostyczny: suma wszystkich epizodów bezdechu (spadek przepływu o >=90% przez >=10 s) i spłyceń oddychania (spadek przepływu o >=30% z desaturacją >=3% lub wybudzeniem) podzielona przez liczbę godzin snu."
+  },
+  {
+    "caseId": 50,
+    "caseFile": "50_bezdech_senny_obs.json",
+    "caseTitle": "",
+    "qIdx": 5,
+    "qNum": 6,
+    "question": "Czym różni się bezdech obturacyjny od bezdechu centralnego w zapisie polisomnograficznym?",
+    "opts": [
+      "A) W bezdechu obturacyjnym brak jest przepływu powietrza POMIMO zachowanych ruchów oddechowych mięśni klatki piersiowej i brzucha, podczas gdy w bezdechu centralnym brak jest ZARÓWNO przepływu, JAK I wysiłku oddechowego",
+      "B) Bezdech obturacyjny trwa zawsze krócej niż 5 sekund",
+      "C) W bezdechu centralnym chrapanie jest głośniejsze",
+      "D) Bezdech obturacyjny występuje wyłącznie w ciągu dnia",
+      "E) Bezdech centralny nie wywołuje desaturacji"
+    ],
+    "correctIdx": 0,
+    "corrLen": 219,
+    "avgWrong": 51.3,
+    "ratio": 4.27,
+    "exp": "Podstawowa różnica elektrofizjologiczna: w bezdechu obturacyjnym ośrodek oddechowy wysyła impulsy (klatka i brzuch pracują podciśnieniowo przeciw zamkniętemu gardłu), natomiast w centralnym brak jest aktywności ośrodka oddechowego (klatka i brzuch spoczywają)."
+  },
+  {
+    "caseId": 50,
+    "caseFile": "50_bezdech_senny_obs.json",
+    "caseTitle": "",
+    "qIdx": 8,
+    "qNum": 9,
+    "question": "Dlaczego u chorych z ciężkim OBS często występuje nykturia (wielokrotne oddawanie moczu w nocy)?",
+    "opts": [
+      "A) Z powodu picia dużej ilości płynów przed snem",
+      "B) Silne ujemne ciśnienie w klatce piersiowej podczas prób wdechu przeciw zamkniętemu gardłu rozciąga przedsionki serca, stymulując wyrzut przedsionkowego peptydu natriuretycznego (ANP)",
+      "C) Z powodu niewydolności nerek z moczówką",
+      "D) Wskutek zakażenia dróg moczowych pałeczką E. coli",
+      "E) Z powodu braku wazopresyny"
+    ],
+    "correctIdx": 1,
+    "corrLen": 185,
+    "avgWrong": 42.8,
+    "ratio": 4.33,
+    "exp": "Podczas wdechu przy zamkniętym gardle powstaje potężne ujemne ciśnienie wewnątrz klatki piersiowej (nawet -60 do -80 cm H2O), co gwałtownie zwiększa powrót żylny i rozciąga ściany prawego przedsionka serca. Uwalniany ANP (przedsionkowy peptyd natriuretyczny) hamuje resorpcję sodu i wody w nerkach, wywołując nocną poliurię (nykturię)."
+  }
+]

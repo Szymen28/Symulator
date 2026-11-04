@@ -1,0 +1,3098 @@
+[
+  {
+    "caseId": 51,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego wytyczne ESGE jednoznacznie zakazują stosowania monoterapii ostrzykiwaniem roztworem adrenaliny w hemostazie krwawiących wrzodów trawiennych?",
+    "key": "B) Ponieważ adrenalina działa wyłącznie przejściowo naczyniozwężająco i w monoterapii wiąże się z wysokim odsetkiem nawrotów krwawienia, wymagając skojarzenia z metodą mechaniczną lub termiczną",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ adrenalina powoduje martwicę wątroby",
+      "B) Ponieważ adrenalina działa wyłącznie przejściowo naczyniozwężająco i w monoterapii wiąże się z wysokim odsetkiem nawrotów krwawienia, wymagając skojarzenia z metodą mechaniczną lub termiczną",
+      "C) Ponieważ adrenalina obniża ciśnienie tętnicze",
+      "D) Ponieważ jest nieskuteczna u kobiet",
+      "E) Ponieważ natychmiast rozpuszcza skrzep płytkowy"
+    ],
+    "corrLen": 193,
+    "avgWrong": 46,
+    "ratio": 4.2
+  },
+  {
+    "caseId": 51,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W jakim celu podaje się dożylnie erytromycynę (250 mg i.v.) na 30-120 minut przed planowaną gastroskopią w ostrym krwawieniu z GOPP?",
+    "key": "B) W celu stymulacji motoryki żołądka (działanie prokinetyczne przez receptory motyliny) i opróżnienia go ze skrzepów krwi",
+    "correctIdx": 1,
+    "opts": [
+      "A) W celu eradykacji Helicobacter pylori",
+      "B) W celu stymulacji motoryki żołądka (działanie prokinetyczne przez receptory motyliny) i opróżnienia go ze skrzepów krwi",
+      "C) W celu znieczulenia gardła",
+      "D) W celu zahamowania wydzielania kwasu solnego",
+      "E) W celu podniesienia ciśnienia tętniczego"
+    ],
+    "corrLen": 122,
+    "avgWrong": 40,
+    "ratio": 3.07
+  },
+  {
+    "caseId": 51,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jakie postępowanie jest metodą z wyboru w przypadku nawrotu krwawienia z wrzodu trawiennego po nieskutecznej powtórnej hemostazie endoskopowej?",
+    "key": "A) Przezcewnikowa embolizacja tętnicy żołądkowo-dwunastniczej (TAE) w pracowni radiologii zabiegowej LUB pilna operacja chirurgiczna",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przezcewnikowa embolizacja tętnicy żołądkowo-dwunastniczej (TAE) w pracowni radiologii zabiegowej LUB pilna operacja chirurgiczna",
+      "B) Podanie węgla aktywowanego doustnie",
+      "C) Założenie opaski uciskowej na nadbrzusze",
+      "D) Przetoczenie 20 litrów soli fizjologicznej",
+      "E) Wyłącznie obserwacja w oddziale internistycznym"
+    ],
+    "corrLen": 132,
+    "avgWrong": 44,
+    "ratio": 3
+  },
+  {
+    "caseId": 51,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego w krwawieniu z górnego odcinka przewodu pokarmowego dochodzi do wzrostu stężenia mocznika w surowicy przy prawidłowym stężeniu kreatyniny (wysoki wskaźnik mocznik/kreatynina)?",
+    "key": "B) Z powodu trawienia i wchłaniania białek krwi w jelicie cienkim oraz zmniejszenia filtracji nerkowej w hipowolemii",
+    "correctIdx": 1,
+    "opts": [
+      "A) Z powodu ostrej kłębuszkowej niewydolności nerek",
+      "B) Z powodu trawienia i wchłaniania białek krwi w jelicie cienkim oraz zmniejszenia filtracji nerkowej w hipowolemii",
+      "C) Z powodu rozpadu mięśni szkieletowych (rabdomiolizy)",
+      "D) Wskutek przedawkowania witaminy D",
+      "E) Z powodu zakażenia układu moczowego"
+    ],
+    "corrLen": 116,
+    "avgWrong": 45,
+    "ratio": 2.58
+  },
+  {
+    "caseId": 51,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Dlaczego u chorego po przebytym krwawiącym owrzodzeniu trawiennym dwunastnicy bezwzględnie zaleca się eradykację Helicobacter pylori?",
+    "key": "B) Ponieważ skuteczna eradykacja H. pylori zmniejsza ryzyko nawrotu wrzodu i ponownego krwawienia niemal do zera bez konieczności przewlekłego leczenia IPP",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ H. pylori wywołuje raka jelita grubego",
+      "B) Ponieważ skuteczna eradykacja H. pylori zmniejsza ryzyko nawrotu wrzodu i ponownego krwawienia niemal do zera bez konieczności przewlekłego leczenia IPP",
+      "C) Ponieważ H. pylori niszczy zastawkę aortalną",
+      "D) Ponieważ bakteria ta syntetyzuje witaminę K",
+      "E) Ponieważ zakażenie H. pylori wywołuje chorobę Crohna"
+    ],
+    "corrLen": 155,
+    "avgWrong": 50,
+    "ratio": 3.13
+  },
+  {
+    "caseId": 52,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego zaburzenia elektrolitowe pod postacią hipokaliemii i zasadowicy metabolicznej (np. po przedawkowaniu diuretyków) nasilają encefalopatię wątrobową?",
+    "key": "A) Hipokaliemia stymuluje produkcję amoniaku w nerkach, a zasadowica przesuwa równowagę NH4+ <-> NH3 w stronę nielotnego, nienaładowanego amoniaku (NH3), który z łatwością przenika barierę krew-mózg",
+    "correctIdx": 0,
+    "opts": [
+      "A) Hipokaliemia stymuluje produkcję amoniaku w nerkach, a zasadowica przesuwa równowagę NH4+ <-> NH3 w stronę nielotnego, nienaładowanego amoniaku (NH3), który z łatwością przenika barierę krew-mózg",
+      "B) Hipokaliemia niszczy komórki Purkinjego w móżdżku",
+      "C) Zasadowica powoduje natychmiastowe krzepnięcie krwi w żyle wrotnej",
+      "D) Zaburzenia te nie mają żadnego wpływu na amoniak",
+      "E) Zwiększają wydalanie laktulozy z moczem"
+    ],
+    "corrLen": 198,
+    "avgWrong": 54,
+    "ratio": 3.7
+  },
+  {
+    "caseId": 52,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jakie są aktualne zalecenia dotyczące podaży białka w diecie pacjenta z marskością wątroby powikłaną encefalopatią wg wytycznych EASL i ESPEN?",
+    "key": "B) Podaż białka w normie lub umiarkowanie podwyższona: 1.2 do 1.5 g/kg masy ciała/dobę, z preferencją białka roślinnego i nabiału, w celu zapobiegania katabolizmowi i sarkopenii",
+    "correctIdx": 1,
+    "opts": [
+      "A) Całkowita eliminacja białka z diety (0 g/dobę)",
+      "B) Podaż białka w normie lub umiarkowanie podwyższona: 1.2 do 1.5 g/kg masy ciała/dobę, z preferencją białka roślinnego i nabiału, w celu zapobiegania katabolizmowi i sarkopenii",
+      "C) Dieta wyłącznie ketogeniczna z 90% udziałem tłuszczu zwierzęcego",
+      "D) Ograniczenie białka do maksymalnie 0.2 g/kg m.c./dobę przez całe życie",
+      "E) Podaż białka wyłącznie w postaci aminokwasów aromatycznych"
+    ],
+    "corrLen": 177,
+    "avgWrong": 63,
+    "ratio": 2.83
+  },
+  {
+    "caseId": 52,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który antybiotyk o znikomym wchłanianiu z przewodu pokarmowego (<0.4%) jest lekiem z wyboru w skojarzeniu z laktulozą w prewencji nawrotów encefalopatii wątrobowej?",
+    "key": "B) Ryfaksymina alfa (Rifaximin-alpha)",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ciprofloksacyna",
+      "B) Ryfaksymina alfa (Rifaximin-alpha)",
+      "C) Klindamycyna",
+      "D) Doksycyklina",
+      "E) Kotrimoksazol"
+    ],
+    "corrLen": 37,
+    "avgWrong": 16,
+    "ratio": 2.31
+  },
+  {
+    "caseId": 52,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego wykonanie przezszyjkowego wewnątrzwątrobowego zespolenia wrotno-układowego (TIPS) jest zazwyczaj przeciwwskazane u chorych z ciężką nawrotową encefalopatią wątrobową?",
+    "key": "A) Ponieważ TIPS bezpośrednio kieruje nieoczyszczoną krew wrotną bogatą w amoniak do krążenia ogólnego, dramatycznie nasilając encefalopatię",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ TIPS bezpośrednio kieruje nieoczyszczoną krew wrotną bogatą w amoniak do krążenia ogólnego, dramatycznie nasilając encefalopatię",
+      "B) Ponieważ TIPS wywołuje zawał śledziony",
+      "C) Ponieważ TIPS obniża stężenie bilirubiny",
+      "D) Ponieważ TIPS zamyka tętnicę wątrobową",
+      "E) TIPS jest zabiegiem leczącym encefalopatię"
+    ],
+    "corrLen": 140,
+    "avgWrong": 43,
+    "ratio": 3.29
+  },
+  {
+    "caseId": 52,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Które z poniższych zjawisk elektroencefalograficznych (EEG) jest typowe dla zaawansowanej encefalopatii wątrobowej (stadium III/IV)?",
+    "key": "B) Obustronne, symetryczne, synchroniczne fale trójfazowe (triphasic waves) o niskiej częstotliwości (1-3 Hz)",
+    "correctIdx": 1,
+    "opts": [
+      "A) Iglica-fala o częstotliwości 3 Hz",
+      "B) Obustronne, symetryczne, synchroniczne fale trójfazowe (triphasic waves) o niskiej częstotliwości (1-3 Hz)",
+      "C) Całkowity brak jakichkolwiek załamków (zapis płaski)",
+      "D) Wzrost aktywności fal beta w odprowadzeniach potylicznych",
+      "E) Wyładowania wieloiglicowe z ogniska skroniowego"
+    ],
+    "corrLen": 109,
+    "avgWrong": 50,
+    "ratio": 2.17
+  },
+  {
+    "caseId": 52,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Co to jest 'fetor hepaticus' w badaniu fizykalnym pacjenta z niewydolnością wątroby?",
+    "key": "B) Charakterystyczny, słodkawo-mdły, stęchły zapach z ust wywołany obecnością lotnych merkaptanów (dimetylosiarczku) w wydychanym powietrzu",
+    "correctIdx": 1,
+    "opts": [
+      "A) Zapach alkoholu z ust",
+      "B) Charakterystyczny, słodkawo-mdły, stęchły zapach z ust wywołany obecnością lotnych merkaptanów (dimetylosiarczku) w wydychanym powietrzu",
+      "C) Zapach acetonu (kwaśnych jabłek)",
+      "D) Zapach mocznika",
+      "E) Zapach świeżej krwi"
+    ],
+    "corrLen": 139,
+    "avgWrong": 25,
+    "ratio": 5.62
+  },
+  {
+    "caseId": 52,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego zaleca się spożywanie tzw. nocnej przekąski (late-evening snack) u chorych z marskością wątroby?",
+    "key": "B) Ponieważ nocna głodówka u chorego z marskością z wyczerpanym glikogenem wątrobowym wyzwala szybki rozpad białek mięśniowych (katabolizm), nasilając produkcję amoniaku i sarkopenię",
+    "correctIdx": 1,
+    "opts": [
+      "A) W celu wywołania bezsenności",
+      "B) Ponieważ nocna głodówka u chorego z marskością z wyczerpanym glikogenem wątrobowym wyzwala szybki rozpad białek mięśniowych (katabolizm), nasilając produkcję amoniaku i sarkopenię",
+      "C) W celu obniżenia poziomu potasu",
+      "D) W celu stymulacji wydzielania żółci",
+      "E) Aby zapobiec zgadze"
+    ],
+    "corrLen": 182,
+    "avgWrong": 31,
+    "ratio": 5.82
+  },
+  {
+    "caseId": 53,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Które z poniższych kryteriów wchodzi w skład klasycznej skali Truelove i Wittsa definiującej CIĘŻKI rzut wrzodziejącego zapalenia jelita grubego (WZJG)?",
+    "key": "B) Liczba krwawych stolców >= 6 na dobę oraz co najmniej jeden objaw ogólnoustrojowej toksyczności",
+    "correctIdx": 1,
+    "opts": [
+      "A) Liczba krwawych wypróżnień < 3 na dobę",
+      "B) Liczba krwawych stolców >= 6 na dobę oraz co najmniej jeden objaw ogólnoustrojowej toksyczności",
+      "C) Prawidłowe stężenie albuminy w surowicy",
+      "D) Wypadanie włosów",
+      "E) Izolowany ból prawego dołu biodrowego bez biegunki"
+    ],
+    "corrLen": 98,
+    "avgWrong": 39,
+    "ratio": 2.53
+  },
+  {
+    "caseId": 53,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Które badanie diagnostyczne jest BEZWZGLĘDNIE PRZECIWWSKAZANE u chorego z podejrzeniem toksycznego rozdęcia okrężnicy (megacolon toxicum) ze względu na ryzyko natychmiastowej perforacji?",
+    "key": "A) Pełna kolonoskopia z insuflacją powietrza oraz wlew kontrastowy doodbytniczy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Pełna kolonoskopia z insuflacją powietrza oraz wlew kontrastowy doodbytniczy",
+      "B) Przeglądowy RTG jamy brzusznej",
+      "C) Oznaczenie elektrolitów w surowicy",
+      "D) Badanie USG przez powłoki brzuszne",
+      "E) Badanie palpacyjne tętna na tętnicy promieniowej"
+    ],
+    "corrLen": 79,
+    "avgWrong": 40,
+    "ratio": 2
+  },
+  {
+    "caseId": 53,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Co oznaczają tzw. kryteria oksfordzkie (Oxford criteria) oceniane w 3. dobie dożylnej sterydoterapii w ciężkim rzucie WZJG?",
+    "key": "B) Identyfikują chorych ze sterydoopornością (liczba stolców >8/d LUB 3-8 stolców z CRP >45 mg/l), u których ryzyko konieczności pilnej kolektomii wynosi około 85%",
+    "correctIdx": 1,
+    "opts": [
+      "A) Pozwalają rozpoznać celiakię",
+      "B) Identyfikują chorych ze sterydoopornością (liczba stolców >8/d LUB 3-8 stolców z CRP >45 mg/l), u których ryzyko konieczności pilnej kolektomii wynosi około 85%",
+      "C) Służą do oceny ryzyka zawału serca",
+      "D) Definiują wyleczenie z choroby",
+      "E) Służą do kwalifikacji do diety ketogenicznej"
+    ],
+    "corrLen": 163,
+    "avgWrong": 37,
+    "ratio": 4.41
+  },
+  {
+    "caseId": 53,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jaka zmiana histopatologiczna w wycinku błony śluzowej jest typowa dla aktywnej fazy WZJG?",
+    "key": "B) Ropnie kryptowe (crypt abscesses) z naciekiem neutrofilowym w kryptach jelitowych oraz zanik i zniekształcenie architektury krypt",
+    "correctIdx": 1,
+    "opts": [
+      "A) Nieserowaciejące ziarniniaki z komórkami olbrzymimi Langhansa",
+      "B) Ropnie kryptowe (crypt abscesses) z naciekiem neutrofilowym w kryptach jelitowych oraz zanik i zniekształcenie architektury krypt",
+      "C) Martwica serowata",
+      "D) Złogi beta-amyloidu w naczyniach",
+      "E) Całkowity brak jakichkolwiek komórek zapalnych"
+    ],
+    "corrLen": 132,
+    "avgWrong": 42,
+    "ratio": 3.14
+  },
+  {
+    "caseId": 53,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego u chorych z ciężkim zaostrzeniem WZJG bezwzględnie zaleca się stosowanie profilaktyki przeciwzakrzepowej heparyną drobnocząsteczkową (LMWH), nawet przy obecności krwawienia z przewodu pokarmowego?",
+    "key": "B) Aktywny rzut WZJG wiąże się z masywnym stanem prozakrzepowym i kilkukrotnie wyższym ryzykiem śmiertelnej zatorowości płucnej (VTE), a małe dawki LMWH nie nasilają krwawienia śluzówkowego",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ LMWH zatrzymuje krwawienie z jelita",
+      "B) Aktywny rzut WZJG wiąże się z masywnym stanem prozakrzepowym i kilkukrotnie wyższym ryzykiem śmiertelnej zatorowości płucnej (VTE), a małe dawki LMWH nie nasilają krwawienia śluzówkowego",
+      "C) Ponieważ LMWH działa przeciwbakteryjnie",
+      "D) W celu zapobiegania zawałowi śledziony",
+      "E) Jest to błąd, heparyna jest bezwzględnie zakazana przy krwawieniu"
+    ],
+    "corrLen": 189,
+    "avgWrong": 50,
+    "ratio": 3.82
+  },
+  {
+    "caseId": 54,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych objawów histopatologicznych w wycinkach śluzówki jelita jest najbardziej swoisty dla choroby Leśniowskiego-Crohna i odróżnia ją od WZJG?",
+    "key": "B) Nieserowaciejące ziarniniaki z komórek nabłonkowatych i komórek olbrzymich",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ropnie kryptowe (crypt abscesses)",
+      "B) Nieserowaciejące ziarniniaki z komórek nabłonkowatych i komórek olbrzymich",
+      "C) Owrzodzenia powierzchowne ograniczone do śluzówki",
+      "D) Rozlane zaniki kosmków",
+      "E) Złogi hemosyderyny w makrofagach"
+    ],
+    "corrLen": 77,
+    "avgWrong": 37,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 54,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Jaki jest wpływ palenia tytoniu na przebieg kliniczny choroby Leśniowskiego-Crohna (CD)?",
+    "key": "B) Palenie tytoniu jest silnym czynnikiem obciążającym: zwiększa ryzyko nawrotów, częstość powikłań przetokowych i zwężających oraz konieczność resekcji chirurgicznych",
+    "correctIdx": 1,
+    "opts": [
+      "A) Palenie tytoniu działa ochronnie i zmniejsza ryzyko nawrotów",
+      "B) Palenie tytoniu jest silnym czynnikiem obciążającym: zwiększa ryzyko nawrotów, częstość powikłań przetokowych i zwężających oraz konieczność resekcji chirurgicznych",
+      "C) Palenie tytoniu nie ma żadnego wpływu na CD",
+      "D) Wpływ zależy wyłącznie od wieku pacjenta",
+      "E) Palenie tytoniu leczy przetoki okołoodbytowe"
+    ],
+    "corrLen": 167,
+    "avgWrong": 50,
+    "ratio": 3.36
+  },
+  {
+    "caseId": 54,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Który lek biologiczny wykazuje najlepiej udokumentowaną skuteczność w zamykaniu przetok okołoodbytowych w chorobie Leśniowskiego-Crohna wg badania ACCENT II?",
+    "key": "A) Infliksymab (Infliximab)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Infliksymab (Infliximab)",
+      "B) Rytuksymab",
+      "C) Anakinra",
+      "D) Tosilizumab",
+      "E) Trastuzumab"
+    ],
+    "corrLen": 27,
+    "avgWrong": 13,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 54,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Czym charakteryzuje się makroskopowy obraz 'brukowania' (cobblestone appearance) w kolonoskopii chorego na chorobę Crohna?",
+    "key": "B) Ogniskami obrzękniętej, uniesionej błony śluzowej otoczonymi przez sieć głębokich, podłużnych i poprzecznych owrzodzeń szczelinowatych",
+    "correctIdx": 1,
+    "opts": [
+      "A) Obecnością polipów gruczolakowatych",
+      "B) Ogniskami obrzękniętej, uniesionej błony śluzowej otoczonymi przez sieć głębokich, podłużnych i poprzecznych owrzodzeń szczelinowatych",
+      "C) Całkowicie gładką, bladą śluzówką bez fałdów",
+      "D) Obecnością ropnych błon rzekomych",
+      "E) Zasinieniem śluzówki odbytnicy"
+    ],
+    "corrLen": 137,
+    "avgWrong": 39,
+    "ratio": 3.56
+  },
+  {
+    "caseId": 54,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jaka jest nadrzędna zasada postępowania chirurgicznego w powikłaniach choroby Leśniowskiego-Crohna?",
+    "key": "B) Maksymalna oszczędność miąższu jelitowego (prewencja zespołu krótkiego jelita – SBS) poprzez stosowanie ograniczonych resekcji i plastyki zwężeń",
+    "correctIdx": 1,
+    "opts": [
+      "A) Rutynowa profilaktyczna resekcja całego jelita grubego i cienkiego",
+      "B) Maksymalna oszczędność miąższu jelitowego (prewencja zespołu krótkiego jelita – SBS) poprzez stosowanie ograniczonych resekcji i plastyki zwężeń",
+      "C) Wycofanie się z jakichkolwiek zabiegów operacyjnych",
+      "D) Resekcja wyłącznie żołądka",
+      "E) Chirurgiczne wycięcie wątroby"
+    ],
+    "corrLen": 147,
+    "avgWrong": 46,
+    "ratio": 3.2
+  },
+  {
+    "caseId": 54,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Który odcinek przewodu pokarmowego jest NAJCZĘŚCIEJ zajęty w chorobie Leśniowskiego-Crohna?",
+    "key": "A) Końcowy odcinek jelita krętego (ileum terminale) oraz kątnica",
+    "correctIdx": 0,
+    "opts": [
+      "A) Końcowy odcinek jelita krętego (ileum terminale) oraz kątnica",
+      "B) Wyłącznie przełyk",
+      "C) Błona śluzowa policzka",
+      "D) Pęcherzyk żółciowy",
+      "E) Esica w sposób izolowany"
+    ],
+    "corrLen": 64,
+    "avgWrong": 23,
+    "ratio": 2.75
+  },
+  {
+    "caseId": 54,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Co to jest 'loose seton' stosowany w leczeniu przetok okołoodbytniczych w chorobie Crohna?",
+    "key": "A) Niewchłanialna, nienapinająca pętla (nić/dren) przeprowadzona przez kanał przetoki, utrzymująca jej drożność w celu swobodnego drenażu ropy i zapobiegania powstawaniu ropni",
+    "correctIdx": 0,
+    "opts": [
+      "A) Niewchłanialna, nienapinająca pętla (nić/dren) przeprowadzona przez kanał przetoki, utrzymująca jej drożność w celu swobodnego drenażu ropy i zapobiegania powstawaniu ropni",
+      "B) Klej tkankowy zamykający przetokę",
+      "C) Metalowa płytka przykręcana do kości miednicy",
+      "D) Wkładka antykoncepcyjna",
+      "E) Szew wycinający zwieracz odbytu"
+    ],
+    "corrLen": 175,
+    "avgWrong": 36,
+    "ratio": 4.86
+  },
+  {
+    "caseId": 54,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jaki jest mechanizm powstawania kamicy żółciowej u chorych z rozległym zajęciem lub resekcją jelita krętego w chorobie Crohna?",
+    "key": "B) Upośledzenie wchłaniania kwasów żółciowych w jelicie krętym prowadzące do obniżenia puli kwasów żółciowych i przesycenia żółci cholesterolem",
+    "correctIdx": 1,
+    "opts": [
+      "A) Zwiększona synteza cholesterolu w wątrobie",
+      "B) Upośledzenie wchłaniania kwasów żółciowych w jelicie krętym prowadzące do obniżenia puli kwasów żółciowych i przesycenia żółci cholesterolem",
+      "C) Nadmierne wydzielanie bilirubiny przez śledzionę",
+      "D) Zwężenie przewodu Wirsunga",
+      "E) Niedobór witaminy C"
+    ],
+    "corrLen": 143,
+    "avgWrong": 37,
+    "ratio": 3.89
+  },
+  {
+    "caseId": 54,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Który doustny glikokortykosteroid o wysokim efekcie pierwszego przejścia przez wątrobę (>90%) jest lekiem z wyboru w łagodnym i umiarkowanym zaostrzeniu choroby Crohna z lokalizacją w jelicie krętym i kątnicy?",
+    "key": "B) Budezonid w postaci o kontrolowanym uwalnianiu w jelicie krętym (9 mg/dobę)",
+    "correctIdx": 1,
+    "opts": [
+      "A) Deksametazon",
+      "B) Budezonid w postaci o kontrolowanym uwalnianiu w jelicie krętym (9 mg/dobę)",
+      "C) Prednizon w dawce 100 mg",
+      "D) Hydrokortyzon w tabletkach",
+      "E) Betametazon"
+    ],
+    "corrLen": 78,
+    "avgWrong": 21,
+    "ratio": 3.67
+  },
+  {
+    "caseId": 55,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego stosowanie preparatów alkoholowych do dezynfekcji rąk jest niewystarczające w kontakcie z pacjentem zakażonym Clostridioides difficile?",
+    "key": "B) Ponieważ przetrwalniki (spory) C. difficile wykazują biologiczną oporność na alkohole i wymagają mechanicznego zmycia wodą z mydłem",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ alkohol pobudza produkcję toksyny A",
+      "B) Ponieważ przetrwalniki (spory) C. difficile wykazują biologiczną oporność na alkohole i wymagają mechanicznego zmycia wodą z mydłem",
+      "C) Ponieważ alkohol wchodzi w reakcję disulfiramową z toksyną B",
+      "D) Ponieważ C. difficile ginie wyłącznie pod wpływem promieniowania UV",
+      "E) Ponieważ alkohol odparowuje zbyt powoli"
+    ],
+    "corrLen": 134,
+    "avgWrong": 56,
+    "ratio": 2.41
+  },
+  {
+    "caseId": 55,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego NIE zaleca się wykonywania badań kontrolnych stolca w kierunku obecności C. difficile lub jego toksyn u pacjenta po skutecznym wyleczeniu objawów klinicznych?",
+    "key": "B) Ponieważ u bezobjawowych ozdrowieńców zarodniki i toksyny mogą utrzymywać się w kale przez wiele tygodni, a leczenie bezobjawowego nosicielstwa jest przeciwwskazane",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ testy te są zbyt kosztowne",
+      "B) Ponieważ u bezobjawowych ozdrowieńców zarodniki i toksyny mogą utrzymywać się w kale przez wiele tygodni, a leczenie bezobjawowego nosicielstwa jest przeciwwskazane",
+      "C) Ponieważ antybiotyki niszczą aparaturę laboratoryjną",
+      "D) Ponieważ po leczeniu testy zawsze dają fałszywie ujemne wyniki",
+      "E) Ponieważ C. difficile po wyleczeniu przekształca się w pałeczkę E. coli"
+    ],
+    "corrLen": 167,
+    "avgWrong": 58,
+    "ratio": 2.88
+  },
+  {
+    "caseId": 55,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Która grupa leków stosowana powszechnie w chorobie refluksowej i wrzodowej stanowi udowodniony czynnik ryzyka kolonizacji i nawrotów zakażenia C. difficile?",
+    "key": "A) Inhibitory pompy protonowej (IPP)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Inhibitory pompy protonowej (IPP)",
+      "B) Sukralfat",
+      "C) Drotaweryna",
+      "D) Kwas ursodeoksycholowy",
+      "E) Simetikon"
+    ],
+    "corrLen": 36,
+    "avgWrong": 16,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 55,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jakie jest zalecane postępowanie farmakologiczne w piorunującej postaci CDI (fulminant CDI) przebiegającej ze wstrząsem i niedrożnością porażenną jelit?",
+    "key": "A) Wankomycyna doustnie (lub przez zgłębnik żołądkowy) 500 mg co 6h w skojarzeniu z metronidazolem dożylnie 500 mg co 8h",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wankomycyna doustnie (lub przez zgłębnik żołądkowy) 500 mg co 6h w skojarzeniu z metronidazolem dożylnie 500 mg co 8h",
+      "B) Wyłącznie probiotyk doustnie",
+      "C) Cyprofloksacyna i.v. 400 mg co 12h",
+      "D) Wankomycyna i.v. 1 g co 12h",
+      "E) Klindamycyna p.o. 300 mg co 6h"
+    ],
+    "corrLen": 120,
+    "avgWrong": 33,
+    "ratio": 3.66
+  },
+  {
+    "caseId": 55,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Który szczep Clostridioides difficile odpowiada za ciężkie ogniska epidemiczne i wysoką śmiertelność z powodu wzmożonej produkcji toksyn A i B oraz toksyny binarnej?",
+    "key": "A) Szczep BI/NAP1/027 (rybotyp 027)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Szczep BI/NAP1/027 (rybotyp 027)",
+      "B) Szczep O157:H7",
+      "C) Szczep Nissle 1917",
+      "D) Szczep K12",
+      "E) Szczep O104:H4"
+    ],
+    "corrLen": 35,
+    "avgWrong": 17,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 56,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Które z poniższych badań laboratoryjnych stanowi zalecany test serologiczny pierwszego rzutu w diagnostyce celiakii u osób dorosłych wg wytycznych gastroenterologicznych?",
+    "key": "B) Przeciwciała przeciwko transglutaminazie tkankowej w klasie IgA (anty-tTG IgA) z jednoczesną oceną całkowitego stężenia IgA",
+    "correctIdx": 1,
+    "opts": [
+      "A) Przeciwciała przeciwko gliadynie w klasie IgG (AGA IgG)",
+      "B) Przeciwciała przeciwko transglutaminazie tkankowej w klasie IgA (anty-tTG IgA) z jednoczesną oceną całkowitego stężenia IgA",
+      "C) Przeciwciała przeciwjądrowe (ANA)",
+      "D) Przeciwciała przeciw cytoplazmie neutrofili (pANCA)",
+      "E) Przeciwciała przeciwko receptorom TSH (TRAb)"
+    ],
+    "corrLen": 126,
+    "avgWrong": 49,
+    "ratio": 2.58
+  },
+  {
+    "caseId": 56,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Co należy zrobić w diagnostyce celiakii, jeśli u pacjenta stwierdzono całkowity wrodzony niedobór przeciwciał w klasie IgA?",
+    "key": "B) Oznaczyć przeciwciała w klasie IgG: przeciw deamidowanym peptydom gliadyny (anty-DGP IgG) lub przeciw transglutaminazie tkankowej (anty-tTG IgG)",
+    "correctIdx": 1,
+    "opts": [
+      "A) Uznać celiakię za wykluczoną",
+      "B) Oznaczyć przeciwciała w klasie IgG: przeciw deamidowanym peptydom gliadyny (anty-DGP IgG) lub przeciw transglutaminazie tkankowej (anty-tTG IgG)",
+      "C) Oznaczyć stężenie immunoglobuliny E (IgE)",
+      "D) Wdrożyć natychmiastowe przetoczenie osocza",
+      "E) Zastosować leczenie metotreksatem"
+    ],
+    "corrLen": 147,
+    "avgWrong": 39,
+    "ratio": 3.77
+  },
+  {
+    "caseId": 56,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Jaka jest minimalna rekomendowana liczba bioptatów pobieranych podczas gastroskopii do pewnego potwierdzenia histopatologicznego celiakii u osoby dorosłej?",
+    "key": "B) Co najmniej 1-2 wycinki z opuszki oraz co najmniej 4 wycinki z dalszej (pozaopuszkowej) części dwunastnicy",
+    "correctIdx": 1,
+    "opts": [
+      "A) 1 wycinek z żołądka",
+      "B) Co najmniej 1-2 wycinki z opuszki oraz co najmniej 4 wycinki z dalszej (pozaopuszkowej) części dwunastnicy",
+      "C) 1 wycinek z przełyku",
+      "D) 2 wycinki z kątnicy",
+      "E) 8 wycinków z jelita krętego"
+    ],
+    "corrLen": 109,
+    "avgWrong": 24,
+    "ratio": 4.49
+  },
+  {
+    "caseId": 56,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego doustne preparaty żelaza są zazwyczaj nieskuteczne w korygowaniu anemii u pacjentów z nowo rozpoznaną, aktywną celiakią?",
+    "key": "B) Ponieważ fizjologicznym miejscem wchłaniania żelaza jest dwunastnica i początkowy odcinek jelita czczego, których kosmki są zniszczone przez proces zapalny",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ żelazo wiąże się nieodwracalnie z glutenem w żołądku",
+      "B) Ponieważ fizjologicznym miejscem wchłaniania żelaza jest dwunastnica i początkowy odcinek jelita czczego, których kosmki są zniszczone przez proces zapalny",
+      "C) Ponieważ chorzy na celiakię wydalają żelazo przez gruczoły potowe",
+      "D) Ponieważ żelazo jest niszczone przez enzym transglutaminazę",
+      "E) Ponieważ celiakia powoduje wrodzoną mutację genu hepcydyny"
+    ],
+    "corrLen": 158,
+    "avgWrong": 64,
+    "ratio": 2.48
+  },
+  {
+    "caseId": 57,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Który schemat terapeutyczny jest uznawany przez wytyczne EASL za leczenie pierwszego wyboru w indukcji remisji autoimmunologicznego zapalenia wątroby?",
+    "key": "A) Prednizon (lub budezonid u chorych bez marskości) w skojarzeniu z azatiopryną",
+    "correctIdx": 0,
+    "opts": [
+      "A) Prednizon (lub budezonid u chorych bez marskości) w skojarzeniu z azatiopryną",
+      "B) Kwas ursodeoksycholowy (UDCA) w monoterapii",
+      "C) Cyklofosfamid z metotreksatem",
+      "D) Interferon pegylowany alfa z rybawiryną",
+      "E) Rytuksymab z infliksymabem"
+    ],
+    "corrLen": 80,
+    "avgWrong": 37,
+    "ratio": 2.15
+  },
+  {
+    "caseId": 57,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Dlaczego przed rozpoczęciem leczenia azatiopryną zaleca się badanie aktywności lub genotypu enzymu metylotransferazy tiopurynowej (TPMT)?",
+    "key": "B) Aby zidentyfikować pacjentów z niedoborem enzymu zagrożonych śmiertelną mielosupresją (aplazją szpiku) pod wpływem kumulacji metabolitów azatiopryny",
+    "correctIdx": 1,
+    "opts": [
+      "A) Aby ocenić ryzyko polekowego uszkodzenia nerek",
+      "B) Aby zidentyfikować pacjentów z niedoborem enzymu zagrożonych śmiertelną mielosupresją (aplazją szpiku) pod wpływem kumulacji metabolitów azatiopryny",
+      "C) Aby sprawdzić oporność na glikokortykosteroidy",
+      "D) W celu zapobiegania zespołowi lizy guza",
+      "E) Aby dobrać dawkę kwasu foliowego"
+    ],
+    "corrLen": 151,
+    "avgWrong": 44,
+    "ratio": 3.45
+  },
+  {
+    "caseId": 57,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "U których chorych z autoimmunologicznym zapaleniem wątroby stosowanie budezonidu zamiast prednizonu jest BEZWZGLĘDNIE PRZECIWWSKAZANE?",
+    "key": "A) U pacjentów z marskością wątroby lub wrotno-układowym krążeniem obocznym",
+    "correctIdx": 0,
+    "opts": [
+      "A) U pacjentów z marskością wątroby lub wrotno-układowym krążeniem obocznym",
+      "B) U pacjentów z prawidłową masą ciała",
+      "C) U pacjentów z chorobą tarczycy",
+      "D) U kobiet w wieku rozrodczym",
+      "E) U osób z prawidłowym stężeniem bilirubiny"
+    ],
+    "corrLen": 75,
+    "avgWrong": 36,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 57,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co oznacza pojęcie zespołu nakładania (overlap syndrome) w hepatologii autoimmunologicznej?",
+    "key": "A) Jednoczesne lub sekwencyjne występowanie cech AIH oraz przewlekłej choroby cholestatycznej (PBC lub PSC)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jednoczesne lub sekwencyjne występowanie cech AIH oraz przewlekłej choroby cholestatycznej (PBC lub PSC)",
+      "B) Nakładanie się marskości wątroby na raka żołądka",
+      "C) Zakażenie wirusem HBV u osoby z hemofilią",
+      "D) Wystąpienie kamicy żółciowej u pacjenta po appendektomii",
+      "E) Przejście wrzodu żołądka w zapalenie trzustki"
+    ],
+    "corrLen": 107,
+    "avgWrong": 51,
+    "ratio": 2.12
+  },
+  {
+    "caseId": 58,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Na czym polega faza I diety low-FODMAP zalecanej w zespole jelita drażliwego?",
+    "key": "B) Na czasowym (zwykle 2-6 tygodni) ograniczeniu spożycia produktów bogatych w krótkołańcuchowe węglowodany łatwo ulegające fermentacji",
+    "correctIdx": 1,
+    "opts": [
+      "A) Na całkowitym wyeliminowaniu białka zwierzęcego na 10 lat",
+      "B) Na czasowym (zwykle 2-6 tygodni) ograniczeniu spożycia produktów bogatych w krótkołańcuchowe węglowodany łatwo ulegające fermentacji",
+      "C) Na piciu wyłącznie soków owocowych bogatych we fruktozę",
+      "D) Na eliminacji tłuszczów nasyconych",
+      "E) Na jedzeniu wyłącznie surowych warzyw strączkowych"
+    ],
+    "corrLen": 135,
+    "avgWrong": 52,
+    "ratio": 2.6
+  },
+  {
+    "caseId": 58,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaki jest mechanizm działania olejku z mięty pieprzowej (Mentha piperita) stosowanego w kapsułkach dojelitowych w leczeniu bólu w IBS?",
+    "key": "A) Blokowanie kanałów wapniowych w komórkach mięśniówki gładkiej jelit, prowadzące do ich relaksacji i działania spazmolitycznego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Blokowanie kanałów wapniowych w komórkach mięśniówki gładkiej jelit, prowadzące do ich relaksacji i działania spazmolitycznego",
+      "B) Porażenie układu oddechowego",
+      "C) Całkowita sterylizacja mikrobioty jelitowej",
+      "D) Wiązanie kwasów żółciowych",
+      "E) Aktywacja receptorów opioidowych mi"
+    ],
+    "corrLen": 129,
+    "avgWrong": 36,
+    "ratio": 3.58
+  },
+  {
+    "caseId": 58,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego stosowanie opioidowych leków przeciwbólowych jest surowo przeciwwskazane w przewlekłym leczeniu bólów brzucha w zespole jelita drażliwego?",
+    "key": "B) Ponieważ wywołują ryzyko uzależnienia, atonię jelit, zaparcia oraz paradoksalne nasilenie bólu w mechanizmie narkotycznego zespołu jelitowego",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ powodują nadmierne pobudzenie i bezsenność",
+      "B) Ponieważ wywołują ryzyko uzależnienia, atonię jelit, zaparcia oraz paradoksalne nasilenie bólu w mechanizmie narkotycznego zespołu jelitowego",
+      "C) Ponieważ rozkładają witaminę B12",
+      "D) Ponieważ wyzwalają ostre zapalenie wyrostka robaczkowego",
+      "E) Ponieważ nasilają wchłanianie żelaza w dwunastnicy"
+    ],
+    "corrLen": 144,
+    "avgWrong": 50,
+    "ratio": 2.87
+  },
+  {
+    "caseId": 58,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Co oznacza pojęcie 'strategii diagnostyki pozytywnej' (positive diagnostic strategy) w zespole jelita drażliwego?",
+    "key": "B) Pewne postawienie rozpoznania IBS na podstawie kryteriów klinicznych (Rzym IV) i prostych badań wykluczających bez konieczności wykonywania szerokiej, inwazyjnej diagnostyki 'z wykluczenia'",
+    "correctIdx": 1,
+    "opts": [
+      "A) Wykonanie wszystkich dostępnych inwazyjnych badań endoskopowych i obrazowych, dopóki pacjent nie poczuje się bezpiecznie",
+      "B) Pewne postawienie rozpoznania IBS na podstawie kryteriów klinicznych (Rzym IV) i prostych badań wykluczających bez konieczności wykonywania szerokiej, inwazyjnej diagnostyki 'z wykluczenia'",
+      "C) Podawanie leków przeciwdepresyjnych każdemu zdrowemu człowiekowi",
+      "D) Wmawianie pacjentowi, że choroba nie istnieje",
+      "E) Zakaz przeprowadzania wywiadu lekarskiego"
+    ],
+    "corrLen": 192,
+    "avgWrong": 71,
+    "ratio": 2.72
+  },
+  {
+    "caseId": 59,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Które z poniższych kryteriów laboratoryjnych różnicuje stan hiperglikemiczno-hiperosmolalny (HHS) od cukrzycowej kwasicy ketonowej (DKA)?",
+    "key": "A) Glikemia > 600 mg/dl, efektywna osmolalność surowicy > 320 mOsm/kg H2O oraz stężenie wodorowęglanów > 18 mmol/l i pH > 7.30",
+    "correctIdx": 0,
+    "opts": [
+      "A) Glikemia > 600 mg/dl, efektywna osmolalność surowicy > 320 mOsm/kg H2O oraz stężenie wodorowęglanów > 18 mmol/l i pH > 7.30",
+      "B) Glikemia < 200 mg/dl oraz pH < 7.10",
+      "C) Obecność masywnej ketonurii (++++ w moczu)",
+      "D) Luka anionowa > 20 mEq/l",
+      "E) Oddech Kussmaula z zapachem zgniłych jabłek"
+    ],
+    "corrLen": 126,
+    "avgWrong": 39,
+    "ratio": 3.23
+  },
+  {
+    "caseId": 59,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego w początkowej fazie leczenia HHS bezwzględnie zakazane jest podanie dużego bolusa insuliny bez uprzedniego rozpoczęcia intensywnej płynoterapii?",
+    "key": "B) Ponieważ gwałtowne przesunięcie glukozy i wody z przestrzeni naczyniowej do wnętrza komórek wywoła natychmiastowe załamanie krążenia i zgon we wstrząsie hipowolemicznym",
+    "correctIdx": 1,
+    "opts": [
+      "A) Ponieważ insulina zniszczy erytrocyty w łożysku naczyniowym",
+      "B) Ponieważ gwałtowne przesunięcie glukozy i wody z przestrzeni naczyniowej do wnętrza komórek wywoła natychmiastowe załamanie krążenia i zgon we wstrząsie hipowolemicznym",
+      "C) Ponieważ insulina przekształca się w mocznik",
+      "D) Ponieważ wywoła to natychmiastowe zwapnienie zastawek serca",
+      "E) Ponieważ insulina nasila ketogenezę wątrobową"
+    ],
+    "corrLen": 171,
+    "avgWrong": 55,
+    "ratio": 3.12
+  },
+  {
+    "caseId": 59,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego u chorych z HHS bezwzględnie zaleca się stosowanie profilaktyki przeciwzakrzepowej drobnocząsteczkową heparyną (LMWH)?",
+    "key": "A) Z powodu skrajnego odwodnienia, hemokoncentracji, hiperlepkości krwi i unieruchomienia, które stwarzają ogromne ryzyko zatorowości płucnej i udaru",
+    "correctIdx": 0,
+    "opts": [
+      "A) Z powodu skrajnego odwodnienia, hemokoncentracji, hiperlepkości krwi i unieruchomienia, które stwarzają ogromne ryzyko zatorowości płucnej i udaru",
+      "B) W celu zahamowania produkcji insuliny",
+      "C) Aby zapobiec hiperkaliemii",
+      "D) W celu stymulacji glikogenolizy",
+      "E) LMWH rozpuszcza kryształy glukozy w nerkach"
+    ],
+    "corrLen": 149,
+    "avgWrong": 37,
+    "ratio": 4
+  },
+  {
+    "caseId": 60,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Które działanie farmakologiczne musi zostać BEZWZGLĘDNIE wykonane PRZED podaniem dożylnych hormonów tarczycy u pacjenta z podejrzeniem śpiączki hipometabolicznej (myxedema coma)?",
+    "key": "A) Dożylne podanie hydrokortyzonu w celu zapobieżenia ostremu przełomowi nadnerczowemu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Dożylne podanie hydrokortyzonu w celu zapobieżenia ostremu przełomowi nadnerczowemu",
+      "B) Podanie 40 mg furosemidu w bolusie",
+      "C) Wlew 10% chlorku potasu",
+      "D) Podanie dużej dawki propranololu",
+      "E) Dożylne podanie wodorowęglanu sodu"
+    ],
+    "corrLen": 86,
+    "avgWrong": 34,
+    "ratio": 2.55
+  },
+  {
+    "caseId": 60,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego w śpiączce hipometabolicznej z głęboką hipotermią ZAKAZANE jest stosowanie aktywnego, gwałtownego ogrzewania zewnętrznego (np. gorącymi dmuchawami na powłoki ciała)?",
+    "key": "A) Ponieważ powoduje gwałtowne rozszerzenie naczyń obwodowych skóry (wazodylatację), co w warunkach osłabionego rzutu serca wywołuje załamanie hemodynamiczne i śmiertelny wstrząs",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ powoduje gwałtowne rozszerzenie naczyń obwodowych skóry (wazodylatację), co w warunkach osłabionego rzutu serca wywołuje załamanie hemodynamiczne i śmiertelny wstrząs",
+      "B) Ponieważ wywołuje natychmiastową kwasicę mleczanową w mózgu",
+      "C) Ponieważ ciepło niszczy cząsteczki lewotyroksyny w mięśniach",
+      "D) Ponieważ dochodzi do zwęglenia tkanek",
+      "E) Ponieważ ciepło pobudza produkcję TSH przez przysadkę"
+    ],
+    "corrLen": 178,
+    "avgWrong": 55,
+    "ratio": 3.22
+  },
+  {
+    "caseId": 60,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego w leczeniu śpiączki hipometabolicznej wytyczne zalecają dołączenie dożylnej liotyroniny (LT3) do lewotyroksyny (LT4)?",
+    "key": "A) Ponieważ w hipotermii i ciężkiej chorobie ogólnoustrojowej dochodzi do zablokowania obwodowej konwersji T4 do T3 przez 5'-dejodynazę",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ w hipotermii i ciężkiej chorobie ogólnoustrojowej dochodzi do zablokowania obwodowej konwersji T4 do T3 przez 5'-dejodynazę",
+      "B) Ponieważ LT4 nie rozpuszcza się w wodzie",
+      "C) Ponieważ LT3 leczy zakażenia bakteryjne",
+      "D) W celu natychmiastowego obniżenia stężenia glukozy",
+      "E) Ponieważ przysadka nie reaguje na LT4"
+    ],
+    "corrLen": 135,
+    "avgWrong": 45,
+    "ratio": 3.03
+  },
+  {
+    "caseId": 60,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jaki jest mechanizm hiponatremii typowo towarzyszącej śpiączce hipometabolicznej?",
+    "key": "A) Upośledzenie wydalania wolnej wody przez nerki wynikające ze spadku filtracji kłębuszkowej (GFR) i nieosmotycznego uwalniania wazopresyny (ADH)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Upośledzenie wydalania wolnej wody przez nerki wynikające ze spadku filtracji kłębuszkowej (GFR) i nieosmotycznego uwalniania wazopresyny (ADH)",
+      "B) Masywna utrata soli przez gruczoły potowe",
+      "C) Nadmierne wydalanie sodu z kałem",
+      "D) Zniszczenie kanalików nerkowych przez przeciwciała anty-TPO",
+      "E) Zwiększone wchłanianie sodu w jelicie grubym"
+    ],
+    "corrLen": 146,
+    "avgWrong": 47,
+    "ratio": 3.11
+  },
+  {
+    "caseId": 60,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Jaka zmiana w obrębie górnych dróg oddechowych stwarza szczególne trudności podczas intubacji dotchawiczej pacjenta ze śpiączką hipometaboliczną?",
+    "key": "A) Makroglossia (olbrzymi język) oraz obrzęk śluzowaty fałdów głosowych i głośni",
+    "correctIdx": 0,
+    "opts": [
+      "A) Makroglossia (olbrzymi język) oraz obrzęk śluzowaty fałdów głosowych i głośni",
+      "B) Całkowite zarośnięcie nozdrzy tylnych",
+      "C) Zwężenie tchawicy przez wole zamostkowe u każdego chorego",
+      "D) Wrodzony brak nagłośni",
+      "E) Skurcz żwaczy wywołany tężyczką"
+    ],
+    "corrLen": 80,
+    "avgWrong": 40,
+    "ratio": 2.01
+  },
+  {
+    "caseId": 60,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego u pacjenta ze śpiączką hipometaboliczną bezwzględnie wdraża się empiryczną antybiotykoterapię o szerokim spektrum mimo braku gorączki?",
+    "key": "A) Ponieważ hipotermia i załamanie termogenezy całkowicie maskują obecność zakażenia bakteryjnego, które jest najczęstszym czynnikiem spustowym tego stanu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ hipotermia i załamanie termogenezy całkowicie maskują obecność zakażenia bakteryjnego, które jest najczęstszym czynnikiem spustowym tego stanu",
+      "B) Ponieważ antybiotyki działają przeciwobrzękowo na tarczycę",
+      "C) Ponieważ antybiotyki przyspieszają wydalanie lewotyroksyny",
+      "D) W celu zapobiegania próchnicy zębów",
+      "E) Antybiotykoterapia jest podawana wyłącznie w celu rozgrzania krwi"
+    ],
+    "corrLen": 154,
+    "avgWrong": 57,
+    "ratio": 2.7
+  },
+  {
+    "caseId": 60,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które z poniższych badań kardiologicznych jest bezwzględnie wskazane w diagnostyce śpiączki hipometabolicznej w celu wykluczenia powikłania zagrażającego tamponadą serca?",
+    "key": "A) Badanie echokardiograficzne (ECHO serca) w celu oceny obecności płynu w worku osierdziowym",
+    "correctIdx": 0,
+    "opts": [
+      "A) Badanie echokardiograficzne (ECHO serca) w celu oceny obecności płynu w worku osierdziowym",
+      "B) Scyntygrafia perfuzyjna mięśnia sercowego",
+      "C) Koronarografia w trybie natychmiastowym",
+      "D) Cewnikowanie prawej komory",
+      "E) Rezonans magnetyczny z próbą dobutaminową"
+    ],
+    "corrLen": 93,
+    "avgWrong": 40,
+    "ratio": 2.34
+  },
+  {
+    "caseId": 60,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego podawanie leków doustnych (np. tabletek lewotyroksyny) jest NIEWSKAZANE w początkowej fazie leczenia śpiączki hipometabolicznej?",
+    "key": "A) Ponieważ obrzęk śluzowaty ściany jelit i atonia przewodu pokarmowego (ileus) uniemożliwiają wchłanianie leków podanych drogą pokarmową",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ obrzęk śluzowaty ściany jelit i atonia przewodu pokarmowego (ileus) uniemożliwiają wchłanianie leków podanych drogą pokarmową",
+      "B) Ponieważ lewotyroksyna p.o. ulega strawieniu przez pepsynę",
+      "C) Ponieważ tabletki blokują drogi oddechowe",
+      "D) Ponieważ w żołądku kwas solny przekształca lewotyroksynę w tiamazol",
+      "E) Ponieważ lewotyroksyna wchłania się wyłącznie przez skórę"
+    ],
+    "corrLen": 137,
+    "avgWrong": 59,
+    "ratio": 2.33
+  },
+  {
+    "caseId": 60,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jaki charakterystyczny objaw w badaniu odruchów ścięgnistych jest typowy dla ciężkiej niedoczynności tarczycy?",
+    "key": "A) Wybitne wydłużenie fazy relaksacji (rozkurczu) odruchu, zwłaszcza skokowego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wybitne wydłużenie fazy relaksacji (rozkurczu) odruchu, zwłaszcza skokowego",
+      "B) Wygórowanie odruchów z klonusem stóp",
+      "C) Odruch Babińskiego obustronnie",
+      "D) Drżenie zamiarowe w próbie palec-nos",
+      "E) Odruch chwytny u dorosłego"
+    ],
+    "corrLen": 78,
+    "avgWrong": 35,
+    "ratio": 2.23
+  },
+  {
+    "caseId": 60,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jakie stężenie kinazy kreatynowej (CK) w surowicy typowo obserwuje się w skrajnej niedoczynności tarczycy i co jest tego przyczyną?",
+    "key": "A) Znaczne podwyższenie aktywności CK spowodowane miopatią hipotyreotyczną i zwiększoną przepuszczalnością błon komórkowych mięśni szkieletowych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Znaczne podwyższenie aktywności CK spowodowane miopatią hipotyreotyczną i zwiększoną przepuszczalnością błon komórkowych mięśni szkieletowych",
+      "B) Stężenie CK spada do zera",
+      "C) CK jest zawsze prawidłowe",
+      "D) Podwyższenie CK wynika wyłącznie z zapalenia wątroby",
+      "E) Wzrost CK świadczy o zawale płuca"
+    ],
+    "corrLen": 144,
+    "avgWrong": 37,
+    "ratio": 3.92
+  },
+  {
+    "caseId": 61,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który schemat farmakologicznego przygotowania przedoperacyjnego jest BEZWZGLĘDNIE OBOWIĄZKOWY u pacjenta z guzem chromochłonnym nadnerczy (pheochromocytoma)?",
+    "key": "A) Wdrożenie blokady receptorów alfa-adrenergicznych (np. doksazosyna, fenoksybenzamina) na co najmniej 10-14 dni przed zabiegiem, a w razie tachykardii dołączenie beta-adrenolityka dopiero PO skutecznej blokadzie alfa",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wdrożenie blokady receptorów alfa-adrenergicznych (np. doksazosyna, fenoksybenzamina) na co najmniej 10-14 dni przed zabiegiem, a w razie tachykardii dołączenie beta-adrenolityka dopiero PO skutecznej blokadzie alfa",
+      "B) Podanie beta-adrenolityka (propranololu) w monoterapii w celu zwolnienia rytmu serca",
+      "C) Monoterapia diuretykiem pętlowym (furosemidem)",
+      "D) Podanie dożylne adrenaliny w ciągłym wlewie",
+      "E) Brak konieczności jakiegokolwiek leczenia przed operacją"
+    ],
+    "corrLen": 218,
+    "avgWrong": 60,
+    "ratio": 3.62
+  },
+  {
+    "caseId": 61,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego podanie beta-adrenolityka w monoterapii (bez uprzedniej blokady receptorów alfa) u chorego z guzem chromochłonnym może doprowadzić do zgonu?",
+    "key": "A) Wywołuje zjawisko 'nieprzeciwstawnego pobudzenia receptorów alfa' (unopposed alpha-stimulation), co prowadzi do skrajnego skurczu naczyń, przełomu nadciśnieniowego, obrzęku płuc lub zawału serca",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wywołuje zjawisko 'nieprzeciwstawnego pobudzenia receptorów alfa' (unopposed alpha-stimulation), co prowadzi do skrajnego skurczu naczyń, przełomu nadciśnieniowego, obrzęku płuc lub zawału serca",
+      "B) Powoduje natychmiastową hipoglikemię poniżej 10 mg/dl",
+      "C) Przyspiesza wzrost guza o 500%",
+      "D) Niszczy korę nadnerczy, wywołując chorobę Addisona",
+      "E) Wywołuje samoistną amputację kończyn dolnych"
+    ],
+    "corrLen": 197,
+    "avgWrong": 47,
+    "ratio": 4.17
+  },
+  {
+    "caseId": 61,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Które z poniższych badań laboratoryjnych charakteryzuje się NAJWYŻSZĄ CZUŁOŚCIĄ w diagnostyce biochemicznej guza chromochłonnego?",
+    "key": "A) Oznaczenie wolnych metanefryn w osoczu lub frakcjonowanych metanefryn w dobowej zbiórce moczu (DZM)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Oznaczenie wolnych metanefryn w osoczu lub frakcjonowanych metanefryn w dobowej zbiórce moczu (DZM)",
+      "B) Jednorazowe oznaczenie stężenia adrenaliny we krwi żylnej",
+      "C) Oznaczenie stężenia kwasu wanilinomigdałowego (VMA) w kale",
+      "D) Badanie ogólne moczu z oceną osadu",
+      "E) Poziom chromograniny A w ślinie"
+    ],
+    "corrLen": 102,
+    "avgWrong": 48,
+    "ratio": 2.13
+  },
+  {
+    "caseId": 61,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego wykonanie biopsji aspiracyjnej cienko- lub gruboigłowej (BAC/BAG) w przypadku podejrzenia guza chromochłonnego jest BEZWZGLĘDNIE PRZECIWWSKAZANE?",
+    "key": "A) Nakłucie guza może wywołać natychmiastowy, masywny wyrzut katecholamin, prowadząc do śmiertelnego przełomu nadciśnieniowego, zawału, krwotoku do guza i zgonu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Nakłucie guza może wywołać natychmiastowy, masywny wyrzut katecholamin, prowadząc do śmiertelnego przełomu nadciśnieniowego, zawału, krwotoku do guza i zgonu",
+      "B) Ponieważ igła biopsyjna ulega rozpuszczeniu pod wpływem kwasu solnego w nadnerczu",
+      "C) Biopsja zniekształca obraz tomografii komputerowej",
+      "D) Nadnercza są niewidoczne w badaniach ultrasonograficznych",
+      "E) Biopsja wywołuje zakażenie tężcem"
+    ],
+    "corrLen": 160,
+    "avgWrong": 58,
+    "ratio": 2.75
+  },
+  {
+    "caseId": 61,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W skład którego z poniższych zespołów uwarunkowanych genetycznie wchodzi guz chromochłonny (pheochromocytoma)?",
+    "key": "A) Zespół mnogiej gruczolakowatości wewnątrzwydzielniczej typu 2 (MEN 2A i MEN 2B)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zespół mnogiej gruczolakowatości wewnątrzwydzielniczej typu 2 (MEN 2A i MEN 2B)",
+      "B) Zespół Lyncha",
+      "C) Zespół Turnera",
+      "D) Zespół Marfana",
+      "E) Zespół Klinefeltera"
+    ],
+    "corrLen": 82,
+    "avgWrong": 18,
+    "ratio": 4.56
+  },
+  {
+    "caseId": 61,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Dlaczego w okresie przygotowania do operacji pheochromocytoma po włączeniu alfa-adrenolityka zaleca się intensywne nawadnianie dożylne i zwiększenie podaży soli w diecie?",
+    "key": "A) Aby uzupełnić zredukowaną objętość krwi krążącej (hipowolemię) i zapobiec załamaniu hemodynamicznemu po chirurgicznym wycięciu guza",
+    "correctIdx": 0,
+    "opts": [
+      "A) Aby uzupełnić zredukowaną objętość krwi krążącej (hipowolemię) i zapobiec załamaniu hemodynamicznemu po chirurgicznym wycięciu guza",
+      "B) W celu wywołania obrzęku guza ułatwiającego jego resekcję",
+      "C) Aby zapobiec hiperkaliemii",
+      "D) W celu pobudzenia wydzielania kortyzolu",
+      "E) Sól fizjologiczna rozpuszcza torebkę nadnercza"
+    ],
+    "corrLen": 134,
+    "avgWrong": 45,
+    "ratio": 2.98
+  },
+  {
+    "caseId": 61,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które z poniższych zjawisk fizjologicznych tłumaczy występowanie hipotonii ortostatycznej u pacjenta z nieleczonym guzem chromochłonnym?",
+    "key": "A) Odruchowa regulacja wywołana hipowolemią wewnątrznaczyniową oraz desensytyzacją (down-regulation) receptorów adrenergicznych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Odruchowa regulacja wywołana hipowolemią wewnątrznaczyniową oraz desensytyzacją (down-regulation) receptorów adrenergicznych",
+      "B) Wrodzony brak zastawek żylnych w kończynach dolnych",
+      "C) Nadmierne wydzielanie reniny",
+      "D) Porażenie nerwu błędnego",
+      "E) Wzmożone napięcie układu przywspółczulnego"
+    ],
+    "corrLen": 127,
+    "avgWrong": 39,
+    "ratio": 3.24
+  },
+  {
+    "caseId": 61,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jak definiuje się złośliwość guza chromochłonnego zgodnie z aktualnymi kryteriami WHO?",
+    "key": "A) Wyłącznie poprzez wykazanie obecności przerzutów odległych w tkankach, w których fizjologicznie nie ma komórek chromochłonnych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wyłącznie poprzez wykazanie obecności przerzutów odległych w tkankach, w których fizjologicznie nie ma komórek chromochłonnych",
+      "B) Na podstawie wielkości guza > 2 cm",
+      "C) Na podstawie obecności torebki guza",
+      "D) Na podstawie poziomu ciśnienia tętniczego > 200 mmHg",
+      "E) Na podstawie stężenia glukozy we krwi"
+    ],
+    "corrLen": 129,
+    "avgWrong": 43,
+    "ratio": 3.04
+  },
+  {
+    "caseId": 61,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaki jest mechanizm hiperglikemii powszechnie towarzyszącej napadom guza chromochłonnego?",
+    "key": "A) Stymulacja glikogenolizy i glukoneogenezy w wątrobie przez katecholaminy oraz hamowanie wydzielania insuliny przez receptory alfa-2 komórek beta trzustki",
+    "correctIdx": 0,
+    "opts": [
+      "A) Stymulacja glikogenolizy i glukoneogenezy w wątrobie przez katecholaminy oraz hamowanie wydzielania insuliny przez receptory alfa-2 komórek beta trzustki",
+      "B) Zniszczenie komórek beta trzustki przez komórki nowotworowe",
+      "C) Wzmożone wchłanianie glukozy w jelicie grubym",
+      "D) Niedobór potasu w trzustce",
+      "E) Masywna produkcja glukagonu przez guz nadnercza"
+    ],
+    "corrLen": 156,
+    "avgWrong": 47,
+    "ratio": 3.3
+  },
+  {
+    "caseId": 62,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych objawów klinicznych charakteryzuje się NAJWYŻSZĄ SWOISTOŚCIĄ diagnostyczną w różnicowaniu zespołu Cushinga ze zwykłą otyłością prostą?",
+    "key": "A) Sinoczerwone, szerokie (>1 cm) rozstępy na skórze brzucha i ud oraz osłabienie mięśni proksymalnych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Sinoczerwone, szerokie (>1 cm) rozstępy na skórze brzucha i ud oraz osłabienie mięśni proksymalnych",
+      "B) Uogólniony przyrost masy ciała",
+      "C) Zwykłe białawe, wąskie rozstępy skórne po ciąży",
+      "D) Bóle głowy",
+      "E) Łagodne obrzęki kostek wieczorem"
+    ],
+    "corrLen": 102,
+    "avgWrong": 33,
+    "ratio": 3.11
+  },
+  {
+    "caseId": 62,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Co jest najczęstszą przyczyną zespołu Cushinga w populacji ogólnej?",
+    "key": "A) Przewlekłe stosowanie egzogennych glikokortykosteroidów",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przewlekłe stosowanie egzogennych glikokortykosteroidów",
+      "B) Gruczolak przysadki mózgowej",
+      "C) Rak kory nadnerczy",
+      "D) Drobnokomórkowy rak płuca",
+      "E) Wrodzony przerost nadnerczy"
+    ],
+    "corrLen": 58,
+    "avgWrong": 28,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 62,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Co oznacza spadek stężenia kortyzolu w surowicy poniżej 2 µg/dl (50 nmol/l) we wczesnej dobie po operacji przezsfenoidalnej mikrogruczolaka przysadki?",
+    "key": "A) Świadczy o radykalnym wycięciu guza i pełnej remisji choroby, wymagając wdrożenia czasowej substytucji hydrokortyzonem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Świadczy o radykalnym wycięciu guza i pełnej remisji choroby, wymagając wdrożenia czasowej substytucji hydrokortyzonem",
+      "B) Świadczy o niepowodzeniu zabiegu i konieczności reoperacji",
+      "C) Oznacza natychmiastowy zgon mózgowy",
+      "D) Wskazuje na rozwój moczówki prostej",
+      "E) Jest to zjawisko całkowicie patologiczne wymagające podania ketokonazolu"
+    ],
+    "corrLen": 121,
+    "avgWrong": 53,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 62,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Jaki jest mechanizm powstawania nadciśnienia tętniczego i hipokaliemii w ciężkim zespole Cushinga?",
+    "key": "A) Wysycenie nerkowego enzymu 11-beta-HSD2 przez nadmiar kortyzolu, co pozwala kortyzolowi na aktywację receptorów mineralokortykoidowych (MR) i retencję sodu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wysycenie nerkowego enzymu 11-beta-HSD2 przez nadmiar kortyzolu, co pozwala kortyzolowi na aktywację receptorów mineralokortykoidowych (MR) i retencję sodu",
+      "B) Masywne zwężenie tętnic nerkowych przez blaszki miażdżycowe",
+      "C) Niedobór aldosteronu w nerkach",
+      "D) Nadmierne wydalanie wapnia przez ślinianki",
+      "E) Zniszczenie aparatu przykłębuszkowego"
+    ],
+    "corrLen": 158,
+    "avgWrong": 45,
+    "ratio": 3.51
+  },
+  {
+    "caseId": 62,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Co to jest zespół Nelsona?",
+    "key": "A) Gwałtowny rozrost gruczolaka przysadki z hiperpigmentacją skóry po obustronnym wycięciu nadnerczy u chorych z chorobą Cushinga",
+    "correctIdx": 0,
+    "opts": [
+      "A) Gwałtowny rozrost gruczolaka przysadki z hiperpigmentacją skóry po obustronnym wycięciu nadnerczy u chorych z chorobą Cushinga",
+      "B) Wrodzony brak obu nadnerczy u noworodka",
+      "C) Zapalenie przysadki wywołane przez wirus HIV",
+      "D) Nadczynność tarczycy po podaniu amiodaronu",
+      "E) Zanik kości po złamaniu ręki"
+    ],
+    "corrLen": 129,
+    "avgWrong": 41,
+    "ratio": 3.13
+  },
+  {
+    "caseId": 62,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaki jest mechanizm osteoporozy indukowanej hiperkortyzolemią w zespole Cushinga?",
+    "key": "A) Bezpośrednie hamowanie osteoblastów, nasilenie apoptozy osteocytów, spadek wchłaniania wapnia w jelitach i wzrost jego wydalania z moczem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Bezpośrednie hamowanie osteoblastów, nasilenie apoptozy osteocytów, spadek wchłaniania wapnia w jelitach i wzrost jego wydalania z moczem",
+      "B) Nadmierne odkładanie żelaza w beleczkach kostnych",
+      "C) Brak witaminy C w diecie",
+      "D) Nadmierna synteza osteokalcyny przez komórki tłuszczowe",
+      "E) Zablokowanie receptorów dla parathormonu"
+    ],
+    "corrLen": 140,
+    "avgWrong": 45,
+    "ratio": 3.11
+  },
+  {
+    "caseId": 63,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Które działanie stanowi BEZWZGLĘDNY PIERWSZY KROK w farmakologicznym leczeniu przełomu hiperkalcemicznego (wapń całkowity > 3.5 mmol/l)?",
+    "key": "A) Agresywne dożylne nawodnienie roztworem 0.9% NaCl w tempie 200-500 ml/h w celu przywrócenia wolemii i forsowania kalciurezy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Agresywne dożylne nawodnienie roztworem 0.9% NaCl w tempie 200-500 ml/h w celu przywrócenia wolemii i forsowania kalciurezy",
+      "B) Natychmiastowe podanie 80 mg furosemidu w bolusie przed podaniem jakichkolwiek płynów",
+      "C) Dożylny wlew 10% chlorku potasu",
+      "D) Wlew wodorowęglanu sodu 8.4%",
+      "E) Natychmiastowe naświetlanie promieniami rentgenowskimi szyi"
+    ],
+    "corrLen": 126,
+    "avgWrong": 54,
+    "ratio": 2.34
+  },
+  {
+    "caseId": 63,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego rutynowe podawanie furosemidu u odwodnionego pacjenta z przełomem hiperkalcemicznym przed nawodnieniem jest BŁĘDEM W SZTUCE?",
+    "key": "A) Ponieważ furosemid pogłębia hipowolemię, wywołując spadek filtracji kłębuszkowej (GFR), wstrząs i paradoksalny wzrost stężenia wapnia w surowicy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ furosemid pogłębia hipowolemię, wywołując spadek filtracji kłębuszkowej (GFR), wstrząs i paradoksalny wzrost stężenia wapnia w surowicy",
+      "B) Ponieważ furosemid pobudza syntezę parathormonu",
+      "C) Ponieważ furosemid wchodzi w reakcję chemiczną z kalcytoniną",
+      "D) Ponieważ furosemid przekształca się w nerkach w witaminę D",
+      "E) Ponieważ furosemid blokuje działanie insuliny"
+    ],
+    "corrLen": 147,
+    "avgWrong": 56,
+    "ratio": 2.65
+  },
+  {
+    "caseId": 63,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który wynik badania laboratoryjnego jednoznacznie potwierdza pierwotną nadczynność przytarczyc (PHPT) jako przyczynę przełomu hiperkalcemicznego?",
+    "key": "A) Podwyższone lub nieadekwatnie prawidłowe (w normie) stężenie nienaruszonego parathormonu (iPTH) w obecności hiperkalcemii",
+    "correctIdx": 0,
+    "opts": [
+      "A) Podwyższone lub nieadekwatnie prawidłowe (w normie) stężenie nienaruszonego parathormonu (iPTH) w obecności hiperkalcemii",
+      "B) Stężenie iPTH niewykrywalne (<5 pg/ml)",
+      "C) Wybitnie wysokie stężenie fosforanów w surowicy (>2.5 mmol/l)",
+      "D) Spadek stężenia wapnia w moczu do zera",
+      "E) Podwyższone stężenie ferrytyny"
+    ],
+    "corrLen": 124,
+    "avgWrong": 45,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 63,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Czym jest 'zespół głodnych kości' (hungry bone syndrome) po operacji wycięcia gruczolaka przytarczycy?",
+    "key": "A) Stanem ciężkiej, objawowej hipokalcemii i hipofosfatemii spowodowanym gwałtownym wychwytem wapnia i fosforu przez odwapniony kościec w celu remineralizacji",
+    "correctIdx": 0,
+    "opts": [
+      "A) Stanem ciężkiej, objawowej hipokalcemii i hipofosfatemii spowodowanym gwałtownym wychwytem wapnia i fosforu przez odwapniony kościec w celu remineralizacji",
+      "B) Pęknięciem kości udowej podczas intubacji",
+      "C) Zakażeniem szpiku kostnego gronkowcem",
+      "D) Zanikiem kości żuchwy po podaniu bisfosfonianu",
+      "E) Nowotworem złośliwym tkanki kostnej"
+    ],
+    "corrLen": 158,
+    "avgWrong": 43,
+    "ratio": 3.7
+  },
+  {
+    "caseId": 63,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które z poniższych schorzeń genetycznych charakteryzuje się mutacją inaktywującą receptora wapniowego (CaSR), łagodną hiperkalcemią i BARDZO NISKIM dobowym wydalaniem wapnia z moczem (wskaźnik CCCR < 0.01)?",
+    "key": "A) Rodzinna hiperkalcemia hipokalciuryczna (FHH)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Rodzinna hiperkalcemia hipokalciuryczna (FHH)",
+      "B) Zespół MEN 1",
+      "C) Zespół McCune'a-Albrighta",
+      "D) Zespół DiGeorge'a",
+      "E) Krzywica hipofosfatemiczna"
+    ],
+    "corrLen": 48,
+    "avgWrong": 23,
+    "ratio": 2.09
+  },
+  {
+    "caseId": 64,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego przed pobraniem krwi na wskaźnik aldosteronowo-reninowy (ARR) bezwzględnie konieczne jest wcześniejsze wyrównanie hipokaliemii?",
+    "key": "A) Ponieważ hipokaliemia bezpośrednio hamuje fizjologiczną i autonomiczną syntezę aldosteronu w korze nadnerczy, co może dać fałszywie ujemny wynik testu przesiewowego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ hipokaliemia bezpośrednio hamuje fizjologiczną i autonomiczną syntezę aldosteronu w korze nadnerczy, co może dać fałszywie ujemny wynik testu przesiewowego",
+      "B) Ponieważ niski potas niszczy reninę w probówce",
+      "C) Aby uniknąć hemolizy krwi w laboratorium",
+      "D) W celu pobudzenia wydzielania kortyzolu",
+      "E) Potas nie ma żadnego wpływu na stężenie aldosteronu"
+    ],
+    "corrLen": 167,
+    "avgWrong": 47,
+    "ratio": 3.55
+  },
+  {
+    "caseId": 64,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który lek hipotensyjny NIE WPŁYWA ISTOTNIE na oś renina-angiotensyna-aldosteron i może być bezpiecznie stosowany do kontroli ciśnienia w okresie przygotowania do oznaczenia ARR?",
+    "key": "A) Doksazosyna (selektywny alfa-1-adrenolityk)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Doksazosyna (selektywny alfa-1-adrenolityk)",
+      "B) Enalapryl (ACEI)",
+      "C) Losartan (ARB)",
+      "D) Bisoprolol (beta-bloker)",
+      "E) Spironolakton"
+    ],
+    "corrLen": 46,
+    "avgWrong": 20,
+    "ratio": 2.33
+  },
+  {
+    "caseId": 64,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego u mężczyzn leczonych długotrwale dużymi dawkami spironolaktonu często rozwija się ginekomastia i zaburzenia wzwodu?",
+    "key": "A) Ponieważ spironolakton jest nieselektywnym MRA i wykazuje działanie antyandrogenowe (blokuje receptory androgenowe i hamuje syntezę testosteronu) oraz agonistyczne wobec receptorów progesteronowych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ spironolakton jest nieselektywnym MRA i wykazuje działanie antyandrogenowe (blokuje receptory androgenowe i hamuje syntezę testosteronu) oraz agonistyczne wobec receptorów progesteronowych",
+      "B) Ponieważ spironolakton pobudza syntezę prolaktyny w przysadce",
+      "C) Wskutek odkładania soli wapnia w sutkach",
+      "D) Z powodu uszkodzenia ciał jamistych przez potas",
+      "E) Ponieważ niszczy komórki Leydiga w jądrach"
+    ],
+    "corrLen": 200,
+    "avgWrong": 51,
+    "ratio": 3.96
+  },
+  {
+    "caseId": 65,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych parametrów laboratoryjnych moczu pozwala odróżnić diurezę wodną (występującą w moczówce prostej) od diurezy osmotycznej (np. w niewyrównanej cukrzycy)?",
+    "key": "A) Ciężar właściwy moczu < 1.005 oraz osmolalność moczu < 200-300 mOsm/kg H2O",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ciężar właściwy moczu < 1.005 oraz osmolalność moczu < 200-300 mOsm/kg H2O",
+      "B) Ciężar właściwy moczu > 1.035",
+      "C) Obecność wałeczków szklistych w osadzie",
+      "D) Wzrost stężenia kreatyniny w moczu",
+      "E) Odczyn zasadowy moczu (pH > 8.0)"
+    ],
+    "corrLen": 77,
+    "avgWrong": 37,
+    "ratio": 2.11
+  },
+  {
+    "caseId": 65,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego u pacjenta ze stężeniem sodu w surowicy 154 mmol/l i osmolalnością osocza 312 mOsm/kg H2O przeprowadzanie testu odwodnieniowego jest BŁĘDEM W SZTUCE?",
+    "key": "A) Ponieważ u pacjenta z już istniejącą hipernatremią i hiperosmolalnością osocza dalsze odwadnianie grozi śmiertelnym udarem, drgawkami i zapaścią, a obecność hipotonicznego moczu w tym stanie już dowodzi moczówki prostej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ u pacjenta z już istniejącą hipernatremią i hiperosmolalnością osocza dalsze odwadnianie grozi śmiertelnym udarem, drgawkami i zapaścią, a obecność hipotonicznego moczu w tym stanie już dowodzi moczówki prostej",
+      "B) Ponieważ test odwodnieniowy wykonuje się wyłącznie u noworodków",
+      "C) Ponieważ odwodnienie niszczy receptory dla desmopresyny",
+      "D) Ponieważ pacjent natychmiast zaśnie",
+      "E) Test odwodnieniowy nigdy nie ma przeciwwskazań"
+    ],
+    "corrLen": 222,
+    "avgWrong": 53,
+    "ratio": 4.21
+  },
+  {
+    "caseId": 65,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki wynik testu z desmopresyną (dDAVP) jednoznacznie potwierdza rozpoznanie MOCZÓWKI PROSTEJ OŚRODKOWEJ (CDI)?",
+    "key": "A) Wzrost osmolalności moczu o ponad 50% (często >100-200%) oraz wyraźny spadek objętości wydalanego moczu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wzrost osmolalności moczu o ponad 50% (często >100-200%) oraz wyraźny spadek objętości wydalanego moczu",
+      "B) Brak jakiejkolwiek zmiany osmolalności moczu (wzrost < 10%)",
+      "C) Gwałtowny spadek stężenia sodu do zera",
+      "D) Pojawienie się krwinkomoczu",
+      "E) Spadek osmolalności moczu o połowę"
+    ],
+    "corrLen": 106,
+    "avgWrong": 43,
+    "ratio": 2.49
+  },
+  {
+    "caseId": 65,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jaki charakterystyczny objaw w obrazowaniu metodą rezonansu magnetycznego (MR) przysadki obserwuje się u zdrowego człowieka, a którego brak potwierdza moczówkę ośrodkową?",
+    "key": "A) Hiperintensywny sygnał tylnego płata przysadki w obrazach T1-zależnych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Hiperintensywny sygnał tylnego płata przysadki w obrazach T1-zależnych",
+      "B) Zanik kory mózgowej w płacie czołowym",
+      "C) Poszerzenie komory czwartej",
+      "D) Obecność zwapnień w hipokampie",
+      "E) Asymetria rogów czołowych komór bocznych"
+    ],
+    "corrLen": 73,
+    "avgWrong": 37,
+    "ratio": 2
+  },
+  {
+    "caseId": 65,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Na jakie zagrażające życiu powikłanie należy wyczulić pacjenta z moczówką prostą przyjmującego desmopresynę, jeśli nie ograniczy on nawykowego picia dużych ilości płynów?",
+    "key": "A) Hipoosmolalną hiponatremię z rozcieńczenia (zatrucie wodne) grożącą obrzękiem mózgu i drgawkami",
+    "correctIdx": 0,
+    "opts": [
+      "A) Hipoosmolalną hiponatremię z rozcieńczenia (zatrucie wodne) grożącą obrzękiem mózgu i drgawkami",
+      "B) Zawał śledziony",
+      "C) Ostre zapalenie wyrostka robaczkowego",
+      "D) Kamica pęcherzyka żółciowego",
+      "E) Przełom tarczycowy"
+    ],
+    "corrLen": 98,
+    "avgWrong": 28,
+    "ratio": 3.56
+  },
+  {
+    "caseId": 65,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Co to jest trifazowy przebieg moczówki prostej po operacjach neurochirurgicznych w okolicy przysadki mózgowej?",
+    "key": "A) Faza 1: wczesna moczówka (zahamowanie wydzielania AVP przez obrzęk) -> Faza 2: przejściowe ustąpienie wielomoczu z hiponatremią (niekontrolowane uwalnianie zapasów AVP z degenerujących aksonów) -> Faza 3: utrwalona moczówka prosta",
+    "correctIdx": 0,
+    "opts": [
+      "A) Faza 1: wczesna moczówka (zahamowanie wydzielania AVP przez obrzęk) -> Faza 2: przejściowe ustąpienie wielomoczu z hiponatremią (niekontrolowane uwalnianie zapasów AVP z degenerujących aksonów) -> Faza 3: utrwalona moczówka prosta",
+      "B) Faza 1: gorączka -> Faza 2: biegunka -> Faza 3: zawał",
+      "C) Faza 1: kaszel -> Faza 2: duszność -> Faza 3: zgon",
+      "D) Przebieg trójfazowy dotyczy wyłącznie ciśnienia tętniczego",
+      "E) Zjawisko to występuje jedynie po appendektomii"
+    ],
+    "corrLen": 233,
+    "avgWrong": 55,
+    "ratio": 4.26
+  },
+  {
+    "caseId": 65,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Dlaczego tempo obniżania stężenia sodu w surowicy podczas leczenia hipernatremii w moczówce prostej nie powinno przekraczać 8-10 mmol/l na dobę?",
+    "key": "A) Aby zapobiec gwałtownemu napływowi wody do neuronów mózgu i wywołaniu jatrogennego obrzęku mózgu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Aby zapobiec gwałtownemu napływowi wody do neuronów mózgu i wywołaniu jatrogennego obrzęku mózgu",
+      "B) W celu ochrony przed rozpadem erytrocytów",
+      "C) Aby uniknąć zwapnienia nerek",
+      "D) W celu stymulacji wzrostu kości",
+      "E) Zbyt szybki spadek sodu przekształca wazopresynę w oksytocynę"
+    ],
+    "corrLen": 99,
+    "avgWrong": 43,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 65,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Która grupa leków, paradoksalnie stosowana jako leki moczopędne, zmniejsza objętość diurezy w MOCZÓWCE PROSTEJ NERKOWEJ (NDI)?",
+    "key": "A) Diuretyki tiazydowe (np. hydrochlorotiazyd) w skojarzeniu z dietą ubogosodową i amilorydem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Diuretyki tiazydowe (np. hydrochlorotiazyd) w skojarzeniu z dietą ubogosodową i amilorydem",
+      "B) Antagoniści receptora aldosteronowego w dużych dawkach",
+      "C) Inhibitory anhydrazy węglanowej",
+      "D) Diuretyki pętlowe",
+      "E) Osmotyczne diuretyki (mannitol)"
+    ],
+    "corrLen": 93,
+    "avgWrong": 36,
+    "ratio": 2.57
+  },
+  {
+    "caseId": 65,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jakie stężenie wazopresyny (kopeptyny) we krwi na czczo pozwala z wysoką dokładnością wykluczyć moczówkę prostą bez konieczności wykonywania testu odwodnieniowego?",
+    "key": "A) Stężenie kopeptyny > 21.4 pmol/l bez uprzedniego odwadniania wskazuje jednoznacznie na moczówkę nerkową (NDI)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Stężenie kopeptyny > 21.4 pmol/l bez uprzedniego odwadniania wskazuje jednoznacznie na moczówkę nerkową (NDI)",
+      "B) Kopeptyna nie ma zastosowania w diagnostyce",
+      "C) Kopeptyna występuje wyłącznie u ryb",
+      "D) Kopeptyna równa zero zawsze oznacza zdrowie",
+      "E) Poziom kopeptyny bada się wyłącznie z płynu mózgowo-rdzeniowego"
+    ],
+    "corrLen": 112,
+    "avgWrong": 49,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 66,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych parametrów laboratoryjnych stanowi najbardziej charakterystyczny znak rozpoznawczy podostrego zapalenia tarczycy (choroby de Quervaina)?",
+    "key": "A) Wybitnie przyspieszony odczyn Biernackiego (często 'trzycyfrowe' OB > 70-100 mm/h) przy prawidłowym lub nieznacznym stężeniu prokalcytoniny",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wybitnie przyspieszony odczyn Biernackiego (często 'trzycyfrowe' OB > 70-100 mm/h) przy prawidłowym lub nieznacznym stężeniu prokalcytoniny",
+      "B) Masywna leukopenia poniżej 1.0 G/l",
+      "C) Obecność przeciwciał przeciw receptorom TSH (TRAb) w wysokim mianie",
+      "D) Podwyższone stężenie kwasu moczowego > 15 mg/dl",
+      "E) Spadek stężenia ferrytyny do zera"
+    ],
+    "corrLen": 142,
+    "avgWrong": 48,
+    "ratio": 2.94
+  },
+  {
+    "caseId": 66,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Dlaczego stosowanie leków przeciwtarczycowych (tyreostatyków, np. tiamazolu) w fazie tyreotoksykozy w chorobie de Quervaina jest BŁĘDEM W SZTUCE?",
+    "key": "A) Ponieważ tarczyca w chorobie de Quervaina nie syntetyzuje nadmiernie hormonów de novo, lecz dochodzi do ich biernego uwalniania z uszkodzonych pęcherzyków",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ tarczyca w chorobie de Quervaina nie syntetyzuje nadmiernie hormonów de novo, lecz dochodzi do ich biernego uwalniania z uszkodzonych pęcherzyków",
+      "B) Ponieważ tiamazol wywołuje natychmiastowe zrakowacenie tarczycy",
+      "C) Ponieważ tyreostatyki nasilają ból szyi",
+      "D) Ponieważ leki te rozkładają parathormon",
+      "E) Ponieważ tiamazol jest zarejestrowany wyłącznie w leczeniu niedoczynności tarczycy"
+    ],
+    "corrLen": 157,
+    "avgWrong": 59,
+    "ratio": 2.67
+  },
+  {
+    "caseId": 66,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Jaka cecha w badaniu ultrasonograficznym tarczycy (USG) pozwala odróżnić chorobę de Quervaina od ostrego ropnego bakteryjnego zapalenia tarczycy?",
+    "key": "A) W chorobie de Quervaina widoczne są zlewne obszary hipoechogeniczne bez cech upłynnienia, podczas gdy w zapaleniu bakteryjnym obecna jest bezechowa/hipoechogeniczna przestrzeń z cechami ropnia (chełbotaniem)",
+    "correctIdx": 0,
+    "opts": [
+      "A) W chorobie de Quervaina widoczne są zlewne obszary hipoechogeniczne bez cech upłynnienia, podczas gdy w zapaleniu bakteryjnym obecna jest bezechowa/hipoechogeniczna przestrzeń z cechami ropnia (chełbotaniem)",
+      "B) W chorobie de Quervaina tarczyca zawsze całkowicie zanika w USG",
+      "C) W chorobie bakteryjnej tarczyca świeci na zielono w Dopplerze",
+      "D) Brak jakichkolwiek różnic w USG",
+      "E) USG jest bezużyteczne w chorobach tarczycy"
+    ],
+    "corrLen": 210,
+    "avgWrong": 52,
+    "ratio": 4.02
+  },
+  {
+    "caseId": 66,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jakie postępowanie jest zalecane w 3. fazie choroby de Quervaina (fazie hipotyreozy), jeśli pacjent zgłasza nasilone zmęczenie i senność?",
+    "key": "A) Czasowe podawanie małych dawek lewotyroksyny (LT4, np. 25-50 µg/d) przez 2-3 miesiące z późniejszą próbą jej odstawienia",
+    "correctIdx": 0,
+    "opts": [
+      "A) Czasowe podawanie małych dawek lewotyroksyny (LT4, np. 25-50 µg/d) przez 2-3 miesiące z późniejszą próbą jej odstawienia",
+      "B) Wycięcie tarczycy",
+      "C) Dożywotnie podawanie tyreostatyków",
+      "D) Wlew dożylny glikokortykosteroidów w megadawkach",
+      "E) Podanie dużej dawki tiamazolu"
+    ],
+    "corrLen": 123,
+    "avgWrong": 35,
+    "ratio": 3.51
+  },
+  {
+    "caseId": 66,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Co charakteryzuje komórki w badaniu cytologicznym z biopsji cienkoigłowej (BAC) w chorobie de Quervaina, gdyby wykonano ją w fazie ostrej?",
+    "key": "A) Obecność wielojądrzastych komórek olbrzymich (typu ciała obcego) fagocytujących koloid oraz komórek nabłonkowych ze zmianami degeneracyjnymi",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność wielojądrzastych komórek olbrzymich (typu ciała obcego) fagocytujących koloid oraz komórek nabłonkowych ze zmianami degeneracyjnymi",
+      "B) Ciałka piaszczakowate i jądra z bruzdami (rak brodawkowaty)",
+      "C) Wyłącznie czyste masy bakteryjne gronkowca",
+      "D) Obfity naciek z komórek plazmatycznych i limfocytów B",
+      "E) Komórki nowotworowe drobnokomórkowe"
+    ],
+    "corrLen": 143,
+    "avgWrong": 50,
+    "ratio": 2.85
+  },
+  {
+    "caseId": 67,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Jakie jest zalecane postępowanie ratunkowe pierwszego rzutu u pacjenta z ciężką, objawową hiponatremią przebiegającą z drgawkami lub śpiączką wg wytycznych europejskich (2014)?",
+    "key": "A) Natychmiastowe dożylne podanie bolusa 150 ml 3% hipertonicznego roztworu NaCl w ciągu 20 minut, powtórzone w razie potrzeby po 20 minutach",
+    "correctIdx": 0,
+    "opts": [
+      "A) Natychmiastowe dożylne podanie bolusa 150 ml 3% hipertonicznego roztworu NaCl w ciągu 20 minut, powtórzone w razie potrzeby po 20 minutach",
+      "B) Powolny wlew 0.9% NaCl w tempie 50 ml/h",
+      "C) Dożylne podanie tolwaptanu w bolusie",
+      "D) Podanie 1000 ml 5% glukozy w 15 minut",
+      "E) Forsowanie diurezy 120 mg furosemidu bez płynów"
+    ],
+    "corrLen": 141,
+    "avgWrong": 43,
+    "ratio": 3.3
+  },
+  {
+    "caseId": 67,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Czym jest zespół demielinizacji osmotycznej (ODS / mielinoliza środkowa mostu) i kiedy typowo manifestują się jego objawy kliniczne?",
+    "key": "A) Jatrogennym uszkodzeniem osłonek mielinowych w pniu mózgu wywołanym zbyt szybkim podniesieniem stężenia sodu, objawiającym się po 2-6 dniach dyzartrią, dysfagią, porażeniem czterokończynowym i zespołem zamknięcia",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jatrogennym uszkodzeniem osłonek mielinowych w pniu mózgu wywołanym zbyt szybkim podniesieniem stężenia sodu, objawiającym się po 2-6 dniach dyzartrią, dysfagią, porażeniem czterokończynowym i zespołem zamknięcia",
+      "B) Pęknięciem tętniaka aorty w trakcie wlewu soli",
+      "C) Zakażeniem opon mózgowo-rdzeniowych laseczką tężca",
+      "D) Martwicą nerek po podaniu furosemidu",
+      "E) Natychmiastową utratą węchu ustępującą po 5 minutach"
+    ],
+    "corrLen": 215,
+    "avgWrong": 49,
+    "ratio": 4.39
+  },
+  {
+    "caseId": 67,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Co należy natychmiast zrobić, jeśli u leczonego z powodu hiponatremii pacjenta doszło do 'przestymulowania diurezy' (overshooting) i stężenie sodu wzrosło o 14 mmol/l w ciągu pierwszych 12 godzin?",
+    "key": "A) Przerwać podaż sodu, podać desmopresynę (dDAVP 1-2 µg) w celu zatrzymania diurezy wodnej i wdrożyć wlew 5% glukozy w celu ponownego obniżenia sodu do bezpiecznego zakresu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przerwać podaż sodu, podać desmopresynę (dDAVP 1-2 µg) w celu zatrzymania diurezy wodnej i wdrożyć wlew 5% glukozy w celu ponownego obniżenia sodu do bezpiecznego zakresu",
+      "B) Podać kolejny bolus 3% NaCl",
+      "C) Podać furosemid",
+      "D) Zastosować dializę z wysokim stężeniem sodu",
+      "E) Zignorować wynik i kontynuować dotychczasowe leczenie"
+    ],
+    "corrLen": 173,
+    "avgWrong": 38,
+    "ratio": 4.61
+  },
+  {
+    "caseId": 67,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Dlaczego stosowanie tolwaptanu (antagonisty receptora V2 wazopresyny) jest PRZECIWWSKAZANE w ostrym leczeniu ciężkiej objawowej hiponatremii z drgawkami?",
+    "key": "A) Ponieważ waptany mają opóźniony początek działania (kilka godzin), a wywołana przez nie diureza wodna jest nieprzewidywalna i grozi gwałtownym przekroczeniem bezpiecznego tempa korekty oraz wywołaniem ODS",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ waptany mają opóźniony początek działania (kilka godzin), a wywołana przez nie diureza wodna jest nieprzewidywalna i grozi gwałtownym przekroczeniem bezpiecznego tempa korekty oraz wywołaniem ODS",
+      "B) Ponieważ tolwaptan nasila drgawki poprzez blokadę receptorów GABA",
+      "C) Ponieważ tolwaptan rozpuszcza kości",
+      "D) Ponieważ waptany wolno podawać wyłącznie u pacjentów z hipernatremią",
+      "E) Ponieważ tolwaptan obniża ciśnienie tętnicze do zera"
+    ],
+    "corrLen": 207,
+    "avgWrong": 58,
+    "ratio": 3.57
+  },
+  {
+    "caseId": 67,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Która cecha laboratoryjna pozwala odróżnić RZECZYWISTĄ hiponatremię hipoosmolalną od rzekomej hiponatremii (pseudohiponatremii)?",
+    "key": "A) Zmierzona osmolalność osocza: w rzeczywistej jest obniżona (<275 mOsm/kg H2O), a w rzekomej jest prawidłowa",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zmierzona osmolalność osocza: w rzeczywistej jest obniżona (<275 mOsm/kg H2O), a w rzekomej jest prawidłowa",
+      "B) Stężenie hemoglobiny",
+      "C) Poziom leukocytów",
+      "D) Ciężar właściwy moczu",
+      "E) Poziom bilirubiny całkowitej"
+    ],
+    "corrLen": 110,
+    "avgWrong": 25,
+    "ratio": 4.49
+  },
+  {
+    "caseId": 67,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Na czym polega 'zespół zamknięcia' (locked-in syndrome) w przebiegu mielinolizy środkowej mostu?",
+    "key": "A) Stan, w którym chory jest w pełni przytomny i zachowuje świadomość, lecz występuje całkowite porażenie czterokończynowe i porażenie nerwów czaszkowych, a jedyną formą komunikacji są pionowe ruchy gałek ocznych i mruganie",
+    "correctIdx": 0,
+    "opts": [
+      "A) Stan, w którym chory jest w pełni przytomny i zachowuje świadomość, lecz występuje całkowite porażenie czterokończynowe i porażenie nerwów czaszkowych, a jedyną formą komunikacji są pionowe ruchy gałek ocznych i mruganie",
+      "B) Stan głębokiej śpiączki mózgowej bez reakcji na jakiekolwiek bodźce",
+      "C) Spastyczne zaciśnięcie szczęk uniemożliwiające otwarcie ust",
+      "D) Zamknięcie zastawek serca w asystolii",
+      "E) Porażenie nerwu kulszowego obustronnie"
+    ],
+    "corrLen": 223,
+    "avgWrong": 53,
+    "ratio": 4.19
+  },
+  {
+    "caseId": 67,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jakie stężenie sodu w moczu (UNa) typowo obserwuje się w zespole SIADH u pacjenta na normalnej diecie?",
+    "key": "A) UNa > 30-40 mmol/l przy osmolalności moczu > 100 mOsm/kg H2O",
+    "correctIdx": 0,
+    "opts": [
+      "A) UNa > 30-40 mmol/l przy osmolalności moczu > 100 mOsm/kg H2O",
+      "B) UNa < 10 mmol/l",
+      "C) UNa równe dokładnie zero",
+      "D) UNa > 500 mmol/l",
+      "E) W moczu nie ma sodu"
+    ],
+    "corrLen": 63,
+    "avgWrong": 22,
+    "ratio": 2.93
+  },
+  {
+    "caseId": 68,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych parametrów laboratoryjnych moczu jednoznacznie przemawia za OSTRĄ MARTWICĄ CEWEK NERKOWYCH (ATN) w różnicowaniu z przednerkowym ostrym uszkodzeniem nerek?",
+    "key": "A) Frakcyjne wydalanie sodu (FENa) > 2%, stężenie sodu w moczu > 40 mmol/l oraz obecność ciemnobrunatnych wałeczków ziarnistych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Frakcyjne wydalanie sodu (FENa) > 2%, stężenie sodu w moczu > 40 mmol/l oraz obecność ciemnobrunatnych wałeczków ziarnistych",
+      "B) Frakcyjne wydalanie sodu (FENa) < 1% i sód w moczu < 20 mmol/l",
+      "C) Osmolalność moczu > 800 mOsm/kg H2O",
+      "D) Wskaźnik stężenia mocznika do kreatyniny w surowicy > 30:1",
+      "E) Obecność wyłącznie wałeczków szklistych w osadzie moczu"
+    ],
+    "corrLen": 127,
+    "avgWrong": 56,
+    "ratio": 2.29
+  },
+  {
+    "caseId": 68,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Jakie kryterium definiuje Stadium 3 ostrego uszkodzenia nerek (AKI stadium 3) wg klasyfikacji KDIGO (2012) na podstawie stężenia kreatyniny w surowicy?",
+    "key": "A) Co najmniej 3-krotny wzrost stężenia kreatyniny w surowicy w stosunku do wartości wyjściowej LUB wzrost do >= 4.0 mg/dl (>= 353.6 µmol/l) z ostrym wzrostem o co najmniej 0.5 mg/dl LUB rozpoczęcie leczenia nerkozastępczego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Co najmniej 3-krotny wzrost stężenia kreatyniny w surowicy w stosunku do wartości wyjściowej LUB wzrost do >= 4.0 mg/dl (>= 353.6 µmol/l) z ostrym wzrostem o co najmniej 0.5 mg/dl LUB rozpoczęcie leczenia nerkozastępczego",
+      "B) Wzrost stężenia kreatyniny o 0.3 mg/dl w ciągu 48 godzin",
+      "C) Wzrost stężenia kreatyniny 1.5-1.9-krotny",
+      "D) Podwojenie stężenia kreatyniny (wzrost 2.0-2.9-krotny)",
+      "E) Stadium 3 ocenia się wyłącznie na podstawie wielkości nerek w USG"
+    ],
+    "corrLen": 224,
+    "avgWrong": 57,
+    "ratio": 3.93
+  },
+  {
+    "caseId": 68,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jakie jest oficjalne zalecenie wytycznych KDIGO dotyczące stosowania diuretyków pętlowych (np. furosemidu) w leczeniu ostrego uszkodzenia nerek (AKI)?",
+    "key": "A) Wytyczne zalecają unikanie stosowania diuretyków pętlowych do leczenia lub zapobiegania AKI, dopuszczając ich użycie wyłącznie do leczenia objawowego przeciążenia objętościowego (przewodnienia)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wytyczne zalecają unikanie stosowania diuretyków pętlowych do leczenia lub zapobiegania AKI, dopuszczając ich użycie wyłącznie do leczenia objawowego przeciążenia objętościowego (przewodnienia)",
+      "B) Furosemid jest lekiem z wyboru regenerującym cewki nerkowe",
+      "C) Furosemid należy podawać dożylnie każdemu choremu z podwyższoną kreatyniną",
+      "D) Diuretyki pętlowe wolno stosować wyłącznie w skojarzeniu z dializą",
+      "E) Furosemid jest bezwzględnie zakazany we wszystkich chorobach nerek"
+    ],
+    "corrLen": 196,
+    "avgWrong": 69,
+    "ratio": 2.84
+  },
+  {
+    "caseId": 68,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Który z poniższych stanów klinicznych stanowi bezwzględne wskazanie do pilnego rozpoczęcia leczenia nerkozastępczego (hemodializy ratunkowej) w przebiegu AKI?",
+    "key": "A) Oporna na leczenie farmakologiczne hiperkaliemia (>6.5-7.0 mmol/l) ze zmianami elektrokardiograficznymi lub oporny obrzęk płuc w przebiegu przewodnienia",
+    "correctIdx": 0,
+    "opts": [
+      "A) Oporna na leczenie farmakologiczne hiperkaliemia (>6.5-7.0 mmol/l) ze zmianami elektrokardiograficznymi lub oporny obrzęk płuc w przebiegu przewodnienia",
+      "B) Izolowane stężenie kreatyniny 2.5 mg/dl przy prawidłowej diurezie i braku kwasicy",
+      "C) Stężenie mocznika 15 mmol/l",
+      "D) Spadek stężenia hemoglobiny do 10 g/dl",
+      "E) Pojawienie się wałeczków szklistych w moczu"
+    ],
+    "corrLen": 155,
+    "avgWrong": 50,
+    "ratio": 3.08
+  },
+  {
+    "caseId": 68,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Co oznacza pojęcie 'testu stresowego z furosemidem' (FST – Furosemide Stress Test) w ocenie pacjenta z wczesnym AKI?",
+    "key": "A) Podanie jednorazowego bolusa furosemidu (1.0-1.5 mg/kg i.v.) w celu oceny rezerwy wydalniczej cewek nerkowych: wydalenie < 200 ml moczu w ciągu pierwszych 2 godzin z wysoką czułością prognozuje progresję do stadium 3 AKI i konieczność dializoterapii",
+    "correctIdx": 0,
+    "opts": [
+      "A) Podanie jednorazowego bolusa furosemidu (1.0-1.5 mg/kg i.v.) w celu oceny rezerwy wydalniczej cewek nerkowych: wydalenie < 200 ml moczu w ciągu pierwszych 2 godzin z wysoką czułością prognozuje progresję do stadium 3 AKI i konieczność dializoterapii",
+      "B) Podawanie furosemidu przez 30 dni w celu sprawdzenia wydolności serca",
+      "C) Próbę prowokacji napadu dny moczanowej",
+      "D) Test wysiłkowy na bieżni po zażyciu furosemidu",
+      "E) Pomiar ciśnienia tętniczego po podaniu leku moczopędnego"
+    ],
+    "corrLen": 252,
+    "avgWrong": 55,
+    "ratio": 4.56
+  },
+  {
+    "caseId": 68,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Dlaczego u chorego we wstrząsie septycznym z AKI leczonego na OIT preferuje się ciągłe techniki nerkozastępcze (CRRT, np. CVVHDF) nad klasyczną przerywaną hemodializą?",
+    "key": "A) Zapewniają znacznie większą stabilność hemodynamiczną poprzez powolne, ciągłe usuwanie płynów i toksyn mocznicowych bez gwałtownych spadków ciśnienia tętniczego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zapewniają znacznie większą stabilność hemodynamiczną poprzez powolne, ciągłe usuwanie płynów i toksyn mocznicowych bez gwałtownych spadków ciśnienia tętniczego",
+      "B) Ponieważ CRRT jest tańsza od klasycznej hemodializy",
+      "C) Ponieważ CRRT nie wymaga dostępu naczyniowego",
+      "D) Ponieważ hemodializa przerywana jest zakazana u dorosłych",
+      "E) Ponieważ CRRT trwale leczy sepsę w 10 minut"
+    ],
+    "corrLen": 163,
+    "avgWrong": 52,
+    "ratio": 3.13
+  },
+  {
+    "caseId": 68,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaki jest pierwszy krok w farmakologicznym leczeniu ostrej, zagrażającej życiu hiperkaliemii z towarzyszącymi zmianami w EKG (wysokie spiczaste T, poszerzenie QRS)?",
+    "key": "A) Dożylne podanie 10 ml 10% roztworu glukonianu wapnia w celu stabilizacji błony komórkowej kardiomiocytów",
+    "correctIdx": 0,
+    "opts": [
+      "A) Dożylne podanie 10 ml 10% roztworu glukonianu wapnia w celu stabilizacji błony komórkowej kardiomiocytów",
+      "B) Podanie 500 ml 20% mannitolu",
+      "C) Wlew 0.9% NaCl w dawce 3 litrów",
+      "D) Podanie spironolaktonu",
+      "E) Zastosowanie dożylnej penicyliny krystalicznej"
+    ],
+    "corrLen": 107,
+    "avgWrong": 35,
+    "ratio": 3.08
+  },
+  {
+    "caseId": 68,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Dlaczego w płynoterapii pacjentów z AKI wytyczne zalecają stosowanie roztworów zbilansowanych krystaloidów (np. Plasmalyte, Ringer z octanami) zamiast dużych objętości 0.9% NaCl?",
+    "key": "A) Ponieważ duże objętości 0.9% NaCl wywołują hiperchloremię, która powoduje skurcz tętniczek nerkowych, spadek filtracji kłębuszkowej (GFR) oraz nasila kwasicę metaboliczną",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ duże objętości 0.9% NaCl wywołują hiperchloremię, która powoduje skurcz tętniczek nerkowych, spadek filtracji kłębuszkowej (GFR) oraz nasila kwasicę metaboliczną",
+      "B) Ponieważ 0.9% NaCl zawiera toksyczne metale ciężkie",
+      "C) Ponieważ roztwory zbilansowane leczą cukrzycę",
+      "D) Ponieważ sól fizjologiczna rozpuszcza czerwone krwinki",
+      "E) Nie ma żadnej różnicy między 0.9% NaCl a roztworami zbilansowanymi"
+    ],
+    "corrLen": 173,
+    "avgWrong": 57,
+    "ratio": 3.04
+  },
+  {
+    "caseId": 68,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Na czym polega faza poliurii w przebiegu ostrej martwicy cewek nerkowych (ATN)?",
+    "key": "A) Na wydalaniu bardzo dużych objętości hipotonicznego moczu (często 4-6 litrów/dobę) w okresie regeneracji nabłonka cewek, co wymaga intensywnego uzupełniania wody i elektrolitów w celu uniknięcia odwodnienia i hipokaliemii",
+    "correctIdx": 0,
+    "opts": [
+      "A) Na wydalaniu bardzo dużych objętości hipotonicznego moczu (często 4-6 litrów/dobę) w okresie regeneracji nabłonka cewek, co wymaga intensywnego uzupełniania wody i elektrolitów w celu uniknięcia odwodnienia i hipokaliemii",
+      "B) Na całkowitym ustaniu wydalania moczu przez 3 miesiące",
+      "C) Na masywnym krwiomoczu z obecnością skrzepów",
+      "D) Na wydalaniu czystego białka bez wody",
+      "E) Na konieczności natychmiastowego usunięcia pęcherza"
+    ],
+    "corrLen": 224,
+    "avgWrong": 50,
+    "ratio": 4.53
+  },
+  {
+    "caseId": 68,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaka cecha w badaniu ultrasonograficznym nerek pozwala odróżnić ostre uszkodzenie nerek (AKI) od zaawansowanej przewlekłej choroby nerek (PChN)?",
+    "key": "A) W AKI nerki mają prawidłową lub powiększoną wielkość i zachowaną grubość kory, podczas gdy w zaawansowanej PChN są zazwyczaj małe, obkurczone (<9 cm) o ścieńczałej, hiperechogenicznej korze",
+    "correctIdx": 0,
+    "opts": [
+      "A) W AKI nerki mają prawidłową lub powiększoną wielkość i zachowaną grubość kory, podczas gdy w zaawansowanej PChN są zazwyczaj małe, obkurczone (<9 cm) o ścieńczałej, hiperechogenicznej korze",
+      "B) W AKI nerki zawsze leżą w miednicy mniejszej",
+      "C) W PChN nerki są zawsze 3-krotnie większe niż u zdrowego",
+      "D) USG nie pozwala na różnicowanie AKI od PChN",
+      "E) W AKI nerki świecą w świetle ultrafioletowym"
+    ],
+    "corrLen": 192,
+    "avgWrong": 50,
+    "ratio": 3.88
+  },
+  {
+    "caseId": 69,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Która triada objawów klinicznych i laboratoryjnych jest BEZWZGLĘDNIE WYMAGANA do rozpoznania zespołu nerczycowego u osoby dorosłej?",
+    "key": "A) Dobowy białkomocz > 3.5 g/24h (lub UPCR > 3.5 g/g) + hipoalbuminemia < 30 g/l (hipoproteinemia < 60 g/l) + obrzęki",
+    "correctIdx": 0,
+    "opts": [
+      "A) Dobowy białkomocz > 3.5 g/24h (lub UPCR > 3.5 g/g) + hipoalbuminemia < 30 g/l (hipoproteinemia < 60 g/l) + obrzęki",
+      "B) Krwiomocz + nadciśnienie tętnicze + wałeczki erytrocytarne",
+      "C) Leukocyturia + bakteriomocz + gorączka",
+      "D) Wzrost kreatyniny > 4.0 mg/dl + bezmocz + hiperkaliemia",
+      "E) Wielomocz > 5 litrów + hipernatremia + hipostenuria"
+    ],
+    "corrLen": 117,
+    "avgWrong": 54,
+    "ratio": 2.19
+  },
+  {
+    "caseId": 69,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki jest mechanizm skrajnej skłonności do powikłań zakrzepowo-zatorowych (w tym zakrzepicy żyły nerkowej) u pacjentów z ciężkim zespołem nerczycowym?",
+    "key": "A) Nerczycowa utrata z moczem naturalnych antykoagulantów (zwłaszcza antytrombiny III) połączona z nasiloną wątrobową syntezą fibrynogenu i czynników krzepnięcia w odpowiedzi na hipoonkcję",
+    "correctIdx": 0,
+    "opts": [
+      "A) Nerczycowa utrata z moczem naturalnych antykoagulantów (zwłaszcza antytrombiny III) połączona z nasiloną wątrobową syntezą fibrynogenu i czynników krzepnięcia w odpowiedzi na hipoonkcję",
+      "B) Spadek liczby płytek krwi do zera",
+      "C) Zniszczenie śródbłonka przez mocznik",
+      "D) Brak witaminy K w wątrobie",
+      "E) Nadmiar heparyny endogennej"
+    ],
+    "corrLen": 188,
+    "avgWrong": 34,
+    "ratio": 5.61
+  },
+  {
+    "caseId": 69,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Dlaczego zalecanie diety wysokobiałkowej (>1.5-2.0 g/kg m.c./d) pacjentowi z zespołem nerczycowym w celu 'uzupełnienia białka' jest BŁĘDEM W SZTUCE?",
+    "key": "A) Ponieważ dieta wysokobiałkowa wywołuje hiperfiltrację kłębuszkową, zwiększa ciśnienie włośniczkowe w kłębuszkach i paradoksalnie NASILA białkomocz oraz przyspiesza postęp niewydolności nerek",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ dieta wysokobiałkowa wywołuje hiperfiltrację kłębuszkową, zwiększa ciśnienie włośniczkowe w kłębuszkach i paradoksalnie NASILA białkomocz oraz przyspiesza postęp niewydolności nerek",
+      "B) Ponieważ białko zamienia się w sól kuchenną w żołądku",
+      "C) Ponieważ białko wywołuje natychmiastową zaćmę",
+      "D) Ponieważ u chorych z zespołem nerczycowym żołądek nie trawi białka",
+      "E) Dieta wysokobiałkowa jest standardem leczenia"
+    ],
+    "corrLen": 193,
+    "avgWrong": 55,
+    "ratio": 3.49
+  },
+  {
+    "caseId": 69,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Który lek biologiczny (przeciwciało monoklonalne) jest zalecany przez wytyczne KDIGO 2021 jako lek pierwszego wyboru w terapii immunosupresyjnej pierwotnej nefropatii błoniastej o wysokim ryzyku progresji?",
+    "key": "A) Rytuksymab (przeciwciało przeciwko antygenowi CD20 limfocytów B)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Rytuksymab (przeciwciało przeciwko antygenowi CD20 limfocytów B)",
+      "B) Trastuzumab",
+      "C) Infliximab",
+      "D) Omalizumab",
+      "E) Pembrolizumab"
+    ],
+    "corrLen": 67,
+    "avgWrong": 14,
+    "ratio": 4.79
+  },
+  {
+    "caseId": 69,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego u chorych z zespołem nerczycowym rutynowo podaje się statyny (inhibitory reduktazy HMG-CoA)?",
+    "key": "A) Ze względu na ciężką hiperlipidemię nerczycową (skrajny wzrost LDL i trójglicerydów) stwarzającą ogromne przyspieszone ryzyko zawału serca i powikłań sercowo-naczyniowych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ze względu na ciężką hiperlipidemię nerczycową (skrajny wzrost LDL i trójglicerydów) stwarzającą ogromne przyspieszone ryzyko zawału serca i powikłań sercowo-naczyniowych",
+      "B) Statyny bezpośrednio zamykają pory w kłębuszkach nerkowych",
+      "C) W celu podniesienia ciśnienia tętniczego",
+      "D) Statyny rozpuszczają wapń w nerkach",
+      "E) W celu leczenia anemii"
+    ],
+    "corrLen": 173,
+    "avgWrong": 42,
+    "ratio": 4.14
+  },
+  {
+    "caseId": 70,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Jaki jest standardowy schemat farmakoterapii immunosupresyjnej skojarzonej z plazmaferezą w chorobie anty-GBM wg wytycznych KDIGO?",
+    "key": "A) Pulsujący metyloprednizolon i.v. z przejściem na doustny prednizon W SKOJARZENIU z cyklofosfamidem",
+    "correctIdx": 0,
+    "opts": [
+      "A) Pulsujący metyloprednizolon i.v. z przejściem na doustny prednizon W SKOJARZENIU z cyklofosfamidem",
+      "B) Monoterapia hydrochlorotiazydem",
+      "C) Doustny metotreksat w małej dawce raz w tygodniu",
+      "D) Wankomycyna z gentamycyną",
+      "E) Cyklosporyna A w monoterapii"
+    ],
+    "corrLen": 101,
+    "avgWrong": 36,
+    "ratio": 2.81
+  },
+  {
+    "caseId": 70,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Jaki element w osadzie moczu jest patognomoniczny dla aktywnego kłębuszkowego zapalenia nerek (aktywnego osadu nefrytycznego) w przebiegu RPGN?",
+    "key": "A) Wałeczki erytrocytarne oraz wyługowane, dysmorficzne erytrocyty (akantocyty)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wałeczki erytrocytarne oraz wyługowane, dysmorficzne erytrocyty (akantocyty)",
+      "B) Wałeczki woskowe bez komórek",
+      "C) Czysty osad bez elementów morfotycznych",
+      "D) Kryształy szczawianu wapnia w kształcie kopert",
+      "E) Drożdżaki i grzybnia Candida"
+    ],
+    "corrLen": 79,
+    "avgWrong": 38,
+    "ratio": 2.07
+  },
+  {
+    "caseId": 70,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Czym różni się postać RPGN typ II (kompleksów immunologicznych) od postaci RPGN typ I (anty-GBM)?",
+    "key": "A) W typie II występują ziarniste złogi kompleksów immunologicznych (np. w SLE, popaciorkowcowym KZN, plamicy Henocha-Schönleina), a w typie I linijne złogi IgG",
+    "correctIdx": 0,
+    "opts": [
+      "A) W typie II występują ziarniste złogi kompleksów immunologicznych (np. w SLE, popaciorkowcowym KZN, plamicy Henocha-Schönleina), a w typie I linijne złogi IgG",
+      "B) Typ II występuje wyłącznie u noworodków",
+      "C) W typie II nie ma białkomoczu",
+      "D) Typ I jest zawsze wywoływany przez wirus HIV",
+      "E) Typ II nie daje niewydolności nerek"
+    ],
+    "corrLen": 160,
+    "avgWrong": 40,
+    "ratio": 4.03
+  },
+  {
+    "caseId": 70,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który z poniższych objawów radiologicznych w tomografii klatki piersiowej wysokiej rozdzielczości (HRCT) jest typowy dla rozlanego krwawienia pęcherzykowego (DAH)?",
+    "key": "A) Obustronne, zlewne obszary zagęszczeń o typie matowej szyby (ground-glass) i konsolidacji pęcherzykowych z zaoszczędzeniem obwodowych części płuc",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obustronne, zlewne obszary zagęszczeń o typie matowej szyby (ground-glass) i konsolidacji pęcherzykowych z zaoszczędzeniem obwodowych części płuc",
+      "B) Obwodowe zmiany o typie plastra miodu w szczytach płuc",
+      "C) Płyn w obu jamach opłucnej z poziomem gazu",
+      "D) Zwapnienia w opłucnej ściennej",
+      "E) Całkowicie prawidłowy obraz płuc bez jakichkolwiek odchyleń"
+    ],
+    "corrLen": 148,
+    "avgWrong": 49,
+    "ratio": 3.01
+  },
+  {
+    "caseId": 70,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Co to jest zespół podwójnie dodatni ('double-positive') w nefrologii stanów nagłych?",
+    "key": "A) Jednoczesna obecność u pacjenta przeciwciał anty-GBM oraz przeciwciał ANCA",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jednoczesna obecność u pacjenta przeciwciał anty-GBM oraz przeciwciał ANCA",
+      "B) Obecność białka i cukru w moczu",
+      "C) Dodatni wynik testu ciążowego i testu na HIV",
+      "D) Wzrost ciśnienia tętniczego i tętna",
+      "E) Obecność krwi w stolcu i moczu"
+    ],
+    "corrLen": 77,
+    "avgWrong": 38,
+    "ratio": 2.03
+  },
+  {
+    "caseId": 70,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jaka cecha histopatologiczna definiuje kłębuszkowe zapalenie nerek z półksiężycami (crescentic glomerulonephritis)?",
+    "key": "A) Obecność zewnątrzwłośniczkowego rozplemu komórek nabłonka torebki Bowmana i makrofagów tworzących półksiężyce w co najmniej 50% ocenianych kłębuszków",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność zewnątrzwłośniczkowego rozplemu komórek nabłonka torebki Bowmana i makrofagów tworzących półksiężyce w co najmniej 50% ocenianych kłębuszków",
+      "B) Kształt nerki przypominający półksiężyc w badaniu USG",
+      "C) Obecność dokładnie 1 półksiężyca w całym bioptacie",
+      "D) Zanik kłębuszków z pozostawieniem torebek",
+      "E) Zmiana koloru moczu na srebrzysty"
+    ],
+    "corrLen": 152,
+    "avgWrong": 47,
+    "ratio": 3.22
+  },
+  {
+    "caseId": 71,
+    "qIdx": 0,
+    "qNum": 1,
+    "qText": "Który z poniższych objawów klinicznych u pacjenta ze schyłkową niewydolnością nerek stanowi BEZWZGLĘDNE WSKAZANIE do natychmiastowego rozpoczęcia hemodializy ratunkowej?",
+    "key": "A) Mocznicowe zapalenie osierdzia manifestujące się szorstkim tarciem osierdziowym",
+    "correctIdx": 0,
+    "opts": [
+      "A) Mocznicowe zapalenie osierdzia manifestujące się szorstkim tarciem osierdziowym",
+      "B) Izolowane stężenie hemoglobiny 8.5 g/dl",
+      "C) Stężenie parathormonu (iPTH) 250 pg/ml",
+      "D) Wypadanie włosów",
+      "E) Łagodna nykturia bez cech przewodnienia"
+    ],
+    "corrLen": 82,
+    "avgWrong": 36,
+    "ratio": 2.28
+  },
+  {
+    "caseId": 71,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego nakłucie żyły podobojczykowej w celu założenia cewnika do ostrej hemodializy jest ZDECYDOWANIE ODRADZANE u pacjentów ze schyłkową przewlekłą chorobą nerek?",
+    "key": "A) Z powodu wysokiego ryzyka jatrogennego zwężenia (stenozy) żyły podobojczykowej, co trwale uniemożliwia wytworzenie i funkcjonowanie obwodowej przetoki tętniczo-żylnej (AVF) na tym ramieniu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Z powodu wysokiego ryzyka jatrogennego zwężenia (stenozy) żyły podobojczykowej, co trwale uniemożliwia wytworzenie i funkcjonowanie obwodowej przetoki tętniczo-żylnej (AVF) na tym ramieniu",
+      "B) Ponieważ żyła podobojczykowa nie łączy się z sercem",
+      "C) Z powodu natychmiastowego zakażenia tężcem",
+      "D) Ponieważ krew w żyle podobojczykowej nie zawiera mocznika",
+      "E) Ponieważ cewnik w tym miejscu rozpuszcza obojczyk"
+    ],
+    "corrLen": 191,
+    "avgWrong": 53,
+    "ratio": 3.62
+  },
+  {
+    "caseId": 71,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Na czym polega zespół niewyrównania dializacyjnego (Dialysis Disequilibrium Syndrome – DDS) i jak mu zapobiegać?",
+    "key": "A) Na ostrym obrzęku mózgu wywołanym zbyt szybkim obniżeniem stężenia mocznika we krwi w stosunku do wolniejszej eliminacji z mózgu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Na ostrym obrzęku mózgu wywołanym zbyt szybkim obniżeniem stężenia mocznika we krwi w stosunku do wolniejszej eliminacji z mózgu",
+      "B) Na skręcie jelit podczas dializy",
+      "C) Na pęknięciu dializatora pod wpływem wysokiego ciśnienia",
+      "D) Na natychmiastowym zwapnieniu nerek",
+      "E) Na wywołaniu hipoglikemii poniżej 20 mg/dl"
+    ],
+    "corrLen": 131,
+    "avgWrong": 44,
+    "ratio": 2.96
+  },
+  {
+    "caseId": 71,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego u chorego z mocznicowym zapaleniem osierdzia zaleca się prowadzenie hemodializy BEZ UŻYCIA HEPARYNY (heparin-free dialysis)?",
+    "key": "A) Ponieważ mocznicowe zapalenie osierdzia ma charakter włóknikowo-krwotoczny i podanie pełnej dawki heparyny grozi masywnym krwawieniem do worka osierdziowego i tamponadą serca",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ponieważ mocznicowe zapalenie osierdzia ma charakter włóknikowo-krwotoczny i podanie pełnej dawki heparyny grozi masywnym krwawieniem do worka osierdziowego i tamponadą serca",
+      "B) Ponieważ heparyna neutralizuje działanie dializatora",
+      "C) Ponieważ mocznik rozkłada cząsteczki heparyny",
+      "D) Z powodu ryzyka natychmiastowego obniżenia ciśnienia",
+      "E) Heparyna w zapaleniu osierdzia jest zalecana w potrójnej dawce"
+    ],
+    "corrLen": 177,
+    "avgWrong": 56,
+    "ratio": 3.17
+  },
+  {
+    "caseId": 71,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Czym jest 'szron mocznicowy' (uremic frost)?",
+    "key": "A) Wytrącaniem się kryształków mocznika na powierzchni skóry z odparowującego potu u chorych ze skrajną mocznicą",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wytrącaniem się kryształków mocznika na powierzchni skóry z odparowującego potu u chorych ze skrajną mocznicą",
+      "B) Zakażeniem grzybiczym skóry u dializowanych",
+      "C) Odmrożeniem palców stóp u chorych z PChN",
+      "D) Łupieżem pstrym klatki piersiowej",
+      "E) Zmianami łuszczycowymi na łokciach"
+    ],
+    "corrLen": 112,
+    "avgWrong": 41,
+    "ratio": 2.77
+  },
+  {
+    "caseId": 72,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Co oznacza pojęcie 'jałowego ropomoczu' (sterile pyuria) w moczu pacjenta z ostrym uszkodzeniem nerek?",
+    "key": "A) Obecność podwyższonej liczby leukocytów w osadzie moczu przy jednoczesnym braku wzrostu bakterii w posiewie moczu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność podwyższonej liczby leukocytów w osadzie moczu przy jednoczesnym braku wzrostu bakterii w posiewie moczu",
+      "B) Obecność bakterii bez jakichkolwiek leukocytów",
+      "C) Czysty mocz bez białka",
+      "D) Mocz o zapachu amoniaku",
+      "E) Obecność kryształów kwasu moczowego"
+    ],
+    "corrLen": 116,
+    "avgWrong": 35,
+    "ratio": 3.36
+  },
+  {
+    "caseId": 72,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jaki jest BEZWZGLĘDNY PIERWSZY KROK w postępowaniu terapeutycznym u chorego z podejrzeniem polekowego AIN?",
+    "key": "A) Natychmiastowe odstawienie leku podejrzanego o wywołanie reakcji nadwrażliwości",
+    "correctIdx": 0,
+    "opts": [
+      "A) Natychmiastowe odstawienie leku podejrzanego o wywołanie reakcji nadwrażliwości",
+      "B) Podanie wankomycyny w dużej dawce",
+      "C) Zwiększenie dawki antybiotyku w celu przełamania oporności",
+      "D) Wykonanie pilnej hemodializy",
+      "E) Wlew 20% mannitolu"
+    ],
+    "corrLen": 82,
+    "avgWrong": 37,
+    "ratio": 2.2
+  },
+  {
+    "caseId": 72,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Kiedy w polekowym AIN zaleca się wdrożenie leczenia glikokortykosteroidami (np. prednizonem 1 mg/kg m.c./d)?",
+    "key": "A) Gdy po 3 do 5 (maksymalnie 7) dniach od odstawienia leku sprawczego nie obserwuje się poprawy czynności nerek lub gdy niewydolność nerek postępuje",
+    "correctIdx": 0,
+    "opts": [
+      "A) Gdy po 3 do 5 (maksymalnie 7) dniach od odstawienia leku sprawczego nie obserwuje się poprawy czynności nerek lub gdy niewydolność nerek postępuje",
+      "B) Wyłącznie po 6 miesiącach od wystąpienia objawów",
+      "C) Sterydy są bezwzględnie zakazane w chorobach śródmiąższowych",
+      "D) Od razu u każdego zdrowego człowieka",
+      "E) Dopiero po przeszczepieniu nerki"
+    ],
+    "corrLen": 149,
+    "avgWrong": 47,
+    "ratio": 3.17
+  },
+  {
+    "caseId": 72,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Co to jest 'okno terapeutyczne' dla sterydoterapii w ostrym cewkowo-śródmiąższowym zapaleniu nerek?",
+    "key": "A) Okres pierwszych 1-2 tygodni od wystąpienia uszkodzenia nerek, w którym sterydy są w stanie odwrócić nacieki komórkowe",
+    "correctIdx": 0,
+    "opts": [
+      "A) Okres pierwszych 1-2 tygodni od wystąpienia uszkodzenia nerek, w którym sterydy są w stanie odwrócić nacieki komórkowe",
+      "B) Pora dnia, w której należy wietrzyć salę chorych",
+      "C) Czas potrzebny na wchłonięcie tabletki w żołądku",
+      "D) Okres między kolejnymi dawkami dializy",
+      "E) Czas od wykonania USG do tomografii"
+    ],
+    "corrLen": 121,
+    "avgWrong": 45,
+    "ratio": 2.67
+  },
+  {
+    "caseId": 72,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Która z poniższych grup leków może wywołać unikalny zespół łączący ostre cewkowo-śródmiąższowe zapalenie nerek (AIN) z zespołem nerczycowym o typie zmiany minimalnej (MCD)?",
+    "key": "A) Niesteroidowe leki przeciwzapalne",
+    "correctIdx": 0,
+    "opts": [
+      "A) Niesteroidowe leki przeciwzapalne",
+      "B) Statyny",
+      "C) Beta-blokery",
+      "D) Witamina B6",
+      "E) Heparyna niefrakcjonowana"
+    ],
+    "corrLen": 36,
+    "avgWrong": 17,
+    "ratio": 2.15
+  },
+  {
+    "caseId": 73,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Który stan u pacjenta z ADPKD stanowi bezwzględne wskazanie do przesiewowego wykonania angio-MR tętnic koła Willisa?",
+    "key": "A) Dodatni wywiad rodzinny w kierunku tętniaka wewnątrzczaszkowego lub krwawienia podpajęczynówkowego (SAH)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Dodatni wywiad rodzinny w kierunku tętniaka wewnątrzczaszkowego lub krwawienia podpajęczynówkowego (SAH)",
+      "B) Każdy przypadek zdiagnozowania torbieli w USG nerek",
+      "C) Wystąpienie pojedynczego epizodu krwiomoczu",
+      "D) Wartość eGFR poniżej 60 ml/min/1.73m²",
+      "E) Prawidłowe stężenie sodu w surowicy"
+    ],
+    "corrLen": 107,
+    "avgWrong": 45,
+    "ratio": 2.4
+  },
+  {
+    "caseId": 73,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Który parametr laboratoryjny musi być bezwzględnie kontrolowany co miesiąc przez pierwsze 18 miesięcy terapii tolwaptanem z powodu ryzyka poważnej toksyczności narządowej?",
+    "key": "A) Aktywność aminotransferaz (AlAT, AspAT) i stężenie bilirubiny (próby wątrobowe)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Aktywność aminotransferaz (AlAT, AspAT) i stężenie bilirubiny (próby wątrobowe)",
+      "B) Poziom troponiny sercowej T",
+      "C) Liczba płytek krwi",
+      "D) Poziom kwasu foliowego w surowicy",
+      "E) Gazometria krwi tętniczej"
+    ],
+    "corrLen": 82,
+    "avgWrong": 29,
+    "ratio": 2.85
+  },
+  {
+    "caseId": 73,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaka grupa leków hipotensyjnych stanowi leczenie pierwszego wyboru u pacjentów z ADPKD i nowo rozpoznanym nadciśnieniem tętniczym?",
+    "key": "A) Inhibitory układu renina-angiotensyna-aldosteron (ACEI lub ARB)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Inhibitory układu renina-angiotensyna-aldosteron (ACEI lub ARB)",
+      "B) Tiazydy w monoterapii",
+      "C) Beta-blokery niekardioselektywne",
+      "D) Alfa-1-adrenolityki",
+      "E) Ośrodkowo działająca klonidyna"
+    ],
+    "corrLen": 66,
+    "avgWrong": 29,
+    "ratio": 2.32
+  },
+  {
+    "caseId": 73,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Dlaczego u chorych na ADPKD z krwiomoczem wywołanym pęknięciem torbieli należy unikać stosowania niesteroidowych leków przeciwzapalnych (NLPZ)?",
+    "key": "A) NLPZ hamują syntezę prostaglandyn nerkowych, co może wywołać skurcz tętniczek doprowadzających, spadek GFR oraz nasilić uszkodzenie nerek i krwawienie",
+    "correctIdx": 0,
+    "opts": [
+      "A) NLPZ hamują syntezę prostaglandyn nerkowych, co może wywołać skurcz tętniczek doprowadzających, spadek GFR oraz nasilić uszkodzenie nerek i krwawienie",
+      "B) NLPZ bezpośrednio stymulują pękanie kolejnych torbieli",
+      "C) NLPZ wywołują alkalozy oddechowe",
+      "D) NLPZ neutralizują działanie paracetamolu",
+      "E) NLPZ trwale blokują receptor wazopresyny V2"
+    ],
+    "corrLen": 153,
+    "avgWrong": 45,
+    "ratio": 3.38
+  },
+  {
+    "caseId": 73,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego u chorych na ADPKD odradza się spożywanie dużych ilości kawy i napojów energetyzujących zawierających kofeinę?",
+    "key": "A) Kofeina hamuje fosfodiesterazę (PDE), co prowadzi do wzrostu wewnątrzkomórkowego cAMP napędzającego wzrost torbieli",
+    "correctIdx": 0,
+    "opts": [
+      "A) Kofeina hamuje fosfodiesterazę (PDE), co prowadzi do wzrostu wewnątrzkomórkowego cAMP napędzającego wzrost torbieli",
+      "B) Kofeina powoduje natychmiastowe zarastanie tętnic nerkowych",
+      "C) Kofeina bezpośrednio niszczy policystynę 1",
+      "D) Kofeina obniża ciśnienie tętnicze krwi poniżej normy",
+      "E) Kofeina przekształca torbiele proste w torbiele pasożytnicze"
+    ],
+    "corrLen": 118,
+    "avgWrong": 56,
+    "ratio": 2.1
+  },
+  {
+    "caseId": 74,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jakie jest największe niebezpieczeństwo wdrożenia leczenia samym kwasem foliowym u chorego z nierozpoznanym niedoborem witaminy B12?",
+    "key": "A) Zamaskowanie niedokrwistości przy jednoczesnym przyspieszeniu i pogłębieniu nieodwracalnych uszkodzeń neurologicznych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zamaskowanie niedokrwistości przy jednoczesnym przyspieszeniu i pogłębieniu nieodwracalnych uszkodzeń neurologicznych",
+      "B) Wywołanie ostrej martwicy cewek nerkowych",
+      "C) Spowodowanie natychmiastowego obrzęku płuc",
+      "D) Gwałtowny rozwój zespołu lizy guza",
+      "E) Zatrzymanie krążenia w mechanizmie asystolii w ciągu 5 minut"
+    ],
+    "corrLen": 120,
+    "avgWrong": 47,
+    "ratio": 2.54
+  },
+  {
+    "caseId": 74,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Na jakie nowotwory złośliwe przewodu pokarmowego są szczególnie narażeni chorzy z wieloletnią chorobą Addisona-Biermera?",
+    "key": "A) Gruczolakoraka żołądka oraz guzy neuroendokrynne żołądka",
+    "correctIdx": 0,
+    "opts": [
+      "A) Gruczolakoraka żołądka oraz guzy neuroendokrynne żołądka",
+      "B) Raka płaskonabłonkowego przełyku",
+      "C) Raka trzustki",
+      "D) Raka dróg żółciowych",
+      "E) GIST jelita cienkiego"
+    ],
+    "corrLen": 59,
+    "avgWrong": 25,
+    "ratio": 2.41
+  },
+  {
+    "caseId": 74,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "W którym odcinku przewodu pokarmowego zachodzi fizjologiczne wchłanianie kompleksu witaminy B12 z czynnikiem wewnętrznym Castle'a (IF)?",
+    "key": "A) W końcowym odcinku jelita krętego (ileum terminale)",
+    "correctIdx": 0,
+    "opts": [
+      "A) W końcowym odcinku jelita krętego (ileum terminale)",
+      "B) W dwunastnicy",
+      "C) W opuszce dwunastnicy i odźwierniku",
+      "D) W jelicie czczym (jejunum)",
+      "E) W kątnicy"
+    ],
+    "corrLen": 54,
+    "avgWrong": 24,
+    "ratio": 2.27
+  },
+  {
+    "caseId": 75,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego przetoczenie koncentratu krwinek płytkowych (KKP) jest bezwzględnie przeciwwskazane u chorych na zakrzepową plamicę małopłytkową (TTP)?",
+    "key": "A) Przetoczone płytki łączą się z krążącymi multimerami vWF, wywołując gwałtowną, uogólnioną zakrzepicę w mikrokrążeniu z ryzykiem udaru mózgu, zawału serca i nagłego zgonu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przetoczone płytki łączą się z krążącymi multimerami vWF, wywołując gwałtowną, uogólnioną zakrzepicę w mikrokrążeniu z ryzykiem udaru mózgu, zawału serca i nagłego zgonu",
+      "B) Może wywołać natychmiastową niewydolność oddechową typu TRALI u 100% chorych",
+      "C) Płytki krwi neutralizują działanie rytuksymabu",
+      "D) Prowadzi do natychmiastowej hipokaliemii z asystolią",
+      "E) Wywołuje transformację blastyczną w szpiku"
+    ],
+    "corrLen": 172,
+    "avgWrong": 57,
+    "ratio": 3.02
+  },
+  {
+    "caseId": 75,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Jaka metoda leczenia stanowi podstawę terapii ratującej życie w ostrej fazie TTP i doprowadziła do spadku śmiertelności z 90% do kilkunastu procent?",
+    "key": "A) Pilna terapeutyczna wymiana osocza (plazmafereza lecznicza – TPE) z użyciem osocza świeżo mrożonego (FFP)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Pilna terapeutyczna wymiana osocza (plazmafereza lecznicza – TPE) z użyciem osocza świeżo mrożonego (FFP)",
+      "B) Masywna transfuzja koncentratu krwinek czerwonych",
+      "C) Leczenie kwasem traneksamowym w ciągłym wlewie",
+      "D) Podanie rekombinowanej trombiny",
+      "E) Dializoterapia otrzewnowa"
+    ],
+    "corrLen": 108,
+    "avgWrong": 41,
+    "ratio": 2.65
+  },
+  {
+    "caseId": 75,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który lek biologiczny to humanizowane nanociało (nanobody) skierowane przeciwko domenie A1 czynnika von Willebranda, blokujące jego wiązanie z receptorem płytkowym GPIb?",
+    "key": "A) Kaplacyzumab (Caplacizumab)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Kaplacyzumab (Caplacizumab)",
+      "B) Rytuksymab",
+      "C) Ekulizumab",
+      "D) Infliximab",
+      "E) Abcyksymab"
+    ],
+    "corrLen": 30,
+    "avgWrong": 13,
+    "ratio": 2.31
+  },
+  {
+    "caseId": 75,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Ile objawów z klasycznej 'pentady Moschcowitza' wystarcza w codziennej praktyce klinicznej do podjęcia decyzji o natychmiastowym wdrożeniu plazmaferezy u chorego?",
+    "key": "A) Wystarczy współistnienie mikroangiopatycznej anemii hemolitycznej (MAHA ze schistocytami) oraz małopłytkowości bez innej uchwytnej przyczyny",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wystarczy współistnienie mikroangiopatycznej anemii hemolitycznej (MAHA ze schistocytami) oraz małopłytkowości bez innej uchwytnej przyczyny",
+      "B) Bezwzględnie musi wystąpić całe 5 objawów",
+      "C) Wymagana jest gorączka powyżej 41°C i śpiączka",
+      "D) Wymagany jest bezmocz trwający minimum 5 dni",
+      "E) Wystarcza izolowany ból głowy"
+    ],
+    "corrLen": 143,
+    "avgWrong": 43,
+    "ratio": 3.33
+  },
+  {
+    "caseId": 75,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Jaka nieprawidłowość w rozmazie krwi mikroskopowej stanowi kluczowy morfologiczny dowód mikroangiopatycznej niedokrwistości hemolitycznej (MAHA)?",
+    "key": "A) Obecność schistocytów (fragmentocytów) w odsetku przekraczającym 1% erytrocytów",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność schistocytów (fragmentocytów) w odsetku przekraczającym 1% erytrocytów",
+      "B) Obecność megalocytów z ciałkami Howella-Jolly'ego",
+      "C) Obecność krwinek sierpowatych",
+      "D) Wyłącznie obecność komórek plazmatycznych",
+      "E) Obecność granulocytów olbrzymich"
+    ],
+    "corrLen": 82,
+    "avgWrong": 41,
+    "ratio": 2.01
+  },
+  {
+    "caseId": 75,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Który lek immunosupresyjny jest zalecany u chorych na nabytą TTP w celu eradykacji klonu limfocytów B produkujących przeciwciała anty-ADAMTS13 i zmniejszenia ryzyka nawrotu?",
+    "key": "A) Rytuksymab (przeciwciało monoklonalne anty-CD20)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Rytuksymab (przeciwciało monoklonalne anty-CD20)",
+      "B) Metotreksat",
+      "C) Chlorambucyl",
+      "D) Hydroksymocznik",
+      "E) Interferon alfa"
+    ],
+    "corrLen": 51,
+    "avgWrong": 16,
+    "ratio": 3.14
+  },
+  {
+    "caseId": 75,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Co należy zrobić z krwią pacjenta przed podaniem pierwszej jednostki osocza lub rozpoczęciem plazmaferezy przy podejrzeniu TTP?",
+    "key": "A) Bezwzględnie pobrać i zabezpieczyć krew na oznaczenie aktywności enzymu ADAMTS13 oraz przeciwciał anty-ADAMTS13",
+    "correctIdx": 0,
+    "opts": [
+      "A) Bezwzględnie pobrać i zabezpieczyć krew na oznaczenie aktywności enzymu ADAMTS13 oraz przeciwciał anty-ADAMTS13",
+      "B) Nic, badania enzymatyczne są całkowicie zbędne",
+      "C) Pobrać krew wyłącznie na grupę krwi bez innych próbówek",
+      "D) Wstrzyknąć do probówki heparynę i zamrozić",
+      "E) Podać pacjentowi witaminę K"
+    ],
+    "corrLen": 114,
+    "avgWrong": 46,
+    "ratio": 2.51
+  },
+  {
+    "caseId": 76,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Dlaczego u chorego z głęboką agranulocytozą (ANC < 500/µl) badanie per rectum oraz podawanie czopków doodbytniczych jest bezwzględnie przeciwwskazane?",
+    "key": "A) Grozi mikrourazem uszkodzonej błony śluzowej odbytnicy i masywną bakteriemią bakteriami jelitowymi prowadzącą do posocznicy",
+    "correctIdx": 0,
+    "opts": [
+      "A) Grozi mikrourazem uszkodzonej błony śluzowej odbytnicy i masywną bakteriemią bakteriami jelitowymi prowadzącą do posocznicy",
+      "B) Zwiększa ryzyko zawału mięśnia sercowego",
+      "C) Wywołuje natychmiastowe porażenie nerwu kulszowego",
+      "D) Uniemożliwia ocenę liczby płytek krwi",
+      "E) Zmienia grupę krwi pacjenta"
+    ],
+    "corrLen": 126,
+    "avgWrong": 42,
+    "ratio": 3.04
+  },
+  {
+    "caseId": 76,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Co oznacza wynik poniżej 21 punktów w skali MASCC (Multinational Association for Supportive Care in Cancer) u chorego z gorączką neutropeniczną?",
+    "key": "A) Przynależność do grupy wysokiego ryzyka ciężkich powikłań septycznych i zgonu, co stanowi bezwzględne wskazanie do hospitalizacji i leczenia dożylnego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Przynależność do grupy wysokiego ryzyka ciężkich powikłań septycznych i zgonu, co stanowi bezwzględne wskazanie do hospitalizacji i leczenia dożylnego",
+      "B) Pacjent może być bezpiecznie leczony doustnie w domu",
+      "C) Brak jakiejkolwiek neutropenii",
+      "D) Wskazanie do natychmiastowej amputacji kończyny",
+      "E) Całkowite wyleczenie z nowotworu"
+    ],
+    "corrLen": 153,
+    "avgWrong": 43,
+    "ratio": 3.54
+  },
+  {
+    "caseId": 76,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "W jakiej sytuacji klinicznej należy dodać wankomycynę do empirycznego schematu przeciw Pseudomonas w momencie przyjęcia chorego z gorączką neutropeniczną?",
+    "key": "A) Wystąpienie niestabilności hemodynamicznej (hipotonia, wstrząs) lub miejscowych cech zakażenia wkłucia naczyniowego",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wystąpienie niestabilności hemodynamicznej (hipotonia, wstrząs) lub miejscowych cech zakażenia wkłucia naczyniowego",
+      "B) Rutynowo u każdego pacjenta z temperaturą powyżej 38.0°C",
+      "C) Gdy pacjent zgłasza nudności po posiłku",
+      "D) Wyłącznie u kobiet w ciąży",
+      "E) Przy prawidłowym stężeniu prokalcytoniny"
+    ],
+    "corrLen": 118,
+    "avgWrong": 43,
+    "ratio": 2.73
+  },
+  {
+    "caseId": 76,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Który z poniższych parametrów wskazuje na zakażenie łożyska naczyniowego związane z cewnikiem (CRBSI) u gorączkującego pacjenta z portem naczyniowym?",
+    "key": "A) Wzrost posiewu krwi pobranej z portu o co najmniej 2 godziny wcześniej niż z krwi pobranej z żyły obwodowej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wzrost posiewu krwi pobranej z portu o co najmniej 2 godziny wcześniej niż z krwi pobranej z żyły obwodowej",
+      "B) Ujemny posiew z cewnika i dodatni z żyły",
+      "C) Prawidłowe stężenie leukocytów",
+      "D) Spadek temperatury po podaniu soli fizjologicznej",
+      "E) Brak wzrostu bakterii po 14 dniach"
+    ],
+    "corrLen": 110,
+    "avgWrong": 41,
+    "ratio": 2.67
+  },
+  {
+    "caseId": 77,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki jest mechanizm powstawania tzw. 'nerki szpiczakowej' (cast nephropathy) – najczęstszej postaci niewydolności nerek w szpiczaku mnogim?",
+    "key": "A) Tworzenie wałeczków (odlewów) w cewkach dalszych przez monoklonalne wolne łańcuchy lekkie łączące się z białkiem Tamma-Horsfalla (uromoduliną)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Tworzenie wałeczków (odlewów) w cewkach dalszych przez monoklonalne wolne łańcuchy lekkie łączące się z białkiem Tamma-Horsfalla (uromoduliną)",
+      "B) Zapalenie kłębuszków wywołane odkładaniem kompleksów IgA",
+      "C) Zatkanie moczowodów przez kamienie ze szczawianu wapnia",
+      "D) Wstępujące zakażenie bakteriami Escherichia coli",
+      "E) Zakrzepica obu tętnic nerkowych wywołana hiperlipoproteinemią"
+    ],
+    "corrLen": 145,
+    "avgWrong": 58,
+    "ratio": 2.5
+  },
+  {
+    "caseId": 77,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "Który lek antyresorpcyjny chroniący kości jest szczególnie zalecany u chorych na szpiczaka plazmocytowego z ciężką niewydolnością nerek (eGFR < 30 ml/min), ponieważ nie podlega eliminacji nerkowej?",
+    "key": "A) Denosumab (przeciwciało monoklonalne anty-RANKL)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Denosumab (przeciwciało monoklonalne anty-RANKL)",
+      "B) Kwas zoledronowy w pełnej dawce",
+      "C) Alendronian doustnie",
+      "D) Pamidronian w bolusie",
+      "E) Etidronian sodu"
+    ],
+    "corrLen": 51,
+    "avgWrong": 25,
+    "ratio": 2.06
+  },
+  {
+    "caseId": 77,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Które z poniższych leków lub procedur są bezwzględnie PRZECIWWSKAZANE u chorego ze szpiczakiem mnogim i rozwijającą się nerką szpiczakową?",
+    "key": "A) Niesteroidowe leki przeciwzapalne (NLPZ) oraz dożylne jodowe środki cieniujące (kontrast)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Niesteroidowe leki przeciwzapalne (NLPZ) oraz dożylne jodowe środki cieniujące (kontrast)",
+      "B) Nawadnianie dożylne solą fizjologiczną",
+      "C) Paracetamol w dawkach terapeutycznych",
+      "D) Leki z grupy inhibitorów proteasomu (np. bortezomib)",
+      "E) Denosumab"
+    ],
+    "corrLen": 92,
+    "avgWrong": 37,
+    "ratio": 2.49
+  },
+  {
+    "caseId": 77,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Co oznacza skrót SLiM w kryteriach rozpoznania szpiczaka plazmocytowego wg IMWG (2014), pozwalający rozpoznać chorobę przed wystąpieniem objawów CRAB?",
+    "key": "A) Sixty (>=60% plazmocytów w szpiku), Light chains (stosunek wolnych łańcuchów FLC >=100), MRI",
+    "correctIdx": 0,
+    "opts": [
+      "A) Sixty (>=60% plazmocytów w szpiku), Light chains (stosunek wolnych łańcuchów FLC >=100), MRI",
+      "B) Spleen, Liver, Intestine, Marrow",
+      "C) Small, Low-grade, Infiltrative, Malignant",
+      "D) Serum LDH, Immunoglobulin, Monocytes",
+      "E) Sodium, Leukocytes, Magnesium"
+    ],
+    "corrLen": 95,
+    "avgWrong": 38,
+    "ratio": 2.53
+  },
+  {
+    "caseId": 77,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Czym różni się monoklonalna gammapatia o nieokreślonym znaczeniu (MGUS) od pełnoobjawowego szpiczaka plazmocytowego?",
+    "key": "A) W MGUS stężenie białka M wynosi < 30 g/l, plazmocyty w szpiku < 10% i CAŁKOWICIE BRAK jest objawów CRAB oraz biomarkerów SLiM",
+    "correctIdx": 0,
+    "opts": [
+      "A) W MGUS stężenie białka M wynosi < 30 g/l, plazmocyty w szpiku < 10% i CAŁKOWICIE BRAK jest objawów CRAB oraz biomarkerów SLiM",
+      "B) W MGUS zawsze występuje ciężka niewydolność nerek",
+      "C) W MGUS występuje minimum 80% plazmocytów w szpiku",
+      "D) W MGUS OB wynosi zawsze powyżej 150 mm/h",
+      "E) MGUS wymaga natychmiastowego przeszczepienia szpiku"
+    ],
+    "corrLen": 128,
+    "avgWrong": 50,
+    "ratio": 2.55
+  },
+  {
+    "caseId": 77,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jaka procedura konsolidująca remisję stanowi standard leczenia chorych na szpiczaka mnogiego w wieku poniżej 70 lat kwalifikujących się do intensywnej terapii?",
+    "key": "A) Chemioterapia wysokodawkowa melfalanem (HDM) z następowym autologicznym przeszczepieniem komórek krwiotwórczych (auto-HCT / ASCT)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Chemioterapia wysokodawkowa melfalanem (HDM) z następowym autologicznym przeszczepieniem komórek krwiotwórczych (auto-HCT / ASCT)",
+      "B) Allogeniczne przeszczepienie szpiku od dawcy niespokrewnionego jako leczenie I rzutu u każdego chorego",
+      "C) Całkowita splenektomia",
+      "D) Wymiana osocza co tydzień przez 5 lat",
+      "E) Podawanie wyłącznie witaminy B12"
+    ],
+    "corrLen": 132,
+    "avgWrong": 51,
+    "ratio": 2.58
+  },
+  {
+    "caseId": 77,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Które zjawisko fizykochemiczne odpowiada za skrajnie wysokie, 'trzycyfrowe' wartości odczynu Biernackiego (OB > 100 mm/h) u chorych na szpiczaka mnogiego?",
+    "key": "A) Obecność wysokich stężeń monoklonalnego białka M w surowicy, które zmniejsza ujemny ładunek elektrostatyczny erytrocytów (potencjał dzeta) i nasila ich rulonizację",
+    "correctIdx": 0,
+    "opts": [
+      "A) Obecność wysokich stężeń monoklonalnego białka M w surowicy, które zmniejsza ujemny ładunek elektrostatyczny erytrocytów (potencjał dzeta) i nasila ich rulonizację",
+      "B) Rozpad płytek krwi",
+      "C) Wzrost ciśnienia parcjalnego tlenu we krwi",
+      "D) Spadek liczby krwinek białych poniżej 1.0 G/l",
+      "E) Ubytek wapnia z kości czaszki"
+    ],
+    "corrLen": 166,
+    "avgWrong": 37,
+    "ratio": 4.55
+  },
+  {
+    "caseId": 78,
+    "qIdx": 6,
+    "qNum": 7,
+    "qText": "Co to jest zespół leukostazy (leukostasis) u chorego z ostrą białaczką szpikową i jakie stwarza zagrożenie?",
+    "key": "A) Zatkanie naczyń mikrokrążenia przez sztywne, olbrzymie blasty przy skrajnej leukocytozie (>50-100 G/l), prowadzące do niedokrwienia mózgu (udar, zaburzenia świadomości) i niewydolności oddechowej",
+    "correctIdx": 0,
+    "opts": [
+      "A) Zatkanie naczyń mikrokrążenia przez sztywne, olbrzymie blasty przy skrajnej leukocytozie (>50-100 G/l), prowadzące do niedokrwienia mózgu (udar, zaburzenia świadomości) i niewydolności oddechowej",
+      "B) Zatrzymanie krążenia w mechanizmie migotania komór wywołane przez potas",
+      "C) Zakażenie bakteryjne skóry wywołane przez pałeczki ropy błękitnej",
+      "D) Porażenie nerwu twarzowego",
+      "E) Rozpad krwinek czerwonych w śledzionie"
+    ],
+    "corrLen": 198,
+    "avgWrong": 53,
+    "ratio": 3.74
+  },
+  {
+    "caseId": 78,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Który lek celowany, będący inhibitorem białka antyapoptotycznego BCL-2, w skojarzeniu z azacytydyną stanowi przełomowy standard leczenia chorych na AML niekwalifikujących się do intensywnej chemioterapii?",
+    "key": "A) Wenetoklaks (Venetoclax)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wenetoklaks (Venetoclax)",
+      "B) Imatynib",
+      "C) Trastuzumab",
+      "D) Bewacyzumab",
+      "E) Bortezomib"
+    ],
+    "corrLen": 27,
+    "avgWrong": 13,
+    "ratio": 2.08
+  },
+  {
+    "caseId": 78,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Dlaczego u chorych na AML przed rozpoczęciem chemioterapii indukującej konieczne jest wdrożenie intensywnej płynoterapii i allopurynolu lub rasburykazy?",
+    "key": "A) W celu zapobiegania zespołowi rozpadu guza (TLS) i nefropatii moczanowej w wyniku masowej apoptozy komórek blastycznych",
+    "correctIdx": 0,
+    "opts": [
+      "A) W celu zapobiegania zespołowi rozpadu guza (TLS) i nefropatii moczanowej w wyniku masowej apoptozy komórek blastycznych",
+      "B) W celu zapobiegania hipokaliemii",
+      "C) W celu przyspieszenia wypadania włosów",
+      "D) W celu wywołania obrzęku płuc",
+      "E) W celu podwyższenia ciśnienia tętniczego powyżej 180 mmHg"
+    ],
+    "corrLen": 122,
+    "avgWrong": 42,
+    "ratio": 2.9
+  },
+  {
+    "caseId": 79,
+    "qIdx": 1,
+    "qNum": 2,
+    "qText": "Dlaczego współczesne wytyczne onkologiczne i nefrologiczne (ASCO, ESMO) KATEGORYCZNIE ODRADZAJĄ rutynową alkalizację moczu wodorowęglanem sodu u chorych z rozwiniętym zespołem rozpadu guza (TLS)?",
+    "key": "A) Alkalizacja moczu drastycznie zmniejsza rozpuszczalność fosforanu wapnia, sprzyjając jego masywnemu wytrącaniu w nerkach i sercu, oraz pogłębia objawową hipokalcemię",
+    "correctIdx": 0,
+    "opts": [
+      "A) Alkalizacja moczu drastycznie zmniejsza rozpuszczalność fosforanu wapnia, sprzyjając jego masywnemu wytrącaniu w nerkach i sercu, oraz pogłębia objawową hipokalcemię",
+      "B) Wodorowęglan sodu blokuje działanie insuliny",
+      "C) Wodorowęglan sodu wywołuje natychmiastowe obniżenie ciśnienia tętniczego",
+      "D) Alkalizacja moczu rozpuszcza kłębuszki nerkowe",
+      "E) Wodorowęglan sodu wchodzi w chemiczną reakcję wybuchową z potasem"
+    ],
+    "corrLen": 168,
+    "avgWrong": 60,
+    "ratio": 2.81
+  },
+  {
+    "caseId": 79,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Jaki jest mechanizm działania rasburykazy – leku z wyboru w zapobieganiu i leczeniu ciężkiej hiperurykemii w zespole rozpadu guza?",
+    "key": "A) Jest rekombinowaną oksydazą moczanową, która enzymatycznie przekształca nierozpuszczalny kwas moczowy w wysoce rozpuszczalną w wodzie alantoinę",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jest rekombinowaną oksydazą moczanową, która enzymatycznie przekształca nierozpuszczalny kwas moczowy w wysoce rozpuszczalną w wodzie alantoinę",
+      "B) Jest inhibitorem pompy protonowej w cewkach proksymalnych",
+      "C) Hamuje kompetycyjnie reduktazę dihydrofolianową",
+      "D) Blokuje receptory aldosteronowe w nerkach",
+      "E) Zwiększa wydzielanie erytropoetyny przez nerki"
+    ],
+    "corrLen": 146,
+    "avgWrong": 51,
+    "ratio": 2.88
+  },
+  {
+    "caseId": 79,
+    "qIdx": 3,
+    "qNum": 4,
+    "qText": "Które wrodzone zaburzenie metaboliczne jest bezwzględnym przeciwwskazaniem do zastosowania rasburykazy ze względu na ryzyko ostrej hemolizy wewnątrznaczyniowej i methemoglobinemii?",
+    "key": "A) Niedobór dehydrogenazy glukozo-6-fosforanowej (G6PD / fawizm)",
+    "correctIdx": 0,
+    "opts": [
+      "A) Niedobór dehydrogenazy glukozo-6-fosforanowej (G6PD / fawizm)",
+      "B) Fenyloketonuria",
+      "C) Zespół Gilberta",
+      "D) Mukowiscydoza",
+      "E) Choroba Wilsona"
+    ],
+    "corrLen": 64,
+    "avgWrong": 18,
+    "ratio": 3.66
+  },
+  {
+    "caseId": 79,
+    "qIdx": 4,
+    "qNum": 5,
+    "qText": "W jakiej sytuacji u pacjenta z zespołem rozpadu guza (TLS) bezwzględnie należy podać glukonian wapnia dożylnie, pomimo wysokiego iloczynu Ca x P?",
+    "key": "A) Wystąpienie zmian elektrokardiograficznych zagrażających zatrzymaniem krążenia (poszerzenie QRS, załamki namiotowate T, zaburzenia przewodzenia) lub ciężkiej tężyczki zagrażającej życiu",
+    "correctIdx": 0,
+    "opts": [
+      "A) Wystąpienie zmian elektrokardiograficznych zagrażających zatrzymaniem krążenia (poszerzenie QRS, załamki namiotowate T, zaburzenia przewodzenia) lub ciężkiej tężyczki zagrażającej życiu",
+      "B) Przy każdym spadku wapnia całkowitego poniżej 2.10 mmol/l",
+      "C) Wyłącznie przed planowaną chemioterapią",
+      "D) Gdy stężenie potasu wynosi 4.2 mmol/l",
+      "E) Rutynowo do każdej kroplówki nawadniającej"
+    ],
+    "corrLen": 188,
+    "avgWrong": 47,
+    "ratio": 4.02
+  },
+  {
+    "caseId": 79,
+    "qIdx": 7,
+    "qNum": 8,
+    "qText": "Które z poniższych wskazań stanowi bezwzględne kryterium kwalifikacji chorego z zespołem rozpadu guza (TLS) do pilnego wdrożenia hemodializy lub hemofiltracji (CRRT)?",
+    "key": "A) Ciężka, oporna na leczenie farmakologiczne hiperkaliemia (>6.5 mmol/l), przewodnienie z obrzękiem płuc lub skrajny bezmocz",
+    "correctIdx": 0,
+    "opts": [
+      "A) Ciężka, oporna na leczenie farmakologiczne hiperkaliemia (>6.5 mmol/l), przewodnienie z obrzękiem płuc lub skrajny bezmocz",
+      "B) Prawidłowe stężenie potasu i diureza 2 litry na dobę",
+      "C) Wartość kwasu moczowego 4.0 mg/dl",
+      "D) Pojedynczy epizod nudności",
+      "E) Temperatura ciała 37.1°C"
+    ],
+    "corrLen": 125,
+    "avgWrong": 37,
+    "ratio": 3.4
+  },
+  {
+    "caseId": 79,
+    "qIdx": 8,
+    "qNum": 9,
+    "qText": "Jaki jest cel intensywnej płynoterapii dożylnej w profilaktyce i wczesnym leczeniu zespołu rozpadu guza?",
+    "key": "A) Utrzymanie wysokiej diurezy (>100 ml/m²/h lub >2-3 ml/kg/h) w celu wypłukiwania metabolitów i zapobiegania krystalizacji moczanów w cewkach nerkowych",
+    "correctIdx": 0,
+    "opts": [
+      "A) Utrzymanie wysokiej diurezy (>100 ml/m²/h lub >2-3 ml/kg/h) w celu wypłukiwania metabolitów i zapobiegania krystalizacji moczanów w cewkach nerkowych",
+      "B) Wywołanie celowego obrzęku mózgu",
+      "C) Podwyższenie hematokrytu powyżej 60%",
+      "D) Wypłukanie płytek krwi",
+      "E) Zmniejszenie filtracji kłębuszkowej"
+    ],
+    "corrLen": 152,
+    "avgWrong": 34,
+    "ratio": 4.44
+  },
+  {
+    "caseId": 79,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Czym różni się mechanizm działania allopurynolu od rasburykazy w kontekście kwasu moczowego?",
+    "key": "A) Allopurynol jedynie hamuje syntezę nowego kwasu moczowego (poprzez inhibicję oksydazy ksantynowej), podczas gdy rasburykaza bezpośrednio degraduje już istniejący kwas moczowy do alantoiny",
+    "correctIdx": 0,
+    "opts": [
+      "A) Allopurynol jedynie hamuje syntezę nowego kwasu moczowego (poprzez inhibicję oksydazy ksantynowej), podczas gdy rasburykaza bezpośrednio degraduje już istniejący kwas moczowy do alantoiny",
+      "B) Allopurynol rozkłada kwas moczowy w ciągu 5 minut, a rasburykaza nie ma żadnego działania",
+      "C) Allopurynol podaje się wyłącznie do oka",
+      "D) Rasburykaza to chemioterapia cytotoksyczna niszcząca DNA guza",
+      "E) Oba leki mają identyczny mechanizm działania enzymatycznego"
+    ],
+    "corrLen": 190,
+    "avgWrong": 65,
+    "ratio": 2.92
+  },
+  {
+    "caseId": 79,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Jakie objawy kliniczne u chorego z TLS wywołuje ostra wtórna hipokalcemia?",
+    "key": "A) Tężyczka (objaw Chvostka, objaw Trousseau), parestezje wokół ust, bolesne kurcze mięśni oraz wydłużenie odstępu QT w EKG",
+    "correctIdx": 0,
+    "opts": [
+      "A) Tężyczka (objaw Chvostka, objaw Trousseau), parestezje wokół ust, bolesne kurcze mięśni oraz wydłużenie odstępu QT w EKG",
+      "B) Wielomocz, zaparcia i skrócony odstęp QT",
+      "C) Spadek ciśnienia krwi do 0 mmHg i nagła ślepota",
+      "D) Uogólniony świąd skóry bez zmian w EKG",
+      "E) Zwiotczenie mięśni szkieletowych"
+    ],
+    "corrLen": 123,
+    "avgWrong": 42,
+    "ratio": 2.91
+  },
+  {
+    "caseId": 80,
+    "qIdx": 2,
+    "qNum": 3,
+    "qText": "Który wskaźnik laboratoryjny najlepiej koreluje z aktywnością toczniowego zapalenia nerek i jego nagły wzrost zapowiada zaostrzenie choroby?",
+    "key": "A) Miano przeciwciał przeciwko dwuniciowemu DNA (anty-dsDNA) przy jednoczesnym spadku stężenia dopełniacza C3 i C4",
+    "correctIdx": 0,
+    "opts": [
+      "A) Miano przeciwciał przeciwko dwuniciowemu DNA (anty-dsDNA) przy jednoczesnym spadku stężenia dopełniacza C3 i C4",
+      "B) Poziom kinazy kreatynowej (CK)",
+      "C) Poziom troponiny T",
+      "D) Miano przeciwciał przeciwko transglutaminazie tkankowej",
+      "E) Stężenie bilirubiny sprzężonej"
+    ],
+    "corrLen": 114,
+    "avgWrong": 36,
+    "ratio": 3.14
+  },
+  {
+    "caseId": 80,
+    "qIdx": 5,
+    "qNum": 6,
+    "qText": "Czym charakteryzuje się zajęcie stawów w toczniu rumieniowatym układowym (tzw. artropatia Jaccouda)?",
+    "key": "A) Jest to symetryczne zapalenie stawów o charakterze nieerozyjnym (brak nadżerek kostnych w RTG), a ewentualne deformacje wynikają z wiotkości ścięgien i więzadeł i dają się biernie odprowadzić",
+    "correctIdx": 0,
+    "opts": [
+      "A) Jest to symetryczne zapalenie stawów o charakterze nieerozyjnym (brak nadżerek kostnych w RTG), a ewentualne deformacje wynikają z wiotkości ścięgien i więzadeł i dają się biernie odprowadzić",
+      "B) Powoduje gwałtowną ankilozę i zrosty kostne jak w ZZSK",
+      "C) Prowadzi do masywnych nadżerek i mutilacji stawów",
+      "D) Dotyczy wyłącznie stawu biodrowego po jednej stronie",
+      "E) Zawsze wymaga alloplastyki w pierwszym roku choroby"
+    ],
+    "corrLen": 194,
+    "avgWrong": 55,
+    "ratio": 3.56
+  },
+  {
+    "caseId": 80,
+    "qIdx": 9,
+    "qNum": 10,
+    "qText": "Jakie badania okulistyczne są bezwzględnie zalecane u pacjentów przewlekle przyjmujących hydroksychlorochinę (HCQ) z uwagi na ryzyko specyficznej toksyczności narządowej?",
+    "key": "A) Badanie dna oka oraz tomografia optyczna siatkówki (OCT / pole widzenia) w celu wykluczenia retinopatii ('bawole oko')",
+    "correctIdx": 0,
+    "opts": [
+      "A) Badanie dna oka oraz tomografia optyczna siatkówki (OCT / pole widzenia) w celu wykluczenia retinopatii ('bawole oko')",
+      "B) Pomiar ciśnienia wewnątrzgałkowego co 2 dni",
+      "C) Badanie mikrobiologiczne spojówek",
+      "D) Płukanie kanalików łzowych",
+      "E) Badanie usg gałki ocznej w poszukiwaniu zaćmy wrodzonej"
+    ],
+    "corrLen": 121,
+    "avgWrong": 42,
+    "ratio": 2.86
+  },
+  {
+    "caseId": 80,
+    "qIdx": 10,
+    "qNum": 11,
+    "qText": "Dlaczego u chorych na SLE bezwzględnie zaleca się stosowanie kremów z filtrem przeciwsłonecznym o wysokim wskaźniku ochrony (SPF 50+)?",
+    "key": "A) Promieniowanie ultrafioletowe (UV) indukuje apoptozę komórek naskórka i uwalnianie autoantygenów jądrowych, co wyzwala miejscowy i ogólnoustrojowy rzut choroby",
+    "correctIdx": 0,
+    "opts": [
+      "A) Promieniowanie ultrafioletowe (UV) indukuje apoptozę komórek naskórka i uwalnianie autoantygenów jądrowych, co wyzwala miejscowy i ogólnoustrojowy rzut choroby",
+      "B) Filtry UV neutralizują przeciwciała anty-dsDNA we krwi obwodowej",
+      "C) Słońce rozkłada hydroksychlorochinę w żołądku",
+      "D) Promienie słoneczne wywołują natychmiastowe zrośnięcie zastawek serca",
+      "E) W toczniu skóra nie zawiera melanocytów"
+    ],
+    "corrLen": 162,
+    "avgWrong": 57,
+    "ratio": 2.83
+  }
+]
