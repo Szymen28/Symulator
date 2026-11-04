@@ -3129,7 +3129,7 @@ function renderLekCarousel() {
         <span style="font-size:0.8rem; color:var(--accent-blue); font-weight:700;">Pytanie ${currentLekIdx + 1}/${qs.length}</span>
         <button class="star-btn ${isStar ? 'starred' : ''}" onclick="toggleStarQuestion('${key}')">${isStar ? '⭐ Z Gwiazdką' : '☆ Oznacz Gwiazdką'}</button>
       </div>
-      <div style="font-weight:700; margin-bottom:16px;">${qItem.q}</div>
+      <div style="font-weight:700; margin-bottom:16px;">${qItem.q || qItem.question || ''}</div>
       <div class="options-list">
         ${currentShuffledLekOptions.map((item, displayIdx) => `
           <button class="option-btn ${st && item.origIdx === correctIdx ? 'correct' : ''}" id="lekCar_${displayIdx}" onclick="answerLekCarousel(${displayIdx})">
@@ -3439,7 +3439,7 @@ function renderSrsView() {
         <span style="color:var(--text-muted); font-weight:700;">Przypadek #${c.id} (${c.dept}) • Pozostało w kolejce: ${srsQueue.length}</span>
         ${boxBadge}
       </div>
-      <div style="font-weight:700; margin-bottom:16px; font-size:0.98rem;">${qItem.q}</div>
+      <div style="font-weight:700; margin-bottom:16px; font-size:0.98rem;">${qItem.q || qItem.question || ''}</div>
       <div class="options-list" id="srsOptionsList">
         ${currentShuffledSrsOptions.map((item, displayIdx) => `
           <button class="option-btn" id="srsOpt_${displayIdx}" onclick="answerSrsCard(${displayIdx})">
@@ -3807,7 +3807,7 @@ async function renderStarredTab() {
     return `
       <div style="background:var(--bg-panel); padding:16px; border-radius:12px; margin-bottom:10px; border:1px solid var(--border-color);">
         <div style="font-size:0.75rem; color:var(--accent-amber); font-weight:700; margin-bottom:6px;">Przypadek #${c.id} (${c.dept})</div>
-        <strong>${qObj.q}</strong>
+        <strong>${qObj.q || qObj.question || ''}</strong>
         <p style="color:var(--accent-emerald); margin-top:8px; font-weight:600;">✅ ${correctText}</p>
         ${explanation ? `<p style="color:var(--text-muted); font-size:0.82rem; margin-top:6px;">💡 ${explanation}</p>` : ''}
       </div>
