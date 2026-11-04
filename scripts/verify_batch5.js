@@ -1,0 +1,35 @@
+const fs = require('fs');
+const path = require('path');
+const { decryptObjectAes } = require('./encrypt_case.js');
+const MASTER_KEY = '@LEKSzymon28111999';
+
+async function verify() {
+  const files = [
+    '131_skret_esicy_volvulus.json',
+    '132_uwieznieta_przepuklina_pachwinowa.json',
+    '133_ostre_niedokrwienie_krezki_sma.json',
+    '134_zapalenie_uchylkow_esicy_hinchey.json',
+    '135_krwawienie_dolny_odcinek_lgib.json'
+  ];
+  let allPass = true;
+  for (const f of files) {
+    const raw = JSON.parse(fs.readFileSync(path.join('cases', f), 'utf8'));
+    const d = await decryptObjectAes(raw, MASTER_KEY);
+    const has3PartStory = d.story && d.story.includes('<p><strong>Pacjent') && d.story.includes('Wywiad chorobowy:') && d.story.includes('Badanie przedmiotowe');
+    const hasDuelDiff = d.diffTable && d.diffTable.title.includes('⚔️') && d.diffTable.rows.length >= 6;
+    const hasDosePills = d.dutySummary && d.dutySummary.drugsAndDoses && d.dutySummary.drugsAndDoses.includes('dose-pill');
+    const hasPathoDoses = d.pathoNodes && d.pathoNodes.every(n => (n.target && n.target.includes('dose-pill')) || (n.drugTarget && n.drugTarget.includes('dose-pill')));
+    const has11LEK = d.lekQuestions && d.lekQuestions.length === 11;
+    const has8Steps = d.steps && d.steps.length === 8;
+    const has6Cards = d.flashcards && d.flashcards.length === 6;
+    const pass = has3PartStory && hasDuelDiff && hasDosePills && hasPathoDoses && has11LEK && has8Steps && has6Cards;
+    if (!pass) {
+      allPass = false;
+      console.log('FAIL DETAILS FOR', f, { has3PartStory, hasDuelDiff, diffRows: d.diffTable ? d.diffTable.rows.length : 0, hasDosePills, hasPathoDoses, has11LEK, has8Steps, has6Cards });
+    } else {
+      console.log(f, '-> PASS: 100% PERFECT');
+    }
+  }
+  console.log('BATCH 5 OVERALL:', allPass ? '100% PERFECT PASS!' : 'FAILURES DETECTED');
+}
+verify();

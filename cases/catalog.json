@@ -993,360 +993,360 @@
     "id": 111,
     "file": "111_plonica_szkarlatyna.json",
     "dept": "Pediatria",
-    "shortTitle": "5-letnia dziewczynka – Ból gardła, malinowy język, wysypka 'papier ścierny' i linie Pastii (Płonica / Szkarlatyna)",
-    "diagnosisTitle": "Płonica / Szkarlatyna (Scarlatina) wywołana przez paciorkowce grupy A (Streptococcus pyogenes)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "5-letnia Zosia – Malinowy język, szorstka wysypka i ból gardła (Płonica)",
+    "diagnosisTitle": "Płonica (Szkarlatyna / Scarlatina) wywołana przez Streptococcus pyogenes (GAS) z anginą paciorkowcową i toksyczną osutką drobnoplamistą",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 112,
     "file": "112_ospa_wietrzna_vzv.json",
     "dept": "Pediatria",
-    "shortTitle": "3-letni chłopiec – Swędząca polimorficzna wysypka 'krople rosy', gorączka i powikłania skórne (Ospa wietrzna / Varicella)",
-    "diagnosisTitle": "Ospa wietrzna (Varicella) wywołana przez wirus ospy wietrznej i półpaśca (VZV) z wtórnym nadkażeniem bakteryjnym skóry",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "4-letni Jaś – Wielopostaciowa wysypka 'kropli rosy', świąd i gorączka (Ospa wietrzna)",
+    "diagnosisTitle": "Ospa wietrzna (Varicella) o typowym przebiegu u dziecka, wywołana pierwotnym zakażeniem wirusem ospy wietrznej i półpaśca (VZV)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 113,
     "file": "113_mononukleoza_ebv.json",
     "dept": "Pediatria",
-    "shortTitle": "15-letni nastolatek – Wysoka gorączka, zapalenie migdałków, powiększenie śledziony i wysypka po amoksycylinie (Mononukleoza / EBV)",
-    "diagnosisTitle": "Mononukleoza zakaźna (Infectious Mononucleosis) wywołana przez wirus Epsteina-Barr (EBV) z osutką polekową po aminopenicylinie",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "17-letni Michał – Ból gardła z nalotami, osutka po amoksycylinie i splenomegalia (Mononukleoza)",
+    "diagnosisTitle": "Mononukleoza zakaźna (Infectious Mononucleosis) wywołana przez wirus Epsteina-Barr (EBV / HHV-4) powikłana toksyczno-alergiczną osutką poampicylinową",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 114,
     "file": "114_krztusiec_pertussis.json",
     "dept": "Pediatria",
-    "shortTitle": "2-miesięczne nieszczepione niemowlę – Napady dławiącego kaszlu z bezdechem i 'pianiem' (Krztusiec / Pertussis)",
-    "diagnosisTitle": "Krztusiec (Pertussis / Whooping Cough) wywołany przez pałeczkę krztuśca (Bordetella pertussis) z zespołem bezdechów",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "3-miesięczny Franek – Napadowy kaszel z pianiem, bezdechy i hiperleukocytoza (Krztusiec)",
+    "diagnosisTitle": "Krztusiec (Pertussis / Koklusz) o ciężkim przebiegu u nieszczepionego niemowlęcia, wywołany przez Bordetella pertussis, powikłany epizodami bezdechów (apnea)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 115,
     "file": "115_rumien_zakazny_parwowirus_b19.json",
     "dept": "Pediatria",
-    "shortTitle": "6-letnie dziecko – 'Spoliczkowane policzki', girlandowata wysypka na kończynach (Rumień zakaźny / Parvovirus B19)",
-    "diagnosisTitle": "Rumień zakaźny (Erythema infectiosum / Piąta choroba) wywołany przez Parwowirus B19",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "6-letni Bartek – 'Spoliczkowane dziecko', koronkowata wysypka i brak zakaźności (Rumień zakaźny)",
+    "diagnosisTitle": "Rumień zakaźny (Erythema infectiosum / Piąta choroba) wywołany przez Parwowirus B19 (Parvovirus B19) o klasycznym dwufazowym przebiegu",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 116,
     "file": "116_goraczka_trzydniowa_hhv6.json",
     "dept": "Pediatria",
-    "shortTitle": "10-miesięczne niemowlę – Wysoka gorączka przez 3 dni i nagła wysypka po jej spadku (Gorączka trzydniowa / Rumień nagły)",
-    "diagnosisTitle": "Rumień nagły / Gorączka trzydniowa (Exanthema subitum / Szósta choroba) wywołana przez ludzki herpeswirus typ 6 (HHV-6)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "10-miesięczna Maja – Wysoka gorączka bez ogniska i wysypka po jej spadku (Rumień nagły)",
+    "diagnosisTitle": "Rumień nagły (Exanthema subitum / Gorączka trzydniowa / Szósta choroba) wywołany przez ludzki herpeswirus typu 6 (HHV-6)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 117,
     "file": "117_choroba_bostonska_hfmd.json",
     "dept": "Pediatria",
-    "shortTitle": "3-letnie dziecko – Pęcherzyki na dłoniach, podeszwach stóp i afty w jamie ustnej (Choroba dłoni, stóp i ust / HFMD)",
-    "diagnosisTitle": "Choroba dłoni, stóp i jamy ustnej (Hand, Foot, and Mouth Disease - HFMD / 'Choroba bostońska') wywołana przez enterowirusy (Coxsackie A16 / EV71)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "3-letni Oliwier – Bolesne afty w jamie ustnej, pęcherzyki na dłoniach i stopach (HFMD)",
+    "diagnosisTitle": "Choroba dłoni, stóp i jamy ustnej (HFMD – Hand, Foot and Mouth Disease / potocznie 'choroba bostońska') wywołana przez enterowirusy (Coxsackie A16)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 118,
     "file": "118_drgawki_goraczkowe.json",
     "dept": "Pediatria",
-    "shortTitle": "18-miesięczny chłopiec – Uogólniony napad toniczno-kloniczny przy gorączce 39.4°C (Drgawki gorączkowe)",
-    "diagnosisTitle": "Proste drgawki gorączkowe (Febrile Seizures) u 18-miesięcznego dziecka w przebiegu infekcji wirusowej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "18-miesięczny Jaś – Pierwszy w życiu napad drgawek przy gorączce 39,4°C (Drgawki gorączkowe)",
+    "diagnosisTitle": "Drgawki gorączkowe proste (Simple febrile seizures) u 18-miesięcznego dziecka w przebiegu ostrej infekcji wirusowej górnych dróg oddechowych",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 119,
     "file": "119_wpn_przerost_nadnerczy_21ohd.json",
     "dept": "Pediatria",
-    "shortTitle": "2-tygodniowy noworodek – Wymioty, spadek masy ciała, hiponatremia i hiperkaliemia (Wrodzony przerost nadnerczy / WPN)",
-    "diagnosisTitle": "Wrodzony przerost nadnerczy (Congenital Adrenal Hyperplasia - CAH / WPN) z niedoboru 21-hydroksylazy (postać klasyczna z utratą soli)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "14-dobowy Filip – Ubytek masy ciała, chlustające wymioty i przełom solny (WPN)",
+    "diagnosisTitle": "Wrodzony przerost nadnerczy (WPN / CAH – Congenital Adrenal Hyperplasia) w postaci klasycznej z utratą soli (salt-wasting) spowodowany niedoborem 21-hydroksylazy (21-OHD)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 120,
     "file": "120_cukrzyca_t1_dka_dziecko.json",
     "dept": "Pediatria",
-    "shortTitle": "8-letnia dziewczynka – Oddech Kussmaula, zapach acetonu, odwodnienie i kwasica ketonowa (Debiut cukrzycy t. 1 / DKA)",
-    "diagnosisTitle": "Cukrzyca typu 1 (Diabetes Mellitus Typ 1) debiutująca kwasicą ketonową (Diabetic Ketoacidosis - DKA)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "8-letnia Emilka – Oddech Kussmaula, ból brzucha i kwasica ketonowa (Cukrzyca T1 / DKA)",
+    "diagnosisTitle": "Cukrzyca typu 1 (T1D) po raz pierwszy ujawniona u dziecka, powikłana ciężką kwasicą ketonową (DKA – Diabetic Ketoacidosis) i odwodnieniem II stopnia",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 121,
     "file": "121_wrodzona_niedoczynnosc_tarczycy.json",
     "dept": "Pediatria",
-    "shortTitle": "3-tygodniowy noworodek – Przedłużona żółtaczka, duży język, przepuklina pępkowa i zaparcia (Wrodzona niedoczynność tarczycy)",
-    "diagnosisTitle": "Wrodzona niedoczynność tarczycy (Congenital Hypothyroidism - CHT) z dysgenezją tarczycy wykryta w badaniach przesiewowych",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "3-tygodniowy Jaś – Przedłużająca się żółtaczka, duży język, wiotkość i zaparcia (Wrodzona niedoczynność tarczycy)",
+    "diagnosisTitle": "Wrodzona pierwotna niedoczynność tarczycy (Congenital Hypothyroidism – dysgenezja tarczycy) wykryta w programie badań przesiewowych noworodków (NBS)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 122,
     "file": "122_ostra_bialaczka_limfoblastyczna_all.json",
     "dept": "Pediatria",
-    "shortTitle": "4-letni chłopiec – Bóle nóg, bladość, wybroczyny na skórze i powiększenie wątroby (Białaczka ALL)",
-    "diagnosisTitle": "Ostra białaczka limfoblastyczna z komórek B (B-cell Acute Lymphoblastic Leukemia - B-ALL)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "4-letni Tymek – Nocne bóle nóżek, bladość, wybroczyny i gorączka (Ostra białaczka limfoblastyczna - ALL)",
+    "diagnosisTitle": "Ostra białaczka limfoblastyczna z prekursorów komórek B (B-ALL / common ALL) z nacieczeniem szpiku, ciężką małopłytkowością i zespołem rozpadu guza (ryzyko TLS)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 123,
     "file": "123_plamica_henocha_schonleina_igav.json",
     "dept": "Pediatria",
-    "shortTitle": "6-letni chłopiec – Uniesiona plamica na pośladkach, bóle brzucha i obrzęki stawów (Plamica Henocha-Schönleina / IgAV)",
-    "diagnosisTitle": "Zapalenie naczyń związane z IgA (IgA Vasculitis - IgAV / Plamica Henocha-Schönleina) z zajęciem nerek i przewodu pokarmowego",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "6-letni Antoś – Wyczuwalna plamica na pośladkach, kolkowy ból brzucha i bolesny obrzęk kostek (Plamica Henocha-Schönleina / IgAV)",
+    "diagnosisTitle": "Zapalenie naczyń związane z przeciwciałami IgA (IgAV – IgA Vasculitis / dawniej Plamica Henocha-Schönleina) z zajęciem skóry, stawów, przewodu pokarmowego i łagodną nefropatią IgAV",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 124,
     "file": "124_guz_tylnego_dolu_czaszki.json",
     "dept": "Pediatria",
-    "shortTitle": "5-letnia dziewczynka – Poranne bóle głowy, chlustające wymioty i zaburzenia chodu (Guz tylnego dołu czaszki)",
-    "diagnosisTitle": "Guz tylnego dołu czaszki (Gwiaździak włosowatokomórkowy / Rdzeniak zarodkowy - Medulloblastoma) z ciasnotą wewnątrzczaszkową",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "5-letni Olek – Poranne chlustające wymioty na czczo, bóle głowy i zaburzenia chodu (Guz tylnego dołu czaszki / Rdzeniak)",
+    "diagnosisTitle": "Guz tylnego dołu czaszki (podejrzenie Medulloblastoma / Rdzeniaka zarodkowego) z ciasnotą wewnątrzczaszkową, wodogłowiem obturacyjnym i ataksją móżdżkową",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 125,
     "file": "125_choroba_kawasakiego.json",
     "dept": "Pediatria",
-    "shortTitle": "3-letni chłopiec – Gorączka trwająca 6 dni, przekrwione spojówki, malinowy język i obrzęki rąk (Choroba Kawasakiego)",
-    "diagnosisTitle": "Choroba Kawasakiego (Kawasaki Disease / Zespół węzłowo-śluzówkowo-skórny) z ryzykiem tętniaków tętnic wieńcowych",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "shortTitle": "2-letni Filipek – Gorączka od 6 dni, malinowy język, przekrwione spojówki i obrzęk rąk (Choroba Kawasakiego)",
+    "diagnosisTitle": "Choroba Kawasakiego (Kawasaki Disease / Zespół węzłowo-śluzówkowo-skórny) w ostrej fazie zapalenia naczyń z dylatacją tętnic wieńcowych",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 126,
     "file": "126_wyrostek_dorosly.json",
-    "dept": "Chirurgia",
-    "shortTitle": "24-letni mężczyzna – Ból brzucha wędrujący do prawego dołu biodrowego, objaw Blumberga i Rovsinga (Ostre zapalenie wyrostka)",
-    "diagnosisTitle": "Ostre zgorzelinowe zapalenie wyrostka robaczkowego (Appendicitis acuta phlegmonosa/gangraenosa)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "26-letni Michał – Wędrujący ból brzucha do prawego dołu biodrowego, nudności i objaw Blumberga (Ostre zapalenie wyrostka robaczkowego)",
+    "diagnosisTitle": "Ostre ropowicze zapalenie wyrostka robaczkowego (Acute Appendicitis) powikłane miejscowym zapaleniem otrzewnej u dorosłego, kwalifikowane do pilnej apendektomii laparoskopowej",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 127,
     "file": "127_ostre_zapalenie_pecherzyka_zolciowego.json",
-    "dept": "Chirurgia",
-    "shortTitle": "48-letnia kobieta – Ostry ból pod prawym żebrem >6h, objaw Murphy'ego i Chełmońskiego (Ostre zapalenie pęcherzyka)",
-    "diagnosisTitle": "Ostre kamicze zapalenie pęcherzyka żółciowego (Cholecystitis acuta calculosa)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "52-letnia Grażyna – Ostry ból prawego podżebrza po tłustym posiłku, objaw Murphy'ego i gorączka (Ostre kamicze zapalenie pęcherzyka żółciowego)",
+    "diagnosisTitle": "Ostre kamicze zapalenie pęcherzyka żółciowego (Acute Calculous Cholecystitis – stopień II wg Tokyo Guidelines TG18) ze złogiem uwięźniętym w szyjce pęcherzyka",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 128,
     "file": "128_ostre_zapalenie_drog_zolciowych_cholangitis.json",
-    "dept": "Chirurgia",
-    "shortTitle": "65-letni mężczyzna – Gorączka z dreszczami, żółtaczka mechaniczna i ból pod prawym żebrem (Zapalenie dróg żółciowych / Triada Charcota)",
-    "diagnosisTitle": "Ostre wstępujące zapalenie dróg żółciowych (Cholangitis acuta ascendens) powikłane sepsą żółciową",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "68-letni Tadeusz – Gorączka z dreszczami, żółtaczka i hipotensja (Ostre zapalenie dróg żółciowych / Pentada Reynoldsa)",
+    "diagnosisTitle": "Ostre wstępujące ropne zapalenie dróg żółciowych (Acute Cholangitis – stopień III wg Tokyo Guidelines TG18) w przebiegu kamicy przewodowej (choledocholithiasis) powikłane wstrząsem septycznym",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 129,
     "file": "129_perforacja_wrzodu_trawiennego.json",
-    "dept": "Chirurgia",
-    "shortTitle": "52-letni mężczyzna – Nagły ból 'jak cios sztyletem', brzuch deskowaty i sierp powietrza pod przeponą (Perforacja wrzodu)",
-    "diagnosisTitle": "Przedziurawienie (perforacja) wrzodu trawiennego opuszki dwunastnicy z rozlanym chemicznym zapaleniem otrzewnej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "61-letni Janusz – Piorunujący ból brzucha jak 'uderzenie nożem', brzuch deskowaty i sierp powietrza pod przeponą (Perforacja wrzodu trawiennego)",
+    "diagnosisTitle": "Przedziurawienie (perforacja) wrzodu trawiennego przedniej ściany opuszki dwunastnicy powikłane rozlanym chemicznym i bakteryjnym zapaleniem otrzewnej (Peritonitis diffusa)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 130,
     "file": "130_niedroznosc_jelita_cienkiego_zrosty.json",
-    "dept": "Chirurgia",
-    "shortTitle": "58-letnia kobieta – Bóle kolkowe, chlustające wymioty treścią jelitową i poziomy płynów w RTG (Niedrożność ze zrostów)",
-    "diagnosisTitle": "Mechaniczna niedrożność jelita cienkiego (Ileus mechanicus intestini tenuis) ze zrostów pooperacyjnych (adhesiones intraabdominales)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "45-letnia Marzena – Bóle kurczowe, wymioty treścią jelitową, poziomy płynów i metaliczna perystaltyka (Niedrożność mechaniczna jelita cienkiego)",
+    "diagnosisTitle": "Niedrożność mechaniczna jelita cienkiego (Small Bowel Obstruction – SBO) spowodowana pasmami zrostów pooperacyjnych po przebytej apendektomii i cięciu cesarskim",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 131,
     "file": "131_skret_esicy_volvulus.json",
-    "dept": "Chirurgia",
-    "shortTitle": "74-letni mężczyzna – Asymetryczne wzdęcie brzucha, brak stolca i gazów, obraz 'ziarna kawy' w RTG (Skręt esicy)",
-    "diagnosisTitle": "Skręt esicy (Volvulus sigmoidei) powikłany niedrożnością mechaniczną jelita grubego w pętli zamkniętej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "76-letni Stanisław – Olbrzymie wzdęcie brzucha, objaw 'ziarna kawy' i zatrzymanie gazów (Skręt esicy)",
+    "diagnosisTitle": "Niedrożność mechaniczna jelita grubego w przebiegu skrętu esicy (Sigmoid Volvulus) z zamkniętą pętlą (closed-loop) kwalifikowana do pilnej endoskopowej derotacji lub zabiegu operacyjnego",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 132,
     "file": "132_uwieznieta_przepuklina_pachwinowa.json",
-    "dept": "Chirurgia",
-    "shortTitle": "62-letni mężczyzna – Twardy, bolesny guz w pachwinie, wymioty i zatrzymanie gazów (Uwięźnięta przepuklina)",
-    "diagnosisTitle": "Uwięźnięta i zadzierzgnięta przepuklina pachwinowa prawostronna (Hernia inguinalis incarcerata et strangulata) ze zgorzelą jelita",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "62-letni Kazimierz – Napięty, bolesny guz w prawej pachwinie, brak odprowadzalności i wymioty (Uwięźnięta przepuklina pachwinowa)",
+    "diagnosisTitle": "Uwięźnięta przepuklina pachwinowa prawostronna skośna ze strangulacją (zadzierzgnięciem) pętli jelita cienkiego i mechaniczną niedrożnością przewodu pokarmowego",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 133,
     "file": "133_ostre_niedokrwienie_krezki_sma.json",
-    "dept": "Chirurgia",
-    "shortTitle": "72-letni mężczyzna z migotaniem przedsionków – Skrajny ból brzucha nieproporcjonalny do badania fizykalnego i kwasica mleczanowa (Zator SMA)",
-    "diagnosisTitle": "Ostre niedokrwienie krezki (Acute Mesenteric Ischemia - AMI) wywołane zatorem tętnicy krezkowej górnej (SMA)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "71-letni Jerzy – Potworny ból brzucha z brakiem objawów w badaniu, kwasica mleczanowa i migotanie przedsionków (Ostre niedokrwienie krezki / Zator SMA)",
+    "diagnosisTitle": "Ostre niedokrwienie krezki (Acute Mesenteric Ischemia – AMI) w przebiegu zatoru pnia tętnicy krezkowej górnej (SMA embolism) u pacjenta z nieleczonym migotaniem przedsionków",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 134,
     "file": "134_zapalenie_uchylkow_esicy_hinchey.json",
-    "dept": "Chirurgia",
-    "shortTitle": "60-letnia kobieta – Ból w lewym dole biodrowym, gorączka i ropień okołojelitowy (Zapalenie uchyłków / Hinchey II)",
-    "diagnosisTitle": "Ostre powikłane zapalenie uchyłków esicy (Diverticulitis acuta sigmoidei) stopień II wg klasyfikacji Hincheya",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "58-letni Marek – Ból w lewym dole biodrowym ('lewy wyrostek'), gorączka, ropień krezki i wysokie CRP (Ostre zapalenie uchyłków / Hinchey Ib)",
+    "diagnosisTitle": "Ostre powikłane zapalenie uchyłków esicy (Acute Diverticulitis) w stopniu Ib wg klasyfikacji Hincheya (ropień krezki esicy o średnicy 4,5 cm), kwalifikowane do przezskórnego drenażu pod kontrolą TK",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 135,
     "file": "135_krwawienie_dolny_odcinek_lgib.json",
-    "dept": "Chirurgia",
-    "shortTitle": "68-letni mężczyzna – Masywne krwawienie z odbytu ciemnoczerwoną krwią i hipotonia (Krwawienie z uchyłków / LGIB)",
-    "diagnosisTitle": "Masywne krwawienie z dolnego odcinka przewodu pokarmowego (Lower Gastrointestinal Bleeding - LGIB) z uchyłków okrężnicy",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "74-letnia Danuta – Nagłe, obfite krwawienie z odbytu (hematochezia), bladość i hipotensja (Krwawienie z uchyłków okrężnicy / LGIB)",
+    "diagnosisTitle": "Masywne krwawienie z dolnego odcinka przewodu pokarmowego (Lower Gastrointestinal Bleeding – LGIB) w przebiegu krwawiącego uchyłka prawej połowy okrężnicy, powikłane wstrząsem hipowolemicznym",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 136,
     "file": "136_ropien_i_przetoka_odbytu.json",
-    "dept": "Chirurgia",
-    "shortTitle": "42-letni mężczyzna – Ostry, pulsujący ból okolicy odbytu nasilający się przy siadaniu i gorączka (Ropień okołoodbytowy)",
-    "diagnosisTitle": "Ostre zapalenie krypt odbytu z uformowaniem ropnia okołoodbytowego (Abscessus perianalis) i wtórną przetoką odbytu (Fistula perianalis)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "42-letni Dariusz – Narastający, pulsujący ból okołoodbytniczy, dreszcze i bolesne uwypuklenie krocza (Ropień okołoodbytniczy i przetoka odbytu)",
+    "diagnosisTitle": "Ostry ropień kulszowo-odbytniczy (kryptogenny) powikłany przetoką odbytu – wskazanie do pilnego nacięcia i drenażu",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 137,
     "file": "137_pekniecie_sledziony_uraz.json",
-    "dept": "Chirurgia",
-    "shortTitle": "28-letni kierowca po wypadku komunikacyjnym – Tępy uraz brzucha, ból lewego podżebrza promieniujący do lewego barku (objaw Kehra) i krwawienie dootrzewnowe",
-    "diagnosisTitle": "Pęknięcie śledziony (Ruptura lienis / Splenic injury grade III/IV) z krwawieniem do jamy otrzewnej po tępym urazie brzucha",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "28-letni Tomasz – Tępy uraz lewego podżebrza po upadku z roweru, ból lewego barku (objaw Kehra) i hipotensja (Pęknięcie śledziony)",
+    "diagnosisTitle": "Pęknięcie śledziony stopnia III/IV wg AAST w przebiegu tępego urazu brzucha – krwawienie dootrzewnowe, wstrząs hipowolemiczny, protokół FAST, embolizacja SAE vs splenektomia, profilaktyka OPSI",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 138,
     "file": "138_niedroznosc_rak_jelita_grubego.json",
-    "dept": "Chirurgia",
-    "shortTitle": "67-letni mężczyzna ze stopniowym zatrzymaniem stolca i gazów – Wzdęcie, nudności, guz esicy i objaw 'zamkniętej pętli' przy wydolnej zastawce krętniczo-kątniczej",
-    "diagnosisTitle": "Ostra mechaniczna niedrożność jelita grubego (Ileus mechanicus coli) w przebiegu raka esicy / zstępnicy z ryzykiem perforacji kątnicy",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "67-letni Waldemar – Zatrzymanie gazów i stolca od 4 dni, bolesne wzdęcie brzucha i wymioty (Niedrożność mechaniczna w raku okrężnicy)",
+    "diagnosisTitle": "Mechaniczna niedrożność jelita grubego w przebiegu obturacyjnego raka zstępnicy/zgięcia śledzionowego – zamknięta pętla, prawo Laplace'a, stentowanie SEMS vs operacja Hartmanna",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 139,
     "file": "139_niedokrwienne_zapalenie_jelita_grubego.json",
-    "dept": "Chirurgia",
-    "shortTitle": "74-letnia kobieta z miażdżycą i po epizodzie hipotonii – Nagły kurczowy ból lewego podbrzusza, parcie na stolec i krwisto-śluzowe stolce (Ischaemic colitis)",
-    "diagnosisTitle": "Niedokrwienne zapalenie jelita grubego (Colitis ischaemica) z zajęciem zagięcia śledzionowego (punkt Griffithsa) i zstępnicy",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "72-letnia Stanisława – Nagły, kurczowy ból w lewym boku, naglące parcie i obfity krwisty stolec po hipotonii (Niedokrwienne zapalenie jelita grubego)",
+    "diagnosisTitle": "Niedokrwienne zapalenie jelita grubego (Ischemic Colitis) – postać przemijająca niegorzelinowa, punkty Griffithsa i Sudecka, wczesna sigmoidoskopia, leczenie zachowawcze",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 140,
     "file": "140_pekniety_tetniak_aorty_brzusznej_raaa.json",
-    "dept": "Chirurgia",
-    "shortTitle": "71-letni mężczyzna, palacz, z nagłym bólem okolicy lędźwiowej, hipotoniczny – Klasyczna triada objawów, pulsujący guz brzucha i wstrząs krwotoczny (rAAA)",
-    "diagnosisTitle": "Pęknięty tętniak aorty brzusznej (Ruptured Abdominal Aortic Aneurysm - rAAA) z krwiakiem przestrzeni zaotrzewnowej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia ogólna",
+    "shortTitle": "71-letni Henryk – Nagły, rozdzierający ból lędźwiowo-brzuszny, hipotensja i tętniący guz w brzuchu (Pęknięty tętniak aorty brzusznej / rAAA)",
+    "diagnosisTitle": "Pęknięty tętniak aorty brzusznej (rAAA) do przestrzeni zaotrzewnowej – wstrząs krwotoczny, triada objawów, hipotensja kontrolowana, pilny EVAR vs operacja otwarta",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 141,
     "file": "141_ostre_niedokrwienie_konczyny_dolnej.json",
-    "dept": "Chirurgia",
-    "shortTitle": "69-letnia kobieta z migotaniem przedsionków – Nagły, lodowaty ból prawej kończyny dolnej, bladość stopy i brak tętna (Reguła 6xP / Zator tętniczy)",
-    "diagnosisTitle": "Ostre niedokrwienie prawej kończyny dolnej (Acute Limb Ischemia - ALI) w przebiegu zatoru tętnicy udowej wspólnej (klasa IIa/IIb wg Rutherforda)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "68-letni Zygmunt – Nagły, rozdzierający ból prawej stopy i łydki, bladość, chłód i brak tętna (Ostre niedokrwienie kończyny dolnej / ALI)",
+    "diagnosisTitle": "Ostre niedokrwienie kończyny dolnej prawej (ALI) w przebiegu zatoru tętnicy udowej powierzchownej/podkolanowej – klasyfikacja Rutherforda IIb, pilna embolektomia cewnikiem Fogarty'ego, fasciotomia",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 142,
     "file": "142_przewlekle_krytyczne_niedokrwienie_clti.json",
-    "dept": "Chirurgia",
-    "shortTitle": "65-letni palacz z cukrzycą – Spoczynkowy ból stopy nasilający się w nocy, opuszczanie nogi z łóżka i owrzodzenie martwicze palucha (CLTI / Fontaine III/IV)",
-    "diagnosisTitle": "Przewlekłe niedokrwienie zagrażające kończynie (Chronic Limb-Threatening Ischemia - CLTI / Fontaine IV) z martwicą palucha prawego",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "65-letni Janusz – Nocny ból stopy łagodzony spuszczaniem nogi z łóżka oraz martwica palucha (CLTI / Fontaine IV)",
+    "diagnosisTitle": "Przewlekłe zagrażające kończynie niedokrwienie (CLTI) prawej kończyny dolnej – Fontaine IV / Rutherford 5, skala WIfI, wskaźnik ABI <0,4, pilna rewaskularyzacja naczyniowa (PTA vs bypass żylny)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 143,
     "file": "143_objawowe_zwezenie_tetnicy_szyjnej.json",
-    "dept": "Chirurgia",
-    "shortTitle": "68-letni palacz po przemijającym niedowładzie i ślepocie jednoocznej (Amaurosis fugax) – Szmer nad tętnicą szyjną i krytyczne zwężenie 85% ICA (NASCET)",
-    "diagnosisTitle": "Objawowe ciasne zwężenie prawej tętnicy szyjnej wewnętrznej (Stenosis arteriae carotis internae dextrae 85% wg NASCET) po przebytym TIA",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "63-letni Mirosław – Nagłe przemijające zaciemnienie lewego oka (amaurosis fugax) i niedowład prawej ręki (Objawowe zwężenie tętnicy szyjnej)",
+    "diagnosisTitle": "Objawowe ciasne zwężenie lewej tętnicy szyjnej wewnętrznej (ICA 80% wg NASCET) po TIA – amaurosis fugax, pilna endarterektomia szyjna (CEA) w ciągu 14 dni vs CAS",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 144,
     "file": "144_zakrzepica_zyl_glebokich_dvt.json",
-    "dept": "Chirurgia",
-    "shortTitle": "42-letnia kobieta po długim locie transatlantyckim i na antykoncepcji – Asymetryczny bolesny obrzęk podudzia i uda, objaw Homansa i wysokie D-dimery",
-    "diagnosisTitle": "Ostra proksymalna zakrzepica żył głębokich lewej kończyny dolnej (Thrombosis venosa profunda - DVT żyły udowej i podkolanowej)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "54-letnia Barbara – Bolesny obrzęk i asymetria obwodów lewego podudzia po locie samolotem (Zakrzepica żył głębokich / DVT)",
+    "diagnosisTitle": "Zakrzepica żył głębokich (DVT) proksymalna żyły udowo-podkolanowej lewej po locie transatlantyckim – triada Virchowa, skala Wellsa, test CUS, terapia DOAC (apiksaban), profilaktyka PTS",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 145,
     "file": "145_zakrzepowe_zapalenie_zyl_powierzchownych_svt.json",
-    "dept": "Chirurgia",
-    "shortTitle": "54-letni mężczyzna z żylakami kończyn – Bolesny, stwardniały, zaczerwieniony powrózek na przyśrodkowej stronie uda sięgający 2.5 cm od pachwiny (SVT blisko ujścia SFJ)",
-    "diagnosisTitle": "Zakrzepowe zapalenie pnia żyły odpiszczelowej wielkiej (Superficial Vein Thrombosis - SVT / Thrombophlebitis) zagrażające przejściem do układu głębokiego (odległość <3 cm od ujścia SFJ)",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "49-letnia Grażyna – Bolesny, stwardniały, zaczerwieniony powrózek naczyniowy wzdłuż uda (Zakrzepowe zapalenie żyły odpiszczelowej / SVT)",
+    "diagnosisTitle": "Zakrzepowe zapalenie żyły odpiszczelowej (SVT) prawej kończyny dolnej dochodzące na odległość <3 cm od ujścia odpiszczelowo-udowego (SFJ) – pełna antykoagulacja (DOAC/LMWH) vs fondaparynuks, profilaktyka PE",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 146,
     "file": "146_zespol_usidlenia_tetnicy_podkolanowej_paes.json",
-    "dept": "Chirurgia",
-    "shortTitle": "22-letni biegacz bez czynników ryzyka miażdżycy – Chromanie łydki podczas intensywnego biegu, zanik tętna na stopie przy zgięciu podeszwowym (PAES)",
-    "diagnosisTitle": "Zespół usidlenia tętnicy podkolanowej (Popliteal Artery Entrapment Syndrome - PAES typ I/II) z czynnościowym niedokrwieniem podudzia",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "24-letni Jakub – Bolesne kurcze łydki u młodego biegacza podczas treningu bez czynników ryzyka miażdżycy (Zespół usidlenia tętnicy podkolanowej / PAES)",
+    "diagnosisTitle": "Zespół usidlenia tętnicy podkolanowej prawej (PAES typ II) – ucisk przez nieprawidłową głowę przyśrodkową m. brzuchatego łydki, test prowokacyjny, Angio-MRI, miotomia odbarczająca",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 147,
     "file": "147_zespol_podkradania_tetnicy_podobojczykowej.json",
-    "dept": "Chirurgia",
-    "shortTitle": "62-letni stolarz – Zawroty głowy, widzenie podwójne i osłabienie lewej ręki podczas pracy fizycznej z uniesionymi ramionami (Subclavian Steal)",
-    "diagnosisTitle": "Zespół podkradania tętnicy podobojczykowej lewej (Subclavian Steal Syndrome - SSS) z odwróceniem przepływu w lewej tętnicy kręgowej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Chirurgia naczyniowa",
+    "shortTitle": "58-letni Roman – Zawroty głowy, ataksja i zaburzenia widzenia podczas pracy lewą ręką (Zespół podkradania tętnicy podobojczykowej / SSS)",
+    "diagnosisTitle": "Zespół podkradania tętnicy podobojczykowej lewej (Subclavian Steal Syndrome) – zwężenie odejścia t. podobojczykowej, odwrócenie przepływu w t. kręgowej, asymetria ciśnień >30 mmHg, PTA ze stentem",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 148,
     "file": "148_polytrauma_uraz_wielonarzadowy.json",
-    "dept": "Chirurgia",
-    "shortTitle": "34-letni motocyklista po zderzeniu czołowym – Wstrząs krwotoczny, niestabilna miednica, eFAST dodatni (ATLS ABCDE / MTP 1:1:1 / Damage Control)",
-    "diagnosisTitle": "Uraz wielonarządowy (Polytrauma, ISS >25) ze wstrząsem krwotocznym IV stopnia, niestabilnym złamaniem miednicy i krwawieniem dootrzewnowym",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Medycyna ratunkowa",
+    "shortTitle": "32-letni Piotr – Ciężki uraz wielonarządowy po zderzeniu czołowym, niestabilność miednicy i głęboki wstrząs (Polytrauma / ATLS)",
+    "diagnosisTitle": "Ciężki uraz wielonarządowy (Polytrauma, ISS 34) – wstrząs krwotoczny stopnia IV, niestabilne złamanie miednicy 'otwarta księga', protokół cABCDE, Damage Control Surgery (DCS), MTP 1:1:1",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 149,
     "file": "149_wiotka_klatka_piersiowa_flail_chest.json",
-    "dept": "Chirurgia",
-    "shortTitle": "58-letni pracownik budowlany po upadku z rusztowania – Złamanie 4 kolejnych żeber z paradoksalnym ruchem oddechowym ściany klatki piersiowej i stłuczeniem płuca",
-    "diagnosisTitle": "Wiotka klatka piersiowa (Flail chest) ze stłuczeniem miąższu płuca prawego (Contusio pulmonis) i ostrą niewydolnością oddechową",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Medycyna ratunkowa",
+    "shortTitle": "46-letni Bogdan – Złamanie żeber po upadku z rusztowania, paradoksalne ruchy ściany klatki piersiowej i duszność (Wiotka klatka piersiowa / Flail chest)",
+    "diagnosisTitle": "Wiotka klatka piersiowa (Flail Chest) – złamanie żeber IV–VIII w dwóch miejscach z wyłamaniem wiotkiego segmentu, stłuczenie płuca lewego (pulmonary contusion), niewydolność oddechowa hipoksemiczna, analgezja regionalna (TEA/ESPB), CPAP / stabilizacja chirurgiczna żeber (SSRF)",
+    "qCount": 11,
+    "flashcardsCount": 6
   },
   {
     "id": 150,
     "file": "150_masywny_krwiak_oplucnej_haemothorax.json",
-    "dept": "Chirurgia",
-    "shortTitle": "30-letni mężczyzna po ranie kłutej klatki piersiowej – Stłumienie wypuku, brak szmerów oddechowych i ewakuacja 1600 ml krwi po drenażu (Wskazanie do torakotomii)",
-    "diagnosisTitle": "Masywny krwiak prawej jamy opłucnej (Haemothorax massivus) po ranie kłutej klatki piersiowej z uszkodzeniem tętnicy międzyżebrowej",
-    "qCount": 3,
-    "flashcardsCount": 5
+    "dept": "Medycyna ratunkowa",
+    "shortTitle": "29-letni Kamil – Rana kłuta lewej strony klatki piersiowej, bladość, stłumienie wypuku i wstrząs krwotoczny (Masywny krwiak opłucnej / Haemothorax)",
+    "diagnosisTitle": "Masywny krwiak lewej jamy opłucnej (Massive Left Haemothorax) po urazie drążącym (rana kłuta klatki piersiowej) – uszkodzenie lewej tętnicy międzyżebrowej, wstrząs krwotoczny stopnia III, pilny drenaż klatki piersiowej 28-32F, autotransfuzja, wskazania do natychmiastowej torakotomii ratunkowej",
+    "qCount": 11,
+    "flashcardsCount": 6
   }
 ]

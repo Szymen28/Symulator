@@ -3966,1203 +3966,1443 @@
     "cat": "Choroby zakaźne"
   },
   {
-    "q": "Jaki patogen i jakie toksyny wywołują płonicę (szkarlatynę)?",
-    "a": "Streptococcus pyogenes (GAS) wytwarzający pirogenne egzotoksyny paciorkowcowe (toksyny erytrogenne SpeA, SpeB, SpeC).",
+    "q": "Jakie są charakterystyczne cechy wysypki w płonicy (szkarlatynie)?",
+    "a": "• Drobnoplamista (wielkości łebka od szpilki), gęsta, szorstka w dotyku jak papier ścierny.<br>• Zblednięcie wokół ust i nosa (trójkąt Fiłatowa) przy rumianych policzkach.<br>• Wybroczyny linijne w zgięciach stawowych (linie / objaw Pastii).<br>• Po 1-3 tyg. charakterystyczne łuszczenie: drobne na tułowiu, grubopłatkowe na dłoniach i stopach.",
     "caseId": 111,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym są linie Pastii w płonicy?",
-    "a": "To linijne wybroczyny w naturalnych fałdach skórnych (np. zgięcia łokci, pachy, pachwiny) na skutek łamliwości naczyń włosowatych.",
+    "q": "Jak przebiega ewolucja wyglądu języka w płonicy?",
+    "a": "• 1.-2. doba: język obłożony grubym białym nalotem z przekrwionymi brodawkami na brzegach.<br>• 4.-5. doba: nalot ustępuje od brzegów ku środkowi, odsłaniając żywoczerwony 'język malinowy' ('truskawkowy') z wydatnymi brodawkami grzybowatymi.",
     "caseId": 111,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym jest trójkąt Fiłatowa?",
-    "a": "Blady obszar skóry wokół ust i nosa, wolny od wysypki płoniczej.",
+    "q": "Jaki jest antybiotyk I rzutu w płonicy i jak długo trwa terapia?",
+    "a": "• Fenoksymetylopenicylina (Penicylina V) doustnie.<br>• Dawkowanie: 100 000–200 000 j.m./kg m.c./dobę w 2 dawkach podzielonych.<br>• Czas trwania: bezwzględnie 10 dni (kluczowe dla pełnej eradykacji i ochrony przed gorączką reumatyczną).",
     "caseId": 111,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest lek z wyboru i czas trwania terapii w płonicy?",
-    "a": "Fenoksymetylopenicylina (penicylina V) doustnie przez pełne 10 dni.",
+    "q": "Kiedy dziecko chore na płonicę przestaje być zakaźne dla otoczenia?",
+    "a": "• Po 24 godzinach od podania pierwszej dawki skutecznego antybiotyku (penicyliny).<br>• Bez antybiotykoterapii zakaźność trwa 2-3 tygodnie.",
     "caseId": 111,
     "cat": "Pediatria"
   },
   {
-    "q": "Kiedy występuje i jak wygląda łuszczenie naskórka po płonicy?",
-    "a": "W 2.–3. tygodniu choroby: otrębiaste na twarzy, drobnopłatkowe na tułowiu, grubopłatowe na dłoniach i stopach.",
+    "q": "Jak antybiotykoterapia płonicy wpływa na ryzyko powikłań późnych?",
+    "a": "• Ostra gorączka reumatyczna: antybiotykoterapia skutecznie ZAPOBIEGA (redukcja o >90%).<br>• Ostre popaciorkowcowe kłębuszkowe zapalenie nerek (APSGN): antybiotykoterapia NIE ZAPOBIEGA wystąpieniu.",
     "caseId": 111,
     "cat": "Pediatria"
   },
   {
-    "q": "Na czym polega polimorfizm wysypki w ospie wietrznej?",
-    "a": "Równoczesna obecność na skórze wykwitów w różnym stadium rozwoju: plamki, grudki, pęcherzyki ('krople rosy na płatkach róży') i strupki (obraz 'gwiaździstego nieba').",
+    "q": "Jakie jest postępowanie w przypadku alergii na penicylinę w płonicy?",
+    "a": "• Alergia nienatychmiastowa (łagodna osutka): Cefalosporyny I generacji (Cefadroksyl 30 mg/kg/d przez 10 dni).<br>• Alergia natychmiastowa (anafilaksja, obrzęk naczynioruchowy): Makrolidy (Klarytromycyna przez 10 dni, Azytromycyna przez 5 dni) lub Klindamycyna.",
+    "caseId": 111,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Co charakteryzuje wysypkę w ospie wietrznej (obraz 'gwiaździstego nieba')?",
+    "a": "• Polimorfizm rzekomy: jednoczesna obecność plamek, grudek, pęcherzyków ('krople rosy'), krostek i strupków.<br>• Rzutowy, falowy wysiew nowych zmian co 24-48 h.<br>• Zajęcie owłosionej skóry głowy i błon śluzowych.<br>• Rozmieszczenie ośrodkowe (najwięcej na tułowiu).",
+    "caseId": 112,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Dlaczego Ibuprofen jest KATEGORYCZNIE zakazany w ospie wietrznej?",
+    "a": "• Zwiększa ryzyko ciężkich, inwazyjnych zakażeń tkanek miękkich wywołanych przez paciorkowce/gronkowce.<br>• Może prowadzić do martwiczego zapalenia powięzi (necrotizing fasciitis).<br>• Jedynym lekiem przeciwgorączkowym z wyboru jest Paracetamol.",
     "caseId": 112,
     "cat": "Pediatria"
   },
   {
     "q": "Jaki jest okres zakaźności chorego na ospę wietrzną?",
-    "a": "Od 1–2 dni przed pojawieniem się wysypki do przyschnięcia wszystkich pęcherzyków w strupki.",
+    "a": "• Od 1-2 dni PRZED wystąpieniem pierwszych wykwitów.<br>• Do momentu zaschnięcia WSZYSTKICH pęcherzyków w suche strupki (ok. 6-8 dni).<br>• Same suche strupy NIE są już zakaźne.",
     "caseId": 112,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego w ospie wietrznej zakazany jest kwas acetylosalicylowy i odradzany ibuprofen?",
-    "a": "Aspiryna grozi śmiertelnym zespołem Reye'a; ibuprofen zwiększa ryzyko martwiczych zakażeń bakteryjnych tkanek miękkich.",
+    "q": "Dlaczego odradza się stosowanie papek pudrowych i płynnych pudrów w ospie?",
+    "a": "• Tworzą szczelną skorupę okluzyjną na skórze.<br>• Sprzyjają rozwojowi bakterii beztlenowych pod strupem.<br>• Prowadzą do głębokich nadkażeń ropnych i trwałych blizn ospowych.",
     "caseId": 112,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest najczęstsze powikłanie neurologiczne ospy wietrznej u dzieci?",
-    "a": "Ostre poinfekcyjne zapalenie móżdżku (ataksja móżdżkowa, zaburzenia chodu i równowagi), z reguły samoistnie ustępujące.",
+    "q": "U kogo wskazane jest podanie Acyklowiru w ospie wietrznej?",
+    "a": "• Nie u zdrowych dzieci <12 r.ż. o łagodnym przebiegu!<br>• Wskazany u: młodzieży >12 r.ż., dorosłych, kobiet w ciąży, osób z niedoborami odporności, chorych z ciężkim AZS, przewlekle leczonych sterydami oraz przy powikłaniach.",
     "caseId": 112,
     "cat": "Pediatria"
   },
   {
-    "q": "Co podaje się nieszczepionej ciężarnej bez odporności po kontakcie z chorym na ospę?",
-    "a": "Swoistą immunoglobulinę przeciw VZV (VZIG) do 96 godzin od ekspozycji (szczepionka żywa jest bezwzględnie przeciwwskazana w ciąży).",
+    "q": "Jak wygląda profilaktyka poekspozycyjna ospy wietrznej?",
+    "a": "• Osoby zdrowe podatne: szczepionka przeciw VZV podana do 72 h od kontaktu.<br>• Osoby z grup wysokiego ryzyka (ciężarne seroujemne, noworodki, ciężka immunosupresja): swoista immunoglobulina VZIG do 96 h (maks. do 10 dni).",
     "caseId": 112,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest klasyczna triada objawów mononukleozy zakaźnej (EBV)?",
-    "a": "Gorączka, zapalenie gardła i migdałków z grubymi nalotami oraz uogólnione powiększenie węzłów chłonnych (często ze splenomegalią).",
+    "q": "Czym jest klasyczna triada mononukleozowa w zakażeniu EBV?",
+    "a": "• Wysoka gorączka (często >38,5-39°C trwająca 1-2 tyg.).<br>• Zapalenie gardła z obrzękiem i szarobiałym nalotem na migdałkach.<br>• Uogólniona symetryczna limfadenopatia (zwłaszcza węzły karkowe i szyjne tylne).<br>• Często współistnieje powiększenie śledziony (splenomegalia) i wątroby.",
     "caseId": 113,
     "cat": "Pediatria"
   },
   {
-    "q": "Co dzieje się po podaniu amoksycyliny pacjentowi z mononukleozą EBV?",
-    "a": "U >80-90% pacjentów pojawia się intensywna, swędząca osutka plamisto-grudkowa (reakcja immunologiczna niezwiązana z alergią IgE).",
+    "q": "Jak interpretować wysypkę po amoksycylinie w przebiegu mononukleozy?",
+    "a": "• Zjawisko immunologiczne wywołane nadreaktywnością limfocytów pod wpływem EBV (występuje u 80-90% leczonych).<br>• NIE oznacza trwałej alergii IgE-zależnej na penicyliny!<br>• W przyszłości pacjent może bezpiecznie przyjmować penicyliny.",
     "caseId": 113,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym są komórki Downeya widoczne w rozmazie krwi w mononukleozie?",
-    "a": "To atypowe, pobudzone limfocyty T (CD8+) walczące z zakażonymi przez EBV limfocytami B.",
+    "q": "Co to są komórki Downeya w rozmazie krwi?",
+    "a": "• Atypowe, pobudzone limfocyty T cytotoksyczne (CD8+) i komórki NK.<br>• Reagują na zakażone przez EBV limfocyty B i niszczą je.<br>• Stanowią >10% leukocytów w rozmazie w mononukleozie.",
     "caseId": 113,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest najgroźniejsze powikłanie narządowe mononukleozy u sportowców?",
-    "a": "Pęknięcie śledziony prowadzące do krwotoku wewnętrznego (obowiązuje zakaz sportów kontaktowych przez min. 3-4 tyg.).",
+    "q": "Jak interpretować panel serologiczny EBV w ostrej fazie infekcji?",
+    "a": "• Anty-VCA IgM: DODATNI (marker świeżej fazy zakażenia).<br>• Anty-VCA IgG: DODATNI.<br>• Anty-EBNA: UJEMNY (pojawiają się dopiero po 6-8 tygodniach od zachorowania i trwają całe życie).",
     "caseId": 113,
     "cat": "Pediatria"
   },
   {
-    "q": "Kiedy w mononukleozie stosuje się glikokortykosteroidy?",
-    "a": "W stanach zagrożenia życia: obturacja dróg oddechowych przez 'całujące się migdałki', ciężka małopłytkowość z krwawieniem, niedokrwistość hemolityczna.",
+    "q": "Dlaczego w mononukleozie obowiązuje zakaz sportów kontaktowych przez 3-4 tyg.?",
+    "a": "• Z powodu ryzyka samoistnego lub pourazowego pęknięcia śledziony (najgroźniejsze w 2.-3. tygodniu).<br>• Pęknięcie prowadzi do wstrząsu krwotocznego i zagrożenia życia.",
     "caseId": 113,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie są 3 fazy kliniczne krztuśca?",
-    "a": "1. Faza nieżytowa (kataralna, 1-2 tyg. – najbardziej zakaźna), 2. Faza napadowego kaszlu (paroksyzmalna, 2-4 tyg.), 3. Faza rekonwalescencji (tygodnie/miesiące).",
+    "q": "Kiedy w mononukleozie dopuszcza się podanie glikokortykosteroidów (GKS)?",
+    "a": "• Wyłącznie w stanach zagrażających:<br>1. Obturacja dróg oddechowych przez olbrzymie migdałki ('kissing tonsils', stridor).<br>2. Ciężkie powikłania hematologiczne (małopłytkowość immunologiczna, anemia autoimmunohemolityczna).<br>3. Powikłania neurologiczne i kardiologiczne.",
+    "caseId": 113,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jakie są 3 fazy kliniczne krztuśca (kokluszu)?",
+    "a": "• 1. Faza nieżytowa (1-2 tyg.): katar, stan podgorączkowy, suchy kaszel (NAJWYŻSZA zakaźność).<br>• 2. Faza napadowego kaszlu (2-6 tyg.): paroksyzmy kaszlu, pianie wdechowe (whoop), wymioty, sinica.<br>• 3. Faza rekonwalescencji (tygodnie/miesiące): stopniowe wygasanie ('kaszel 100 dni').",
     "caseId": 114,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest charakterystyczna zmiana w morfologii krwi w krztuścu?",
-    "a": "Masywna leukocytoza (często 20-50 G/L) z wyraźną przewagą limfocytów (limfocytoza krztuścowa indukowana toksyną PT).",
+    "q": "Jak przebiega krztusiec u niemowląt <6. miesiąca życia?",
+    "a": "• Często BRAK klasycznego piania (whoop).<br>• Dominują epizody bezdechu (apnoea), sinica, bradykardia i drgawki z hipoksji.<br>• Stan bezpośredniego zagrożenia życia wymagający hospitalizacji!",
     "caseId": 114,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest antybiotyk pierwszego rzutu w krztuścu u niemowląt?",
-    "a": "Azytromycyna doustnie przez 5 dni (makrolid).",
+    "q": "Co w morfologii krwi jest patognomoniczne dla krztuśca?",
+    "a": "• Bardzo wysoka leukocytoza (20-50 G/L i więcej).<br>• Bezwzględna limfocytoza (limfocyty >70-80%).<br>• Prawidłowe lub nieznacznie podwyższone CRP.<br>• Spowodowane działaniem toksyny krztuścowej (PT / LPF).",
     "caseId": 114,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego antybiotyk podany w fazie napadowej nie hamuje natychmiast kaszlu?",
-    "a": "Ponieważ nabłonek urzęsiony oskrzeli został już zniszczony przez toksyny; antybiotyk eliminuje jednak bakterie i zakaźność.",
+    "q": "Jaki jest antybiotyk I wyboru w leczeniu i profilaktyce krztuśca?",
+    "a": "• Azytromycyna doustnie:<br>- niemowlęta <6 m.ż.: 10 mg/kg m.c. raz na dobę przez 5 dni.<br>- dorośli: 500 mg w 1. dniu, następnie 250 mg w dniach 2-5.",
     "caseId": 114,
     "cat": "Pediatria"
   },
   {
-    "q": "Kto podlega chemioprofilaktyce poekspozycyjnej po kontakcie z krztuścem w domu?",
-    "a": "Wszyscy domownicy z bliskiego kontaktu, bez względu na wiek i przebyte szczepienia.",
+    "q": "Dlaczego antybiotyk w fazie napadowej nie hamuje od razu kaszlu?",
+    "a": "• Cytotoksyna tchawicza (TCT) zniszczyła już urzęsiony nabłonek dróg oddechowych.<br>• Receptory kaszlowe są odsłonięte i podrażnione.<br>• Antybiotyk eradykuje bakterie (pacjent nie zakaża po 5 dniach), ale kaszel ustępuje dopiero po regeneracji rzęsek (kilka tygodni).",
     "caseId": 114,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki patogen wywołuje rumień zakaźny (piątą chorobę)?",
-    "a": "Parwowirus B19 (parvovirus B19).",
+    "q": "Na czym polega strategia kokonowa i szczepienie kobiet w ciąży w krztuścu?",
+    "a": "• Szczepienie ciężarnej dTpa w 27.-36. Hbd: matczyne IgG przenikają przez łożysko, chroniąc noworodka do 2.-3. m.ż.<br>• Szczepienie kokonowe: zaszczepienie wszystkich domowników (ojciec, rodzeństwo, dziadkowie) w celu stworzenia ochronnego 'kokonu' wokół niemowlęcia.",
+    "caseId": 114,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Co charakteryzuje wysypkę w rumieniu zakaźnym (Parwowirus B19)?",
+    "a": "• Faza 1: Jaskrawy, lity rumień na policzkach z bladością wokół ust ('spoliczkowane dziecko').<br>• Faza 2: Siateczkowata, koronkowata, girlandowata osutka plamista na wyprostnych częściach kończyn.<br>• Wykwity bledną w środku i nasilają się pod wpływem ciepła/kąpieli/wysiłku.",
     "caseId": 115,
     "cat": "Pediatria"
   },
   {
-    "q": "Jak wygląda charakterystyczna wysypka w rumieniu zakaźnym?",
-    "a": "Żywoczerwony rumień na policzkach ('spoliczkowane dziecko') oraz girlandowata, koronkowa lub siateczkowata wysypka na kończynach.",
+    "q": "Czy dziecko z wysypką w rumieniu zakaźnym zakaża rówieśników?",
+    "a": "• NIE! W momencie pojawienia się wysypki pacjent NIE JEST JUŻ ZAKAŹNY.<br>• Wysypka ma charakter immunologiczny (odkładanie kompleksów immunologicznych po eliminacji wiremii).<br>• Dziecko może chodzić do szkoły i przedszkola.",
     "caseId": 115,
     "cat": "Pediatria"
   },
   {
-    "q": "Kiedy chory na rumień zakaźny przestaje być zakaźny dla otoczenia?",
-    "a": "W momencie pojawienia się wysypki na skórze (wysypka ma podłoże immunologiczne, wiremia już minęła).",
+    "q": "Jakie jest największe zagrożenie zakażenia Parwowirusem B19 w ciąży?",
+    "a": "• Niszczenie erytropoezy płodu -> skrajna niedokrwistość wewnątrzmaciczna.<br>• Niewydolność krążenia i nieimmunologiczny obrzęk płodu (hydrops fetalis).<br>• Wirus NIE wywołuje wad wrodzonych (brak teratogenności)!",
     "caseId": 115,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego Parvovirus B19 jest groźny dla pacjentów ze sferocytozą?",
-    "a": "Niszczy prekursory erytrocytów w szpiku, wywołując u osób ze skróconym czasem przeżycia krwinek ostry przełom aplastyczny.",
+    "q": "Czym jest przełom aplastyczny wywołany przez Parwowirus B19?",
+    "a": "• Występuje u pacjentów z przewlekłą hemolizą (sferocytoza, anemia sierpowatokrwista, talasemia).<br>• Zatrzymanie erytropoezy przez B19 prowadzi do zapaści hemoglobiny.<br>• W morfologii: skrajna retikulocytopenia (retikulocyty bliskie 0 ‰)!",
     "caseId": 115,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest najgroźniejsze powikłanie zakażenia Parwowirusem B19 w ciąży?",
-    "a": "Ciężka niedokrwistość płodu, uogólniony obrzęk płodu (hydrops fetalis) i zgon wewnątrzmaciczny.",
+    "q": "Jak manifestuje się zakażenie B19 u dorosłych kobiet?",
+    "a": "• Ostra, symetryczna artropatia (ból i zapalenie drobnych stawów rąk, nadgarstków i kolan).<br>• Może imitować rzut RZS.<br>• Ustępuje samoistnie po 2-4 tygodniach bez niszczenia stawów.",
     "caseId": 115,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest charakterystyczna dynamika objawów w gorączce trzydniowej?",
-    "a": "Wysoka gorączka przez 3 dni u niemowlęcia w dobrym stanie, po czym nagły spadek temperatury i NATYCHMIASTOWE pojawienie się bladoróżowej wysypki na tułowiu.",
+    "q": "Jak monitorować ciężarną seroujemną po kontakcie z Parwowirusem B19?",
+    "a": "• Seryjne USG płodu co 1-2 tyg. przez 8-12 tygodni.<br>• Ocena prędkości skurczowej w tętnicy środkowej mózgu (MCA-PSV) pod kątem anemii.<br>• W razie ciężkiej anemii (>1,5 MoM) i hydrops fetalis: dopłodowa transfuzja dopępowa KKCz.",
+    "caseId": 115,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jaka jest charakterystyczna sekwencja czasowa objawów w rumieniu nagłym?",
+    "a": "• 3-4 dni bardzo wysokiej gorączki (39-40°C) bez ogniska infekcji.<br>• Nagły, krytyczny spadek temperatury do normy.<br>• Natychmiastowy wysiew bladoróżowej, drobnoplamistej wysypki na tułowiu i szyi.",
     "caseId": 116,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki wirus wywołuje rumień nagły (szóstą chorobę)?",
-    "a": "Ludzki herpeswirus typ 6 (HHV-6), rzadziej HHV-7.",
+    "q": "Jaki patogen wywołuje rumień nagły (gorączkę trzydniową)?",
+    "a": "• Ludzki herpeswirus typu 6 (HHV-6, wariant B).<br>• Rzadziej ludzki herpeswirus typu 7 (HHV-7).<br>• Wirus przenosi się ze śliną dorosłych nosicieli.",
     "caseId": 116,
     "cat": "Pediatria"
   },
   {
-    "q": "Gdzie lokalizuje się wysypka w rumieniu nagłym?",
-    "a": "Głównie na tułowiu i szyi, w niewielkim stopniu na ramionach/udach, oszczędza twarz.",
+    "q": "Co to są plamki Nagayamy w rumieniu nagłym?",
+    "a": "• Enanthema na błonie śluzowej języczka i podniebienia miękkiego.<br>• Mają postać drobnych rumieniowych grudek i owrzodzeń.<br>• Występują u ok. 30-50% chorych niemowląt.",
     "caseId": 116,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest najczęstsze powikłanie ostrej fazy gorączkowej HHV-6?",
-    "a": "Drgawki gorączkowe (wynikające z gwałtownego wzrostu temperatury).",
+    "q": "Jakie jest najczęstsze powikłanie fazy gorączkowej rumienia nagłego?",
+    "a": "• Drgawki gorączkowe (u 10-15% chorych).<br>• HHV-6 jest najczęstszą wirusową przyczyną drgawek gorączkowych w 1. roku życia.<br>• Związane ze stromym narastaniem gorączki i neurotropizmem wirusa.",
     "caseId": 116,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest najczęstszy błąd jatrogenny w gorączce trzydniowej?",
-    "a": "Niepotrzebne podanie antybiotyku w fazie gorączkowej i uznanie późniejszej wysypki za 'alergię na penicylinę'.",
+    "q": "Gdzie lokalizuje się wysypka w rumieniu nagłym i jak ustępuje?",
+    "a": "• Lokalizacja: głównie tułów i szyja; twarz i kończyny są zazwyczaj wolne od zmian.<br>• Ustępowanie: znika w ciągu 24-48 godzin BEZ łuszczenia i BEZ przebarwień.",
     "caseId": 116,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki patogen najczęściej wywołuje chorobę dłoni, stóp i jamy ustnej (HFMD)?",
-    "a": "Wirusy Coxsackie A (najczęściej A16 i A6) oraz Enterowirus 71 (EV71).",
+    "q": "Jakie leczenie stosuje się w fazie wysypkowej rumienia nagłego?",
+    "a": "• BRAK leczenia farmakologicznego!<br>• Choroba jest samoograniczająca się.<br>• Dziecko czuje się dobrze, nie wymaga kwarantanny ani antybiotyków.",
+    "caseId": 116,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jakie są charakterystyczne cechy wykwitów w HFMD ('chorobie bostońskiej')?",
+    "a": "• Bolesne owrzodzenia/afty w przedniej części jamy ustnej (policzki, język, dziąsła).<br>• Podłużne, owalne pęcherzyki z czerwoną obwódką na dłoniach, podeszwach stóp i pośladkach.<br>• Ułożone wzdłuż linii papilarnych skóry.",
     "caseId": 117,
     "cat": "Pediatria"
   },
   {
-    "q": "Gdzie lokalizują się wykwity w HFMD?",
-    "a": "Bolesne owrzodzenia/afty w jamie ustnej oraz podłużne pęcherzyki na dłoniach, podeszwach stóp i pośladkach.",
+    "q": "Jakie patogeny najczęściej wywołują HFMD?",
+    "a": "• Wirusy Coxsackie A16 (najczęstszy, łagodny przebieg).<br>• Coxsackie A6 (rozległa osutka, częste onychomadesis).<br>• Enterowirus 71 (EV71 – ryzyko ciężkiego zapalenia pnia mózgu i obrzęku płuc!).",
     "caseId": 117,
     "cat": "Pediatria"
   },
   {
-    "q": "Co jest najczęstszym powikłaniem wymagającym hospitalizacji w HFMD?",
-    "a": "Odwodnienie z powodu silnego bólu przy przełykaniu (odynofagia) i odmowy pojenia.",
+    "q": "Co to jest onychomadesis po przebyciu HFMD?",
+    "a": "• Bezbolesne oddzielanie się i odpadanie płytek paznokciowych u rąk i stóp po 4-8 tygodniach od infekcji.<br>• Wynika z przejściowego zatrzymania aktywności macierzy paznokcia.<br>• Zjawisko łagodne – odrasta zdrowy paznokieć.",
     "caseId": 117,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym jest onychomadesis po przebyciu HFMD?",
-    "a": "To bezbolesne oddzielanie się i odpadanie płytek paznokciowych występujące po 4–8 tygodniach od infekcji (paznokcie odrastają samoistnie).",
+    "q": "Jak odróżnić HFMD od herpanginy?",
+    "a": "• HFMD: zmiany w przedniej części jamy ustnej (policzki, język, dziąsła) + pęcherzyki na dłoniach i stopach.<br>• Herpangina: owrzodzenia wyłącznie w tylnej części gardła (łuki podniebienne, migdałki, języczek), BRAK zmian na kończynach!",
     "caseId": 117,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym różni się herpangina od HFMD?",
-    "a": "W herpanginie pęcherzyki występują tylko na łukach podniebiennych i gardle, bez wykwitów na dłoniach i stopach.",
+    "q": "Jakie jest główne niebezpieczeństwo w ostrej fazie HFMD?",
+    "a": "• Odwodnienie z powodu silnego bólu przy połykaniu (odynofagii).<br>• Postępowanie: intensywne znieczulenie (Paracetamol + Ibuprofen, aerozole z lidokainą), chłodne płyny, lody.",
     "caseId": 117,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie są kryteria prostych drgawek gorączkowych?",
-    "a": "Wiek 6–60 m.ż., napad uogólniony, czas trwania <15 min, pojedynczy w ciągu 24h, brak niedowładu Todda.",
+    "q": "Czy w HFMD stosuje się Acyklowir?",
+    "a": "• NIE! Acyklowir jest całkowicie nieskuteczny.<br>• Enterowirusy to wirusy RNA bez kinazy tymidynowej.<br>• Leczenie HFMD jest wyłącznie objawowe.",
+    "caseId": 117,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jakie są 4 główne kryteria drgawek gorączkowych prostych?",
+    "a": "• Napad uogólniony (symetryczny toniczno-kloniczny).<br>• Czas trwania <15 minut (zwykle 1-3 min).<br>• Pojedynczy napad w ciągu 24 h (w jednym epizodzie gorączki).<br>• Brak ubytków neurologicznych po napadzie (brak porażenia Todda).",
     "caseId": 118,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym różnią się złożone drgawki gorączkowe od prostych?",
-    "a": "Czas trwania >15 min, charakter ogniskowy (asymetryczny), wielokrotne w ciągu 24h lub obecny niedowład po napadzie.",
+    "q": "Czy leki przeciwgorączkowe zapobiegają drgawkom gorączkowym?",
+    "a": "• NIE! Badania EBM jednoznacznie wykazały, że Paracetamol/Ibuprofen NIE zapobiegają drgawkom.<br>• Drgawki zależą od tempa skoku temperatury i progu drgawkowego, a nie od leków.<br>• Leki podaje się wyłącznie dla poprawy komfortu dziecka.",
     "caseId": 118,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki lek przerywa przedłużający się napad drgawek (>5 min) poza szpitalem?",
-    "a": "Midazolam na błonę śluzową policzka (0.2–0.3 mg/kg mc.) lub diazepam doodbytniczo (0.5 mg/kg mc.).",
+    "q": "Jaki lek pierwszego rzutu podaje się w napadzie drgawek trwającym >5 min?",
+    "a": "• Przedszpitalnie: Midazolam dopoliczkowy (Buccolam 0,2-0,3 mg/kg) LUB Diazepam doodbytniczo (wlewka 0,5 mg/kg p.r.).<br>• W szpitalu (i.v.): Diazepam 0,2-0,3 mg/kg i.v. lub Midazolam 0,15-0,2 mg/kg i.v.",
     "caseId": 118,
     "cat": "Pediatria"
   },
   {
-    "q": "Czy paracetamol i ibuprofen zapobiegają wystąpieniu drgawek gorączkowych?",
-    "a": "NIE – leki przeciwgorączkowe poprawiają komfort dziecka, ale nie zapobiegają napadom drgawek gorączkowych.",
+    "q": "Kiedy w drgawkach z gorączką bezwzględnie wykonać nakłucie lędźwiowe (LP)?",
+    "a": "• Obecność objawów oponowych (sztywność karku, Kernig, Brudziński).<br>• Przedłużające się zaburzenia świadomości (senność patologiczna, GCS <15).<br>• Dziecko wcześniej leczone antybiotykiem (maskowanie ZOMR).<br>• Niemowlęta <6-12. miesiąca życia.",
     "caseId": 118,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest ryzyko rozwoju padaczki po prostych drgawkach gorączkowych?",
-    "a": "Około 1–2% (bardzo niskie, zbliżone do populacji ogólnej).",
+    "q": "Jakie jest ryzyko rozwoju padaczki po drgawkach gorączkowych prostych?",
+    "a": "• Zaledwie 1-2% (porównywalne z populacją ogólną).<br>• Drgawki gorączkowe proste to NIE jest padaczka i nie powodują uszkodzenia mózgu!",
     "caseId": 118,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest najczęstszy defekt enzymatyczny we wrodzonym przeroście nadnerczy (WPN)?",
-    "a": "Niedobór 21-hydroksylazy (CYP21A2), odpowiadający za >90–95% przypadków.",
+    "q": "Czego KATEGORYCZNIE NIE WOLNO robić w trakcie napadu drgawek?",
+    "a": "• NIE wkładać niczego do ust (łyżki, palców) – ryzyko wyłamania zębów i uduszenia!<br>• NIE krępować ruchów na siłę.<br>• NIE zanurzać w zimnej wodzie.<br>• NIE podawać leków/płynów doustnie.",
+    "caseId": 118,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jakie zaburzenia laboratoryjne tworzą triadę przełomu solnego w WPN?",
+    "a": "• Ciężka HIPONATREMIA (Na+ <120-125 mmol/l).<br>• Zagrażająca HIPERKALIEMIA (K+ >6,5-8,0 mmol/l).<br>• HIPOGLIKEMIA i kwasica metaboliczna.<br>• Wynikają z braku aldosteronu i kortyzolu.",
     "caseId": 119,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka triada zaburzeń elektrolitowych i kwasowo-zasadowych cechuje zespół utraty soli w WPN?",
-    "a": "Ciężka hiponatremia, zagrażająca życiu hiperkaliemia oraz kwasica metaboliczna.",
+    "q": "Jak odróżnić przełom w WPN od zwężenia odźwiernika (IHPS)?",
+    "a": "• WPN: KWASICA metaboliczna + HIPERKALIEMIA (wysoki potas!).<br>• Zwężenie odźwiernika: ZASADOWICA hipochloremiczna + HIPOKALIEMIA (niski potas!).<br>• Pomylenie WPN ze zwężeniem odźwiernika i operacja w hiperkaliemii grozi zgonem!",
     "caseId": 119,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki metabolit bada się w skriningu noworodkowym w kierunku WPN?",
-    "a": "17-hydroksyprogesteron (17-OHP).",
+    "q": "Jakie jest postępowanie ratunkowe w przełomie solnym u noworodka?",
+    "a": "• Bolus 0,9% NaCl 20 ml/kg i.v. w 30 min (BEZ POTASU!).<br>• 10% Glukoza w bolusie na hipoglikemię.<br>• Hydrokortyzon i.v. w dawce ratunkowej 50-100 mg/m².<br>• 10% Glukonian wapnia przy zmianach w EKG (kardioprotekcja).",
     "caseId": 119,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego u dziewczynek z WPN dochodzi do wirylizacji narządów płciowych?",
-    "a": "Brak kortyzolu wyzwala nadmiar ACTH, a nagromadzone prekursory (17-OHP) uciekają w szlak syntezy androgenów nadnerczowych.",
+    "q": "Co jest markerem przesiewowym WPN w badaniu noworodków z bibuły?",
+    "a": "• 17-hydroksyprogesteron (17-OHP).<br>• Oznaczany w Polsce obowiązkowo u wszystkich noworodków w 3. dobie życia.<br>• W WPN wzrasta drastycznie (>100-300 nmol/l).",
     "caseId": 119,
     "cat": "Pediatria"
   },
   {
-    "q": "Co należy zrobić z dawką hydrokortyzonu u pacjenta z WPN w trakcie ostrej infekcji z gorączką?",
-    "a": "Zwiększyć dawkę 2–3-krotnie (tzw. stress dose), aby zapobiec przełomowi nadnerczowemu.",
+    "q": "Jak manifestuje się klasyczny WPN u noworodków żeńskich (46,XX)?",
+    "a": "• Wirylizacja narządów zewnętrznych (przerost łechtaczki, zrośnięcie warg sromowych, zatoka moczowo-płciowa wg skali Pradera).<br>• Wewnętrzne narządy żeńskie (macica, jajniki) są PRAWIDŁOWE.",
     "caseId": 119,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest triada kryteriów rozpoznania kwasicy ketonowej (DKA)?",
-    "a": "Hiperglikemia (>200 mg/dL / 11 mmol/L), kwasica metaboliczna (pH <7.30 lub HCO3 <18 mmol/L) oraz ketonemia (beta-hydroksymaślan >= 3 mmol/L) lub ketonuria.",
+    "q": "Na czym polega zasada 'stress dose' u chorych na WPN?",
+    "a": "• 2-3 krotne zwiększenie dawki doustnego hydrokortyzonu w stresie (gorączka >38,5°C, uraz, zabieg, infekcja).<br>• W razie wymiotów podanie hydrokortyzonu domięśniowo/dożylnie.<br>• Zapobiega zgonowi w przełomie nadnerczowym.",
+    "caseId": 119,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jakie są 3 kryteria rozpoznania cukrzycowej kwasicy ketonowej (DKA) wg ISPAD?",
+    "a": "• Hiperglikemia >200 mg/dl (11 mmol/l).<br>• Kwasica metaboliczna: pH <7,30 lub HCO3- <18 mmol/l.<br>• Ketonemia (beta-hydroksymaślan >3,0 mmol/l) lub silna ketonuria.",
     "caseId": 120,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego w DKA u dzieci bolusy insuliny są bezwzględnie zakazane?",
-    "a": "Zwiększają ryzyko nagłego spadku osmolarności, wstrząsu hipowolemicznego i śmiertelnego obrzęku mózgu.",
+    "q": "Dlaczego w DKA u dzieci BEZWZGLĘDNIE ZAKAZANY jest bolus insuliny?",
+    "a": "• Wywołuje gwałtowny spadek osmolalności osocza.<br>• Prowadzi do masywnego obrzęku mózgu (główna przyczyna zgonów dzieci z DKA!).<br>• Insulinę podaje się wyłącznie w ciągłym wlewie i.v. (0,05-0,1 j./kg/h) po 1-2 h nawadniania.",
     "caseId": 120,
     "cat": "Pediatria"
   },
   {
-    "q": "Kiedy rozpoczyna się wlew insuliny w DKA u dziecka?",
-    "a": "Dopiero po 1–2 godzinach wstępnego nawadniania dożylnego (dawka: 0.05–0.1 j./kg mc./h w stałym wlewie).",
+    "q": "Co zrobić, gdy w DKA glikemia spadnie do 250 mg/dl, a kwasica nadal trwa?",
+    "a": "• Do płynów dołączyć glukozę (5-10% glukoza w 0,45% NaCl z KCl).<br>• KONTYNUOWAĆ wlew insuliny aż do ustąpienia kwasicy (HCO3- >15, pH >7,30) i zamknięcia luki anionowej!",
     "caseId": 120,
     "cat": "Pediatria"
   },
   {
-    "q": "Co należy zrobić z płynami, gdy glikemia w DKA spadnie poniżej 250 mg/dL?",
-    "a": "Dodać 5% lub 10% glukozę do wlewu, kontynuując podawanie insuliny do czasu wygaszenia kwasicy i ketonemii.",
+    "q": "Dlaczego w DKA u dzieci nie stosuje się wodorowęglanu sodu (NaHCO3)?",
+    "a": "• Zwiększa ryzyko śmiertelnego obrzęku mózgu.<br>• Powoduje paradoksalną kwasicę OUN (przenikanie CO2 do mózgu).<br>• Pogłębia groźną hipokaliemię.",
     "caseId": 120,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie leki osmotyczne stosuje się natychmiast przy podejrzeniu obrzęku mózgu w DKA?",
-    "a": "3% NaCl (3–5 mL/kg mc.) lub 20% mannitol (0.5–1.0 g/kg mc. i.v.).",
+    "q": "Jakie są wczesne objawy obrzęku mózgu w DKA i jak natychmiast reagować?",
+    "a": "• Objawy: ból głowy, bradykardia, wzrost ciśnienia (Cushing), senność, wymioty.<br>• Postępowanie: uniesienie głowy 30°, natychmiast Mannitol 20% (0,5-1 g/kg w 20 min) lub 3% NaCl (3-5 ml/kg) PRZED tomografią!",
     "caseId": 120,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest najczęstsza przyczyna wrodzonej niedoczynności tarczycy (CHT)?",
-    "a": "Dysgenezja tarczycy (ektopia, agenezja lub hipoplazja gruczołu), stanowiąca ~85% przypadków.",
+    "q": "Kiedy rozpocząć suplementację potasu (KCl) w DKA?",
+    "a": "• Zaraz po włączeniu insuliny i potwierdzeniu diurezy (jeśli K+ <5,5 mmol/l).<br>• Insulina przemieszcza potas do wnętrza komórek – brak suplementacji KCl grozi śmiertelną hipokaliemią!",
+    "caseId": 120,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Kiedy i jak pobiera się w Polsce krew na badanie przesiewowe w kierunku wrodzonej niedoczynności tarczycy (WNT)?",
+    "a": "W 3. dobie życia (po ukończeniu 48 h życia, optymalnie 48-72 h) z nakłucia bocznej powierzchni pięty noworodka na specjalną bibułę filtracyjną (oznaczenie TSH metodą DELFIA).",
     "caseId": 121,
     "cat": "Pediatria"
   },
   {
-    "q": "W jakim czasie od urodzenia należy włączyć lewotyroksynę w CHT, aby uniknąć spadku IQ?",
-    "a": "Przed ukończeniem 14. dnia życia.",
+    "q": "Dlaczego badania przesiewowego tarczycy na bibule NIE pobiera się w 1. dobie życia?",
+    "a": "W 1. dobie życia występuje fizjologiczny, gwałtowny wyrzut TSH (odpowiedź na stres porodowy i chłód), co dałoby wynik fałszywie dodatni. Po 48 h stężenie TSH opada do wartości ustabilizowanych.",
     "caseId": 121,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie są wczesne objawy kliniczne wrodzonej niedoczynności tarczycy?",
-    "a": "Przedłużająca się żółtaczka, duży język (makroglosja), przepuklina pępkowa, zaparcia, hipotonia, sucha skóra i senność.",
+    "q": "Jaka jest najczęstsza przyczyna trwałej pierwotnej wrodzonej niedoczynności tarczycy?",
+    "a": "Dysgenezja tarczycy (80-85% przypadków), w tym: ektopia tarczycy (ok. 60%, np. tarczyca językowa), agenezja/aplazja (ok. 30%) oraz hipoplazja (10%). Wrodzone defekty syntezy (dyshormonogeneza) to ok. 15%.",
     "caseId": 121,
     "cat": "Pediatria"
   },
   {
-    "q": "Kiedy i jak wykonuje się badanie przesiewowe w kierunku CHT w Polsce?",
-    "a": "W 3.–5. dobie życia z krwi włośniczkowej pobranej na bibułę (oznaczenie TSH).",
+    "q": "Jaka jest zalecana dawka początkowa lewotyroksyny (L-T4) u noworodka z rozpoznaną WNT i w jakim czasie należy ją włączyć?",
+    "a": "10-15 µg/kg m.c./dobę doustnie w pojedynczej dawce porannej. Leczenie należy wdrożyć natychmiast po potwierdzeniu wyniku, optymalnie przed 14. dniem życia, by całkowicie zapobiec ubytkom IQ.",
     "caseId": 121,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka jest dawka początkowa lewotyroksyny (L-T4) u noworodka z CHT?",
-    "a": "10–15 ug/kg mc./dobę doustnie (wysoka dawka nasycająca).",
+    "q": "Wymień 5 klasycznych objawów wrodzonej niedoczynności tarczycy u kilkutygodniowego niemowlęcia.",
+    "a": "1. Przedłużająca się żółtaczka noworodkowa (>14 dni)\n2. Makroglosja (duży, wystający język)\n3. Uporczywe zaparcia i wzdęcie brzucha ('żabi brzuch', przepuklina pępkowa)\n4. Hipotonia mięśniowa, apatia i ochrypły płacz\n5. Duże, szerokie ciemiączka (otwarte ciemiączko tylne >0,5 cm), sucha i chłodna skóra.",
     "caseId": 121,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest najczęstszy nowotwór złośliwy wieku dziecięcego?",
-    "a": "Ostra białaczka limfoblastyczna (ALL), ze szczytem zachorowań w wieku 2–5 lat.",
+    "q": "Jakie są laboratoryjne cele terapeutyczne w leczeniu WNT w pierwszym półroczu życia dziecka?",
+    "a": "Utrzymanie stężenia wolnej tyroksyny (fT4) w górnej połowie zakresu normy dla wieku oraz normalizacja stężenia TSH w granicach referencyjnych (<2,5 mIU/l). Kontrole laboratoryjne co 2-4 tygodnie na początku, potem co 1-2 miesiące.",
+    "caseId": 121,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Jaki jest najczęstszy nowotwór złośliwy u dzieci i w jakim wieku występuje szczyt zachorowań?",
+    "a": "Ostra białaczka limfoblastyczna (ALL), stanowiąca ok. 75-80% białaczek i 25-30% nowotworów dziecięcych. Szczyt zachorowań przypada między 2. a 5. rokiem życia.",
     "caseId": 122,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie badanie jest złotym standardem rozpoznania ostrej białaczki?",
-    "a": "Biopsja aspiracyjna szpiku kostnego (mielogram) wykazująca >= 20% blastów w szpiku.",
+    "q": "Wymień triadę objawów wynikających z wyparcia szpiku w ostrej białaczce u dziecka.",
+    "a": "1. Niedokrwistość (bladość, apatia, osłabienie)\n2. Małopłytkowość (skaza krwotoczna: wybroczyny, siniaki, krwawienia z dziąseł/nosa)\n3. Neutropenia (gorączka, podatność na ciężkie zakażenia bakteryjne i grzybicze).",
     "caseId": 122,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie objawy kliniczne wynikają z wyparcia prawidłowej hematopoezy w szpiku przez blasty?",
-    "a": "Niedokrwistość (bladość, osłabienie), małopłytkowość (wybroczyny, siniaki) i neutropenia (gorączki, zakażenia).",
+    "q": "Jakie jest kryterium rozpoznania ostrej białaczki w badaniu cytologicznym szpiku kostnego wg WHO?",
+    "a": "Obecność co najmniej 20% komórek blastycznych (blastów) w aspiracie szpiku kostnego (lub we krwi obwodowej).",
     "caseId": 122,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie są zasady profilaktyki zespołu lizy guza (TLS) w ALL?",
-    "a": "Intensywne nawadnianie dożylne (2500–3000 mL/m2/d) BEZ POTASU w płynach oraz lek hipourikemiczny (rasburykaza lub allopurynol).",
+    "q": "Czym jest zespół rozpadu guza (TLS) i jakich 4 zaburzeń metabolicznych w nim poszukujemy?",
+    "a": "Zagrażający życiu stan wynikający z masywnej lizy komórek nowotworowych. Triada 'hiper' + 1 'hipo': Hiperurykemia, Hiperkaliemia, Hiperfosfatemia oraz wtórna Hipokalcemia.",
     "caseId": 122,
     "cat": "Pediatria"
   },
   {
-    "q": "W jakim czasie należy podać antybiotyk w gorączce neutropenicznej u dziecka onkologicznego?",
-    "a": "W ciągu pierwszych 60 minut ('złota godzina') od wystąpienia gorączki (antybiotyk i.v. aktywny wobec P. aeruginosa).",
+    "q": "Jaka aberracja genetyczna w dziecięcej B-ALL jest najczęstsza i wiąże się z bardzo dobrym rokowaniem?",
+    "a": "Translokacja t(12;21)(p13;q22) tworząca gen fuzyjny ETV6-RUNX1 (dawniej TEL-AML1) – występuje u ok. 25% dzieci z B-ALL; wskaźnik wyleczeń przekracza 90%.",
     "caseId": 122,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest obowiązkowe kryterium rozpoznania plamicy Henocha-Schönleina (IgAV)?",
-    "a": "Wyczuwalna dotykiem, uniesiona plamica (palpable purpura) na pośladkach i nogach przy PRAWIDŁOWEJ liczbie płytek krwi.",
+    "q": "Jakie jest postępowanie w 'złotej godzinie' w gorączce neutropenicznej u dziecka z ALL?",
+    "a": "Pobranie posiewów krwi (z wkłucia centralnego i obwodu) i natychmiastowe podanie dożylne bakteriobójczego antybiotyku przeciwko Pseudomonas i pałeczkom jelitowym (np. cefepim lub piperacylina z tazobaktamem).",
+    "caseId": 122,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Co stanowi bezwzględny, obowiązkowy warunek rozpoznania zapalenia naczyń IgA (plamicy Henocha-Schönleina) wg kryteriów EULAR/PRINTO/PRES?",
+    "a": "Wyczuwalna dotykiem, uniesiona plamica (palpable purpura) lub wybroczyny o przewadze na kończynach dolnych i pośladkach, przy braku małopłytkowości i koagulopatii.",
     "caseId": 123,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym różni się plamica w IgAV od wybroczyn w ITP?",
-    "a": "W IgAV płytki krwi są w normie, a wykwity są uniesione z powodu zapalenia naczyń; w ITP płytki są skrajnie obniżone.",
+    "q": "Jaka jest liczba płytek krwi (PLT) w plamicy Henocha-Schönleina?",
+    "a": "Prawidłowa lub podwyższona (PLT >150-450 tys./µl) – plamica ma charakter naczyniowy, a nie małopłytkowy. Wyklucza to ITP i ostre białaczki.",
     "caseId": 123,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest najczęstsze ostre powikłanie brzuszne IgAV?",
-    "a": "Wgłobienie jelita (intussusceptio) wywołane obrzękiem i krwiakiem w ścianie jelita.",
+    "q": "Które powikłanie zapalenia naczyń IgA determinuje odległe rokowanie u chorego?",
+    "a": "Zajęcie nerek (nefropatia IgAV) – jedyne powikłanie mogące prowadzić do przewlekłej choroby nerek i schyłkowej niewydolności nerek (ESRD).",
     "caseId": 123,
     "cat": "Pediatria"
   },
   {
-    "q": "Który narząd decyduje o odległym rokowaniu w IgAV?",
-    "a": "Nerki (nefropatia IgA – wymaga kontroli moczu i ciśnienia tętniczego przez min. 6 miesięcy).",
+    "q": "Jakie jest najczęstsze ostre powikłanie chirurgiczne w jamie brzusznej u dziecka z IgAV i czym różni się od idiopatycznego wgłobienia?",
+    "a": "Wgłobienie jelita cienkiego – w odróżnieniu od postaci idiopatycznej (krętniczo-kątniczej) w IgAV dochodzi typowo do wgłobienia krętniczo-krętniczego (ileo-ileal) na podłożu krwiaka podśluzówkowego.",
     "caseId": 123,
     "cat": "Pediatria"
   },
   {
-    "q": "Czy glikokortykosteroidy zapobiegają zajęciu nerek w IgAV?",
-    "a": "NIE – sterydy łagodzą silne bóle brzucha i stawów, ale nie zapobiegają rozwojowi nefropatii.",
+    "q": "Czy glikokortykosteroidy (GKS) zapobiegają rozwojowi nefropatii w plamicy Henocha-Schönleina?",
+    "a": "NIE. EBM dowiodło, że GKS (prednizon) łagodzą nasilone bóle brzucha i stawów, ale NIE chronią przed wystąpieniem ani progresją nefropatii IgAV w przyszłości.",
     "caseId": 123,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaka triada objawów wskazuje na guza tylnego dołu czaszki u dziecka?",
-    "a": "Poranne bóle głowy, poranne chlustające wymioty przynoszące ulgę oraz ataksja móżdżkowa (chód na szerokiej podstawie).",
+    "q": "Dlaczego u dziecka z IgAV z bólami brzucha lub krwinkomoczem NIE należy podawać ibuprofenu?",
+    "a": "NLPZ (ibuprofen) nasilają ryzyko krwawień z przewodu pokarmowego oraz upośledzają perfuzję nerek (hamowanie prostaglandyn), co może pogłębić uszkodzenie nerek.",
+    "caseId": 123,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Wymień triadę objawów wzmożonego ciśnienia śródczaszkowego (ICP) u dzieci z guzami mózgu.",
+    "a": "1. Poranne bóle głowy (nasilające się w pozycji leżącej i przy kaszlu)\n2. Poranne chlustające wymioty na czczo (przynoszące chwilową ulgę w bólu)\n3. Tarcza zastoinowa (obrzęk tarczy nerwu wzrokowego na dnie oka).",
     "caseId": 124,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego punkcja lędźwiowa jest przeciwwskazana przy tarczy zastoinowej w guzie mózgu?",
-    "a": "Grozi natychmiastowym wgłobieniem (wklinowaniem) migdałków móżdżku do otworu wielkiego czaszki i zgonem.",
+    "q": "Co wchodzi w skład triady Cushinga i o czym świadczy jej obecność?",
+    "a": "1. Nadciśnienie tętnicze (z poszerzeniem amplitudy)\n2. Bradykardia\n3. Nieregularny, spowolniony oddech.\nŚwiadczy o krytycznym ucisku/niedokrwieniu pnia mózgu i bezpośrednim zagrożeniu śmiertelnym wklinowaniem.",
     "caseId": 124,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest badanie obrazowe z wyboru w guzach tylnego dołu czaszki u dzieci?",
-    "a": "Rezonans magnetyczny (MR) mózgowia z kontrastem (oraz oceną rdzenia kręgowego).",
+    "q": "Dlaczego u dziecka z podejrzeniem guza móżdżku PUNKCJA LĘDŹWIOWA jest bezwzględnie przeciwwskazana?",
+    "a": "Wytwarza gwałtowny gradient ciśnień między jamą czaszki a kanałem kręgowym, prowadząc do natychmiastowego wklinowania migdałków móżdżku do otworu wielkiego i zatrzymania krążenia/oddechu.",
     "caseId": 124,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest najczęstszy łagodny i najczęstszy złośliwy guz móżdżku u dzieci?",
-    "a": "Łagodny: Gwiaździak włosowatokomórkowy (WHO G1); Złośliwy: Rdzeniak zarodkowy (Medulloblastoma, WHO G4).",
+    "q": "Jaki jest najczęstszy złośliwy guz mózgu u dzieci i skąd się wywodzi?",
+    "a": "Rdzeniak zarodkowy (Medulloblastoma, WHO G4) – wywodzi się z niedojrzałych komórek embrionalnych robaka móżdżku w dachu komory IV.",
     "caseId": 124,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki lek redukuje obrzęk naczyniopochodny mózgu wokół guza?",
-    "a": "Deksametazon dożylnie w wysokiej dawce.",
+    "q": "Dlaczego w stagingu Medulloblastoma obowiązkowy jest rezonans magnetyczny CAŁEGO kręgosłupa?",
+    "a": "Guz złuszcza komórki do płynu mózgowo-rdzeniowego, dając tzw. przerzuty kropelkowe (drop metastases) wzdłuż opon rdzenia kręgowego i ogona końskiego.",
     "caseId": 124,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie są kryteria diagnostyczne choroby Kawasakiego?",
-    "a": "Gorączka trwająca >= 5 dni oraz co najmniej 4 z 5 cech: przekrwienie spojówek bez ropy, malinowy język/wargi, obrzęki/rumień dłoni i stóp, polimorficzna wysypka, węzeł szyjny >1.5 cm.",
+    "q": "Jakie leczenie przeciwobrzękowe należy wdrożyć w zespole ciasnoty wewnątrzczaszkowej wywołanej guzem mózgu?",
+    "a": "Uniesienie wezgłowia o 30 stopni + Deksametazon dożylnie (0,5-1 mg/kg/d) + w ostrym wzroście ICP wlew 20% Mannitolu (0,5-1 g/kg).",
+    "caseId": 124,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Wymień kryteria kliniczne klasycznej choroby Kawasakiego wg AHA.",
+    "a": "Gorączka >=5 dni ORAZ co najmniej 4 z 5 kryteriów:\n1. Obustronne bezwysiękowe zapalenie spojówek (z oszczędzeniem rąbka)\n2. Zmiany na śluzówkach jamy ustnej (malinowy język, pękające wargi, rumień gardła)\n3. Zmiany na dłoniach/stopach (obrzęk i rumień w fazie ostrej, łuszczenie okołopaznokciowe w fazie podostrej)\n4. Polimorficzna wysypka (niepęcherzykowa)\n5. Jednostronny węzeł chłonny szyjny >1,5 cm.",
     "caseId": 125,
     "cat": "Pediatria"
   },
   {
-    "q": "Jakie jest leczenie pierwszego rzutu w chorobie Kawasakiego?",
-    "a": "Dożylne immunoglobuliny (IVIG 2 g/kg mc. w pojedynczym wlewie) ORAZ kwas acetylosalicylowy (ASA) przed 10. dniem choroby.",
+    "q": "Jakie jest leczenie pierwszego rzutu w chorobie Kawasakiego i w jakim czasie należy je podać?",
+    "a": "Dożylne immunoglobuliny (IVIG 2 g/kg w pojedynczym wlewie przez 10-12 h) + Kwas acetylosalicylowy (ASA 30-50 mg/kg/d p.o.). Należy wdrożyć w ciągu pierwszych 10 dni gorączki, by zredukować tętniaki z 25% do <3-5%.",
     "caseId": 125,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego wczesne podanie IVIG w chorobie Kawasakiego jest kluczowe?",
-    "a": "Zmniejsza ryzyko rozwoju tętniaków tętnic wieńcowych z 20–25% do poniżej 3–5%.",
+    "q": "Jak dawkuje się kwas acetylosalicylowy (ASA) w fazie ostrej i podostrej choroby Kawasakiego?",
+    "a": "Faza ostra (przeciwzapalna): ASA 30-50 mg/kg/d w 4 dawkach do 48 h bezgorączkowych.\nFaza podostra (antyagregacyjna): ASA 3-5 mg/kg/d raz na dobę przez 6-8 tygodni (lub dłużej, jeśli obecne są tętniaki).",
     "caseId": 125,
     "cat": "Pediatria"
   },
   {
-    "q": "Jaki jest unikalny objaw w badaniu moczu w chorobie Kawasakiego?",
-    "a": "Jałowa leukocyturia (wynikająca z zapalenia dystalnej cewki moczowej).",
+    "q": "Jak definiuje się oporność na IVIG (IVIG-resistance) i jak się ją leczy?",
+    "a": "Przetrwała lub nawracająca gorączka (>=38,0°C) po 36 h od zakończenia 1. wlewu IVIG.\nLeczenie: 2. wlew IVIG 2 g/kg LUB pulsy metyloprednizolonu (30 mg/kg/d przez 3 dni) LUB infliksymab (5 mg/kg).",
     "caseId": 125,
     "cat": "Pediatria"
   },
   {
-    "q": "Dlaczego po podaniu IVIG w chorobie Kawasakiego odracza się szczepienie MMR o 11 miesięcy?",
-    "a": "Podane przeciwciała z IVIG neutralizują żywy wirus szczepionkowy, uniemożliwiając wytworzenie trwałej odporności.",
+    "q": "Czym jest tętniak olbrzymi (giant aneurysm) tętnicy wieńcowej wg wytycznych AHA?",
+    "a": "Tętniak o standaryzowanym wskaźniku Z-score >= 10 LUB bezwzględnej średnicy wewnętrznej naczynia >= 8 mm. Wiąże się z najwyższym ryzykiem pęknięcia, zakrzepicy i zawału serca.",
     "caseId": 125,
     "cat": "Pediatria"
   },
   {
-    "q": "Czym jest objaw Kochaera w zapaleniu wyrostka robaczkowego?",
-    "a": "Przemieszczenie się bólu brzucha z nadbrzusza lub okolicy pępka do prawego dołu biodrowego po kilku godzinach.",
+    "q": "Jakie są 2 kluczowe zalecenia dotyczące szczepień po leczeniu choroby Kawasakiego (IVIG + ASA)?",
+    "a": "1. Odroczenie szczepień żywymi wirusami (MMR, ospa wietrzna) o co najmniej 11 miesięcy od wlewu IVIG (przeciwciała dawców blokują odpowiedź).\n2. Coroczne szczepienie inaktywowane przeciw grypie podczas leczenia aspiryną (ochrona przed śmiertelnym zespołem Reye'a).",
+    "caseId": 125,
+    "cat": "Pediatria"
+  },
+  {
+    "q": "Wyjaśnij mechanizm objawu Kocha (wędrującego bólu) w ostrym zapaleniu wyrostka robaczkowego.",
+    "a": "Początkowy ból tępy wokół pępka to ból trzewny (rozciągnięcie wyrostka, włókna Th8-Th10). Po objęciu zapaleniem otrzewnej ściennej ból staje się somatyczny (ostry, kłujący) i precyzyjnie lokalizuje się w prawym dole biodrowym.",
     "caseId": 126,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest objaw Rovsinga?",
-    "a": "Ból w prawym dole biodrowym wywołany uciskiem lewego dołu biodrowego (przesunięcie gazów przez okrężnicę).",
+    "q": "Co to jest objaw Jaworskiego (psoas sign) i o czym świadczy jego obecność?",
+    "a": "Ból w prawym dole biodrowym przy opuszczaniu uprzednio uniesionej prawej kończyny dolnej w stawie biodrowym na wznak. Świadczy o zapaleniu wyrostka w położeniu zakątniczym (podrażnienie m. biodrowo-lędźwiowego).",
     "caseId": 126,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Na czym polega objaw Jaworskiego (psoas sign)?",
-    "a": "Ból przy unoszeniu wyprostowanej prawej kończyny dolnej w ucisku prawego dołu biodrowego (objaw zakątniczego położenia wyrostka).",
+    "q": "Wymień 4 kluczowe kryteria ostrego zapalenia wyrostka robaczkowego w badaniu USG.",
+    "a": "1. Średnica zewnętrzna w przekroju poprzecznym >6 mm\n2. Brak ściśliwości pod uciskiem głowicy\n3. Pogrubienie ściany >2-3 mm (objaw tarczy / tarczy strzelniczej)\n4. Obecność kamienia kałowego (appendicolith) dającego cień akustyczny.",
     "caseId": 126,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka jest metoda operacyjna pierwszego wyboru w zapaleniu wyrostka robaczkowego?",
-    "a": "Appendektomia laparoskopowa.",
+    "q": "Dlaczego u pacjenta z podejrzeniem ostrego wyrostka leki przeczyszczające i lewatywy są BEZWZGLĘDNIE PRZECIWWSKAZANE?",
+    "a": "Zwiększają ciśnienie wewnątrzjelitowe i nasilają perystaltykę, co bezpośrednio grozi pęknięciem (perforacją) martwiczej ściany wyrostka i kałowym zapaleniem otrzewnej.",
     "caseId": 126,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego każdy usunięty wyrostek robaczkowy bada się histopatologicznie?",
-    "a": "W celu wykluczenia nowotworu neuroendokrynnego (rakowiaka NEN/NET) lub gruczolakoraka.",
+    "q": "Jakie jest postępowanie w profilaktyce antybiotykowej przed niepowikłaną apendektomią?",
+    "a": "Pojedyncza dawka dożylna antybiotyku o spektrum beztlenowym i tlenowym (np. Cefazolina 2 g + Metronidazol 500 mg i.v.) podana 30-60 min przed nacięciem skóry.",
     "caseId": 126,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym różni się ostre zapalenie pęcherzyka żółciowego od kolki żółciowej?",
-    "a": "Czasem trwania bólu (kolka ustępuje w <6h, w zapaleniu ból trwa stale >6h) oraz obecnością gorączki i leukocytozy.",
+    "q": "Dlaczego każdy usunięty wyrostek robaczkowy musi być poddany badaniu histopatologicznemu?",
+    "a": "Aby wykluczyć nowotwory wyrostka robaczkowego (w 1-2% przypadków stwierdza się guz neuroendokrynny NEN / rakowiak lub nowotwór śluzowy LAMN / gruczolakorak, co może wymagać hemikolektomii).",
+    "caseId": 126,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Wymień kryteria diagnostyczne ostrego zapalenia pęcherzyka żółciowego wg Tokyo Guidelines (TG18).",
+    "a": "Pewne rozpoznanie wymaga obecności cech z 3 grup:\nA. Objawy miejscowe (objaw Murphy'ego, ból/opór w prawym podżebrzu)\nB. Objawy ogólne (gorączka >38°C, leukocytoza, wysokie CRP)\nC. Badania obrazowe (cechy zapalenia w USG/TK/MRCP).",
     "caseId": 127,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Na czym polega objaw Murphy'ego?",
-    "a": "Zatrzymanie głębokiego wdechu z powodu nagłego bólu podczas ucisku w punkcie pęcherzykowym w prawym podżebrzu.",
+    "q": "Wymień 4 kluczowe ultrasonograficzne cechy ostrego zapalenia pęcherzyka żółciowego.",
+    "a": "1. Pogrubienie ściany pęcherzyka >4 mm\n2. Rozwarstwienie ściany ('objaw podwójnego konturu' / double-rim sign)\n3. Uwięźnięty złóg w szyjce/przewodzie pęcherzykowym\n4. Płyn w loży pęcherzyka oraz sonograficzny objaw Murphy'ego.",
     "caseId": 127,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest optymalny czas wykonania cholecystektomii laparoskopowej w ostrym zapaleniu?",
-    "a": "Wczesna cholecystektomia w ciągu 24–72 godzin od początku objawów / przyjęcia.",
+    "q": "Jaki jest optymalny czas wykonania cholecystektomii laparoskopowej w ostrym zapaleniu pęcherzyka wg wytycznych?",
+    "a": "Wczesna cholecystektomia laparoskopowa (ELC) wykonana jak najszybciej, optymalnie w ciągu pierwszych 72 godzin od początku objawów (dopuszczalna do 7-10 dni).",
     "caseId": 127,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest krytyczny widok bezpieczeństwa (CVS)?",
-    "a": "Standard preparowania: oczyszczenie trójkąta Calota, uwidocznienie loży i identyfikacja tylko 2 struktur (przewodu i tętnicy pęcherzykowej) przed klipsowaniem.",
+    "q": "Co to jest Krytyczny Widok Bezpieczeństwa (Critical View of Safety – CVS wg Strasberga)?",
+    "a": "Technika preparowania w trójkącie Calota: 1. Oczyszczenie trójkąta z tłuszczu, 2. Odpreparowanie dolnej 1/3 pęcherzyka od łoża wątroby, 3. Uwidocznienie DOKŁADNIE DWÓCH struktur wchodzących do pęcherzyka: t. pęcherzykowej i przewodu pęcherzykowego (chroni PŻW).",
     "caseId": 127,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki zabieg ratunkowy wykonuje się u pacjentów niestabilnych, zdyskwalifikowanych z operacji?",
-    "a": "Przezskórną cholecystostomię pod kontrolą USG (drenaż pęcherzyka w znieczuleniu miejscowym).",
+    "q": "Jakie jest postępowanie u niestabilnego pacjenta z ciężkim zapaleniem pęcherzyka (Grade III), u którego operacja w narkozie grozi zgonem?",
+    "a": "Przezskórna przezwątrobowa cholecystostomia (PTGBD) pod kontrolą USG w znieczuleniu miejscowym – odbarcza ropę i zakażoną żółć, umożliwiając opanowanie wstrząsu septycznego.",
     "caseId": 127,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie objawy tworzą triadę Charcota w zapaleniu dróg żółciowych?",
-    "a": "1. Ból w prawym podżebrzu, 2. Gorączka z dreszczami, 3. Żółtaczka zaporowa (mechaniczna).",
+    "q": "Czym różni się objaw Murphy'ego od objawu Courvoisiera?",
+    "a": "Objaw Murphy'ego: ostry ból i zatrzymanie wdechu przy ucisku podżebrza (zapalenie pęcherzyka).\nObjaw Courvoisiera: powiększony, NIEBOLESNY pęcherzyk z żółtaczką mechaniczną (rak głowy trzustki uciskający PŻW).",
+    "caseId": 127,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co wchodzi w skład triady Charcota w ostrym zapaleniu dróg żółciowych?",
+    "a": "1. Ból w prawym podżebrzu\n2. Żółtaczka mechaniczna\n3. Wysoka gorączka z dreszczami.",
     "caseId": 128,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest pentada Reynoldsa?",
-    "a": "Triada Charcota + wstrząs (hipotonia) + zaburzenia świadomości (splątanie/śpiączka) w septycznym zapaleniu dróg żółciowych.",
+    "q": "Co to jest Pentada Reynoldsa i o czym świadczy?",
+    "a": "Triada Charcota (ból + żółtaczka + gorączka/dreszcze) + Wstrząs (hipotensja) + Zaburzenia świadomości (splątanie).\nŚwiadczy o ostrym ropnym zapaleniu dróg żółciowych pod wysokim ciśnieniem (100% śmiertelność bez natychmiastowego odbarczenia!).",
     "caseId": 128,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest zabieg z wyboru ratujący życie w ostrym zapaleniu dróg żółciowych?",
-    "a": "Pilne ECPW ze sfinkterotomią endoskopową i drenażem dróg żółciowych (usunięcie złogu / protezowanie).",
+    "q": "Jaki jest zabieg z wyboru i złoty standard leczenia ostrego zapalenia dróg żółciowych?",
+    "a": "Pilne endoskopowe odbarczenie dróg żółciowych metodą ECPW (ERCP) z papillotomią/sfinkterotomią lub protezowaniem (stent/ENBD) w ciągu pierwszych 12-24 h.",
     "caseId": 128,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest zjawisko refluksu żółciowo-żylnego (cholangiovenous reflux)?",
-    "a": "Wsteczny przeciek bakterii i endotoksyn do krwi przez uszkodzoną barierę kanalikową przy ciśnieniu żółci >25–30 cmH2O.",
+    "q": "Jak bezpiecznie odbarczyć drogi żółciowe w ECPW u pacjenta z zaburzeniami krzepnięcia krwi (np. na rywaroksabanie)?",
+    "a": "Założyć plastikowy stent żółciowy lub dren nosowo-żółciowy (ENBD) BEZ nacinania brodawki (bez sfinkterotomii). Odbarcza to ropę pod ciśnieniem i całkowicie eliminuje ryzyko krwawienia.",
     "caseId": 128,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka metoda stanowi alternatywę w drenażu dróg żółciowych, gdy ECPW jest niemożliwe?",
-    "a": "Przezskórny przezwątrobowy drenaż dróg żółciowych (PTCD) pod kontrolą USG/fluoroskopii.",
+    "q": "Na czym polega zjawisko refluksu żółciowo-żylnego (cholangio-venous reflux)?",
+    "a": "Wzrost ciśnienia żółci >25-30 cm H2O rozrywa połączenia zamykające między kanalikami a zatokami wątroby, wtłaczając zakażoną żółć i bakterie bezpośrednio do krwiobiegu (piorunująca posocznica).",
     "caseId": 128,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka triada objawów cechuje perforację wrzodu trawiennego?",
-    "a": "Nagły ból 'cios sztyletem', brzuch deskowaty (odruchowa obrona mięśniowa) i zanik stłumienia wątrobowego.",
+    "q": "Jakie antybiotyki empiryczne dożylne zaleca się w sepsie w przebiegu cholangitis?",
+    "a": "Piperacylina z tazobaktamem (4,5 g i.v. co 8 h) LUB Meropenem (1 g i.v. co 8 h) LUB Ceftriakson (2 g i.v.) + Metronidazol (500 mg i.v.).",
+    "caseId": 128,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Wymień triadę objawów klinicznych perforacji wrzodu trawiennego do jamy otrzewnej.",
+    "a": "1. Nagły, piorunujący ból brzucha jak 'uderzenie nożem' w nadbrzuszu\n2. 'Brzuch deskowaty' (skrajna, mimowolna obrona mięśniowa całego brzucha)\n3. Zanik stłumienia wątrobowego w opukiwaniu + martwa cisza osłuchowa.",
     "caseId": 129,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie badanie obrazowe potwierdza obecność wolnego powietrza w otrzewnej?",
-    "a": "Przeglądowe RTG klatki piersiowej / brzucha na stojąco (sierp gazu pod kopułą przepony).",
+    "q": "Jakie badanie obrazowe jest badaniem pierwszego rzutu w perforacji wrzodu i co uwidacznia?",
+    "a": "Przeglądowe RTG klatki piersiowej lub brzucha w pozycji stojącej – uwidacznia 'sierp wolnego powietrza' pod kopułami przepony (pneumoperitoneum / odmę otrzewnową).",
     "caseId": 129,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego gastroskopia jest przeciwwskazana w podejrzeniu perforacji wrzodu?",
-    "a": "Wdmuchiwanie powietrza powiększa ubytek i wtłacza masywne ilości treści do jamy otrzewnej.",
+    "q": "Jakie 2 procedury diagnostyczne są BEZWZGLĘDNIE PRZECIWWSKAZANE w perforacji wrzodu?",
+    "a": "1. Gastroskopia (wdmuchiwanie powietrza powiększa otwór i wtłacza litry gazu i treści do otrzewnej)\n2. Doustny kontrast barytowy (siarczan baru wywołuje śmiertelne, ziarniniakowe zapalenie otrzewnej).",
     "caseId": 129,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Na czym polega zabieg sposobem Grahama (Graham patch)?",
-    "a": "Na zszyciu perforacji wrzodu dwunastnicy i pokryciu miejsca szycia płatem z sieci większej.",
+    "q": "Na czym polega chirurgiczne zaopatrzenie perforacji wrzodu metodą Grahama (łata Grahama)?",
+    "a": "Zszycie otworu perforacyjnego szwami pojedynczymi i pokrycie linii szwów uszypułowanym płatem sieci większej (omentoplastyka) + obfite płukanie otrzewnej solą fizjologiczną.",
     "caseId": 129,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego przy perforacji wrzodu żołądka należy pobrać wycinki histopatologiczne?",
-    "a": "W celu wykluczenia drążącego raka żołądka (5–10% wrzodów żołądka ma charakter nowotworowy).",
+    "q": "Czym różni się powikłanie wrzodu przedniej ściany dwunastnicy od wrzodu tylnej ściany?",
+    "a": "Przednia ściana: PERFORACJA do wolnej jamy otrzewnej z zapaleniem otrzewnej i odmą.\nTylna ściana: MASYWNY KRWOTOK tętniczy z tętnicy żołądkowo-dwunastniczej (GDA) lub penetracja do trzustki.",
     "caseId": 129,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie są 4 kardynalne objawy niedrożności przewodu pokarmowego?",
-    "a": "Ból brzucha (kolkowy), nudności i wymioty, wzdęcie powłok brzusznych oraz zatrzymanie gazów i stolca.",
+    "q": "W jaki sposób NLPZ wywołują owrzodzenia i perforacje przewodu pokarmowego?",
+    "a": "Hamują enzym COX-1, blokując syntezę cytoprotekcyjnych prostaglandyn (PGE2, PGI2). Powoduje to zanik śluzu i dwuwęglanów oraz niedokrwienie śluzówki pod wpływem kwasu solnego.",
+    "caseId": 129,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Wymień 4 objawy klasycznej tetrady mechanicznej niedrożności jelit.",
+    "a": "1. Kolkowy (kurczowy) ból brzucha\n2. Wymioty (żołądkowe, żółciowe, jelitowe/kałowe)\n3. Wzdęcie brzucha (meteorismus)\n4. Zatrzymanie gazów i stolca (brak gazów to kluczowy objaw).",
     "caseId": 130,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym różni się osłuchiwanie brzucha w niedrożności mechanicznej od porażennej?",
-    "a": "W mechanicznej perystaltyka jest wzmożona, głośna i metaliczna ('stawianie się jelit'); w porażennej panuje całkowita cisza.",
+    "q": "Jaka jest najczęstsza przyczyna mechanicznej niedrożności jelita cienkiego u dorosłych?",
+    "a": "Pasma zrostów pooperacyjnych (adhesions) po wcześniejszych operacjach brzusznych (odpowiadają za 60-75% przypadków SBO).",
     "caseId": 130,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jak wygląda obraz RTG niedrożności jelita cienkiego na stojąco?",
-    "a": "Liczne, centralnie ułożone poziomy płynów z fałdami okrężnymi (Kerkringa) przechodzącymi przez całą szerokość światła.",
+    "q": "Jakie zaburzenie kwasowo-zasadowe i elektrolitowe rozwija się w niedrożności z wymiotami?",
+    "a": "Hipochloremiczna, hipokaliemiczna zasadowica metaboliczna oraz odwodnienie przednerkowe (utrata HCl i sekwestracja w 'trzeciej przestrzeni').",
     "caseId": 130,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest zadzierzgnięcie (strangulacja) jelita i jak się objawia?",
-    "a": "Zaciśnięcie naczyń krezkowych pętli grożące martwicą; objawia się stałym bólem, objawami otrzewnowymi i wzrostem mleczanów.",
+    "q": "Czym różni się obraz jelita cienkiego od grubego na przeglądowym RTG brzucha?",
+    "a": "Jelito cienkie: fałdy okrężne (Kerckringa) przechodzą przez CAŁĄ szerokość światła (od ściany do ściany).\nJelito grube: fałdy półksiężycowate (haustra) przechodzą tylko przez 1/3 do 1/2 szerokości światła.",
     "caseId": 130,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie jest postępowanie zachowawcze pierwszego rzutu w prostej niedrożności zrostowej?",
-    "a": "Zgłębnik nosowo-żołądkowy (dekompresja), płynoterapia i.v., wyrównanie elektrolitów i test z Gastrografinem do 48–72h.",
+    "q": "Na czym polega test z Gastrografinem w zrostowej niedrożności jelita cienkiego (ASBO)?",
+    "a": "Podanie 50-100 ml Gastrografiny przez sondę:\n1. Diagnostyka: dotarcie do kątnicy w RTG do 24 h wyklucza potrzebę operacji.\n2. Terapia: silnie hipermolarny kontrast ściąga wodę z obrzękniętej ściany i odblokowuje jelito u >80% chorych.",
     "caseId": 130,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest patognomoniczny objaw radiologiczny skrętu esicy w RTG?",
-    "a": "Objaw 'ziarna kawy' (coffee bean sign) lub 'odwróconej litery U' wychodzący z miednicy.",
+    "q": "Wymień objawy zadzierzgnięcia (strangulacji) jelita wymagające natychmiastowej operacji.",
+    "a": "Przejście bólu w stały i silny, gorączka, tachykardia, obrona mięśniowa (objawy otrzewnowe), leukocytoza oraz wzrost mleczanów we krwi (kwasica mleczanowa).",
+    "caseId": 130,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co to jest objaw 'ziarna kawy' (coffee bean sign) na RTG i o czym świadczy?",
+    "a": "Masywnie rozdęta, pojedyncza pętla jelitowa bez haustracji wybiegająca z lewego dołu biodrowego ku górze i na prawo, z centralną linią zetknięcia ścian. Jest patognomoniczny dla skrętu esicy.",
     "caseId": 131,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "U jakich chorych najczęściej występuje skręt esicy?",
-    "a": "U osób starszych, leżących, z chorobami neurologicznymi (Parkinson, otępienie) i przewlekłymi zaparciami.",
+    "q": "Jakie jest postępowanie pierwszego rzutu w niepowikłanym skręcie esicy (bez zapalenia otrzewnej)?",
+    "a": "Endoskopowa derotacja i dekompresja (sigmoidoskopia) z pozostawieniem rurki doodbytniczej (rectal tube) na 24-48 godzin.",
     "caseId": 131,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie jest postępowanie pierwszego rzutu w niepowikłanym skręcie esicy bez martwicy?",
-    "a": "Nieoperacyjna derotacja i odbarczenie endoskopowe za pomocą sigmoidoskopu.",
+    "q": "Dlaczego po udanej derotacji skrętu esicy konieczna jest planowa operacja resekcyjna?",
+    "a": "Ponieważ odsetek nawrotów po samej derotacji wynosi aż 50-70%, a kolejne epizody niosą ryzyko zgorzeli i zgonu. Zaleca się planową sigmoidektomię w czasie tej samej hospitalizacji.",
     "caseId": 131,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki zabieg wykonuje się w skręcie esicy powikłanym martwicą ściany jelita?",
-    "a": "Operację sposobem Hartmanna (resekcja esicy z wyłonieniem kolostomii końcowej).",
+    "q": "Jaka operacja jest złotym standardem w trybie ostrym w skręcie esicy z martwicą lub zapaleniem otrzewnej?",
+    "a": "Operacja sposobem Hartmanna: resekcja martwiczej esicy, kolostomia końcowa na lewym boku i ślepe zaszycie kikuta odbytnicy w miednicy.",
     "caseId": 131,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego po samej derotacji endoskopowej zaleca się planową operację?",
-    "a": "Ponieważ bez operacji odsetek nawrotów skrętu esicy wynosi aż 50–80%.",
+    "q": "Czym różni się skręt kątnicy od skrętu esicy na zdjęciu RTG?",
+    "a": "Skręt esicy: pętla 'ziarna kawy' wybiega z LEWEGO dołu ku górze i na prawo.\nSkręt kątnicy: pętla w kształcie nerkowatym/przecinka przemieszcza się z PRAWEGO dołu do LEWEGO nadbrzusza.",
     "caseId": 131,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego siłowe odprowadzanie uwięźniętej przepukliny (taxis) jest zakazane?",
-    "a": "Grozi pęknięciem jelita lub odprowadzeniem martwicy do otrzewnej (taxis en masse) i kałowym zapaleniem otrzewnej.",
+    "q": "Wymień 3 główne czynniki predysponujące do skrętu esicy.",
+    "a": "1. Długa esica o wąskiej krezce (dolichosigmoideum)\n2. Przewlekłe zaparcia obciążające pętlę masami kałowymi\n3. Podeszły wiek, bezruch i leki psychotropowe/antycholinergiczne.",
+    "caseId": 131,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Czym różni się uwięźnięcie (incarceratio) od zadzierzgnięcia (strangulatio) przepukliny?",
+    "a": "Uwięźnięcie: brak możliwości odprowadzenia worka do brzucha (przepuklina nieodprowadzalna).\nZadzierzgnięcie: uciśnięcie naczyń krezkowych w wąskich wrotach -> niedokrwienie, martwica zgorzelinowa i perforacja jelita.",
     "caseId": 132,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym różni się uwięźnięcie od zadzierzgnięcia przepukliny?",
-    "a": "Uwięźnięcie to brak odprowadzalności i zablokowanie pasażu; zadzierzgnięcie to ucisk naczyń krezkowych grożący martwicą.",
+    "q": "Dlaczego odprowadzanie ręczne (taxis) jest ZAKAZANE, gdy uwięźnięcie trwa >4-6 godzin?",
+    "a": "Grozi pęknięciem martwiczego jelita do otrzewnej lub tzw. 'odprowadzeniem w masie' (reductio en masse) – wepchnięciem worka wraz ze zaciśniętym pierścieniem do brzucha, gdzie jelito dalej ulega martwicy.",
     "caseId": 132,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest przepuklina Richtera?",
-    "a": "Uwięźnięciem jedynie fragmentu ściany jelita (przyściennym), bez pełnej niedrożności mechanicznej, grożącym cichą martwicą.",
+    "q": "Co to jest przepuklina Richtera i dlaczego jest tak groźna?",
+    "a": "Uwięźnięcie jedynie fragmentu obwodu ściany jelita (od strony przeciwległej do krezki). Światło jelita pozostaje drożne (brak objawów niedrożności!), co usypia czujność, podczas gdy ściana po cichu ulega martwicy i pęka.",
     "caseId": 132,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest przepuklina Littrégo i przepuklina Amyanda?",
-    "a": "Littrégo: worek zawiera uchyłek Meckela; Amyanda: worek zawiera wyrostek robaczkowy.",
+    "q": "Czym różni się anatomicznie przepuklina pachwinowa skośna od prostej?",
+    "a": "Skośna: wnika przez pierścień głęboki BOCZNIE od naczyń nabrzusznych dolnych, biegnie w powrózku do moszny, częściej więźnie.\nProsta: uwypukla się przez trójkąt Hesselbacha PRZYŚRODKOWO od naczyń, ma szerokie wrota, rzadko więźnie.",
     "caseId": 132,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego w zakażonym polu po resekcji jelita unika się klasycznych siatek syntetycznych?",
-    "a": "Z powodu wysokiego ryzyka zakażenia ciała obcego (siatki); preferuje się plastykę tkankową (Shouldice).",
+    "q": "Jakie są 3 cechy potwierdzające żywotność jelita po odbarczeniu uwięźniętej przepukliny?",
+    "a": "Po 10-15 min ogrzewania serwetami z solą: 1. Powrót różowego zabarwienia ściany, 2. Wyczuwalne tętno w tętniczkach krezki, 3. Powrót samoistnych skurczów perystaltycznych.",
     "caseId": 132,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka jest klasyczna cecha kliniczna wczesnej fazy zatoru SMA?",
-    "a": "Dramatyczny ból brzucha NIEPROPORCJONALNY do badania fizykalnego (brzuch początkowo całkowicie miękki).",
+    "q": "Co to jest przepuklina Amyanda, a co przepuklina Littrégo?",
+    "a": "Przepuklina Amyanda: obecność wyrostka robaczkowego w worku przepukliny pachwinowej.\nPrzepuklina Littrégo: obecność uchyłka Meckela w worku przepuklinowym.",
+    "caseId": 132,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co to jest dysocjacja kliniczna w ostrym niedokrwieniu krezki (zatorze SMA)?",
+    "a": "Potworny, rozdzierający ból brzucha (10/10) przy uderzająco ubogim obrazie w badaniu palpacyjnym (brzuch miękki, bez obrony i objawów otrzewnowych). Czekanie na twardy brzuch to czekanie na martwicę!",
     "caseId": 133,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest czynnik predysponujący u większości chorych z zatorem SMA?",
-    "a": "Migotanie przedsionków (AF) – materiał zatorowy ze skrzepliny w lewym przedsionku serca.",
+    "q": "Jakie badanie obrazowe jest 'złotym standardem' w ostrym niedokrwieniu krezki?",
+    "a": "Angio-TK jamy brzusznej i miednicy z fazą tętniczą i żylną (czułość >95%) – uwidacznia zator w pniu SMA i brak perfuzji ściany jelita.",
     "caseId": 133,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie badanie obrazowe jest złotym standardem rozpoznania zatoru SMA?",
-    "a": "Angio-TK tętnic trzewnych (wielofazowa tomografia komputerowa z kontrastem).",
+    "q": "Jaki jest najczęstszy czynnik ryzyka i przyczyna zatorowości SMA?",
+    "a": "Migotanie przedsionków (AF) bez prawidłowej antykoagulacji – skrzeplina z uszka lewego przedsionka urywa się i wpada w pień tętnicy krezkowej górnej.",
     "caseId": 133,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki marker laboratoryjny wskazuje na martwicę niedokrwienną jelita w zatorze SMA?",
-    "a": "Wysokie stężenie mleczanów we krwi (hiperlaktatemia) i kwasica metaboliczna.",
+    "q": "Na czym polega koncepcja 'second-look laparotomy' po embolektomii SMA?",
+    "a": "Zaplanowana relaparotomia po 24-48 godzinach w celu ostatecznej weryfikacji żywotności pętli jelitowych i oszczędzającej resekcji tylko odcinków z nieodwracalną martwicą (ochrona przed zespołem krótkiego jelita).",
     "caseId": 133,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest operacja 'second-look' w niedokrwieniu krezki?",
-    "a": "Planowa ponowna laparotomia po 24–48 godzinach w celu oceny żywotności jelita po rewaskularyzacji.",
+    "q": "Co oznacza obecność kwasicy mleczanowej (mleczany >3-5 mmol/l) w podejrzeniu zatoru SMA?",
+    "a": "Świadczy o zaawansowanym metabolizmie beztlenowym i obumieraniu komórek ściany jelita (zawał/martwica enterocytów). Wymaga natychmiastowej operacji ratunkowej.",
     "caseId": 133,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego ostre zapalenie uchyłków esicy nazywane jest 'lewostronnym wyrostkiem'?",
-    "a": "Daje analogiczne objawy zapalenia (ból, obrona mięśniowa, gorączka, leukocytoza), ale w lewym dole biodrowym.",
+    "q": "Jaki lek należy wdrożyć natychmiast dożylnie po powzięciu podejrzenia ostrego niedokrwienia krezki?",
+    "a": "Heparynę niefrakcjonowaną (UFH) w bolusie 5000 j.m. i.v. i wlewie ciągłym – zapobiega propagacji skrzepliny w mikrokrążeniu krezkowym.",
+    "caseId": 133,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Dlaczego ostre zapalenie uchyłków esicy nazywane jest 'lewym wyrostkiem robaczkowym'?",
+    "a": "Objawia się identycznym patomechanizmem (zaczopowanie kamieniem kałowym, mikroniedokrwienie, zapalenie otrzewnej) i triadą objawów (ból, obrona mięśniowa, gorączka, leukocytoza), ale w LEWYM dole biodrowym.",
     "caseId": 134,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego kolonoskopia jest zakazana w ostrej fazie zapalenia uchyłków?",
-    "a": "Insuflacja gazu i ucisk aparatu grożą przedziurawieniem (perforacją) zapalnego uchyłka do otrzewnej.",
+    "q": "Jakie badanie obrazowe jest badaniem z wyboru w zapaleniu uchyłków, a jakie jest BEZWZGLĘDNIE PRZECIWWSKAZANE w ostrej fazie?",
+    "a": "Badanie z wyboru: Tomografia komputerowa (TK) jamy brzusznej i miednicy z kontrastem i.v.\nBezwzględnie przeciwwskazana: KOLONOSKOPIA (ryzyko przedziurawienia i kałowego zapalenia otrzewnej!).",
     "caseId": 134,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jak leczy się ropień miedniczny o średnicy >4–5 cm w zapaleniu uchyłków (Hinchey II)?",
-    "a": "Przezskórnym drenażem pod kontrolą TK/USG w połączeniu z antybiotykoterapią dożylną.",
+    "q": "Jakie jest postępowanie w ropniu krezki esicy o średnicy >=4-5 cm (Hinchey Ib/II)?",
+    "a": "Przezskórny drenaż ropnia pod kontrolą TK lub USG (PCD) + antybiotykoterapia dożylna – pozwala uniknąć natychmiastowej operacji i stomii u >85% chorych.",
     "caseId": 134,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki zabieg wykonuje się w perforacji kałowej uchyłków (Hinchey IV)?",
-    "a": "Pilną operację sposobem Hartmanna (resekcja esicy z kolostomią końcową).",
+    "q": "Dlaczego po 6-8 tygodniach od ustąpienia powikłanego zapalenia uchyłków OBOWIĄZKOWE jest wykonanie kolonoskopii?",
+    "a": "W celu wykluczenia raka jelita grubego – w 2-5% przypadków obraz nacieku uchyłkowego w TK maskuje w rzeczywistości perforującego gruczolakoraka esicy.",
     "caseId": 134,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym objawia się przetoka pęcherzowo-okrężnicza w zapaleniu uchyłków?",
-    "a": "Pneumaturią (bąbelki gazu w moczu) i fekalurią z nawracającymi zakażeniami układu moczowego.",
+    "q": "Co to jest objaw przetoki esiczo-pęcherzowej (colovesical fistula)?",
+    "a": "Nawracające zakażenia dróg moczowych florą kałową, pneumaturia (obecność pęcherzyków gazu w moczu podczas mikcji) oraz fekaluria (stolec w moczu).",
     "caseId": 134,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka jest najczęstsza przyczyna masywnego, bezbolesnego krwawienia z dolnego odcinka (LGIB)?",
-    "a": "Krwawienie z uchyłków jelita grubego (pęknięcie vasa recta na kopule uchyłka) oraz angiodysplazje.",
+    "q": "Czy pacjent z uchyłkowatością jelita grubego musi unikać jedzenia pestek, orzechów i ziaren?",
+    "a": "NIE! To obalony mit medyczny. Badania EBM dowiodły, że spożywanie orzechów i pestek nie zwiększa ryzyka zapalenia. Zalecana jest dieta bogatobłonnikowa (>30 g/d).",
+    "caseId": 134,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co to jest hematochezia i kiedy może pochodzić z górnego odcinka przewodu pokarmowego (UGIB)?",
+    "a": "Hematochezia to oddawanie świeżej/ciemnoczerwonej krwi ze skrzepami z odbytu. W 10-15% przypadków masywnego wstrząsowego krwotoku źródło leży w UGIB (wrzód dwunastnicy z przyspieszonym pasażem). Wymaga wykluczenia sondą żołądkową lub gastroskopią!",
     "caseId": 135,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest pierwszy krok postępowania u pacjenta z krwawieniem z przewodu pokarmowego i hipotonią?",
-    "a": "Natychmiastowa resuscytacja hemodynamiczna (2 grube kaniule, krystaloidy, próba krzyżowa krwi).",
+    "q": "Jaka jest najczęstsza przyczyna ostrego, masywnego, bezbólowego krwawienia z dolnego odcinka (LGIB)?",
+    "a": "Krwawienie z uchyłków jelita grubego (diverticular bleeding ~30-50%). Wynika z pęknięcia tętniczki vasa recta na kopule uchyłka (często w prawej okrężnicy).",
     "caseId": 135,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Kiedy krew z odbytu (hematochezja) pochodzi z górnego odcinka (UGIB)?",
-    "a": "Przy masywnym krwotoku (wrzód) z szybkim pasażem, niestabilnością krążenia i stosunkiem BUN/kreatynina > 30.",
+    "q": "Jaki jest docelowy poziom hemoglobiny przy transfuzji krwi w krwawieniu z przewodu pokarmowego?",
+    "a": "Strategia restrykcyjna: cel Hb >7,0-8,0 g/dl u większości chorych; u pacjentów z chorobą wieńcową (przebyty zawał serca) cel Hb >8,0-8,5 g/dl (zapobieganie zawałowi typu 2).",
     "caseId": 135,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie badanie obrazowe lokalizuje aktywne krwawienie z uchyłka u niestabilnego chorego?",
-    "a": "Angio-TK jamy brzusznej (wykrywa krwawienie >0.3–0.5 mL/min).",
+    "q": "Jakie badanie obrazowe jest badaniem pierwszego rzutu u niestabilnego pacjenta z aktywnym krwawieniem z dolnego odcinka?",
+    "a": "Angio-TK jamy brzusznej i miednicy z fazą tętniczą (wykrywa wynaczynienie od 0,3 ml/min, nie wymaga przygotowania jelita, daje mapę naczyniową).",
     "caseId": 135,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka metoda zabiegowa jest leczeniem z wyboru przy krwawieniu uchyłkowym w Angio-TK?",
-    "a": "Selektywna mikroembolizacja angiograficzna (TAE) przez radiologa zabiegowego.",
+    "q": "Jaka procedura radiologii zabiegowej jest metodą z wyboru w aktywnym krwawieniu uchyłkowym?",
+    "a": "Superselektywna przezcewnikowa embolizacja naczyniowa (TAE) mikrosprężynkami (coils) – zamyka krwawiącą gałązkę vasa recta ze skutecznością >90%.",
     "caseId": 135,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co jest przyczyną większości ropni okołoodbytowych wg teorii Parksa?",
-    "a": "Zakażenie i zatkanie gruczołów odbytowych uchodzących do krypt Morgagniego na linii zębatej.",
+    "q": "Do czego służy skala Oakland w krwawieniach z dolnego odcinka przewodu pokarmowego?",
+    "a": "Do stratyfikacji ryzyka u chorych z LGIB – wynik <=8 punktów pozwala na bezpieczne wypisanie pacjenta ze szpitala do diagnostyki ambulatoryjnej.",
+    "caseId": 135,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Jaki jest najczęstszy punkt wyjścia i patomechanizm ropnia okołoodbytniczego?",
+    "a": "Teoria kryptogenna: zakażenie gruczołów odbytowych (Hermanna i Desfosses) uchodzących w kryptach Morgagniego na linii zębatej (grzebieniastej) w kanale odbytu (>90% przypadków).",
     "caseId": 136,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie jest leczenie z wyboru ropnia okołoodbytowego?",
-    "a": "Pilne chirurgiczne nacięcie i drenaż w znieczuleniu (antybiotykoterapia bez nacięcia to błąd!).",
+    "q": "Jakie jest podstawowe i bezwzględne postępowanie w ostrym ropniu odbytu?",
+    "a": "Pilne chirurgiczne nacięcie i szeroki drenaż na bloku operacyjnym, z pozostawieniem rany otwartej do ziarninowania (bezwzględny zakaz zszywania!). Sama antybiotykoterapia bez drenażu jest błędem.",
     "caseId": 136,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest zgorzel Fourniera?",
-    "a": "Piorunującym martwiczym zapaleniem powięzi krocza i moszny o wysokiej śmiertelności (wymaga pilnej nekrosektomii).",
+    "q": "Jak brzmi reguła Goodsalla w określaniu przebiegu przetoki odbytu?",
+    "a": "Ujścia zewnętrzne leżące Z TYŁU od poprzecznej linii odbytu biegną ŁUKOWATO do linii pośrodkowej tylnej (godz. 6). Ujścia leżące Z PRZODU biegną PROMIENIŚCIE (prosto) do najbliższej krypty.",
     "caseId": 136,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki odsetek ropni odbytu przekształca się w przewlekłą przetokę odbytu?",
-    "a": "Około 30–50% pacjentów.",
+    "q": "Jakie są 4 typy przetok odbytu w klasyfikacji Parksa?",
+    "a": "1. Międzyzwieraczowa (najczęstsza ~70%),\n2. Przezwieraczowa (~20%),\n3. Nadzwieraczowa (~5%),\n4. Pozazwieraczowa (~3%).",
     "caseId": 136,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego w przetokach wysokich przezzwieraczowych nie wykonuje się fistulotomii?",
-    "a": "Przecięcie zwieracza zewnętrznego grozi trwałym nietrzymaniem stolca i gazów (inkontynencją).",
+    "q": "Czym jest zgorzel Fourniera i jak należy postąpić?",
+    "a": "Martwicze zapalenie powięzi krocza i moszny o etiologii wielobakteryjnej z obecnością gazu (trzeszczenie) i sepsą. Wymaga natychmiastowej ratunkowej nekrektomii (wycięcia martwicy), płynoterapii i antybiotyków i.v. (meropenem + wankomycyna + klindamycyna).",
     "caseId": 136,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest objaw Kehra i o czym świadczy?",
-    "a": "Ból lewego barku wywołany podrażnieniem przeponowej otrzewnej przez krew podprzeponową (nerw przeponowy C3–C5); typowy dla pęknięcia śledziony.",
+    "q": "Dlaczego w wysokiej przetoce przezwieraczowej nie wolno wykonać prostej fistulotomii?",
+    "a": "Przecięcie >30-50% mięśnia zwieracza zewnętrznego prowadzi do jatrogennego i trwałego nietrzymania stolca (inkontynencji kałowej). Stosuje się techniki oszczędzające (LIFT, advancement flap, luźny seton).",
+    "caseId": 136,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co to jest objaw Kehra i jaki mechanizm odpowiada za jego powstawanie?",
+    "a": "Ból rzutowany do lewego barku wywołany podrażnieniem dolnej powierzchni lewej kopuły przepony przez krew ze śledziony; przewodzi go nerw przeponowy (C3-C5).",
     "caseId": 137,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie jest kryterium wyboru metody zachowawczej (NOM) w urazie śledziony?",
-    "a": "Stabilność hemodynamiczna pacjenta, brak objawów zapalenia otrzewnej i brak wskazań do laparotomii z powodu innych narządów.",
+    "q": "Jakie są 4 standardowe okna akustyczne w badaniu USG FAST?",
+    "a": "1. Przestrzeń Morisona (wątrobowo-nerkowa),\n2. Przestrzeń Kollera (śledzionowo-nerkowa),\n3. Zachyłek pęcherzowo-odbytniczy / Douglasa (miednica),\n4. Worek osierdziowy (okno podmostkowe).",
     "caseId": 137,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest zespół OPSI?",
-    "a": "Overwhelming Post-Splenectomy Infection – piorunująca, śmiertelna posocznica u osób bez śledziony wywołana głównie przez bakterie otoczkowe (S. pneumoniae, N. meningitidis, Hib).",
+    "q": "Kiedy pacjent z urazem śledziony kwalifikuje się do leczenia zachowawczego (NOM)?",
+    "a": "Gdy jest STABILNY hemodynamicznie (lub jest responderem na wstępną płynoterapię) oraz nie ma wskazań do operacji z powodu innych narządów (brak zapalenia otrzewnej).",
     "caseId": 137,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Kiedy podać szczepionki po PILNEJ splenektomii po urazie?",
-    "a": "Około 14. doby po operacji (wtedy odpowiedź immunologiczna na antygeny jest optymalna; podanie przed wypisem ze szpitala).",
+    "q": "Czym jest 'contrast blush' w TK śledziony i jak się go leczy u stabilnego chorego?",
+    "a": "Aktywne wynaczynienie środka cieniującego w fazie tętniczej świadczące o krwawieniu. U chorego stabilnego wskazana jest pilna embolizacja tętnicy śledzionowej (SAE).",
     "caseId": 137,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie zmiany płytkowe obserwuje się po splenektomii?",
-    "a": "Przemijająca lub utrwalona trombocytoza (często >500-1000 G/L), zwiększająca ryzyko powikłań zakrzepowo-zatorowych.",
+    "q": "Czym jest zespół OPSI i jakie patogeny są za niego odpowiedzialne?",
+    "a": "Piorunująca posocznica aspleniczna o śmiertelności 50-70%. Najczęstsze patogeny otoczkowe: Streptococcus pneumoniae (>50-70%), Neisseria meningitidis, Haemophilus influenzae typ b.",
     "caseId": 137,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Dlaczego kątnica pęka pierwsza w niedrożności okrężnicy?",
-    "a": "Zgodnie z prawem Laplace'a (T = P x r) kątnica mając największy promień podlega największemu napięciu ściany przy wzroście ciśnienia w pętli zamkniętej.",
+    "q": "Kiedy i jakie szczepienia należy podać po pilnej splenektomii pourazowej?",
+    "a": "Optymalnie w 14. dobie po operacji (po wygaszeniu immunosupresji pooperacyjnej) lub przed wypisem: przeciw pneumokokom (PCV20), meningokokom (MenACWY + MenB) oraz Hib.",
+    "caseId": 137,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Dlaczego w niedrożności lewej połowy okrężnicy kątnica pęka najszybciej (prawo Laplace'a)?",
+    "a": "Zgodnie z prawem Laplace'a napięcie ściany T = P × r. Kątnica ma największy promień (r), dlatego przy wzroście ciśnienia w zamkniętej pętli panuje w niej największe napięcie ściany, co przy średnicy >9-12 cm prowadzi do niedokrwienia i perforacji.",
     "caseId": 138,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka średnica kątnicy wskazuje na zagrożenie perforacją?",
-    "a": "Średnica >= 9–10 cm w RTG lub TK jamy brzusznej.",
+    "q": "Czym różni się klinika raka prawej połowy okrężnicy od lewej?",
+    "a": "Prawa połowa: szerokie światło, płynny stolec -> przewlekłe krwawienie, anemia mikrocytarna z niedoboru żelaza, chudnięcie.\nLewa połowa: wąskie światło, uformowany stolec -> objawy zwężenia, zmiana rytmu stolca, stolce ołówkowate, ostra mechaniczna niedrożność.",
     "caseId": 138,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co oznacza skrót SEMS w chirurgii kolorektalnej?",
-    "a": "Self-Expanding Metal Stent – samorozprężalny stent metalowy wprowadzany endoskopowo do zwężenia jako pomost do operacji (bridge-to-surgery) lub paliacja.",
+    "q": "Co to jest 'apple core sign' (objaw ogryzka jabłka) w TK?",
+    "a": "Krótkie, asymetryczne, okrężne zwężenie światła okrężnicy przez naciekający guz nowotworowy z nawisającymi brzegami zdrowej śluzówki powyżej i poniżej przeszkody.",
     "caseId": 138,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Na czym polega zastosowanie stentu SEMS jako 'bridge to surgery'?",
+    "a": "Endoskopowe rozprężenie stentu metalowego udrażniające jelito w ostrym stadium; pozwala na uniknięcie pilnej operacji i wyłonienia stomii oraz umożliwia planową resekcję po 1-2 tyg.",
+    "caseId": 138,
+    "cat": "Chirurgia ogólna"
   },
   {
     "q": "Na czym polega operacja Hartmanna?",
-    "a": "Resekcja chorych tkanek (np. esicy z guzem) + zamknięcie kikuta odbytnicy na głucho + wyłonienie jednolufowej kolostomii końcowej.",
+    "a": "Resekcja zmienionego odcinka jelita z guzem, ślepe zaszycie kikuta odbytnicy w miednicy mniejszej oraz wyłonienie pojedynczej końcowej kolostomii na lewym boku.",
     "caseId": 138,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Czym jest zespół Ogilviego?",
-    "a": "Ostra pseudoniedrożność okrężnicy bez przeszkody mechanicznej (zaburzenie unerwienia autonomicznego), leczona neostygminą lub odbarczeniem kolonoskopowym.",
+    "q": "Ile węzłów chłonnych należy zbadać w preparacie po resekcji raka okrężnicy?",
+    "a": "Minimum 12 regionalnych węzłów chłonnych, co jest warunkiem koniecznym do wiarygodnego ustalenia cechy pN0.",
     "caseId": 138,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest punkt Griffithsa?",
-    "a": "Zagięcie śledzionowe okrężnicy – strefa graniczna unaczynienia pomiędzy tętnicą krezkową górną a dolną, najbardziej podatna na niedokrwienie.",
+    "q": "Co to jest punkt Griffithsa i punkt Sudecka w okrężnicy?",
+    "a": "Punkty 'działu wodnego' (watershed areas) o skąpym unaczynieniu obocznym:\n- Punkt Griffithsa: zgięcie śledzionowe (styk SMA i IMA),\n- Punkt Sudecka: połączenie odbytniczo-esicze (styk IMA i tt. biodrowych wewn.).",
     "caseId": 139,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co to jest punkt Sudecka?",
-    "a": "Połączenie esiczo-odbytnicze – strefa graniczna pomiędzy tętnicą krezkową dolną a tętnicami biodrowymi wewnętrznymi.",
+    "q": "Jaka jest klasyczna triada objawów niedokrwiennego zapalenia okrężnicy (IC)?",
+    "a": "1. Nagły, kurczowy ból w lewym dole biodrowym,\n2. Naglące parcie na stolec,\n3. Krwisty stolec (hematochezia) występujący w ciągu kilku godzin po epizodzie hipotonii/odwodnienia.",
     "caseId": 139,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co oznacza objaw odcisku kciuka (thumbprinting)?",
-    "a": "Objaw radiologiczny w TK/wlewie odzwierciedlający podśluzówkowy obrzęk i wynaczynienia krwi w niedokrwieniu jelita.",
+    "q": "Czym różni się niedokrwienne zapalenie okrężnicy od ostrego zatoru SMA?",
+    "a": "IC dotyczy lewej okrężnicy: ból kurczowy w lewym boku, wczesna krew w stolcu, w 85% przebieg łagodny.\nZator SMA dotyczy jelita cienkiego: ból rozdzierający nieproporcjonalny do badania brzucha, brak wczesnej krwi, gwałtowna zgorzel i kwasica.",
     "caseId": 139,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jak różni się rokowanie ischaemic colitis od zatoru SMA?",
-    "a": "Ischaemic colitis u >80% ustępuje po leczeniu zachowawczym; zator SMA daje martwicę transmuralną jelita cienkiego i wymaga natychmiastowej operacji.",
+    "q": "Dlaczego odbytnica jest zaoszczędzona w niedokrwiennym zapaleniu okrężnicy?",
+    "a": "Ponieważ posiada podwójne, bogate unaczynienie tętnicze: z tętnicy krezkowej dolnej (t. odbytnicza górna) oraz z tętnic biodrowych wewnętrznych (tt. odbytnicze środkowe i dolne).",
     "caseId": 139,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jakie jest ryzyko nadmiernej insuflacji podczas kolonoskopii w ischaemic colitis?",
-    "a": "Wysokie ryzyko jatrogennej perforacji osłabionej ściany jelita oraz nasilenie niedokrwienia przez ucisk kapilar.",
+    "q": "Jakie badanie endoskopowe jest zalecane w podejrzeniu IC?",
+    "a": "Wczesna, delikatna sigmoidoskopia (do 48 h) z insuflacją CO2. Wykazuje obrzęk, bladość, wybroczyny i podłużne owrzodzenia. Pełna kolonoskopia jest przeciwwskazana z powodu ryzyka perforacji.",
     "caseId": 139,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka jest klasyczna triada pękniętego tętniaka aorty brzusznej?",
-    "a": "1. Ból brzucha lub lędźwiowy, 2. Hipotensja/wstrząs, 3. Pulsujący guz w jamie brzusznej.",
+    "q": "Jakie jest leczenie z wyboru w postaci niegorzelinowej (85% przypadków)?",
+    "a": "Leczenie zachowawcze: dożylne nawadnianie krystaloidami (MAP >65 mmHg), odstawienie leków hipotensyjnych/diuretyków, odpoczynek jelita (NPO) oraz antybiotyki szerokospektralne (ceftriakson + metronidazol).",
+    "caseId": 139,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Jakie objawy tworzą klasyczną triadę pękniętego tętniaka aorty brzusznej (rAAA)?",
+    "a": "1. Nagły silny ból brzucha / okolicy lędźwiowej,\n2. Hipotensja / wstrząs krwotoczny,\n3. Tętniący, bolesny guz w jamie brzusznej (pełna triada u 30-50% chorych).",
     "caseId": 140,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Z czym najczęściej mylony jest rAAA na ostrym dyżurze?",
-    "a": "Z kolką nerkową (promieniowanie do pachwiny z powodu krwiaka zaotrzewnowego u starszego palacza).",
+    "q": "Na czym polega hipotensja kontrolowana (permissive hypotension) w rAAA?",
+    "a": "Utrzymywanie SBP na poziomie 70-90 mmHg u przytomnego chorego. Zapobiega to 'wypłukaniu' skrzepu zaotrzewnowego (tzw. pop the clot) i nasileniu krwotoku.",
     "caseId": 140,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaka jest docelowa wartość SBP w hipotensji permisywnej w rAAA?",
-    "a": "Około 70–90 mmHg (wystarcza do zachowania przytomności, zapobiega wypłukaniu skrzepu).",
+    "q": "Jaka jest preferowana metoda zaopatrzenia rAAA wg wytycznych ESVS?",
+    "a": "rEVAR (wewnątrznaczyniowy stentgraft aortalny), jeśli warunki anatomiczne na to pozwalają i ośrodek ma odpowiednie zaplecze. W przeciwnym razie: natychmiastowa operacja otwarta.",
     "caseId": 140,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Jaki jest próg średnicy kwalifikujący do planowej operacji AAA?",
-    "a": ">= 5.5 cm u mężczyzn, >= 5.0 cm u kobiet (lub wzrost >1 cm/rok).",
+    "q": "Kiedy kwalifikujemy mężczyznę i kobietę do PLANOWEJ operacji bezobjawowego AAA?",
+    "a": "Mężczyźni: średnica >= 55 mm (5,5 cm).\nKobiety: średnica >= 50 mm (5,0 cm).\nNiezależnie od płci: szybki wzrost (>10 mm/rok lub >5 mm/6 mies.) oraz każdy tętniak objawowy.",
     "caseId": 140,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Co oznacza skrót EVAR?",
-    "a": "Endovascular Aneurysm Repair – wewnątrznaczyniowa naprawa tętniaka za pomocą stentgraftu naczyniowego.",
+    "q": "Czym jest zespół ciasnoty wewnątrzbrzusznej (ACS) po operacji rAAA?",
+    "a": "IAP > 20 mmHg mierzone w pęcherzu moczowym z nowo powstałą niewydolnością narządową (skąpomocz, kwasica, zaburzenia wentylacji). Wymaga pilnej laparotomii odbarczającej (laparostomii).",
     "caseId": 140,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia ogólna"
   },
   {
-    "q": "Wymień 6 objawów reguły 6xP w ostrym niedokrwieniu kończyny:",
-    "a": "Pain (ból), Pallor (bladość), Pulselessness (brak tętna), Paresthesia (parestezje), Paralysis (porażenie), Poikilothermia (ziębnięcie).",
+    "q": "Dla kogo zalecany jest jednorazowy screening USG w kierunku AAA?",
+    "a": "Wszyscy mężczyźni w wieku 65-74 lat, którzy kiedykolwiek palili tytoń (oraz krewni I stopnia chorych na tętniaka). Redukuje śmiertelność z powodu pęknięcia o ~50%.",
+    "caseId": 140,
+    "cat": "Chirurgia ogólna"
+  },
+  {
+    "q": "Co oznacza reguła 6P w ostrym niedokrwieniu kończyny (ALI)?",
+    "a": "1. Pain (ból),\n2. Pallor (bladość),\n3. Pulselessness (brak tętna),\n4. Paresthesia (drętwienie/ubytek czucia),\n5. Paralysis (porażenie/niedowład),\n6. Polar / Poikilothermia (chłód kończyny).",
     "caseId": 141,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Ile wynosi krytyczny czas niedokrwienia mięśni szkieletowych?",
-    "a": "Około 4–6 godzin (po tym czasie rozwija się martwica nieodwracalna).",
+    "q": "Co oznacza Kategoria IIb w klasyfikacji Rutherforda dla ALI?",
+    "a": "Kończyna natychmiastowo zagrożona: obecny ubytek czucia obejmujący stopę oraz niedowład ruchowy mięśni. Wskazanie do natychmiastowej rewaskularyzacji operacyjnej w ciągu kilku godzin!",
     "caseId": 141,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki zabieg jest standardem usunięcia zatoru tętniczego?",
-    "a": "Embolektomia cewnikiem balonowym Fogarty'ego (często w znieczuleniu miejscowym).",
+    "q": "Czym różni się Kategoria III Rutherforda i jak się ją leczy?",
+    "a": "Nieodwracalna martwica tkanek ze sztywnością mięśniową (rigor mortis). Próba rewaskularyzacji grozi śmiertelną hiperkaliemią i kwasicą; jedynym leczeniem jest pierwotna amputacja.",
     "caseId": 141,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Kiedy wykonuje się fasciotomię podudzia?",
-    "a": "W zespole ciasnoty przedziałów powięziowych po reperfuzji kończyny, gdy ciśnienie w lożach mięśniowych przekracza 30 mmHg.",
+    "q": "Jaki lek należy podać natychmiast po wysunięciu podejrzenia ALI?",
+    "a": "Heparynę niefrakcjonowaną w bolusie i.v. (UFH 5000 j.m. lub 70-80 j./kg i.v.), a następnie wlew ciągły (APTT 1,5-2,5x normy), aby zapobiec narastaniu skrzepliny.",
     "caseId": 141,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest najczęstszy punkt wyjścia zatorowości obwodowej?",
-    "a": "Serce (uszka lewego przedsionka w migotaniu przedsionków lub skrzeplina przyścienna po zawale serca) – odpowiada za >80% zatorów tętniczych.",
+    "q": "Co to jest zespół ciasnoty przedziałów (compartment syndrome) po reperfuzji?",
+    "a": "Wzrost ciśnienia śródtkankowego (>30 mmHg) w powięziach goleni wskutek obrzęku reperfuzyjnego. Objawia się twardością łydki i bólem przy biernym rozciąganiu; wymaga natychmiastowej 4-przedziałowej fasciotomii.",
     "caseId": 141,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co oznacza skrót CLTI?",
-    "a": "Chronic Limb-Threatening Ischemia – przewlekłe niedokrwienie zagrażające kończynie (bóle spoczynkowe, martwica/owrzodzenie, ABI <0.4).",
+    "q": "Jak chronić nerki przed mioglobinurią w zespole reperfuzyjnym?",
+    "a": "Intensywna płynoterapia zbilansowanymi krystaloidami oraz alkalizacja moczu wodorowęglanem sodu (NaHCO3 i.v.) do osiągnięcia pH moczu >6,5.",
+    "caseId": 141,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co to jest CLTI i jakie są jego składowe?",
+    "a": "Chronic Limb-Threatening Ischemia: przewlekłe (>2 tyg.) niedokrwienie kończyny objawiające się spoczynkowym bólem niedokrwiennym (Fontaine III) lub owrzodzeniem/martwicą tkanek (Fontaine IV).",
     "caseId": 142,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Wymień stopnie klasyfikacji Fontaine'a:",
-    "a": "I: bezobjawowe, IIa: chromanie >200m, IIb: chromanie <200m, III: ból spoczynkowy, IV: martwica lub owrzodzenie.",
+    "q": "Dlaczego w CLTI u chorego na cukrzycę wskaźnik ABI może wynosić >1,40?",
+    "a": "Wskutek stwardnienia i zwapnienia błony środkowej tętnic piszczelowych (mediaskleroza Mönckeberga), która uniemożliwia ściśnięcie tętnicy. Należy wtedy zbadać TBI (<0,7) lub tcPO2 (<30 mmHg).",
     "caseId": 142,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co oznacza ABI < 0.40 a co ABI > 1.40?",
-    "a": "<0.40: krytyczne niedokrwienie kończyny; >1.40: nieściśliwe, zwapniałe tętnice (np. cukrzyca, niewydolność nerek).",
+    "q": "Co wchodzi w skład akronimu klasyfikacji WIfI?",
+    "a": "W = Wound (rana/martwica, 0-3),\nI = Ischemia (niedokrwienie na podst. TBI/ABI, 0-3),\nfI = foot Infection (zakażenie stopy, 0-3).\nOcenia roczne ryzyko amputacji.",
     "caseId": 142,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Dlaczego pacjenci z CLTI opuszczają nogę z łóżka?",
-    "a": "Grawitacja zwiększa ciśnienie hydrostatyczne i nieznacznie poprawia perfuzję włośniczkową w stopie, łagodząc ból spoczynkowy.",
+    "q": "Jaki jest materiał z wyboru do chirurgicznego bypassu poniżej kolana?",
+    "a": "Własna, autologiczna żyła odpiszczelowa (GSV) – cechuje się najwyższą odległą drożnością (znacznie lepszą niż sztuczne protezy PTFE/Dacron).",
     "caseId": 142,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaka jest najważniejsza zasada leczenia owrzodzenia w CLTI?",
-    "a": "Pilna rewaskularyzacja (PTA/by-pass) przed chirurgicznym opracowaniem rany (zasada: najpierw krew, potem nóż).",
+    "q": "Jak postępować z suchą, czarną martwicą na paluchu przed rewaskularyzacją?",
+    "a": "Utrzymywać w suchości (antyseptyki, suchy jałowy opatrunek) i NIE debridować! Opracowanie chirurgiczne lub amputację palucha wykonuje się dopiero PO udrożnieniu naczyń.",
     "caseId": 142,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co to jest amaurosis fugax?",
-    "a": "Przemijająca, bezbolesna ślepota jednooczna spowodowana mikrozatorem w tętnicy środkowej siatkówki, najczęściej z tożstronnej tętnicy szyjnej wewnętrznej.",
+    "q": "Jaka jest optymalna farmakoterapia naczyniowa w CLTI (badanie COMPASS)?",
+    "a": "Wysoka dawka statyny (atorwastatyna 80 mg) + ASA 100 mg raz/d + rywaroksaban 2,5 mg 2x/d (lub klopidogrel 75 mg) + kontrola RR (ACEI) i cukrzycy (SGLT2/GLP-1).",
+    "caseId": 142,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co to jest Amaurosis fugax i jaki jest jej mechanizm?",
+    "a": "Przemijająca, bezbolesna ślepota jednooczna ('zasłona zaciągana od góry') trwająca kilka minut. Wynika z mikrozatorowości tętnicy środkowej siatkówki (ciałka Hollenhorsta) z tożstronnej tętnicy szyjnej wewnętrznej (ICA).",
     "caseId": 143,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest optymalny czas wykonania CEA po TIA/udarze?",
-    "a": "W ciągu pierwszych 14 dni od wystąpienia objawów neurologicznych (tzw. hot carotid).",
+    "q": "Co oznacza wynik 5-6 punktów w skali ABCD2 po TIA?",
+    "a": "Bardzo wysokie ryzyko udaru mózgu (sięgające 10-18% w ciągu pierwszych 2-7 dni!). Wskazanie do natychmiastowej hospitalizacji i diagnostyki naczyniowej.",
     "caseId": 143,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jakie jest kryterium stopnia zwężenia kwalifikujące objawowego pacjenta do CEA?",
-    "a": "Zwężenie 70–99% (wg kryteriów NASCET) daje najwyższą korzyść; przy zwężeniu 50–69% korzyść jest umiarkowana (zwłaszcza u mężczyzn).",
+    "q": "Jak oblicza się stopień zwężenia tętnicy szyjnej wg kryteriów NASCET?",
+    "a": "Stosunek średnicy najwęższego miejsca do średnicy prawidłowego naczynia dystalnego ICA (za poszerzeniem opuszkowym): % = [1 - (D_min / D_dist)] × 100%.",
     "caseId": 143,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Czym grozi uszkodzenie nerwu podjęzykowego w trakcie CEA?",
-    "a": "Zbaczaniem języka na stronę operowaną i trudnościami w artykulacji/połykaniu.",
+    "q": "Jaki jest optymalny czas wykonania operacji (CEA) w objawowym zwężeniu ICA 70-99%?",
+    "a": "Pilnie w ciągu 14 dni od epizodu neurologicznego (a optymalnie w ciągu pierwszych 48 h do 7 dni). Opóźnienie drastycznie zmniejsza korzyść protekcyjną zabiegu.",
     "caseId": 143,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co to jest zespół hiperperfuzji mózgowej (CHS)?",
-    "a": "Gwałtowny wzrost przepływu w naczyniach mózgowych po udrożnieniu ICA, grożący obrzękiem i krwotokiem mózgowym z powodu upośledzonej autoregulacji.",
+    "q": "CEA vs CAS – która metoda jest złotym standardem?",
+    "a": "CEA (endarterektomia chirurgiczna z łatą) jest złotym standardem (mniejsze ryzyko udaru okołooperacyjnego, zwłaszcza u osób >70 l.). CAS stosuje się przy 'wrogiej szyi', po radioterapii i wysokim zwężeniu.",
     "caseId": 143,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co wchodzi w skład triady Virchowa?",
-    "a": "1. Staza żylna (zwolnienie przepływu), 2. Uszkodzenie śródbłonka naczyniowego, 3. Nadkrzepliwość krwi (hiperkoagulacja).",
+    "q": "Czym jest zespół hiperperfuzji mózgowej (CHS) po operacji tętnicy szyjnej?",
+    "a": "Obrzęk mózgu, silny ból głowy, drgawki i ryzyko krwotoku śródmózgowego wskutek utraty autoregulacji i nagłego napływu krwi. Wymaga natychmiastowego obniżenia ciśnienia (SBP <140 mmHg, urapidyl/labetalol).",
+    "caseId": 143,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Jakie są 3 elementy Triady Virchowa predysponujące do DVT?",
+    "a": "1. Zastój żylny (Stasis – np. lot >8 h, unieruchomienie),\n2. Nadkrzepliwość krwi (Hypercoagulability – np. HTZ, trombofilia, nowotwór),\n3. Uszkodzenie ściany naczynia (Endothelial injury).",
     "caseId": 144,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest główny objaw zakrzepicy w ultrasonograficznym teście CUS?",
-    "a": "Brak podatności żyły na ucisk głowicą (żyła ze skrzepliną nie zapada się całkowicie pod uciskiem).",
+    "q": "Co jest złotym standardem obrazowania w diagnostyce DVT?",
+    "a": "Ultrasonograficzny test uciskowy (CUS – Compression Ultrasound). Brak pełnej zapadalności światła żyły pod naciskiem głowicy potwierdza obecność skrzepliny.",
     "caseId": 144,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Kiedy ujemny wynik D-dimerów pozwala wykluczyć DVT?",
-    "a": "Tylko w przypadku niskiego lub pośredniego prawdopodobieństwa klinicznego (np. Wells <2); przy wysokim ryzyku należy wykonać CUS.",
+    "q": "Jaka asymetria obwodów podudzi jest klinicznie istotna w skali Wellsa?",
+    "a": "Różnica obwodu >= 3 cm mierzona w tym samym punkcie (10 cm poniżej guzowatości piszczeli) na obu kończynach.",
     "caseId": 144,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jak długo leczy się DVT sprowokowane przemijającym czynnikiem ryzyka?",
-    "a": "Przez 3 miesiące (NOAC jako leki pierwszego wyboru).",
+    "q": "Jaki jest schemat dawkowania apiksabanu w ostrej DVT?",
+    "a": "10 mg p.o. 2 razy na dobę przez pierwsze 7 dni, a od 8. doby dawka podtrzymująca 5 mg p.o. 2 razy na dobę (monoterapia doustna od 1. dnia bez konieczności heparyny).",
     "caseId": 144,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co to jest phlegmasia cerulea dolens?",
-    "a": "Bolesny obrzęk siniczy – masywna zakrzepica blokująca cały odpływ żylny, grożąca wtórnym niedokrwieniem tętniczym, zgorzelą i amputacją.",
+    "q": "Ile trwa leczenie przeciwkrzepliwe w DVT sprowokowanej przemijającym czynnikiem?",
+    "a": "Dokładnie 3 miesiące (np. po locie >8 h, operacji, urazie). W zakrzepicy niesprowokowanej: minimum 3-6 miesięcy lub bezterminowo.",
     "caseId": 144,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jak objawia się zakrzepowe zapalenie żył powierzchownych (SVT)?",
-    "a": "Bolesny, twardy powrózek w rzucie żyły z pasmowatym rumieniem skóry i uciepleniem.",
+    "q": "Czy pacjent z DVT po włączeniu DOAC powinien leżeć w łóżku?",
+    "a": "Nie! Zaleca się wczesne uruchomienie i chodzenie w kompresjoterapii (pończochy II klasy ucisku 23-32 mmHg). Zmniejsza to obrzęk i zapobiega zespołowi pozakrzepowemu (PTS).",
+    "caseId": 144,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co to jest SVT i jakie jest jego najczęstsze podłoże?",
+    "a": "Zakrzepowe zapalenie żył powierzchownych. W >70-80% dotyczy żylakowato zmienionej żyły odpiszczelowej (GSV). Objawia się bolesnym, stwardniałym powrózkiem naczyniowym z rumieniem skóry.",
     "caseId": 145,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Dlaczego USG jest konieczne w każdym przypadku SVT?",
-    "a": "U ~25% współistnieje nierozpoznane DVT, a skrzeplina w USG sięga 5–10 cm wyżej niż widoczny rumień.",
+    "q": "Dlaczego USG Duplex Doppler jest obowiązkowe u każdego chorego z SVT?",
+    "a": "U 20-25% chorych z klinicznym SVT współistnieje niema zakrzepica żył głębokich (DVT), a czoło skrzepliny w USG sięga średnio o 5-10 cm wyżej niż widoczny rumień skóry.",
     "caseId": 145,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jakie postępowanie obowiązuje przy SVT <3 cm od ujścia SFJ?",
-    "a": "Pełna dawka terapeutyczna antykoagulacji (jak w DVT) przez min. 3 miesiące lub podwiązanie ujścia (krosektomia).",
+    "q": "Jak brzmi 'Zasada 3 cm' od ujścia SFJ/SPJ w SVT?",
+    "a": "Jeśli skrzeplina sięga na odległość <3 cm od ujścia do układu głębokiego (SFJ/SPJ), stan ten leczy się jak proksymalną DVT – pełną terapeutyczną dawką antykoagulacji przez min. 3 miesiące.",
     "caseId": 145,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest udowodniony standard leczenia izolowanego SVT >=5 cm i >3 cm od ujścia?",
-    "a": "Fondaparynuks 2.5 mg s.c./dobę przez 45 dni (badanie CALISTO) lub rywaroksaban 10 mg/d.",
+    "q": "Jak leczy się izolowane SVT o dł. >=5 cm i odległości >3 cm od ujścia (badanie CALISTO)?",
+    "a": "Fondaparynuks w dawce 2,5 mg s.c. raz/dobę przez 45 dni (standard z wyboru, klasa I A) LUB doustny rywaroksaban 10 mg p.o. raz/dobę przez 45 dni (badanie SURPRISE).",
     "caseId": 145,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "O czym świadczy objaw Trousseau (thrombophlebitis migrans)?",
-    "a": "Wskazuje na podejrzenie utajonego nowotworu złośliwego (najczęściej raka trzustki, żołądka lub płuca).",
+    "q": "Czy w niepowikłanym SVT stosuje się antybiotyki?",
+    "a": "Nie! SVT to jałowy proces zakrzepowo-zapalny naczynia, a nie infekcja bakteryjna. Antybiotyki są nieskuteczne i niewskazane (wyjątek: ropne zapalenie powikłane wenflonem).",
     "caseId": 145,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co to jest PAES?",
-    "a": "Popliteal Artery Entrapment Syndrome – zespół usidlenia tętnicy podkolanowej przez nieprawidłowy przyczep głowy przyśrodkowej mięśnia brzuchatego łydki.",
+    "q": "Czym jest objaw Trousseau (Thrombophlebitis migrans)?",
+    "a": "Wędrujące zakrzepowe zapalenie żył powierzchownych w nietypowych miejscach bez żylaków. Jest zespołem paraneoplastycznym zwiastującym raka trzustki, żołądka lub płuca.",
+    "caseId": 145,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co to jest PAES (zespół usidlenia tętnicy podkolanowej)?",
+    "a": "Wrodzona anomalia anatomiczna polegająca na ucisku tętnicy podkolanowej przez głowę przyśrodkową m. brzuchatego łydki. Występuje u młodych sportowców bez miażdżycy z chromaniem łydki.",
     "caseId": 146,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest klasyczny pacjent z PAES?",
-    "a": "Młody sportowiec (<30 r.ż.), bez czynników ryzyka miażdżycy, zgłaszający chromanie łydki podczas biegu.",
+    "q": "Jaki test prowokacyjny wykonuje się w podejrzeniu PAES?",
+    "a": "Badanie tętna na stopie podczas czynnego zgięcia podeszwowego z oporem lub biernego zgięcia grzbietowego przy wyprostowanym kolanie – dochodzi do całkowitego zaniku tętna i przepływu!",
     "caseId": 146,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki manewr powoduje zanik tętna na stopie w PAES?",
-    "a": "Czynne zgięcie podeszwowe stopy z oporem lub bierny maksymalny wyprost/zgięcie grzbietowe kolana i stopy.",
+    "q": "Jakie jest badanie obrazowe z wyboru w diagnostyce PAES?",
+    "a": "Angio-MRI dołu podkolanowego z próbami czynnościowymi. Obrazuje nie tylko światło naczynia, ale przede wszystkim tkanki miękkie i ektopowe ścięgna uciskające tętnicę.",
     "caseId": 146,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Dlaczego nie należy zakładać stentu naczyniowego w PAES?",
-    "a": "Stent w miejscu ucisku mięśniowego uległby deformacji, złamaniu i natychmiastowej zakrzepicy.",
+    "q": "Dlaczego stentowanie wewnątrznaczyniowe jest zakazane w PAES?",
+    "a": "Ponieważ nie usuwa przyczyny ucisku mięśniowego. Kurczący się mięsień zgniata i łamie stent (stent fracture), co prowadzi do natychmiastowej zakrzepicy tętnicy podkolanowej.",
     "caseId": 146,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jakie jest postępowanie operacyjne z wyboru w PAES?",
-    "a": "Chirurgiczne uwolnienie naczynia i mieotomia anomalnego pasma mięśnia brzuchatego (z ew. rekonstrukcją żylną przy uszkodzeniu ściany).",
+    "q": "Jakie jest leczenie chirurgiczne z wyboru w PAES?",
+    "a": "Odbarczenie operacyjne – miotomia (przecięcie) ektopowego przyczepu głowy przyśrodkowej m. brzuchatego łydki. W razie tętniaka: resekcja ze wstawką z żyły odpiszczelowej (GSV).",
     "caseId": 146,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Gdzie znajduje się zwężenie w zespole podkradania tętnicy podobojczykowej?",
-    "a": "W pniu tętnicy podobojczykowej proksymalnie (przed) do odejścia tożstronnej tętnicy kręgowej.",
+    "q": "Jakie powikłania grożą przy nieleczonym PAES?",
+    "a": "Przewlekły mikrouraz naczynia prowadzi do tętniaka pozawężeniowego, zakrzepicy przyściennej i ostrego niedokrwienia stopy z zatorowości obwodowej (ryzyko amputacji!).",
+    "caseId": 146,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co to jest zespół podkradania tętnicy podobojczykowej (SSS)?",
+    "a": "Zwężenie t. podobojczykowej przed odejściem t. kręgowej. Praca kończyny górnej obniża opór i odwraca przepływ w t. kręgowej (krew odpływa z mózgu do ręki!), wywołując niedokrwienie pnia mózgu.",
     "caseId": 147,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaki jest kierunek przepływu w tętnicy kręgowej w pełnym zespole SSS?",
-    "a": "Odwrócony (wsteczny, odgłowowy) – krew płynie z mózgu w dół szyi do naczynia ramiennego.",
+    "q": "Jaki jest patognomoniczny objaw w badaniu fizykalnym w SSS?",
+    "a": "Asymetria skurczowego ciśnienia tętniczego (SBP) między ramionami > 20-30 mmHg (ciśnienie po stronie zwężenia jest istotnie niższe) oraz osłabienie tętna na t. promieniowej.",
     "caseId": 147,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaka asymetria ciśnienia na ramionach sugeruje zwężenie tętnicy podobojczykowej?",
-    "a": "Różnica skurczowego ciśnienia tętniczego > 15–20 mmHg (z niższym ciśnieniem po stronie chorej).",
+    "q": "Czym różni się 'zjawisko' od 'zespołu' podkradania?",
+    "a": "Zjawisko (Phenomenon): bezobjawowy wsteczny przepływ w t. kręgowej w USG (nie wymaga operacji).\nZespół (Syndrome): odwrócenie przepływu z objawami neurologicznymi (vertigo, diplopia) lub niedokrwieniem ręki.",
     "caseId": 147,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Kiedy nasilają się objawy mózgowe w SSS?",
-    "a": "Podczas intensywnej pracy fizycznej kończyną górną po stronie zwężenia (spadek oporu naczyniowego 'zasysa' krew z mózgu).",
+    "q": "Co to jest zespół podkradania wieńcowo-podobojczykowego (CSSS)?",
+    "a": "U chorych po CABG z użyciem LIMA: zwężenie t. podobojczykowej odwraca przepływ w LIMA podczas pracy lewą ręką, podkradając krew z serca (LAD) i wywołując dusznicę lub zawał serca!",
     "caseId": 147,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Jaka jest metoda leczenia inwazyjnego pierwszego wyboru w SSS?",
-    "a": "Przezskórna angioplastyka balonowa ze stentem (PTA + stent) tętnicy podobojczykowej.",
+    "q": "Jakie jest leczenie zabiegowe z wyboru w objawowym SSS?",
+    "a": "Przezskórna angioplastyka wewnątrznaczyniowa z implantacją stentu (PTA/stent t. podobojczykowej) – skuteczność >95%. W razie niepowodzenia: bypass szyjno-podobojczykowy.",
     "caseId": 147,
-    "cat": "Chirurgia"
+    "cat": "Chirurgia naczyniowa"
   },
   {
-    "q": "Co wchodzi w skład pourazowej Zabójczej Triady (Lethal Triad)?",
-    "a": "1. Hipotermia (<35°C), 2. Kwasica metaboliczna, 3. Koagulopatia pourazowa (TIC).",
+    "q": "Na którym ramieniu należy kontrolować ciśnienie u chorego z lewostronnym SSS?",
+    "a": "Na ramieniu PRAWYM (zdrowym), ponieważ na ramieniu lewym ciśnienie jest fałszywie zaniżone przez zwężenie naczynia.",
+    "caseId": 147,
+    "cat": "Chirurgia naczyniowa"
+  },
+  {
+    "q": "Co oznacza schemat cABCDE w protokole ATLS?",
+    "a": "c – catastrophic bleeding (krwotok zewnętrzny),\nA – airway & C-spine (drogi oddechowe i szyja),\nB – breathing (wentylacja),\nC – circulation (wstrząs, hemostaza),\nD – disability (GCS, źrenice),\nE – exposure/hypothermia.",
     "caseId": 148,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Jaki jest stosunek składników krwi w Protokole Masywnej Transfuzji (MTP)?",
-    "a": "1:1:1 (1 jedn. KKCz : 1 jedn. FFP : 1 dawka KKP).",
+    "q": "Jakie zaburzenia tworzą tzw. śmiertelną triadę urazową (Lethal Triad)?",
+    "a": "1. Hipotermia (<35°C),\n2. Kwasica metaboliczna (pH <7,20, wysokie mleczany),\n3. Koagulopatia urazowa (Trauma-Induced Coagulopathy).",
     "caseId": 148,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "W jakim czasie od urazu należy podać kwas traneksamowy (TXA)?",
-    "a": "W ciągu pierwszych 3 godzin od urazu (dawka: 1 g i.v. w bolusie w 10 min + 1 g we wlewie przez 8 h).",
+    "q": "Gdzie i jak należy założyć pas miedniczny (Pelvic Binder)?",
+    "a": "Na wysokości KRĘTARZY WIĘKSZYCH kości udowych (trochanters) i spojenia łonowego (nie na talerze biodrowe!). Stabilność miednicy bada się manualnie tylko RAZ!",
     "caseId": 148,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Gdzie należy założyć pas miedniczy w złamaniu miednicy?",
-    "a": "Na wysokości krętarzy większych kości udowych (a NIE na grzebieniach biodrowych!).",
+    "q": "Jaki jest schemat podania kwasu traneksamowego (TXA) wg badania CRASH-2?",
+    "a": "1 g i.v. w ciągu 10 min w ciągu pierwszych 3 godzin od urazu, a następnie 1 g we wlewie przez 8 godzin. Podanie >3 h po urazie zwiększa śmiertelność!",
     "caseId": 148,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
     "q": "Na czym polega Damage Control Surgery (DCS)?",
-    "a": "Skrócona operacja ratunkowa (<60 min) ograniczona do zaopatrzenia krwotoku (packing) i skażeń + laparostomia -> transfer na OIT -> definitywna operacja po 24–48 h.",
+    "a": "Krótka operacja ratunkowa: opanowanie krwotoku (packing) i zatrzymanie skażenia treścią jelitową (bez zespoleń) + laparostomia VAC. Definitywna rekonstrukcja dopiero po 24-48 h na OIT.",
     "caseId": 148,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Jak definiuje się wiotką klatkę piersiową (flail chest)?",
-    "a": "Złamanie >=3 sąsiednich żeber w >=2 miejscach każde, powodujące odizolowanie fragmentu ściany poruszającego się paradoksalnie.",
+    "q": "W jakich proporcjach przetacza się krew w protokole MTP?",
+    "a": "W zrównoważonym stosunku 1:1:1 (1 j. KKCz : 1 j. FFP : 1 j. KKP) z podgrzewacza płynów + suplementacja chlorku wapnia (CaCl2) i fibrynogenu.",
+    "caseId": 148,
+    "cat": "Medycyna ratunkowa"
+  },
+  {
+    "q": "Jak definiuje się wiotką klatkę piersiową (Flail Chest)?",
+    "a": "Złamanie co najmniej 3 sąsiednich żeber w co najmniej 2 miejscach (lub obustronne złamanie żeber ze złamaniem mostka), co powoduje powstanie wolnego, ruchomego segmentu ściany klatki poruszającego się paradoksalnie (zapadanie we wdechu, wypychanie w wydechu).",
     "caseId": 149,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Jak porusza się wiotki segment klatki piersiowej podczas oddychania?",
-    "a": "Paradoksalnie: zapada się do wnętrza podczas wdechu (ujemne ciśnienie w klatce) i uwypukla na zewnątrz podczas wydechu.",
+    "q": "Co stanowi główną przyczynę ciężkiej hipoksemii w przebiegu wiotkiej klatki piersiowej?",
+    "a": "Towarzyszące stłuczenie płuca (pulmonary contusion) pod wyłamanym segmentem. Krwawienie śródpęcherzykowe, obrzęk i niedodma tworzą duży przeciek płucny prawo-lewo (shunt), upośledzając utlenowanie krwi.",
     "caseId": 149,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Co jest główną przyczyną hipoksemii w flail chest?",
-    "a": "Stłuczenie leżącego pod spodem miąższu płuca (contusio pulmonis) powodujące przeciek płucny i upośledzenie dyfuzji.",
+    "q": "Jaka metoda leczenia bólu jest złotym standardem w mnogich złamaniach żeber i dlaczego?",
+    "a": "Analgezja regionalna: ciągłe znieczulenie zewnątrzoponowe piersiowe (TEA) lub blokada przykręgowa (PVB) / ESPB. Zapewnia doskonałą kontrolę bólu bez depresji oddechowej i nadmiernej sedacji związanej z opioidami.",
     "caseId": 149,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Dlaczego ciasne bandażowanie klatki piersiowej w flail chest jest błędem?",
-    "a": "Ogranicza ruchomość klatki, uniemożliwia głęboki oddech, nasila niedodmę i retencję wydzieliny, przyspieszając zgon z niewydolności oddechowej.",
+    "q": "Na czym polega zasada 'wewnętrznej pneumatycznej stabilizacji' w flail chest?",
+    "a": "Na zastosowaniu wentylacji z dodatnim ciśnieniem (CPAP / NIV z PEEP 5-10 cmH2O). Ciśnienie rozpręża płuco i od wewnątrz stabilizuje wyłamany segment ściany klatki, zapobiegając jego zapadaniu i niedodmie.",
     "caseId": 149,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Co oznacza skrót SSRF w chirurgii klatki piersiowej?",
-    "a": "Surgical Stabilization of Rib Fractures – operacyjna osteosynteza złamanych żeber za pomocą płytek tytanowych.",
+    "q": "Dlaczego w stłuczeniu płuc obowiązuje restrykcyjna płynoterapia krystaloidami?",
+    "a": "Uszkodzone kapilary w stłuczonym miąższu płucnym mają patologicznie zwiększoną przepuszczalność. Nadmierna podaż płynów gwałtownie nasila obrzęk pęcherzykowy i przyspiesza rozwój pourazowego zespołu ARDS.",
     "caseId": 149,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Jakie objętości drenażu w urazowym krwiaku opłucnej kwalifikują do torakotomii ratunkowej?",
-    "a": "1. Ewakuacja >1500 ml krwi bezpośrednio po zaoczkowaniu drenu LUB 2. Krwawienie >200–250 ml/h przez kolejne 2–4 godziny.",
-    "caseId": 150,
-    "cat": "Chirurgia"
+    "q": "Dlaczego ciasne bandażowanie lub oklejanie plastrami wiotkiej klatki piersiowej jest błędem sztuki?",
+    "a": "Ogranicza ruchomość klatki piersiowej, pogłębia hipowentylację, drastycznie nasila niedodmę, upośledza odkrztuszanie wydzieliny i prowadzi do śmiertelnego bakteryjnego zapalenia płuc.",
+    "caseId": 149,
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Jak odróżnić krwiaka opłucnej od odmy prężnej w badaniu fizykalnym?",
-    "a": "Krwiak: stłumiony wypuk + zapadnięte żyły szyjne (hipowolemia). Odma prężna: wypuk bębenkowy + poszerzone żyły szyjne.",
+    "q": "Jak definiuje się masywny krwiak opłucnej (Massive Haemothorax) wg ATLS?",
+    "a": "Nagromadzenie w jamie opłucnowej ponad 1500 ml krwi (lub >1/3 objętości krwi krążącej pacjenta), powodujące jednoczesny wstrząs hipowolemiczny oraz ucisk miąższu płucnego i śródpiersia.",
     "caseId": 150,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Gdzie i jak wprowadza się dren opłucnowy w krwiaku?",
-    "a": "W V przestrzeni międzyżebrowej w linii pachowej środkowej/przedniej (trójkąt bezpieczeństwa), tuż NAD górnym brzegiem żebra.",
+    "q": "Jak odróżnić masywny krwiak opłucnej od odmy prężnej w badaniu fizykalnym?",
+    "a": "Wypuk: w krwiaku jest wybitnie stłumiony, a w odmie bębenkowy. Żyły szyjne: w krwiaku są zapadnięte (hipowolemia), a w odmie prężnej mocno poszerzone (zastój żylny).",
     "caseId": 150,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Dlaczego dren wprowadza się nad górnym brzegiem żebra?",
-    "a": "Aby uniknąć uszkodzenia tętnicy, żyły i nerwu międzyżebrowego, które biegną w bruździe pod DOLNYM brzegiem żebra.",
+    "q": "Jakie są drenażowe wskazania do pilnej torakotomii ratunkowej w krwiaku opłucnej?",
+    "a": "1. Natychmiastowe utoczenie z drenu >1500 ml krwi.<br>2. Utrzymujące się krwawienie >200-250 ml/h przez 2-4 kolejne godziny.<br>3. Utrzymująca się niestabilność hemodynamiczna mimo resuscytacji krwią.",
     "caseId": 150,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
   },
   {
-    "q": "Czym grozi pozostawienie niewyprowadzonego krwiaka w jamie opłucnej?",
-    "a": "Ropniakiem opłucnej (empyema) oraz zwłóknieniem i pancerzem opłucnowym (fibrothorax) więżącym płuco.",
+    "q": "Które naczynia krwionośne odpowiadają za krwawienie opłucnowe wymagające operacji?",
+    "a": "Naczynia krążenia układowego wysokociśnieniowego: tętnice międzyżebrowe (a. intercostalis) oraz tętnica piersiowa wewnętrzna (a. thoracica interna). Krwawienia z miąższu płucnego (niskociśnieniowe) zazwyczaj ustępują samoistnie.",
     "caseId": 150,
-    "cat": "Chirurgia"
+    "cat": "Medycyna ratunkowa"
+  },
+  {
+    "q": "Dlaczego krew z jamy opłucnej nadaje się do natychmiastowej autotransfuzji (Cell Saver)?",
+    "a": "Ruchy serca i płuc powodują jej naturalną defibrynację (nie krzepnie w drenie). Jest natychmiast dostępna, ma temperaturę 37°C, jest w 100% zgodna grupowo i nie niesie ryzyka zakażeń wirusowych.",
+    "caseId": 150,
+    "cat": "Medycyna ratunkowa"
+  },
+  {
+    "q": "Jakie są odległe powikłania niedostatecznie ewakuowanego krwiaka opłucnej (retained hemothorax)?",
+    "a": "1. Zakażenie krwiaka i ropniak opłucnej (empyema pleurae).<br>2. Organizacja skrzepu i zwłóknienie opłucnej (fibrothorax) tworzące tzw. uwięzione płuco (trapped lung), wymagające dekortykacji.",
+    "caseId": 150,
+    "cat": "Medycyna ratunkowa"
   }
 ]

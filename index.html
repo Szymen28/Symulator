@@ -1757,15 +1757,26 @@ function normalizeCase(c) {
       const title = s.title || `Krok ${idx + 1}`;
       const desc = s.desc || s.scenario || s.text || '';
       const scenario = s.scenario || s.desc || s.text || '';
-      const options = (s.options || []).map(opt => {
-        const isCorrect = typeof opt.correct === 'boolean'
-          ? opt.correct
-          : (typeof opt.feedback === 'string' ? (opt.feedback.startsWith('✅') || opt.feedback.includes('PRAWIDŁOWO') || opt.feedback.includes('POPRAWN')) : false);
-        return {
-          text: opt.text || opt.label || '',
-          correct: isCorrect,
-          feedback: opt.feedback || opt.expl || opt.explanation || (isCorrect ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.')
-        };
+      const options = (s.options || []).map((opt, oIdx) => {
+        let text = '';
+        let isCorrect = false;
+        let feedback = '';
+        if (typeof opt === 'string') {
+          text = opt;
+          if (typeof s.correct === 'number') isCorrect = (s.correct === oIdx);
+          else if (typeof s.correctIdx === 'number') isCorrect = (s.correctIdx === oIdx);
+          else if (Array.isArray(s.feedback) && s.feedback[oIdx]) {
+            isCorrect = s.feedback[oIdx].startsWith('✅') || s.feedback[oIdx].includes('PRAWIDŁOWO') || s.feedback[oIdx].includes('POPRAWN');
+          }
+          feedback = (Array.isArray(s.feedback) && s.feedback[oIdx]) ? s.feedback[oIdx] : (isCorrect ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.');
+        } else if (typeof opt === 'object' && opt !== null) {
+          text = opt.text || opt.label || '';
+          isCorrect = typeof opt.correct === 'boolean'
+            ? opt.correct
+            : (typeof opt.feedback === 'string' ? (opt.feedback.startsWith('✅') || opt.feedback.includes('PRAWIDŁOWO') || opt.feedback.includes('POPRAWN')) : false);
+          feedback = opt.feedback || opt.expl || opt.explanation || (isCorrect ? 'Poprawna odpowiedź!' : 'Niepoprawna odpowiedź.');
+        }
+        return { text, correct: isCorrect, feedback };
       });
       return { ...s, title, desc, scenario, options };
     });
@@ -1798,9 +1809,11 @@ function normalizeCase(c) {
       }
       if (isNaN(correctIdx) || correctIdx < 0) correctIdx = 0;
       const exp = q.exp || q.expl || q.explanation || '';
+      const questionText = q.question || q.q || '';
       return {
         ...q,
-        q: q.q || '',
+        q: questionText,
+        question: questionText,
         opts,
         options: [...opts],
         correctIdx,
