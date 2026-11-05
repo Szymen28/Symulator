@@ -1348,5 +1348,230 @@
     "diagnosisTitle": "Masywny krwiak lewej jamy opłucnej (Massive Left Haemothorax) po urazie drążącym (rana kłuta klatki piersiowej) – uszkodzenie lewej tętnicy międzyżebrowej, wstrząs krwotoczny stopnia III, pilny drenaż klatki piersiowej 28-32F, autotransfuzja, wskazania do natychmiastowej torakotomii ratunkowej",
     "qCount": 11,
     "flashcardsCount": 6
+  },
+  {
+    "id": 151,
+    "file": "151_rzucawka_preeclampsia.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Stan Przedrzucawkowy i Rzucawka",
+    "diagnosisTitle": "Rzucawka w przebiegu Ciężkiego Stanu Przedrzucawkowego (Eclampsia)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 152,
+    "file": "152_odklejenie_lozyska.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Przedwczesne Odklejenie Łożyska",
+    "diagnosisTitle": "Przedwczesne Odklejenie Łożyska (Ablatio placentae / Abruptio placentae)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 153,
+    "file": "153_lozysko_przodujace.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Łożysko Przodujące",
+    "diagnosisTitle": "Łożysko Przodujące Centralne (Placenta praevia totalis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 154,
+    "file": "154_krwotok_poporodowy_pph.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Krwotok Poporodowy (PPH)",
+    "diagnosisTitle": "Masywny Krwotok Poporodowy w przebiegu Atonii Macicy (Postpartum Haemorrhage)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 155,
+    "file": "155_skret_przydatkow.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Skręt Przydatków",
+    "diagnosisTitle": "Ostre Niedokrwienie Przydatków w przebiegu Skrętu Szypuły Naczyniowej (Torsio adnexorum)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 156,
+    "file": "156_pekniecie_torbieli_jajnika.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Pęknięcie Torbieli Jajnika",
+    "diagnosisTitle": "Krwawienie Dootrzewnowe w przebiegu Pęknięcia Torbieli Ciałka Żółtego (Haemoperitoneum)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 157,
+    "file": "157_zapalenie_miednicy_pid.json",
+    "dept": "Ginekologia i Położnictwo",
+    "shortTitle": "Zapalenie Narządów Miednicy (PID)",
+    "diagnosisTitle": "Ostre Zapalenie Narządów Miednicy Mniejszej (PID) powikłane Zapaleniem Torebki Wątroby (Zespół Fitz-Hugh-Curtisa)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 158,
+    "file": "158_krwawienie_podpajeczynowkowe_sah.json",
+    "dept": "Neurologia i Neurochirurgia",
+    "shortTitle": "Krwawienie Podpajęczynówkowe (SAH)",
+    "diagnosisTitle": "Krwawienie Podpajęczynówkowe w wyniku pęknięcia workowatego tętniaka tętnicy łączącej przedniej (SAH, Hunt-Hess II / Fisher 3)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 159,
+    "file": "159_krwotok_srodmozgowy_ich.json",
+    "dept": "Neurologia i Neurochirurgia",
+    "shortTitle": "Krwotok Śródmózgowy (ICH)",
+    "diagnosisTitle": "Krwotok Śródmózgowy do Jąder Podkorowych i Torebki Wewnętrznej lewej półkuli (ICH)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 160,
+    "file": "160_przemijajacy_napad_tia.json",
+    "dept": "Neurologia",
+    "shortTitle": "Przemijający Napad Niedokrwienny (TIA)",
+    "diagnosisTitle": "Przemijający Napad Niedokrwienny w dorzeczu Lewej Tętnicy Środkowej Mózgu (TIA, ABCD2 = 6 punktów)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 161,
+    "file": "161_zespol_wallenberga_pica.json",
+    "dept": "Neurologia",
+    "shortTitle": "Zespół Wallenberga (PICA)",
+    "diagnosisTitle": "Zawał Bocznej Części Opuszki w dorzeczu Tętnicy Tylnej Dolnej Móżdżku (PICA) – Zespół Wallenberga",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 162,
+    "file": "162_krwiak_nadtwardowkowy_edh.json",
+    "dept": "Neurochirurgia i Medycyna Ratunkowa",
+    "shortTitle": "Krwiak Nadtwardówkowy (EDH)",
+    "diagnosisTitle": "Ostry Krwiak Nadtwardówkowy okolicy skroniowo-ciemieniowej prawej z wgłobieniem podnamiotowym (EDH)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 163,
+    "file": "163_ostre_zamkniecie_kata_jaskra.json",
+    "dept": "Okulistyka",
+    "shortTitle": "Ostre Zamknięcie Kąta (Jaskra)",
+    "diagnosisTitle": "Ostre Zamknięcie Kąta Przesączania z Krytycznym Nadciśnieniem Śródgałkowym (Jaskra Ostra)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 164,
+    "file": "164_zator_tetnicy_siatkowki_crao.json",
+    "dept": "Okulistyka i Neurologia",
+    "shortTitle": "Zator Tętnicy Siatkówki (CRAO)",
+    "diagnosisTitle": "Ostre Niedokrwienie Siatkówki w przebiegu Zatoru Tętnicy Środkowej Siatkówki Oka Lewego (CRAO)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 165,
+    "file": "165_ropien_okolomigdalkowy.json",
+    "dept": "Otolaryngologia",
+    "shortTitle": "Ropień Okołomigdałkowy",
+    "diagnosisTitle": "Ostry Jednostronny Ropień Okołomigdałkowy Prawy (Abscessus peritonsillaris dexter)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 166,
+    "file": "166_krwawienie_z_nosa_epistaxis.json",
+    "dept": "Otolaryngologia / SOR",
+    "shortTitle": "Krwawienie z Nosa (Epistaxis)",
+    "diagnosisTitle": "Masywne Krwawienie z Tylnego Odcinka Jamy Nosowej (Epistaxis Posterior)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 167,
+    "file": "167_kolka_nerkowa_kamica.json",
+    "dept": "Urologia / SOR",
+    "shortTitle": "Kolka Nerkowa (Kamica)",
+    "diagnosisTitle": "Ostra Kolka Nerkowa w Przebiegu Zastoinowej Kamicy Moczowodowej (Urolithiasis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 168,
+    "file": "168_ostre_zatrzymanie_moczu_aur.json",
+    "dept": "Urologia / SOR",
+    "shortTitle": "Ostre Zatrzymanie Moczu (AUR)",
+    "diagnosisTitle": "Ostre Zatrzymanie Moczu w Przebiegu Łagodnego Rozrostu Stercza (AUR / BPH)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 169,
+    "file": "169_skret_jadra_torsio_testis.json",
+    "dept": "Urologia / Chirurgia Dziecięca",
+    "shortTitle": "Skręt Jądra (Torsio Testis)",
+    "diagnosisTitle": "Ostre Niedokrwienie Jądra w Przebiegu Skrętu Powrózka Nasiennego (Torsio Testis)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 170,
+    "file": "170_priapizm_niedokrwienny.json",
+    "dept": "Urologia / SOR",
+    "shortTitle": "Priapizm Niedokrwienny",
+    "diagnosisTitle": "Ostre Niedokrwienie Ciał Jamistych Prącia w Przebiegu Priapizmu Niedokrwiennego (Low-Flow Ischemic Priapism)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 171,
+    "file": "171_zatrucie_tlenkiem_wegla_co.json",
+    "dept": "Toksykologia / SOR",
+    "shortTitle": "Zatrucie Tlenkiem Węgla (CO)",
+    "diagnosisTitle": "Ostre Zatrucie Tlenkiem Węgla z Kwasicą Mleczanową i Encefalopatią Niedotlenieniową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 172,
+    "file": "172_zatrucie_glikolem_etylenowym.json",
+    "dept": "Toksykologia / SOR",
+    "shortTitle": "Zatrucie Glikolem Etylenowym",
+    "diagnosisTitle": "Ciężkie Zatrucie Glikolem Etylenowym z Kwasicą z Dużą Luką Anionową i Niewydolnością Nerek",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 173,
+    "file": "173_zatrucie_opioidami_nalokson.json",
+    "dept": "Toksykologia / SOR",
+    "shortTitle": "Zatrucie Opioidami (Nalokson)",
+    "diagnosisTitle": "Ciężkie Zatrucie Opioidami z Zagrażającą Życiu Depresją Oddechową (Triada Opioidowa)",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 174,
+    "file": "174_zlosliwy_zespol_neuroleptyczny_nms.json",
+    "dept": "Psychiatria / SOR / OIT",
+    "shortTitle": "Złośliwy Zespół Neuroleptyczny",
+    "diagnosisTitle": "Złośliwy Zespół Neuroleptyczny Powikłany Ciężką Rabdomiolizą i Hipertermią Osiową",
+    "qCount": 11,
+    "flashcardsCount": 6
+  },
+  {
+    "id": 175,
+    "file": "175_zespol_serotoninowy.json",
+    "dept": "Psychiatria / Toksykologia / SOR",
+    "shortTitle": "Zespół Serotoninowy",
+    "diagnosisTitle": "Ciężki Zespół Serotoninowy z Klonusami, Hipertermią i Niestabilnością Autonomiczną",
+    "qCount": 11,
+    "flashcardsCount": 6
   }
 ]

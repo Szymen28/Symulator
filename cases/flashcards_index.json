@@ -5404,5 +5404,905 @@
     "a": "1. Zakażenie krwiaka i ropniak opłucnej (empyema pleurae).<br>2. Organizacja skrzepu i zwłóknienie opłucnej (fibrothorax) tworzące tzw. uwięzione płuco (trapped lung), wymagające dekortykacji.",
     "caseId": 150,
     "cat": "Medycyna ratunkowa"
+  },
+  {
+    "q": "Jaki jest lek pierwszego rzutu w zapobieganiu i leczeniu drgawek rzucawkowych?",
+    "a": "Siarczan magnezu (MgSO4 i.v. dawka nasycająca 4-6 g w 15-20 min, potem wlew 1-2 g/h).",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie jest antidotum na zatrucie siarczanem magnezu (hipermagnezemię)?",
+    "a": "Glukonian wapnia 10% (10 ml i.v. w ciągu 10 minut).",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie są 3 leki pierwszego rzutu w ciężkim nadciśnieniu w ciąży?",
+    "a": "Labetalol i.v., hydralazyna i.v. oraz nifedypina doustnie (o zmodyfikowanym uwalnianiu).",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie leki hipotensyjne są bezwzględnie zakazane w ciąży?",
+    "a": "Inhibitory ACE (ACEI) oraz antagoniści receptora angiotensyny II (sartany / ARB) – ryzyko fetotoksyczności i bezmoczu płodu.",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest najwcześniejszy kliniczny objaw przedawkowania magnezu?",
+    "a": "Zniesienie (osłabienie lub brak) głębokich odruchów ścięgnistych (odruchu rzepkowego).",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Co jest jedynym definitywnym leczeniem przyczynowym stanu przedrzucawkowego i rzucawki?",
+    "a": "Ukończenie ciąży (poród / cięcie cesarskie) po uprzedniej stabilizacji stanu matki.",
+    "caseId": 151,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest klasyczna triada objawów przedwczesnego odklejenia łożyska?",
+    "a": "Nagły, silny ból brzucha, wzmożone deskowate napięcie macicy (hipertonia) oraz ciemne krwawienie z dróg rodnych (lub krwawienie ukryte).",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Dlaczego ujemny wynik badania USG nie wyklucza odklejenia łożyska?",
+    "a": "Czułość USG wynosi zaledwie 25–50%, ponieważ świeża krew ma echogeniczność zbliżoną do miąższu łożyska; rozpoznanie opiera się na obrazie klinicznym.",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Czym jest macica Couvelaire'a (udar maciczno-łożyskowy)?",
+    "a": "Naciekiem wynaczynionej krwi w głąb błony mięśniowej macicy i pod surowicówkę, prowadzącym do ciężkiej atonii poporodowej.",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki poziom fibrynogenu wskazuje na rozwój ostrego DIC w ciąży?",
+    "a": "Stężenie fibrynogenu <2,0 g/l (norma w ciąży to 4,0–6,0 g/l) – silny wskaźnik ciężkiego krwotoku wymagający substytucji.",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie jest postępowanie z wyboru przy odklejeniu łożyska z objawami zagrożenia płodu?",
+    "a": "Natychmiastowe cięcie cesarskie w trybie nagłym (kod czerwony) z równoległą agresywną resuscytacją płynową matki.",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki lek hemostatyczny podaje się w pierwszej kolejności przy podejrzeniu DIC w ablatio placentae?",
+    "a": "Kwas traneksamowy 1 g i.v. w ciągu 10 minut oraz koncentrat fibrynogenu (lub krioprecypitat).",
+    "caseId": 152,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest kardynalna cecha krwawienia w łożysku przodującym?",
+    "a": "Krwawienie jest nagłe, bezbolesne, krew jest żywoczerwona, a macica miękka i niebolesna.",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie badanie jest bezwzględnie zakazane przed wykluczeniem łożyska przodującego?",
+    "a": "Badanie palpacyjne przez pochwę (per vaginam) palcem badającym – grozi śmiertelnym krwotokiem!",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka metoda obrazowa jest złotym standardem rozpoznania łożyska przodującego?",
+    "a": "Ostrożna ultrasonografia przezpochwowa (TVS) z oceną odległości brzegu od ujścia wewnętrznego.",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka odległość brzegu łożyska od ujścia wewnętrznego pozwala na próbę porodu sn?",
+    "a": "Odległość powyżej 20 mm (2 cm) w III trymestrze.",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest najgroźniejszy czynnik ryzyka spektrum łożyska przyrośniętego (PAS)?",
+    "a": "Przebyte cięcie cesarskie w połączeniu z łożyskiem przodującym na przedniej ścianie.",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Kiedy wykonuje się planowe cięcie cesarskie w niepowikłanym łożysku przodującym?",
+    "a": "W 36.–37. tygodniu ciąży, po uprzedniej sterydoterapii prenatalnej.",
+    "caseId": 153,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest definicja krwotoku poporodowego (PPH)?",
+    "a": "Utrata krwi >500 ml po porodzie drogami natury, >1000 ml po cięciu cesarskim lub jakakolwiek utrata krwi wywołująca niestabilność hemodynamiczną.",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Co oznacza reguła 4T w diagnostyce przyczyn PPH?",
+    "a": "Tone (atonia macicy 70%), Trauma (uraz dróg rodnych 20%), Tissue (resztki łożyska 10%), Thrombin (zaburzenia krzepnięcia 1%).",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest lek pierwszego rzutu w farmakoterapii atonii macicy?",
+    "a": "Oksytocyna: 5–10 j.m. powolny bolus i.v. oraz wlew ciągły 20–40 j.m. w 500 ml płynu.",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Dlaczego metylergometryna jest zakazana w stanie przedrzucawkowym?",
+    "a": "Powoduje uogólniony skurcz naczyń i grozi gwałtownym przełomem nadciśnieniowym oraz udarem krwotocznym mózgu.",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie jest okno czasowe dla podania kwasu traneksamowego w PPH?",
+    "a": "Do 3 godzin od porodu (dawka 1 g i.v. w ciągu 10 minut).",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Co to jest zespół Sheehana?",
+    "a": "Poporodowa martwica niedokrwienna przedniego płata przysadki mózgowej w wyniku wstrząsu krwotocznego podczas porodu.",
+    "caseId": 154,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest najczęstsza przyczyna anatomiczna skrętu przydatków?",
+    "a": "Obecność łagodnej torbieli jajnika o średnicy 5–10 cm (najczęściej potworniaka dojrzałego – dermoidu).",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest patognomoniczny objaw skrętu przydatków w USG Doppler?",
+    "a": "Objaw wiru ('whirlpool sign') odpowiadający skręconym naczyniom szypuły naczyniowej.",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Czy zachowany przepływ tętniczy w Dopplerze wyklucza skręt przydatków?",
+    "a": "NIE! W początkowej fazie zaciśnięte są tylko żyły, a przepływ tętniczy może być obecny u ponad 30% chorych.",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest współczesna taktyka chirurgiczna przy sinoczarnym jajniku u młodej kobiety?",
+    "a": "Odkręcenie szypuły (detorsio) i zachowanie jajnika – w ponad 90% przypadków narząd podejmuje czynność.",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Który jajnik częściej ulega skrętowi i dlaczego?",
+    "a": "Jajnik prawy (stosunek 3:2), ponieważ esica po stronie lewej anatomicznie ogranicza ruchomość lewych przydatków.",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie jest krytyczne okno czasowe dla odkręcenia przydatków?",
+    "a": "Do 6–8 godzin od początku wystąpienia ostrych objawów bólowych.",
+    "caseId": 155,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "W jakiej fazie cyklu najczęściej dochodzi do pęknięcia torbieli ciałka żółtego?",
+    "a": "W fazie lutealnej (między 20. a 26. dniem cyklu), często bezpośrednio po stosunku płciowym lub wysiłku.",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie badanie laboratoryjne jest priorytetem u każdej kobiety w wieku rozrodczym z ostrym brzuchem?",
+    "a": "Oznaczenie beta-hCG w surowicy lub moczu w celu bezwzględnego wykluczenia ciąży pozamacicznej.",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Czym jest objaw Kehra w krwawieniu dootrzewnowym?",
+    "a": "Bólem rzutowanym do barku wywołanym podrażnieniem nerwu przeponowego (C3–C5) przez krew gromadzącą się pod przeponą.",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Kiedy można leczyć pękniętą torbiel jajnika zachowawczo?",
+    "a": "Tylko przy pełnej stabilności hemodynamicznej, stabilnej hemoglobinie i braku aktywnego krwotoku.",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaka jest najskuteczniejsza profilaktyka nawrotów krwotocznych torbieli jajnika?",
+    "a": "Stosowanie doustnej antykoncepcji hormonalnej (hamowanie owulacji).",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "U jakiej grupy pacjentek pęknięcie ciałka żółtego wiąże się ze szczególnym ryzykiem śmiertelnego krwotoku?",
+    "a": "U pacjentek przyjmujących doustne leki przeciwkrzepliwe (antagoniści witaminy K, NOAC/DOAC).",
+    "caseId": 156,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie jest minimalne kryterium kliniczne CDC uzasadniające wdrożenie leczenia PID?",
+    "a": "Bolesność palpacyjna podbrzusza oraz bolesność macicy, przydatków lub poruszania szyjką w badaniu ginekologicznym.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Czym jest zespół Fitz-Hugh-Curtisa?",
+    "a": "Zapaleniem torebki wątroby (perihepatitis) w przebiegu PID z bólem w prawym podżebrzu i zrostami 'strun skrzypcowych'.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest standardowy 14-dniowy schemat leczenia PID wg CDC?",
+    "a": "Ceftriakson 1 g i.m./i.v. + Doksycyklina 100 mg 2x/d + Metronidazol 500 mg 2x/d przez 14 dni.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie badanie jest złotym standardem detekcji Chlamydii i Gonokoków?",
+    "a": "Testy molekularne amplifikacji kwasów nukleinowych NAAT (PCR) z wymazu z kanału szyjki.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Którzy partnerzy seksualni pacjentki z PID wymagają leczenia?",
+    "a": "Wszyscy partnerzy seksualni z ostatnich 60 dni poprzedzających wystąpienie objawów.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jakie są najgroźniejsze odległe powikłania przebytego PID?",
+    "a": "Trwała niepłodność jajowodowa (zarastanie jajowodów), ciąża ektopowa oraz przewlekły ból miednicy mniejszej.",
+    "caseId": 157,
+    "cat": "Ginekologia i Położnictwo"
+  },
+  {
+    "q": "Jaki jest klasyczny wywiad bólowy w krwawieniu podpajęczynówkowym (SAH)?",
+    "a": "Nagły 'ból piorunujący' (thunderclap headache) osiągający maksymalne natężenie w ułamku sekundy, często opisywany jako 'najgorszy ból w życiu'.",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Co należy zrobić, gdy TK głowy u pacjenta z bólem piorunującym po 8h jest ujemna?",
+    "a": "Wykonać nakłucie lędźwiowe (LP) po 12h od początku bólu w celu oceny ksantochromii płynu mózgowo-rdzeniowego.",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "W jakim oknie czasowym należy zabezpieczyć pęknięty tętniak mózgu?",
+    "a": "Pilnie w ciągu pierwszych 24–72 godzin od początku krwawienia (coiling lub klipsowanie).",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Jaki lek doustny poprawia rokowanie neurologiczne w SAH?",
+    "a": "Nimodypina w dawce 60 mg doustnie co 4 godziny przez 21 dni.",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Kiedy przypada szczyt skurczu naczyniowego (vasospasmu) w SAH?",
+    "a": "Między 4. a 14. dniem od początku krwawienia podpajęczynówkowego.",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Co oznacza objaw Tersona?",
+    "a": "Krwawienie podsiatkówkowe lub do ciała szklistego oka towarzyszące ostremu SAH.",
+    "caseId": 158,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Jaka jest najczęstsza przyczyna pierwotnego krwotoku śródmózgowego (ICH)?",
+    "a": "Przewlekłe nadciśnienie tętnicze prowadzące do lipohialinozy tętnic przeszywających (jądra podstawy, torebka wewnętrzna).",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Do jakiej wartości docelowej należy obniżyć SBP w ostrej fazie ICH?",
+    "a": "Do 130–140 mmHg w ciągu pierwszych godzin (unikać spadków <130 mmHg).",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Dlaczego glikokortykosteroidy są zakazane w udarze krwotocznym mózgu?",
+    "a": "Nie zmniejszają obrzęku mózgu, a istotnie zwiększają śmiertelność (infekcje, hiperglikemia, krwawienia z przewodu pokarmowego).",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Jaki jest bezwzględny stan wymagający pilnej operacji neurochirurgicznej w ICH?",
+    "a": "Krwiak móżdżku o średnicy >3 cm uciskający pień mózgu lub wywołujący ostre wodogłowie.",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Czym jest objaw plamy ('spot sign') w Angio-TK?",
+    "a": "Ogniskiem wynaczynienia kontrastu wewnątrz krwiaka, świadczącym o aktywnym krwawieniu i wysokim ryzyku ekspansji krwiaka.",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Co jest swoistym antidotum dla dabigatranu w razie krwotoku mózgowego?",
+    "a": "Idarucizumab (5 g i.v. w dwóch dawkach po 2,5 g).",
+    "caseId": 159,
+    "cat": "Neurologia i Neurochirurgia"
+  },
+  {
+    "q": "Czym różni się współczesna definicja tkankowa TIA od tradycyjnej czasowej?",
+    "a": "Definicja tkankowa wymaga braku świeżego ogniska zawału w neuroobrazowaniu (MRI DWI), niezależnie od czasu trwania objawów klinicznych.",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Co oznacza wynik ≥4 punktów w skali ABCD2?",
+    "a": "Wysokie ryzyko udaru mózgu w ciągu 48 godzin (>8%) i bezwzględne wskazanie do hospitalizacji na oddziale udarowym.",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Jaki jest zalecany schemat leczenia przeciwpłytkowego w TIA wysokiego ryzyka?",
+    "a": "DAPT: Kwas acetylosalicylowy (ASA 100 mg) + klopidogrel (75 mg po dawce 300 mg) przez 21 dni, a potem monoterapia.",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "W jakim czasie należy wykonać endarterektomię (CEA) przy objawowym zwężeniu tętnicy szyjnej 70–99%?",
+    "a": "Pilnie w ciągu pierwszych 14 dni (optymalnie w ciągu 48–72 godzin) od wystąpienia TIA.",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Czym jest amaurosis fugax?",
+    "a": "Przemijającą ślepotą jednooczną (zator tętnicy siatkówkowej) spowodowaną zatorowością z tętnicy szyjnej wewnętrznej (ICA).",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Jaki lek przeciwpłytkowy jest bezwzględnie przeciwwskazany po przebytym TIA lub udarze mózgu?",
+    "a": "Prasugrel – ze względu na wysokie ryzyko śmiertelnych krwotoków śródczaszkowych.",
+    "caseId": 160,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Które naczynia ulegają zamknięciu w zespole Wallenberga?",
+    "a": "Tętnica tylna dolna móżdżku (PICA) lub tętnica kręgowa.",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Na czym polega naprzemienny zespół czuciowy w zespole Wallenberga?",
+    "a": "Zniesienie czucia bólu i temperatury na twarzy tożstronnie (n. V) oraz na tułowiu i kończynach przeciwstronnie (droga rdzeniowo-wzgórzowa).",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Dlaczego w zespole Wallenberga nie ma niedowładu połowiczego?",
+    "a": "Drogi piramidowe biegną w przedniej części opuszki (piramidach), która jest unaczyniona przez tętnicę rdzeniową przednią i tętnicę podstawną.",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Jakie jest najgroźniejsze powikłanie wczesne zespołu Wallenberga?",
+    "a": "Aspiracja treści pokarmowej i zachłystowe zapalenie płuc z powodu ciężkiej dysfagii (porażenie n. IX i X).",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Jakie badanie obrazowe jest złotym standardem rozpoznania zawału pnia mózgu?",
+    "a": "Rezonans magnetyczny (MRI) głowy z sekwencją dyfuzji DWI (TK ma niską czułość w dole tylnym).",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Co wchodzi w skład zespołu Hornera obecnego w zespole Wallenberga?",
+    "a": "Tożstronna ptoza (opadnięcie powieki), mioza (zwężenie źrenicy) i anhydroza (brak potliwości twarzy).",
+    "caseId": 161,
+    "cat": "Neurologia"
+  },
+  {
+    "q": "Jakie jest najczęstsze źródło krwawienia w krwiaku nadtwardówkowym (EDH)?",
+    "a": "Tętnica oponowa środkowa (arteria meningea media) po złamaniu kości skroniowej w okolicy pterionu.",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Jaki jest patognomoniczny obraz EDH w badaniu TK głowy?",
+    "a": "Dwuwypukła (soczewkowata), hiperdensyjna masa, która NIE przekracza linii szwów czaszkowych.",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Czym jest 'odstęp jasny' (lucid interval)?",
+    "a": "Okresem pełnej przytomności i dobrego samopoczucia po urazie, poprzedzającym gwałtowną dekompensację neurologiczną.",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Co oznacza poszerzenie jednej źrenicy (objaw Hutchinsona) po urazie głowy?",
+    "a": "Wklinowanie haka hipokampa uciskające nerw okoruchowy (n. III) po stronie krwiaka (anizokoria tożstronna).",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Co wchodzi w skład triady Cushinga w ciasnocie śródczaszkowej?",
+    "a": "Nadciśnienie tętnicze, bradykardia oraz nieregularny tor oddychania.",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Jakie jest definitywne leczenie ratujące życie w objawowym EDH?",
+    "a": "Pilna kraniotomia z ewakuacją krwiaka i hemostazą tętnicy oponowej środkowej.",
+    "caseId": 162,
+    "cat": "Neurochirurgia i Medycyna Ratunkowa"
+  },
+  {
+    "q": "Jaka jest klasyczna triada objawów ostrego zamknięcia kąta przesączania?",
+    "a": "Potężny ból oka i głowy, spadek ostrości wzroku z widzeniem tęczowych kół (halo) oraz nudności i wymioty przy skrajnie twardej gałce ocznej.",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Jak wygląda źrenica w ostrym ataku jaskry?",
+    "a": "Jest średnio szeroka (5–6 mm), pionowo owalna i całkowicie sztywna na światło (w przeciwieństwie do wąskiej źrenicy w zapaleniu tęczówki).",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Jakie leki są bezwzględnie zakazane w wąskim kącie przesączania?",
+    "a": "Mydriatyki (atropina, tropikamid, leki cholinolityczne) – rozszerzenie źrenicy zamyka kąt i wywołuje ślepotę.",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Kiedy można podać pilokarpinę w ostrym ataku jaskry?",
+    "a": "Dopiero po wstępnym obniżeniu ciśnienia śródgałkowego <40–50 mmHg (przy wyższym ciśnieniu zwieracz źrenicy jest niedokrwiony i nie reaguje).",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Jakie jest definitywne leczenie przyczynowe ostrego zamknięcia kąta?",
+    "a": "Laserowa irydotomia Nd:YAG – bezwzględnie wykonana w OBOJGU OCZACH (profilaktyka oka drugiego).",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Jaka wada wzroku predysponuje do ostrego zamknięcia kąta?",
+    "a": "Nadwzroczność (hypermetropia) – krótka gałka oczna z płytką komorą przednią.",
+    "caseId": 163,
+    "cat": "Okulistyka"
+  },
+  {
+    "q": "Jaki jest klasyczny obraz kliniczny zatoru tętnicy środkowej siatkówki (CRAO)?",
+    "a": "Nagła, całkowicie bezbolesna, głęboka utrata widzenia w jednym oku, oko blade i spokojne.",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Co widać w badaniu dna oka w CRAO?",
+    "a": "Bladą, mlecznobiałą siatkówkę z patognomoniczną 'wiśniową plamką' (cherry-red spot) w dołeczku środkowym.",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Jakie jest krytyczne okno czasowe w CRAO?",
+    "a": "Do 90–240 minut (do 4 godzin) – po tym czasie komórki zwojowe siatkówki ulegają nieodwracalnej martwicy.",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Jakie doraźne zabiegi można podjąć przy łóżku w ostrej fazie CRAO?",
+    "a": "Rytmiczny masaż gałki ocznej, podanie acetazolamidu 500 mg i.v. oraz paracentezę przedniej komory oka.",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Czym jest źrenica Marcusa Gunna (RAPD)?",
+    "a": "Względnym aferentnym defektem źrenicowym – paradoksalnym rozszerzeniem źrenicy przy oświetleniu chorego oka.",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Jaką chorobę autoimmunologiczną należy bezwzględnie wykluczyć u starszego chorego z CRAO?",
+    "a": "Olbrzymiokomórkowe zapalenie tętnic (GCA / chorobę Hortona) – ryzyko utraty wzroku w drugim oku!",
+    "caseId": 164,
+    "cat": "Okulistyka i Neurologia"
+  },
+  {
+    "q": "Jaka jest klasyczna triada objawów ropnia okołomigdałkowego?",
+    "a": "Silny jednostronny ból gardła promieniujący do ucha (otalgia), szczękościsk (trismus) oraz 'mowa kluskowata' ('hot potato voice').",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Co widać w faryngoskopii w ropniu okołomigdałkowym?",
+    "a": "Uwypuklenie łuku podniebiennego, zepchnięcie migdałka ku dołowi i przyśrodkowo oraz przemieszczenie języczka na stronę ZDROWĄ.",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Jaka jest procedura pierwszego rzutu w uformowanym ropniu?",
+    "a": "Nakłucie próbne igłą, nacięcie i rozszerzenie kleszczykami (drenaż ropnia) w znieczuleniu miejscowym.",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Jaki jest mechanizm szczękościsku (trismus) w ropniu okołomigdałkowym?",
+    "a": "Nacieczenie zapalne i odruchowy skurcz mięśnia skrzydłowego przyśrodkowego.",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Czym jest zespół Lemierre'a?",
+    "a": "Zakrzepowym zapaleniem żyły szyjnej wewnętrznej z septycznymi zatorami w płucach wywołanym przez Fusobacterium necrophorum.",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Jaka antybiotykoterapia dożylna jest zalecana w ropniu okołomigdałkowym?",
+    "a": "Amoksycylina z kwasem klawulanowym i.v. lub ceftriakson z klindamycyną (pokrycie paciorkowców i beztlenowców).",
+    "caseId": 165,
+    "cat": "Otolaryngologia"
+  },
+  {
+    "q": "Gdzie lokalizuje się splot Kiesselbacha (Little'a) i jaki odsetek krwawień z nosa z niego pochodzi?",
+    "a": "W przednio-dolnej części przegrody nosowej; odpowiada za >90% krwawień z nosa.",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Jakie naczynie krwionośne jest najczęstszym źródłem masywnego krwawienia z tylnego odcinka nosa?",
+    "a": "Tętnica klinowo-podniebna (gałąź końcowa tętnicy szczękowej z układu tętnicy szyjnej zewnętrznej).",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Jaka jest prawidłowa pozycja pacjenta w trakcie tamowania krwawienia z nosa?",
+    "a": "Pozycja siedząca z głową lekko pochyloną do przodu, z wypluwaniem krwi i uciskiem skrzydełek nosa.",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Dlaczego azotan srebra nie może być aplikowany obustronnie w tym samym miejscu przegrody nosa?",
+    "a": "Z powodu ryzyka martwicy chrząstki i jatrogennej perforacji przegrody nosowej.",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Jakie jest główne wskazanie do założenia tamponady tylnej (np. Bellocqa lub podwójnego balonu)?",
+    "a": "Utrzymujące się spływanie krwi po tylnej ścianie gardła mimo prawidłowej tamponady przedniej.",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Jakie groźne powikłanie ogólnoustrojowe może wywołać tamponada tylna u osób starszych?",
+    "a": "Odruch nosowo-płucny skutkujący hipowentylacją, bradykardią, hipoksją i zaburzeniami rytmu serca.",
+    "caseId": 166,
+    "cat": "Otolaryngologia / SOR"
+  },
+  {
+    "q": "Jakie leki stanowią I rzut w zwalczaniu bólu w ostrej kolce nerkowej według wytycznych EAU?",
+    "a": "Niesteroidowe leki przeciwzapalne (NLPZ, np. ketoprofen 100 mg i.v. lub diklofenak).",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Dlaczego NLPZ są skuteczniejsze od opioidów w kolce nerkowej?",
+    "a": "Hamują syntezę prostaglandyn (PGE2), redukując filtrację kłębuszkową i ciśnienie śródmiedniczkowe.",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jaka metoda obrazowa stanowi złoty standard w diagnostyce kamicy moczowodowej?",
+    "a": "Niskodawkowa tomografia komputerowa jamy brzusznej i miednicy bez kontrastu (low-dose NCCT).",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Który rodzaj złogów moczowych jest niewidoczny na klasycznym zdjęciu RTG (cienioujemny)?",
+    "a": "Złogi z kwasu moczowego (oraz rzadkie złogi ksantynowe).",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jakie są 2 bezwzględne wskazania do pilnego odbarczenia UKM (cewnik DJ lub PCN)?",
+    "a": "Zakażenie zablokowanego UKM (gorączka, urosepsa) oraz przeszkoda w jedynej nerce lub bezmocz.",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Na czym polega medyczna terapia wydalająca (MET) w kamicy dolnego moczowodu?",
+    "a": "Na stosowaniu alfa-1-blokera (tamsulozyna 0,4 mg/d) rozluźniającego mięśniówkę dystalnego moczowodu.",
+    "caseId": 167,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Co to jest globus vesicalis i jak manifestuje się w badaniu fizykalnym?",
+    "a": "Przepełniony pęcherz moczowy; wyczuwalny jako bolesny opór w podbrzuszu dający stłumienie opukowe.",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Dlaczego pseudoefedryna może wywołać ostre zatrzymanie moczu u chorych z BPH?",
+    "a": "Stymuluje receptory alfa-1-adrenergiczne, wywołując skurcz mięśniówki gładkiej szyi pęcherza i stercza.",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Kiedy wolno napełnić balon cewnika Foleya podczas cewnikowania mężczyzny?",
+    "a": "Wyłącznie po wprowadzeniu cewnika na pełną długość i zaobserwowaniu wypływu moczu.",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Co to jest poliuria poprzeszkodowa (post-obstructive diuresis)?",
+    "a": "Wydalanie moczu >200 ml/h przez >2 kolejne godziny po odbarczeniu ostrej niedrożności dróg moczowych.",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jaki lek podaje się przed próbą usunięcia cewnika (TWOC) w celu zwiększenia szans na mikcję?",
+    "a": "Alfa-1-adrenolityk (np. tamsulozynę 0,4 mg/d) przez co najmniej 2–3 dni.",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Co należy zrobić, gdy próba założenia cewnika przezcewkowego w AUR jest nieskuteczna?",
+    "a": "Użyć cewnika ze zagiętym końcem (Tiemanna), a w razie niepowodzenia wykonać nakłucie nadłonowe (cystostomię).",
+    "caseId": 168,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Ile wynosi 'złote okno czasowe' w skręcie jądra i jak zmienia się rokowanie?",
+    "a": "Do 6 godzin (>90% szans na uratowanie jądra); po 12h szansa spada <20%, a po 24h następuje martwica.",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "Jaki jest status odruchu nosidłowego (cremasteric reflex) w skręcie jądra?",
+    "a": "Jest całkowicie zniesiony po stronie chorej (obecność żywego odruchu niemal wyklucza skręt).",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "Co oznacza ujemny objaw Prehna?",
+    "a": "Brak ulgi lub nasilenie bólu przy unoszeniu jądra (charakterystyczny dla skrętu jądra).",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "Na czym polega wada anatomiczna 'serca dzwonu' (bell-clapper)?",
+    "a": "Na wysokim odejściu osłonki pochwowej obejmującej jądro i powrózek, co umożliwia rotację jądra w osi.",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "W jakim kierunku wykonuje się ręczną derotację jądra ('open book')?",
+    "a": "Od wewnątrz na zewnątrz (dla lewego jądra zgodnie z ruchem wskazówek zegara).",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "Dlaczego operacja skrętu jądra musi obejmować obustronną orchidopeksję?",
+    "a": "Ponieważ wada predysponująca (bell-clapper) występuje obustronnie u ponad 50–80% chorych.",
+    "caseId": 169,
+    "cat": "Urologia / Chirurgia Dziecięca"
+  },
+  {
+    "q": "Jaki jest profil gazometryczny krwi z ciał jamistych w priapizmie niedokrwiennym (low-flow)?",
+    "a": "Głęboka kwasica i hipoksja: ciemna krew, pH <7,25, pO2 <30 mmHg, pCO2 >60 mmHg.",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jak manifestuje się dysocjacja wzwodu w priapizmie ischemicznym?",
+    "a": "Trzon prącia (corpora cavernosa) jest skrajnie twardy i bolesny, a żołądź i ciało gąbczaste są wiotkie i miękkie.",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jaki lek stanowi I rzut w iniekcjach dojamistych w priapizmie niedokrwiennym?",
+    "a": "Fenylefryna (selektywny agonista alfa-1 w dawkach 100–200 mcg co 3–5 min, maks. 1000 mcg/h).",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Jaki popularny lek przeciwdepresyjny jest częstą przyczyną priapizmu polekowego?",
+    "a": "Trazodon (ze względu na silne działanie blokujące receptory alfa-1-adrenergiczne).",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Co dzieje się z ciałami jamistymi, jeśli niedokrwienie trwa powyżej 24–48 godzin?",
+    "a": "Dochodzi do nieodwracalnej martwicy miocytów, włóknienia ciał jamistych i trwałej utraty wzwodu (impotencji).",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Na czym polega chirurgiczny shunt dystalny Al-Ghoraba w opornym priapizmie?",
+    "a": "Na operacyjnym wycięciu okienka w osłonce białawej na szczycie ciał jamistych przez nacięcie żołędzi.",
+    "caseId": 170,
+    "cat": "Urologia / SOR"
+  },
+  {
+    "q": "Dlaczego standardowy pulsoksymetr napalcowy (SpO2) jest mylący w zatruciu tlenkiem węgla?",
+    "a": "Nie odróżnia karboksyhemoglobiny (COHb) od oksyhemoglobiny, dając fałszywie prawidłowy wynik SpO2 99–100%.",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Ile wynosi okres półtrwania COHb na powietrzu, przy 100% tlenie i w komorze HBO?",
+    "a": "Na powietrzu ok. 320 min; przy 100% tlenie ok. 70–80 min; w komorze HBO (3 ATA) ok. 20 min.",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie są główne wskazania do tlenoterapii hiperbarycznej (HBO)?",
+    "a": "Utrata przytomności, objawy neurologiczne, ciąża (COHb >15%), COHb >25%, niedokrwienie serca w EKG/troponina.",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego ciąża jest szczególnym wskazaniem do komory hiperbarycznej w zatruciu CO?",
+    "a": "Hemoglobina płodowa (HbF) silniej wiąże CO, a płód eliminuje CO znacznie wolniej, co grozi obumarciem.",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jaka struktura mózgu ulega najbardziej charakterystycznej martwicy w zatruciu CO?",
+    "a": "Gałka blada (globus pallidus) w jądrach podstawy (obustronne symetryczne uszkodzenie).",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Czym jest opóźniony zespół neurologiczny (DNS) po zatruciu CO?",
+    "a": "Demielinizacją i powikłaniami neuropsychiatrycznymi (parkinsonizm, otępienie) po 2–40 dniach 'okna bezobjawowego'.",
+    "caseId": 171,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Który metabolit glikolu etylenowego odpowiada za ciężką kwasicę metaboliczną z luką anionową?",
+    "a": "Kwas glikolowy (powstający z aldehydu glikolowego pod wpływem dehydrogenazy aldehydowej).",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie znalezisko w badaniu osadu moczu jest patognomoniczne dla zatrucia glikolem etylenowym?",
+    "a": "Obecność kryształów szczawianu wapnia (monohydratu w kształcie hantli i dihydratu w kształcie kopert).",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jaka jest odtrutka z wyboru w zatruciu glikolem etylenowym i metanolem?",
+    "a": "Fomepizol (selektywny inhibitor ADH) lub alternatywnie 10% etanol i.v.",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego w świetle lampy Wooda mocz zatrutego płynem chłodniczym fluoryzuje?",
+    "a": "Z powodu fluoresceiny dodawanej przez producentów do płynów chłodniczych (np. borygo).",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie kofaktory witaminowe podaje się w zatruciu glikolem w celu ochrony nerek?",
+    "a": "Tiaminę (witaminę B1) i pirydoksynę (witaminę B6) w celu przekierowania glioksalu na szlak glicyny.",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego bezobjawowa hipokalcemia w zatruciu glikolem nie powinna być agresywnie korygowana wapniem?",
+    "a": "Podaż wapnia nasila wytrącanie kryształów szczawianu wapnia w cewkach nerkowych, pogłębiając anurię.",
+    "caseId": 172,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie objawy tworzą klasyczną triadę opioidową w ostrym zatruciu?",
+    "a": "Głęboka śpiączka (depresja OUN), skrajna depresja oddechowa (RR <8/min, bezdech) oraz szpilkowate źrenice (miosis).",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Co jest bezwzględnym priorytetem przed podaniem naloksonu u niedotlenionego chorego?",
+    "a": "Skuteczna wentylacja workiem samorozprężalnym z tlenem (zapobieganie NZK w asystolii i obrzękowi płuc).",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jaki jest cel dawkowania naloksonu w zatruciu opioidami?",
+    "a": "Przywrócenie wydolnej wentylacji własnej (RR >12/min), a nie natychmiastowe wybudzenie do pełnej przytomności.",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego pacjent po podaniu naloksonu musi pozostać na SOR na obserwacji?",
+    "a": "Czas działania naloksonu (30–60 min) jest znacznie krótszy niż opioidów, co grozi ponownym śmiertelnym bezdechem.",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Który opioid w przedawkowaniu może wyjątkowo nie powodować zwężenia źrenic?",
+    "a": "Petydyna (meperydyna) – ze względu na współistniejące działanie cholinolityczne (atropinopodobne).",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie drogi podania naloksonu są zalecane w przedszpitalu przy braku dostępu żylnego?",
+    "a": "Aerozol donosowy (spray i.n.) lub iniekcja domięśniowa (i.m.) za pomocą autostrzykawki.",
+    "caseId": 173,
+    "cat": "Toksykologia / SOR"
+  },
+  {
+    "q": "Jaka tetrada objawów klinicznych definiuje złośliwy zespół neuroleptyczny (NMS)?",
+    "a": "Hipertermia (>38–40°C), sztywność mięśniowa 'rury ołowianej', zaburzenia świadomości i labilność autonomiczna.",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Jaki jest patomechanizm NMS?",
+    "a": "Gwałtowna blokada receptorów dopaminergicznych D2 w prążkowiu (sztywność) i podwzgórzu (hipertermia).",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Dlaczego sukcynylocholina jest bezwzględnie zakazana u chorych z NMS?",
+    "a": "W uszkodzonych mięśniach (rabdomioliza) wyzwala nagłą, śmiertelną hiperkaliemię i asystolię.",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Jaki jest mechanizm działania dantrolenu w NMS?",
+    "a": "Blokuje receptory rianodynowe (RyR1) siateczki sarkoplazmatycznej, hamując uwalnianie Ca2+ i skurcz miocytów.",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Jakie leki dopaminergiczne stosuje się w farmakoterapii NMS?",
+    "a": "Bromokryptynę (agonistę D2) lub amantadynę (stymulującą wydzielanie dopaminy).",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Jak odróżnić NMS od zespołu serotoninowego w badaniu fizykalnym?",
+    "a": "W NMS: sztywność 'ołowiana' i osłabione odruchy; w zespole serotoninowym: wybitne klonusy, hiperrefleksja i rozszerzone źrenice.",
+    "caseId": 174,
+    "cat": "Psychiatria / SOR / OIT"
+  },
+  {
+    "q": "Jaki objaw neurologiczny jest najbardziej swoisty dla zespołu serotoninowego w kryteriach Huntera?",
+    "a": "Klonusy (spontaniczne, wyzwalane stóp lub oczne) w połączeniu z pobudzeniem lub poceniem.",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
+  },
+  {
+    "q": "Jakie leki stanowią I rzut w opanowywaniu pobudzenia i klonusów w zespole serotoninowym?",
+    "a": "Benzodiazepiny dożylne (diazepam 5–10 mg i.v. lub lorazepam 2–4 mg i.v.).",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
+  },
+  {
+    "q": "Jaka jest swoista odtrutka (antagonista 5-HT2A) w zespole serotoninowym?",
+    "a": "Cyproheptadyna (dawka wstępna 12 mg p.o./sonda, podtrzymująco 8 mg co 6 godzin).",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego tramadol w połączeniu z SSRI stwarza wysokie ryzyko zespołu serotoninowego?",
+    "a": "Ponieważ tramadol jest silnym inhibitorem wychwytu zwrotnego serotoniny (i noradrenaliny).",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
+  },
+  {
+    "q": "Dlaczego sukcynylocholina jest bezwzględnie zakazana w intubacji chorego z hipertermią?",
+    "a": "Wyzwala nagłą, potencjalnie śmiertelną hiperkaliemię i nasila rabdomiolizę.",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
+  },
+  {
+    "q": "Jak różnicować zespół serotoninowy od NMS w badaniu fizykalnym?",
+    "a": "W SS: klonusy, hiperrefleksja, mydriasis, biegunka, początek <24h; w NMS: sztywność 'ołowiana', hiporefleksja, początek w dniach.",
+    "caseId": 175,
+    "cat": "Psychiatria / Toksykologia / SOR"
   }
 ]

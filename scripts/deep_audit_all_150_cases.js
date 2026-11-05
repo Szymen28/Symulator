@@ -5,7 +5,7 @@ const MASTER_KEY = '@LEKSzymon28111999';
 
 async function runAudit() {
   console.log('================================================================');
-  console.log('       GLOBALNY AUDYT JAKOŚCI I JEDNOLITOŚCI: 150 PRZYPADKÓW    ');
+  console.log('       GLOBALNY AUDYT JAKOŚCI I JEDNOLITOŚCI: 175 PRZYPADKÓW    ');
   console.log('================================================================\n');
 
   const files = fs.readdirSync('cases').filter(f => /^\d+_.*\.json$/.test(f)).sort((a,b) => parseInt(a) - parseInt(b));
@@ -272,8 +272,8 @@ async function runAudit() {
   console.log(`Tabele z ikoną pojedynku (⚔️): ${stats.diffTableWithDuelIcon}`);
   console.log(`Rozkład liczby wierszy w tabeli różnicowej:`, stats.diffTableRowsDist);
 
-  console.log('\n--- 6. DOGRYWKA LEK (1650 PYTAŃ) ---');
-  console.log(`Pytania LEK ogółem: ${stats.totalLekQuestions} / 1650`);
+  console.log('\n--- 6. DOGRYWKA LEK (1925 PYTAŃ) ---');
+  console.log(`Pytania LEK ogółem: ${stats.totalLekQuestions} / 1925`);
   console.log(`  - Pytania z dysproporcją >= 2.0 (skrajny bias): ${stats.lekDisparityGte2} (0.0%)`);
   console.log(`  - Pytania z dysproporcją 1.5 - 2.0: ${stats.lekDisparityGte1_5} (${(stats.lekDisparityGte1_5/stats.totalLekQuestions*100).toFixed(1)}%)`);
   console.log(`  - Pytania z dysproporcją 1.0 - 1.5 (optymalne): ${stats.lekDisparityNormal} (${(stats.lekDisparityNormal/stats.totalLekQuestions*100).toFixed(1)}%)`);
@@ -286,7 +286,7 @@ async function runAudit() {
 
   console.log('\n--- 7. ANOMALIE I UWAGI SZCZEGÓŁOWE ---');
   if (stats.caseAnomalies.length === 0) {
-    console.log('✓ BRAK ANOMALII! Wszystkie 150 przypadków spełnia w 100% kryteria Złotego Standardu!');
+    console.log('✓ BRAK ANOMALII! Wszystkie 175 przypadków spełnia w 100% kryteria Złotego Standardu!');
   } else {
     console.log(`Znaleziono anomalie w ${stats.caseAnomalies.length} przypadkach:`);
     stats.caseAnomalies.slice(0, 15).forEach(a => {
